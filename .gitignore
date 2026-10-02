@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# secrets
+.env
+
+# pages STARS brutes : données AASHE non sous licence ouverte, on ne les republie pas
+data/html_cache/
+
+# index d'embeddings, régénérable
+data/processed/embeddings*
