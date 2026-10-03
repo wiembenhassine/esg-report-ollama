@@ -49,7 +49,7 @@ def lint(text: str, section_codes: list[str]) -> tuple[list[str], list[str], flo
     """
     blocking, notes = [], []
     words = len(text.split())
-    if words < 120 or words > 500:
+    if words < 90 or words > 500:          # sections à un seul crédit (ex. matérialité) : courtes par nature
         blocking.append(f"longueur aberrante ({words} mots) : vise 180 à 300 mots")
     elif not 160 <= words <= 380:
         notes.append(f"longueur de {words} mots : vise 180 à 300 mots")

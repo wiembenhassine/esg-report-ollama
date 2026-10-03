@@ -1,0 +1,150 @@
+{
+ "prompt_hash": "3e1055a6d027c22f",
+ "decision": "validée",
+ "text": "### Organisation, périmètre et effectifs\n\n#### Organisation\n\nL'organisation est la Technological University Dublin (TUD), une université irlandaise. Cette information est disponible dans le rapport STARS.\n\n#### Périmètre\n\nLe périmètre de l'université n'est pas couvert par STARS.\n\n#### Effectifs\n\nCe rapport ne peut pas établir le nombre d'effectifs de l'université.\n\n#### Point de contact\n\nCe rapport ne peut pas établir le point de contact de l'université.\n\n#### Vérification externe\n\nL'université a déclaré avoir mené une vérification externe, mais ce rapport ne peut pas établir les détails de cette vérification, tels que la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur.\n\n(GRI 2-1, GRI 2-3, GRI 2-5)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le nombre d'effectifs de l'université, ni le point de contact. De plus, les données STARS ne permettent pas d'établir les détails de la vérification externe.",
+ "used_facts": [],
+ "judge_score": 4,
+ "faithfulness": 0.83,
+ "gri_coverage": 0.5,
+ "unsupported_claims": [
+  "L'université a déclaré avoir mené une vérification externe, mais ce rapport ne peut pas établir les détails de cette vérification."
+ ],
+ "discarded_violations": [
+  "L'université a déclaré avoir mené une vérification externe, mais ce rapport ne peut pas établir les détails de cette vérification, tels que la norme d'assurance, le niveau d'assurance et la relation"
+ ],
+ "attempts": 2,
+ "guard_rejections": 0,
+ "seconds": 631.3,
+ "history": [
+  {
+   "attempt": 1,
+   "draft": "### Organisation, périmètre et effectifs\n\nL'organisation est la Technological University Dublin (TUD). Le périmètre de l'université n'est pas défini par une liste d'entités mais est décrit dans le rapport STARS comme suit : « Une grande partie du travail de collecte de données a été effectuée par des groupes de stakeholders spécifiques, tels que les représentants de la Fédération des étudiants et les membres du Conseil de durabilité de l'université. » (GRI 2-2)\n\nLa fréquence de reporting n'est pas unique et varie d'un crédit à l'autre. Le point de contact n'est pas collecté. Les données STARS sont autodéclarées et non vérifiées par l'AASHE. (GRI 2-3, GRI 2-5)\n\nLe nombre d'effectifs n'est pas ventilé par contrat, temps de travail, genre ou région. Seul un équivalent temps plein est mentionné. (GRI 2-7)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'université. Il ne peut pas non plus établir la chaîne de valeur, les produits et services, ni les marchés desservis. Enfin, il ne peut pas établir les ratios par personne ou par m².\n\n### Limites et omissions\n\nCe rapport ne couvre pas les entités incluses dans le reporting de durabilité, la vérification externe, les activités, la chaîne de valeur et les relations d'affaires.",
+   "gen_seconds": 212.9,
+   "prompt_tokens": 1738,
+   "output_tokens": 367,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.67,
+   "lint_notes": [],
+   "rendered": "### Organisation, périmètre et effectifs\n\nL'organisation est la Technological University Dublin (TUD). Le périmètre de l'université n'est pas défini par une liste d'entités mais est décrit dans le rapport STARS comme suit : « Une grande partie du travail de collecte de données a été effectuée par des groupes de stakeholders spécifiques, tels que les représentants de la Fédération des étudiants et les membres du Conseil de durabilité de l'université. » (GRI 2-2)\n\nLa fréquence de reporting n'est pas unique et varie d'un crédit à l'autre. Le point de contact n'est pas collecté. Les données STARS sont autodéclarées et non vérifiées par l'AASHE. (GRI 2-3, GRI 2-5)\n\nLe nombre d'effectifs n'est pas ventilé par contrat, temps de travail, genre ou région. Seul un équivalent temps plein est mentionné. (GRI 2-7)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'université. Il ne peut pas non plus établir la chaîne de valeur, les produits et services, ni les marchés desservis. Enfin, il ne peut pas établir les ratios par personne ou par m².\n\n### Limites et omissions\n\nCe rapport ne couvre pas les entités incluses dans le reporting de durabilité, la vérification externe, les activités, la chaîne de valeur et les relations d'affaires.",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'organisation est la Technological University Dublin (TUD).",
+      "supported": true
+     },
+     {
+      "claim": "Le périmètre de l'université n'est pas défini par une liste d'entités mais est décrit dans le rapport STARS.",
+      "supported": true
+     },
+     {
+      "claim": "La fréquence de reporting n'est pas unique et varie d'un crédit à l'autre.",
+      "supported": true
+     },
+     {
+      "claim": "Le point de contact n'est pas collecté.",
+      "supported": false
+     },
+     {
+      "claim": "Les données STARS sont autodéclarées et non vérifiées par l'AASHE.",
+      "supported": true
+     },
+     {
+      "claim": "Le nombre d'effectifs n'est pas ventilé par contrat, temps de travail, genre ou région.",
+      "supported": false
+     }
+    ],
+    "rule_violations": [
+     "Le point de contact n'est pas collecté.",
+     "Le nombre d'effectifs n'est pas ventilé par contrat, temps de travail, genre ou région."
+    ],
+    "score": 2,
+    "feedback": "Supprimer les phrases non étayées par les sources. Pour le point de contact, utiliser le wording requis : 'ce rapport ne peut pas établir'. Pour le nombre d'effectifs, utiliser le wording requis : 'ce rapport ne peut pas établir'.",
+    "faithfulness": 0.67,
+    "seconds": 185.8,
+    "discarded_violations": [],
+    "accepted": false
+   }
+  },
+  {
+   "attempt": 2,
+   "draft": "### Organisation, périmètre et effectifs\n\n#### Organisation\n\nL'organisation est la Technological University Dublin (TUD), une université irlandaise. Cette information est disponible dans le rapport STARS.\n\n#### Périmètre\n\nLe périmètre de l'université n'est pas couvert par STARS. Les trois établissements n'ont pas le même périmètre, ce qui rend difficile la comparaison des ratios par personne ou par m².\n\n#### Effectifs\n\nCe rapport ne peut pas établir le nombre d'effectifs de l'université.\n\n#### Point de contact\n\nCe rapport ne peut pas établir le point de contact de l'université.\n\n#### Vérification externe\n\nL'université a déclaré avoir mené une vérification externe, mais ce rapport ne peut pas établir les détails de cette vérification, tels que la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur.\n\n(GRI 2-1, GRI 2-3, GRI 2-5)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le nombre d'effectifs de l'université, ni le point de contact. De plus, les données STARS ne permettent pas d'établir les détails de la vérification externe.",
+   "gen_seconds": 106.3,
+   "prompt_tokens": 1915,
+   "output_tokens": 292,
+   "raw_guard_problems": [
+    "nombre écrit en lettres : 'trois'"
+   ],
+   "removed_sentences": [
+    "Les trois établissements n'ont pas le même périmètre, ce qui rend difficile la comparaison des ratios par personne ou par m²."
+   ],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.5,
+   "lint_notes": [
+    "longueur de 143 mots : vise 180 à 300 mots"
+   ],
+   "rendered": "### Organisation, périmètre et effectifs\n\n#### Organisation\n\nL'organisation est la Technological University Dublin (TUD), une université irlandaise. Cette information est disponible dans le rapport STARS.\n\n#### Périmètre\n\nLe périmètre de l'université n'est pas couvert par STARS.\n\n#### Effectifs\n\nCe rapport ne peut pas établir le nombre d'effectifs de l'université.\n\n#### Point de contact\n\nCe rapport ne peut pas établir le point de contact de l'université.\n\n#### Vérification externe\n\nL'université a déclaré avoir mené une vérification externe, mais ce rapport ne peut pas établir les détails de cette vérification, tels que la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur.\n\n(GRI 2-1, GRI 2-3, GRI 2-5)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le nombre d'effectifs de l'université, ni le point de contact. De plus, les données STARS ne permettent pas d'établir les détails de la vérification externe.",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'organisation est la Technological University Dublin (TUD), une université irlandaise.",
+      "supported": true
+     },
+     {
+      "claim": "Le périmètre de l'université n'est pas couvert par STARS.",
+      "supported": true
+     },
+     {
+      "claim": "Ce rapport ne peut pas établir le nombre d'effectifs de l'université.",
+      "supported": true
+     },
+     {
+      "claim": "Ce rapport ne peut pas établir le point de contact de l'université.",
+      "supported": true
+     },
+     {
+      "claim": "L'université a déclaré avoir mené une vérification externe, mais ce rapport ne peut pas établir les détails de cette vérification.",
+      "supported": false
+     },
+     {
+      "claim": "Les données STARS ne permettent pas d'établir les détails de la vérification externe.",
+      "supported": true
+     }
+    ],
+    "rule_violations": [],
+    "score": 4,
+    "feedback": "",
+    "faithfulness": 0.83,
+    "seconds": 126.3,
+    "discarded_violations": [
+     "L'université a déclaré avoir mené une vérification externe, mais ce rapport ne peut pas établir les détails de cette vérification, tels que la norme d'assurance, le niveau d'assurance et la relation"
+    ],
+    "accepted": true
+   }
+  }
+ ],
+ "institution": "tudublin",
+ "section": "organisation",
+ "title": "L'organisation, son périmètre et ses effectifs",
+ "evidence": [
+  {
+   "credit": "PRE-4",
+   "text": "An extensive mapping exercise identifying which people collect, process and validate information behind each STARS questions has been conducted. The supply chain of information was tracked as information was seeked. A second mapping exercise looked at identifying which IT system holds which pieces of information requested in STARS or exploitable to report in STARS. Each stakeholder were given the user manual, the section of the user manual relevant to them, STARS Tracking Worksheet templates complemented with all the credit criteria information and examples provided in the manual. STARS Tracking Worksheets were customised to groups of stakeholders with people designated to input and function"
+  },
+  {
+   "credit": "PRE-4",
+   "text": "Student Union representatives members of the University Sustainability Council contributed to answering questions related to students."
+  },
+  {
+   "credit": "PRE-4",
+   "text": "Aideen Gurrin, Aimee Byrne, Alan Bruce, Anne Campion, Aoibheana Hobson, Ayesha O'Reilly, Beatriz Lorenzo, Brendon Duffy, Brendan Jennings, Brian Gormley, Brian Jordan, Bronagh Elliot, Catherina Benson, Claire Flannery, Collette Burns, Damian Bruce, David Gavin, Dorothy Dalton, Dusan Kovacevic, Edel Niland, Elizabeth Darcy, Frances Madden, Helena Fitzgerald, Hugh Byrne, Iseult O'Siochain, Jennifer Boyer, Jennifer Farrell, Jesus Frias, Jimmy Kane, Joanne Kearney, Ken Boyle, Lindsay Dowling, Lorraine D'Arcy, Lucia Walsh, Mark Geraghty, Mark Russell, Mary Deasy, Melody Chinenyanga, Nick Skelly, Olivia Freeman, Orlaith McEvoy, Paul Campbell, Paul Coleman, Rachel Freeman, Rachel O'Connor, Rebecca "
+  }
+ ]
+}
