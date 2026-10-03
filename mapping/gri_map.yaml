@@ -1,0 +1,501 @@
+# Correspondance STARS 3.0 -> normes GRI
+# =====================================
+# ÉCRITE À LA MAIN, jamais générée par un LLM : une correspondance inventée
+# serait une faute d'intégrité dans un outil ESG.
+#
+# Base : GRI 2 (2021), GRI 3 (2021) et normes thématiques 202, 204, 301, 302,
+# 303, 305, 306, 308, 401, 403, 405 — 78 publications, comme le rapport de
+# référence (berkeley_gri_full.pdf). Titres GRI en traduction libre.
+#
+# Champs d'une publication :
+#   credits     crédits STARS qui peuvent l'alimenter
+#   fields      libellés de champs STARS (anglais, tels qu'affichés par STARS) ;
+#               utilisés quand les pages authentifiées ont été extraites
+#   coverage    meilleur statut atteignable avec STARS :
+#               reported | partial | none
+#   qualitative true si le récit de l'établissement peut y répondre en partie
+#   note        limite à signaler (reprise dans l'index de contenu GRI)
+#
+# Statut calculé par le code (esg/gri_index.py) :
+#   coverage none                         -> Non rapporté
+#   champ(s) extrait(s)                   -> statut = coverage
+#   pas de champ mais récit qualitatif    -> Partiellement rapporté
+#   champ identifié mais non extrait      -> Non évalué
+
+sections:
+  - id: organisation
+    title: "L'organisation, son périmètre et ses effectifs"
+    topic: "institutional boundary, campuses included or excluded, subsidiaries, reporting methodology, data collection, external assurance, personnel who led the reporting process, employees, workforce, contractors"
+    credits: [PRE-3, PRE-4, PRE-1, PA-12]
+    disclosures: ["2-1", "2-2", "2-3", "2-4", "2-5", "2-6", "2-7", "2-8"]
+
+  - id: materialite
+    title: "Thèmes matériels"
+    topic: "measurable sustainability objectives, sustainability plan, climate action plan, objectives for campus operations, teaching and research, equity, administration, community engagement"
+    credits: [PA-2]
+    disclosures: ["3-1", "3-2", "3-3"]
+
+  - id: gouvernance
+    title: "Gouvernance"
+    topic: "highest governing body, board of regents, governing authority, academic senate, student representation, staff representation, sustainability officer, office of sustainability, sustainability committee, responsible investment, endowment"
+    credits: [PA-1, PA-3, PRE-1, PA-4, PA-5]
+    disclosures: ["2-9", "2-10", "2-11", "2-12", "2-13", "2-14", "2-15", "2-16", "2-17", "2-18", "2-19", "2-20", "2-21"]
+
+  - id: strategie
+    title: "Stratégie, politiques et pratiques"
+    topic: "sustainability vision, strategic plan, climate action plan, external commitments, charters, supplier code of conduct, sustainability training for staff, ethics code, grievance procedure, whistleblower protection"
+    credits: [PA-2, PA-1, PA-12, OP-9, EN-3]
+    disclosures: ["2-22", "2-23", "2-24", "2-25", "2-26", "2-27", "2-28"]
+
+  - id: parties_prenantes
+    title: "Engagement des parties prenantes"
+    topic: "consultation of students, staff and local community, student union, residents association, community partnerships, civic engagement, trade unions, collective bargaining"
+    credits: [PA-3, EN-5, EN-6, PA-12]
+    disclosures: ["2-29", "2-30"]
+
+  - id: environnement
+    title: "Performance environnementale"
+    topic: "energy use, cogeneration plant, renewable electricity, solar, greenhouse gas emissions inventory, carbon offsets, water use, rainwater harvesting, waste diversion, recycling, composting, hazardous waste, sustainable procurement, supplier code"
+    credits: [OP-5, OP-6, OP-3, OP-12, OP-11, OP-9, OP-10, OP-1, OP-2, OP-13, OP-14, OP-15]
+    disclosures: ["301-1", "301-2", "301-3", "302-1", "302-2", "302-3", "302-4", "302-5",
+                  "303-1", "303-2", "303-3", "303-4", "303-5",
+                  "305-1", "305-2", "305-3", "305-4", "305-5", "305-6", "305-7",
+                  "306-1", "306-2", "306-3", "306-4", "306-5", "308-1", "308-2"]
+
+  - id: social
+    title: "Performance sociale et économique"
+    topic: "living wage, wage floor, pay equity, gender pay gap, parental and maternity leave, health and safety committee, employee wellbeing, health services, diversity, gender parity, racial and ethnic representation, affordability"
+    credits: [PA-13, PA-12, PA-11, PA-8, PA-7, PA-9, PA-6, PA-10]
+    disclosures: ["202-1", "202-2", "204-1", "401-1", "401-2", "401-3",
+                  "403-1", "403-2", "403-3", "403-4", "403-5", "403-6", "403-7", "403-8", "403-9", "403-10",
+                  "405-1", "405-2"]
+
+  - id: enseignement
+    title: "Enseignement, recherche et engagement (hors GRI)"
+    topic: "sustainability courses, academic programs, sustainability research, research centre, applied learning, student co-curricular activities, outreach, staff engagement, continuing education"
+    credits: [AC-1, AC-2, AC-3, AC-6, AC-7, EN-1, EN-2, EN-3, EN-5, EN-7]
+    disclosures: []
+    gap_note: "Ces crédits STARS n'ont aucun équivalent dans les normes GRI, conçues pour des organisations qui n'enseignent pas. C'est un écart structurel entre les deux référentiels, et l'une des contributions de ce rapport : il montre ce qu'une université peut déclarer et que GRI ne demande pas."
+
+standards:
+  "GRI 2": "Éléments généraux 2021"
+  "GRI 3": "Thèmes matériels 2021"
+  "GRI 202": "Présence sur le marché 2016"
+  "GRI 204": "Pratiques d'achat 2016"
+  "GRI 301": "Matières 2016"
+  "GRI 302": "Énergie 2016"
+  "GRI 303": "Eau et effluents 2018"
+  "GRI 305": "Émissions 2016"
+  "GRI 306": "Déchets 2020"
+  "GRI 308": "Évaluation environnementale des fournisseurs 2016"
+  "GRI 401": "Emploi 2016"
+  "GRI 403": "Santé et sécurité au travail 2018"
+  "GRI 405": "Diversité et égalité des chances 2016"
+
+disclosures:
+  # ---------------------------------------------------------------- GRI 2
+  "2-1":
+    title: "Détails sur l'organisation"
+    credits: [PRE-3]
+    fields: ["Institutional control"]
+    coverage: partial
+    qualitative: true
+    note: "GRI 2-1 demande aussi la dénomination légale, le siège et les pays d'activité ; STARS ne les collecte pas comme champs."
+  "2-2":
+    title: "Entités incluses dans le reporting de durabilité"
+    credits: [PRE-3]
+    fields: ["Narrative outlining the institutional boundary"]
+    coverage: reported
+    qualitative: true
+    note: "STARS collecte le périmètre sous forme de récit libre, pas de liste d'entités. Les trois établissements n'ont pas le même périmètre : les ratios par personne ou par m² ne sont pas comparables tels quels."
+  "2-3":
+    title: "Période de reporting, fréquence et point de contact"
+    credits: [PRE-4, OP-6]
+    fields: ["Performance year for scope 1 and 2 GHG emissions", "List of personnel who led the reporting process"]
+    coverage: partial
+    qualitative: true
+    note: "STARS n'a pas de période de reporting unique : les années varient d'un crédit à l'autre. Ni fréquence, ni date de publication, ni point de contact ne sont collectés."
+  "2-4":
+    title: "Retraitements d'informations"
+    credits: []
+    coverage: none
+    note: "STARS ne suit pas les retraitements. De plus, les versions 2.2 et 3.0 notent différemment les crédits Opérations : une série temporelle entre versions n'est pas valide."
+  "2-5":
+    title: "Vérification externe"
+    credits: [PRE-4]
+    fields: ["Were any independent audits or external assurance processes used"]
+    coverage: partial
+    qualitative: true
+    note: "GRI 2-5 demande aussi la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur ; STARS ne les collecte pas. Les données STARS sont autodéclarées et non vérifiées par l'AASHE."
+  "2-6":
+    title: "Activités, chaîne de valeur et autres relations d'affaires"
+    credits: [PRE-3]
+    fields: ["Which of the following features are included within the institutional boundary"]
+    coverage: partial
+    qualitative: true
+    note: "STARS liste des éléments physiques du campus ; ni chaîne de valeur, ni produits et services, ni marchés desservis."
+  "2-7":
+    title: "Salariés"
+    credits: [PRE-3]
+    fields: ["Full-time equivalent of employees"]
+    coverage: partial
+    qualitative: false
+    note: "Un équivalent temps plein n'est pas un effectif. Aucune ventilation par contrat, temps de travail, genre ou région."
+  "2-8":
+    title: "Travailleurs non salariés"
+    credits: []
+    coverage: none
+    note: "STARS ne compte pas les travailleurs des sous-traitants."
+  "2-9":
+    title: "Structure et composition de la gouvernance"
+    credits: [PA-3]
+    fields: ["Are one or more academic staff representatives included", "Are one or more student representatives included",
+             "Are one or more staff members representing non-managerial workers included"]
+    coverage: reported
+    qualitative: true
+    note: "STARS indique si chaque catégorie est représentée, pas la composition chiffrée (nombre de membres, indépendance, genre)."
+  "2-10": {title: "Nomination et sélection de l'organe de gouvernance le plus élevé", credits: [], coverage: none}
+  "2-11": {title: "Président de l'organe de gouvernance le plus élevé", credits: [], coverage: none}
+  "2-12": {title: "Rôle de l'organe de gouvernance dans la supervision de la gestion des impacts", credits: [], coverage: none}
+  "2-13":
+    title: "Délégation de la responsabilité de la gestion des impacts"
+    credits: [PA-1]
+    fields: ["Does the institution have one or more sustainability officers"]
+    coverage: reported
+    qualitative: true
+    note: "GRI 2-13-b demande si et à quelle fréquence ces responsables rendent compte à l'organe de gouvernance ; STARS ne le demande pas."
+  "2-14":
+    title: "Rôle de l'organe de gouvernance dans le reporting de durabilité"
+    credits: [PRE-1]
+    fields: ["Executive cover letter"]
+    coverage: partial
+    qualitative: true
+    note: "Une lettre signée par la direction n'est pas une revue et une approbation par l'organe de gouvernance ; le texte de la lettre n'est pas dans les données."
+  "2-15": {title: "Conflits d'intérêts", credits: [], coverage: none}
+  "2-16": {title: "Communication des préoccupations majeures", credits: [], coverage: none}
+  "2-17": {title: "Connaissances collectives de l'organe de gouvernance", credits: [], coverage: none}
+  "2-18": {title: "Évaluation de la performance de l'organe de gouvernance", credits: [], coverage: none}
+  "2-19": {title: "Politiques de rémunération", credits: [], coverage: none}
+  "2-20": {title: "Procédure de détermination de la rémunération", credits: [], coverage: none}
+  "2-21":
+    title: "Ratio de rémunération totale annuelle"
+    credits: [IL-62]
+    fields: ["ratio"]
+    coverage: partial
+    qualitative: false
+    note: "Dénominateurs différents : GRI divise par la rémunération MÉDIANE, STARS (IL-62, crédit bonus facultatif) par la plus BASSE. Le chiffre STARS n'est pas comparable à un ratio GRI 2-21."
+  "2-22":
+    title: "Déclaration sur la stratégie de développement durable"
+    credits: [PA-2]
+    fields: ["Narrative detailing the institution's guiding vision"]
+    coverage: partial
+    qualitative: true
+    note: "GRI 2-22 exige une déclaration de l'organe de gouvernance ou du dirigeant le plus élevé ; STARS n'attribue pas la vision à un signataire."
+  "2-23":
+    title: "Engagements politiques"
+    credits: [PA-2]
+    fields: ["Has the institution made a public commitment to sustainability"]
+    coverage: reported
+    qualitative: true
+    note: "GRI 2-23 vise les engagements relatifs aux droits humains et au devoir de vigilance ; un engagement de durabilité est plus large et ne les implique pas."
+  "2-24":
+    title: "Intégration des engagements politiques"
+    credits: [OP-9, EN-3, PA-1]
+    fields: ["Does the institution have a published code of conduct to guide suppliers",
+             "Does the institution make available sustainability-focused training opportunities to non-academic staff"]
+    coverage: partial
+    qualitative: true
+    note: "STARS décrit des résultats (code fournisseurs, formations) mais pas l'attribution interne des responsabilités ni l'intégration dans les procédures."
+  "2-25":
+    title: "Processus de remédiation des impacts négatifs"
+    credits: [PA-12]
+    fields: ["Does the institution publish information on grievance resolution"]
+    coverage: partial
+    qualitative: true
+    note: "STARS indique seulement que l'information est publiée, pour les salariés uniquement ; GRI vise toutes les parties prenantes affectées."
+  "2-26":
+    title: "Mécanismes de demande de conseil et de signalement"
+    credits: [PA-12]
+    fields: ["Does the institution publish information on whistleblower protections"]
+    coverage: reported
+    qualitative: true
+    note: "Salariés uniquement ; GRI 2-26 couvre aussi les personnes en relation d'affaires."
+  "2-27":
+    title: "Conformité aux lois et réglementations"
+    credits: []
+    coverage: none
+    note: "STARS ne collecte ni non-conformités, ni amendes, ni sanctions."
+  "2-28":
+    title: "Adhésion à des associations"
+    credits: [PA-2]
+    fields: ["external sustainability commitments that include a reporting requirement"]
+    coverage: partial
+    qualitative: true
+    note: "Signer une charte n'est pas adhérer à une association ; STARS restreint le champ aux engagements assortis d'une obligation de reporting."
+  "2-29":
+    title: "Approche de l'engagement des parties prenantes"
+    credits: [PA-3, EN-6]
+    fields: ["Description of other mechanisms used to consult students", "Description of other mechanisms used to consult academic staff",
+             "ad hoc mechanisms used during the previous three years to consult local community members"]
+    coverage: reported
+    qualitative: true
+    note: "STARS couvre quatre catégories fixes (étudiants, enseignants, personnel, communauté locale) ; ni fournisseurs, ni groupes vulnérables, ni méthode d'identification des parties prenantes."
+  "2-30":
+    title: "Conventions collectives"
+    credits: []
+    coverage: none
+    note: "STARS ne collecte pas le pourcentage de salariés couverts par une convention collective."
+
+  # ---------------------------------------------------------------- GRI 3
+  "3-1":
+    title: "Processus de détermination des thèmes matériels"
+    credits: []
+    coverage: none
+    note: "Différence structurelle entre référentiels, pas une donnée manquante : STARS impose un ensemble fixe de crédits. Ce rapport ne peut pas établir l'existence d'un processus de matérialité — il ne peut pas non plus affirmer qu'il n'en existe pas."
+  "3-2":
+    title: "Liste des thèmes matériels"
+    credits: [PA-2]
+    fields: ["measurable sustainability objectives that address campus operations"]
+    coverage: partial
+    qualitative: true
+    note: "Les cinq domaines d'objectifs sont fixés par STARS et identiques pour toutes les institutions : ils ne constituent pas une détermination de matérialité."
+  "3-3":
+    title: "Gestion des thèmes matériels"
+    credits: [PA-2, PA-1]
+    fields: ["Narrative listing the institution's measurable sustainability objectives"]
+    coverage: partial
+    qualitative: true
+    note: "Réponses à l'échelle de l'établissement à une question que GRI pose thème par thème ; ni impacts, ni distinction prévention / remédiation, ni enseignements tirés."
+
+  # ---------------------------------------------------------------- GRI 202 / 204
+  "202-1":
+    title: "Ratio entre le salaire d'entrée et le salaire minimum local, par genre"
+    credits: [PA-13, PA-9]
+    fields: ["Wage floor for regular/permanent employees", "Local hourly minimum wage for students", "Living wage",
+             "Percentage of employees that receive remuneration equivalent to at least a living wage"]
+    coverage: partial
+    qualitative: false
+    note: "Le ratio est calculable (plancher salarial / salaire minimum local) mais pas par genre, que STARS ne collecte pas. Le salaire minimum figure dans un crédit sur l'emploi étudiant. Montants sans devise : USD pour Berkeley, EUR pour Cork et TU Dublin."
+  "202-2": {title: "Part des cadres dirigeants recrutés dans la communauté locale", credits: [], coverage: none}
+  "204-1": {title: "Part des dépenses auprès de fournisseurs locaux", credits: [], coverage: none}
+
+  # ---------------------------------------------------------------- GRI 301
+  "301-1": {title: "Matières utilisées par poids ou par volume", credits: [], coverage: none,
+            note: "Une université ne fabrique pas de produits physiques : écart d'adéquation entre le référentiel et le secteur."}
+  "301-2": {title: "Matières recyclées utilisées", credits: [], coverage: none}
+  "301-3": {title: "Produits et emballages récupérés", credits: [], coverage: none}
+
+  # ---------------------------------------------------------------- GRI 302
+  "302-1":
+    title: "Consommation d'énergie au sein de l'organisation"
+    credits: [OP-5]
+    fields: ["Total annual energy consumption", "Total electricity consumption", "Total stationary fuel consumption",
+             "Annual renewable energy consumption", "Renewable stationary fuels", "Total heating and cooling from off-site sources",
+             "On-site renewable electricity exported", "Natural gas", "Heating oil", "Coal/coke", "Propane/LPG"]
+    coverage: reported
+    qualitative: false
+    note: "STARS exprime l'énergie en MWh, GRI en joules : aucune conversion n'est faite dans le texte. Le champ « énergie renouvelable » de STARS inclut l'électricité et dépasse le périmètre de GRI 302-1-b."
+  "302-2": {title: "Consommation d'énergie en dehors de l'organisation", credits: [], coverage: none}
+  "302-3":
+    title: "Intensité énergétique"
+    credits: [OP-5]
+    fields: ["Annual energy consumption per person", "Annual energy consumption per unit of floor area"]
+    coverage: reported
+    qualitative: false
+    note: "Périmètres différents entre établissements : comparer ces ratios exige de nommer la différence de périmètre."
+  "302-4": {title: "Réduction de la consommation énergétique", credits: [], coverage: none}
+  "302-5": {title: "Réduction des besoins énergétiques des produits et services", credits: [], coverage: none}
+
+  # ---------------------------------------------------------------- GRI 303
+  "303-1":
+    title: "Interactions avec l'eau en tant que ressource partagée"
+    credits: [OP-3]
+    fields: ["Level of physical water quantity risk", "Does the institution harvest rainwater"]
+    coverage: partial
+    qualitative: true
+    note: "Un niveau de risque n'est pas la description demandée par GRI 303-1 (prélèvement, consommation, rejets, dialogue avec les parties prenantes). Statut abaissé à « partiel » par rapport au rapport de référence."
+  "303-2": {title: "Gestion des impacts liés aux rejets d'eau", credits: [], coverage: none}
+  "303-3":
+    title: "Prélèvement d'eau"
+    credits: [OP-3]
+    fields: ["Total water withdrawal", "Potable water from off-site sources", "Potable water from on-site sources"]
+    coverage: reported
+    qualitative: false
+    note: "STARS en m³, GRI en mégalitres : aucune conversion dans le texte. Pas de ventilation des zones de stress hydrique."
+  "303-4": {title: "Rejets d'eau", credits: [], coverage: none,
+            note: "Champ STARS le plus proche (eau récupérée ou restituée) examiné et rejeté : GRI demande destination, type d'eau et niveau de traitement."}
+  "303-5": {title: "Consommation d'eau", credits: [], coverage: none,
+            note: "Définitions différentes : GRI = prélèvement moins rejets ; STARS = eau potable consommée."}
+
+  # ---------------------------------------------------------------- GRI 305
+  "305-1":
+    title: "Émissions directes de GES (champ d'application 1)"
+    credits: [OP-6]
+    fields: ["Scope 1 GHG emissions from stationary combustion", "Scope 1 GHG emissions from mobile combustion",
+             "Scope 1 GHG fugitive emissions", "GHG emissions from biogenic sources",
+             "Baseline year for scope 1 and 2 GHG emissions", "Baseline scope 1 and 2 GHG emissions"]
+    coverage: reported
+    qualitative: false
+    note: "Une seule année de référence pour les champs 1 et 2 réunis ; ni source des facteurs d'émission, ni approche de consolidation."
+  "305-2":
+    title: "Émissions indirectes de GES liées à l'énergie (champ d'application 2)"
+    credits: [OP-6]
+    fields: ["Scope 2 GHG emissions from off-site sources of electricity", "Scope 2 GHG emissions from off-site sources of heating and cooling"]
+    coverage: reported
+    qualitative: false
+    note: "GRI demande les méthodes fondées sur la localisation et sur le marché ; toujours préciser la méthode du chiffre cité."
+  "305-3":
+    title: "Autres émissions indirectes de GES (champ d'application 3)"
+    credits: [OP-6]
+    fields: ["Scope 3 GHG emissions from business travel", "Scope 3 GHG emissions from commuting",
+             "Scope 3 GHG emissions from waste generated in operations", "Scope 3 GHG emissions from fuel- and energy-related activities"]
+    coverage: reported
+    qualitative: false
+  "305-4":
+    title: "Intensité des émissions de GES"
+    credits: [OP-6]
+    fields: ["Annual scope 1 and 2 GHG emissions per person", "Annual scope 1 and 2 GHG emissions per unit of floor area"]
+    coverage: reported
+    qualitative: false
+    note: "Périmètres différents entre établissements : ne jamais présenter l'écart comme une seule différence de performance."
+  "305-5":
+    title: "Réduction des émissions de GES"
+    credits: [OP-6]
+    fields: ["Percentage reduction in scope 1 and 2 GHG emissions from baseline", "Adjusted net scope 1 and 2 GHG emissions",
+             "Third party certified carbon offsets"]
+    coverage: reported
+    qualitative: false
+    note: "Le pourcentage STARS est NET des compensations carbone achetées : toujours préciser la base (brute ou nette) et citer les compensations séparément."
+  "305-6": {title: "Émissions de substances appauvrissant la couche d'ozone", credits: [], coverage: none}
+  "305-7": {title: "NOx, SOx et autres émissions atmosphériques significatives", credits: [], coverage: none}
+
+  # ---------------------------------------------------------------- GRI 306
+  "306-1": {title: "Production de déchets et impacts significatifs liés aux déchets", credits: [], coverage: none}
+  "306-2":
+    title: "Gestion des impacts significatifs liés aux déchets"
+    credits: [OP-11, OP-12]
+    fields: ["Does the institution have a surplus program", "Has the institution eliminated the on-site use of at least one form of single-use disposable plastic",
+             "Does the institution have a hazardous waste management program"]
+    coverage: reported
+    qualitative: true
+  "306-3":
+    title: "Déchets générés"
+    credits: [OP-12]
+    fields: ["Annual non-hazardous waste generated", "Annual construction and demolition waste generated"]
+    coverage: partial
+    qualitative: false
+    note: "Sous-ensemble seulement : STARS ne pèse aucun déchet dangereux. Ne jamais présenter les déchets non dangereux comme le total. Statut abaissé à « partiel » par rapport au rapport de référence."
+  "306-4":
+    title: "Déchets détournés de l'élimination"
+    credits: [OP-12]
+    fields: ["Total non-hazardous waste diverted from disposal", "Non-hazardous waste recycled", "Non-hazardous waste composted",
+             "Non-hazardous waste prepared for reuse", "Total construction and demolition waste diverted",
+             "Construction and demolition waste recycled", "Construction and demolition waste prepared for reuse"]
+    coverage: reported
+    qualitative: false
+    note: "Partie non dangereuse uniquement ; pas de distinction sur site / hors site."
+  "306-5":
+    title: "Déchets destinés à l'élimination"
+    credits: [OP-12]
+    fields: ["Non-hazardous waste disposed of to a landfill or incinerator", "Construction and demolition waste disposed of to a landfill or incinerator"]
+    coverage: reported
+    qualitative: false
+    note: "STARS regroupe enfouissement et incinération en un seul chiffre."
+
+  # ---------------------------------------------------------------- GRI 308
+  "308-1":
+    title: "Nouveaux fournisseurs évalués selon des critères environnementaux"
+    credits: [OP-9]
+    fields: ["Percentage of bid solicitations that identify supplier sustainability considerations",
+             "Does the institution's supplier code of conduct include one or more expectations in regard to environmental impact"]
+    coverage: partial
+    qualitative: true
+    note: "Le dénominateur STARS est l'appel d'offres, pas le nouveau fournisseur ; aucun pourcentage de fournisseurs évalués n'est calculable."
+  "308-2": {title: "Impacts environnementaux négatifs dans la chaîne d'approvisionnement", credits: [], coverage: none}
+
+  # ---------------------------------------------------------------- GRI 401
+  "401-1": {title: "Recrutements et rotation du personnel", credits: [], coverage: none}
+  "401-2":
+    title: "Avantages accordés aux salariés à temps plein et non aux temporaires ou temps partiels"
+    credits: [PA-12]
+    fields: ["Percentage of employees eligible for paid all-gender family/medical leave"]
+    coverage: partial
+    qualitative: true
+    note: "Un taux d'éligibilité global, sans la comparaison temps plein / temps partiel qui est l'objet de la publication."
+  "401-3":
+    title: "Congé parental"
+    credits: [PA-12]
+    fields: ["Number of weeks of paid maternity leave"]
+    coverage: partial
+    qualitative: true
+    note: "STARS décrit la politique, pas son utilisation : ni effectifs, ni taux de retour, ni taux de rétention. « Maternité » est plus étroit que « parental »."
+
+  # ---------------------------------------------------------------- GRI 403
+  "403-1":
+    title: "Système de management de la santé et de la sécurité au travail"
+    credits: [PA-11]
+    fields: ["workplace health and safety committees"]
+    coverage: partial
+    qualitative: true
+    note: "Rien n'indique si le système est réglementaire, quelle norme il suit, ni qui il couvre."
+  "403-2": {title: "Identification des dangers, évaluation des risques et enquêtes", credits: [], coverage: none}
+  "403-3":
+    title: "Services de santé au travail"
+    credits: [PA-11]
+    fields: ["Does the institution make physical health services available to employees"]
+    coverage: partial
+    qualitative: true
+    note: "Des services de santé généraux ne sont pas des services de santé au travail au sens de GRI 403-3."
+  "403-4":
+    title: "Participation et consultation des travailleurs en santé et sécurité"
+    credits: [PA-11]
+    fields: ["Does the institution have an institution-wide health and safety committee"]
+    coverage: reported
+    qualitative: true
+    note: "Existence du comité seulement : ni fréquence des réunions, ni pouvoir de décision."
+  "403-5": {title: "Formation des travailleurs à la santé et sécurité", credits: [], coverage: none}
+  "403-6":
+    title: "Promotion de la santé des travailleurs"
+    credits: [PA-11]
+    fields: ["Does the institution make behavioral health services available", "Does the institution make free or reduced cost fitness activities available",
+             "Does the institution prohibit smoking and tobacco use across the entire campus"]
+    coverage: reported
+    qualitative: true
+  "403-7": {title: "Prévention des impacts liés aux relations d'affaires", credits: [], coverage: none}
+  "403-8": {title: "Travailleurs couverts par un système de management", credits: [], coverage: none}
+  "403-9": {title: "Accidents du travail", credits: [], coverage: none,
+            note: "PA-11 ne contient aucun chiffre d'accident."}
+  "403-10": {title: "Problèmes de santé liés au travail", credits: [], coverage: none}
+
+  # ---------------------------------------------------------------- GRI 405
+  "405-1":
+    title: "Diversité des organes de gouvernance et des salariés"
+    credits: [PA-7, PA-8]
+    fields: ["Ethnic diversity index for executive staff", "Ethnic diversity index for academic staff", "Ethnic diversity index for non-academic staff",
+             "Percentage of executive staff that identify as women", "Percentage of regular/permanent academic staff that identify as women",
+             "Percentage of regular/permanent non-academic staff that identify as women"]
+    coverage: reported
+    qualitative: false
+    note: "Un indice de diversité (score de 0 à 1) n'est pas la ventilation en pourcentages demandée ; deux catégories de genre au lieu de trois ; aucune donnée d'âge."
+  "405-2":
+    title: "Ratio du salaire de base et de la rémunération des femmes par rapport aux hommes"
+    credits: []
+    coverage: none
+    note: "PA-13 couvre le salaire décent, pas l'écart de rémunération femmes-hommes, malgré son intitulé « Pay Equity »."
+
+# Points de vigilance par établissement, vérifiables dans les données.
+# `requires_fields: true` = ne s'applique que si les champs STARS ont été extraits.
+cautions:
+  cork:
+    - section: organisation
+      text: "Le périmètre de Cork exclut ses sociétés filiales (logement étudiant notamment) : tout ratio par personne est biaisé et ne doit pas être comparé tel quel aux autres établissements."
+  tudublin:
+    - section: gouvernance
+      text: "Les crédits PA-4 (programme d'investissement durable) et PA-5 (portefeuille d'investissements) sont « Non applicables » : TU Dublin est une université publique sans fonds de dotation. C'est un constat sur l'adéquation des référentiels au secteur, pas une défaillance."
+  berkeley:
+    - section: environnement
+      requires_fields: true
+      text: "Le total d'énergie de Berkeley n'inclut pas le combustible de la centrale de cogénération, pourtant présente dans l'inventaire des émissions : ce total est incomplet et ne doit pas être présenté comme une performance d'efficacité."
+    - section: environnement
+      requires_fields: true
+      text: "La réduction d'émissions publiée par STARS est nette des compensations carbone achetées : préciser que c'est un chiffre net."

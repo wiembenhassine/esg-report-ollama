@@ -11,3 +11,6 @@ data/html_cache/
 
 # index d'embeddings, régénérable
 data/processed/embeddings*
+
+# journaux d'exécution
+outputs/logs/
