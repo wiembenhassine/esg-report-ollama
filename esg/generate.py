@@ -189,8 +189,7 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
         att["guard_problems"], att["lint_problems"], att["gri_coverage"] = problems, lint_problems, coverage
         att["lint_notes"] = lint_notes
         if problems or lint_problems:
-            log(f"   [{tag}] tentative {n} rejetée par le garde-fou "
-                f"({len(problems)} chiffre(s)/placeholder(s), {len(lint_problems)} règle(s))")
+            log(f"   [{tag}] tentative {n} rejetée par le garde-fou : " + " ; ".join((problems + lint_problems)[:3]))
             attempts.append(att)
             feedback = (problems + lint_problems)[:10]
             continue

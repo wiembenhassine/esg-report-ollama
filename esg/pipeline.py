@@ -63,7 +63,11 @@ def main() -> None:
                     print(f"   [{key}/{sec_id}] absent du cache — section ignorée")
                     continue
             else:
-                r = generate.run_section(key, sec_id, use_cache=not args.no_cache)
+                try:
+                    r = generate.run_section(key, sec_id, use_cache=not args.no_cache)
+                except Exception as e:                 # une section en échec n'arrête pas le rapport
+                    print(f"   [{key}/{sec_id}] ERREUR {type(e).__name__}: {e} — texte de repli utilisé")
+                    r = generate.dry_section(key, sec_id)
             results.append(r)
         out = render.write(key, render.report_md(key, results),
                            f"Rapport de durabilité — {INSTITUTIONS[key]['name']}",
@@ -72,9 +76,17 @@ def main() -> None:
 
     if not args.no_comparison and not args.dry_run and len(keys) == len(INSTITUTIONS):
         print("\n== Synthèse comparative")
-        comp = (json.loads((OUTPUTS / "cache" / "comparatif.json").read_text(encoding="utf-8"))
-                if args.render_only and (OUTPUTS / "cache" / "comparatif.json").exists()
-                else generate.run_comparison(use_cache=not args.no_cache))
+        comp_cache = OUTPUTS / "cache" / "comparatif.json"
+        try:
+            comp = (json.loads(comp_cache.read_text(encoding="utf-8"))
+                    if args.render_only and comp_cache.exists()
+                    else generate.run_comparison(use_cache=not args.no_cache))
+        except Exception as e:
+            print(f"   [comparatif] ERREUR {type(e).__name__}: {e} — texte de repli utilisé")
+            comp = {"institution": "comparatif", "section": "comparatif", "title": "Synthèse comparative",
+                    "decision": "repli", "text": "*Section de repli : voir le tableau comparatif ci-dessus.*",
+                    "used_facts": [], "judge_score": None, "faithfulness": None, "gri_coverage": None,
+                    "unsupported_claims": [], "attempts": 0, "guard_rejections": 0, "seconds": 0.0}
         out = render.write("comparatif", render.comparison_md(comp), "Synthèse comparative ESG")
         print(f"   -> {out['md'].name}, {out['pdf'].name if out['pdf'] else 'PDF non généré'}")
 

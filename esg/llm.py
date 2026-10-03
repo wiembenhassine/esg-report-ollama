@@ -11,7 +11,9 @@ KEEP_ALIVE = "30m"      # garde le modèle en mémoire entre deux sections (CPU 
 
 
 class OllamaError(RuntimeError):
-    pass
+    def __init__(self, message: str, raw: str = ""):
+        super().__init__(message)
+        self.raw = raw            # réponse brute du modèle, pour récupérer un JSON tronqué
 
 
 def chat(messages: list[dict], *, model: str = GEN_MODEL, temperature: float = 0.3,
@@ -49,7 +51,7 @@ def chat_json(messages: list[dict], schema: dict, **kw) -> dict:
     try:
         out["json"] = json.loads(out["text"])
     except json.JSONDecodeError as e:
-        raise OllamaError(f"réponse JSON invalide du modèle : {out['text'][:200]}") from e
+        raise OllamaError(f"réponse JSON invalide du modèle : {out['text'][:200]}", raw=out["text"]) from e
     return out
 
 

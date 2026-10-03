@@ -87,32 +87,50 @@ SCHEMA = {
     "properties": {
         "claims": {"type": "array", "maxItems": 6, "items": {
             "type": "object",
-            "properties": {"claim": {"type": "string"}, "supported": {"type": "boolean"}},
+            "properties": {"claim": {"type": "string", "maxLength": 140}, "supported": {"type": "boolean"}},
             "required": ["claim", "supported"]}},
-        "rule_violations": {"type": "array", "items": {"type": "string"}},
+        "rule_violations": {"type": "array", "maxItems": 4, "items": {"type": "string", "maxLength": 200}},
         "score": {"type": "integer", "minimum": 1, "maximum": 5},
-        "feedback": {"type": "string"},
+        "feedback": {"type": "string", "maxLength": 500},
     },
     "required": ["claims", "rule_violations", "score", "feedback"],
 }
 
+CLAIM_RX = re.compile(r'"claim"\s*:\s*"((?:[^"\\]|\\.)*)"\s*,\s*"supported"\s*:\s*(true|false)')
+
+
+def salvage(raw: str) -> list[dict]:
+    """Récupère les affirmations complètes d'un JSON tronqué."""
+    return [{"claim": c, "supported": s == "true"} for c, s in CLAIM_RX.findall(raw or "")]
+
 
 def judge(section_text: str, values: list[str], statuses: list[str], cautions: list[str],
           evidence: list[str]) -> dict:
+    """Audit d'une section. Ne lève jamais d'exception : un échec du juge rend un verdict « non accepté »."""
     user = (
         "SOURCES\n"
         "VALUES (inserted by code, always correct):\n" + ("\n".join(values) or "(none)") + "\n\n"
-        "GRI STATUS LIST (computed by code):\n" + "\n".join(statuses) + "\n\n"
+        "GRI STATUS LIST (computed by code):\n" + ("\n".join(statuses) or "(none)") + "\n\n"
         "VIGILANCE POINTS:\n" + ("\n".join(cautions) or "(none)") + "\n\n"
-        "STARS EXCERPTS (numbers masked as [n]):\n" + "\n".join(evidence) + "\n\n"
+        "STARS EXCERPTS (numbers masked as [n]):\n" + ("\n".join(evidence) or "(none)") + "\n\n"
         "SECTION TO AUDIT:\n<<<\n" + section_text + "\n>>>"
     )
-    out = llm.chat_json([{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}],
-                        SCHEMA, model=JUDGE_MODEL, num_predict=500)
-    v = out["json"]
+    seconds, last = 0.0, None
+    for extra in ("", "\nBe brief: at most 4 claims of one short line each."):
+        try:
+            out = llm.chat_json([{"role": "system", "content": SYSTEM + extra}, {"role": "user", "content": user}],
+                                SCHEMA, model=JUDGE_MODEL, num_predict=1100)
+            seconds += out["seconds"]
+            v = out["json"]
+            break
+        except llm.OllamaError as e:
+            last = e
+    else:
+        v = {"claims": salvage(getattr(last, "raw", "")), "rule_violations": [], "score": 0,
+             "feedback": "", "error": str(last)[:200]}
     claims = v.get("claims", [])
     faith = sum(1 for c in claims if c.get("supported")) / len(claims) if claims else 0.0
     v["faithfulness"] = round(faith, 2)
-    v["seconds"] = out["seconds"]
+    v["seconds"] = seconds
     v["accepted"] = v.get("score", 0) >= ACCEPT_SCORE and faith >= ACCEPT_FAITHFULNESS
     return v
