@@ -162,6 +162,16 @@ def fallback_text(key: str, sec: dict, entries: list, values: dict) -> str:
     return "\n".join(lines)
 
 
+def judge_level(r: dict) -> str:
+    """Niveau qualitatif donné au rédacteur, transmis aussi au juge pour qu'il puisse le vérifier."""
+    b = facts.bands(r["institution"])
+    if r["kind"] == "score":
+        return f" (level: {b.get(r['credit_code'], '')})"
+    if r["fact_id"].endswith("_pct"):
+        return f" (level: {b.get(r['fact_id'][:3], '')})"
+    return ""
+
+
 def _cache_path(key: str, sec_id: str):
     return OUTPUTS / "cache" / key / f"{sec_id}.json"
 
@@ -179,7 +189,7 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
             return cached
         round_ = cached.get("round", 0) + 1
 
-    judge_values = [f"{r['label']}: {r['display']}" for r in values.values()]
+    judge_values = [f"{r['label']}: {r['display']}{judge_level(r)}" for r in values.values()]
     attempts, feedback = [], []
     t0 = time.time()
     for n in range(1, MAX_ATTEMPTS + 1):
