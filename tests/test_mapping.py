@@ -80,3 +80,20 @@ def test_cautions_are_rendered_by_code():
               "unsupported_claims": [], "attempts": 1, "guard_rejections": 0, "seconds": 1.0}
     md = render.report_md("tudublin", [result])
     assert "Point de vigilance" in md and "PA-4" in md
+
+
+def test_required_wording_mention_alone_does_not_discard_a_violation(monkeypatch):
+    from esg import judge, llm
+    fake = {"claims": [{"claim": "TU Dublin a déclaré une vérification externe", "supported": False}],
+            "rule_violations": ["L'université a déclaré une vérification externe, mais ce rapport ne peut pas "
+                                "établir les détails de cette vérification."], "score": 2, "feedback": "x"}
+    monkeypatch.setattr(llm, "chat_json", lambda *a, **k: {"json": dict(fake), "seconds": 0})
+    v = judge.judge("L'université a déclaré une vérification externe (GRI 2-5).", [], [], [], [])
+    assert v["rule_violations"] and not v["discarded_violations"] and not v["accepted"]
+
+
+def test_sections_without_disclosures_must_not_cite_gri():
+    from esg.judge import lint
+    text = "Les écarts entre établissements reflètent aussi des périmètres différents. " * 15
+    assert lint(text, [])[0] == []
+    assert lint(text + " Voir (GRI 305-1).", [])[0]

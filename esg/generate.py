@@ -350,8 +350,13 @@ def run_comparison(*, use_cache: bool = True, log=print) -> dict:
                         for k in INSTITUTIONS)
     prompt = "\n\n".join([
         "ÉTABLISSEMENTS : " + ratings + ".",
-        "SECTION À RÉDIGER : Synthèse comparative des trois établissements "
-        "(résultats STARS par pilier et limites de la comparaison). Ici, ne cite pas de publication GRI.",
+        "SECTION À RÉDIGER : Analyse de la comparaison des trois établissements. Le tableau des scores par "
+        "pilier est déjà affiché par le code au-dessus de ta section : ne recopie pas pilier par pilier les "
+        "niveaux de chaque établissement. Explique plutôt ce que les écarts entre établissements peuvent "
+        "signifier et surtout ce qu'ils ne permettent pas de conclure, en t'appuyant sur les POINTS DE "
+        "VIGILANCE. Si tu cites un niveau, recopie exactement celui de la liste VALEURS pour cet "
+        "établissement et ce pilier. EXCEPTION aux règles de forme : cette section ne correspond à aucune "
+        "publication GRI, n'écris donc aucune référence « GRI ».",
         "VALEURS (placeholders à recopier tels quels) :\n" + "\n".join(lines),
         "POINTS DE VIGILANCE OBLIGATOIRES :\n" + "\n".join(f"- {c}" for c in COMPARISON_CAUTIONS),
         "CONTEXTE : les piliers regroupent les crédits STARS : Environnement = OP ; Social = PA-6 à PA-13 ; "

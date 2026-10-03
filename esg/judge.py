@@ -59,6 +59,8 @@ def lint(text: str, section_codes: list[str]) -> tuple[list[str], list[str], flo
     for rx, msg in FORBIDDEN:
         if rx.search(text):
             blocking.append(msg)
+    if not section_codes and re.search(r"\bGRI\s?\d", text):
+        blocking.append("cette section ne correspond à aucune publication GRI : ne cite aucun code GRI")
     cited = {c for c in section_codes if re.search(rf"(?<![\d-]){re.escape(c)}(?![\d])", text)}
     coverage = len(cited) / len(section_codes) if section_codes else 1.0
     if section_codes and coverage < 0.5:
@@ -145,7 +147,10 @@ def judge(section_text: str, values: list[str], statuses: list[str], cautions: l
     for viol in v.get("rule_violations", []):
         low = viol.lower()
         claims_compliance = re.search(r"complian|conform|accordance", low)
-        attacks_required_wording = re.search(r"ne peut pas établir|cannot establish|stars ne collecte", low)
+        # Seulement si le juge demande de CHANGER la formulation imposée ; une violation qui la cite
+        # en passant peut viser un vrai problème (ex. une vérification externe inventée).
+        attacks_required_wording = (re.search(r"ne peut pas établir|cannot establish|stars ne collecte", low)
+                                    and re.search(r"remplac|replace|wording|formulation|reformul", low))
         if (claims_compliance and not FORBIDDEN[0][0].search(section_text)) or attacks_required_wording:
             discarded.append(viol)
         else:

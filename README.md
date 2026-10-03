@@ -6,6 +6,34 @@ leurs soumissions publiques AASHE STARS 3.0, plus une **synthèse comparative**.
 Le LLM tourne **en local** (Ollama, `llama3.1:8b` + `nomic-embed-text`), sans API payante,
 et chaque section passe par un **module de validation** avant d'entrer dans le rapport.
 
+## Résultats (exécution du 3 octobre 2026, CPU uniquement)
+
+| | Berkeley | Cork | TU Dublin |
+|---|:-:|:-:|:-:|
+| Sections validées par le juge | 7 / 8 | 7 / 8 | 7 / 8 |
+| Sections « à relire » (validation humaine) | 1 | 1 | 1 |
+| Sections en texte de repli | 0 | 0 | 0 |
+| Fidélité moyenne (affirmations supportées) | 90 % | 92 % | 90 % |
+| Chiffres tracés dans `provenance.csv` | 104 | 124 | 121 |
+| Temps de génération | 78 min | 79 min | 92 min |
+
+Sur les 24 sections : 36 tentatives au total, 20 phrases contenant un nombre retirées par le
+garde-fou, 11 violations signalées par le juge écartées car contredites par le contrôle
+déterministe. **Aucun nombre du texte final n'a été écrit par le modèle** (vérifié par
+`tests/test_reports.py`). Livrables : `outputs/<université>/rapport_*.pdf`,
+`outputs/comparatif/`, `outputs/tableau_de_bord.html`.
+
+## Limites connues (à présenter)
+
+- **Données détaillées absentes** : sans compte AASHE, les valeurs des champs STARS (MWh, tCO2e,
+  m³…) ne sont pas extraites ; les publications chiffrées sont « Non évalué », jamais devinées.
+- **Juge 8B imparfait** : il signale parfois de fausses violations (d'où le recoupement par le
+  code) et laisse passer des erreurs fines (une publication GRI mal attribuée, par exemple).
+  Les garanties fortes sont celles du code : chiffres, formulations interdites, points de
+  vigilance. Le reste relève de la relecture humaine, signalée dans l'annexe de chaque rapport.
+- **Piliers E/S/G** : regroupement raisonné des crédits STARS, pas une désignation officielle.
+- **Scores STARS** : autodéclarés, notés par rapport à un groupe de pairs, non vérifiés par l'AASHE.
+
 ## Principe : le LLM n'écrit jamais un chiffre
 
 ```

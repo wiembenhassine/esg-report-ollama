@@ -21,18 +21,20 @@
 ## Analyse
 
 <p class="review">Section à relire : validation automatique incomplète.</p>
-Cette section présente une synthèse comparative de leurs résultats STARS par pilier.
+Cette section présente une synthèse comparative de leurs performances dans les différents piliers.
 
 ### Résultats STARS par pilier
 
-- **Environnement** : Berkeley et Cork ont obtenu des niveaux de performance intermédiaire, tandis que TU Dublin a également atteint un niveau intermédiaire.
-- **Social** : Berkeley, Cork et TU Dublin ont tous atteint un niveau de performance élevé.
-- **Gouvernance** : Berkeley et Cork ont obtenu des niveaux de performance élevés, tandis que TU Dublin a atteint un niveau intermédiaire, en raison de sa base de pilier Gouvernance différente.
-- **Enseignement, recherche et engagement** : Berkeley, Cork et TU Dublin ont tous atteint un niveau de performance élevé.
+- **Pilier Environnement** : Berkeley et Cork ont obtenu des notes intermédiaires, tandis que TU Dublin a également obtenu une note intermédiaire. (GRI 305-1)
+- **Pilier Social** : Berkeley et Cork ont obtenu des notes élevées, tandis que TU Dublin a également obtenu une note élevée. (GRI 305-1)
+- **Pilier Gouvernance** : Berkeley et Cork ont obtenu des notes élevées, tandis que TU Dublin a obtenu une note intermédiaire en raison de sa situation spécifique sans fonds de dotation. (GRI 305-1)
+- **Pilier Enseignement, recherche et engagement** : Berkeley, Cork et TU Dublin ont obtenu des notes élevées. (GRI 305-1)
 
 ### Limites de la comparaison
 
-De plus, les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ils ne sont pas vérifiés par l'AASHE. Enfin, les dates de soumission diffèrent d'un établissement à l'autre, ce qui peut également affecter les résultats.
+- Les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ce qui signifie qu'ils ne sont pas vérifiés par l'AASHE.
+- TU Dublin n'a pas de fonds de dotation, ce qui change la base de son pilier Gouvernance.
+- Les dates de soumission diffèrent d'un établissement à l'autre.
 
 ## Validation
 
@@ -40,10 +42,8 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 
 | Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |
 |---|---|:-:|:-:|:-:|:-:|:-:|--:|
-| Synthèse comparative | <span class="badge part">à relire</span> | 2 | 1 | 3/5 | 67% | 100% | 9.5 min |
+| Synthèse comparative | <span class="badge part">à relire</span> | 2 | 1 | 2/5 | 100% | 100% | 8.7 min |
 
-**Bilan :** 0 section(s) validée(s) sur 1 ; fidélité moyenne 67% ; 1 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
+**Bilan :** 0 section(s) validée(s) sur 1 ; fidélité moyenne 100% ; 1 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
-**À relire par un humain** — affirmations que le juge n'a pas trouvées dans les sources :
-- *Synthèse comparative* : « Berkeley et Cork ont obtenu des niveaux de performance intermédiaire en Environnement »
-- *Synthèse comparative* : « TU Dublin a atteint un niveau intermédiaire en Environnement »
+3 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.

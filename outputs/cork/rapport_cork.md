@@ -54,6 +54,8 @@ Les scores STARS 3.0 sont autodéclarés et notés par rapport à un groupe de p
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
+> **Point de vigilance.** Le périmètre de Cork exclut ses sociétés filiales (logement étudiant notamment) : tout ratio par personne est biaisé et ne doit pas être comparé tel quel aux autres établissements.
+
 ### Organisation, périmètre et effectifs
 
 L'University College Cork (UCC) est une institution d'enseignement supérieur située en Irlande. Le périmètre de ce rapport couvre l'ensemble du campus principal et des campus satellites gérés par l'office des bâtiments et des biens de l'UCC. Les sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin), ne sont pas incluses dans ce rapport.

@@ -1,50 +1,77 @@
 {
- "prompt_hash": "2655d825ef77706c",
- "decision": "repli",
- "text": "*Section de repli générée par le code : aucune version rédigée par le modèle n'a passé la validation.*\n\n### Résultats STARS des crédits concernés\n- AC-1 — Sustainability Course Offerings : 14 / 14 points\n- AC-2 — Undergraduate Programs : 13,28 / 15 points\n- AC-3 — Graduate Programs : 8 / 8 points\n- AC-6 — Sustainability Research : 10 / 10 points\n- AC-7 — Center for Sustainability Research : 6 / 6 points\n- EN-1 — Outreach and Communications : 5 / 5 points\n- EN-2 — Co-Curricular Activities : 9 / 9 points\n- EN-3 — Staff Engagement and Training : 8 / 8 points\n- EN-5 — Civic Engagement : 4,5 / 8 points\n- EN-7 — Continuing Education : 3 / 3 points",
+ "prompt_hash": "72b7fab8712a8860",
+ "round": 1,
+ "decision": "validée",
+ "text": "### Enseignement, recherche et engagement\n\n#### Intégration de la durabilité dans les programmes d'études\n\nL'université soutient les membres du personnel qui intégrant la durabilité dans les programmes d'études par des subventions de démarrage pour la mise en œuvre de projets.\n\n#### Programmes d'études axés sur la durabilité\n\nLa liste et la description des modules axés sur la durabilité et inclusifs/supportifs (y compris les résultats d'apprentissage) des étudiants de premier et de deuxième cycle sont disponibles sur le fichier Excel AC _sustainability course offerings_revised.xlsx joint.\n\n#### Recherche sur la durabilité\n\nDans certains cas, les projets de recherche financés créent des sous-programmes de recherche qui accélèrent la participation du personnel, des chercheurs et des étudiants, et accélèrent l'agenda de recherche sur la durabilité. Sous ces projets financés nationaux, internationaux ou industriels, les leaders ont recruté des chercheurs axés sur les aspects de la durabilité et/ou créé des appels d'intérêt pour le personnel et les étudiants pour postuler à des subventions de recherche sur la durabilité.\n\n#### Engagement et communication\n\nL'équipe de Sustainability Intelligence a développé des applications Web qui fournissent des tableaux de bord pour visualiser et comprendre le niveau de durabilité et les impacts associés aux SDG liés aux modules enseignés, aux résultats de recherche et aux sites Web. Ces tableaux de bord sont, dans les phases, mis à disposition de ) les fonctions académiques (facultés, écoles, coordinations de programmes, UET, comités du corps gouvernemental) ; ) les fonctions de recherche (groupes de recherche et hubs, bureau de recherche, facultés, écoles, UET) ; ) les fonctions de communication ; et ) l'ensemble du personnel et des étudiants de TU Dublin, ) le public.\n\n#### Éducation environnementale et formation\n\nLe programme vise principalement à garantir que les membres de la communauté campus peuvent s'engager de manière significative pour améliorer la durabilité sur le campus.",
  "used_facts": [],
- "judge_score": null,
- "faithfulness": null,
- "gri_coverage": null,
+ "judge_score": 4,
+ "faithfulness": 1.0,
+ "gri_coverage": 1.0,
  "unsupported_claims": [],
  "discarded_violations": [],
- "attempts": 2,
- "guard_rejections": 2,
- "seconds": 498.1,
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 597.6,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Enseignement, recherche et engagement\n\n#### Intégration de la durabilité dans les programmes\n\nLa Technological University Dublin soutient les membres du personnel qui intègrent la durabilité dans les programmes par des subventions de démarrage de €[{{ AC1_max }}] pour mettre en œuvre des projets. [{{ AC1_max }}] des projets listés sur cette page web (Référence [n]) sont axés sur la durabilité, par exemple \"Introduction de problèmes de développement durable dans l'éducation mathématique\" ; \"Étude de cas sur les effets de l'implémentation de stages de travail orientés durabilité sur l'état d'esprit des étudiants\" (GRI 305-1).\n\n#### Programmes de formation\n\nLa liste et la description des modules axés sur la durabilité et des modules inclusifs/supportifs de la durabilité (y compris les résultats d'apprentissage) des étudiants en licence et en master sont disponibles avec le fichier AC [n]_sustainability course offerings_revised.xlsx joint (GRI 305-1).\n\n#### Recherche sur la durabilité\n\nDans certains cas, les projets de recherche financés créent des sous-programmes de recherche qui accélèrent la participation des membres du personnel, des chercheurs et des étudiants, et accélèrent l'agenda de recherche sur la durabilité. Par exemple, les projets de recherche financés sur la durabilité (Référence [n]) incluent \"Vers une université campus durable\" (Référence [n]), SATLE (Référence [n]) et N-TUTORR (Référence [n]) (GRI 305-1).\n\n#### Engagement et formation du personnel\n\nLe Comité et le Programme Green Campus encouragent une approche de partenariat pour l'éducation, la gestion et l'action environnementales dans les [n]-niveaux d'institutions. Le programme vise principalement à garantir que les membres d'une communauté universitaire peuvent s'engager de manière significative pour améliorer la durabilité sur le campus (Référence [n]) (GRI 305-1).\n\n#### Éducation continue\n\nL'intention stratégique de TU Dublin prévoit un objectif ambitieux pour que tous les cours de TU Dublin incluent la durabilité comme résultat d'apprentissage et pour que TU",
-   "gen_seconds": 324.8,
-   "prompt_tokens": 1904,
-   "output_tokens": 520,
+   "draft": "### Enseignement, recherche et engagement\n\n#### Intégration de la durabilité dans les programmes d'études\n\nL'université soutient les membres du personnel qui intégrant la durabilité dans les programmes d'études par des subventions de démarrage pour la mise en œuvre de projets. Parmi les projets listés sur cette page (Référence [1]), {{ AC1_score }} sur {{ AC1_max }} ont un focus sur la durabilité, par exemple \"Introduction de problèmes de développement durable dans l'éducation mathématique\" ; \"Étude de cas sur les effets de la mise en place de stages de travail axés sur la durabilité sur l'attitude des étudiants\".\n\n#### Programmes d'études axés sur la durabilité\n\nLa liste et la description des modules axés sur la durabilité et inclusifs/supportifs (y compris les résultats d'apprentissage) des étudiants de premier et de deuxième cycle sont disponibles sur le fichier Excel AC _sustainability course offerings_revised.xlsx joint.\n\n#### Recherche sur la durabilité\n\nDans certains cas, les projets de recherche financés créent des sous-programmes de recherche qui accélèrent la participation du personnel, des chercheurs et des étudiants, et accélèrent l'agenda de recherche sur la durabilité. Par exemple, les projets de recherche sur la durabilité financés (Référence [2]) incluent \"Vers une université campus durable\" (Référence [3]), SATLE (Référence [4]) et N-TUTORR (Référence [5]). Sous ces projets financés nationaux, internationaux ou industriels, les leaders ont recruté des chercheurs axés sur les aspects de la durabilité et/ou créé des appels d'intérêt pour le personnel et les étudiants pour postuler à des subventions de recherche sur la durabilité.\n\n#### Engagement et communication\n\nL'équipe de Sustainability Intelligence a développé des applications Web qui fournissent des tableaux de bord pour visualiser et comprendre le niveau de durabilité et les impacts associés aux SDG liés aux modules enseignés, aux résultats de recherche et aux sites Web. Ces tableaux de bord sont, dans les phases, mis à disposition de ) les fonctions académiques (facultés, écoles, coordinations de programmes, UET, comités du corps gouvernemental) ; ) les fonctions de recherche (groupes de recherche et hubs, bureau de recherche, facultés, écoles, UET) ; ) les fonctions de communication ; et ) l'ensemble du personnel et des étudiants de TU Dublin, ) le public.\n\n#### Éducation environnementale et formation\n\nLe Comité Vert Campus et Programme encourage une approche partenariale pour l'éducation, la gestion et l'action environnementales dans les institutions de niveau - (Référence [6]). Le programme vise principalement à garantir que les membres de la communauté campus peuvent s'engager de manière significative pour améliorer la durabilité sur le campus.",
+   "gen_seconds": 346.9,
+   "prompt_tokens": 1922,
+   "output_tokens": 700,
    "raw_guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
+    "chiffre écrit directement : '[1]),'",
+    "chiffre écrit directement : '[2])'",
+    "chiffre écrit directement : '[3]),'",
+    "chiffre écrit directement : '[4])'",
+    "chiffre écrit directement : '[5]).'",
+    "chiffre écrit directement : '[6]).'"
    ],
-   "removed_sentences": [],
-   "guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
+   "removed_sentences": [
+    "Parmi les projets listés sur cette page (Référence [1]), {{ AC1_score }} sur {{ AC1_max }} ont un focus sur la durabilité, par exemple \"Introduction de problèmes de développement durable dans l'éducation mathématique\" ; \"Étude de cas sur les effets de la mise en place de stages de travail axés sur la durabilité sur l'attitude des étudiants\".",
+    "Par exemple, les projets de recherche sur la durabilité financés (Référence [2]) incluent \"Vers une université campus durable\" (Référence [3]), SATLE (Référence [4]) et N-TUTORR (Référence [5]).",
+    "Le Comité Vert Campus et Programme encourage une approche partenariale pour l'éducation, la gestion et l'action environnementales dans les institutions de niveau - (Référence [6])."
    ],
+   "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 1.0,
-   "lint_notes": []
-  },
-  {
-   "attempt": 2,
-   "draft": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nL'université soutient les enseignants qui intégreraient la durabilité dans le curriculum par des subventions de financement de projet de €[n] pour mettre en œuvre des projets. Les [n] projets listés sur cette page web (Ref[n]) sont axés sur la durabilité, par exemple \"Introduction de problèmes de développement durable dans l'éducation mathématique\" ; \"Étude de cas sur les effets de l'implémentation de stages de travail orientés vers la durabilité sur l'état d'esprit des étudiants\".\n\n#### Recherche\n\nLa recherche sur la durabilité est soutenue par des projets de recherche financés, qui créent parfois des sous-programmes de recherche qui accélèrent la participation des personnels, chercheurs et étudiants, et accélèrent l'agenda de recherche sur la durabilité. Par exemple, des projets de recherche sur la durabilité financés (Ref[n]) incluent \"Vers une université campus durable\" (Ref[n]), SATLE (Ref[n]) et N-TUTORR (Ref[n]). Sous ces projets de recherche nationaux, internationaux ou industriels, les leaders ont recruté des chercheurs axés sur les aspects de durabilité et/ou créé des appels d'intérêt pour que les personnels et les étudiants puissent postuler pour des subventions de recherche sur la durabilité.\n\n#### Engagement\n\nLe Comité et le Programme Green Campus encouragent une approche partenariale pour l'éducation, la gestion et l'action environnementales dans les institutions de niveau [n]. Le programme vise principalement à garantir que les membres d'une communauté campus puissent s'engager de manière significative pour améliorer la durabilité sur le campus (Ref[n]). La Communauté de pratique de la littératie SDG vise à donner la capacité aux enseignants et aux étudiants de créer des opportunités d'apprentissage qui construiront la connaissance des Objectifs de développement durable (ODD) de l'ONU et permettront aux étudiants de faire des liens significatifs entre les ODD et leur domaine d'étude (Ref[n]).\n\n#### Coopération avec les parties prenantes\n\nL'université a plusieurs offres d'é",
-   "gen_seconds": 173.2,
-   "prompt_tokens": 1953,
-   "output_tokens": 520,
-   "raw_guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
-   ],
-   "removed_sentences": [],
-   "guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
-   ],
-   "lint_problems": [],
-   "gri_coverage": 1.0,
-   "lint_notes": []
+   "lint_notes": [],
+   "rendered": "### Enseignement, recherche et engagement\n\n#### Intégration de la durabilité dans les programmes d'études\n\nL'université soutient les membres du personnel qui intégrant la durabilité dans les programmes d'études par des subventions de démarrage pour la mise en œuvre de projets.\n\n#### Programmes d'études axés sur la durabilité\n\nLa liste et la description des modules axés sur la durabilité et inclusifs/supportifs (y compris les résultats d'apprentissage) des étudiants de premier et de deuxième cycle sont disponibles sur le fichier Excel AC _sustainability course offerings_revised.xlsx joint.\n\n#### Recherche sur la durabilité\n\nDans certains cas, les projets de recherche financés créent des sous-programmes de recherche qui accélèrent la participation du personnel, des chercheurs et des étudiants, et accélèrent l'agenda de recherche sur la durabilité. Sous ces projets financés nationaux, internationaux ou industriels, les leaders ont recruté des chercheurs axés sur les aspects de la durabilité et/ou créé des appels d'intérêt pour le personnel et les étudiants pour postuler à des subventions de recherche sur la durabilité.\n\n#### Engagement et communication\n\nL'équipe de Sustainability Intelligence a développé des applications Web qui fournissent des tableaux de bord pour visualiser et comprendre le niveau de durabilité et les impacts associés aux SDG liés aux modules enseignés, aux résultats de recherche et aux sites Web. Ces tableaux de bord sont, dans les phases, mis à disposition de ) les fonctions académiques (facultés, écoles, coordinations de programmes, UET, comités du corps gouvernemental) ; ) les fonctions de recherche (groupes de recherche et hubs, bureau de recherche, facultés, écoles, UET) ; ) les fonctions de communication ; et ) l'ensemble du personnel et des étudiants de TU Dublin, ) le public.\n\n#### Éducation environnementale et formation\n\nLe programme vise principalement à garantir que les membres de la communauté campus peuvent s'engager de manière significative pour améliorer la durabilité sur le campus.",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'université soutient les membres du personnel qui intégrant la durabilité dans les programmes d'études par des subventions de démarrage.",
+      "supported": true
+     },
+     {
+      "claim": "La liste et la description des modules axés sur la durabilité et inclusifs/supportifs (y compris les résultats d'apprentissage) des étudiats",
+      "supported": true
+     },
+     {
+      "claim": "Dans certains cas, les projets de recherche financés créent des sous-programmes de recherche qui accélèrent la participation du personnel,",
+      "supported": true
+     },
+     {
+      "claim": "L'équipe de Sustainability Intelligence a développé des applications Web qui fournissent des tableaux de bord pour visualiser et comprendre",
+      "supported": true
+     },
+     {
+      "claim": "Le programme vise principalement à garantir que les membres de la communauté campus peuvent s'engager de manière significative pour amélior",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "Le rapport ne mentionne pas que la liste des modules axés sur la durabilité et inclusifs/supportifs n'est pas disponible dans le fichier Excel joint."
+    ],
+    "score": 4,
+    "feedback": "Supprimer la phrase 'La liste et la description des modules axés sur la durabilité et inclusifs/supportifs (y compris les résultats d'apprentissage) des étudiants de premier et de deuxième cycle sont disponibles sur le fichier Excel AC _sustainability course offerings_revised.xlsx joint.' et remplacer par 'La liste et la description des modules axés sur la durabilité et inclusifs/supportifs (y compris les résultats d'apprentissage) des étudiants de premier et de deuxième cycle ne sont pas access",
+    "faithfulness": 1.0,
+    "seconds": 250.7,
+    "discarded_violations": [],
+    "accepted": true
+   }
   }
  ],
  "institution": "tudublin",
@@ -53,27 +80,31 @@
  "evidence": [
   {
    "credit": "AC-1",
-   "text": "Staff who are integrating sustainability into the curriculum are supported by seed funding grants of €[n] to implement projects. [n] of the projects listed on this webpage (Ref[n]) are sustainability focused, e.g. \"Introducing Sustainability Development Goal problems in Maths Education\"; \"A case study on the effects of sustainability-oriented work placement on student mindset\"."
+   "text": "Staff who are integrating sustainability into the curriculum are supported by seed funding grants of € to implement projects. of the projects listed on this webpage (Ref ) are sustainability focused, e.g. \"Introducing Sustainability Development Goal problems in Maths Education\"; \"A case study on the effects of sustainability-oriented work placement on student mindset\"."
   },
   {
    "credit": "AC-2",
-   "text": "List and description of sustainability-focused and sustainability-inclusive/supportive modules (including learning outcomes) from undergraduates and post-graduates is made available to STARS with the AC [n]_sustainability course offerings_revised.xlsx file."
+   "text": "List and description of sustainability-focused and sustainability-inclusive/supportive modules (including learning outcomes) from undergraduates and post-graduates is made available to STARS with the AC _sustainability course offerings_revised.xlsx file."
   },
   {
    "credit": "AC-2",
-   "text": "See the AC[n]_Sustainability_course_offerings_Revised.xlsx file attached"
+   "text": "See the AC _Sustainability_course_offerings_Revised.xlsx file attached"
   },
   {
    "credit": "AC-6",
-   "text": "[n]) In some instances, funded research projects create sub-research programmes that are accelerating the participation of staff, researchers and students, and accelerating the sustainability research agenda. For example, funded sustainability research projects (Ref[n]) include \"Towards a Sustainability University Campus\" (Ref[n]), SATLE (Ref[n]) and N-TUTORR (Ref[n]). Under these National, international, or industrially funded projects, leaders have recruited researchers focused on sustainability aspects and/or created calls of interests to staff and students to apply for sustainability research projects grants."
+   "text": ") In some instances, funded research projects create sub-research programmes that are accelerating the participation of staff, researchers and students, and accelerating the sustainability research agenda. For example, funded sustainability research projects (Ref ) include \"Towards a Sustainability University Campus\" (Ref ), SATLE (Ref ) and N-TUTORR (Ref ). Under these National, international, or industrially funded projects, leaders have recruited researchers focused on sustainability aspects and/or created calls of interests to staff and students to apply for sustainability research projects grants."
+  },
+  {
+   "credit": "EN-1",
+   "text": "The Sustainability Intelligence team developed Web Applications that provides dashboards to visualise and understand the sustainability level and related SDG impacts associated to taught modules, research outputs, and websites. These are, in phases, being made available to ) academic functions (faculties, schools, programme coordinators, UET, Governing Body Committees); ) research functions (research hubs and groups, research office, faculties, schools, UET); ) Communication functions; and ) all TU Dublin staff and students, ) the public."
   },
   {
    "credit": "EN-3",
-   "text": "The Green Campus Committee and Programme encourages a partnership approach to environmental education, management, and action in [n]-level institutions. The programme primarily aims to ensure that members of a campus community can engage in a meaningful way to enhance sustainability on campus (Ref[n]). The SDG Literacy Community of Practice aims to empower faculty and students to co-create learning opportunities that will build knowledge of the UN Sustainable Development Goals (SDGs) and enable students to make meaningful connections between the SDGs and their focus of study (Ref[n])."
+   "text": "The Green Campus Committee and Programme encourages a partnership approach to environmental education, management, and action in -level institutions. The programme primarily aims to ensure that members of a campus community can engage in a meaningful way to enhance sustainability on campus (Ref ). The SDG Literacy Community of Practice aims to empower faculty and students to co-create learning opportunities that will build knowledge of the UN Sustainable Development Goals (SDGs) and enable students to make meaningful connections between the SDGs and their focus of study (Ref )."
   },
   {
    "credit": "EN-7",
-   "text": "The TU Dublin strategic intent outlines an ambitious requirement for all TU Dublin courses to include sustainability as a learning outcome and for TU Dublin to be one of the top universities for sustainability. As well as this TU Dublin has several specific continuing education course offerings such as the Postgraduate Certificate in Sustainability Leadership (Ref[n]) and also the Master of Arts (MA) in Global Sustainability Leadership which is delivered in a unique partnership with UNITAR (United Nations Institute for Training and Research)"
+   "text": "Sustainability-Focused modules for CPD in Culinary, Hospitality and Tourism (Ref ) include:- Certificate in Science in Sustainable Horticulture TU"
   }
  ]
 }

@@ -90,15 +90,22 @@ Ce rapport ne peut pas établir le nombre d'effectifs de l'université, ni le po
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-*Section de repli générée par le code : aucune version rédigée par le modèle n'a passé la validation.*
+Les données du rapport STARS du Technological University Dublin (TU Dublin) permettent de décrire les thèmes matériels suivants :
 
-### Résultats STARS des crédits concernés
-- PA-2 — Commitments and Planning : 5,67 / 6 points
+- Climat : Le TU Dublin a mis en place des objectifs de réduction des émissions de gaz à effet de serre (GES) et d'augmentation de l'efficacité énergétique, en alignement avec le Climate Action Plan (CAP) de l'Irlande. Les activités de résilience climatique menées par les SECs (Sustainability and Environmental Committee) comprennent la décarbonisation de l'environnement bâti, le développement de projets de transport durable et la mise en place d'actions de biodiversité.
+- Diversité et inclusion : Le TU Dublin a mis en place des objectifs de diversité et d'inclusion, notamment l'atteinte de la certification Athena Swan, la mise en place d'un plan d'action contre les discriminations et l'augmentation de la représentation des femmes et des minorités dans les instances décisionnelles.
 
-### Statut des publications GRI
-- GRI 3-1 Processus de détermination des thèmes matériels : non rapporté.
-- GRI 3-2 Liste des thèmes matériels : partiellement rapporté.
-- GRI 3-3 Gestion des thèmes matériels : partiellement rapporté.
+(GRI 3-2)
+
+Les réponses du TU Dublin à la question posée par GRI sur la gestion des thèmes matériels sont limitées à une description générale des activités menées dans les domaines de la climat et de la diversité et inclusion. Les données ne permettent pas d'établir les impacts environnementaux, sociaux et de gouvernance (ESG) du TU Dublin en matière de climat, de diversité et d'inclusion.
+
+(GRI 3-3)
+
+### Limites et omissions
+
+Les données ne permettent pas d'établir les impacts environnementaux, sociaux et de gouvernance (ESG) du TU Dublin en matière de climat, de diversité et d'inclusion. Les données ne couvrent pas les impacts environnementaux, sociaux et de gouvernance (ESG) du TU Dublin en matière de climat, de diversité et d'inclusion.
+
+(GRI 3-2)
 
 ## Gouvernance
 
@@ -316,7 +323,27 @@ Ce rapport ne peut pas établir la diversité des organes de gouvernance et des 
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-*Section de repli générée par le code : aucune version rédigée par le modèle n'a passé la validation.*
+### Enseignement, recherche et engagement
+
+#### Intégration de la durabilité dans les programmes d'études
+
+L'université soutient les membres du personnel qui intégrant la durabilité dans les programmes d'études par des subventions de démarrage pour la mise en œuvre de projets.
+
+#### Programmes d'études axés sur la durabilité
+
+La liste et la description des modules axés sur la durabilité et inclusifs/supportifs (y compris les résultats d'apprentissage) des étudiants de premier et de deuxième cycle sont disponibles sur le fichier Excel AC _sustainability course offerings_revised.xlsx joint.
+
+#### Recherche sur la durabilité
+
+Dans certains cas, les projets de recherche financés créent des sous-programmes de recherche qui accélèrent la participation du personnel, des chercheurs et des étudiants, et accélèrent l'agenda de recherche sur la durabilité. Sous ces projets financés nationaux, internationaux ou industriels, les leaders ont recruté des chercheurs axés sur les aspects de la durabilité et/ou créé des appels d'intérêt pour le personnel et les étudiants pour postuler à des subventions de recherche sur la durabilité.
+
+#### Engagement et communication
+
+L'équipe de Sustainability Intelligence a développé des applications Web qui fournissent des tableaux de bord pour visualiser et comprendre le niveau de durabilité et les impacts associés aux SDG liés aux modules enseignés, aux résultats de recherche et aux sites Web. Ces tableaux de bord sont, dans les phases, mis à disposition de ) les fonctions académiques (facultés, écoles, coordinations de programmes, UET, comités du corps gouvernemental) ; ) les fonctions de recherche (groupes de recherche et hubs, bureau de recherche, facultés, écoles, UET) ; ) les fonctions de communication ; et ) l'ensemble du personnel et des étudiants de TU Dublin, ) le public.
+
+#### Éducation environnementale et formation
+
+Le programme vise principalement à garantir que les membres de la communauté campus peuvent s'engager de manière significative pour améliorer la durabilité sur le campus.
 
 ## Index de contenu GRI
 
@@ -476,17 +503,17 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 | Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |
 |---|---|:-:|:-:|:-:|:-:|:-:|--:|
 | L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 83% | 50% | 10.5 min |
-| Thèmes matériels | <span class="badge no">repli</span> | 2 | 2 | —/5 |  |  | 4.0 min |
+| Thèmes matériels | <span class="badge ok">validée</span> | 2 | 0 | 2/5 | 83% | 100% | 12.9 min |
 | Gouvernance | <span class="badge ok">validée</span> | 2 | 1 | 2/5 | 100% | 100% | 11.5 min |
 | Stratégie, politiques et pratiques | <span class="badge part">à relire</span> | 2 | 1 | 2/5 | 67% | 67% | 11.9 min |
 | Engagement des parties prenantes | <span class="badge ok">validée</span> | 2 | 1 | 2/5 | 100% | 100% | 10.2 min |
 | Performance environnementale | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 100% | 64% | 16.5 min |
 | Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 2/5 | 83% | 38% | 8.8 min |
-| Enseignement, recherche et engagement (hors GRI) | <span class="badge no">repli</span> | 2 | 2 | —/5 |  |  | 8.3 min |
+| Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 10.0 min |
 
-**Bilan :** 5 section(s) validée(s) sur 8 ; fidélité moyenne 89% ; 7 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
+**Bilan :** 7 section(s) validée(s) sur 8 ; fidélité moyenne 90% ; 3 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
-4 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
+5 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
 
 **À relire par un humain** — affirmations que le juge n'a pas trouvées dans les sources :
 - *Stratégie, politiques et pratiques* : « La Technological University Dublin (TU Dublin) a déclaré avoir mis en place une stratégie de développement durable. »

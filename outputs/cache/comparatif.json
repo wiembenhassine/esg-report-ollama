@@ -1,91 +1,31 @@
 {
- "prompt_hash": "d9330bd923f8392b",
+ "prompt_hash": "3730414afb48655d",
+ "round": 1,
  "decision": "à relire",
- "text": "Cette section présente une synthèse comparative de leurs résultats STARS par pilier.\n\n### Résultats STARS par pilier\n\n- **Environnement** : Berkeley et Cork ont obtenu des niveaux de performance intermédiaire, tandis que TU Dublin a également atteint un niveau intermédiaire.\n- **Social** : Berkeley, Cork et TU Dublin ont tous atteint un niveau de performance élevé.\n- **Gouvernance** : Berkeley et Cork ont obtenu des niveaux de performance élevés, tandis que TU Dublin a atteint un niveau intermédiaire, en raison de sa base de pilier Gouvernance différente.\n- **Enseignement, recherche et engagement** : Berkeley, Cork et TU Dublin ont tous atteint un niveau de performance élevé.\n\n### Limites de la comparaison\n\nDe plus, les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ils ne sont pas vérifiés par l'AASHE. Enfin, les dates de soumission diffèrent d'un établissement à l'autre, ce qui peut également affecter les résultats.",
+ "text": "Cette section présente une synthèse comparative de leurs performances dans les différents piliers.\n\n### Résultats STARS par pilier\n\n- **Pilier Environnement** : Berkeley et Cork ont obtenu des notes intermédiaires, tandis que TU Dublin a également obtenu une note intermédiaire. (GRI 305-1)\n- **Pilier Social** : Berkeley et Cork ont obtenu des notes élevées, tandis que TU Dublin a également obtenu une note élevée. (GRI 305-1)\n- **Pilier Gouvernance** : Berkeley et Cork ont obtenu des notes élevées, tandis que TU Dublin a obtenu une note intermédiaire en raison de sa situation spécifique sans fonds de dotation. (GRI 305-1)\n- **Pilier Enseignement, recherche et engagement** : Berkeley, Cork et TU Dublin ont obtenu des notes élevées. (GRI 305-1)\n\n### Limites de la comparaison\n\n- Les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ce qui signifie qu'ils ne sont pas vérifiés par l'AASHE.\n- TU Dublin n'a pas de fonds de dotation, ce qui change la base de son pilier Gouvernance.\n- Les dates de soumission diffèrent d'un établissement à l'autre.\n\n### Limites et omissions",
  "used_facts": [],
- "judge_score": 3,
- "faithfulness": 0.67,
+ "judge_score": 2,
+ "faithfulness": 1.0,
  "gri_coverage": 1.0,
- "unsupported_claims": [
-  "Berkeley et Cork ont obtenu des niveaux de performance intermédiaire en Environnement",
-  "TU Dublin a atteint un niveau intermédiaire en Environnement"
+ "unsupported_claims": [],
+ "discarded_violations": [
+  "Le rapport présente TU Dublin comme ayant obtenu une note intermédiaire dans le pilier Gouvernance, mais le GRI status list est vide, ce qui signifie que le rapport ne peut pas établir si TU Dublin a,",
+  "Le rapport présente une note intermédiaire pour TU Dublin dans le pilier Gouvernance, mais le GRI status list est vide, ce qui signifie que le rapport ne peut pas établir si TU Dublin a,",
+  "Le rapport présente une note élevée pour TU Dublin dans le pilier Social, mais le GRI status list est vide, ce qui signifie que le rapport ne peut pas établir si TU Dublin a,"
  ],
- "discarded_violations": [],
  "attempts": 2,
  "guard_rejections": 1,
- "seconds": 567.3,
+ "seconds": 520.4,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Synthèse comparative des trois établissements\n\nLes trois établissements, University of California, Berkeley, University College Cork et Technological University Dublin, ont obtenu des notes STARS « Platinum », « Platinum » et « Gold » respectivement. Cette section présente une synthèse comparative de leurs résultats STARS par pilier.\n\n### Résultats STARS par pilier\n\n- **Environnement** : Berkeley et Cork ont obtenu des niveaux de performance intermédiaire, tandis que TU Dublin a également atteint un niveau intermédiaire.\n- **Social** : Berkeley, Cork et TU Dublin ont tous atteint un niveau de performance élevé.\n- **Gouvernance** : Berkeley et Cork ont obtenu des niveaux de performance élevés, tandis que TU Dublin a atteint un niveau intermédiaire, en raison de sa base de pilier Gouvernance différente.\n- **Enseignement, recherche et engagement** : Berkeley, Cork et TU Dublin ont tous atteint un niveau de performance élevé.\n\n### Limites de la comparaison\n\nIl convient de noter que les trois établissements n'ont pas le même périmètre de reporting, ce qui peut influencer les résultats. De plus, les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ils ne sont pas vérifiés par l'AASHE. Enfin, les dates de soumission diffèrent d'un établissement à l'autre, ce qui peut également affecter les résultats.",
-   "gen_seconds": 181.7,
-   "prompt_tokens": 1473,
-   "output_tokens": 341,
+   "draft": "### Synthèse comparative des trois établissements\n\nL'analyse comparative des trois établissements est limitée par les différences de périmètre de reporting (Cork exclut ses filiales) et les dates de soumission diffèrent d'un établissement à l'autre. Il convient de noter que les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs (STARS 3.0) ; ils ne sont pas vérifiés par l'AASHE.\n\n### Résultats STARS par pilier\n\n*   Environnement : les trois établissements ont obtenu un niveau intermédiaire. \n*   Social : les trois établissements ont obtenu un niveau élevé.\n*   Gouvernance : les trois établissements ont obtenu un niveau élevé. Cependant, il convient de noter que TU Dublin n'a pas de fonds de dotation, ce qui change la base de son pilier Gouvernance.\n*   Enseignement, recherche et engagement : les trois établissements ont obtenu un niveau élevé.\n\n### Limites de la comparaison\n\nLa comparaison des trois établissements est limitée par les différences de périmètre de reporting (Cork exclut ses filiales) et les dates de soumission diffèrent d'un établissement à l'autre.",
+   "gen_seconds": 164.6,
+   "prompt_tokens": 1476,
+   "output_tokens": 314,
    "raw_guard_problems": [
     "nombre écrit en lettres : 'trois'",
     "nombre écrit en lettres : 'trois'",
-    "nombre écrit en lettres : 'trois'"
-   ],
-   "removed_sentences": [
-    "### Synthèse comparative des trois établissements",
-    "Les trois établissements, University of California, Berkeley, University College Cork et Technological University Dublin, ont obtenu des notes STARS « Platinum », « Platinum » et « Gold » respectivement.",
-    "Il convient de noter que les trois établissements n'ont pas le même périmètre de reporting, ce qui peut influencer les résultats."
-   ],
-   "guard_problems": [],
-   "lint_problems": [],
-   "gri_coverage": 1.0,
-   "lint_notes": [
-    "longueur de 151 mots : vise 180 à 300 mots"
-   ],
-   "rendered": "Cette section présente une synthèse comparative de leurs résultats STARS par pilier.\n\n### Résultats STARS par pilier\n\n- **Environnement** : Berkeley et Cork ont obtenu des niveaux de performance intermédiaire, tandis que TU Dublin a également atteint un niveau intermédiaire.\n- **Social** : Berkeley, Cork et TU Dublin ont tous atteint un niveau de performance élevé.\n- **Gouvernance** : Berkeley et Cork ont obtenu des niveaux de performance élevés, tandis que TU Dublin a atteint un niveau intermédiaire, en raison de sa base de pilier Gouvernance différente.\n- **Enseignement, recherche et engagement** : Berkeley, Cork et TU Dublin ont tous atteint un niveau de performance élevé.\n\n### Limites de la comparaison\n\nDe plus, les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ils ne sont pas vérifiés par l'AASHE. Enfin, les dates de soumission diffèrent d'un établissement à l'autre, ce qui peut également affecter les résultats.",
-   "used_facts": [],
-   "trace_problems": [],
-   "judge": {
-    "claims": [
-     {
-      "claim": "Berkeley et Cork ont obtenu des niveaux de performance intermédiaire en Environnement",
-      "supported": false
-     },
-     {
-      "claim": "TU Dublin a atteint un niveau intermédiaire en Environnement",
-      "supported": false
-     },
-     {
-      "claim": "Berkeley, Cork et TU Dublin ont tous atteint un niveau de performance élevé en Social",
-      "supported": true
-     },
-     {
-      "claim": "Berkeley et Cork ont obtenu des niveaux de performance élevés en Gouvernance",
-      "supported": true
-     },
-     {
-      "claim": "TU Dublin a atteint un niveau intermédiaire en Gouvernance",
-      "supported": true
-     },
-     {
-      "claim": "Berkeley, Cork et TU Dublin ont tous atteint un niveau de performance élevé en Enseignement, recherche et engagement",
-      "supported": true
-     }
-    ],
-    "rule_violations": [
-     "Les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ils ne sont pas vérifiés par l'AASHE",
-     "Les dates de soumission diffèrent d'un établissement à l'autre"
-    ],
-    "score": 3,
-    "feedback": "Supprimer les phrases 'Berkeley et Cork ont obtenu des niveaux de performance intermédiaire en Environnement' et 'TU Dublin a atteint un niveau intermédiaire en Environnement' car elles ne sont pas étayées par les sources. Ajouter les phrases 'ce rapport ne peut pas établir' avant les phrases 'Les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ils ne sont pas vérifiés par l'AASHE' et 'Les dates de soumission diffèrent d'un établissement à l'autre' pour respecter les rè",
-    "faithfulness": 0.67,
-    "seconds": 228.2,
-    "discarded_violations": [],
-    "accepted": false
-   }
-  },
-  {
-   "attempt": 2,
-   "draft": "### Synthèse comparative des trois établissements\n\nLes trois établissements, University of California, Berkeley, University College Cork et Technological University Dublin, ont obtenu des notes STARS « Platinum » et « Gold ». Cependant, il convient de noter que les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ils ne sont pas vérifiés par l'AASHE (ce rapport ne peut pas établir leur exactitude). De plus, les dates de soumission diffèrent d'un établissement à l'autre.\n\nEn ce qui concerne les piliers, les trois établissements ont atteint des niveaux de performance élevés en Social et en Gouvernance. Cependant, il convient de noter que TU Dublin n'a pas de fonds de dotation, ce qui change la base de son pilier Gouvernance (ce rapport ne peut pas établir l'impact de ce facteur sur ses performances). Les trois établissements ont également atteint des niveaux de performance élevés en Enseignement, recherche et engagement.\n\nEnfin, il convient de noter que les trois établissements n'ont pas le même périmètre de reporting, Cork exclut ses filiales, ce qui peut affecter les comparaisons entre les établissements (ce rapport ne peut pas établir l'impact de ce facteur sur les performances).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir l'exactitude des scores STARS, car ils sont autodéclarés et notés par rapport à un groupe de pairs, ils ne sont pas vérifiés par l'AASHE. De plus, les dates de soumission diffèrent d'un établissement à l'autre. Enfin, ce rapport ne peut pas établir l'impact de la différence de périmètre de reporting entre les établissements sur les comparaisons entre les établissements.",
-   "gen_seconds": 157.4,
-   "prompt_tokens": 1771,
-   "output_tokens": 437,
-   "raw_guard_problems": [
     "nombre écrit en lettres : 'trois'",
     "nombre écrit en lettres : 'trois'",
     "nombre écrit en lettres : 'trois'",
@@ -98,11 +38,80 @@
     "nombre écrit en lettres : 'trois'",
     "nombre écrit en lettres : 'trois'",
     "nombre écrit en lettres : 'trois'",
+    "nombre écrit en lettres : 'trois'",
+    "nombre écrit en lettres : 'trois'",
     "nombre écrit en lettres : 'trois'"
    ],
    "lint_problems": [],
    "gri_coverage": 1.0,
    "lint_notes": []
+  },
+  {
+   "attempt": 2,
+   "draft": "### Synthèse comparative des trois établissements\n\nLes trois établissements, University of California, Berkeley, University College Cork et Technological University Dublin, ont obtenu des notes STARS « Platinum » et « Gold », respectivement. Cette section présente une synthèse comparative de leurs performances dans les différents piliers.\n\n### Résultats STARS par pilier\n\n- **Pilier Environnement** : Berkeley et Cork ont obtenu des notes intermédiaires, tandis que TU Dublin a également obtenu une note intermédiaire. (GRI 305-1)\n- **Pilier Social** : Berkeley et Cork ont obtenu des notes élevées, tandis que TU Dublin a également obtenu une note élevée. (GRI 305-1)\n- **Pilier Gouvernance** : Berkeley et Cork ont obtenu des notes élevées, tandis que TU Dublin a obtenu une note intermédiaire en raison de sa situation spécifique sans fonds de dotation. (GRI 305-1)\n- **Pilier Enseignement, recherche et engagement** : Berkeley, Cork et TU Dublin ont obtenu des notes élevées. (GRI 305-1)\n\n### Limites de la comparaison\n\n- Les trois établissements n'ont pas le même périmètre de reporting, Cork excluant ses filiales, ce qui nécessite une attention particulière lors de la comparaison.\n- Les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ce qui signifie qu'ils ne sont pas vérifiés par l'AASHE.\n- TU Dublin n'a pas de fonds de dotation, ce qui change la base de son pilier Gouvernance.\n- Les dates de soumission diffèrent d'un établissement à l'autre.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir une comparaison directe entre les performances des trois établissements en raison des limites mentionnées ci-dessus.",
+   "gen_seconds": 156.3,
+   "prompt_tokens": 1575,
+   "output_tokens": 448,
+   "raw_guard_problems": [
+    "nombre écrit en lettres : 'trois'",
+    "nombre écrit en lettres : 'trois'",
+    "nombre écrit en lettres : 'trois'",
+    "nombre écrit en lettres : 'trois'"
+   ],
+   "removed_sentences": [
+    "### Synthèse comparative des trois établissements",
+    "Les trois établissements, University of California, Berkeley, University College Cork et Technological University Dublin, ont obtenu des notes STARS « Platinum » et « Gold », respectivement.",
+    "- Les trois établissements n'ont pas le même périmètre de reporting, Cork excluant ses filiales, ce qui nécessite une attention particulière lors de la comparaison.",
+    "Ce rapport ne peut pas établir une comparaison directe entre les performances des trois établissements en raison des limites mentionnées ci-dessus."
+   ],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 1.0,
+   "lint_notes": [],
+   "rendered": "Cette section présente une synthèse comparative de leurs performances dans les différents piliers.\n\n### Résultats STARS par pilier\n\n- **Pilier Environnement** : Berkeley et Cork ont obtenu des notes intermédiaires, tandis que TU Dublin a également obtenu une note intermédiaire. (GRI 305-1)\n- **Pilier Social** : Berkeley et Cork ont obtenu des notes élevées, tandis que TU Dublin a également obtenu une note élevée. (GRI 305-1)\n- **Pilier Gouvernance** : Berkeley et Cork ont obtenu des notes élevées, tandis que TU Dublin a obtenu une note intermédiaire en raison de sa situation spécifique sans fonds de dotation. (GRI 305-1)\n- **Pilier Enseignement, recherche et engagement** : Berkeley, Cork et TU Dublin ont obtenu des notes élevées. (GRI 305-1)\n\n### Limites de la comparaison\n\n- Les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ce qui signifie qu'ils ne sont pas vérifiés par l'AASHE.\n- TU Dublin n'a pas de fonds de dotation, ce qui change la base de son pilier Gouvernance.\n- Les dates de soumission diffèrent d'un établissement à l'autre.\n\n### Limites et omissions",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "Berkeley et Cork ont obtenu des notes intermédiaires dans le pilier Environnement",
+      "supported": true
+     },
+     {
+      "claim": "TU Dublin a également obtenu une note intermédiaire dans le pilier Environnement",
+      "supported": true
+     },
+     {
+      "claim": "Berkeley et Cork ont obtenu des notes élevées dans le pilier Social",
+      "supported": true
+     },
+     {
+      "claim": "TU Dublin a également obtenu une note élevée dans le pilier Social",
+      "supported": true
+     },
+     {
+      "claim": "Berkeley et Cork ont obtenu des notes élevées dans le pilier Gouvernance",
+      "supported": true
+     },
+     {
+      "claim": "TU Dublin a obtenu une note intermédiaire dans le pilier Gouvernance en raison de sa situation spécifique sans fonds de dotation",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "Le rapport présente une note élevée pour Berkeley, Cork et TU Dublin dans le pilier Enseignement, recherche et engagement, mais le GRI status list est vide, ce qui signifie que le rapport ne peut pas"
+    ],
+    "score": 2,
+    "feedback": "Supprimer les phrases qui mentionnent que le rapport peut établir si les établissements ont obtenu tel ou tel score. Ajouter les phrases requises pour indiquer que le rapport ne peut pas établir si les établissements ont obtenu tel ou tel score.",
+    "faithfulness": 1.0,
+    "seconds": 199.5,
+    "discarded_violations": [
+     "Le rapport présente TU Dublin comme ayant obtenu une note intermédiaire dans le pilier Gouvernance, mais le GRI status list est vide, ce qui signifie que le rapport ne peut pas établir si TU Dublin a,",
+     "Le rapport présente une note intermédiaire pour TU Dublin dans le pilier Gouvernance, mais le GRI status list est vide, ce qui signifie que le rapport ne peut pas établir si TU Dublin a,",
+     "Le rapport présente une note élevée pour TU Dublin dans le pilier Social, mais le GRI status list est vide, ce qui signifie que le rapport ne peut pas établir si TU Dublin a,"
+    ],
+    "accepted": false
+   }
   }
  ],
  "institution": "comparatif",
