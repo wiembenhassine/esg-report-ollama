@@ -1,0 +1,120 @@
+{
+ "prompt_hash": "e84beb304c85ffe7",
+ "decision": "validée",
+ "text": "### Organisation, périmètre et effectifs\n\nL'University College Cork (UCC) est une institution d'enseignement supérieur située en Irlande. Le périmètre de ce rapport couvre l'ensemble du campus principal et des campus satellites gérés par l'office des bâtiments et des biens de l'UCC. Les sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin), ne sont pas incluses dans ce rapport.\n\nL'UCC a mené une étude approfondie pour identifier les parties responsables de chaque crédit. Des documents de guidage, des définitions et des feuilles de calcul ont été transmis à chaque partie responsable, et des réunions ont été tenues pour s'assurer de l'exactitude des données collectées. Ce processus a été mené par l'office de la durabilité et de l'action climatique, avec l'aide supplémentaire de l'officier de recherche et de données institutionnelles de l'université.\n\nLe rapport de l'UCC a obtenu la note « Platinum » au STARS, ce qui reflète son engagement en matière de durabilité.\n\n(GRI 2-1, GRI 2-2, GRI 2-3, GRI 2-5, GRI 2-6)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'UCC, car ces informations ne sont pas collectées par STARS. De même, il ne peut pas fournir de liste d'entités incluses dans le reporting de durabilité, car STARS ne collecte pas ces informations sous forme de liste.\n\n(GRI 2-1, GRI 2-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas fournir de vérification externe, car les données STARS sont autodéclarées et non vérifiées par l'AASHE. Il ne peut pas non plus fournir de norme d'assurance, de niveau d'assurance et de relation avec le vérificateur,",
+ "used_facts": [],
+ "judge_score": 2,
+ "faithfulness": 1.0,
+ "gri_coverage": 0.83,
+ "unsupported_claims": [],
+ "discarded_violations": [
+  "Le rapport indique que le rapport est conforme à GRI, mais il ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'UCC, car ces informations ne sont pas collectées par STAR"
+ ],
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 536.1,
+ "history": [
+  {
+   "attempt": 1,
+   "draft": "### Organisation, périmètre et effectifs\n\nL'University College Cork (UCC) est une institution d'enseignement supérieur située en Irlande. Le périmètre de ce rapport couvre l'ensemble du campus principal et des campus satellites gérés par l'office des bâtiments et des biens de l'UCC. Les sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin), ne sont pas incluses dans ce rapport.\n\nL'UCC a mené une étude approfondie pour identifier les parties responsables de chaque crédit. Des documents de guidage, des définitions et des feuilles de calcul ont été transmis à chaque partie responsable, et des réunions ont été tenues pour s'assurer de l'exactitude des données collectées. Ce processus a été mené par l'office de la durabilité et de l'action climatique, avec l'aide supplémentaire de l'officier de recherche et de données institutionnelles de l'université.\n\nLe rapport de l'UCC a obtenu la note « Platinum » au STARS, ce qui reflète son engagement en matière de durabilité.\n\n(GRI 2-1, GRI 2-2, GRI 2-3, GRI 2-5, GRI 2-6)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'UCC, car ces informations ne sont pas collectées par STARS. De même, il ne peut pas fournir de liste d'entités incluses dans le reporting de durabilité, car STARS ne collecte pas ces informations sous forme de liste. Les ratios par personne ou par m² ne sont pas comparables tels quels, en raison de la différence de périmètre entre les trois établissements.\n\n(GRI 2-1, GRI 2-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas fournir de vérification externe, car les données STARS sont autodéclarées et non vérifiées par l'AASHE. Il ne peut pas non plus fournir de norme d'assurance, de niveau d'assurance et de relation avec le vérificateur,",
+   "gen_seconds": 287.1,
+   "prompt_tokens": 1879,
+   "output_tokens": 520,
+   "raw_guard_problems": [
+    "nombre écrit en lettres : 'trois'"
+   ],
+   "removed_sentences": [
+    "Les ratios par personne ou par m² ne sont pas comparables tels quels, en raison de la différence de périmètre entre les trois établissements."
+   ],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.83,
+   "lint_notes": [],
+   "rendered": "### Organisation, périmètre et effectifs\n\nL'University College Cork (UCC) est une institution d'enseignement supérieur située en Irlande. Le périmètre de ce rapport couvre l'ensemble du campus principal et des campus satellites gérés par l'office des bâtiments et des biens de l'UCC. Les sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin), ne sont pas incluses dans ce rapport.\n\nL'UCC a mené une étude approfondie pour identifier les parties responsables de chaque crédit. Des documents de guidage, des définitions et des feuilles de calcul ont été transmis à chaque partie responsable, et des réunions ont été tenues pour s'assurer de l'exactitude des données collectées. Ce processus a été mené par l'office de la durabilité et de l'action climatique, avec l'aide supplémentaire de l'officier de recherche et de données institutionnelles de l'université.\n\nLe rapport de l'UCC a obtenu la note « Platinum » au STARS, ce qui reflète son engagement en matière de durabilité.\n\n(GRI 2-1, GRI 2-2, GRI 2-3, GRI 2-5, GRI 2-6)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'UCC, car ces informations ne sont pas collectées par STARS. De même, il ne peut pas fournir de liste d'entités incluses dans le reporting de durabilité, car STARS ne collecte pas ces informations sous forme de liste.\n\n(GRI 2-1, GRI 2-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas fournir de vérification externe, car les données STARS sont autodéclarées et non vérifiées par l'AASHE. Il ne peut pas non plus fournir de norme d'assurance, de niveau d'assurance et de relation avec le vérificateur,",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'University College Cork (UCC) est une institution d'enseignement supérieur située en Irlande.",
+      "supported": true
+     },
+     {
+      "claim": "Le périmètre de ce rapport couvre l'ensemble du campus principal et des campus satellites gérés par l'office des bâtiments et des biens de l",
+      "supported": true
+     },
+     {
+      "claim": "Les sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin), ne",
+      "supported": true
+     },
+     {
+      "claim": "L'UCC a mené une étude approfondie pour identifier les parties responsables de chaque crédit.",
+      "supported": true
+     },
+     {
+      "claim": "Le rapport de l'UCC a obtenu la note « Platinum » au STARS, ce qui reflète son engagement en matière de durabilité.",
+      "supported": true
+     },
+     {
+      "claim": "Ce rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'UCC, car ces informations ne sont pas collectées",
+      "supported": true
+     }
+    ],
+    "rule_violations": [],
+    "score": 2,
+    "feedback": "",
+    "faithfulness": 1.0,
+    "seconds": 248.9,
+    "discarded_violations": [
+     "Le rapport indique que le rapport est conforme à GRI, mais il ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'UCC, car ces informations ne sont pas collectées par STAR"
+    ],
+    "accepted": true
+   }
+  }
+ ],
+ "institution": "cork",
+ "section": "organisation",
+ "title": "L'organisation, son périmètre et ses effectifs",
+ "evidence": [
+  {
+   "credit": "PRE-3",
+   "text": "This submission covers all of UCC main campus and satellite campuses that are under the management of UCC Buildings and Estates office. Subsidiary companies are not included in this submission, these include Campus Accommodation, the Mardyke Arena, the Student Centre and the Irish Management Institute (Dublin). As per guidelines, rented multi-tenant buildings are not included."
+  },
+  {
+   "credit": "PRE-4",
+   "text": "As with previous reports an extensive mapping execise was undertaken to identify parties responsible for each credit. Spreadsheets, credit guidance, and definitions were sent to each responsible party and meetings held to ensure the accuracy of data collected. The process was led by the office of Sustainability and Climate Action, with additional support in data collection provided by the University's Data and Instiutional Research Officer."
+  },
+  {
+   "credit": "PRE-4",
+   "text": "Emissions figures were verified by the University's contracted carbon footprint provider, Sustineo."
+  },
+  {
+   "credit": "PRE-4",
+   "text": "Regular updates on the data collection process were presented to the University Leadership Team Subcommittee on Sustainability and Climate Action."
+  },
+  {
+   "credit": "PRE-4",
+   "text": "Regular updates on data collection were presented at the University Leadership Team Subcommittee on Sustainability and Climate Action, which is chaired by the University President."
+  },
+  {
+   "credit": "PRE-4",
+   "text": "Regular meetings were also held with the University's Data and Instiutional Research Officer."
+  },
+  {
+   "credit": "PRE-4",
+   "text": "Dr Maria Kirrane, Head of Sustainability and Climate"
+  },
+  {
+   "credit": "PA-12",
+   "text": "There are a number of different leave types available to all staff of UCC, regardless of gender. These include:"
+  },
+  {
+   "credit": "PA-12",
+   "text": "Under the maternity legislation all women are entitled to [n] weeks maternity leave. Payment of maternity leave may be sourced both from the Department of Social Welfare and/or the University. The [n] week entitlement is divided into [n] weeks paid and an additional [n] weeks unpaid. Entitlements to paid leave and unpaid leave are outlined in the Universities maternity leave policy. Employees are entitled to full pay for [n] [n] ([n]) weeks."
+  },
+  {
+   "credit": "PA-12",
+   "text": "Freedom of Association is a fundamental right under the irish constitution and"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "prompt_hash": "a5957c71c65efdb6",
+ "decision": "validée",
+ "text": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la gouvernance de l'University College Cork. Le rapport STARS indique que les étudiants sont représentés sur l'autorité de gouvernement de l'université, la plus haute instance décisionnelle de l'établissement (GRI 2-29).\n\nLe modèle choisi pour le Forum des étudiants est inspiré de l'Assemblée des citoyens irlandaise. L'un des objectifs principaux du Forum est de renforcer la transparence et l'intégrité dans la prise de décision et de faciliter une bonne prise de décision (GRI 2-29). L'université se concentre sur la formation de citoyens qui façonnent la société pour le bien commun et le mieux-être de l'humanité et du planète.\n\nLes enseignants et le personnel sont également représentés sur l'autorité de gouvernement de l'université, démocratiquement élus par les membres du personnel de l'université (GRI 2-29).\n\nL'université a établi le programme UNIC, qui comprend la recherche sur la collaboration entre les universités et les municipalités pour atteindre les objectifs de lutte contre le changement climatique dans les villes (GRI 2-29).\n\nL'université a également développé des lignes directrices et des ressources pour la participation communautaire, notamment un kit de toolkit de participation civique et des lignes directrices de science shop (GRI 2-29).\n\nEnfin, l'université a adopté les lignes directrices nationales de Campus Engage, un effort collaboratif pour construire la capacité et l'excellence nationales en matière de participation communautaire et de partenariat (GRI 2-29).\n\n(GRI 2-29)",
+ "used_facts": [],
+ "judge_score": 4,
+ "faithfulness": 0.83,
+ "gri_coverage": 1.0,
+ "unsupported_claims": [
+  "Les enseignants et le personnel sont également représentés sur l'autorité de gouvernement de l'université, démocratiquement élus par les"
+ ],
+ "discarded_violations": [],
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 380.4,
+ "history": [
+  {
+   "attempt": 1,
+   "draft": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la gouvernance de l'University College Cork. Le rapport STARS indique que les étudiants sont représentés sur l'autorité de gouvernement de l'université, la plus haute instance décisionnelle de l'établissement (GRI 2-29).\n\nLe modèle choisi pour le Forum des étudiants est inspiré de l'Assemblée des citoyens irlandaise. L'un des objectifs principaux du Forum est de renforcer la transparence et l'intégrité dans la prise de décision et de faciliter une bonne prise de décision (GRI 2-29). L'université se concentre sur la formation de citoyens qui façonnent la société pour le bien commun et le mieux-être de l'humanité et du planète.\n\nLes enseignants et le personnel sont également représentés sur l'autorité de gouvernement de l'université, démocratiquement élus par les membres du personnel de l'université (GRI 2-29).\n\nL'université a établi le programme UNIC, qui comprend la recherche sur la collaboration entre les universités et les municipalités pour atteindre les objectifs de lutte contre le changement climatique dans les villes (GRI 2-29).\n\nL'université a également développé des lignes directrices et des ressources pour la participation communautaire, notamment un kit de toolkit de participation civique et des lignes directrices de science shop (GRI 2-29).\n\nEnfin, l'université a adopté les lignes directrices nationales de Campus Engage, un effort collaboratif pour construire la capacité et l'excellence nationales en matière de participation communautaire et de partenariat (GRI 2-29).\n\n(GRI 2-29)",
+   "gen_seconds": 179.7,
+   "prompt_tokens": 1628,
+   "output_tokens": 416,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 1.0,
+   "lint_notes": [],
+   "rendered": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la gouvernance de l'University College Cork. Le rapport STARS indique que les étudiants sont représentés sur l'autorité de gouvernement de l'université, la plus haute instance décisionnelle de l'établissement (GRI 2-29).\n\nLe modèle choisi pour le Forum des étudiants est inspiré de l'Assemblée des citoyens irlandaise. L'un des objectifs principaux du Forum est de renforcer la transparence et l'intégrité dans la prise de décision et de faciliter une bonne prise de décision (GRI 2-29). L'université se concentre sur la formation de citoyens qui façonnent la société pour le bien commun et le mieux-être de l'humanité et du planète.\n\nLes enseignants et le personnel sont également représentés sur l'autorité de gouvernement de l'université, démocratiquement élus par les membres du personnel de l'université (GRI 2-29).\n\nL'université a établi le programme UNIC, qui comprend la recherche sur la collaboration entre les universités et les municipalités pour atteindre les objectifs de lutte contre le changement climatique dans les villes (GRI 2-29).\n\nL'université a également développé des lignes directrices et des ressources pour la participation communautaire, notamment un kit de toolkit de participation civique et des lignes directrices de science shop (GRI 2-29).\n\nEnfin, l'université a adopté les lignes directrices nationales de Campus Engage, un effort collaboratif pour construire la capacité et l'excellence nationales en matière de participation communautaire et de partenariat (GRI 2-29).\n\n(GRI 2-29)",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "Les étudiants sont représentés sur l'autorité de gouvernement de l'université.",
+      "supported": true
+     },
+     {
+      "claim": "Le modèle choisi pour le Forum des étudiants est inspiré de l'Assemblée des citoyens irlandaise.",
+      "supported": true
+     },
+     {
+      "claim": "L'université se concentre sur la formation de citoyens qui façonnent la société pour le bien commun et le mieux-être de l'humanité et duplan",
+      "supported": true
+     },
+     {
+      "claim": "Les enseignants et le personnel sont également représentés sur l'autorité de gouvernement de l'université, démocratiquement élus par les",
+      "supported": false
+     },
+     {
+      "claim": "L'université a établi le programme UNIC, qui comprend la recherche sur la collaboration entre les universités et les municipalités pour atte",
+      "supported": true
+     },
+     {
+      "claim": "L'université a également développé des lignes directrices et des ressources pour la participation communautaire, notamment un kit de toolkit",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "Le rapport indique que les enseignants et le personnel sont représentés sur l'autorité de gouvernement de l'université, démocratiquement élus par les membres du personnel de l'université, mais les STa"
+    ],
+    "score": 4,
+    "feedback": "Supprimer la phrase 'démocratiquement élus par les membres du personnel de l'université' car elle n'est pas étayée par les sources. Utiliser les termes requis pour décrire les informations non disponibles.",
+    "faithfulness": 0.83,
+    "seconds": 200.7,
+    "discarded_violations": [],
+    "accepted": true
+   }
+  }
+ ],
+ "institution": "cork",
+ "section": "parties_prenantes",
+ "title": "Engagement des parties prenantes",
+ "evidence": [
+  {
+   "credit": "PA-3",
+   "text": "[n] members of the Students Union sit on the University's Governing Authority, the highest decision making body in the University."
+  },
+  {
+   "credit": "PA-3",
+   "text": "Born from UCC's strategic plan, the UCC Student Forum is an exercise in deliberative and participatory democracy that places students at the heart of important strategic and policy issues facing UCC as a community. UCC is committed to widening participation, an intention that goes beyond mere access but extends to active involvement in decision-making."
+  },
+  {
+   "credit": "PA-3",
+   "text": "The model chosen for the Student Forum is that of the Irish Citizens' Assembly. Some of the main aims of the Forum are to strengthen transparency and integrity in decision making and to facilitate good decision making. As a university, we are consciously cultivating citizens who shape society for the common good and betterment of humanity and the planet. Therefore, via ‘sortition', we committed to creating a truly representative assembly of students who displayed civic and leadership capacities through constructive participation."
+  },
+  {
+   "credit": "PA-3",
+   "text": "[n] spaces on the UCC Governing Authority democratically elected by staff of UCC."
+  },
+  {
+   "credit": "EN-5",
+   "text": "In addition, through the UNIC programme, UCC has established the Urban Climate Collab, a research project aiming to investigate and strengthen collaborations between universities and municipalities when working together to achieve climate action in cities. City contexts have a key role to play in addressing sustainability challenges. For many urban residents, climate action and sustainability can act as a vehicle to achieve their own local objectives in relation to health, equity, wellbeing, safety, and resilience. City-University partnerships can help to support such objectives whilst also working towards meeting the international and national policy targets which are in place. While taking"
+  },
+  {
+   "credit": "EN-6",
+   "text": "UCC has developed numerous guidelines and resources around community engagement, including a Civic Engagement Toolkit ( and science shop guidelines through the Community Academic Research Links programme ( All of these resources guide participants to follow the national Campus Engage guidelines ( . Campus Engage was a collaborative effort across all HEIs in Ireland to build national capacity and excellence in community engagement and partnership. It was facilitated and managed by the Irish Universities Association and involved participation from all member HEI's including UCC. These national guidelines guidelines include a section on Impact Assessment which discusses the use of impact assess"
+  },
+  {
+   "credit": "PA-12",
+   "text": "Freedom of Association is a fundamental right under the irish constitution and"
+  }
+ ]
+}

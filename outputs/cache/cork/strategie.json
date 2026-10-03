@@ -1,0 +1,167 @@
+{
+ "prompt_hash": "fec3a2e6e65fb227",
+ "decision": "validée",
+ "text": "### Stratégie, politiques et pratiques\n\n#### Stratégie de développement durable\n\nLe University College Cork (UCC) a élaboré la Stratégie de développement durable, qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université. Cette stratégie est étayée par le Plan d'action pour la durabilité et la lutte contre le changement climatique, qui a été élaboré après une consultation approfondie avec le personnel et les étudiants (GRI 2-22).\n\n#### Engagements politiques\n\nLe UCC a adopté des engagements politiques pour promouvoir la durabilité, notamment la mise en place d'un système de reporting sur les impacts environnementaux (GRI 2-23). Cependant, ce rapport ne peut pas établir si ces engagements sont étendus aux droits humains et au devoir de vigilance.\n\n#### Intégration des engagements politiques\n\nLe UCC a mis en place des mécanismes pour intégrer les engagements politiques dans les procédures de l'université, notamment en matière de formation et de code de conduite des fournisseurs (GRI 2-24). Cependant, ce rapport ne peut pas établir si ces mécanismes sont étendus à toutes les parties prenantes affectées.\n\n#### Processus de remédiation des impacts négatifs\n\nLe UCC a mis en place un processus de remédiation des impacts négatifs, notamment en matière de publication d'informations sur les impacts environnementaux (GRI 2-25). Cependant, ce rapport ne peut pas établir si ce processus est étendu à toutes les parties prenantes affectées.\n\n#### Mécanismes de demande de conseil et de signalement\n\nLe UCC a mis en place des mécanismes pour permettre aux salariés de demander des conseils et de signaler les impacts négatifs (GRI 2-26). Cependant, ce rapport ne peut pas établir si ces mécanismes sont étendus aux personnes en relation d'affaires.\n\n#### Adhésion à des associations\n\nLe UCC a adhéré à certaines associations pour promouvoir la durabilité, notamment en matière de lutte contre le changement climatique (GRI",
+ "used_facts": [],
+ "judge_score": 4,
+ "faithfulness": 1.0,
+ "gri_coverage": 0.83,
+ "unsupported_claims": [],
+ "discarded_violations": [],
+ "attempts": 2,
+ "guard_rejections": 0,
+ "seconds": 781.6,
+ "history": [
+  {
+   "attempt": 1,
+   "draft": "### Stratégie, politiques et pratiques\n\n#### Engagement envers la durabilité\n\nL'University College Cork (UCC) a déclaré son engagement envers la durabilité dans sa Stratégie de durabilité et son Plan d'action sur le climat. Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations, les infrastructures et les interactions avec la communauté (GRI 2-22).\n\n#### Alignement avec les stratégies de l'université\n\nL'UCC a aligné son programme de durabilité avec ses stratégies pertinentes, notamment celles liées à la participation communautaire, à l'égalité des chances, à l'apprentissage et à la recherche (GRI 2-22).\n\n#### Objectifs de durabilité\n\nL'université a déclaré plusieurs objectifs de durabilité, notamment :\n\n* Aligner son programme de durabilité avec ses stratégies pertinentes (GRI 2-22).\n* Devenir un campus zéro déchet (GRI 2-22).\n* Devenir un campus neutre en carbone (GRI 2-22).\n\n#### Gouvernance\n\nL'Office de la durabilité et de l'action climatique est situé dans le bureau du président de l'université et est soutenu par le Plan d'action sur le climat. Ce plan a été élaboré après une consultation approfondie avec le personnel et les étudiants (GRI 2-23).\n\n#### Engagement des parties prenantes\n\nL'université a déclaré que les parties prenantes, y compris les salariés, sont impliquées dans la mise en œuvre de ses objectifs de durabilité. Cependant, les mécanismes de demande de conseil et de signalement ne sont pas entièrement couverts (GRI 2-26).\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a mis en place des mécanismes de demande de conseil et de signalement pour les parties prenantes autres que les salariés. De plus, les mécanismes de remédiation des impacts négatifs ne sont pas entièrement couverts (GRI 2-25).\n\n#### Adhésion à des associations\n\nL'université a",
+   "gen_seconds": 240.4,
+   "prompt_tokens": 1992,
+   "output_tokens": 520,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.67,
+   "lint_notes": [],
+   "rendered": "### Stratégie, politiques et pratiques\n\n#### Engagement envers la durabilité\n\nL'University College Cork (UCC) a déclaré son engagement envers la durabilité dans sa Stratégie de durabilité et son Plan d'action sur le climat. Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations, les infrastructures et les interactions avec la communauté (GRI 2-22).\n\n#### Alignement avec les stratégies de l'université\n\nL'UCC a aligné son programme de durabilité avec ses stratégies pertinentes, notamment celles liées à la participation communautaire, à l'égalité des chances, à l'apprentissage et à la recherche (GRI 2-22).\n\n#### Objectifs de durabilité\n\nL'université a déclaré plusieurs objectifs de durabilité, notamment :\n\n* Aligner son programme de durabilité avec ses stratégies pertinentes (GRI 2-22).\n* Devenir un campus zéro déchet (GRI 2-22).\n* Devenir un campus neutre en carbone (GRI 2-22).\n\n#### Gouvernance\n\nL'Office de la durabilité et de l'action climatique est situé dans le bureau du président de l'université et est soutenu par le Plan d'action sur le climat. Ce plan a été élaboré après une consultation approfondie avec le personnel et les étudiants (GRI 2-23).\n\n#### Engagement des parties prenantes\n\nL'université a déclaré que les parties prenantes, y compris les salariés, sont impliquées dans la mise en œuvre de ses objectifs de durabilité. Cependant, les mécanismes de demande de conseil et de signalement ne sont pas entièrement couverts (GRI 2-26).\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a mis en place des mécanismes de demande de conseil et de signalement pour les parties prenantes autres que les salariés. De plus, les mécanismes de remédiation des impacts négatifs ne sont pas entièrement couverts (GRI 2-25).\n\n#### Adhésion à des associations\n\nL'université a",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'University College Cork (UCC) a déclaré son engagement envers la durabilité dans sa Stratégie de durabilité et son Plan d'action sur le cl",
+      "supported": true
+     },
+     {
+      "claim": "L'UCC a aligné son programme de durabilité avec ses stratégies pertinentes, notamment celles liées à la participation communautaire, à l'é",
+      "supported": true
+     },
+     {
+      "claim": "L'université a déclaré plusieurs objectifs de durabilité, notamment :",
+      "supported": true
+     },
+     {
+      "claim": "Aligner son programme de durabilité avec ses stratégies pertinentes",
+      "supported": true
+     },
+     {
+      "claim": "Devenir un campus zéro déchet",
+      "supported": false
+     },
+     {
+      "claim": "Devenir un campus neutre en carbone",
+      "supported": false
+     }
+    ],
+    "rule_violations": [
+     "Le rapport prétend que l'université a atteint les objectifs de durabilité de devenir un campus zéro déchet et un campus neutre en carbone, mais le GRI status list indique que ces objectifs ne sont pas"
+    ],
+    "score": 2,
+    "feedback": "Supprimer les prétentions à l'atteinte des objectifs de durabilité de devenir un campus zéro déchet et un campus neutre en carbone, car elles ne sont pas étayées par les sources. Remplacer les phrases par : 'Ce rapport ne peut pas établir si l'université a atteint ces objectifs.'",
+    "faithfulness": 0.67,
+    "seconds": 218.7,
+    "discarded_violations": [],
+    "accepted": false
+   }
+  },
+  {
+   "attempt": 2,
+   "draft": "### Stratégie, politiques et pratiques\n\n#### Stratégie de développement durable\n\nLe University College Cork (UCC) a élaboré la Stratégie de développement durable, qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université. Cette stratégie est étayée par le Plan d'action pour la durabilité et la lutte contre le changement climatique, qui a été élaboré après une consultation approfondie avec le personnel et les étudiants (GRI 2-22).\n\n#### Engagements politiques\n\nLe UCC a adopté des engagements politiques pour promouvoir la durabilité, notamment la mise en place d'un système de reporting sur les impacts environnementaux (GRI 2-23). Cependant, ce rapport ne peut pas établir si ces engagements sont étendus aux droits humains et au devoir de vigilance.\n\n#### Intégration des engagements politiques\n\nLe UCC a mis en place des mécanismes pour intégrer les engagements politiques dans les procédures de l'université, notamment en matière de formation et de code de conduite des fournisseurs (GRI 2-24). Cependant, ce rapport ne peut pas établir si ces mécanismes sont étendus à toutes les parties prenantes affectées.\n\n#### Processus de remédiation des impacts négatifs\n\nLe UCC a mis en place un processus de remédiation des impacts négatifs, notamment en matière de publication d'informations sur les impacts environnementaux (GRI 2-25). Cependant, ce rapport ne peut pas établir si ce processus est étendu à toutes les parties prenantes affectées.\n\n#### Mécanismes de demande de conseil et de signalement\n\nLe UCC a mis en place des mécanismes pour permettre aux salariés de demander des conseils et de signaler les impacts négatifs (GRI 2-26). Cependant, ce rapport ne peut pas établir si ces mécanismes sont étendus aux personnes en relation d'affaires.\n\n#### Adhésion à des associations\n\nLe UCC a adhéré à certaines associations pour promouvoir la durabilité, notamment en matière de lutte contre le changement climatique (GRI",
+   "gen_seconds": 175.6,
+   "prompt_tokens": 2192,
+   "output_tokens": 520,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.83,
+   "lint_notes": [],
+   "rendered": "### Stratégie, politiques et pratiques\n\n#### Stratégie de développement durable\n\nLe University College Cork (UCC) a élaboré la Stratégie de développement durable, qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université. Cette stratégie est étayée par le Plan d'action pour la durabilité et la lutte contre le changement climatique, qui a été élaboré après une consultation approfondie avec le personnel et les étudiants (GRI 2-22).\n\n#### Engagements politiques\n\nLe UCC a adopté des engagements politiques pour promouvoir la durabilité, notamment la mise en place d'un système de reporting sur les impacts environnementaux (GRI 2-23). Cependant, ce rapport ne peut pas établir si ces engagements sont étendus aux droits humains et au devoir de vigilance.\n\n#### Intégration des engagements politiques\n\nLe UCC a mis en place des mécanismes pour intégrer les engagements politiques dans les procédures de l'université, notamment en matière de formation et de code de conduite des fournisseurs (GRI 2-24). Cependant, ce rapport ne peut pas établir si ces mécanismes sont étendus à toutes les parties prenantes affectées.\n\n#### Processus de remédiation des impacts négatifs\n\nLe UCC a mis en place un processus de remédiation des impacts négatifs, notamment en matière de publication d'informations sur les impacts environnementaux (GRI 2-25). Cependant, ce rapport ne peut pas établir si ce processus est étendu à toutes les parties prenantes affectées.\n\n#### Mécanismes de demande de conseil et de signalement\n\nLe UCC a mis en place des mécanismes pour permettre aux salariés de demander des conseils et de signaler les impacts négatifs (GRI 2-26). Cependant, ce rapport ne peut pas établir si ces mécanismes sont étendus aux personnes en relation d'affaires.\n\n#### Adhésion à des associations\n\nLe UCC a adhéré à certaines associations pour promouvoir la durabilité, notamment en matière de lutte contre le changement climatique (GRI",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "Le University College Cork (UCC) a élaboré la Stratégie de développement durable",
+      "supported": true
+     },
+     {
+      "claim": "Cette stratégie est étayée par le Plan d'action pour la durabilité et la lutte contre le changement climatique",
+      "supported": true
+     },
+     {
+      "claim": "Le UCC a adopté des engagements politiques pour promouvoir la durabilité",
+      "supported": true
+     },
+     {
+      "claim": "Le UCC a mis en place des mécanismes pour intégrer les engagements politiques dans les procédures de l'université",
+      "supported": true
+     },
+     {
+      "claim": "Le UCC a mis en place un processus de remédiation des impacts négatifs",
+      "supported": true
+     },
+     {
+      "claim": "Le UCC a mis en place des mécanismes pour permettre aux salariés de demander des conseils et de signaler les impacts négatifs",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "Le rapport indique que le UCC a adopté des engagements politiques pour promouvoir la durabilité, mais il ne précise pas si ces engagements sont étendus aux droits humains et au devoir de vigilance. La"
+    ],
+    "score": 4,
+    "feedback": "Supprimer la phrase \"Cependant, ce rapport ne peut pas établir si ces engagements sont étendus aux droits humains et au devoir de vigilance.\" et remplacer par \"Ce rapport ne peut pas établir si ces engagements sont étendus aux droits humains et au devoir de vigilance.\"",
+    "faithfulness": 1.0,
+    "seconds": 146.9,
+    "discarded_violations": [],
+    "accepted": true
+   }
+  }
+ ],
+ "institution": "cork",
+ "section": "strategie",
+ "title": "Stratégie, politiques et pratiques",
+ "evidence": [
+  {
+   "credit": "PA-2",
+   "text": "The Sustainability and Climate Action Plan ([n]-[n]) builds on the successes of UCC's Sustainability Strategy ([n]) and sets out how UCC will continue to embed sustainability goals and targets across all aspects of the University's educational, research, ancillary operations, infrastructural developments and interactions with the community. This plan seeks to help us as a university navigate this path and help shape and inspire a world that protects our environment and our society and furthers University College Cork's commitment to a sustainable future. UCC aims to achieve significant targets including becoming a zero waste campus by [n] and a carbon neutral campus by [n]."
+  },
+  {
+   "credit": "PA-2",
+   "text": "Within the University's Sustainability and Climate Action Plan [n]-[n], UCC has committed to align UCC sustainability programme with relevant UCC strategies including Community Engagement, EDI, teaching and learning and research strategies."
+  },
+  {
+   "credit": "PA-2",
+   "text": "Within the University's Sustainability and Climate Action Plan [n]-[n], UCC has committed to:"
+  },
+  {
+   "credit": "PA-2",
+   "text": "Within the University's Sustainability and Climate Action Plan [n]-[n], UCC has committed to the following objectives:"
+  },
+  {
+   "credit": "PA-2",
+   "text": "- Align UCC sustainability programme with relevant UCC strategies including Community Engagement, EDI, teaching and learning and research strategies."
+  },
+  {
+   "credit": "PA-2",
+   "text": "Within the University's Sustainability and Climate Action Plan [n]-[n], UCC has committed to a number of objectives regarding campus operations, a selection of these include:"
+  },
+  {
+   "credit": "PA-1",
+   "text": "The Office of Sustainability and Climate Action sits within the President's Office at UCC. It is supported by the Sustainability and Climate Action Plan. This plan was developed following extensive consultation with staff and students."
+  },
+  {
+   "credit": "PA-12",
+   "text": "There are a number of different leave types available to all staff of UCC, regardless of gender. These include:"
+  },
+  {
+   "credit": "OP-9",
+   "text": "[n] Tenders were completed in [n] and [n] of these included sustainability considerations. [n]% of tenders included supplier sustainability specifications and [n]% of tenders included product sustainability condsiderations."
+  },
+  {
+   "credit": "EN-3",
+   "text": "In [n], UCC's Office of Sustainability and Climate Action in collaboration with the Sustainability Institute and Academy developed a [n]-hour Climate Leadership Training Course which was delivered to all members of the University's Leadership team."
+  }
+ ]
+}

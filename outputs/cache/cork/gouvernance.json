@@ -1,0 +1,118 @@
+{
+ "prompt_hash": "a6e8b68c9cf34a09",
+ "decision": "validée",
+ "text": "### Gouvernance\n\nL'Université College Cork a mis en place un organe de gouvernance composé de membres du Students Union, d'organisations externes et d'un représentant démocratiquement élu par le personnel de l'université. Ce dernier siège sur l'autorité de gouvernance, le plus haut organe décisionnel de l'université (GRI 2-9). \n\nL'Université a également signé l'engagement de l'UN PRI, ce qui implique l'intégration des questions ESG dans les processus d'analyse et de décision d'investissement, ainsi que dans les politiques de propriété et de gestion (GRI 2-13). \n\nLes fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis (GRI 2-21).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion des impacts à l'organe de gouvernance. De plus, le texte de la lettre signée par la direction n'est pas disponible.",
+ "used_facts": [],
+ "judge_score": 2,
+ "faithfulness": 1.0,
+ "gri_coverage": 0.75,
+ "unsupported_claims": [],
+ "discarded_violations": [
+  "Le rapport prétend à la fois à la conformité avec GRI 2-9 et à ne pas être en mesure d'établir la composition de l'organe de gouvernance."
+ ],
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 377.7,
+ "history": [
+  {
+   "attempt": 1,
+   "draft": "### Gouvernance\n\nL'Université College Cork a mis en place un organe de gouvernance composé de membres du Students Union, d'organisations externes et d'un représentant démocratiquement élu par le personnel de l'université. Ce dernier siège sur l'autorité de gouvernance, le plus haut organe décisionnel de l'université (GRI 2-9). \n\nL'Université a également signé l'engagement de l'UN PRI, ce qui implique l'intégration des questions ESG dans les processus d'analyse et de décision d'investissement, ainsi que dans les politiques de propriété et de gestion (GRI 2-13). \n\nLes fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis (GRI 2-21).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion des impacts à l'organe de gouvernance. De plus, le texte de la lettre signée par la direction n'est pas disponible.",
+   "gen_seconds": 162.5,
+   "prompt_tokens": 1944,
+   "output_tokens": 277,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.75,
+   "lint_notes": [
+    "longueur de 152 mots : vise 180 à 300 mots"
+   ],
+   "rendered": "### Gouvernance\n\nL'Université College Cork a mis en place un organe de gouvernance composé de membres du Students Union, d'organisations externes et d'un représentant démocratiquement élu par le personnel de l'université. Ce dernier siège sur l'autorité de gouvernance, le plus haut organe décisionnel de l'université (GRI 2-9). \n\nL'Université a également signé l'engagement de l'UN PRI, ce qui implique l'intégration des questions ESG dans les processus d'analyse et de décision d'investissement, ainsi que dans les politiques de propriété et de gestion (GRI 2-13). \n\nLes fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis (GRI 2-21).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion des impacts à l'organe de gouvernance. De plus, le texte de la lettre signée par la direction n'est pas disponible.",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'Université College Cork a mis en place un organe de gouvernance composé de membres du Students Union, d'organisations externes et d'un rép",
+      "supported": true
+     },
+     {
+      "claim": "Ce dernier siège sur l'autorité de gouvernance, le plus haut organe décisionnel de l'université (GRI 2-9).",
+      "supported": true
+     },
+     {
+      "claim": "L'Université a également signé l'engagement de l'UN PRI, ce qui implique l'intégration des questions ESG dans les processus d'analyse et de",
+      "supported": true
+     },
+     {
+      "claim": "Les fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les li",
+      "supported": true
+     },
+     {
+      "claim": "Ce rapport ne peut pas établir la composition de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion",
+      "supported": true
+     },
+     {
+      "claim": "De plus, le texte de la lettre signée par la direction n'est pas disponible.",
+      "supported": true
+     }
+    ],
+    "rule_violations": [],
+    "score": 2,
+    "feedback": "",
+    "faithfulness": 1.0,
+    "seconds": 215.2,
+    "discarded_violations": [
+     "Le rapport prétend à la fois à la conformité avec GRI 2-9 et à ne pas être en mesure d'établir la composition de l'organe de gouvernance."
+    ],
+    "accepted": true
+   }
+  }
+ ],
+ "institution": "cork",
+ "section": "gouvernance",
+ "title": "Gouvernance",
+ "evidence": [
+  {
+   "credit": "PA-1",
+   "text": "Dr Maria Kirrane is the University's Head of Sustianability and Climate Action, while Sandra Barry serves as Sustainability Support Officer. Irene Ní Shúilleabháin works specifically on student engagement, as Greenshoots coordinator."
+  },
+  {
+   "credit": "PA-1",
+   "text": "The Head of Sustainability and Climate Action coordinates the Office of Sustainability and Climate Action. This office also coordinates the Green Campus Committee, Green Forum and ULT Subcommittee on Sustainability and Climate Action."
+  },
+  {
+   "credit": "PA-1",
+   "text": "The office has overall responsibility for the implementation of the plan. This includes reporting and communicating its outputs. The office embeds an ethos of sustainability across the entire campus. This is achieved through coordinating a range of university wide initiatives and programmes."
+  },
+  {
+   "credit": "PA-1",
+   "text": "- Publication of the University's Sustainability and Climate Action Plan"
+  },
+  {
+   "credit": "PA-3",
+   "text": "[n] members of the Students Union sit on the University's Governing Authority, the highest decision making body in the University."
+  },
+  {
+   "credit": "PA-3",
+   "text": "A number of representatives of external organisations are members of the University's Governing Authority "
+  },
+  {
+   "credit": "PA-3",
+   "text": "The SU have a representative that sits on autonomous committees (Societies Guild Executive and the Clubs Executive) that oversee the running of nearly all of the extracurricular activities for students in UCC. The Student Council of the Union also acts as the Student Parliament for UCC, and represents students on a number of committees including UCC's Governing Authority, Academic Council, and externally at national bodies such as the Union of Students' in Ireland (USI)."
+  },
+  {
+   "credit": "PA-3",
+   "text": "One on the UCC Governing Authority democratically elected by staff of UCC. This person may be in a managerial or non-managerial position."
+  },
+  {
+   "credit": "PA-4",
+   "text": "As a signatory of the UN PRI, UCC have agreed • To incorporate Environmental, Social and Corporate Governance (ESG) issues intoinvestment analysis and decision-making processes;• To be an active owner and to incorporate ESG issues into our ownership policiesand practices;• To seek appropriate disclosure on ESG issues by the entities in which we invest;• To promote acceptance and implementation of the Principles within theinvestment industry;• To work with the PRI Secretariat and other signatories to enhance their effectiveness in implementing the Principles;• To report on our activities and progress towards implementing the Principles."
+  },
+  {
+   "credit": "PA-5",
+   "text": "The University's funds are managed by Cantor Fitzgerald and an overview of their investment funds can be found at the following links:"
+  }
+ ]
+}
