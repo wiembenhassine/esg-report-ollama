@@ -1,0 +1,150 @@
+{
+ "prompt_hash": "f57196ff73278c3e",
+ "decision": "validée",
+ "text": "### Performance environnementale\n\n#### Énergie\n\nL'Université College Cork (UCC) a déclaré que 5,62 points ont été obtenus sur 10 possibles pour la performance énergétique, ce qui correspond à un niveau intermédiaire. \n\nL'UCC a également déclaré que 10,63 points ont été obtenus sur 16 possibles pour les émissions de gaz à effet de serre, ce qui correspond à un niveau intermédiaire.\n\n#### Eau\n\nL'UCC a déclaré que 4,67 points ont été obtenus sur 6 possibles pour la gestion de l'eau, ce qui correspond à un niveau élevé.\n\n#### Déchets\n\nL'UCC a déclaré que 3,99 points ont été obtenus sur 5 possibles pour la gestion des déchets, ce qui correspond à un niveau élevé.\n\n#### Matériaux\n\nL'UCC a déclaré que 3 points ont été obtenus sur 4 possibles pour la gestion des matériaux, ce qui correspond à un niveau élevé.\n\n#### Achats\n\nL'UCC a déclaré que 2,15 points ont été obtenus sur 7 possibles pour le système d'approvisionnement durable, ce qui correspond à un niveau faible.\n\n#### Véhicules\n\nL'UCC a déclaré que 0,67 points ont été obtenus sur 2 possibles pour la flotte de véhicules, ce qui correspond à un niveau faible.\n\n#### Transport\n\nL'UCC a déclaré que 4,83 points ont été obtenus sur 6 possibles pour la répartition modale des déplacements, ce qui correspond à un niveau élevé.\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir les émissions directes de GES (champ d'application 1) de l'UCC, car les données ne sont pas disponibles. De même, ce rapport ne peut pas établir les émissions indirectes de GES liées à l'énergie (champ d'application 2), car les méthodes utilisées ne sont pas précisées.\n\n### Limites et omissions\n\nCe rapport ne couvre",
+ "used_facts": [
+  "OP11_max",
+  "OP11_score",
+  "OP12_max",
+  "OP12_score",
+  "OP13_max",
+  "OP13_score",
+  "OP14_max",
+  "OP14_score",
+  "OP3_max",
+  "OP3_score",
+  "OP5_max",
+  "OP5_score",
+  "OP6_max",
+  "OP6_score",
+  "OP9_max",
+  "OP9_score"
+ ],
+ "judge_score": 4,
+ "faithfulness": 1.0,
+ "gri_coverage": 0.0,
+ "unsupported_claims": [],
+ "discarded_violations": [],
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 675.3,
+ "history": [
+  {
+   "attempt": 1,
+   "draft": "### Performance environnementale\n\n#### Énergie\n\nL'Université College Cork (UCC) a déclaré que {{ OP5_score }} points ont été obtenus sur {{ OP5_max }} possibles pour la performance énergétique, ce qui correspond à un niveau intermédiaire. \n\nL'UCC a également déclaré que {{ OP6_score }} points ont été obtenus sur {{ OP6_max }} possibles pour les émissions de gaz à effet de serre, ce qui correspond à un niveau intermédiaire.\n\n#### Eau\n\nL'UCC a déclaré que {{ OP3_score }} points ont été obtenus sur {{ OP3_max }} possibles pour la gestion de l'eau, ce qui correspond à un niveau élevé.\n\n#### Déchets\n\nL'UCC a déclaré que {{ OP12_score }} points ont été obtenus sur {{ OP12_max }} possibles pour la gestion des déchets, ce qui correspond à un niveau élevé.\n\n#### Matériaux\n\nL'UCC a déclaré que {{ OP11_score }} points ont été obtenus sur {{ OP11_max }} possibles pour la gestion des matériaux, ce qui correspond à un niveau élevé.\n\n#### Achats\n\nL'UCC a déclaré que {{ OP9_score }} points ont été obtenus sur {{ OP9_max }} possibles pour le système d'approvisionnement durable, ce qui correspond à un niveau faible.\n\n#### Véhicules\n\nL'UCC a déclaré que {{ OP13_score }} points ont été obtenus sur {{ OP13_max }} possibles pour la flotte de véhicules, ce qui correspond à un niveau faible.\n\n#### Transport\n\nL'UCC a déclaré que {{ OP14_score }} points ont été obtenus sur {{ OP14_max }} possibles pour la répartition modale des déplacements, ce qui correspond à un niveau élevé.\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir les émissions directes de GES (champ d'application 1) de l'UCC, car les données ne sont pas disponibles. De même, ce rapport ne peut pas établir les émissions indirectes de GES liées à l'énergie (champ d'application 2), car les méthodes utilisées ne sont pas précisées.\n\n### Limites et omissions\n\nCe rapport ne couvre",
+   "gen_seconds": 368.8,
+   "prompt_tokens": 2840,
+   "output_tokens": 520,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.0,
+   "lint_notes": [
+    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 302-1), (GRI 302-3), (GRI 303-1), (GRI 303-3)"
+   ],
+   "rendered": "### Performance environnementale\n\n#### Énergie\n\nL'Université College Cork (UCC) a déclaré que 5,62 points ont été obtenus sur 10 possibles pour la performance énergétique, ce qui correspond à un niveau intermédiaire. \n\nL'UCC a également déclaré que 10,63 points ont été obtenus sur 16 possibles pour les émissions de gaz à effet de serre, ce qui correspond à un niveau intermédiaire.\n\n#### Eau\n\nL'UCC a déclaré que 4,67 points ont été obtenus sur 6 possibles pour la gestion de l'eau, ce qui correspond à un niveau élevé.\n\n#### Déchets\n\nL'UCC a déclaré que 3,99 points ont été obtenus sur 5 possibles pour la gestion des déchets, ce qui correspond à un niveau élevé.\n\n#### Matériaux\n\nL'UCC a déclaré que 3 points ont été obtenus sur 4 possibles pour la gestion des matériaux, ce qui correspond à un niveau élevé.\n\n#### Achats\n\nL'UCC a déclaré que 2,15 points ont été obtenus sur 7 possibles pour le système d'approvisionnement durable, ce qui correspond à un niveau faible.\n\n#### Véhicules\n\nL'UCC a déclaré que 0,67 points ont été obtenus sur 2 possibles pour la flotte de véhicules, ce qui correspond à un niveau faible.\n\n#### Transport\n\nL'UCC a déclaré que 4,83 points ont été obtenus sur 6 possibles pour la répartition modale des déplacements, ce qui correspond à un niveau élevé.\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir les émissions directes de GES (champ d'application 1) de l'UCC, car les données ne sont pas disponibles. De même, ce rapport ne peut pas établir les émissions indirectes de GES liées à l'énergie (champ d'application 2), car les méthodes utilisées ne sont pas précisées.\n\n### Limites et omissions\n\nCe rapport ne couvre",
+   "used_facts": [
+    "OP11_max",
+    "OP11_score",
+    "OP12_max",
+    "OP12_score",
+    "OP13_max",
+    "OP13_score",
+    "OP14_max",
+    "OP14_score",
+    "OP3_max",
+    "OP3_score",
+    "OP5_max",
+    "OP5_score",
+    "OP6_max",
+    "OP6_score",
+    "OP9_max",
+    "OP9_score"
+   ],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "5,62 points ont été obtenus sur 10 possibles pour la performance énergétique",
+      "supported": true
+     },
+     {
+      "claim": "10,63 points ont été obtenus sur 16 possibles pour les émissions de gaz à effet de serre",
+      "supported": true
+     },
+     {
+      "claim": "4,67 points ont été obtenus sur 6 possibles pour la gestion de l'eau",
+      "supported": true
+     },
+     {
+      "claim": "3,99 points ont été obtenus sur 5 possibles pour la gestion des déchets",
+      "supported": true
+     },
+     {
+      "claim": "3 points ont été obtenus sur 4 possibles pour la gestion des matériaux",
+      "supported": true
+     },
+     {
+      "claim": "2,15 points ont été obtenus sur 7 possibles pour le système d'approvisionnement durable",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "Le rapport déclare que les émissions directes de GES (champ d'application 1) de l'UCC sont non disponibles, ce qui est incorrect car il devrait être décrit comme quelque chose que ce rapport ne peut é"
+    ],
+    "score": 4,
+    "feedback": "Supprimer la phrase 'ce rapport ne peut pas établir les émissions directes de GES (champ d'application 1) de l'UCC, car les données ne sont pas disponibles.' et la remplacer par 'ce rapport ne peut pas établir les émissions directes de GES (champ d'application 1) de l'UCC, car les données ne permettent pas.'",
+    "faithfulness": 1.0,
+    "seconds": 306.5,
+    "discarded_violations": [],
+    "accepted": true
+   }
+  }
+ ],
+ "institution": "cork",
+ "section": "environnement",
+ "title": "Performance environnementale",
+ "evidence": [
+  {
+   "credit": "OP-5",
+   "text": "This accounts for the amount of renewable (wind) power that is provided to UCC by our contracted supplier."
+  },
+  {
+   "credit": "OP-6",
+   "text": "Calculated by our contracted supplier Sustineo to GHG Protocol standards and ISO [n]-[n]. A top down method was used to assess expenditure data and identify hotspots. A bottom up methodology was then employed using primary data. UCC also submits data to the Sustainable Energy Authority of Ireland to report on the University's Climate Mandate to government. This is updated annually."
+  },
+  {
+   "credit": "OP-3",
+   "text": "In the University's Western Gateway Building, discharge water from the Ground Source Heat Pump (GSHP) is used to fill water storage tanks used in the flushing of toilets "
+  },
+  {
+   "credit": "OP-12",
+   "text": "Non-hazardous waste data is collected on behalf of UCC, by the University's contracted waste provider, Panda. Data on Construction and Demolition waste is provided by the contracted construction company."
+  },
+  {
+   "credit": "OP-11",
+   "text": "The Health and Safety Office at UCC maintains protocols and training resources for the safe disposal of chemical and biological hazardous wastes. An example of one such protocol is here: "
+  },
+  {
+   "credit": "OP-9",
+   "text": "[n]% would be the average of points assigned to sustainability. In some cases, where there is a very strong environmental impact associated with a certain activity the amount will be much higher, for example the [n] waste tender assigned [n]% of points for sustainability."
+  },
+  {
+   "credit": "OP-10",
+   "text": "Includes computers, servers, AV equipment, network switches. EPEAT Sustainability certification."
+  },
+  {
+   "credit": "OP-2",
+   "text": "UCC has been certified to ISO[n] since [n]. Annual reviews are carried out to identify the significant energy users (SEU's) across UCC as well as the variables and people that can significantly impact them. To determine the SEU's the following process is applied:"
+  },
+  {
+   "credit": "OP-13",
+   "text": "UCC's fleet inventory is relatively small, consisting of [n] work vehicles with a combined annual mileage of under [n] km. Emissions from this fleet account for less than [n]% of UCC's total annual energy-related emissions, while a further [n]% is attributed to fuel consumed by the Park & Ride service. Of the [n] vehicles, [n] are fully electric. The remaining [n] serve operational functions that are not yet suitable for electrification; however, as these vehicles reach the end of their service life, the University will assess technical options to transition them to electric alternatives where technical solutions are available."
+  },
+  {
+   "credit": "OP-14",
+   "text": "A staff travel survey is conducted every year by the commuter plan manager. The survey is shared to all staff via the All Exchange Users email survey. UCC Green Campus also shares via social media accounts. The data presented here are based on the [n] survey."
+  }
+ ]
+}
