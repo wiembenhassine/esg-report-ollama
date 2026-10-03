@@ -197,50 +197,25 @@ L'université a mis en place des partenariats avec des organisations communautai
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-*Section de repli générée par le code : aucune version rédigée par le modèle n'a passé la validation.*
+#### Énergie
 
-### Résultats STARS des crédits concernés
-- OP-5 — Energy Use : 6,87 / 10 points
-- OP-6 — Greenhouse Gas Emissions : 8,01 / 16 points
-- OP-3 — Water Use : 2,43 / 7 points
-- OP-12 — Waste Generation and Recovery : 3,27 / 5 points
-- OP-11 — Materials Management : 3,75 / 4 points
-- OP-9 — Sustainable Procurement System : 7 / 7 points
-- OP-10 — Purchased Goods : 2,8 / 4 points
-- OP-1 — Building Design and Construction : 2,91 / 3 points
-- OP-2 — Building Operations and Maintenance : 4 / 5 points
-- OP-13 — Vehicle Fleet : 0,28 / 2 points
-- OP-14 — Commute Modal Split : 4,89 / 6 points
-- OP-15 — Air Travel : 2 / 2 points
+L'université de Californie à Berkeley a déclaré que l'énergie renouvelable représente une partie importante de sa consommation d'énergie, notamment grâce au programme UC Clean Power qui intègre des sources d'énergie certifiées et non certifiées. Cependant, la consommation d'énergie au sein de l'organisation n'est pas évaluée en référence aux normes GRI 302-1.
 
-### Statut des publications GRI
-- GRI 301-1 Matières utilisées par poids ou par volume : non rapporté.
-- GRI 301-2 Matières recyclées utilisées : non rapporté.
-- GRI 301-3 Produits et emballages récupérés : non rapporté.
-- GRI 302-1 Consommation d'énergie au sein de l'organisation : non évalué.
-- GRI 302-2 Consommation d'énergie en dehors de l'organisation : non rapporté.
-- GRI 302-3 Intensité énergétique : non évalué.
-- GRI 302-4 Réduction de la consommation énergétique : non rapporté.
-- GRI 302-5 Réduction des besoins énergétiques des produits et services : non rapporté.
-- GRI 303-1 Interactions avec l'eau en tant que ressource partagée : partiellement rapporté.
-- GRI 303-2 Gestion des impacts liés aux rejets d'eau : non rapporté.
-- GRI 303-3 Prélèvement d'eau : non évalué.
-- GRI 303-4 Rejets d'eau : non rapporté.
-- GRI 303-5 Consommation d'eau : non rapporté.
-- GRI 305-1 Émissions directes de GES (champ d'application 1) : non évalué.
-- GRI 305-2 Émissions indirectes de GES liées à l'énergie (champ d'application 2) : non évalué.
-- GRI 305-3 Autres émissions indirectes de GES (champ d'application 3) : non évalué.
-- GRI 305-4 Intensité des émissions de GES : non évalué.
-- GRI 305-5 Réduction des émissions de GES : non évalué.
-- GRI 305-6 Émissions de substances appauvrissant la couche d'ozone : non rapporté.
-- GRI 305-7 NOx, SOx et autres émissions atmosphériques significatives : non rapporté.
-- GRI 306-1 Production de déchets et impacts significatifs liés aux déchets : non rapporté.
-- GRI 306-2 Gestion des impacts significatifs liés aux déchets : partiellement rapporté.
-- GRI 306-3 Déchets générés : non évalué.
-- GRI 306-4 Déchets détournés de l'élimination : non évalué.
-- GRI 306-5 Déchets destinés à l'élimination : non évalué.
-- GRI 308-1 Nouveaux fournisseurs évalués selon des critères environnementaux : partiellement rapporté.
-- GRI 308-2 Impacts environnementaux négatifs dans la chaîne d'approvisionnement : non rapporté.
+#### Eau
+
+L'université a mis en place plusieurs systèmes de récupération d'eau de pluie, notamment le Hearst Field Annex Rainwater Harvesting System et le Bioswale Project, ainsi que le projet de récupération d'eau de pluie et de réutilisation du Chou Hall à la Haas School of Business. Cependant, les interactions avec l'eau en tant que ressource partagée ne sont pas pleinement rapportées en référence aux normes GRI 303-1.
+
+#### GES
+
+L'université a déclaré que les émissions directes de GES sont calculées en tenant compte des retraits d'offsets. Cependant, les émissions directes de GES ne sont pas évaluées en référence aux normes GRI 305-1.
+
+#### Déchets
+
+L'université a mis en place un système de compostage intégré à ses systèmes de collecte, qui est ensuite envoyé à un centre de compostage industriel. Cependant, la gestion des impacts significatifs liés aux déchets et les déchets générés ne sont pas pleinement rapportés en référence aux normes GRI 306-2 et GRI 306-3.
+
+#### Fournisseurs
+
+L'université a déclaré que les nouveaux fournisseurs évalués selon des critères environnementaux sont un aspect important de sa stratégie de durabilité. Cependant, les nouveaux fournisseurs évalués selon des critères environnementaux ne sont pas pleinement rapportés en référence aux normes GRI 308-1.
 
 ## Performance sociale et économique
 
@@ -483,11 +458,11 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 | Gouvernance | <span class="badge ok">validée</span> | 2 | 0 | 3/5 | 83% | 100% | 12.9 min |
 | Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 1 | 0 | 2/5 | 100% | 50% | 7.2 min |
 | Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 7.4 min |
-| Performance environnementale | <span class="badge no">repli</span> | 2 | 0 | —/5 |  |  | 16.7 min |
+| Performance environnementale | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 100% | 43% | 18.4 min |
 | Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 3/5 | 83% | 62% | 8.7 min |
 | Enseignement, recherche et engagement (hors GRI) | <span class="badge part">à relire</span> | 2 | 0 | 3/5 | 67% | 100% | 12.8 min |
 
-**Bilan :** 6 section(s) validée(s) sur 8 ; fidélité moyenne 88% ; 1 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
+**Bilan :** 7 section(s) validée(s) sur 8 ; fidélité moyenne 90% ; 1 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
 4 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
 
