@@ -11,12 +11,13 @@ import datetime as dt
 import html
 import shutil
 import subprocess
+import time
 from pathlib import Path
 
 import markdown
 
 from esg import facts, gri_index, sources
-from esg.config import GEN_MODEL, INSTITUTIONS, OUTPUTS, report_url
+from esg.config import GEN_MODEL, INSTITUTIONS, OUTPUTS, PROCESSED, report_url
 
 PILLAR_ORDER = [("ENV", "Environnement"), ("SOC", "Social"), ("GOV", "Gouvernance"),
                 ("CTX", "Enseignement, recherche et engagement")]
@@ -290,10 +291,22 @@ def to_pdf(html_path: Path) -> Path | None:
     exe = browser()
     if not exe:
         return None
-    pdf = html_path.with_suffix(".pdf")
-    subprocess.run([exe, "--headless", "--disable-gpu", "--no-pdf-header-footer",
-                    f"--print-to-pdf={pdf}", html_path.resolve().as_uri()],
+    pdf = html_path.resolve().with_suffix(".pdf")       # Edge ne partage pas notre dossier courant
+    pdf.unlink(missing_ok=True)
+    # Profil dédié : sinon une fenêtre Edge déjà ouverte intercepte la commande et rien n'est écrit.
+    profile = PROCESSED / "edge_profile"
+    subprocess.run([exe, "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
+                    f"--user-data-dir={profile}", f"--print-to-pdf={pdf}", html_path.resolve().as_uri()],
                    check=False, timeout=180, capture_output=True)
+    # Le lanceur d'Edge rend la main tout de suite : attendre que le PDF soit écrit et stable.
+    deadline, last = time.time() + 120, -1
+    while time.time() < deadline:
+        if pdf.exists():
+            size = pdf.stat().st_size
+            if size > 0 and size == last:
+                return pdf
+            last = size
+        time.sleep(1)
     return pdf if pdf.exists() else None
 
 

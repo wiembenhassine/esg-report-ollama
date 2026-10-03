@@ -62,8 +62,15 @@ FIDÉLITÉ
 
 FORME
 - Markdown, entre 180 et 300 mots, deux à quatre sous-titres « ### », pas de titre principal.
-- Chaque paragraphe cite entre parenthèses la ou les publications GRI qu'il traite, prises dans la liste
-  STATUTS. Exemple : « Le périmètre de reporting couvre le campus principal et ses sites rattachés (GRI 2-2). »
+- Chaque paragraphe se termine par la référence entre parenthèses de la publication GRI qu'il traite,
+  prise dans la liste STATUTS, sous la forme (GRI X-Y).
+
+CONTENU ATTENDU
+- La plus grande partie du texte décrit CONCRÈTEMENT ce que l'établissement déclare dans le CONTEXTE :
+  organes, plans, politiques, dispositifs, sites, en les nommant tels qu'ils apparaissent (noms propres
+  conservés en anglais si besoin), reformulés en français. Pas de phrases génériques valables pour
+  n'importe quelle université.
+- Puis la sous-partie « Limites et omissions » explique ce que les données ne permettent pas d'établir.
 - Termine par un sous-titre « ### Limites et omissions » qui résume ce que les données ne couvrent pas.
 - Pas d'introduction générique, pas de conclusion, pas de liste de sources."""
 

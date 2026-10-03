@@ -14,3 +14,6 @@ data/processed/embeddings*
 
 # journaux d'exécution
 outputs/logs/
+
+# profil Edge utilisé pour l'export PDF
+data/processed/edge_profile/

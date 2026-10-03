@@ -65,7 +65,11 @@ ollama pull nomic-embed-text
 ```
 
 Sorties dans `outputs/<université>/` : `rapport_*.md`, `.html`, `.pdf` (via Edge headless)
-et `provenance.csv` (chaque chiffre → crédit, champ, URL STARS). Les sections validées sont
+et `provenance.csv` (chaque chiffre → crédit, champ, URL STARS) ; `outputs/comparatif/` pour la
+synthèse comparative ; `outputs/tableau_de_bord.html` pour le **tableau de bord BI** (page autonome,
+hors ligne : scores par pilier, couverture GRI, carte de chaleur des crédits, résultats de la
+validation ; thèmes clair et sombre, infobulles, vues tableau). Il se régénère seul avec
+`python -m esg.dashboard`. Les sections validées sont
 en cache (`outputs/cache/`) : une relance ne recalcule que ce qui a changé.
 
 **Durée.** Sans GPU, `llama3.1:8b` produit 2 à 4 tokens/s : compter 5 à 15 min par section
@@ -105,6 +109,7 @@ esg/
   judge.py         juge LLM + règles déterministes (module ⑥)
   generate.py      boucle rédaction -> validation -> régénération
   render.py        Markdown, HTML, PDF, index GRI, annexe de validation, provenance
+  dashboard.py     tableau de bord BI (HTML autonome, sans LLM)
   pipeline.py      commande principale
 mapping/gri_map.yaml   correspondance STARS -> GRI écrite à la main
 data/raw/              données de Hakim (scores, scorecards, récits, corpus ESG)

@@ -20,8 +20,10 @@ import re
 from esg import llm
 from esg.config import JUDGE_MODEL
 
-ACCEPT_SCORE = 4
-ACCEPT_FAITHFULNESS = 0.75
+# Acceptation : la fidélité (part des affirmations supportées) prime ; la note globale d'un juge 8B
+# est bruitée, d'où un seuil de 3/5. Les règles de forme sont déjà vérifiées par le code (lint).
+ACCEPT_SCORE = 3
+ACCEPT_FAITHFULNESS = 0.8
 
 FORBIDDEN = [
     (re.compile(r"conforme? aux normes GRI|en conformité avec (les )?(normes )?GRI|in accordance with", re.I),
@@ -44,9 +46,9 @@ def lint(text: str, section_codes: list[str]) -> tuple[list[str], list[str], flo
     """
     blocking, notes = [], []
     words = len(text.split())
-    if words < 80 or words > 500:
+    if words < 120 or words > 500:
         blocking.append(f"longueur aberrante ({words} mots) : vise 180 à 300 mots")
-    elif not 150 <= words <= 380:
+    elif not 160 <= words <= 380:
         notes.append(f"longueur de {words} mots : vise 180 à 300 mots")
     fr, en = len(FR_WORDS.findall(text)), len(EN_WORDS.findall(text))
     if en > 0.25 * max(fr, 1):
@@ -71,15 +73,18 @@ Procedure:
    "supported": true only if the SOURCES state it (the VALUES table, the GRI status list, the vigilance
    points or the STARS excerpts). Names of programmes, bodies, policies or plans that do not appear in the
    sources are NOT supported. Generic framing sentences about GRI or STARS are supported.
-2. List rule violations:
-   - the report must say "en référence aux normes GRI", never claim compliance;
-   - a missing disclosure must be described as something this report cannot establish, never as something
-     the university failed to do;
+2. List rule violations (only real ones; an empty list is normal):
+   - the report must never claim compliance with GRI;
+   - a missing disclosure must be described as something this report cannot establish. The wordings
+     "ce rapport ne peut pas établir", "STARS ne collecte pas", "les données ne permettent pas" are the
+     REQUIRED wordings and are never a violation. Saying the university failed to do something IS a violation;
    - every vigilance point given must be respected;
-   - the GRI status of a disclosure must match the status list;
+   - the section must not present a disclosure as fully reported when the status list says otherwise
+     (the section does not have to restate every status);
    - qualitative levels (élevé, faible...) must match the VALUES table.
 3. Give a score from 1 (unfaithful) to 5 (fully faithful and compliant).
-4. Write "feedback": precise instructions IN FRENCH telling the writer what to remove or fix. Empty if score is 5.
+4. Write "feedback": precise instructions IN FRENCH telling the writer what to remove or fix, consistent with
+   the rules above (never ask to replace a required wording). Empty if score is 5.
 Return JSON only."""
 
 SCHEMA = {

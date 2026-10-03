@@ -17,7 +17,7 @@ import json
 import sys
 import time
 
-from esg import facts, generate, gri_index, rag, render
+from esg import dashboard, facts, generate, gri_index, rag, render
 from esg.config import INSTITUTIONS, OUTPUTS
 
 
@@ -90,6 +90,7 @@ def main() -> None:
         out = render.write("comparatif", render.comparison_md(comp), "Synthèse comparative ESG")
         print(f"   -> {out['md'].name}, {out['pdf'].name if out['pdf'] else 'PDF non généré'}")
 
+    dashboard.main()
     print(f"\nTerminé en {(time.time() - t0) / 60:.1f} min. Rapports dans {OUTPUTS}")
 
 
