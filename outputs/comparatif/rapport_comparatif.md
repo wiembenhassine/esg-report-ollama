@@ -20,21 +20,17 @@
 
 ## Analyse
 
-<p class="review">Section à relire : validation automatique incomplète.</p>
-Cette section présente une synthèse comparative de leurs performances dans les différents piliers.
+### Comparaison des établissements
 
-### Résultats STARS par pilier
+Cependant, il est important de prendre en compte les différences dans le périmètre de reporting, les scores STARS étant autodéclarés et notés par rapport à un groupe de pairs.
 
-- **Pilier Environnement** : Berkeley et Cork ont obtenu des notes intermédiaires, tandis que TU Dublin a également obtenu une note intermédiaire. (GRI 305-1)
-- **Pilier Social** : Berkeley et Cork ont obtenu des notes élevées, tandis que TU Dublin a également obtenu une note élevée. (GRI 305-1)
-- **Pilier Gouvernance** : Berkeley et Cork ont obtenu des notes élevées, tandis que TU Dublin a obtenu une note intermédiaire en raison de sa situation spécifique sans fonds de dotation. (GRI 305-1)
-- **Pilier Enseignement, recherche et engagement** : Berkeley, Cork et TU Dublin ont obtenu des notes élevées. (GRI 305-1)
+Les écarts entre les établissements ne permettent pas de conclure à des différences de performance purement techniques. Par exemple, la différence entre les scores de University of California, Berkeley et University College Cork peut être due en partie à la différence dans le périmètre de reporting, Cork excluant ses filiales. De même, les scores de Technological University Dublin doivent être interprétés en tenant compte de son absence de fonds de dotation, ce qui change la base de son pilier Gouvernance.
 
-### Limites de la comparaison
+Il est également important de noter que les dates de soumission diffèrent d'un établissement à l'autre, ce qui peut avoir un impact sur la comparaison des scores. Enfin, les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ce qui signifie qu'ils ne sont pas vérifiés par l'AASHE.
 
-- Les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ce qui signifie qu'ils ne sont pas vérifiés par l'AASHE.
-- TU Dublin n'a pas de fonds de dotation, ce qui change la base de son pilier Gouvernance.
-- Les dates de soumission diffèrent d'un établissement à l'autre.
+### Limites et omissions
+
+Ce rapport ne peut pas établir une comparaison directe entre les établissements en raison des différences dans le périmètre de reporting et les scores STARS. De plus, les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ce qui signifie qu'ils ne sont pas vérifiés par l'AASHE. Enfin, les dates de soumission diffèrent d'un établissement à l'autre, ce qui peut avoir un impact sur la comparaison des scores.
 
 ## Validation
 
@@ -42,8 +38,8 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 
 | Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |
 |---|---|:-:|:-:|:-:|:-:|:-:|--:|
-| Synthèse comparative | <span class="badge part">à relire</span> | 2 | 1 | 2/5 | 100% | 100% | 8.7 min |
+| Synthèse comparative | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 80% | 100% | 7.7 min |
 
-**Bilan :** 0 section(s) validée(s) sur 1 ; fidélité moyenne 100% ; 1 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
+**Bilan :** 1 section(s) validée(s) sur 1 ; fidélité moyenne 80% ; 1 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
-3 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
+1 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.

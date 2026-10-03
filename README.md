@@ -13,13 +13,16 @@ et chaque section passe par un **module de validation** avant d'entrer dans le r
 | Sections validées par le juge | 7 / 8 | 7 / 8 | 7 / 8 |
 | Sections « à relire » (validation humaine) | 1 | 1 | 1 |
 | Sections en texte de repli | 0 | 0 | 0 |
-| Fidélité moyenne (affirmations supportées) | 90 % | 92 % | 90 % |
+| Fidélité moyenne (affirmations supportées) | 90 % | 92 % | 92 % |
+| Section « à relire » | enseignement | social | stratégie |
 | Chiffres tracés dans `provenance.csv` | 104 | 124 | 121 |
 | Temps de génération | 78 min | 79 min | 92 min |
 
-Sur les 24 sections : 36 tentatives au total, 20 phrases contenant un nombre retirées par le
+Sur les 24 sections : 35 tentatives au total, 19 phrases contenant un nombre retirées par le
 garde-fou, 11 violations signalées par le juge écartées car contredites par le contrôle
-déterministe. **Aucun nombre du texte final n'a été écrit par le modèle** (vérifié par
+déterministe (relues une à une : une seule était réelle, la section a été régénérée et le
+filtre resserré). La synthèse comparative est validée (juge 4/5, fidélité 80 %).
+**Aucun nombre du texte final n'a été écrit par le modèle** (vérifié par
 `tests/test_reports.py`). Livrables : `outputs/<université>/rapport_*.pdf`,
 `outputs/comparatif/`, `outputs/tableau_de_bord.html`.
 
