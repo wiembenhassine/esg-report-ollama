@@ -1,0 +1,117 @@
+{
+ "prompt_hash": "d5769102f6b5f66d",
+ "decision": "validée",
+ "text": "### Performance sociale et économique\n\n#### Politiques et dispositifs\n\nLe University of California, Berkeley, a mis en place des politiques et dispositifs pour promouvoir l'équité salariale et le salaire minimum. Le rapport STARS mentionne que l'université utilise le Massachusetts Institute of Technology Living Wage Calculator pour déterminer le salaire minimum. Les employés doivent également respecter les exigences de la politique sur les congés familiaux et médicaux (GRI 401-3).\n\nL'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de congés et de santé et de sécurité au travail. Le rapport STARS mentionne que l'université a une politique de congés familiaux et médicaux qui respecte les exigences de la loi (GRI 401-1).\n\n#### Système de management de la santé et de la sécurité au travail\n\nLe rapport STARS mentionne que l'université a mis en place un système de management de la santé et de la sécurité au travail, mais il ne fournit pas d'informations sur la réglementation ou la norme suivie (GRI 403-1).\n\n#### Services de santé au travail\n\nLe rapport STARS mentionne que l'université offre des services de santé généraux, mais il ne fournit pas d'informations sur les services de santé au travail spécifiques (GRI 403-3).\n\n#### Participation et consultation des travailleurs en santé et sécurité\n\nLe rapport STARS mentionne que l'université a un comité de santé et de sécurité, mais il ne fournit pas d'informations sur la fréquence des réunions ou le pouvoir de décision des travailleurs (GRI 403-4).\n\n#### Promotion de la santé des travailleurs\n\nLe rapport STARS mentionne que l'université a mis en place des programmes pour promouvoir la santé des travailleurs, mais il ne fournit pas d'informations sur les détails de ces programmes (GRI 403-6).\n\n#### Diversité des organes de gouvernance et des salariés\n\nLe rapport STARS mentionne que l'université a mis en place un indice de diversité, mais il ne fournit pas d'informations sur la ventilation en pourcentages demandée ou les données d'âge (GRI",
+ "used_facts": [],
+ "judge_score": 3,
+ "faithfulness": 0.83,
+ "gri_coverage": 0.62,
+ "unsupported_claims": [
+  "L'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de cong"
+ ],
+ "discarded_violations": [],
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 519.4,
+ "history": [
+  {
+   "attempt": 1,
+   "draft": "### Performance sociale et économique\n\n#### Politiques et dispositifs\n\nLe University of California, Berkeley, a mis en place des politiques et dispositifs pour promouvoir l'équité salariale et le salaire minimum. Le rapport STARS mentionne que l'université utilise le Massachusetts Institute of Technology Living Wage Calculator pour déterminer le salaire minimum. Les employés doivent également respecter les exigences de la politique sur les congés familiaux et médicaux (GRI 401-3).\n\nL'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de congés et de santé et de sécurité au travail. Le rapport STARS mentionne que l'université a une politique de congés familiaux et médicaux qui respecte les exigences de la loi (GRI 401-1).\n\n#### Système de management de la santé et de la sécurité au travail\n\nLe rapport STARS mentionne que l'université a mis en place un système de management de la santé et de la sécurité au travail, mais il ne fournit pas d'informations sur la réglementation ou la norme suivie (GRI 403-1).\n\n#### Services de santé au travail\n\nLe rapport STARS mentionne que l'université offre des services de santé généraux, mais il ne fournit pas d'informations sur les services de santé au travail spécifiques (GRI 403-3).\n\n#### Participation et consultation des travailleurs en santé et sécurité\n\nLe rapport STARS mentionne que l'université a un comité de santé et de sécurité, mais il ne fournit pas d'informations sur la fréquence des réunions ou le pouvoir de décision des travailleurs (GRI 403-4).\n\n#### Promotion de la santé des travailleurs\n\nLe rapport STARS mentionne que l'université a mis en place des programmes pour promouvoir la santé des travailleurs, mais il ne fournit pas d'informations sur les détails de ces programmes (GRI 403-6).\n\n#### Diversité des organes de gouvernance et des salariés\n\nLe rapport STARS mentionne que l'université a mis en place un indice de diversité, mais il ne fournit pas d'informations sur la ventilation en pourcentages demandée ou les données d'âge (GRI",
+   "gen_seconds": 264.9,
+   "prompt_tokens": 2235,
+   "output_tokens": 520,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.62,
+   "lint_notes": [],
+   "rendered": "### Performance sociale et économique\n\n#### Politiques et dispositifs\n\nLe University of California, Berkeley, a mis en place des politiques et dispositifs pour promouvoir l'équité salariale et le salaire minimum. Le rapport STARS mentionne que l'université utilise le Massachusetts Institute of Technology Living Wage Calculator pour déterminer le salaire minimum. Les employés doivent également respecter les exigences de la politique sur les congés familiaux et médicaux (GRI 401-3).\n\nL'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de congés et de santé et de sécurité au travail. Le rapport STARS mentionne que l'université a une politique de congés familiaux et médicaux qui respecte les exigences de la loi (GRI 401-1).\n\n#### Système de management de la santé et de la sécurité au travail\n\nLe rapport STARS mentionne que l'université a mis en place un système de management de la santé et de la sécurité au travail, mais il ne fournit pas d'informations sur la réglementation ou la norme suivie (GRI 403-1).\n\n#### Services de santé au travail\n\nLe rapport STARS mentionne que l'université offre des services de santé généraux, mais il ne fournit pas d'informations sur les services de santé au travail spécifiques (GRI 403-3).\n\n#### Participation et consultation des travailleurs en santé et sécurité\n\nLe rapport STARS mentionne que l'université a un comité de santé et de sécurité, mais il ne fournit pas d'informations sur la fréquence des réunions ou le pouvoir de décision des travailleurs (GRI 403-4).\n\n#### Promotion de la santé des travailleurs\n\nLe rapport STARS mentionne que l'université a mis en place des programmes pour promouvoir la santé des travailleurs, mais il ne fournit pas d'informations sur les détails de ces programmes (GRI 403-6).\n\n#### Diversité des organes de gouvernance et des salariés\n\nLe rapport STARS mentionne que l'université a mis en place un indice de diversité, mais il ne fournit pas d'informations sur la ventilation en pourcentages demandée ou les données d'âge (GRI",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "Le University of California, Berkeley, a mis en place des politiques et dispositifs pour promouvoir l'équité salariale et le salaire minimum",
+      "supported": true
+     },
+     {
+      "claim": "Les employés doivent également respecter les exigences de la politique sur les congés familiaux et médicaux (GRI 401-3)",
+      "supported": true
+     },
+     {
+      "claim": "L'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de cong",
+      "supported": false
+     },
+     {
+      "claim": "Le rapport STARS mentionne que l'université a mis en place un système de management de la santé et de la sécurité au travail, mais il ne",
+      "supported": true
+     },
+     {
+      "claim": "Le rapport STARS mentionne que l'université offre des services de santé généraux, mais il ne fournit pas d'informations sur les services",
+      "supported": true
+     },
+     {
+      "claim": "Le rapport STARS mentionne que l'université a un comité de santé et de sécurité, mais il ne fournit pas d'informations sur la fréquence",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "L'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de congés et de santé et de sécurité au travail. Le rapport STARS n",
+     "Le rapport STARS mentionne que l'université a mis en place un système de management de la santé et de la sécurité au travail, mais il ne fournit pas d'informations sur la réglementation ou la norme su"
+    ],
+    "score": 3,
+    "feedback": "Supprimer les phrases non étayées par les sources. Pour GRI 401-3, utiliser le wording requis : 'ce rapport ne peut pas établir'.",
+    "faithfulness": 0.83,
+    "seconds": 254.4,
+    "discarded_violations": [],
+    "accepted": true
+   }
+  }
+ ],
+ "institution": "berkeley",
+ "section": "social",
+ "title": "Performance sociale et économique",
+ "evidence": [
+  {
+   "credit": "PA-13",
+   "text": "The instructions say to use the Massachusetts Institute of Technology Living Wage Calculator. and when Berkeley is inserted, the living wage for [n] adults and [n] children is $[n]/hr. The campus composite benefits rate for staff members is currently [n]%. Hence, to qualify for an hourly living wage, the hourly rate must be at least $[n]/hr, when incorporating the [n]% CBR."
+  },
+  {
+   "credit": "PA-12",
+   "text": "Employees would have to meet requirements for Family and Medical Leave (FML) Policy."
+  },
+  {
+   "credit": "PA-12",
+   "text": "UC Berkeley Human Resources Policies: UC Berkeley has a dedicated section on its Human Resources website that outlines policies related to employee rights, including fair treatment, grievance procedures, and work-life balance. The policies cover areas like anti-discrimination, whistleblower protection, and employee benefits, offering a transparent overview of employee rights and support. University of California Statement of Ethical Values and Standards of Ethical Conduct: This is a comprehensive code that applies to all UC campuses, including Berkeley. It highlights the university's commitment to integrity, respect, and accountability in its relations with employees. Union Representation an"
+  },
+  {
+   "credit": "PA-11",
+   "text": "Source: Gretchen Scott, Workers' Compensation/Disability Manager"
+  },
+  {
+   "credit": "PA-8",
+   "text": "Lasana Hotep, Director of Diversity, Equity, Inclusion & Belonging"
+  },
+  {
+   "credit": "PA-7",
+   "text": "Equity Data Initiatives in Equity & Inclusion"
+  },
+  {
+   "credit": "PA-9",
+   "text": "Data is from IPEDS, % of all undergraduate students receiving Pell Grants for academic year [n]-[n] (most recent year publicly available)."
+  },
+  {
+   "credit": "PA-6",
+   "text": "Race/Ethnicity-Based Employee Organiazations include Alianza, Asian Pacific American Systemwide Alliance, Black Staff & Faculty Organization, MENASA, and Native & Indigenous Council"
+  },
+  {
+   "credit": "PA-6",
+   "text": "Programs to support women: Gender Equity Resource Center (GenEq), the Empowering Womxn in STEAM (WiSE) Theme Program, and the AWE Mentorship Program"
+  },
+  {
+   "credit": "PA-10",
+   "text": "Source: Sereeta Alexander - Executive Director, Office of Planning and Analysis"
+  }
+ ]
+}

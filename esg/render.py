@@ -16,7 +16,7 @@ from pathlib import Path
 
 import markdown
 
-from esg import facts, gri_index, sources
+from esg import facts, gri_index, guard, sources
 from esg.config import GEN_MODEL, INSTITUTIONS, OUTPUTS, PROCESSED, report_url
 
 PILLAR_ORDER = [("ENV", "Environnement"), ("SOC", "Social"), ("GOV", "Gouvernance"),
@@ -182,9 +182,37 @@ def validation_md(results: list[dict]) -> str:
     return "\n".join(md)
 
 
+def section_indicators(key: str, sec_id: str) -> tuple[str, list[str]]:
+    """Tableau des scores STARS des crédits d'une section, écrit par le code."""
+    f, b = facts.load(key), facts.bands(key)
+    codes = [c for c in gri_index.section(sec_id)["credits"] if facts.credit_var(c) + "_score" in f]
+    if not codes:
+        return "", []
+    md = ["| Crédit STARS | Points obtenus | Niveau |", "|---|---:|---|"]
+    used = []
+    for c in codes:
+        v = facts.credit_var(c)
+        md.append(f"| {c} — {esc(f[v + '_score']['label'].split('— ', 1)[-1])} | "
+                  f"{f[v + '_score']['display']} / {f[v + '_max']['display']} | {b.get(c, '')} |")
+        used += [v + "_score", v + "_max"]
+    md.append("")
+    md.append("*Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le "
+              "modèle puis validé.*")
+    return "\n".join(md), used
+
+
 def provenance(key: str, results: list[dict]) -> list[dict]:
     f = facts.load(key)
     rows = []
+    synth = ["STARS_score", "STARS_date"] + [f"{p}_{s}" for p, _ in PILLAR_ORDER for s in ("points", "max", "pct")]
+    for fid in synth:
+        if fid in f:
+            rows.append({"section": "Synthèse des résultats STARS", "fact_id": fid, "display": f[fid]["display"],
+                         "raw_value": f[fid]["raw_value"], "label": f[fid]["label"], "source": f[fid]["source"]})
+    for r in results:
+        for fid in section_indicators(key, r["section"])[1]:
+            rows.append({"section": f"{r['title']} (indicateurs)", "fact_id": fid, "display": f[fid]["display"],
+                         "raw_value": f[fid]["raw_value"], "label": f[fid]["label"], "source": f[fid]["source"]})
     for r in results:
         for fid in r["used_facts"]:
             fact = f[fid]
@@ -211,7 +239,10 @@ def report_md(key: str, results: list[dict]) -> str:
                          '(voir l\'annexe « Validation du rapport »).</p>')
         if r["section"] == "enseignement":
             parts.append(f"> {gri_index.section('enseignement')['gap_note']}\n")
-        parts.append(r["text"])
+        table, _ = section_indicators(key, r["section"])
+        if table:
+            parts += [table, ""]
+        parts.append(guard.tidy(r["text"], r["title"]))
     parts += ["", "## Index de contenu GRI", "", gri_index_md(key),
               "", "## Annexe — Validation du rapport", "", validation_md(results),
               "", "## Vérifier ce rapport", "",
@@ -244,7 +275,7 @@ def comparison_md(comp: dict) -> str:
            "", "## Analyse", ""]
     if comp["decision"] == "à relire":
         md.append('<p class="review">Section à relire : validation automatique incomplète.</p>')
-    md += [comp["text"], "", "## Validation", "", validation_md([comp])]
+    md += [guard.tidy(comp["text"], comp["title"]), "", "## Validation", "", validation_md([comp])]
     return "\n".join(md)
 
 

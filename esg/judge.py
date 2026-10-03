@@ -30,6 +30,9 @@ FORBIDDEN = [
      "écrire « en référence aux normes GRI », jamais « conforme » ou « en conformité »"),
     (re.compile(r"n'a (pas|jamais) (réalisé|mené|conduit|effectué|procédé)[^.]{0,40}matérialité", re.I),
      "ne jamais affirmer que l'université n'a pas mené d'analyse de matérialité : écrire que ce rapport ne peut pas l'établir"),
+    (re.compile(r"\bn'a (pas|jamais) (fourni|communiqué|publié|déclaré|transmis)", re.I),
+     "ne pas écrire que l'université « n'a pas fourni » une information : écrire que STARS ne la collecte pas "
+     "ou que ce rapport ne peut pas l'établir"),
     (re.compile(r"\b(certifié|audité|vérifié) par (un tiers|l'AASHE)", re.I),
      "les données STARS sont autodéclarées et non vérifiées : ne pas les présenter comme auditées"),
 ]

@@ -99,6 +99,22 @@ def repair(text: str, allowed: set[str]) -> tuple[str, list[str]]:
     return re.sub(r"\n{3,}", "\n\n", "\n".join(kept_lines)).strip(), removed
 
 
+def tidy(text: str, section_title: str = "") -> str:
+    """Nettoyage de forme par le code (suppression uniquement, aucun mot ajouté) :
+    titre de section répété, marqueurs « ### ### » doublés, phrase finale coupée par la
+    limite de longueur du modèle, titre final resté sans contenu."""
+    lines = text.strip().splitlines()
+    while lines and lines[0].lstrip("#").strip().lower() in {section_title.lower(), ""} and lines[0].startswith("#"):
+        lines.pop(0)
+    lines = [re.sub(r"^(#{2,6})(\s+#{1,6})+\s+", r"\1 ", l) for l in lines]
+    text = "\n".join(lines).strip()
+    if text and not re.search(r"[.!?»)\]]\s*$", text):          # fin coupée : on retire la phrase incomplète
+        cut = max(text.rfind(". "), text.rfind(".\n"), text.rfind("\n\n"))
+        text = text[:cut + 1] if cut > 0 else text
+    text = re.sub(r"(\n#{2,6} [^\n]*\s*)+$", "", text.rstrip())  # titre final sans contenu
+    return text.strip()
+
+
 FR_NUMBER = re.compile(r"\d{1,3}(?:[   ]\d{3})*(?:,\d+)?|\d+(?:,\d+)?")
 
 
