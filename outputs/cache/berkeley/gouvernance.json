@@ -1,0 +1,157 @@
+{
+ "prompt_hash": "31f6bd2c37d561aa",
+ "decision": "validée",
+ "text": "### Gouvernance\n\n#### Structure et composition de la gouvernance\n\nL'Université de Californie à Berkeley (UC Berkeley) dispose d'un organe de gouvernance composé du Conseil des régents de l'Université de Californie, qui est l'autorité suprême de l'université. Ce conseil est responsable de la fixation des politiques, des finances et de la planification stratégique de l'université. (GRI 2-9)\n\n#### Délégation de la responsabilité de la gestion des impacts\n\nL'Université de Californie à Berkeley a délégué la responsabilité de la gestion des impacts à diverses unités, notamment l'Office de la durabilité, la Haas Business School et le SERC. Cependant, les informations disponibles ne permettent pas de déterminer si ces responsables rendent compte régulièrement à l'organe de gouvernance. (GRI 2-13)\n\n#### Rôle de l'organe de gouvernance dans le reporting de durabilité\n\nL'Université de Californie à Berkeley a signé une lettre de la direction qui témoigne de son engagement en faveur de la durabilité. Cependant, cette lettre n'est pas une revue et une approbation par l'organe de gouvernance. (GRI 2-14)\n\n#### Ratio de rémunération totale annuelle\n\nL'Université de Californie à Berkeley n'a pas fourni de données sur le ratio de rémunération totale annuelle, ce qui est une information requise par GRI 2-21. (GRI 2-21)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir si les responsables de la gestion des impacts rendent compte régulièrement à l'organe de gouvernance. De plus, les informations disponibles ne permettent pas de déterminer si l'organe de gouvernance a réellement approuvé la lettre de la direction. Enfin, les données disponibles ne permettent pas de calculer le ratio de rémunération totale annuelle.\n\n### ### Limites et omissions\n\nCe rapport ne couvre pas les catégories GRI 2-10 à 2-21, sauf pour les catégories GRI 2-9, 2-13 et 2-14, qui sont partiellement rapport",
+ "used_facts": [],
+ "judge_score": 3,
+ "faithfulness": 0.83,
+ "gri_coverage": 1.0,
+ "unsupported_claims": [
+  "L'Université de Californie à Berkeley est la première université au monde pour les sciences environnementales."
+ ],
+ "discarded_violations": [
+  "Le rapport mentionne que GRI 2-9 est partiellement rapporté, mais il ne doit pas faire référence à la conformité à GRI."
+ ],
+ "attempts": 2,
+ "guard_rejections": 0,
+ "seconds": 775.9,
+ "history": [
+  {
+   "attempt": 1,
+   "draft": "### Gouvernance\n\nL'Université de Californie à Berkeley (UC Berkeley) a plusieurs officiers de durabilité dans les bureaux de la durabilité, de la Haas et du SERC ({{ PA1_score }}). L'organe de gouvernance le plus élevé est le Conseil des régents de l'Université de Californie, qui gouverne l'ensemble du système universitaire de Californie, y compris le campus de Berkeley. Ce conseil est l'autorité ultime sur les politiques, les finances et la planification stratégique de l'université, y compris le campus de Berkeley (GRI 2-13).\n\nLe corps enseignant de l'Académie du Sénat participe à la gouvernance partagée de l'université, comme l'exige le conseil des régents. Le sénat est chargé de déterminer les politiques académiques, d'élaborer les conditions d'admission et de délivrance des diplômes, d'autoriser et de surveiller les cours et les programmes d'études, ainsi que d'apporter des conseils à l'administration sur les nominations, les promotions et les budgets (GRI 2-14).\n\nL'Université de Californie à Berkeley a plusieurs organes qui permettent aux membres du corps enseignant de participer à la gouvernance de l'université. Le principal organe est la division de Berkeley de l'Académie du Sénat, qui fait partie du Sénat académique de l'Université de Californie. Ce sénat fournit aux membres du corps enseignant un moyen structuré et démocratique de participer à la gouvernance et à la prise de décision du campus (GRI 2-13).\n\n(GRI 2-9, GRI 2-13, GRI 2-14)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les ratios de rémunération totale annuelle, car la méthode de calcul diffère entre les normes GRI et STARS. De plus, certaines catégories de gouvernance, telles que les ratios de rémunération totale annuelle, ne sont pas couvertes par STARS (GRI 2-21).\n\n(GRI 2-21)",
+   "gen_seconds": 239.5,
+   "prompt_tokens": 1905,
+   "output_tokens": 511,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 1.0,
+   "lint_notes": [],
+   "rendered": "### Gouvernance\n\nL'Université de Californie à Berkeley (UC Berkeley) a plusieurs officiers de durabilité dans les bureaux de la durabilité, de la Haas et du SERC (1). L'organe de gouvernance le plus élevé est le Conseil des régents de l'Université de Californie, qui gouverne l'ensemble du système universitaire de Californie, y compris le campus de Berkeley. Ce conseil est l'autorité ultime sur les politiques, les finances et la planification stratégique de l'université, y compris le campus de Berkeley (GRI 2-13).\n\nLe corps enseignant de l'Académie du Sénat participe à la gouvernance partagée de l'université, comme l'exige le conseil des régents. Le sénat est chargé de déterminer les politiques académiques, d'élaborer les conditions d'admission et de délivrance des diplômes, d'autoriser et de surveiller les cours et les programmes d'études, ainsi que d'apporter des conseils à l'administration sur les nominations, les promotions et les budgets (GRI 2-14).\n\nL'Université de Californie à Berkeley a plusieurs organes qui permettent aux membres du corps enseignant de participer à la gouvernance de l'université. Le principal organe est la division de Berkeley de l'Académie du Sénat, qui fait partie du Sénat académique de l'Université de Californie. Ce sénat fournit aux membres du corps enseignant un moyen structuré et démocratique de participer à la gouvernance et à la prise de décision du campus (GRI 2-13).\n\n(GRI 2-9, GRI 2-13, GRI 2-14)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les ratios de rémunération totale annuelle, car la méthode de calcul diffère entre les normes GRI et STARS. De plus, certaines catégories de gouvernance, telles que les ratios de rémunération totale annuelle, ne sont pas couvertes par STARS (GRI 2-21).\n\n(GRI 2-21)",
+   "used_facts": [
+    "PA1_score"
+   ],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'Université de Californie à Berkeley a plusieurs officiers de durabilité dans les bureaux de la durabilité, de la Haas et du SERC.",
+      "supported": true
+     },
+     {
+      "claim": "L'organe de gouvernance le plus élevé est le Conseil des régents de l'Université de Californie.",
+      "supported": true
+     },
+     {
+      "claim": "Le corps enseignant de l'Académie du Sénat participe à la gouvernance partagée de l'université.",
+      "supported": true
+     },
+     {
+      "claim": "L'Université de Californie à Berkeley a plusieurs organes qui permettent aux membres du corps enseignant de participer à la gouvernance de l",
+      "supported": true
+     },
+     {
+      "claim": "Ce rapport ne peut pas établir les ratios de rémunération totale annuelle, car la méthode de calcul diffère entre les normes GRI et STARS.",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "Le rapport prétend à la fois à la fois que GRI 2-13 et GRI 2-14 sont partiellement rapportés et non rapportés, ce qui est une contradiction."
+    ],
+    "score": 2,
+    "feedback": "Supprimer les phrases contradictoires concernant la couverture de GRI 2-13 et GRI 2-14. Utiliser les seuls termes requis pour décrire les limites et omissions.",
+    "faithfulness": 1.0,
+    "seconds": 211.0,
+    "discarded_violations": [],
+    "accepted": false
+   }
+  },
+  {
+   "attempt": 2,
+   "draft": "### Gouvernance\n\n#### Structure et composition de la gouvernance\n\nL'Université de Californie à Berkeley (UC Berkeley) dispose d'un organe de gouvernance composé du Conseil des régents de l'Université de Californie, qui est l'autorité suprême de l'université. Ce conseil est responsable de la fixation des politiques, des finances et de la planification stratégique de l'université. (GRI 2-9)\n\n#### Délégation de la responsabilité de la gestion des impacts\n\nL'Université de Californie à Berkeley a délégué la responsabilité de la gestion des impacts à diverses unités, notamment l'Office de la durabilité, la Haas Business School et le SERC. Cependant, les informations disponibles ne permettent pas de déterminer si ces responsables rendent compte régulièrement à l'organe de gouvernance. (GRI 2-13)\n\n#### Rôle de l'organe de gouvernance dans le reporting de durabilité\n\nL'Université de Californie à Berkeley a signé une lettre de la direction qui témoigne de son engagement en faveur de la durabilité. Cependant, cette lettre n'est pas une revue et une approbation par l'organe de gouvernance. (GRI 2-14)\n\n#### Ratio de rémunération totale annuelle\n\nL'Université de Californie à Berkeley n'a pas fourni de données sur le ratio de rémunération totale annuelle, ce qui est une information requise par GRI 2-21. (GRI 2-21)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir si les responsables de la gestion des impacts rendent compte régulièrement à l'organe de gouvernance. De plus, les informations disponibles ne permettent pas de déterminer si l'organe de gouvernance a réellement approuvé la lettre de la direction. Enfin, les données disponibles ne permettent pas de calculer le ratio de rémunération totale annuelle.\n\n### ### Limites et omissions\n\nCe rapport ne couvre pas les catégories GRI 2-10 à 2-21, sauf pour les catégories GRI 2-9, 2-13 et 2-14, qui sont partiellement rapport",
+   "gen_seconds": 171.8,
+   "prompt_tokens": 2016,
+   "output_tokens": 520,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 1.0,
+   "lint_notes": [],
+   "rendered": "### Gouvernance\n\n#### Structure et composition de la gouvernance\n\nL'Université de Californie à Berkeley (UC Berkeley) dispose d'un organe de gouvernance composé du Conseil des régents de l'Université de Californie, qui est l'autorité suprême de l'université. Ce conseil est responsable de la fixation des politiques, des finances et de la planification stratégique de l'université. (GRI 2-9)\n\n#### Délégation de la responsabilité de la gestion des impacts\n\nL'Université de Californie à Berkeley a délégué la responsabilité de la gestion des impacts à diverses unités, notamment l'Office de la durabilité, la Haas Business School et le SERC. Cependant, les informations disponibles ne permettent pas de déterminer si ces responsables rendent compte régulièrement à l'organe de gouvernance. (GRI 2-13)\n\n#### Rôle de l'organe de gouvernance dans le reporting de durabilité\n\nL'Université de Californie à Berkeley a signé une lettre de la direction qui témoigne de son engagement en faveur de la durabilité. Cependant, cette lettre n'est pas une revue et une approbation par l'organe de gouvernance. (GRI 2-14)\n\n#### Ratio de rémunération totale annuelle\n\nL'Université de Californie à Berkeley n'a pas fourni de données sur le ratio de rémunération totale annuelle, ce qui est une information requise par GRI 2-21. (GRI 2-21)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir si les responsables de la gestion des impacts rendent compte régulièrement à l'organe de gouvernance. De plus, les informations disponibles ne permettent pas de déterminer si l'organe de gouvernance a réellement approuvé la lettre de la direction. Enfin, les données disponibles ne permettent pas de calculer le ratio de rémunération totale annuelle.\n\n### ### Limites et omissions\n\nCe rapport ne couvre pas les catégories GRI 2-10 à 2-21, sauf pour les catégories GRI 2-9, 2-13 et 2-14, qui sont partiellement rapport",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'Université de Californie à Berkeley (UC Berkeley) dispose d'un organe de gouvernance composé du Conseil des régents de l'Université de l'É",
+      "supported": true
+     },
+     {
+      "claim": "L'Université de Californie à Berkeley a délégué la responsabilité de la gestion des impacts à diverses unités, notamment l'Office de la dur",
+      "supported": true
+     },
+     {
+      "claim": "L'Université de Californie à Berkeley a signé une lettre de la direction qui témoigne de son engagement en faveur de la durabilité.",
+      "supported": true
+     },
+     {
+      "claim": "L'Université de Californie à Berkeley n'a pas fourni de données sur le ratio de rémunération totale annuelle.",
+      "supported": true
+     },
+     {
+      "claim": "Ce rapport ne peut pas établir si les responsables de la gestion des impacts rendent compte régulièrement à l'organe de gouvernance.",
+      "supported": true
+     },
+     {
+      "claim": "L'Université de Californie à Berkeley est la première université au monde pour les sciences environnementales.",
+      "supported": false
+     }
+    ],
+    "rule_violations": [],
+    "score": 3,
+    "feedback": "",
+    "faithfulness": 0.83,
+    "seconds": 153.5,
+    "discarded_violations": [
+     "Le rapport mentionne que GRI 2-9 est partiellement rapporté, mais il ne doit pas faire référence à la conformité à GRI."
+    ],
+    "accepted": true
+   }
+  }
+ ],
+ "institution": "berkeley",
+ "section": "gouvernance",
+ "title": "Gouvernance",
+ "evidence": [
+  {
+   "credit": "PA-1",
+   "text": "UC Berkeley has several Sustainability Officers in the Office of Sustainability, HAAS, and SERC."
+  },
+  {
+   "credit": "PA-3",
+   "text": "UC Berkeley includes student representatives on its highest decision-making body, the UC Board of Regents. While the Board of Regents governs the entire University of California system rather than just the Berkeley campus, it serves as the ultimate authority over university policies, finances, and strategic planning across all UC campuses, including Berkeley."
+  },
+  {
+   "credit": "PA-3",
+   "text": "UC faculty in the Academic Senate carry out shared-governance responsibilities established by The Regents. The Senate is empowered by UC's governing body, the Board of Regents, to exercise direct control over academic matters of central importance to the University – to determine academic policy, set conditions for admission and the granting of degrees, authorize and supervise courses and curricula; and to advise the administration on faculty appointments, promotions and budgets."
+  },
+  {
+   "credit": "PA-3",
+   "text": "UC Berkeley has several ongoing bodies that enable academic staff to participate in the governance of the institution. The primary body is the Berkeley Division of the Academic Senate, which is part of the University of California's systemwide Academic Senate. This Senate provides faculty members with a structured and democratic way to engage in campus governance and decision-making."
+  },
+  {
+   "credit": "PRE-1",
+   "text": "Our core mission of teaching, research, and public service provides a unique opportunity to use the campus as a living laboratory for sustainability. UC Berkeley is consistently rated the top school in the world for environmental sciences, with departments across the campus—not just the renowned Rausser College of Natural Resources—producing groundbreaking scholarship. Offering over [n] sustainability-focused courses, we emphasize integrating sustainability across disciplines to foster sustainability literacy among our students."
+  },
+  {
+   "credit": "PA-4",
+   "text": "At the governance level, the UC Board of Regents' Investment Policy Statement for the endowment makes clear that material ESG risks shall be considered with the same weight as any other material investment risk. The Board of Regents' policy regarding sustainability in endowment investments states in relevant part:"
+  },
+  {
+   "credit": "PA-5",
+   "text": "UC's endowment is investing in a wide range of positive sustainability investments across all of our asset classes, ranging from public equity to real estate to private equity. The examples below are not the comprehensive list of the investments referenced above, but rather illustrative examples of our sustainable investments."
+  }
+ ]
+}
