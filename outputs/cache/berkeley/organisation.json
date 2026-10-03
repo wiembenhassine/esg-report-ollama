@@ -1,39 +1,83 @@
 {
- "prompt_hash": "d79add9b35c91259",
- "decision": "repli",
- "text": "*Section de repli générée par le code : aucune version rédigée par le modèle n'a passé la validation.*\n\n### Résultats STARS des crédits concernés\n- PA-12 — Employee Rights : 2,5 / 3 points\n\n### Statut des publications GRI\n- GRI 2-1 Détails sur l'organisation : partiellement rapporté.\n- GRI 2-2 Entités incluses dans le reporting de durabilité : partiellement rapporté.\n- GRI 2-3 Période de reporting, fréquence et point de contact : partiellement rapporté.\n- GRI 2-4 Retraitements d'informations : non rapporté.\n- GRI 2-5 Vérification externe : partiellement rapporté.\n- GRI 2-6 Activités, chaîne de valeur et autres relations d'affaires : partiellement rapporté.\n- GRI 2-7 Salariés : non évalué.\n- GRI 2-8 Travailleurs non salariés : non rapporté.",
+ "prompt_hash": "b7c8ec200c0db9e9",
+ "decision": "à relire",
+ "text": "### Organisation, périmètre et effectifs\n\nLe périmètre de reporting couvre le campus principal et ses sites rattachés (GRI 2-2). L'organisation est composée de plusieurs entités, dont les périmètres ne sont pas identiques (GRI 2-2). Les données sur les effectifs ne sont pas disponibles (GRI 2-7).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'organisation (GRI 2-1). Les informations sur la vérification externe ne sont pas disponibles (GRI 2-5). En outre, les données sur les activités, la chaîne de valeur et les relations d'affaires ne sont pas complètes (GRI 2-6).",
  "used_facts": [],
- "judge_score": null,
- "faithfulness": null,
- "gri_coverage": null,
+ "judge_score": 3,
+ "faithfulness": 1.0,
+ "gri_coverage": 0.83,
  "unsupported_claims": [],
  "attempts": 2,
- "guard_rejections": 2,
- "seconds": 723.9,
+ "guard_rejections": 1,
+ "seconds": 640.1,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Organisation, périmètre et effectifs\n\nL'organisation couverte par ce rapport est l'University of California, Berkeley. Le périmètre de l'institution est défini comme suit : il comprend le campus principal de Berkeley, couvrant [n] acres dans la ville de Berkeley, ainsi que le campus Hill, la station de Richmond et d'autres stations et réserves opérées par le campus.\n\nLe rapport STARS a été soumis par l'Office de la durabilité de l'Université de Californie à Berkeley, qui a mené le processus de collecte de données. Ce processus a impliqué plusieurs départements du campus, qui ont contribué à la collecte de données pour les différentes catégories du STARS.\n\n### Effectifs\n\nLe rapport STARS ne fournit pas d'informations sur les effectifs de l'université, notamment les chiffres précis ou les ratios par personne ou par m².\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les détails sur la dénomination légale, le siège et les pays d'activité de l'organisation, car ces informations ne sont pas collectées par le STARS. De plus, le rapport ne peut pas évaluer les activités, la chaîne de valeur et les relations d'affaires de l'université, car ces informations ne sont pas fournies dans le rapport STARS. Enfin, les informations sur la vérification externe de l'université ne sont pas disponibles, car le STARS ne collecte pas ces informations.",
-   "gen_seconds": 254.3,
-   "prompt_tokens": 1669,
-   "output_tokens": 335,
+   "draft": "### Organisation, périmètre et effectifs\n\nLe périmètre de reporting couvre le campus principal et ses sites rattachés (GRI 2-2). L'organisation est composée de plusieurs entités, dont les périmètres ne sont pas identiques (GRI 2-2). Les données sur les effectifs ne sont pas disponibles (GRI 2-7).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'organisation (GRI 2-1). Les informations sur la vérification externe ne sont pas disponibles (GRI 2-5). En outre, les données sur les activités, la chaîne de valeur et les relations d'affaires ne sont pas complètes (GRI 2-6).",
+   "gen_seconds": 209.5,
+   "prompt_tokens": 1711,
+   "output_tokens": 184,
    "guard_problems": [],
-   "lint_problems": [
-    "aucune publication GRI de la section n'est citée (ex. « GRI 2-1 »)"
+   "lint_problems": [],
+   "gri_coverage": 0.83,
+   "lint_notes": [
+    "longueur de 101 mots : vise 180 à 300 mots"
    ],
-   "gri_coverage": 0.0
+   "rendered": "### Organisation, périmètre et effectifs\n\nLe périmètre de reporting couvre le campus principal et ses sites rattachés (GRI 2-2). L'organisation est composée de plusieurs entités, dont les périmètres ne sont pas identiques (GRI 2-2). Les données sur les effectifs ne sont pas disponibles (GRI 2-7).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'organisation (GRI 2-1). Les informations sur la vérification externe ne sont pas disponibles (GRI 2-5). En outre, les données sur les activités, la chaîne de valeur et les relations d'affaires ne sont pas complètes (GRI 2-6).",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "Le périmètre de reporting couvre le campus principal et ses sites rattachés (GRI 2-2).",
+      "supported": true
+     },
+     {
+      "claim": "L'organisation est composée de plusieurs entités, dont les périmètres ne sont pas identiques (GRI 2-2).",
+      "supported": true
+     },
+     {
+      "claim": "Les données sur les effectifs ne sont pas disponibles (GRI 2-7).",
+      "supported": true
+     },
+     {
+      "claim": "Ce rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'organisation (GRI 2-1).",
+      "supported": true
+     },
+     {
+      "claim": "Les informations sur la vérification externe ne sont pas disponibles (GRI 2-5).",
+      "supported": true
+     },
+     {
+      "claim": "Les données sur les activités, la chaîne de valeur et les relations d'affaires ne sont pas complètes (GRI 2-6).",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "Le rapport utilise le mot 'composée' au lieu de 'en référence aux normes GRI'",
+     "Le rapport utilise le mot 'ne peut pas établir' au lieu de 'nous n'avons pas pu établir'",
+     "Le rapport ne respecte pas la GRI status de GRI 2-1, qui est 'Partiellement rapporté'",
+     "Le rapport ne respecte pas la GRI status de GRI 2-5, qui est 'Partiellement rapporté'"
+    ],
+    "score": 3,
+    "feedback": "Supprimer les phrases 'L'organisation est composée de plusieurs entités, dont les périmètres ne sont pas identiques' et 'Les données sur les activités, la chaîne de valeur et les relations d'affaires ne sont pas complètes'. Remplacer les phrases 'Ce rapport ne peut pas établir' et 'Les informations sur la vérification externe ne sont pas disponibles' par 'Nous n'avons pas pu établir' et 'Nous n'avons pas pu obtenir ces informations'.",
+    "faithfulness": 1.0,
+    "seconds": 281.5,
+    "accepted": false
+   }
   },
   {
    "attempt": 2,
-   "draft": "### Organisation, périmètre et effectifs\n\nL'organisation couverte par ce rapport est l'University of California, Berkeley. Le périmètre de l'institution est défini comme suit : il comprend le campus principal de Berkeley, les campus de l'Hill et de Richmond, ainsi que les réserves et les stations opérées par l'université.\n\nL'Office de la durabilité de l'UC Berkeley a mené le processus de collecte de données pour le rapport STARS, en utilisant divers outils internes et externes pour recueillir et analyser les données. Cette collaboration impliquait plusieurs départements de l'université, chacun participant à l'élaboration du rapport.\n\n### Effectifs\n\nL'université a mis en place des politiques pour protéger les droits des employés, notamment en matière de traitement équitable, de procédures de réclamation et d'équilibre vie professionnelle et personnelle. Ces politiques sont disponibles sur le site web des ressources humaines de l'université.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les détails sur la dénomination légale, le siège et les pays d'activité de l'université, car ces informations ne sont pas collectées dans le cadre du rapport STARS. De plus, le rapport ne fournit pas de liste d'entités incluses dans le périmètre de l'université, ni de données sur la vérification externe des données, car ces informations ne sont pas collectées ou ne sont pas disponibles dans le cadre du rapport STARS.",
-   "gen_seconds": 469.6,
-   "prompt_tokens": 1716,
-   "output_tokens": 350,
-   "guard_problems": [],
-   "lint_problems": [
-    "aucune publication GRI de la section n'est citée (ex. « GRI 2-1 »)"
+   "draft": "### L'organisation, son périmètre et ses effectifs\n\n(GRI 2-1, GRI 2-2)\n\nL'organisation est en référence aux normes GRI. Le périmètre de reporting couvre le campus principal et ses sites rattachés. Le périmètre des trois établissements n'est pas identique, ce qui rend difficile la comparaison des ratios par personne ou par m².\n\n(GRI 2-3)\n\nNous n'avons pas pu établir la période de reporting, la fréquence et le point de contact. Les données STARS sont autodéclarées et non vérifiées par l'AASHE.\n\n(GRI 2-5)\n\nNous n'avons pas pu obtenir ces informations sur la vérification externe. Les données STARS sont autodéclarées et ne répondent pas aux exigences de la norme d'assurance, du niveau d'assurance et de la relation avec le vérificateur.\n\n(GRI 2-7)\n\nNous n'avons pas pu établir les effectifs de l'organisation. Les données STARS ne fournissent pas d'informations sur le nombre de salariés, ni sur leur ventilation par contrat, temps de travail, genre ou région.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les détails sur l'organisation, les entités incluses dans le reporting de durabilité, les activités, la chaîne de valeur et les relations d'affaires. Les informations sur la vérification externe ne sont pas disponibles.",
+   "gen_seconds": 149.1,
+   "prompt_tokens": 1969,
+   "output_tokens": 336,
+   "guard_problems": [
+    "nombre écrit en lettres : 'trois'"
    ],
-   "gri_coverage": 0.0
+   "lint_problems": [],
+   "gri_coverage": 0.83,
+   "lint_notes": []
   }
  ],
  "institution": "berkeley",
