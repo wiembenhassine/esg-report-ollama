@@ -1,0 +1,193 @@
+{
+ "prompt_hash": "9d38c065f26a0279",
+ "decision": "à relire",
+ "text": "### Performance sociale et économique\n\n#### Politiques et dispositifs\n\nL'Université College Cork (UCC) a mis en place diverses politiques et dispositifs pour promouvoir la performance sociale et économique. La politique de l'équité salariale (3,8/5) a été évaluée comme étant élevée. De plus, la politique de droits de l'emploi (3/3) a été évaluée comme étant maximale.\n\nL'UCC a également mis en place une politique de santé et sécurité au travail (partiellement rapportée). Le système de management de la santé et de la sécurité au travail est en place, mais les informations disponibles ne permettent pas de déterminer si ce système est réglementaire ou si une norme spécifique est suivie.\n\n#### Diversité et inclusion\n\nL'UCC a également mis en place diverses politiques et dispositifs pour promouvoir la diversité et l'inclusion. La politique de diversité des organes de gouvernance et des salariés (non évaluée) n'a pas été évaluée, mais l'UCC a mis en place un indice de diversité qui n'est pas la ventilation en pourcentages demandée.\n\n#### Équité salariale\n\nL'équité salariale est un aspect important de la performance sociale et économique de l'UCC. La politique de l'équité salariale (3,8/5) a été évaluée comme étant élevée.\n\n#### Droits de l'emploi\n\nLes droits de l'emploi sont également un aspect important de la performance sociale et économique de l'UCC. La politique de droits de l'emploi (3/3) a été évaluée comme étant maximale.\n\n#### Santé et sécurité au travail\n\nLa santé et la sécurité au travail sont des aspects importants de la performance sociale et économique de l'UCC. La politique de santé et sécurité au travail (partiellement rapportée) a été évaluée comme étant partiellement rapportée.\n\n#### Diversité et inclusion\n\nLa diversité et l'inclusion sont des aspects importants de la performance sociale et économique de l'UCC. La politique de diversité des organes de gouvernance et des salariés (non",
+ "used_facts": [
+  "PA12_max",
+  "PA12_score",
+  "PA13_max",
+  "PA13_score"
+ ],
+ "judge_score": 2,
+ "faithfulness": 0.67,
+ "gri_coverage": 0.0,
+ "unsupported_claims": [
+  "La politique de diversité des organes de gouvernance et des salariés n'a pas été évaluée.",
+  "L'UCC a mis en place un indice de diversité qui n'est pas la ventilation en pourcentages demandée."
+ ],
+ "discarded_violations": [],
+ "attempts": 2,
+ "guard_rejections": 0,
+ "seconds": 1003.4,
+ "history": [
+  {
+   "attempt": 1,
+   "draft": "### Performance sociale et économique\n\n#### Équité salariale\n\nL'Université College Cork (UCC) a obtenu un score élevé ({{ PA13_score }}/{{ PA13_max }}) en matière d'équité salariale (GRI 202-1). Cependant, le rapport ne permet pas d'établir le ratio entre le salaire d'entrée et le salaire minimum local, ni par genre.\n\n#### Droits de l'emploi\n\nL'UCC a obtenu un score maximal ({{ PA12_score }}/{{ PA12_max }}) en matière de droits de l'emploi (GRI 401-1). Cependant, le rapport ne permet pas d'établir la comparaison temps plein / temps partiel.\n\n#### Santé et sécurité au travail\n\nL'UCC a obtenu un score maximal ({{ PA11_score }}/{{ PA11_max }}) en matière de santé et sécurité au travail (GRI 403-1). Cependant, le rapport ne permet pas d'établir si le système est réglementaire, quelle norme il suit, ni qui il couvre.\n\n#### Congé parental\n\nL'UCC a obtenu un score maximal ({{ PA11_score }}/{{ PA11_max }}) en matière de congé parental (GRI 401-3). Cependant, le rapport ne permet pas d'établir les effectifs, les taux de retour, ni les taux de rétention.\n\n#### Diversité des organes de gouvernance et des salariés\n\nL'UCC n'a pas évalué la diversité des organes de gouvernance et des salariés (GRI 405-1).\n\n#### Limites et omissions\n\nCe rapport ne permet pas d'établir le ratio entre le salaire d'entrée et le salaire minimum local, ni par genre (GRI 202-1). Il ne permet pas non plus d'établir la comparaison temps plein / temps partiel en matière de droits de l'emploi (GRI 401-1). Enfin, il ne permet pas d'établir les effectifs, les taux de retour, ni les taux de rétention en matière de congé parental (GRI 401-3).\n\n### Limites et omissions\n\nCe rapport ne permet pas d'établir le ratio entre le salaire d'entr",
+   "gen_seconds": 361.1,
+   "prompt_tokens": 2387,
+   "output_tokens": 520,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.5,
+   "lint_notes": [],
+   "rendered": "### Performance sociale et économique\n\n#### Équité salariale\n\nL'Université College Cork (UCC) a obtenu un score élevé (3,8/5) en matière d'équité salariale (GRI 202-1). Cependant, le rapport ne permet pas d'établir le ratio entre le salaire d'entrée et le salaire minimum local, ni par genre.\n\n#### Droits de l'emploi\n\nL'UCC a obtenu un score maximal (3/3) en matière de droits de l'emploi (GRI 401-1). Cependant, le rapport ne permet pas d'établir la comparaison temps plein / temps partiel.\n\n#### Santé et sécurité au travail\n\nL'UCC a obtenu un score maximal (3/3) en matière de santé et sécurité au travail (GRI 403-1). Cependant, le rapport ne permet pas d'établir si le système est réglementaire, quelle norme il suit, ni qui il couvre.\n\n#### Congé parental\n\nL'UCC a obtenu un score maximal (3/3) en matière de congé parental (GRI 401-3). Cependant, le rapport ne permet pas d'établir les effectifs, les taux de retour, ni les taux de rétention.\n\n#### Diversité des organes de gouvernance et des salariés\n\nL'UCC n'a pas évalué la diversité des organes de gouvernance et des salariés (GRI 405-1).\n\n#### Limites et omissions\n\nCe rapport ne permet pas d'établir le ratio entre le salaire d'entrée et le salaire minimum local, ni par genre (GRI 202-1). Il ne permet pas non plus d'établir la comparaison temps plein / temps partiel en matière de droits de l'emploi (GRI 401-1). Enfin, il ne permet pas d'établir les effectifs, les taux de retour, ni les taux de rétention en matière de congé parental (GRI 401-3).\n\n### Limites et omissions\n\nCe rapport ne permet pas d'établir le ratio entre le salaire d'entr",
+   "used_facts": [
+    "PA11_max",
+    "PA11_score",
+    "PA12_max",
+    "PA12_score",
+    "PA13_max",
+    "PA13_score"
+   ],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'Université College Cork (UCC) a obtenu un score élevé (3,8/5) en matière d'équité salariale (GRI 202-1).",
+      "supported": false
+     },
+     {
+      "claim": "Cependant, le rapport ne permet pas d'établir le ratio entre le salaire d'entrée et le salaire minimum local, ni par genre.",
+      "supported": true
+     },
+     {
+      "claim": "L'UCC a obtenu un score maximal (3/3) en matière de droits de l'emploi (GRI 401-1).",
+      "supported": false
+     },
+     {
+      "claim": "Cependant, le rapport ne permet pas d'établir la comparaison temps plein / temps partiel.",
+      "supported": true
+     },
+     {
+      "claim": "L'UCC a obtenu un score maximal (3/3) en matière de santé et sécurité au travail (GRI 403-1).",
+      "supported": false
+     },
+     {
+      "claim": "Cependant, le rapport ne permet pas d'établir si le système est réglementaire, quelle norme il suit, ni qui il couvre.",
+      "supported": true
+     }
+    ],
+    "rule_violations": [],
+    "score": 1,
+    "feedback": "",
+    "faithfulness": 0.5,
+    "seconds": 297.2,
+    "discarded_violations": [
+     "Le rapport prétend à la conformité avec GRI 202-1, mais le GRI STATUS LIST indique que le rapport n'a pas été évalué.",
+     "Le rapport prétend à la conformité avec GRI 401-1, mais le GRI STATUS LIST indique que le rapport n'a pas été évalué.",
+     "Le rapport prétend à la conformité avec GRI 403-1, mais le GRI STATUS LIST indique que le rapport n'a pas été évalué.",
+     "Le rapport prétend à la conformité avec GRI 401-3, mais le GRI STATUS LIST indique que le rapport n'a pas été évalué."
+    ],
+    "accepted": false
+   }
+  },
+  {
+   "attempt": 2,
+   "draft": "### Performance sociale et économique\n\n#### Politiques et dispositifs\n\nL'Université College Cork (UCC) a mis en place diverses politiques et dispositifs pour promouvoir la performance sociale et économique. La politique de l'équité salariale ({{ PA13_score }}/{{ PA13_max }}) a été évaluée comme étant élevée. De plus, la politique de droits de l'emploi ({{ PA12_score }}/{{ PA12_max }}) a été évaluée comme étant maximale.\n\nL'UCC a également mis en place une politique de santé et sécurité au travail (partiellement rapportée). Le système de management de la santé et de la sécurité au travail est en place, mais les informations disponibles ne permettent pas de déterminer si ce système est réglementaire ou si une norme spécifique est suivie.\n\n#### Diversité et inclusion\n\nL'UCC a également mis en place diverses politiques et dispositifs pour promouvoir la diversité et l'inclusion. La politique de diversité des organes de gouvernance et des salariés (non évaluée) n'a pas été évaluée, mais l'UCC a mis en place un indice de diversité qui n'est pas la ventilation en pourcentages demandée.\n\n#### Équité salariale\n\nL'équité salariale est un aspect important de la performance sociale et économique de l'UCC. La politique de l'équité salariale ({{ PA13_score }}/{{ PA13_max }}) a été évaluée comme étant élevée.\n\n#### Droits de l'emploi\n\nLes droits de l'emploi sont également un aspect important de la performance sociale et économique de l'UCC. La politique de droits de l'emploi ({{ PA12_score }}/{{ PA12_max }}) a été évaluée comme étant maximale.\n\n#### Santé et sécurité au travail\n\nLa santé et la sécurité au travail sont des aspects importants de la performance sociale et économique de l'UCC. La politique de santé et sécurité au travail (partiellement rapportée) a été évaluée comme étant partiellement rapportée.\n\n#### Diversité et inclusion\n\nLa diversité et l'inclusion sont des aspects importants de la performance sociale et économique de l'UCC. La politique de diversité des organes de gouvernance et des salariés (non",
+   "gen_seconds": 182.6,
+   "prompt_tokens": 2564,
+   "output_tokens": 520,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.0,
+   "lint_notes": [
+    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 202-1), (GRI 401-2), (GRI 401-3), (GRI 403-1)"
+   ],
+   "rendered": "### Performance sociale et économique\n\n#### Politiques et dispositifs\n\nL'Université College Cork (UCC) a mis en place diverses politiques et dispositifs pour promouvoir la performance sociale et économique. La politique de l'équité salariale (3,8/5) a été évaluée comme étant élevée. De plus, la politique de droits de l'emploi (3/3) a été évaluée comme étant maximale.\n\nL'UCC a également mis en place une politique de santé et sécurité au travail (partiellement rapportée). Le système de management de la santé et de la sécurité au travail est en place, mais les informations disponibles ne permettent pas de déterminer si ce système est réglementaire ou si une norme spécifique est suivie.\n\n#### Diversité et inclusion\n\nL'UCC a également mis en place diverses politiques et dispositifs pour promouvoir la diversité et l'inclusion. La politique de diversité des organes de gouvernance et des salariés (non évaluée) n'a pas été évaluée, mais l'UCC a mis en place un indice de diversité qui n'est pas la ventilation en pourcentages demandée.\n\n#### Équité salariale\n\nL'équité salariale est un aspect important de la performance sociale et économique de l'UCC. La politique de l'équité salariale (3,8/5) a été évaluée comme étant élevée.\n\n#### Droits de l'emploi\n\nLes droits de l'emploi sont également un aspect important de la performance sociale et économique de l'UCC. La politique de droits de l'emploi (3/3) a été évaluée comme étant maximale.\n\n#### Santé et sécurité au travail\n\nLa santé et la sécurité au travail sont des aspects importants de la performance sociale et économique de l'UCC. La politique de santé et sécurité au travail (partiellement rapportée) a été évaluée comme étant partiellement rapportée.\n\n#### Diversité et inclusion\n\nLa diversité et l'inclusion sont des aspects importants de la performance sociale et économique de l'UCC. La politique de diversité des organes de gouvernance et des salariés (non",
+   "used_facts": [
+    "PA12_max",
+    "PA12_score",
+    "PA13_max",
+    "PA13_score"
+   ],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "La politique de l'équité salariale a été évaluée comme étant élevée.",
+      "supported": true
+     },
+     {
+      "claim": "La politique de droits de l'emploi a été évaluée comme étant maximale.",
+      "supported": true
+     },
+     {
+      "claim": "La politique de santé et sécurité au travail a été évaluée comme étant partiellement rapportée.",
+      "supported": true
+     },
+     {
+      "claim": "La politique de diversité des organes de gouvernance et des salariés n'a pas été évaluée.",
+      "supported": false
+     },
+     {
+      "claim": "L'UCC a mis en place un indice de diversité qui n'est pas la ventilation en pourcentages demandée.",
+      "supported": false
+     },
+     {
+      "claim": "L'équité salariale est un aspect important de la performance sociale et économique de l'UCC.",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "La politique de diversité des organes de gouvernance et des salariés n'a pas été évaluée.",
+     "L'UCC a mis en place un indice de diversité qui n'est pas la ventilation en pourcentages demandée."
+    ],
+    "score": 2,
+    "feedback": "Supprimer les phrases non étayées par les sources. Pour la politique de diversité des organes de gouvernance et des salariés, utiliser le wording 'ce rapport ne peut pas établir' au lieu de dire que la politique n'a pas été évaluée. Pour l'indice de diversité, utiliser le wording 'STARS ne collecte pas' au lieu de dire que l'UCC a mis en place un indice de diversité qui n'est pas la ventilation en pourcentages demandée.",
+    "faithfulness": 0.67,
+    "seconds": 162.4,
+    "discarded_violations": [],
+    "accepted": false
+   }
+  }
+ ],
+ "institution": "cork",
+ "section": "social",
+ "title": "Performance sociale et économique",
+ "evidence": [
+  {
+   "credit": "PA-13",
+   "text": "All full-time, part-time and temporary employees who received pay in the [n]-month period leading up to the snapshot date which is [n] June [n]. Staff are only included if they were in receipt of pay during this period. Employees on unpaid leave are excluded, in line with national regulations."
+  },
+  {
+   "credit": "PA-12",
+   "text": "Under the maternity legislation all women are entitled to [n] weeks maternity leave. Payment of maternity leave may be sourced both from the Department of Social Welfare and/or the University. The [n] week entitlement is divided into [n] weeks paid and an additional [n] weeks unpaid. Entitlements to paid leave and unpaid leave are outlined in the Universities maternity leave policy. Employees are entitled to full pay for [n] [n] ([n]) weeks."
+  },
+  {
+   "credit": "PA-11",
+   "text": "It is available [n]/[n], [n] days a year covering numerous topics such as; counselling, infertility & pregnancy loss, elder care support, parent coaching, international employee support and more."
+  },
+  {
+   "credit": "PA-8",
+   "text": "UCC is also obliged legally to report on gender pay gap. This is done annlually and the most report is available here:"
+  },
+  {
+   "credit": "PA-7",
+   "text": "Number of marginalised racial, ethnic, and/or Indigenous groups that are equitably represented among executive staff (required)"
+  },
+  {
+   "credit": "PA-9",
+   "text": "Table [n]. Capturing Equality Grounds in Student Populations – Methods and Data Collected."
+  },
+  {
+   "credit": "PA-6",
+   "text": "Number of marginalised racial, ethnic, and/or Indigenous groups that are equitably represented among executive staff (required)"
+  },
+  {
+   "credit": "PA-6",
+   "text": "Belonging at UCC: Equality, Diversity and Inclusion Framework and Action Plan, [n]-[n] - recognises that UCC is increasingly made up of a diverse cohort of people with different lived experiences and needs. It acknowledges that not everyone feels a sense of belonging and UCC needs to do more to address and eliminate bullying, harassment or discrimination based on the following protected characteristics: Age, Civil Status, Disability, Family Status, Gender, Membership of the Traveller Community, Religion, Race, Sexual Orientation, and Socio-Economic Status."
+  },
+  {
+   "credit": "PA-6",
+   "text": "Table [n]. Capturing Equality Grounds in Student Populations – Methods and Data Collected."
+  },
+  {
+   "credit": "PA-10",
+   "text": "The HEA uses home addresses of ROI domiciled students to using to develop socio economic profiles of HEIs by assigning Deprivation Index Scores (DIS) to the student data. Please refer to this page for the methodology.. UCC's completion rate is at [n]%, in general terms. For Low income students at UCC this drops to [n]%, [n]% drop out. See link to data here: HEA – Non-progression by Student Characteristics – [n] | Statistics | Higher Education Authority"
+  }
+ ]
+}
