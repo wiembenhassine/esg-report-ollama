@@ -49,3 +49,14 @@ def test_status_never_reported_without_extracted_values():
 def test_materiality_note_does_not_blame_institution():
     note = MAP["disclosures"]["3-1"]["note"]
     assert "ne peut pas établir" in note
+
+
+def test_lint_blocks_style_but_only_notes_missing_citations():
+    from esg.judge import lint
+    text = "Le périmètre couvre le campus principal et les sites rattachés. " * 25
+    blocking, notes, coverage = lint(text, ["2-1", "2-2"])
+    assert blocking == [] and coverage == 0 and notes
+    blocking, _, _ = lint("The campus is in the city and it has the buildings. " * 25, ["2-1"])
+    assert blocking
+    blocking, _, _ = lint("Ce rapport est conforme aux normes GRI pour la gouvernance. " * 20, ["2-1"])
+    assert blocking

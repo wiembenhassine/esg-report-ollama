@@ -55,6 +55,9 @@ def check_draft(text: str, allowed: set[str]) -> list[str]:
     for bad in ANY_TEMPLATE.findall(rest):
         problems.append(f"syntaxe interdite {bad!r} : seul {{{{ IDENTIFIANT }}}} est permis, sans calcul ni filtre")
     rest = ANY_TEMPLATE.sub(" ", rest)
+    if re.search(r"\[\s*n\s*\]", rest):                         # nombre masqué recopié
+        problems.append("« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité")
+        rest = re.sub(r"\[\s*n\s*\]", " ", rest)
     for name in sorted(allowed, key=len, reverse=True):         # placeholder mal écrit
         rx = re.compile(r"\{?\s*\b" + re.escape(name) + r"\b\s*\}?")
         if rx.search(rest):

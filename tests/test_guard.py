@@ -43,3 +43,7 @@ def test_rendered_numbers_must_come_from_facts():
     assert check_rendered("obtient 8,01 sur 16", {"OP6_score": "8,01", "OP6_max": "16"}) == []
     assert check_rendered("obtient 8,01 sur 16 et 12 de plus", {"OP6_score": "8,01", "OP6_max": "16"})
     assert check_rendered("total 78 414,00 MWh (GRI 302-1)", {"x": "78 414,00 MWh"}) == []
+
+
+def test_masked_number_marker_is_rejected():
+    assert check_draft("Le campus couvre [n] acres.", ALLOWED)

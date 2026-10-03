@@ -62,7 +62,8 @@ FIDÉLITÉ
 
 FORME
 - Markdown, entre 180 et 300 mots, deux à quatre sous-titres « ### », pas de titre principal.
-- Cite les publications GRI entre parenthèses, par exemple (GRI 2-9).
+- Chaque paragraphe cite entre parenthèses la ou les publications GRI qu'il traite, prises dans la liste
+  STATUTS. Exemple : « Le périmètre de reporting couvre le campus principal et ses sites rattachés (GRI 2-2). »
 - Termine par un sous-titre « ### Limites et omissions » qui résume ce que les données ne couvrent pas.
 - Pas d'introduction générique, pas de conclusion, pas de liste de sources."""
 
@@ -165,7 +166,7 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
     prompt_hash = hashlib.sha256((WRITER_SYSTEM + prompt).encode("utf-8")).hexdigest()[:16]
     if use_cache and cache.exists():
         cached = json.loads(cache.read_text(encoding="utf-8"))
-        if cached.get("prompt_hash") == prompt_hash:
+        if cached.get("prompt_hash") == prompt_hash and cached.get("decision") != "repli":
             log(f"   [{tag}] depuis le cache ({cached['decision']})")
             return cached
 
@@ -184,8 +185,9 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
                "prompt_tokens": out["prompt_tokens"], "output_tokens": out["output_tokens"]}
 
         problems = guard.check_draft(draft, set(values))
-        lint_problems, coverage = judge.lint(guard.PLACEHOLDER.sub("X", draft), section_codes)
+        lint_problems, lint_notes, coverage = judge.lint(guard.PLACEHOLDER.sub("X", draft), section_codes)
         att["guard_problems"], att["lint_problems"], att["gri_coverage"] = problems, lint_problems, coverage
+        att["lint_notes"] = lint_notes
         if problems or lint_problems:
             log(f"   [{tag}] tentative {n} rejetée par le garde-fou "
                 f"({len(problems)} chiffre(s)/placeholder(s), {len(lint_problems)} règle(s))")
@@ -213,7 +215,7 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
         unsupported = [c["claim"] for c in verdict.get("claims", []) if not c.get("supported")]
         feedback = ([verdict["feedback"]] if verdict.get("feedback") else []) \
             + [f"retire ou corrige cette affirmation non supportée par les sources : « {c} »" for c in unsupported] \
-            + verdict.get("rule_violations", [])
+            + verdict.get("rule_violations", []) + lint_notes
         feedback = [x for x in feedback if x][:10]
 
     judged = [a for a in attempts if "judge" in a]

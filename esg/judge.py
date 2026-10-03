@@ -35,25 +35,32 @@ FR_WORDS = re.compile(r"\b(le|la|les|des|du|une|est|sont|dans|pour|avec|qui|que|
 EN_WORDS = re.compile(r"\b(the|and|of|is|are|with|which|that|for|this|its|has|have)\b", re.I)
 
 
-def lint(text: str, section_codes: list[str]) -> tuple[list[str], float]:
-    """Contrôles déterministes. Renvoie (problèmes, couverture GRI)."""
-    problems = []
+def lint(text: str, section_codes: list[str]) -> tuple[list[str], list[str], float]:
+    """Contrôles déterministes. Renvoie (bloquants, remarques, couverture GRI).
+
+    Bloquant = la section est rejetée avant le juge (langue, formulation interdite,
+    longueur aberrante). Remarque = consigne transmise au rédacteur si le juge
+    demande une nouvelle version, sans rejeter un texte fidèle pour une question de forme.
+    """
+    blocking, notes = [], []
     words = len(text.split())
-    if words < 100:
-        problems.append(f"section trop courte ({words} mots) : vise 180 à 300 mots")
-    if words > 450:
-        problems.append(f"section trop longue ({words} mots) : vise 180 à 300 mots")
+    if words < 80 or words > 500:
+        blocking.append(f"longueur aberrante ({words} mots) : vise 180 à 300 mots")
+    elif not 150 <= words <= 380:
+        notes.append(f"longueur de {words} mots : vise 180 à 300 mots")
     fr, en = len(FR_WORDS.findall(text)), len(EN_WORDS.findall(text))
     if en > 0.25 * max(fr, 1):
-        problems.append("une partie du texte est en anglais : rédige entièrement en français")
+        blocking.append("une partie du texte est en anglais : rédige entièrement en français")
     for rx, msg in FORBIDDEN:
         if rx.search(text):
-            problems.append(msg)
+            blocking.append(msg)
     cited = {c for c in section_codes if re.search(rf"(?<![\d-]){re.escape(c)}(?![\d])", text)}
     coverage = len(cited) / len(section_codes) if section_codes else 1.0
-    if section_codes and not cited:
-        problems.append("aucune publication GRI de la section n'est citée (ex. « GRI " + section_codes[0] + " »)")
-    return problems, round(coverage, 2)
+    if section_codes and coverage < 0.5:
+        missing = [c for c in section_codes if c not in cited][:4]
+        notes.append("cite les publications GRI concernées entre parenthèses, par exemple "
+                     + ", ".join(f"(GRI {c})" for c in missing))
+    return blocking, notes, round(coverage, 2)
 
 
 SYSTEM = """You are a strict auditor of sustainability reports. You check ONE section of a French-language
