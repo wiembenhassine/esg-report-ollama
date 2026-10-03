@@ -71,3 +71,12 @@ def test_judge_false_compliance_violation_is_discarded(monkeypatch):
     assert v["accepted"] and v["discarded_violations"] and not v["rule_violations"]
     v = judge.judge("Ce rapport est conforme aux normes GRI (GRI 2-2).", [], [], [], [])
     assert not v["accepted"]
+
+
+def test_cautions_are_rendered_by_code():
+    from esg import render
+    result = {"section": "gouvernance", "title": "Gouvernance", "decision": "validée", "text": "Texte.",
+              "used_facts": [], "judge_score": 4, "faithfulness": 1.0, "gri_coverage": 1.0,
+              "unsupported_claims": [], "attempts": 1, "guard_rejections": 0, "seconds": 1.0}
+    md = render.report_md("tudublin", [result])
+    assert "Point de vigilance" in md and "PA-4" in md

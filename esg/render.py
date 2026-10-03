@@ -242,6 +242,8 @@ def report_md(key: str, results: list[dict]) -> str:
         table, _ = section_indicators(key, r["section"])
         if table:
             parts += [table, ""]
+        for caution in gri_index.cautions(key, r["section"]):   # mise en garde garantie par le code
+            parts += [f"> **Point de vigilance.** {caution}", ""]
         parts.append(guard.tidy(r["text"], r["title"]))
     parts += ["", "## Index de contenu GRI", "", gri_index_md(key),
               "", "## Annexe — Validation du rapport", "", validation_md(results),
