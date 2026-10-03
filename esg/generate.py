@@ -192,6 +192,14 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
                "prompt_tokens": out["prompt_tokens"], "output_tokens": out["output_tokens"]}
 
         problems = guard.check_draft(draft, set(values))
+        att["raw_guard_problems"], att["removed_sentences"] = problems, []
+        if problems:
+            # Le code retire les phrases fautives ; trop de suppressions = version rejetée.
+            repaired, removed = guard.repair(draft, set(values))
+            if (len(" ".join(removed).split()) <= 0.4 * len(draft.split())
+                    and not guard.check_draft(repaired, set(values))):
+                log(f"   [{tag}] tentative {n} : {len(removed)} phrase(s) contenant un nombre retirée(s) par le garde-fou")
+                draft, problems, att["removed_sentences"] = repaired, [], removed
         lint_problems, lint_notes, coverage = judge.lint(guard.PLACEHOLDER.sub("X", draft), section_codes)
         att["guard_problems"], att["lint_problems"], att["gri_coverage"] = problems, lint_problems, coverage
         att["lint_notes"] = lint_notes

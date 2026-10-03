@@ -71,6 +71,34 @@ def check_draft(text: str, allowed: set[str]) -> list[str]:
     return problems
 
 
+SENTENCE_END = re.compile(r"(?<=[.!?…])\s+")
+
+
+def repair(text: str, allowed: set[str]) -> tuple[str, list[str]]:
+    """Retire les phrases (et titres) qui violent le garde-fou ; renvoie (texte, phrases retirées).
+
+    Le code ne fait que SUPPRIMER : il n'ajoute ni ne modifie aucun mot. Une phrase fautive
+    disparaît donc du rapport au lieu de faire rejeter tout le texte.
+    """
+    kept_lines, removed = [], []
+    for line in text.splitlines():
+        if not line.strip():
+            kept_lines.append(line)
+            continue
+        if line.lstrip().startswith(("#", "-", "*")) and check_draft(line, allowed):
+            removed.append(line.strip())
+            continue
+        kept = []
+        for sentence in SENTENCE_END.split(line):
+            if check_draft(sentence, allowed):
+                removed.append(sentence.strip())
+            else:
+                kept.append(sentence)
+        if kept:
+            kept_lines.append(" ".join(kept))
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(kept_lines)).strip(), removed
+
+
 FR_NUMBER = re.compile(r"\d{1,3}(?:[   ]\d{3})*(?:,\d+)?|\d+(?:,\d+)?")
 
 

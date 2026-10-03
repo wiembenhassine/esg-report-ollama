@@ -47,3 +47,16 @@ def test_rendered_numbers_must_come_from_facts():
 
 def test_masked_number_marker_is_rejected():
     assert check_draft("Le campus couvre [n] acres.", ALLOWED)
+
+
+def test_repair_only_removes_offending_sentences():
+    from esg.guard import repair
+    text = ("### Périmètre\n\nLe campus couvre [n] acres. Il comprend le site de Richmond (GRI 2-2). "
+            "Trois membres siègent au conseil.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir "
+            "le siège (GRI 2-1). Le score est de {{ OP6_score }}.")
+    fixed, removed = repair(text, ALLOWED)
+    assert check_draft(fixed, ALLOWED) == []
+    assert "Richmond" in fixed and "{{ OP6_score }}" in fixed and "ne peut pas établir" in fixed
+    assert len(removed) == 2
+    for word in fixed.split():                 # le code n'ajoute aucun mot
+        assert word in text.split()
