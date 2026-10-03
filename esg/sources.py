@@ -11,7 +11,8 @@ Deux traitements essentiels :
    texte d'aide et retirée. Ce qui reste est propre à l'institution.
 
 2. Masquage des nombres (`mask_numbers`). Le LLM rédacteur ne doit jamais
-   voir un chiffre : tout nombre du contexte est remplacé par « [n] ».
+   voir un chiffre : tout nombre du contexte est supprimé (un marqueur « [n] »,
+   utilisé dans une première version, était recopié par le modèle).
    Il ne peut donc ni le recopier, ni l'arrondir, ni le transformer.
 """
 
@@ -41,9 +42,14 @@ def fix_text(s: str) -> str:
 
 
 def mask_numbers(text: str) -> str:
+    """Supprime les nombres (et le % qui les suit) au lieu de les remplacer par un marqueur :
+    un « [n] » laissé dans le contexte était recopié par le modèle."""
     text = URL.sub("", text)
-    text = DIGITS.sub("[n]", text)
-    return WORDS_EN.sub("[n]", text)
+    text = re.sub(DIGITS.pattern + r"\s*(%|per ?cent\b)?", " ", text)
+    text = WORDS_EN.sub(" ", text)
+    text = re.sub(r"\(\s*\)", " ", text)
+    text = re.sub(r"\s+([,.;:])", r"\1", text)
+    return re.sub(r"\s{2,}", " ", text).strip()
 
 
 def _parse_file(key: str) -> dict:

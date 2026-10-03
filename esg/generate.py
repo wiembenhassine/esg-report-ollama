@@ -47,8 +47,8 @@ RÈGLE ABSOLUE SUR LES NOMBRES
 - N'écris AUCUN nombre : ni chiffre, ni nombre en lettres, ni année, ni date, ni pourcentage.
 - Pour citer une valeur, recopie exactement son placeholder, par exemple {{ OP6_score }}, tel qu'il figure
   dans la liste VALEURS. Le code le remplacera par la vraie valeur. Tu ne connais pas les valeurs.
-- Une valeur sans placeholder ne doit pas être mentionnée. Les « [n] » du contexte sont des nombres masqués :
-  ne les reproduis jamais et ne les remplace pas par une estimation.
+- Une valeur sans placeholder ne doit pas être mentionnée. Les nombres ont été retirés du contexte : n'essaie
+  jamais de les deviner ni de les remplacer par une estimation ou une quantité vague.
 - Autorisé : les références GRI (« GRI 305-1 ») et les codes de crédits STARS (« OP-6 »).
 
 FIDÉLITÉ

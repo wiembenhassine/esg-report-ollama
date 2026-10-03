@@ -1,0 +1,1274 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Rapport de durabilité — Technological University Dublin</title><style>
+@page { size: A4; margin: 18mm 16mm; }
+:root { --ink:#1d2a26; --muted:#5b6b66; --line:#d9e1de; --accent:#2f6f5e; --bg:#ffffff; }
+body { font-family: "Segoe UI", Calibri, Arial, sans-serif; color: var(--ink); background: var(--bg);
+       max-width: 860px; margin: 0 auto; padding: 24px 16px; line-height: 1.55; font-size: 10.5pt; }
+h1 { color: var(--accent); font-size: 22pt; margin: 0 0 4px; line-height: 1.2; }
+h1 + p em { color: var(--muted); }
+h2 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 3px; margin-top: 30px;
+     page-break-after: avoid; }
+h3 { font-size: 12pt; margin: 18px 0 6px; page-break-after: avoid; }
+table { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 9pt; page-break-inside: auto; }
+th, td { border: 1px solid var(--line); padding: 5px 7px; vertical-align: top; text-align: left; }
+th { background: #eef4f2; }
+tr { page-break-inside: avoid; }
+td:first-child { min-width: 120px; }
+blockquote { border-left: 4px solid var(--accent); margin: 10px 0; padding: 4px 12px; background: #f4f8f6; }
+.badge { display: inline-block; padding: 1px 7px; border-radius: 9px; font-size: 8.5pt; white-space: nowrap; }
+.badge.ok { background: #dcefe6; color: #1e5c45; } .badge.part { background: #fbeccf; color: #7a4d06; }
+.badge.no { background: #f1dede; color: #7c2323; } .badge.pend { background: #e3e8f3; color: #2d4573; }
+.review { background: #fbeccf; border-left: 4px solid #c07a2c; padding: 6px 10px; font-size: 9.5pt; }
+.chart { width: 100%; max-width: 680px; height: auto; margin: 8px 0; }
+.chart .lbl { font-size: 11px; fill: #1d2a26; } .chart .val { font-size: 10px; fill: #1d2a26; }
+.legend { font-size: 9pt; color: var(--muted); }
+code { background: #f1f4f3; padding: 0 3px; border-radius: 3px; }
+@media (max-width: 600px) { table { font-size: 8pt; } td:first-child { min-width: 0; } }
+</style></head><body><h1>Rapport de durabilité — Technological University Dublin</h1>
+<p><em>Établi en référence aux normes GRI · généré le 2026-10-03 · données AASHE STARS 3.0</em></p>
+<p><strong>À propos de ce rapport.</strong> Ce rapport est généré automatiquement à partir de la soumission publique
+AASHE STARS 3.0 de Technological University Dublin (2 décembre 2024), mise en correspondance avec les normes GRI.
+Il examine les 78 publications GRI de 13 normes. Lorsqu'une publication ne peut pas être renseignée à partir
+des données STARS, il le dit et explique pourquoi, au lieu d'omettre la question.</p>
+<p><strong>D'où viennent les chiffres, et pourquoi s'y fier.</strong> Le modèle de langage qui rédige le texte
+(llama3.1:8b, exécuté localement avec Ollama) n'a jamais vu un chiffre : les nombres de son contexte sont
+masqués, et il écrit des marqueurs nommés que le code remplace ensuite par les valeurs de la table des faits.
+Un garde-fou déterministe rejette toute section où le modèle a écrit lui-même un nombre, puis chaque nombre du
+texte final est contrôlé contre cette table. Le modèle choisit les phrases ; il ne choisit pas les chiffres.</p>
+<p><strong>Validation automatique.</strong> Chaque section est ensuite auditée par le modèle configuré en juge : il découpe le
+texte en affirmations, vérifie chacune contre les sources, contrôle les règles de reporting et note la section.
+Une section refusée est régénérée avec les corrections demandées. Le détail figure en annexe « Validation du
+rapport ».</p>
+<p><strong>Ce que la garantie ne couvre pas.</strong> Elle porte sur les chiffres. Les énoncés qualitatifs proviennent des
+réponses narratives de l'établissement ; le juge les contrôle, mais un juge automatique peut se tromper. Les
+sections marquées « à relire » demandent une validation humaine.</p>
+<p><strong>« En référence aux » normes GRI, et non « conformément à ».</strong> GRI réserve la mention « conformément » aux
+rapports qui répondent à toutes les publications générales et à toutes celles de chaque thème matériel. Ce
+rapport ne le fait pas : il revendique donc la mention plus faible, qui est la mention exacte.</p>
+<p><strong>Portée des données.</strong> Cette version s'appuie sur les scores publics par crédit et sur les réponses narratives de l'établissement. Les valeurs détaillées des champs STARS (énergie, émissions, eau, déchets, effectifs…) exigent un accès authentifié AASHE et n'ont pas encore été extraites : les publications qui en dépendent sont marquées « Non évalué » plutôt que d'être devinées.</p>
+<p><strong>Source et attribution.</strong> <a href="https://reports.aashe.org/institutions/technological-university-dublin-dublin/report/2024-12-02/">Technological University Dublin STARS Report</a>, AASHE, note « Gold ».
+Les données STARS sont accessibles publiquement et utilisées ici avec attribution à l'AASHE ; elles ne sont
+pas sous licence ouverte et sont autodéclarées par l'établissement. Extraction initiale des données :
+Hakim Chaanbi (<a href="https://github.com/hakimchaanbi/esg-reporting">hakimchaanbi/esg-reporting</a>).</p>
+<h2>Synthèse des résultats STARS</h2>
+<p>Note STARS : <strong>Gold</strong> — score global <strong>83,35</strong> sur 100.
+Les scores STARS 3.0 sont autodéclarés et notés par rapport à un groupe de pairs ; les piliers ci-dessous regroupent les crédits notés (regroupement du projet, pas une désignation STARS ; crédits bonus IL exclus).</p>
+<table>
+<thead>
+<tr>
+<th>Pilier</th>
+<th style="text-align: right;">Points obtenus</th>
+<th style="text-align: right;">Points possibles</th>
+<th style="text-align: right;">Part obtenue</th>
+<th>Niveau</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Environnement</td>
+<td style="text-align: right;">50,77</td>
+<td style="text-align: right;">85</td>
+<td style="text-align: right;">59,7 %</td>
+<td>intermédiaire</td>
+</tr>
+<tr>
+<td>Social</td>
+<td style="text-align: right;">20,40</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">81,6 %</td>
+<td>élevé</td>
+</tr>
+<tr>
+<td>Gouvernance</td>
+<td style="text-align: right;">10,67</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">97,0 %</td>
+<td>élevé</td>
+</tr>
+<tr>
+<td>Enseignement, recherche et engagement</td>
+<td style="text-align: right;">107,36</td>
+<td style="text-align: right;">118</td>
+<td style="text-align: right;">91,0 %</td>
+<td>élevé</td>
+</tr>
+</tbody>
+</table>
+<p><svg class="chart" viewBox="0 0 640 142" role="img" xmlns="http://www.w3.org/2000/svg"><text x="0" y="23.0" class="lbl">Environnement</text><rect x="250" y="10" width="191.0" height="14" rx="2" fill="#2f6f5e"><title>Technological University Dublin : 59,7 %</title></rect><text x="447.0" y="21" class="val">59,7 %</text><text x="0" y="51.0" class="lbl">Social</text><rect x="250" y="38" width="261.1" height="14" rx="2" fill="#2f6f5e"><title>Technological University Dublin : 81,6 %</title></rect><text x="517.1" y="49" class="val">81,6 %</text><text x="0" y="79.0" class="lbl">Gouvernance</text><rect x="250" y="66" width="310.4" height="14" rx="2" fill="#2f6f5e"><title>Technological University Dublin : 97,0 %</title></rect><text x="566.4" y="77" class="val">97,0 %</text><text x="0" y="107.0" class="lbl">Enseignement, recherche et engagement</text><rect x="250" y="94" width="291.2" height="14" rx="2" fill="#2f6f5e"><title>Technological University Dublin : 91,0 %</title></rect><text x="547.2" y="105" class="val">91,0 %</text></svg></p>
+<h2>L'organisation, son périmètre et ses effectifs</h2>
+<table>
+<thead>
+<tr>
+<th>Crédit STARS</th>
+<th style="text-align: right;">Points obtenus</th>
+<th>Niveau</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PA-12 — Employee Rights</td>
+<td style="text-align: right;">3 / 3</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.</em></p>
+<h3>Organisation, périmètre et effectifs</h3>
+<h4>Organisation</h4>
+<p>L'organisation est la Technological University Dublin (TUD), une université irlandaise. Cette information est disponible dans le rapport STARS.</p>
+<h4>Périmètre</h4>
+<p>Le périmètre de l'université n'est pas couvert par STARS.</p>
+<h4>Effectifs</h4>
+<p>Ce rapport ne peut pas établir le nombre d'effectifs de l'université.</p>
+<h4>Point de contact</h4>
+<p>Ce rapport ne peut pas établir le point de contact de l'université.</p>
+<h4>Vérification externe</h4>
+<p>L'université a déclaré avoir mené une vérification externe, mais ce rapport ne peut pas établir les détails de cette vérification, tels que la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur.</p>
+<p>(GRI 2-1, GRI 2-3, GRI 2-5)</p>
+<h3>Limites et omissions</h3>
+<p>Ce rapport ne peut pas établir le nombre d'effectifs de l'université, ni le point de contact. De plus, les données STARS ne permettent pas d'établir les détails de la vérification externe.</p>
+<h2>Thèmes matériels</h2>
+<table>
+<thead>
+<tr>
+<th>Crédit STARS</th>
+<th style="text-align: right;">Points obtenus</th>
+<th>Niveau</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PA-2 — Commitments and Planning</td>
+<td style="text-align: right;">5,67 / 6</td>
+<td>élevé</td>
+</tr>
+</tbody>
+</table>
+<p><em>Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.</em></p>
+<p><em>Section de repli générée par le code : aucune version rédigée par le modèle n'a passé la validation.</em></p>
+<h3>Résultats STARS des crédits concernés</h3>
+<ul>
+<li>PA-2 — Commitments and Planning : 5,67 / 6 points</li>
+</ul>
+<h3>Statut des publications GRI</h3>
+<ul>
+<li>GRI 3-1 Processus de détermination des thèmes matériels : non rapporté.</li>
+<li>GRI 3-2 Liste des thèmes matériels : partiellement rapporté.</li>
+<li>GRI 3-3 Gestion des thèmes matériels : partiellement rapporté.</li>
+</ul>
+<h2>Gouvernance</h2>
+<table>
+<thead>
+<tr>
+<th>Crédit STARS</th>
+<th style="text-align: right;">Points obtenus</th>
+<th>Niveau</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PA-1 — Sustainability Coordination</td>
+<td style="text-align: right;">1 / 1</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>PA-3 — Institutional Governance</td>
+<td style="text-align: right;">4 / 4</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.</em></p>
+<blockquote>
+<p><strong>Point de vigilance.</strong> Les crédits PA-4 (programme d'investissement durable) et PA-5 (portefeuille d'investissements) sont « Non applicables » : TU Dublin est une université publique sans fonds de dotation. C'est un constat sur l'adéquation des référentiels au secteur, pas une défaillance.</p>
+</blockquote>
+<h4>Composition de la gouvernance</h4>
+<p>L'université Technological University Dublin (TU Dublin) a mis en place des mécanismes de gouvernance qui assurent la représentation des différentes parties prenantes. Le GRI 2-9 est partiellement rapporté. (GRI 2-9)</p>
+<h4>Délégation de la responsabilité de la gestion des impacts</h4>
+<p>TU Dublin ne rapporte pas sur la délégation de la responsabilité de la gestion des impacts. (GRI 2-13)</p>
+<h4>Rôle de l'organe de gouvernance dans le reporting de durabilité</h4>
+<p>La direction de l'université a signé une lettre de déclaration de son engagement en faveur de la durabilité, mais ce document n'est pas une revue et une approbation par l'organe de gouvernance. (GRI 2-14)</p>
+<h4>Ratio de rémunération totale annuelle</h4>
+<p>TU Dublin ne rapporte pas sur le ratio de rémunération totale annuelle. (GRI 2-21)</p>
+<h4>Limites et omissions</h4>
+<p>Ce rapport ne peut pas établir le nombre de membres de l'organe de gouvernance, leur indépendance ou leur représentation par genre. De plus, les données ne permettent pas de déterminer si les responsables de la gestion des impacts rendent compte régulièrement à l'organe de gouvernance.</p>
+<h3>Gouvernance</h3>
+<h4>Points obtenus</h4>
+<p>TU Dublin a obtenu 4 points sur 4 pour la gouvernance institutionnelle, ce qui correspond à un niveau de maximal. (PA-3)</p>
+<h4>Part des points obtenus</h4>
+<p>La part des points obtenus pour la gouvernance est élevée, 97,0 %.</p>
+<h4>Points obtenus - pilier Gouvernance</h4>
+<p>TU Dublin a obtenu 10,67 points sur 11 pour le pilier Gouvernance, ce qui correspond à un niveau de maximal.</p>
+<h4>Part des points obtenus - pilier Gouvernance</h4>
+<p>La part des points obtenus pour le pilier Gouvernance est élevée, 97,0 %.</p>
+<h2>Stratégie, politiques et pratiques</h2>
+<p class="review">Section à relire : le juge automatique n'a pas pu la valider entièrement (voir l'annexe « Validation du rapport »).</p>
+<table>
+<thead>
+<tr>
+<th>Crédit STARS</th>
+<th style="text-align: right;">Points obtenus</th>
+<th>Niveau</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PA-2 — Commitments and Planning</td>
+<td style="text-align: right;">5,67 / 6</td>
+<td>élevé</td>
+</tr>
+<tr>
+<td>PA-1 — Sustainability Coordination</td>
+<td style="text-align: right;">1 / 1</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>PA-12 — Employee Rights</td>
+<td style="text-align: right;">3 / 3</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>OP-9 — Sustainable Procurement System</td>
+<td style="text-align: right;">2,4 / 7</td>
+<td>faible</td>
+</tr>
+<tr>
+<td>EN-3 — Staff Engagement and Training</td>
+<td style="text-align: right;">8 / 8</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.</em></p>
+<h4>Stratégie de développement durable</h4>
+<p>La Technological University Dublin (TU Dublin) a déclaré avoir mis en place une stratégie de développement durable. Cette stratégie est définie dans le TU Dublin Strategic Plan, qui comprend des objectifs de durabilité mesurables. Le vice-président de la durabilité est le sponsor de ces objectifs, tandis que Rosie Webb en est la responsable.</p>
+<p>(GRI 2-22)</p>
+<h4>Engagements politiques</h4>
+<p>La TU Dublin a déclaré avoir mis en place des engagements politiques pour promouvoir la durabilité. Ces engagements sont définis dans le TU Dublin Strategic Plan et sont axés sur la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique. Les activités de durabilité menées par les SECs (Student Employers' Councils) sont également un exemple d'engagement politique. (GRI 2-23)</p>
+<h4>Processus de remédiation des impacts négatifs</h4>
+<p>La TU Dublin a déclaré avoir mis en place un processus de remédiation des impacts négatifs. Ce processus est axé sur la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique. Les activités de durabilité menées par les SECs sont également un exemple de processus de remédiation. (GRI 2-25)</p>
+<h4>Adhésion à des associations</h4>
+<p>La TU Dublin a déclaré avoir adhéré à des associations pour promouvoir la durabilité. Cependant, il est important de noter que la TU Dublin n'a pas adhéré à des associations de manière générale, mais plutôt a signé des chartes et des engagements spécifiques. (GRI 2-28)</p>
+<h2>Engagement des parties prenantes</h2>
+<table>
+<thead>
+<tr>
+<th>Crédit STARS</th>
+<th style="text-align: right;">Points obtenus</th>
+<th>Niveau</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PA-3 — Institutional Governance</td>
+<td style="text-align: right;">4 / 4</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>EN-5 — Civic Engagement</td>
+<td style="text-align: right;">4,5 / 8</td>
+<td>intermédiaire</td>
+</tr>
+<tr>
+<td>EN-6 — Community Partnerships</td>
+<td style="text-align: right;">7 / 9</td>
+<td>élevé</td>
+</tr>
+<tr>
+<td>PA-12 — Employee Rights</td>
+<td style="text-align: right;">3 / 3</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.</em></p>
+<h4>Engagement des parties prenantes dans la gouvernance</h4>
+<p>La Technological Universities Act spécifie l'obligation de représentation des étudiants dans les organes de gouvernance des universités techniques, y compris la Technological University Dublin. Le site web de la Student Union (SU) liste diverses instances où les étudiants sont représentés. Le président de la Student Union est le porte-parole principal de l'Union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. (GRI 2-29)</p>
+<h4>Engagement des parties prenantes dans la citoyenneté</h4>
+<p>L'université compte un engagement significatif de ses étudiants dans les activités communautaires. (EN-5)</p>
+<h4>Engagement des parties prenantes dans les partenariats communautaires</h4>
+<p>L'université a mis en place un programme de partenariats communautaires, comme le programme SLWC+ pilot, qui inclut une déclaration de réciprocité dans l'accord de collaboration. Ce programme vise à évaluer conjointement les résultats avec le partenaire de collaboration. (EN-6)</p>
+<h3>Limites et omissions</h3>
+<p>Ce rapport ne peut pas établir la liste complète des partenariats communautaires pour la durabilité de l'université. (GRI 2-29)</p>
+<h2>Performance environnementale</h2>
+<table>
+<thead>
+<tr>
+<th>Crédit STARS</th>
+<th style="text-align: right;">Points obtenus</th>
+<th>Niveau</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OP-5 — Energy Use</td>
+<td style="text-align: right;">6,34 / 10</td>
+<td>intermédiaire</td>
+</tr>
+<tr>
+<td>OP-6 — Greenhouse Gas Emissions</td>
+<td style="text-align: right;">10,79 / 16</td>
+<td>intermédiaire</td>
+</tr>
+<tr>
+<td>OP-3 — Water Use</td>
+<td style="text-align: right;">4,33 / 6</td>
+<td>intermédiaire</td>
+</tr>
+<tr>
+<td>OP-12 — Waste Generation and Recovery</td>
+<td style="text-align: right;">3,94 / 5</td>
+<td>élevé</td>
+</tr>
+<tr>
+<td>OP-11 — Materials Management</td>
+<td style="text-align: right;">2,25 / 4</td>
+<td>intermédiaire</td>
+</tr>
+<tr>
+<td>OP-9 — Sustainable Procurement System</td>
+<td style="text-align: right;">2,4 / 7</td>
+<td>faible</td>
+</tr>
+<tr>
+<td>OP-10 — Purchased Goods</td>
+<td style="text-align: right;">2,75 / 4</td>
+<td>intermédiaire</td>
+</tr>
+<tr>
+<td>OP-1 — Building Design and Construction</td>
+<td style="text-align: right;">1,38 / 3</td>
+<td>intermédiaire</td>
+</tr>
+<tr>
+<td>OP-2 — Building Operations and Maintenance</td>
+<td style="text-align: right;">1,97 / 5</td>
+<td>faible</td>
+</tr>
+<tr>
+<td>OP-13 — Vehicle Fleet</td>
+<td style="text-align: right;">2 / 2</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>OP-14 — Commute Modal Split</td>
+<td style="text-align: right;">5,39 / 6</td>
+<td>élevé</td>
+</tr>
+<tr>
+<td>OP-15 — Air Travel</td>
+<td style="text-align: right;">0 / 2</td>
+<td>nul (aucun point obtenu)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.</em></p>
+<h4>Énergie</h4>
+<p>L'université utilise des panneaux solaires pour produire de l'électricité.</p>
+<h4>Eau</h4>
+<p>La collecte d'eau de pluie est réalisée sur le toit du Greenway Hub, ainsi que dans les jardins et les sites d'horticulture.</p>
+<h4>GES</h4>
+<p>L'université a mis en place des mesures pour réduire ses émissions de gaz à effet de serre. Cependant, les informations disponibles ne permettent pas d'établir les émissions directes de GES (GRI 305-1) ou les émissions indirectes de GES liées à l'énergie (GRI 305-2).</p>
+<h4>Déchets</h4>
+<p>L'université a mis en place des programmes pour réduire les déchets. Cependant, les informations disponibles ne permettent pas d'établir les déchets générés (GRI 306-3) ou les déchets destinés à l'élimination (GRI 306-5).</p>
+<h4>Limites et omissions</h4>
+<p>Ce rapport ne peut pas établir les émissions directes de GES (GRI 305-1), les émissions indirectes de GES liées à l'énergie (GRI 305-2), les déchets générés (GRI 306-3), les déchets destinés à l'élimination (GRI 306-5) ou les émissions indirectes de GES (GRI 305-3).</p>
+<h2>Performance sociale et économique</h2>
+<table>
+<thead>
+<tr>
+<th>Crédit STARS</th>
+<th style="text-align: right;">Points obtenus</th>
+<th>Niveau</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PA-13 — Pay Equity and Living Wage</td>
+<td style="text-align: right;">4,8 / 5</td>
+<td>élevé</td>
+</tr>
+<tr>
+<td>PA-12 — Employee Rights</td>
+<td style="text-align: right;">3 / 3</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>PA-11 — Health, Safety and Wellbeing</td>
+<td style="text-align: right;">3 / 3</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>PA-8 — Gender Parity</td>
+<td style="text-align: right;">0,33 / 2</td>
+<td>faible</td>
+</tr>
+<tr>
+<td>PA-7 — Racial and Ethnic Representation</td>
+<td style="text-align: right;">0,86 / 3</td>
+<td>faible</td>
+</tr>
+<tr>
+<td>PA-9 — Affordability and Access</td>
+<td style="text-align: right;">2,5 / 3</td>
+<td>élevé</td>
+</tr>
+<tr>
+<td>PA-6 — Institutional Climate</td>
+<td style="text-align: right;">3 / 3</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>PA-10 — Student Success</td>
+<td style="text-align: right;">2,91 / 3</td>
+<td>élevé</td>
+</tr>
+</tbody>
+</table>
+<p><em>Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.</em></p>
+<h4>Équité salariale et salaire minimum</h4>
+<p>TU Dublin a atteint un niveau élevé en matière d'équité salariale et de salaire minimum, avec un score de 4,8 sur 5 (GRI 202-1).</p>
+<h4>Droits de l'employé</h4>
+<p>L'université a obtenu un score maximal (tous les points obtenus) en matière de droits de l'employé, avec un score de 3 sur 3 (GRI 401-1).</p>
+<h4>Santé, sécurité et bien-être</h4>
+<p>TU Dublin a également obtenu un score maximal (tous les points obtenus) en matière de santé, de sécurité et de bien-être, avec un score de 3 sur 3 (GRI 403-1).</p>
+<h4>Parité de genre</h4>
+<p>L'université a obtenu un score faible en matière de parité de genre, avec un score de 0,33 sur 2 (GRI 405-1).</p>
+<h4>Représentation raciale et ethnique</h4>
+<p>TU Dublin a également obtenu un score faible en matière de représentation raciale et ethnique, avec un score de 0,86 sur 3 (GRI 405-1).</p>
+<h4>Accessibilité et accès</h4>
+<p>L'université a obtenu un score élevé en matière d'accessibilité et d'accès, avec un score de 2,5 sur 3 (GRI 404-1).</p>
+<h4>Climat institutionnel</h4>
+<p>TU Dublin a obtenu un score maximal (tous les points obtenus) en matière de climat institutionnel, avec un score de 3 sur 3 (GRI 403-1).</p>
+<h4>Succès des étudiants</h4>
+<p>L'université a obtenu un score élevé en matière de succès des étudiants, avec un score de 2,91 sur 3 (GRI 404-1).</p>
+<h4>Limites et omissions</h4>
+<p>Ce rapport ne peut pas établir la diversité des organes de gouvernance et des salariés, car les données ne sont pas disponibles (GRI 405-1).</p>
+<h2>Enseignement, recherche et engagement (hors GRI)</h2>
+<blockquote>
+<p>Ces crédits STARS n'ont aucun équivalent dans les normes GRI, conçues pour des organisations qui n'enseignent pas. C'est un écart structurel entre les deux référentiels, et l'une des contributions de ce rapport : il montre ce qu'une université peut déclarer et que GRI ne demande pas.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Crédit STARS</th>
+<th style="text-align: right;">Points obtenus</th>
+<th>Niveau</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AC-1 — Sustainability Course Offerings</td>
+<td style="text-align: right;">14 / 14</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>AC-2 — Undergraduate Programs</td>
+<td style="text-align: right;">13,28 / 15</td>
+<td>élevé</td>
+</tr>
+<tr>
+<td>AC-3 — Graduate Programs</td>
+<td style="text-align: right;">8 / 8</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>AC-6 — Sustainability Research</td>
+<td style="text-align: right;">10 / 10</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>AC-7 — Center for Sustainability Research</td>
+<td style="text-align: right;">6 / 6</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>EN-1 — Outreach and Communications</td>
+<td style="text-align: right;">5 / 5</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>EN-2 — Co-Curricular Activities</td>
+<td style="text-align: right;">9 / 9</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>EN-3 — Staff Engagement and Training</td>
+<td style="text-align: right;">8 / 8</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+<tr>
+<td>EN-5 — Civic Engagement</td>
+<td style="text-align: right;">4,5 / 8</td>
+<td>intermédiaire</td>
+</tr>
+<tr>
+<td>EN-7 — Continuing Education</td>
+<td style="text-align: right;">3 / 3</td>
+<td>maximal (tous les points obtenus)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.</em></p>
+<p><em>Section de repli générée par le code : aucune version rédigée par le modèle n'a passé la validation.</em></p>
+<h2>Index de contenu GRI</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Rapporté</th>
+<th style="text-align: center;">Partiellement rapporté</th>
+<th style="text-align: center;">Non rapporté</th>
+<th style="text-align: center;">Non évalué</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;">25</td>
+</tr>
+</tbody>
+</table>
+<p><em>Statuts calculés par le code à partir de la table de correspondance écrite à la main (<code>mapping/gri_map.yaml</code>). « Non évalué » : un champ STARS correspondant existe mais sa valeur n'a pas été extraite.</em></p>
+<h3>GRI 2 : Éléments généraux 2021</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>2-1</strong> Détails sur l'organisation</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PRE-3) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>GRI 2-1 demande aussi la dénomination légale, le siège et les pays d'activité ; STARS ne les collecte pas comme champs.</td>
+</tr>
+<tr>
+<td><strong>2-2</strong> Entités incluses dans le reporting de durabilité</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PRE-3) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>STARS collecte le périmètre sous forme de récit libre, pas de liste d'entités. Les trois établissements n'ont pas le même périmètre : les ratios par personne ou par m² ne sont pas comparables tels quels.</td>
+</tr>
+<tr>
+<td><strong>2-3</strong> Période de reporting, fréquence et point de contact</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PRE-4, OP-6) ; les champs structurés n'ont pas été extraits.</td>
+<td>STARS n'a pas de période de reporting unique : les années varient d'un crédit à l'autre. Ni fréquence, ni date de publication, ni point de contact ne sont collectés.</td>
+</tr>
+<tr>
+<td><strong>2-4</strong> Retraitements d'informations</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td>STARS ne suit pas les retraitements. De plus, les versions 2.2 et 3.0 notent différemment les crédits Opérations : une série temporelle entre versions n'est pas valide.</td>
+</tr>
+<tr>
+<td><strong>2-5</strong> Vérification externe</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PRE-4) ; les champs structurés n'ont pas été extraits.</td>
+<td>GRI 2-5 demande aussi la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur ; STARS ne les collecte pas. Les données STARS sont autodéclarées et non vérifiées par l'AASHE.</td>
+</tr>
+<tr>
+<td><strong>2-6</strong> Activités, chaîne de valeur et autres relations d'affaires</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PRE-3) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>STARS liste des éléments physiques du campus ; ni chaîne de valeur, ni produits et services, ni marchés desservis.</td>
+</tr>
+<tr>
+<td><strong>2-7</strong> Salariés</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PRE-3) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Un équivalent temps plein n'est pas un effectif. Aucune ventilation par contrat, temps de travail, genre ou région.</td>
+</tr>
+<tr>
+<td><strong>2-8</strong> Travailleurs non salariés</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td>STARS ne compte pas les travailleurs des sous-traitants.</td>
+</tr>
+<tr>
+<td><strong>2-9</strong> Structure et composition de la gouvernance</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PA-3) ; les champs structurés n'ont pas été extraits.</td>
+<td>STARS indique si chaque catégorie est représentée, pas la composition chiffrée (nombre de membres, indépendance, genre).</td>
+</tr>
+<tr>
+<td><strong>2-10</strong> Nomination et sélection de l'organe de gouvernance le plus élevé</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>2-11</strong> Président de l'organe de gouvernance le plus élevé</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>2-12</strong> Rôle de l'organe de gouvernance dans la supervision de la gestion des impacts</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>2-13</strong> Délégation de la responsabilité de la gestion des impacts</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PA-1) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>GRI 2-13-b demande si et à quelle fréquence ces responsables rendent compte à l'organe de gouvernance ; STARS ne le demande pas.</td>
+</tr>
+<tr>
+<td><strong>2-14</strong> Rôle de l'organe de gouvernance dans le reporting de durabilité</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PRE-1) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Une lettre signée par la direction n'est pas une revue et une approbation par l'organe de gouvernance ; le texte de la lettre n'est pas dans les données.</td>
+</tr>
+<tr>
+<td><strong>2-15</strong> Conflits d'intérêts</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>2-16</strong> Communication des préoccupations majeures</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>2-17</strong> Connaissances collectives de l'organe de gouvernance</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>2-18</strong> Évaluation de la performance de l'organe de gouvernance</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>2-19</strong> Politiques de rémunération</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>2-20</strong> Procédure de détermination de la rémunération</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>2-21</strong> Ratio de rémunération totale annuelle</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (IL-62) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Dénominateurs différents : GRI divise par la rémunération MÉDIANE, STARS (IL-62, crédit bonus facultatif) par la plus BASSE. Le chiffre STARS n'est pas comparable à un ratio GRI 2-21.</td>
+</tr>
+<tr>
+<td><strong>2-22</strong> Déclaration sur la stratégie de développement durable</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PA-2) ; les champs structurés n'ont pas été extraits.</td>
+<td>GRI 2-22 exige une déclaration de l'organe de gouvernance ou du dirigeant le plus élevé ; STARS n'attribue pas la vision à un signataire.</td>
+</tr>
+<tr>
+<td><strong>2-23</strong> Engagements politiques</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PA-2) ; les champs structurés n'ont pas été extraits.</td>
+<td>GRI 2-23 vise les engagements relatifs aux droits humains et au devoir de vigilance ; un engagement de durabilité est plus large et ne les implique pas.</td>
+</tr>
+<tr>
+<td><strong>2-24</strong> Intégration des engagements politiques</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (EN-3) ; les champs structurés n'ont pas été extraits.</td>
+<td>STARS décrit des résultats (code fournisseurs, formations) mais pas l'attribution interne des responsabilités ni l'intégration dans les procédures.</td>
+</tr>
+<tr>
+<td><strong>2-25</strong> Processus de remédiation des impacts négatifs</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PA-12) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>STARS indique seulement que l'information est publiée, pour les salariés uniquement ; GRI vise toutes les parties prenantes affectées.</td>
+</tr>
+<tr>
+<td><strong>2-26</strong> Mécanismes de demande de conseil et de signalement</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PA-12) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Salariés uniquement ; GRI 2-26 couvre aussi les personnes en relation d'affaires.</td>
+</tr>
+<tr>
+<td><strong>2-27</strong> Conformité aux lois et réglementations</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td>STARS ne collecte ni non-conformités, ni amendes, ni sanctions.</td>
+</tr>
+<tr>
+<td><strong>2-28</strong> Adhésion à des associations</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PA-2) ; les champs structurés n'ont pas été extraits.</td>
+<td>Signer une charte n'est pas adhérer à une association ; STARS restreint le champ aux engagements assortis d'une obligation de reporting.</td>
+</tr>
+<tr>
+<td><strong>2-29</strong> Approche de l'engagement des parties prenantes</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PA-3, EN-6) ; les champs structurés n'ont pas été extraits.</td>
+<td>STARS couvre quatre catégories fixes (étudiants, enseignants, personnel, communauté locale) ; ni fournisseurs, ni groupes vulnérables, ni méthode d'identification des parties prenantes.</td>
+</tr>
+<tr>
+<td><strong>2-30</strong> Conventions collectives</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td>STARS ne collecte pas le pourcentage de salariés couverts par une convention collective.</td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 3 : Thèmes matériels 2021</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>3-1</strong> Processus de détermination des thèmes matériels</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td>Différence structurelle entre référentiels, pas une donnée manquante : STARS impose un ensemble fixe de crédits. Ce rapport ne peut pas établir l'existence d'un processus de matérialité — il ne peut pas non plus affirmer qu'il n'en existe pas.</td>
+</tr>
+<tr>
+<td><strong>3-2</strong> Liste des thèmes matériels</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PA-2) ; les champs structurés n'ont pas été extraits.</td>
+<td>Les cinq domaines d'objectifs sont fixés par STARS et identiques pour toutes les institutions : ils ne constituent pas une détermination de matérialité.</td>
+</tr>
+<tr>
+<td><strong>3-3</strong> Gestion des thèmes matériels</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PA-2) ; les champs structurés n'ont pas été extraits.</td>
+<td>Réponses à l'échelle de l'établissement à une question que GRI pose thème par thème ; ni impacts, ni distinction prévention / remédiation, ni enseignements tirés.</td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 202 : Présence sur le marché 2016</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>202-1</strong> Ratio entre le salaire d'entrée et le salaire minimum local, par genre</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PA-13, PA-9) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Le ratio est calculable (plancher salarial / salaire minimum local) mais pas par genre, que STARS ne collecte pas. Le salaire minimum figure dans un crédit sur l'emploi étudiant. Montants sans devise : USD pour Berkeley, EUR pour Cork et TU Dublin.</td>
+</tr>
+<tr>
+<td><strong>202-2</strong> Part des cadres dirigeants recrutés dans la communauté locale</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 204 : Pratiques d'achat 2016</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>204-1</strong> Part des dépenses auprès de fournisseurs locaux</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 301 : Matières 2016</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>301-1</strong> Matières utilisées par poids ou par volume</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td>Une université ne fabrique pas de produits physiques : écart d'adéquation entre le référentiel et le secteur.</td>
+</tr>
+<tr>
+<td><strong>301-2</strong> Matières recyclées utilisées</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>301-3</strong> Produits et emballages récupérés</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 302 : Énergie 2016</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>302-1</strong> Consommation d'énergie au sein de l'organisation</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-5) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>STARS exprime l'énergie en MWh, GRI en joules : aucune conversion n'est faite dans le texte. Le champ « énergie renouvelable » de STARS inclut l'électricité et dépasse le périmètre de GRI 302-1-b.</td>
+</tr>
+<tr>
+<td><strong>302-2</strong> Consommation d'énergie en dehors de l'organisation</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>302-3</strong> Intensité énergétique</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-5) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Périmètres différents entre établissements : comparer ces ratios exige de nommer la différence de périmètre.</td>
+</tr>
+<tr>
+<td><strong>302-4</strong> Réduction de la consommation énergétique</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>302-5</strong> Réduction des besoins énergétiques des produits et services</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 303 : Eau et effluents 2018</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>303-1</strong> Interactions avec l'eau en tant que ressource partagée</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (OP-3) ; les champs structurés n'ont pas été extraits.</td>
+<td>Un niveau de risque n'est pas la description demandée par GRI 303-1 (prélèvement, consommation, rejets, dialogue avec les parties prenantes). Statut abaissé à « partiel » par rapport au rapport de référence.</td>
+</tr>
+<tr>
+<td><strong>303-2</strong> Gestion des impacts liés aux rejets d'eau</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>303-3</strong> Prélèvement d'eau</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-3) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>STARS en m³, GRI en mégalitres : aucune conversion dans le texte. Pas de ventilation des zones de stress hydrique.</td>
+</tr>
+<tr>
+<td><strong>303-4</strong> Rejets d'eau</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td>Champ STARS le plus proche (eau récupérée ou restituée) examiné et rejeté : GRI demande destination, type d'eau et niveau de traitement.</td>
+</tr>
+<tr>
+<td><strong>303-5</strong> Consommation d'eau</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td>Définitions différentes : GRI = prélèvement moins rejets ; STARS = eau potable consommée.</td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 305 : Émissions 2016</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>305-1</strong> Émissions directes de GES (champ d'application 1)</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-6) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Une seule année de référence pour les champs 1 et 2 réunis ; ni source des facteurs d'émission, ni approche de consolidation.</td>
+</tr>
+<tr>
+<td><strong>305-2</strong> Émissions indirectes de GES liées à l'énergie (champ d'application 2)</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-6) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>GRI demande les méthodes fondées sur la localisation et sur le marché ; toujours préciser la méthode du chiffre cité.</td>
+</tr>
+<tr>
+<td><strong>305-3</strong> Autres émissions indirectes de GES (champ d'application 3)</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-6) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>305-4</strong> Intensité des émissions de GES</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-6) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Périmètres différents entre établissements : ne jamais présenter l'écart comme une seule différence de performance.</td>
+</tr>
+<tr>
+<td><strong>305-5</strong> Réduction des émissions de GES</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-6) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Le pourcentage STARS est NET des compensations carbone achetées : toujours préciser la base (brute ou nette) et citer les compensations séparément.</td>
+</tr>
+<tr>
+<td><strong>305-6</strong> Émissions de substances appauvrissant la couche d'ozone</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>305-7</strong> NOx, SOx et autres émissions atmosphériques significatives</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 306 : Déchets 2020</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>306-1</strong> Production de déchets et impacts significatifs liés aux déchets</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>306-2</strong> Gestion des impacts significatifs liés aux déchets</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (OP-11) ; les champs structurés n'ont pas été extraits.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>306-3</strong> Déchets générés</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-12) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Sous-ensemble seulement : STARS ne pèse aucun déchet dangereux. Ne jamais présenter les déchets non dangereux comme le total. Statut abaissé à « partiel » par rapport au rapport de référence.</td>
+</tr>
+<tr>
+<td><strong>306-4</strong> Déchets détournés de l'élimination</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-12) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Partie non dangereuse uniquement ; pas de distinction sur site / hors site.</td>
+</tr>
+<tr>
+<td><strong>306-5</strong> Déchets destinés à l'élimination</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-12) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>STARS regroupe enfouissement et incinération en un seul chiffre.</td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 308 : Évaluation environnementale des fournisseurs 2016</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>308-1</strong> Nouveaux fournisseurs évalués selon des critères environnementaux</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (OP-9) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Le dénominateur STARS est l'appel d'offres, pas le nouveau fournisseur ; aucun pourcentage de fournisseurs évalués n'est calculable.</td>
+</tr>
+<tr>
+<td><strong>308-2</strong> Impacts environnementaux négatifs dans la chaîne d'approvisionnement</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 401 : Emploi 2016</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>401-1</strong> Recrutements et rotation du personnel</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>401-2</strong> Avantages accordés aux salariés à temps plein et non aux temporaires ou temps partiels</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PA-12) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Un taux d'éligibilité global, sans la comparaison temps plein / temps partiel qui est l'objet de la publication.</td>
+</tr>
+<tr>
+<td><strong>401-3</strong> Congé parental</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PA-12) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>STARS décrit la politique, pas son utilisation : ni effectifs, ni taux de retour, ni taux de rétention. « Maternité » est plus étroit que « parental ».</td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 403 : Santé et sécurité au travail 2018</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>403-1</strong> Système de management de la santé et de la sécurité au travail</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PA-11) ; les champs structurés n'ont pas été extraits.</td>
+<td>Rien n'indique si le système est réglementaire, quelle norme il suit, ni qui il couvre.</td>
+</tr>
+<tr>
+<td><strong>403-2</strong> Identification des dangers, évaluation des risques et enquêtes</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>403-3</strong> Services de santé au travail</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PA-11) ; les champs structurés n'ont pas été extraits.</td>
+<td>Des services de santé généraux ne sont pas des services de santé au travail au sens de GRI 403-3.</td>
+</tr>
+<tr>
+<td><strong>403-4</strong> Participation et consultation des travailleurs en santé et sécurité</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PA-11) ; les champs structurés n'ont pas été extraits.</td>
+<td>Existence du comité seulement : ni fréquence des réunions, ni pouvoir de décision.</td>
+</tr>
+<tr>
+<td><strong>403-5</strong> Formation des travailleurs à la santé et sécurité</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>403-6</strong> Promotion de la santé des travailleurs</td>
+<td><span class="badge part">Partiellement rapporté</span></td>
+<td>Couvert par le récit de l'établissement (PA-11) ; les champs structurés n'ont pas été extraits.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>403-7</strong> Prévention des impacts liés aux relations d'affaires</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>403-8</strong> Travailleurs couverts par un système de management</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>403-9</strong> Accidents du travail</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td>PA-11 ne contient aucun chiffre d'accident.</td>
+</tr>
+<tr>
+<td><strong>403-10</strong> Problèmes de santé liés au travail</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>GRI 405 : Diversité et égalité des chances 2016</h3>
+<table>
+<thead>
+<tr>
+<th>Publication</th>
+<th>Statut</th>
+<th>Valeur ou justification</th>
+<th>Remarques</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>405-1</strong> Diversité des organes de gouvernance et des salariés</td>
+<td><span class="badge pend">Non évalué</span></td>
+<td>Champ STARS identifié (PA-7, PA-8) mais valeur non extraite : nécessite les pages STARS authentifiées.</td>
+<td>Un indice de diversité (score de 0 à 1) n'est pas la ventilation en pourcentages demandée ; deux catégories de genre au lieu de trois ; aucune donnée d'âge.</td>
+</tr>
+<tr>
+<td><strong>405-2</strong> Ratio du salaire de base et de la rémunération des femmes par rapport aux hommes</td>
+<td><span class="badge no">Non rapporté</span></td>
+<td>Aucune donnée STARS ne correspond à cette publication.</td>
+<td>PA-13 couvre le salaire décent, pas l'écart de rémunération femmes-hommes, malgré son intitulé « Pay Equity ».</td>
+</tr>
+</tbody>
+</table>
+<h2>Annexe — Validation du rapport</h2>
+<p>Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → substitution par le code → audit par le juge → régénération si refus (trois tentatives au plus).</p>
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Décision</th>
+<th style="text-align: center;">Tentatives</th>
+<th style="text-align: center;">Rejets garde-fou</th>
+<th style="text-align: center;">Note du juge</th>
+<th style="text-align: center;">Fidélité</th>
+<th style="text-align: center;">Couverture GRI</th>
+<th style="text-align: right;">Durée</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>L'organisation, son périmètre et ses effectifs</td>
+<td><span class="badge ok">validée</span></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">4/5</td>
+<td style="text-align: center;">83%</td>
+<td style="text-align: center;">50%</td>
+<td style="text-align: right;">10.5 min</td>
+</tr>
+<tr>
+<td>Thèmes matériels</td>
+<td><span class="badge no">repli</span></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—/5</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: right;">4.0 min</td>
+</tr>
+<tr>
+<td>Gouvernance</td>
+<td><span class="badge ok">validée</span></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2/5</td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: right;">11.5 min</td>
+</tr>
+<tr>
+<td>Stratégie, politiques et pratiques</td>
+<td><span class="badge part">à relire</span></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2/5</td>
+<td style="text-align: center;">67%</td>
+<td style="text-align: center;">67%</td>
+<td style="text-align: right;">11.9 min</td>
+</tr>
+<tr>
+<td>Engagement des parties prenantes</td>
+<td><span class="badge ok">validée</span></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2/5</td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: right;">10.2 min</td>
+</tr>
+<tr>
+<td>Performance environnementale</td>
+<td><span class="badge ok">validée</span></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">4/5</td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">64%</td>
+<td style="text-align: right;">16.5 min</td>
+</tr>
+<tr>
+<td>Performance sociale et économique</td>
+<td><span class="badge ok">validée</span></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">2/5</td>
+<td style="text-align: center;">83%</td>
+<td style="text-align: center;">38%</td>
+<td style="text-align: right;">8.8 min</td>
+</tr>
+<tr>
+<td>Enseignement, recherche et engagement (hors GRI)</td>
+<td><span class="badge no">repli</span></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">—/5</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: right;">8.3 min</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bilan :</strong> 5 section(s) validée(s) sur 8 ; fidélité moyenne 89% ; 7 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.</p>
+<p>4 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.</p>
+<p><strong>À relire par un humain</strong> — affirmations que le juge n'a pas trouvées dans les sources :
+- <em>Stratégie, politiques et pratiques</em> : « La Technological University Dublin (TU Dublin) a déclaré avoir mis en place une stratégie de développement durable. »
+- <em>Stratégie, politiques et pratiques</em> : « La TU Dublin a déclaré avoir mis en place un processus de remédiation des impacts négatifs. »</p>
+<h2>Vérifier ce rapport</h2>
+<p>Chaque chiffre de ce rapport est listé dans <code>provenance.csv</code> avec le crédit STARS, le champ et l'URL dont il provient. <code>pytest</code> recalcule ces chiffres à partir des fichiers bruts, indépendamment du code qui les a produits, et vérifie qu'aucun nombre des sections narratives n'est absent de la table des faits.</p></body></html>

@@ -120,7 +120,7 @@ def judge(section_text: str, values: list[str], statuses: list[str], cautions: l
         "VALUES (inserted by code, always correct):\n" + ("\n".join(values) or "(none)") + "\n\n"
         "GRI STATUS LIST (computed by code):\n" + ("\n".join(statuses) or "(none)") + "\n\n"
         "VIGILANCE POINTS:\n" + ("\n".join(cautions) or "(none)") + "\n\n"
-        "STARS EXCERPTS (numbers masked as [n]):\n" + ("\n".join(evidence) or "(none)") + "\n\n"
+        "STARS EXCERPTS (numbers removed):\n" + ("\n".join(evidence) or "(none)") + "\n\n"
         "SECTION TO AUDIT:\n<<<\n" + section_text + "\n>>>"
     )
     seconds, last = 0.0, None
