@@ -1,0 +1,127 @@
+{
+ "prompt_hash": "05a70b040833c4f0",
+ "decision": "validée",
+ "text": "### Thèmes matériels\n\n#### Gestion des thèmes matériels\n\nCes domaines sont alignés avec les politiques de durabilité du système universitaire de l'Université de Californie.\n\nL'Université de Californie à Berkeley a également mis en place des plans et des politiques pour atteindre ses objectifs de durabilité. Le plan de durabilité de l'Université de Californie à Berkeley comprend des objectifs spécifiques pour les domaines de la durabilité de l'énergie, de la durabilité de l'eau, de la durabilité des déchets et de la durabilité des systèmes alimentaires. Le plan de réduction des gaz à effet de serre de l'Université de Californie à Berkeley détaille les stratégies pour atteindre les objectifs de réduction des gaz à effet de serre.\n\n(GRI 3-3)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir les impacts des thèmes matériels sur l'Université de Californie à Berkeley. Il ne fournit pas non plus de distinction entre les mesures de prévention et de remédiation, ni d'enseignements tirés de ces mesures.\n\n(GRI 3-2)",
+ "used_facts": [],
+ "judge_score": 2,
+ "faithfulness": 0.83,
+ "gri_coverage": 1.0,
+ "unsupported_claims": [
+  "Le plan de durabilité de l'Université de Californie à Berkeley comprend des objectifs spécifiques pour les domaines de la durabilité de l'é너"
+ ],
+ "discarded_violations": [
+  "Le report ne peut pas faire état de la conformité avec GRI (GRI 3-1, GRI 3-2, GRI 3-3)"
+ ],
+ "attempts": 2,
+ "guard_rejections": 1,
+ "seconds": 388.7,
+ "history": [
+  {
+   "attempt": 1,
+   "draft": "### Thèmes matériels\n\n#### Gestion des thèmes matériels\n\nL'Université de Californie à Berkeley a répondu à l'échelle de l'établissement à des questions posées par le GRI sur les thèmes matériels. Cependant, les réponses ne comprennent pas d'impacts, de distinction entre prévention et remédiation, ni d'enseignements tirés. (GRI 3-3)\n\n#### Liste des thèmes matériels\n\nL'université a identifié les cinq domaines d'objectifs suivants comme étant pertinents pour ses activités : énergie, eau, réduction des déchets, systèmes alimentaires durables et biodiversité. Ces domaines sont alignés avec les politiques de durabilité du système universitaire de Californie. (GRI 3-2)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir les impacts des activités de l'université sur les thèmes matériels, ni les mesures prises pour les prévenir ou les remédier. Il ne fournit pas non plus d'enseignements tirés de ces activités. (GRI 3-2, GRI 3-3)",
+   "gen_seconds": 81.0,
+   "prompt_tokens": 1582,
+   "output_tokens": 277,
+   "raw_guard_problems": [
+    "nombre écrit en lettres : 'cinq'"
+   ],
+   "removed_sentences": [
+    "L'université a identifié les cinq domaines d'objectifs suivants comme étant pertinents pour ses activités : énergie, eau, réduction des déchets, systèmes alimentaires durables et biodiversité."
+   ],
+   "guard_problems": [],
+   "lint_problems": [
+    "longueur aberrante (114 mots) : vise 180 à 300 mots"
+   ],
+   "gri_coverage": 1.0,
+   "lint_notes": []
+  },
+  {
+   "attempt": 2,
+   "draft": "### Thèmes matériels\n\n#### Gestion des thèmes matériels\n\nL'Université de Californie à Berkeley a identifié les cinq domaines d'objectifs suivants comme étant des thèmes matériels : la durabilité de l'énergie, la durabilité de l'eau, la durabilité des déchets, la durabilité des systèmes alimentaires et la durabilité de la biodiversité. Ces domaines sont alignés avec les politiques de durabilité du système universitaire de l'Université de Californie.\n\nL'Université de Californie à Berkeley a également mis en place des plans et des politiques pour atteindre ses objectifs de durabilité. Le plan de durabilité de l'Université de Californie à Berkeley comprend des objectifs spécifiques pour les domaines de la durabilité de l'énergie, de la durabilité de l'eau, de la durabilité des déchets et de la durabilité des systèmes alimentaires. Le plan de réduction des gaz à effet de serre de l'Université de Californie à Berkeley détaille les stratégies pour atteindre les objectifs de réduction des gaz à effet de serre.\n\nL'Université de Californie à Berkeley suit également la politique de pratiques durables du système universitaire de l'Université de Californie, qui prévoit la réduction des émissions de gaz à effet de serre de au moins [n]% d'ici [n].\n\n(GRI 3-3)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir les impacts des thèmes matériels sur l'Université de Californie à Berkeley. Il ne fournit pas non plus de distinction entre les mesures de prévention et de remédiation, ni d'enseignements tirés de ces mesures.\n\n(GRI 3-2)",
+   "gen_seconds": 119.6,
+   "prompt_tokens": 1623,
+   "output_tokens": 399,
+   "raw_guard_problems": [
+    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité",
+    "nombre écrit en lettres : 'cinq'"
+   ],
+   "removed_sentences": [
+    "L'Université de Californie à Berkeley a identifié les cinq domaines d'objectifs suivants comme étant des thèmes matériels : la durabilité de l'énergie, la durabilité de l'eau, la durabilité des déchets, la durabilité des systèmes alimentaires et la durabilité de la biodiversité.",
+    "L'Université de Californie à Berkeley suit également la politique de pratiques durables du système universitaire de l'Université de Californie, qui prévoit la réduction des émissions de gaz à effet de serre de au moins [n]% d'ici [n]."
+   ],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 1.0,
+   "lint_notes": [],
+   "rendered": "### Thèmes matériels\n\n#### Gestion des thèmes matériels\n\nCes domaines sont alignés avec les politiques de durabilité du système universitaire de l'Université de Californie.\n\nL'Université de Californie à Berkeley a également mis en place des plans et des politiques pour atteindre ses objectifs de durabilité. Le plan de durabilité de l'Université de Californie à Berkeley comprend des objectifs spécifiques pour les domaines de la durabilité de l'énergie, de la durabilité de l'eau, de la durabilité des déchets et de la durabilité des systèmes alimentaires. Le plan de réduction des gaz à effet de serre de l'Université de Californie à Berkeley détaille les stratégies pour atteindre les objectifs de réduction des gaz à effet de serre.\n\n(GRI 3-3)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir les impacts des thèmes matériels sur l'Université de Californie à Berkeley. Il ne fournit pas non plus de distinction entre les mesures de prévention et de remédiation, ni d'enseignements tirés de ces mesures.\n\n(GRI 3-2)",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "Ces domaines sont alignés avec les politiques de durabilité du système universitaire de l'Université de Californie.",
+      "supported": true
+     },
+     {
+      "claim": "L'Université de Californie à Berkeley a également mis en place des plans et des politiques pour atteindre ses objectifs de durabilité.",
+      "supported": true
+     },
+     {
+      "claim": "Le plan de durabilité de l'Université de Californie à Berkeley comprend des objectifs spécifiques pour les domaines de la durabilité de l'é너",
+      "supported": false
+     },
+     {
+      "claim": "Le plan de réduction des gaz à effet de serre de l'Université de Californie à Berkeley détaille les stratégies pour atteindre les objectifs",
+      "supported": true
+     },
+     {
+      "claim": "Ce rapport ne peut pas établir les impacts des thèmes matériels sur l'Université de Californie à Berkeley.",
+      "supported": true
+     },
+     {
+      "claim": "Il ne fournit pas non plus de distinction entre les mesures de prévention et de remédiation, ni d'enseignements tirés de ces mesures.",
+      "supported": true
+     }
+    ],
+    "rule_violations": [],
+    "score": 2,
+    "feedback": "",
+    "faithfulness": 0.83,
+    "seconds": 188.0,
+    "discarded_violations": [
+     "Le report ne peut pas faire état de la conformité avec GRI (GRI 3-1, GRI 3-2, GRI 3-3)"
+    ],
+    "accepted": true
+   }
+  }
+ ],
+ "institution": "berkeley",
+ "section": "materialite",
+ "title": "Thèmes matériels",
+ "evidence": [
+  {
+   "credit": "PA-2",
+   "text": "UC Berkeley's Sustainability Plan includes a section on Climate & Resiliency which outlines plans to \"accelerate a just and equitable transition to a resilient, clean energy, and zero carbon campus.\" UC Berkeley has already set ambitious greenhouse gas emissions reduction targets and identified multiple strategies for achieving the target.Waste goals for UC:- Achieve zero waste by prioritizing reduce, reuse, and then recycle and compost (or other forms of organic recycling) by the following: Reduce [n]% per capita from FY [n]/[n] levels by [n]- Reduce [n]% per capita from FY [n]/[n] levels by [n]- Divert [n]% of municipal solid waste from the landfillUC Berkeley-specific waste goals:- Elimin"
+  },
+  {
+   "credit": "PA-2",
+   "text": "UC Berkeley's Student Environmental Resource Center (SERC) adopted a [n]-[n] strategic plan that includes measurable objectives such as expanding access and opportunities for co-curricular learning opportunities and developing institutional pathways for clubs and student groups to increase intersectional engagement with SERC. Strategic Goal [n]: Community Engagement aims to strengthen programs and resources to deepen engagement in the sustainability community. The strategic plan lists [n] strategic objectives under this goal:[n]: Develop institutional pathways for clubs and student groups to increase intersectional engagement at SERC[n]: Foster a sense of unity within the community by provid"
+  },
+  {
+   "credit": "PA-2",
+   "text": "UC Berkeley Sustainability Plan: The university has published a Sustainability Plan that includes specific targets and goals for areas such as energy, water, waste reduction, sustainable food systems, and biodiversity. The plan is aligned with the broader UC system's sustainability policies but includes campus-specific goals and timelines."
+  },
+  {
+   "credit": "PA-2",
+   "text": "UC Berkeley Climate Action Plan: UC Berkeley has a published Climate Action Plan that details its strategies to reduce greenhouse gas emissions and meet climate goals. This plan outlines steps for achieving energy efficiency, promoting renewable energy, and supporting sustainable transportation options on campus."
+  },
+  {
+   "credit": "PA-2",
+   "text": "UC Berkeley follows the UC systemwide Sustainable Practices Policy. Section III. C. outlines the goals that all UC locations have to meet, including reducing all emissions by at least [n]% by [n] and eliminating the remaining emissions through carbon capture and storage credits (section III.C.[n].)."
+  },
+  {
+   "credit": "PA-2",
+   "text": "UC Climate Action Framework: Part of the UC system's broader sustainability policy, which emphasizes preparing for climate-related risks and reducing greenhouse gas emissions."
+  }
+ ]
+}

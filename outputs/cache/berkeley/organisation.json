@@ -1,41 +1,71 @@
 {
  "prompt_hash": "bf95bc943cf63561",
- "decision": "repli",
- "text": "*Section de repli générée par le code : aucune version rédigée par le modèle n'a passé la validation.*\n\n### Résultats STARS des crédits concernés\n- PA-12 — Employee Rights : 2,5 / 3 points\n\n### Statut des publications GRI\n- GRI 2-1 Détails sur l'organisation : partiellement rapporté.\n- GRI 2-2 Entités incluses dans le reporting de durabilité : partiellement rapporté.\n- GRI 2-3 Période de reporting, fréquence et point de contact : partiellement rapporté.\n- GRI 2-4 Retraitements d'informations : non rapporté.\n- GRI 2-5 Vérification externe : partiellement rapporté.\n- GRI 2-6 Activités, chaîne de valeur et autres relations d'affaires : partiellement rapporté.\n- GRI 2-7 Salariés : non évalué.\n- GRI 2-8 Travailleurs non salariés : non rapporté.",
+ "decision": "validée",
+ "text": "### Organisation, périmètre et effectifs\n\nL'organisation couverte par ce rapport est l'University of California, Berkeley. Elle est dénommée sous le nom de « University of California, Berkeley » et est située dans la ville de Berkeley (GRI 2-1).\n\nLe périmètre de l'organisation est celui de l'université, qui comprend son campus principal, le campus Hill, le Richmond Field Station et d'autres stations et réserves opérées par l'université (GRI 2-2). Ce périmètre n'est pas défini par une liste d'entités mais par une description du périmètre opérationnel de l'université.\n\nL'effectif de l'université n'est pas défini en termes d'équivalent temps plein mais en termes de nombre de salariés (GRI 2-7).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale de l'université, son siège ou les pays d'activité, car ces informations ne sont pas collectées par STARS. De même, ce rapport ne peut pas établir la chaîne de valeur, les produits et services, les marchés desservis ou la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur, car ces informations ne sont pas collectées par STARS.",
  "used_facts": [],
- "judge_score": null,
- "faithfulness": null,
- "gri_coverage": null,
+ "judge_score": 2,
+ "faithfulness": 1.0,
+ "gri_coverage": 0.5,
  "unsupported_claims": [],
- "attempts": 2,
- "guard_rejections": 2,
- "seconds": 329.3,
+ "discarded_violations": [
+  "the report claims compliance with GRI (GRI 2-1)"
+ ],
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 226.5,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Organisation, périmètre et effectifs\n\nL'organisation couverte par ce rapport est l'University of California, Berkeley. Le périmètre de l'organisation est défini par les zones opérationnelles contrôlées par le campus, notamment le campus principal couvrant [n] acres dans la ville de Berkeley, le campus Hill et les stations de terrain de Richmond. Les bâtiments propriétaires du campus sont également inclus dans le périmètre.\n\nLe processus de collecte de données a été mené par l'Office de la durabilité de l'University of California, Berkeley, en collaboration avec divers départements du campus. Les données ont été collectées et analysées à l'aide de divers outils et plateformes internes et externes.\n\n(GRI 2-1, GRI 2-2, GRI 2-3)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les détails sur la dénomination légale, le siège et les pays d'activité de l'organisation. De plus, les entités incluses dans le périmètre de l'organisation ne sont pas listées de manière détaillée. Les données sur la période de reporting, la fréquence et le point de contact ne sont pas disponibles. En outre, les données sur la vérification externe ne sont pas disponibles, car les données STARS sont autodéclarées et non vérifiées par l'AASHE. (GRI 2-1, GRI 2-2, GRI 2-3, GRI 2-5)",
-   "gen_seconds": 214.5,
+   "draft": "### Organisation, périmètre et effectifs\n\nL'organisation couverte par ce rapport est l'University of California, Berkeley. Elle est dénommée sous le nom de « University of California, Berkeley » et est située dans la ville de Berkeley (GRI 2-1).\n\nLe périmètre de l'organisation est celui de l'université, qui comprend son campus principal, le campus Hill, le Richmond Field Station et d'autres stations et réserves opérées par l'université (GRI 2-2). Ce périmètre n'est pas défini par une liste d'entités mais par une description du périmètre opérationnel de l'université.\n\nL'effectif de l'université n'est pas défini en termes d'équivalent temps plein mais en termes de nombre de salariés (GRI 2-7).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale de l'université, son siège ou les pays d'activité, car ces informations ne sont pas collectées par STARS. De même, ce rapport ne peut pas établir la chaîne de valeur, les produits et services, les marchés desservis ou la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur, car ces informations ne sont pas collectées par STARS.",
+   "gen_seconds": 93.7,
    "prompt_tokens": 1819,
-   "output_tokens": 348,
-   "guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
-   ],
+   "output_tokens": 306,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 0.67,
-   "lint_notes": []
-  },
-  {
-   "attempt": 2,
-   "draft": "### L'organisation, son périmètre et ses effectifs\n\n#### L'organisation\n\nL'Université de Californie à Berkeley est un établissement d'enseignement supérieur situé dans la ville de Berkeley, en Californie. L'institution est composée de plusieurs campus, notamment le campus principal, le campus Hill, le Richmond Field Station et d'autres stations et réserves opérées par l'université.\n\n#### Le périmètre\n\nLe périmètre de l'université est défini en fonction de ses besoins opérationnels. Il comprend ainsi le campus principal, qui couvre une superficie de [n] acres, ainsi que les campus Hill et Richmond Field Station.\n\n#### Les effectifs\n\nL'université ne fournit pas d'informations sur ses effectifs, notamment en ce qui concerne le nombre de salariés, la ventilation par contrat, temps de travail, genre ou région.\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir avec précision le nombre de salariés de l'université, ni les informations sur les effectifs. De plus, les données STARS ne permettent pas de déterminer si l'université a mis en place des politiques pour protéger les droits des salariés.\n\n(GRI 2-1, GRI 2-2, GRI 2-3, GRI 2-5, GRI 2-7)",
-   "gen_seconds": 114.8,
-   "prompt_tokens": 1868,
-   "output_tokens": 309,
-   "guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
-   ],
-   "lint_problems": [],
-   "gri_coverage": 0.83,
-   "lint_notes": []
+   "gri_coverage": 0.5,
+   "lint_notes": [],
+   "rendered": "### Organisation, périmètre et effectifs\n\nL'organisation couverte par ce rapport est l'University of California, Berkeley. Elle est dénommée sous le nom de « University of California, Berkeley » et est située dans la ville de Berkeley (GRI 2-1).\n\nLe périmètre de l'organisation est celui de l'université, qui comprend son campus principal, le campus Hill, le Richmond Field Station et d'autres stations et réserves opérées par l'université (GRI 2-2). Ce périmètre n'est pas défini par une liste d'entités mais par une description du périmètre opérationnel de l'université.\n\nL'effectif de l'université n'est pas défini en termes d'équivalent temps plein mais en termes de nombre de salariés (GRI 2-7).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale de l'université, son siège ou les pays d'activité, car ces informations ne sont pas collectées par STARS. De même, ce rapport ne peut pas établir la chaîne de valeur, les produits et services, les marchés desservis ou la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur, car ces informations ne sont pas collectées par STARS.",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'organisation couverte par ce rapport est l'University of California, Berkeley.",
+      "supported": true
+     },
+     {
+      "claim": "Le périmètre de l'organisation est celui de l'université, qui comprend son campus principal, le campus Hill, le Richmond Field Station et d'",
+      "supported": true
+     },
+     {
+      "claim": "L'effectif de l'université n'est pas défini en termes d'équivalent temps plein mais en termes de nombre de salariés.",
+      "supported": true
+     },
+     {
+      "claim": "Ce rapport ne peut pas établir la dénomination légale de l'université, son siège ou les pays d'activité, car ces informations ne sont pas",
+      "supported": true
+     },
+     {
+      "claim": "De même, ce rapport ne peut pas établir la chaîne de valeur, les produits et services, les marchés desservis ou la norme d'assurance, le",
+      "supported": true
+     },
+     {
+      "claim": "le niveau d'assurance et la relation avec le vérificateur, car ces informations ne sont pas collectées par STARS.",
+      "supported": true
+     }
+    ],
+    "rule_violations": [],
+    "score": 2,
+    "feedback": "",
+    "faithfulness": 1.0,
+    "seconds": 132.8,
+    "discarded_violations": [
+     "the report claims compliance with GRI (GRI 2-1)"
+    ],
+    "accepted": true
+   }
   }
  ],
  "institution": "berkeley",
