@@ -251,6 +251,7 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
         "faithfulness": best["judge"]["faithfulness"] if best else None,
         "gri_coverage": best["gri_coverage"] if best else None,
         "unsupported_claims": [c["claim"] for c in best["judge"]["claims"] if not c["supported"]] if best else [],
+        "discarded_violations": best["judge"].get("discarded_violations", []) if best else [],
         "attempts": len(attempts),
         "guard_rejections": sum(1 for a in attempts if a["guard_problems"] or a["lint_problems"]),
         "seconds": round(time.time() - t0, 1),

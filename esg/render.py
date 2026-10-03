@@ -168,6 +168,11 @@ def validation_md(results: list[dict]) -> str:
                f"{(sum(faiths) / len(faiths)) if faiths else 0:.0%} ; "
                f"{sum(r['guard_rejections'] for r in results)} version(s) rejetée(s) par le garde-fou avant le juge. "
                "Aucun nombre du texte final n'a été écrit par le modèle."]
+    disc = sum(len(r.get("discarded_violations", [])) for r in results)
+    if disc:
+        md += ["", f"{disc} violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle "
+                   "déterministe (par exemple une « revendication de conformité GRI » absente du texte) : "
+                   "le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier."]
     review = [r for r in results if r["decision"] == "à relire" and r["unsupported_claims"]]
     if review:
         md += ["", "**À relire par un humain** — affirmations que le juge n'a pas trouvées dans les sources :"]

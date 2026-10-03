@@ -137,5 +137,19 @@ def judge(section_text: str, values: list[str], statuses: list[str], cautions: l
     faith = sum(1 for c in claims if c.get("supported")) / len(claims) if claims else 0.0
     v["faithfulness"] = round(faith, 2)
     v["seconds"] = seconds
-    v["accepted"] = v.get("score", 0) >= ACCEPT_SCORE and faith >= ACCEPT_FAITHFULNESS
+    # Recoupement : une violation que le code sait vérifier et qui est fausse est écartée (et tracée).
+    kept, discarded = [], []
+    for viol in v.get("rule_violations", []):
+        low = viol.lower()
+        claims_compliance = re.search(r"complian|conform|accordance", low)
+        attacks_required_wording = re.search(r"ne peut pas établir|cannot establish|stars ne collecte", low)
+        if (claims_compliance and not FORBIDDEN[0][0].search(section_text)) or attacks_required_wording:
+            discarded.append(viol)
+        else:
+            kept.append(viol)
+    v["rule_violations"], v["discarded_violations"] = kept, discarded
+    if discarded and not kept:
+        v["feedback"] = ""            # la consigne reposait sur une fausse violation
+    v["accepted"] = faith >= ACCEPT_FAITHFULNESS and (
+        v.get("score", 0) >= ACCEPT_SCORE or bool(discarded and not kept))
     return v

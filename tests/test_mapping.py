@@ -60,3 +60,14 @@ def test_lint_blocks_style_but_only_notes_missing_citations():
     assert blocking
     blocking, _, _ = lint("Ce rapport est conforme aux normes GRI pour la gouvernance. " * 20, ["2-1"])
     assert blocking
+
+
+def test_judge_false_compliance_violation_is_discarded(monkeypatch):
+    from esg import judge, llm
+    fake = {"claims": [{"claim": "Le périmètre couvre le campus", "supported": True}],
+            "rule_violations": ["The report claims compliance with GRI"], "score": 2, "feedback": "x"}
+    monkeypatch.setattr(llm, "chat_json", lambda *a, **k: {"json": dict(fake), "seconds": 0})
+    v = judge.judge("Le périmètre couvre le campus principal (GRI 2-2).", [], [], [], [])
+    assert v["accepted"] and v["discarded_violations"] and not v["rule_violations"]
+    v = judge.judge("Ce rapport est conforme aux normes GRI (GRI 2-2).", [], [], [], [])
+    assert not v["accepted"]
