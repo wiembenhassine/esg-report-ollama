@@ -56,31 +56,19 @@ Les scores STARS 3.0 sont autodéclarés et notés par rapport à un groupe de p
 
 ### Organisation, périmètre et effectifs
 
-#### Organisation
+L'organisation est la Technological University Dublin (TUD), établie en Irlande. Le rapport STARS 3.0 de l'université a obtenu la note « Gold ».
 
-L'organisation est la Technological University Dublin (TUD), une université irlandaise. Cette information est disponible dans le rapport STARS.
+Le périmètre de l'université n'est pas spécifié sous forme de liste d'entités. Le rapport STARS décrit le périmètre sous forme de récit libre, mentionnant que l'université a effectué une cartographie exhaustive pour identifier les personnes chargées de collecter, traiter et valider les informations pour chaque question STARS.
 
-#### Périmètre
+Le nombre d'effectifs de l'université n'est pas spécifié. Le rapport STARS mentionne que les données sont autodéclarées et non vérifiées par l'AASHE.
 
-Le périmètre de l'université n'est pas couvert par STARS.
-
-#### Effectifs
-
-Ce rapport ne peut pas établir le nombre d'effectifs de l'université.
-
-#### Point de contact
-
-Ce rapport ne peut pas établir le point de contact de l'université.
-
-#### Vérification externe
-
-L'université a déclaré avoir mené une vérification externe, mais ce rapport ne peut pas établir les détails de cette vérification, tels que la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur.
-
-(GRI 2-1, GRI 2-3, GRI 2-5)
+(GRI 2-1, GRI 2-2, GRI 2-7)
 
 ### Limites et omissions
 
-Ce rapport ne peut pas établir le nombre d'effectifs de l'université, ni le point de contact. De plus, les données STARS ne permettent pas d'établir les détails de la vérification externe.
+Ce rapport ne peut pas établir le détail de l'organisation, le siège et les pays d'activité de l'université, car ces informations ne sont pas collectées par STARS. De plus, le rapport STARS ne fournit pas de liste d'entités incluses dans le reporting de durabilité, ni de données sur les effectifs de l'université. Enfin, le rapport STARS ne fournit pas de données sur la vérification externe de l'université, car les données STARS sont autodéclarées et non vérifiées par l'AASHE.
+
+(GRI 2-1, GRI 2-2, GRI 2-5)
 
 ## Thèmes matériels
 
@@ -502,7 +490,7 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 
 | Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |
 |---|---|:-:|:-:|:-:|:-:|:-:|--:|
-| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 83% | 50% | 10.5 min |
+| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 1 | 0 | 2/5 | 100% | 67% | 6.1 min |
 | Thèmes matériels | <span class="badge ok">validée</span> | 2 | 0 | 2/5 | 83% | 100% | 12.9 min |
 | Gouvernance | <span class="badge ok">validée</span> | 2 | 1 | 2/5 | 100% | 100% | 11.5 min |
 | Stratégie, politiques et pratiques | <span class="badge part">à relire</span> | 2 | 1 | 2/5 | 67% | 67% | 11.9 min |
@@ -511,7 +499,7 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 | Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 2/5 | 83% | 38% | 8.8 min |
 | Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 10.0 min |
 
-**Bilan :** 7 section(s) validée(s) sur 8 ; fidélité moyenne 90% ; 3 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
+**Bilan :** 7 section(s) validée(s) sur 8 ; fidélité moyenne 92% ; 3 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
 5 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
 
