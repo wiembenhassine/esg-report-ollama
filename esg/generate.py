@@ -171,11 +171,13 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
                          fallback: str, cache, use_cache: bool = True, log=print) -> dict:
     """Boucle rédaction -> garde-fou -> substitution -> juge -> régénération (voir docstring du module)."""
     prompt_hash = hashlib.sha256((WRITER_SYSTEM + prompt).encode("utf-8")).hexdigest()[:16]
+    round_ = 0                      # nouvelle série après un repli : autre graine, sinon même texte
     if use_cache and cache.exists():
         cached = json.loads(cache.read_text(encoding="utf-8"))
         if cached.get("prompt_hash") == prompt_hash and cached.get("decision") != "repli":
             log(f"   [{tag}] depuis le cache ({cached['decision']})")
             return cached
+        round_ = cached.get("round", 0) + 1
 
     judge_values = [f"{r['label']}: {r['display']}" for r in values.values()]
     attempts, feedback = [], []
@@ -186,7 +188,8 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
             user += ("\n\nCORRECTIONS OBLIGATOIRES (ta version précédente a été rejetée) :\n"
                      + "\n".join(f"- {x}" for x in feedback))
         user += "\n\nRédige maintenant la section."
-        out = llm.chat([{"role": "system", "content": WRITER_SYSTEM}, {"role": "user", "content": user}])
+        out = llm.chat([{"role": "system", "content": WRITER_SYSTEM}, {"role": "user", "content": user}],
+                       seed=42 + 100 * round_ + n)
         draft = out["text"].strip()
         att = {"attempt": n, "draft": draft, "gen_seconds": out["seconds"],
                "prompt_tokens": out["prompt_tokens"], "output_tokens": out["output_tokens"]}
@@ -244,6 +247,7 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
 
     result = {
         "prompt_hash": prompt_hash,
+        "round": round_,
         "decision": decision,
         "text": best["rendered"] if best else fallback,
         "used_facts": best["used_facts"] if best else [],

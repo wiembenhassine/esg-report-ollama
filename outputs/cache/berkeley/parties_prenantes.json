@@ -1,0 +1,104 @@
+{
+ "prompt_hash": "540ca846733a1e40",
+ "decision": "validée",
+ "text": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la gouvernance de l'University of California, Berkeley. L'université a mis en place diverses structures pour impliquer les parties prenantes dans ses décisions et initiatives.\n\n#### Participation des étudiants\n\nL'université compte des comités consultatifs qui rassemblent des membres de la communauté locale, notamment dans les domaines de la santé publique, de la durabilité et de la justice sociale. Ces comités offrent aux organisations communautaires un forum pour donner leurs avis sur les politiques et initiatives de l'université qui affectent la population locale.\n\nPar exemple, l'Associated Students of the University of California, le Chancellor's Office, le Student Environmental Resource Center, la Zero Waste Coalition, la Graduate Assembly, l'Office of Student Affairs et la Housing and Dining division ont chacun un siège et un vote au sein du CACS.\n\n#### Participation du personnel\n\nLes membres du personnel non-académiques de l'université peuvent participer à la gouvernance de l'institution via divers comités consultatifs, tels que le Chancellor's Staff Advisory Committee (CSAC), le Chancellor's Cabinet et d'autres comités consultatifs sur la diversité, la durabilité, le développement du personnel et les services universitaires.\n\n#### Engagement civique\n\nL'engagement civique est un aspect clé de la mission de l'université. Le Public Service Center rassemble des étudiants, des professeurs et des communautés pour mobiliser leurs connaissances et leur expertise en faveur de la justice sociale, de l'engagement civique et de la transformation sociale.\n\nL'université a également établi des partenariats avec des organisations communautaires, telles que la Sustainability Office, le SERC et le Government & Community Relations.\n\n#### Partenariats communautaires\n\nL'université a mis en place des partenariats avec des organisations communautaires pour soutenir les objectifs de durabilité et de justice sociale. Par exemple, le College Corps a permis à des étudiants de l'université de travailler en partenariat avec des organisations communautaires pour des projets liés à la durabilité et à la justice sociale.\n\n#### Droits des employés\n\nL'université a mis en place des politiques pour protéger les droits des employ",
+ "used_facts": [],
+ "judge_score": 4,
+ "faithfulness": 1.0,
+ "gri_coverage": 0.0,
+ "unsupported_claims": [],
+ "discarded_violations": [],
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 441.4,
+ "history": [
+  {
+   "attempt": 1,
+   "draft": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la gouvernance de l'University of California, Berkeley. L'université a mis en place diverses structures pour impliquer les parties prenantes dans ses décisions et initiatives.\n\n#### Participation des étudiants\n\nL'université compte des comités consultatifs qui rassemblent des membres de la communauté locale, notamment dans les domaines de la santé publique, de la durabilité et de la justice sociale. Ces comités offrent aux organisations communautaires un forum pour donner leurs avis sur les politiques et initiatives de l'université qui affectent la population locale.\n\nPar exemple, l'Associated Students of the University of California, le Chancellor's Office, le Student Environmental Resource Center, la Zero Waste Coalition, la Graduate Assembly, l'Office of Student Affairs et la Housing and Dining division ont chacun un siège et un vote au sein du CACS.\n\n#### Participation du personnel\n\nLes membres du personnel non-académiques de l'université peuvent participer à la gouvernance de l'institution via divers comités consultatifs, tels que le Chancellor's Staff Advisory Committee (CSAC), le Chancellor's Cabinet et d'autres comités consultatifs sur la diversité, la durabilité, le développement du personnel et les services universitaires.\n\n#### Engagement civique\n\nL'engagement civique est un aspect clé de la mission de l'université. Le Public Service Center rassemble des étudiants, des professeurs et des communautés pour mobiliser leurs connaissances et leur expertise en faveur de la justice sociale, de l'engagement civique et de la transformation sociale.\n\nL'université a également établi des partenariats avec des organisations communautaires, telles que la Sustainability Office, le SERC et le Government & Community Relations.\n\n#### Partenariats communautaires\n\nL'université a mis en place des partenariats avec des organisations communautaires pour soutenir les objectifs de durabilité et de justice sociale. Par exemple, le College Corps a permis à des étudiants de l'université de travailler en partenariat avec des organisations communautaires pour des projets liés à la durabilité et à la justice sociale.\n\n#### Droits des employés\n\nL'université a mis en place des politiques pour protéger les droits des employ",
+   "gen_seconds": 208.7,
+   "prompt_tokens": 1630,
+   "output_tokens": 520,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.0,
+   "lint_notes": [
+    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 2-29)"
+   ],
+   "rendered": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la gouvernance de l'University of California, Berkeley. L'université a mis en place diverses structures pour impliquer les parties prenantes dans ses décisions et initiatives.\n\n#### Participation des étudiants\n\nL'université compte des comités consultatifs qui rassemblent des membres de la communauté locale, notamment dans les domaines de la santé publique, de la durabilité et de la justice sociale. Ces comités offrent aux organisations communautaires un forum pour donner leurs avis sur les politiques et initiatives de l'université qui affectent la population locale.\n\nPar exemple, l'Associated Students of the University of California, le Chancellor's Office, le Student Environmental Resource Center, la Zero Waste Coalition, la Graduate Assembly, l'Office of Student Affairs et la Housing and Dining division ont chacun un siège et un vote au sein du CACS.\n\n#### Participation du personnel\n\nLes membres du personnel non-académiques de l'université peuvent participer à la gouvernance de l'institution via divers comités consultatifs, tels que le Chancellor's Staff Advisory Committee (CSAC), le Chancellor's Cabinet et d'autres comités consultatifs sur la diversité, la durabilité, le développement du personnel et les services universitaires.\n\n#### Engagement civique\n\nL'engagement civique est un aspect clé de la mission de l'université. Le Public Service Center rassemble des étudiants, des professeurs et des communautés pour mobiliser leurs connaissances et leur expertise en faveur de la justice sociale, de l'engagement civique et de la transformation sociale.\n\nL'université a également établi des partenariats avec des organisations communautaires, telles que la Sustainability Office, le SERC et le Government & Community Relations.\n\n#### Partenariats communautaires\n\nL'université a mis en place des partenariats avec des organisations communautaires pour soutenir les objectifs de durabilité et de justice sociale. Par exemple, le College Corps a permis à des étudiants de l'université de travailler en partenariat avec des organisations communautaires pour des projets liés à la durabilité et à la justice sociale.\n\n#### Droits des employés\n\nL'université a mis en place des politiques pour protéger les droits des employ",
+   "used_facts": [],
+   "trace_problems": [],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'université a mis en place diverses structures pour impliquer les parties prenantes dans ses décisions et initiatives.",
+      "supported": true
+     },
+     {
+      "claim": "L'université compte des comités consultatifs qui rassemblent des membres de la communauté locale, notamment dans les domaines de la santépub",
+      "supported": true
+     },
+     {
+      "claim": "L'Associated Students of the University of California, le Chancellor's Office, le Student Environmental Resource Center, la Zero Waste Coal",
+      "supported": true
+     },
+     {
+      "claim": "Les membres du personnel non-académiques de l'université peuvent participer à la gouvernance de l'institution via divers comités consultat",
+      "supported": true
+     },
+     {
+      "claim": "L'engagement civique est un aspect clé de la mission de l'université.",
+      "supported": true
+     },
+     {
+      "claim": "L'université a mis en place des partenariats avec des organisations communautaires pour soutenir les objectifs de durabilité et de justice",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "La section présente une disclosure comme étant pleinement rapportée alors que la liste de statut GRI indique le contraire (GRI 2-30 : Non rapporté)"
+    ],
+    "score": 4,
+    "feedback": "Supprimer la phrase 'L'université a mis en place des politiques pour protéger les droits des employés' car elle n'est pas étayée par les sources. Remplacer la phrase 'L'université a mis en place des partenariats avec des organisations communautaires pour soutenir les objectifs de durabilité et de justice sociale' par 'L'université ne peut pas établir les partenariats communautaires car la liste de statut GRI indique que GRI 2-30 n'est pas rapporté'",
+    "faithfulness": 1.0,
+    "seconds": 232.6,
+    "discarded_violations": [],
+    "accepted": true
+   }
+  }
+ ],
+ "institution": "berkeley",
+ "section": "parties_prenantes",
+ "title": "Engagement des parties prenantes",
+ "evidence": [
+  {
+   "credit": "PA-3",
+   "text": "Advisory Committees for Community Engagement – UC Berkeley also has various advisory committees and working groups that involve local community members, particularly in areas related to public health, sustainability, and social justice. These bodies provide community organizations with a forum to advise on university policies and initiatives that affect the local population."
+  },
+  {
+   "credit": "PA-3",
+   "text": "Associated Students of the University of California, Chancellor's Office, Student Environmental Resource Center, Zero Waste Coalition, Graduate Assembly, Office of Student Affairs, and the Housing and Dining division all appoint one student seat each on CACS and each have one vote."
+  },
+  {
+   "credit": "PA-3",
+   "text": "Non-academic staff at UC Berkeley can participate in the governance of the institution via advisory bodies of Chancellor's Staff Advisory Committee (CSAC), The Chancellor's Cabinet and other Advisory Commmitees on diversity, sustainability, staff development, and campus services."
+  },
+  {
+   "credit": "EN-5",
+   "text": "The Public Service Center brings together students, faculty, and communities to harness their collective wisdom in support of social justice, civic engagement, and transformative social change."
+  },
+  {
+   "credit": "EN-5",
+   "text": "Sustainability Office, SERC, Government & Community Relations"
+  },
+  {
+   "credit": "EN-6",
+   "text": "In [n]-[n], through College Corps, a state partnership funded by California Volunteers, the UC Public Service Center placed [n] undergraduate student Fellows in Climate or Food Justice community partnerships with [n] different community organizations. Each Fellow served for [n] hours over the course of the year, earning $[n] in living stipends and education awards. Partner organizations included: The Center (Oakland Unified School District's demonstration garden and test kitchen), GRID Alternatives, Frontline Catalysts, Dorothy Day House, Berkeley Meals on Wheels, the Berkeley Student Food Collective, and Climate Emergency Mobilization Task Force, among others."
+  },
+  {
+   "credit": "PA-12",
+   "text": "UC Berkeley Human Resources Policies: UC Berkeley has a dedicated section on its Human Resources website that outlines policies related to employee rights, including fair treatment, grievance procedures, and work-life balance. The policies cover areas like anti-discrimination, whistleblower protection, and employee benefits, offering a transparent overview of employee rights and support. University of California Statement of Ethical Values and Standards of Ethical Conduct: This is a comprehensive code that applies to all UC campuses, including Berkeley. It highlights the university's commitment to integrity, respect, and accountability in its relations with employees. Union Representation an"
+  }
+ ]
+}
