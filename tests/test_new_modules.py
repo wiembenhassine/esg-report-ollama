@@ -108,3 +108,14 @@ def test_chat_compares_universities_and_flags_physical_values(monkeypatch):
     assert r["keys"] == ["berkeley", "tudublin"]
     assert r["text"].startswith(chat.NOT_AVAILABLE)
     assert "8,01" in r["text"] and "10,79" in r["text"]
+
+
+# ---------------------------------------------------------------- contrôle par échantillon
+def test_verify_reads_the_raw_csv_and_detects_a_wrong_number():
+    from esg import verify
+    rows = verify.csv_rows()
+    assert verify.expected("berkeley", "OP6_score", rows)[0] == 8.01
+    assert verify.expected("tudublin", "GOV_pct", rows)[0] == 97.0
+    value, _ = verify.expected("cork", "OP12_score", rows)
+    assert abs(verify.parse_fr("3,99") - value) < 0.006          # chiffre juste
+    assert abs(verify.parse_fr("4,99") - value) > 0.006          # chiffre faux : détecté
