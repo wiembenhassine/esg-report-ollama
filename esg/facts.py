@@ -20,7 +20,7 @@ import re
 import sys
 from functools import lru_cache
 
-from esg import parse_fields, sources
+from esg import parse_fields, sources, validate
 from esg.config import INSTITUTIONS, PROCESSED, RAW, report_url
 
 FIELDS = ["fact_id", "institution", "kind", "credit_code", "label", "raw_value",
@@ -109,9 +109,7 @@ def build(key: str) -> list[dict]:
         rows.append(_row(key, "STARS_date", "meta", "", "Date de soumission STARS",
                          head["date"], None, "", fr_date(head["date"]), url))
 
-    credit_rows = [r for r in csv.DictReader(open(RAW / "scores" / "combined_esg_dataset.csv",
-                                                  encoding="utf-8"))
-                   if r["institution"] == name]
+    credit_rows = [r for r in validate.valid_rows() if r["institution"] == name]   # lignes en erreur écartées
     scored = {}
     for r in credit_rows:
         code = r["credit_code"]

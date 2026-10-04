@@ -19,7 +19,7 @@ import time
 import traceback
 from pathlib import Path
 
-from esg import dashboard, facts, generate, gri_index, rag, render
+from esg import dashboard, facts, frameworks, generate, gri_index, rag, render, validate
 from esg.config import INSTITUTIONS, OUTPUTS
 
 
@@ -81,7 +81,9 @@ def run() -> None:
     keys = args.institutions or list(INSTITUTIONS)
     secs = args.sections or section_ids()
 
+    print(validate.report(validate.validate()))      # étape 0 : validation des données de Hakim
     facts.main()
+    frameworks.export()                               # correspondance STARS -> GRI / TCFD / ESRS
     if not (args.render_only or args.dry_run):
         rag.get_index()
 
@@ -108,7 +110,7 @@ def run() -> None:
         out = render.write(f"essai_sans_llm/{key}" if args.dry_run else key, render.report_md(key, results),
                            f"Rapport de durabilité — {INSTITUTIONS[key]['name']}",
                            render.provenance(key, results))
-        print(f"   -> {out['md'].name}, {out['html'].name}, {out['pdf'].name if out['pdf'] else 'PDF non généré'}")
+        print(f"   -> {out['md'].name}, {out['html'].name}, {out['docx'].name}, {out['pdf'].name if out['pdf'] else 'PDF non généré'}")
 
     if not args.no_comparison and not args.dry_run and len(keys) == len(INSTITUTIONS):
         print("\n== Synthèse comparative")

@@ -37,7 +37,7 @@ INSTITUTIONS = {
     },
 }
 
-CATEGORY_CODES = ("AC", "EN", "OP", "PA", "IL", "PRE")
+CATEGORY_CODES = ("AC", "EN", "OP", "PA", "IL", "PRE")   # repris des scrapers de Hakim Chaanbi
 
 # Ollama — tout tourne en local, aucune API payante.
 OLLAMA_URL = "http://localhost:11434"

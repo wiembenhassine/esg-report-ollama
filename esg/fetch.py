@@ -1,6 +1,18 @@
 """
-Étape 1 — Télécharger les pages détaillées STARS (authentifié)
-==============================================================
+EXTENSION FACULTATIVE — Télécharger les pages détaillées STARS (authentifié)
+===========================================================================
+
+CRÉDIT : ce module est ADAPTÉ du code de Hakim Chaanbi
+(https://github.com/hakimchaanbi/esg-reporting, Berkley/scrape_berkeley_deep.py et ses
+équivalents Cork/Dublin, « deep scraper v2 ») : détection du mur de connexion
+(is_login_wall), préflight, cache qui ne garde jamais une page de login, correction
+d'encodage latin-1 -> UTF-8 et lecture des URL de crédits dans la scorecard publique
+viennent de son travail. Ajouts : une commande unique pour les 3 universités, cookie lu
+dans .env, arrêt si la session expire en cours de route.
+
+La collecte est la partie de Hakim. Ce module n'a PAS servi aux résultats livrés (aucun
+compte AASHE disponible) : il est fourni pour compléter les valeurs détaillées que son
+parseur ne conservait pas (son CLAUDE.md, §6.5), ce qui alimenterait esg/parse_fields.py.
 
 Les scorecards STARS sont publiques, mais les pages de crédits (où se trouvent
 les vraies valeurs : MWh, tCO2e, m³…) exigent un compte AASHE gratuit.

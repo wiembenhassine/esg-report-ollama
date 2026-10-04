@@ -16,7 +16,7 @@ from pathlib import Path
 
 import markdown
 
-from esg import facts, gri_index, guard, sources
+from esg import docx_export, facts, gri_index, guard, sources
 from esg.config import GEN_MODEL, INSTITUTIONS, OUTPUTS, PROCESSED, report_url
 
 PILLAR_ORDER = [("ENV", "Environnement"), ("SOC", "Social"), ("GOV", "Gouvernance"),
@@ -151,6 +151,19 @@ def gri_index_md(key: str) -> str:
     return "\n".join(md)
 
 
+def frameworks_md() -> str:
+    from esg import frameworks                      # import local : évite un cycle au chargement
+    rows = frameworks.table()
+    md = ["Correspondance **thématique** écrite à la main (`mapping/frameworks.yaml`, `mapping/gri_map.yaml`), "
+          "jamais générée par le modèle. Un crédit sans équivalent est marqué « Aucune correspondance » plutôt que "
+          "forcé. " + esc(frameworks.summary(rows)) + ".", "",
+          "| Crédit STARS | GRI | TCFD | ESRS |", "|---|---|---|---|"]
+    for r in rows:
+        md.append(f"| **{r['credit_code']}** {esc(r['credit_name'])} | {esc(r['gri'])} | {esc(r['tcfd'])} | "
+                  f"{esc(r['esrs'])} |")
+    return "\n".join(md)
+
+
 def validation_md(results: list[dict]) -> str:
     md = ["Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → "
           "substitution par le code → audit par le juge → régénération si refus (trois tentatives au plus).", "",
@@ -246,6 +259,7 @@ def report_md(key: str, results: list[dict]) -> str:
             parts += [f"> **Point de vigilance.** {caution}", ""]
         parts.append(guard.tidy(r["text"], r["title"]))
     parts += ["", "## Index de contenu GRI", "", gri_index_md(key),
+              "", "## Annexe — Correspondance STARS → GRI, TCFD, ESRS", "", frameworks_md(),
               "", "## Annexe — Validation du rapport", "", validation_md(results),
               "", "## Vérifier ce rapport", "",
               f"Chaque chiffre de ce rapport est listé dans `provenance.csv` avec le crédit STARS, le champ et l'URL "
@@ -361,5 +375,6 @@ def write(name: str, md_text: str, title: str, prov: list[dict] | None = None) -
             w = csv.DictWriter(fh, fieldnames=["section", "fact_id", "display", "raw_value", "label", "source"])
             w.writeheader()
             w.writerows(prov)
+    docx_path = docx_export.convert(md_text, folder / f"rapport_{stem}.docx", title)
     pdf = to_pdf(html_path)
-    return {"md": md_path, "html": html_path, "pdf": pdf}
+    return {"md": md_path, "html": html_path, "docx": docx_path, "pdf": pdf}

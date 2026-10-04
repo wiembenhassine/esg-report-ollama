@@ -1,6 +1,9 @@
 """
+EXTENSION FACULTATIVE, NON TESTÉE SUR DE VRAIES PAGES (aucun compte AASHE disponible).
+
 Extraction des champs STARS (valeurs chiffrées et réponses Oui/Non) depuis
-les pages de crédits téléchargées par `esg.fetch`.
+les pages de crédits téléchargées par `esg.fetch`. Code nouveau (pas repris de Hakim) ;
+il vise le manque identifié dans le parseur de Hakim, décrit ci-dessous.
 
 Le parseur de Hakim ne gardait que les lignes de tableau à exactement deux
 cellules : les vraies valeurs tombaient ailleurs et étaient perdues

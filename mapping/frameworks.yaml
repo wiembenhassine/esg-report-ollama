@@ -1,0 +1,102 @@
+# Correspondance des crédits STARS 3.0 avec TCFD et ESRS
+# =====================================================
+# ÉCRITE À LA MAIN, jamais générée par un LLM. C'est une correspondance THÉMATIQUE
+# (« ce crédit documente le même sujet que »), pas une équivalence officielle : aucun
+# organisme ne publie de table STARS -> TCFD/ESRS. Elle est à valider par l'encadrante.
+# La correspondance GRI, plus fine (publication par publication), est dans gri_map.yaml ;
+# esg/frameworks.py en déduit la colonne GRI de chaque crédit.
+#
+# Règle : un crédit sans équivalent reste VIDE ([]) et s'affiche « Aucune correspondance ».
+# On ne force jamais un rapprochement.
+#
+# TCFD (11 recommandations, climat uniquement) :
+#   GOV-a supervision par le conseil   GOV-b rôle de la direction
+#   STR-a risques et opportunités      STR-b impact sur la stratégie   STR-c résilience (scénarios)
+#   RM-a identification des risques    RM-b gestion                    RM-c intégration
+#   MT-a indicateurs                   MT-b émissions scopes 1-2-3     MT-c objectifs
+# ESRS (normes européennes CSRD) :
+#   ESRS 2 informations générales ; E1 climat ; E2 pollution ; E3 eau ; E4 biodiversité ;
+#   E5 ressources et économie circulaire ; S1 effectifs ; S2 travailleurs de la chaîne de valeur ;
+#   S3 communautés affectées ; S4 consommateurs et usagers ; G1 conduite des affaires
+
+tcfd_labels:
+  GOV-a: "Gouvernance a) supervision des risques climatiques par le conseil"
+  GOV-b: "Gouvernance b) rôle de la direction"
+  STR-a: "Stratégie a) risques et opportunités climatiques"
+  STR-b: "Stratégie b) impact sur l'activité et la planification"
+  STR-c: "Stratégie c) résilience de la stratégie (scénarios)"
+  RM-a: "Gestion des risques a) identification et évaluation"
+  RM-b: "Gestion des risques b) gestion"
+  RM-c: "Gestion des risques c) intégration"
+  MT-a: "Indicateurs et objectifs a) indicateurs climat"
+  MT-b: "Indicateurs et objectifs b) émissions scopes 1, 2, 3"
+  MT-c: "Indicateurs et objectifs c) objectifs"
+
+esrs_labels:
+  ESRS 2: "Informations générales"
+  E1: "Changement climatique"
+  E2: "Pollution"
+  E3: "Eau et ressources marines"
+  E4: "Biodiversité et écosystèmes"
+  E5: "Utilisation des ressources et économie circulaire"
+  S1: "Effectifs de l'entreprise"
+  S2: "Travailleurs de la chaîne de valeur"
+  S3: "Communautés affectées"
+  S4: "Consommateurs et utilisateurs finaux"
+  G1: "Conduite des affaires"
+
+credits:
+  # ------------------------------------------------------------ Préface
+  PRE-1: {tcfd: [], esrs: [], note: "Lettre de la direction : aucune exigence équivalente."}
+  PRE-2: {tcfd: [], esrs: [], note: "Points forts mis en avant par l'établissement : pas d'équivalent."}
+  PRE-3: {tcfd: [], esrs: [ESRS 2], note: "Périmètre de l'établissement ≈ ESRS 2 BP-1 (base d'établissement)."}
+  PRE-4: {tcfd: [], esrs: [ESRS 2], note: "Méthodes de collecte ≈ ESRS 2 BP-2."}
+  # ------------------------------------------------------------ Enseignement et recherche
+  AC-1: {tcfd: [], esrs: [], note: "Enseignement : aucun équivalent dans des référentiels conçus pour les entreprises."}
+  AC-2: {tcfd: [], esrs: [], note: "Enseignement : aucun équivalent."}
+  AC-3: {tcfd: [], esrs: [], note: "Enseignement : aucun équivalent."}
+  AC-4: {tcfd: [], esrs: [], note: "Enseignement : aucun équivalent."}
+  AC-5: {tcfd: [], esrs: [], note: "Évaluation des connaissances des étudiants : aucun équivalent."}
+  AC-6: {tcfd: [], esrs: [], note: "Recherche : aucun équivalent."}
+  AC-7: {tcfd: [], esrs: [], note: "Recherche : aucun équivalent."}
+  AC-8: {tcfd: [], esrs: [], note: "Recherche responsable : aucun équivalent."}
+  # ------------------------------------------------------------ Engagement
+  EN-1: {tcfd: [], esrs: [], note: "Communication : aucun équivalent."}
+  EN-2: {tcfd: [], esrs: [], note: "Vie étudiante : aucun équivalent."}
+  EN-3: {tcfd: [], esrs: [S1], note: "Formation du personnel ≈ S1 (formation des salariés)."}
+  EN-4: {tcfd: [], esrs: [], note: "Enquête de culture durable : aucun équivalent."}
+  EN-5: {tcfd: [], esrs: [S3], note: "Engagement civique ≈ S3 (communautés)."}
+  EN-6: {tcfd: [], esrs: [S3], note: "Partenariats avec la communauté ≈ S3."}
+  EN-7: {tcfd: [], esrs: [], note: "Formation continue : aucun équivalent."}
+  EN-8: {tcfd: [], esrs: [], note: "Installations partagées : aucun équivalent."}
+  EN-9: {tcfd: [], esrs: [], note: "Collaboration entre campus : aucun équivalent."}
+  # ------------------------------------------------------------ Opérations (environnement)
+  OP-1: {tcfd: [], esrs: [E1], note: "Construction : performance énergétique des bâtiments ≈ E1."}
+  OP-2: {tcfd: [], esrs: [E1], note: "Exploitation des bâtiments ≈ E1."}
+  OP-3: {tcfd: [], esrs: [E3], note: "Consommation d'eau ≈ E3."}
+  OP-4: {tcfd: [], esrs: [E4, E2], note: "Gestion écologique des espaces verts ≈ E4 ; pesticides ≈ E2."}
+  OP-5: {tcfd: [MT-a], esrs: [E1], note: "Consommation d'énergie ≈ E1-5 ; indicateur climat TCFD."}
+  OP-6: {tcfd: [MT-b, MT-c], esrs: [E1], note: "Émissions GES et objectif de réduction ≈ E1-6 / E1-4 ; TCFD MT-b et MT-c."}
+  OP-7: {tcfd: [], esrs: [G1], note: "Achats alimentaires ≈ G1 (relations fournisseurs)."}
+  OP-8: {tcfd: [], esrs: [E5], note: "Récupération alimentaire ≈ E5 (déchets)."}
+  OP-9: {tcfd: [], esrs: [G1, S2], note: "Achats durables ≈ G1-2 et S2 (chaîne de valeur)."}
+  OP-10: {tcfd: [], esrs: [E5], note: "Biens achetés ≈ E5 (ressources entrantes)."}
+  OP-11: {tcfd: [], esrs: [E5, E2], note: "Gestion des matériaux ≈ E5 ; substances dangereuses ≈ E2."}
+  OP-12: {tcfd: [], esrs: [E5], note: "Déchets ≈ E5-5 (ressources sortantes)."}
+  OP-13: {tcfd: [MT-a], esrs: [E1], note: "Flotte de véhicules : source d'émissions ≈ E1."}
+  OP-14: {tcfd: [MT-a], esrs: [E1], note: "Déplacements domicile-campus : émissions scope 3 ≈ E1."}
+  OP-15: {tcfd: [MT-a], esrs: [E1], note: "Voyages en avion : émissions scope 3 ≈ E1."}
+  # ------------------------------------------------------------ Planification et administration
+  PA-1: {tcfd: [GOV-b], esrs: [ESRS 2], note: "Coordination de la durabilité ≈ rôle de la direction (TCFD GOV-b, ESRS 2 GOV-1)."}
+  PA-2: {tcfd: [STR-a, MT-c], esrs: [ESRS 2, E1], note: "Engagements, plans et objectifs mesurables ≈ E1-1/E1-4 ; TCFD STR-a et MT-c."}
+  PA-3: {tcfd: [], esrs: [ESRS 2], note: "Représentation dans la gouvernance ≈ ESRS 2 GOV-1 ; ne traite pas du climat, donc pas de TCFD."}
+  PA-4: {tcfd: [], esrs: [], note: "Programme d'investissement durable : pas de norme ESRS adoptée pour les investisseurs ; pas d'équivalent retenu."}
+  PA-5: {tcfd: [], esrs: [], note: "Portefeuille d'investissements : pas d'équivalent retenu."}
+  PA-6: {tcfd: [], esrs: [S1], note: "Climat institutionnel (inclusion) ≈ S1."}
+  PA-7: {tcfd: [], esrs: [S1], note: "Représentation ethnique ≈ S1-9 (diversité) ; la partie étudiants n'a pas d'équivalent."}
+  PA-8: {tcfd: [], esrs: [S1], note: "Parité ≈ S1-9."}
+  PA-9: {tcfd: [], esrs: [S4], note: "Accessibilité financière pour les étudiants ≈ S4 (usagers)."}
+  PA-10: {tcfd: [], esrs: [S4], note: "Réussite étudiante ≈ S4."}
+  PA-11: {tcfd: [], esrs: [S1], note: "Santé, sécurité et bien-être ≈ S1-14."}
+  PA-12: {tcfd: [], esrs: [S1, G1], note: "Droits des salariés ≈ S1 ; protection des lanceurs d'alerte ≈ G1-1."}
+  PA-13: {tcfd: [], esrs: [S1], note: "Salaire décent ≈ S1-10."}
