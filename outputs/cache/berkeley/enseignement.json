@@ -1,144 +1,102 @@
 {
- "prompt_hash": "3729501196fcbd35",
- "decision": "à relire",
- "text": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nL'Université de Californie à Berkeley a démontré une forte implication dans l'enseignement de la durabilité. Les cours axés sur la durabilité sont identifiés grâce à la consultation de spécialistes en la matière et à l'utilisation de mots-clés spécifiques dans les descriptions des cours. Les résultats sont ensuite validés par des étudiants de la durabilité. (GRI 305-1)\n\n#### Recherche\n\nLa recherche en durabilité est également un domaine d'intérêt pour l'Université de Californie à Berkeley. Les chercheurs sont identifiés grâce à une liste de mots-clés spécifiques et à une revue des publications de recherche. Les résultats montrent une implication significative de la recherche en durabilité. (GRI 305-1)\n\n#### Engagement\n\nL'Université de Californie à Berkeley s'engage également dans des activités de sensibilisation et de formation. Le Centre de la durabilité, le Centre de l'énergie et de la technologie, ainsi que le Service des ressources environnementales de l'étudiant sont quelques-uns des acteurs impliqués dans ces activités. (GRI 305-1)\n\n#### Centre de la durabilité\n\nLe Centre de la durabilité est un exemple de centre impliqué dans des activités de recherche et de formation en durabilité. Le centre accueille des laboratoires et des ateliers axés sur la durabilité. (GRI 305-1)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir la portée exacte de la recherche en durabilité menée par l'Université de Californie à Berkeley, car les informations disponibles ne permettent pas de le faire. De plus, le rapport ne peut pas établir la portée exacte des activités de sensibilisation et de formation menées par l'université.",
+ "prompt_hash": "24fdc14edf71a71a",
+ "round": 1,
+ "decision": "validée",
+ "text": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nLes cours d'enseignement axés sur la durabilité ont été recensés à l'aide d'une inventaire de cours de l'Université de Californie, qui a filtré les cours qualifiés comme axés sur la durabilité ou liés à la durabilité. Les cours ont été classés en fonction de leurs descriptions fournies dans le manuel technique STARS. Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité.\n\n#### Recherche\n\nUn étudiant bachelier en stage à l'Office de la durabilité a créé une liste de mots-clés pour identifier la recherche sur la durabilité. La liste de mots-clés a été tirée en grande partie des mots-clés créés pour identifier les offres de cours axées sur la durabilité pour AC-1 et d'autres mots-clés ont été pris en compte dans la recherche de mots-clés de recherche sur la durabilité utilisée dans le rapport STARS précédent de l'Université de Californie. Après une grande recherche de mots-clés sur l'inventaire de recherche de FY à FY, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés.\n\n#### Centre de recherche sur la durabilité\n\nL'Université compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab de l'Université de Californie.\n\n#### Engagement et formation du personnel\n\nL'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires sont responsables de la formation et de l'engagement du personnel.\n\n#### Engagement civique",
  "used_facts": [],
- "judge_score": 3,
- "faithfulness": 0.67,
+ "judge_score": 4,
+ "faithfulness": 0.83,
  "gri_coverage": 1.0,
  "unsupported_claims": [
-  "L'Université de Californie à Berkeley a démontré une forte implication dans l'enseignement de la durabilité.",
-  "La recherche en durabilité est également un domaine d'intérêt pour l'Université de Californie à Berkeley."
+  "Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité"
  ],
  "discarded_violations": [],
  "attempts": 2,
- "guard_rejections": 0,
- "seconds": 768.9,
+ "guard_rejections": 1,
+ "seconds": 903.8,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nL'Université de Californie à Berkeley a démontré une forte implication dans l'enseignement de la durabilité. Les cours axés sur la durabilité sont identifiés grâce à la consultation de spécialistes en la matière et à l'utilisation de mots-clés spécifiques dans les descriptions des cours. Les résultats sont ensuite validés par des étudiants de la durabilité. (GRI 305-1)\n\n#### Recherche\n\nLa recherche en durabilité est également un domaine d'intérêt pour l'Université de Californie à Berkeley. Les chercheurs sont identifiés grâce à une liste de mots-clés spécifiques et à une revue des publications de recherche. Les résultats montrent une implication significative de la recherche en durabilité. (GRI 305-1)\n\n#### Engagement\n\nL'Université de Californie à Berkeley s'engage également dans des activités de sensibilisation et de formation. Le Centre de la durabilité, le Centre de l'énergie et de la technologie, ainsi que le Service des ressources environnementales de l'étudiant sont quelques-uns des acteurs impliqués dans ces activités. (GRI 305-1)\n\n#### Centre de la durabilité\n\nLe Centre de la durabilité est un exemple de centre impliqué dans des activités de recherche et de formation en durabilité. Le centre accueille des laboratoires et des ateliers axés sur la durabilité. (GRI 305-1)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir la portée exacte de la recherche en durabilité menée par l'Université de Californie à Berkeley, car les informations disponibles ne permettent pas de le faire. De plus, le rapport ne peut pas établir la portée exacte des activités de sensibilisation et de formation menées par l'université.",
-   "gen_seconds": 203.9,
-   "prompt_tokens": 1926,
-   "output_tokens": 419,
+   "draft": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nL'Université de Californie à Berkeley a mis en place un système de notation pour les cours de durabilité, avec un total de {{ AC1_max }} points possibles. L'université a obtenu {{ AC1_score }} points, ce qui correspond à un niveau élevé (GRI 305-1).\n\nL'université a également mis en place des programmes d'études supérieures en durabilité, avec un total de {{ AC2_max }} points possibles. L'université a obtenu {{ AC2_score }} points, ce qui correspond à un niveau intermédiaire (GRI 305-1).\n\nLes programmes d'études supérieures en durabilité de l'université ont obtenu un score maximal de {{ AC3_score }} points sur {{ AC3_max }} points possibles, ce qui correspond à un niveau maximal (GRI 305-1).\n\n#### Recherche\n\nL'université a mis en place un système de notation pour la recherche en durabilité, avec un total de {{ AC6_max }} points possibles. L'université a obtenu {{ AC6_score }} points, ce qui correspond à un niveau intermédiaire (GRI 305-1).\n\nLe Centre de recherche sur la durabilité de l'université a obtenu un score maximal de {{ AC7_score }} points sur {{ AC7_max }} points possibles, ce qui correspond à un niveau maximal (GRI 305-1).\n\n#### Engagement\n\nL'université a mis en place un système de notation pour l'engagement en durabilité, avec un total de {{ EN1_max }} points possibles. L'université a obtenu {{ EN1_score }} points, ce qui correspond à un niveau maximal (GRI 305-1).\n\nL'université a également mis en place des activités extrascolaires en durabilité, avec un total de {{ EN2_max }} points possibles. L'université a obtenu {{ EN2_score }} points, ce qui correspond à un niveau maximal (GRI 305-1).\n\nLe personnel de l'université a bénéficié d'une formation en durabilité, avec un total de {{ EN3_max }} points possibles. L'université a obtenu {{ EN3_score }} points, ce qui correspond à un niveau maximal (GRI 305-1).\n\nL'université a également mis en place des programmes de formation continue en durabilité, avec un total de {{ EN7_max }} points possibles. L'université a obtenu {{ EN7_score }} points, ce qui correspond à un niveau maximal (GRI 305-1).\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir la liste exhaustive des cours de durabilité offerts par l'université, car les données disponibles ne permettent pas de le faire.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la liste exhaustive des cours de durabilité offerts par l'université, car les données disponibles ne permettent pas de le faire.",
+   "gen_seconds": 347.0,
+   "prompt_tokens": 1889,
+   "output_tokens": 660,
    "raw_guard_problems": [],
    "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [
+    "cette section ne correspond à aucune publication GRI : ne cite aucun code GRI"
+   ],
+   "gri_coverage": 1.0,
+   "lint_notes": []
+  },
+  {
+   "attempt": 2,
+   "draft": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nL'Université de Californie à Berkeley a déclaré un niveau élevé de performance dans la catégorie **Sustainability Course Offerings** (AC1). Les cours d'enseignement axés sur la durabilité ont été recensés à l'aide d'une inventaire de cours de l'Université de Californie, qui a filtré les cours qualifiés comme axés sur la durabilité ou liés à la durabilité. Les cours ont été classés en fonction de leurs descriptions fournies dans le manuel technique STARS. Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité. Les résultats ont été analysés par l'Office de planification et d'analyse de l'Université pour calculer le pourcentage de départements totaux ayant au moins un cours d'enseignement axé sur la durabilité (AC1).\n\n#### Recherche\n\nL'Université de Californie à Berkeley a déclaré un niveau intermédiaire de performance dans la catégorie **Sustainability Research** (AC6). Un étudiant bachelier en stage à l'Office de la durabilité a créé une liste de mots-clés pour identifier la recherche sur la durabilité. La liste de mots-clés a été tirée en grande partie des mots-clés créés pour identifier les offres de cours axées sur la durabilité pour AC-1 et d'autres mots-clés ont été pris en compte dans la recherche de mots-clés de recherche sur la durabilité utilisée dans le rapport STARS précédent de l'Université de Californie. Après une grande recherche de mots-clés sur l'inventaire de recherche de FY à FY, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés. L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche sur la durabilité et le nombre de départements universitaires engagés dans la recherche sur la durabilité en FY (AC6).\n\n#### Centre de recherche sur la durabilité\n\nL'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Center for Sustainability Research** (AC7). L'Université compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab de l'Université de Californie.\n\n#### Engagement et formation du personnel\n\nL'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Staff Engagement and Training** (EN3). L'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires sont responsables de la formation et de l'engagement du personnel.\n\n#### Engagement civique\n\nL'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Civic Engagement** (EN5).",
+   "gen_seconds": 251.7,
+   "prompt_tokens": 1930,
+   "output_tokens": 700,
+   "raw_guard_problems": [
+    "chiffre écrit directement : '(AC1).'",
+    "chiffre écrit directement : '(AC1).'",
+    "chiffre écrit directement : '(AC6).'",
+    "chiffre écrit directement : '(AC6).'",
+    "chiffre écrit directement : '(AC7).'",
+    "chiffre écrit directement : '(EN3).'",
+    "chiffre écrit directement : '(EN5).'"
+   ],
+   "removed_sentences": [
+    "L'Université de Californie à Berkeley a déclaré un niveau élevé de performance dans la catégorie **Sustainability Course Offerings** (AC1).",
+    "Les résultats ont été analysés par l'Office de planification et d'analyse de l'Université pour calculer le pourcentage de départements totaux ayant au moins un cours d'enseignement axé sur la durabilité (AC1).",
+    "L'Université de Californie à Berkeley a déclaré un niveau intermédiaire de performance dans la catégorie **Sustainability Research** (AC6).",
+    "L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche sur la durabilité et le nombre de départements universitaires engagés dans la recherche sur la durabilité en FY (AC6).",
+    "L'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Center for Sustainability Research** (AC7).",
+    "L'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Staff Engagement and Training** (EN3).",
+    "L'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Civic Engagement** (EN5)."
+   ],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 1.0,
    "lint_notes": [],
-   "rendered": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nL'Université de Californie à Berkeley a démontré une forte implication dans l'enseignement de la durabilité. Les cours axés sur la durabilité sont identifiés grâce à la consultation de spécialistes en la matière et à l'utilisation de mots-clés spécifiques dans les descriptions des cours. Les résultats sont ensuite validés par des étudiants de la durabilité. (GRI 305-1)\n\n#### Recherche\n\nLa recherche en durabilité est également un domaine d'intérêt pour l'Université de Californie à Berkeley. Les chercheurs sont identifiés grâce à une liste de mots-clés spécifiques et à une revue des publications de recherche. Les résultats montrent une implication significative de la recherche en durabilité. (GRI 305-1)\n\n#### Engagement\n\nL'Université de Californie à Berkeley s'engage également dans des activités de sensibilisation et de formation. Le Centre de la durabilité, le Centre de l'énergie et de la technologie, ainsi que le Service des ressources environnementales de l'étudiant sont quelques-uns des acteurs impliqués dans ces activités. (GRI 305-1)\n\n#### Centre de la durabilité\n\nLe Centre de la durabilité est un exemple de centre impliqué dans des activités de recherche et de formation en durabilité. Le centre accueille des laboratoires et des ateliers axés sur la durabilité. (GRI 305-1)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir la portée exacte de la recherche en durabilité menée par l'Université de Californie à Berkeley, car les informations disponibles ne permettent pas de le faire. De plus, le rapport ne peut pas établir la portée exacte des activités de sensibilisation et de formation menées par l'université.",
+   "rendered": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nLes cours d'enseignement axés sur la durabilité ont été recensés à l'aide d'une inventaire de cours de l'Université de Californie, qui a filtré les cours qualifiés comme axés sur la durabilité ou liés à la durabilité. Les cours ont été classés en fonction de leurs descriptions fournies dans le manuel technique STARS. Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité.\n\n#### Recherche\n\nUn étudiant bachelier en stage à l'Office de la durabilité a créé une liste de mots-clés pour identifier la recherche sur la durabilité. La liste de mots-clés a été tirée en grande partie des mots-clés créés pour identifier les offres de cours axées sur la durabilité pour AC-1 et d'autres mots-clés ont été pris en compte dans la recherche de mots-clés de recherche sur la durabilité utilisée dans le rapport STARS précédent de l'Université de Californie. Après une grande recherche de mots-clés sur l'inventaire de recherche de FY à FY, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés.\n\n#### Centre de recherche sur la durabilité\n\nL'Université compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab de l'Université de Californie.\n\n#### Engagement et formation du personnel\n\nL'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires sont responsables de la formation et de l'engagement du personnel.\n\n#### Engagement civique",
    "used_facts": [],
    "trace_problems": [],
    "judge": {
     "claims": [
      {
-      "claim": "L'Université de Californie à Berkeley a démontré une forte implication dans l'enseignement de la durabilité.",
+      "claim": "Les cours d'enseignement axés sur la durabilité ont été recensés à l'aide d'une inventaire de cours de l'Université de Californie",
+      "supported": true
+     },
+     {
+      "claim": "Un étudiant bachelier en stage à l'Office de la durabilité a créé une liste de mots-clés pour identifier la recherche sur la durabilité",
+      "supported": true
+     },
+     {
+      "claim": "L'Université compte plusieurs centres engagés dans des sujets liés à la durabilité",
+      "supported": true
+     },
+     {
+      "claim": "L'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires",
+      "supported": true
+     },
+     {
+      "claim": "Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité",
       "supported": false
      },
      {
-      "claim": "Les cours axés sur la durabilité sont identifiés grâce à la consultation de spécialistes en la matière et à l'utilisation de mots-clés spécì",
-      "supported": true
-     },
-     {
-      "claim": "Les résultats sont ensuite validés par des étudiants de la durabilité.",
-      "supported": true
-     },
-     {
-      "claim": "La recherche en durabilité est également un domaine d'intérêt pour l'Université de Californie à Berkeley.",
-      "supported": false
-     },
-     {
-      "claim": "Les chercheurs sont identifiés grâce à une liste de mots-clés spécifiques et à une revue des publications de recherche.",
-      "supported": true
-     },
-     {
-      "claim": "Le Centre de la durabilité est un exemple de centre impliqué dans des activités de recherche et de formation en durabilité.",
+      "claim": "L'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires",
       "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport mentionne que les cours axés sur la durabilité sont identifiés grâce à la consultation de spécialistes en la matière et à l'utilisation de mots-clés spécifiques, mais il ne mentionne pas le",
-     "Le rapport mentionne que les chercheurs sont identifiés grâce à une liste de mots-clés spécifiques et à une revue des publications de recherche, mais il ne mentionne pas le nombre de chercheurs impliq"
+     "Le rapport prétend que les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité, mais le GRI status list indique que les données"
     ],
-    "score": 3,
-    "feedback": "Supprimer les phrases suivantes : 'L'Université de Californie à Berkeley a démontré une forte implication dans l'enseignement de la durabilité.' et 'La recherche en durabilité est également un domaine d'intérêt pour l'Université de Californie à Berkeley.' et remplacer 'Le rapport ne peut pas établir la portée exacte de la recherche en durabilité menée par l'Université de Californie à Berkeley, car les informations disponibles ne permettent pas de le faire.' par 'Ce rapport ne peut pas établir la",
-    "faithfulness": 0.67,
-    "seconds": 244.4,
+    "score": 4,
+    "feedback": "Supprimer la phrase \"Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité\" car elle n'est pas étayée par les sources. Utiliser le wording \"ce rapport ne peut pas établir\" pour les informations qui ne sont pas disponibles.",
+    "faithfulness": 0.83,
+    "seconds": 305.1,
     "discarded_violations": [],
-    "accepted": false
-   }
-  },
-  {
-   "attempt": 2,
-   "draft": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nL'Université de Californie à Berkeley a mis en place un système de suivi des cours axés sur la durabilité (GRI 305-1). Les cours sont identifiés grâce à la consultation de spécialistes en la matière et à l'utilisation de mots-clés spécifiques (GRI 305-1). Les résultats de la consultation sont ensuite validés par des étudiants en durabilité de l'université (GRI 305-1).\n\n#### Recherche\n\nL'université a également mis en place un système de suivi de la recherche en durabilité (GRI 305-1). Les chercheurs sont identifiés grâce à une liste de mots-clés spécifiques et à une revue des publications de recherche (GRI 305-1).\n\n#### Engagement\n\nL'université a mis en place plusieurs initiatives pour promouvoir l'engagement en durabilité, notamment la création de certifications en durabilité (GRI 305-1).\n\n#### Points obtenus\n\n- Points obtenus — Sustainability Course Offerings : {{ AC1_score }} sur {{ AC1_max }} (niveau : élevé) (OP-6)\n- Points obtenus — Undergraduate Programs : {{ AC2_score }} sur {{ AC2_max }} (niveau : intermédiaire) (OP-6)\n- Points obtenus — Graduate Programs : {{ AC3_score }} sur {{ AC3_max }} (niveau : maximal) (OP-6)\n- Points obtenus — Sustainability Research : {{ AC6_score }} sur {{ AC6_max }} (niveau : intermédiaire) (OP-6)\n- Points obtenus — Center for Sustainability Research : {{ AC7_score }} sur {{ AC7_max }} (niveau : maximal) (OP-6)\n- Points obtenus — Outreach and Communications : {{ EN1_score }} sur {{ EN1_max }} (niveau : maximal) (OP-6)\n- Points obtenus — Co-Curricular Activities : {{ EN2_score }} sur {{ EN2_max }} (niveau : maximal) (OP-6)\n- Points obtenus — Staff Engagement and Training : {{ EN3_score }} sur {{ EN3_max }} (niveau : maximal) (OP-6)\n- Points obtenus — Civic Engagement : {{ EN5_score }} sur {{ EN5_max }} (niveau : maximal) (OP-6)",
-   "gen_seconds": 182.3,
-   "prompt_tokens": 2252,
-   "output_tokens": 520,
-   "raw_guard_problems": [],
-   "removed_sentences": [],
-   "guard_problems": [],
-   "lint_problems": [],
-   "gri_coverage": 1.0,
-   "lint_notes": [],
-   "rendered": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nL'Université de Californie à Berkeley a mis en place un système de suivi des cours axés sur la durabilité (GRI 305-1). Les cours sont identifiés grâce à la consultation de spécialistes en la matière et à l'utilisation de mots-clés spécifiques (GRI 305-1). Les résultats de la consultation sont ensuite validés par des étudiants en durabilité de l'université (GRI 305-1).\n\n#### Recherche\n\nL'université a également mis en place un système de suivi de la recherche en durabilité (GRI 305-1). Les chercheurs sont identifiés grâce à une liste de mots-clés spécifiques et à une revue des publications de recherche (GRI 305-1).\n\n#### Engagement\n\nL'université a mis en place plusieurs initiatives pour promouvoir l'engagement en durabilité, notamment la création de certifications en durabilité (GRI 305-1).\n\n#### Points obtenus\n\n- Points obtenus — Sustainability Course Offerings : 13,01 sur 14 (niveau : élevé) (OP-6)\n- Points obtenus — Undergraduate Programs : 10,22 sur 15 (niveau : intermédiaire) (OP-6)\n- Points obtenus — Graduate Programs : 8 sur 8 (niveau : maximal) (OP-6)\n- Points obtenus — Sustainability Research : 7,35 sur 10 (niveau : intermédiaire) (OP-6)\n- Points obtenus — Center for Sustainability Research : 6 sur 6 (niveau : maximal) (OP-6)\n- Points obtenus — Outreach and Communications : 5 sur 5 (niveau : maximal) (OP-6)\n- Points obtenus — Co-Curricular Activities : 9 sur 9 (niveau : maximal) (OP-6)\n- Points obtenus — Staff Engagement and Training : 8 sur 8 (niveau : maximal) (OP-6)\n- Points obtenus — Civic Engagement : 8 sur 8 (niveau : maximal) (OP-6)",
-   "used_facts": [
-    "AC1_max",
-    "AC1_score",
-    "AC2_max",
-    "AC2_score",
-    "AC3_max",
-    "AC3_score",
-    "AC6_max",
-    "AC6_score",
-    "AC7_max",
-    "AC7_score",
-    "EN1_max",
-    "EN1_score",
-    "EN2_max",
-    "EN2_score",
-    "EN3_max",
-    "EN3_score",
-    "EN5_max",
-    "EN5_score"
-   ],
-   "trace_problems": [],
-   "judge": {
-    "claims": [
-     {
-      "claim": "L'Université de Californie à Berkeley a mis en place un système de suivi des cours axés sur la durabilité (GRI 305-1).",
-      "supported": false
-     },
-     {
-      "claim": "Les cours sont identifiés grâce à la consultation de spécialistes en la matière et à l'utilisation de mots-clés spécifiques (GRI 305-1).",
-      "supported": false
-     },
-     {
-      "claim": "Les résultats de la consultation sont ensuite validés par des étudiants en durabilité de l'université (GRI 305-1).",
-      "supported": false
-     },
-     {
-      "claim": "L'université a également mis en place un système de suivi de la recherche en durabilité (GRI 305-1).",
-      "supported": false
-     },
-     {
-      "claim": "Les chercheurs sont identifiés grâce à une liste de mots-clés spécifiques et à une revue des publications de recherche (GRI 305-1).",
-      "supported": false
-     },
-     {
-      "claim": "L'université a mis en place plusieurs initiatives pour promouvoir l'engagement en durabilité, notamment la création de certifications en dur",
-      "supported": false
-     }
-    ],
-    "rule_violations": [],
-    "score": 1,
-    "feedback": "",
-    "faithfulness": 0.0,
-    "seconds": 138.2,
-    "discarded_violations": [
-     "Le rapport prétend à la conformité avec GRI (GRI 305-1)"
-    ],
-    "accepted": false
+    "accepted": true
    }
   }
  ],
@@ -148,19 +106,19 @@
  "evidence": [
   {
    "credit": "AC-1",
-   "text": "Subject matter experts were consulted to access the database of course offerings at UC Berkeley: Dr. Kira Blaisdell-Sloan and Matthew Betts from the UC Berkeley Office of Planning & Analysis. Their office utilized custom queries that search for AASHE's curated list of sustainability keywords within the course catalog descriptions. Courses are flagged as sustainability-focused and sustainability-inclusive based on the presence or absence of said keywords. The output of the query is then reviewed and validated by [n] UC Berkeley undergraduate sustainability fellows in order to confirm if the results of the query are accurate. Each year, as courses are discontinued or created, the sustainabilit"
+   "text": "The information for sustainability course offerings was collected via a UC Berkeley course inventory from - filtering for items that qualified as sustainability-focused or sustainability-related courses. UC Berkeley Office of Sustainability undergraduate fellows classified the courses as sustainability-related or -focused based on the descriptions provided in the STARS technical manual. All courses that were either -focused or -related were counted as a sustainability offering. The resulting courses were then analyzed by the school's Office of Planning and Analysis to calculate the percentage of total departments that had at least one sustainability course offering. The Office of Planning an"
   },
   {
    "credit": "AC-2",
-   "text": "Undergraduate List: [n]th tab titled, \"one sustainability-focused course learning requirement\""
+   "text": "Undergraduate List: th tab titled, \"one sustainability-focused course learning requirement\""
   },
   {
    "credit": "AC-3",
-   "text": "Graduate List: [n]rd tab titled, \"sustainability-focused learning\""
+   "text": "Graduate List: rd tab titled, \"sustainability-focused learning\""
   },
   {
    "credit": "AC-6",
-   "text": "An undergraduate student fellow at the Office of Sustainability created a list of keywords to identify sustainability research. The keyword list was drawn heavily from the keywords created to identify sustainability course offerings for AC-[n], and other keywords were taken from the sustainability research keyword search used during the previous UCB STARS report. After a large keyword search of the entire research inventory for FY [n] to FY [n], the fellow then reviewed the identified research to screen the accuracy of the keyword search. The fellow then calculated the number of employees engaged in sustainability research and the number of academic departments engaged in sustainability rese"
+   "text": "An undergraduate student fellow at the Office of Sustainability created a list of keywords to identify sustainability research. The keyword list was drawn heavily from the keywords created to identify sustainability course offerings for AC-, and other keywords were taken from the sustainability research keyword search used during the previous UCB STARS report. After a large keyword search of the entire research inventory for FY to FY, the fellow then reviewed the identified research to screen the accuracy of the keyword search. The fellow then calculated the number of employees engaged in sustainability research and the number of academic departments engaged in sustainability research in FY "
   },
   {
    "credit": "AC-7",
@@ -168,7 +126,7 @@
   },
   {
    "credit": "EN-2",
-   "text": "UC Berkeley's community hosts many sustainability focused events and series on campus. The Student Environmental Resource Center (SERC) hosts [n] of events each semester, including Climate Justice Week and Earth Week, an environmental career series, environmental justice trainings, and outdoor education events. "
+   "text": "UC Berkeley's community hosts many sustainability focused events and series on campus. The Student Environmental Resource Center (SERC) hosts of events each semester, including Climate Justice Week and Earth Week, an environmental career series, environmental justice trainings, and outdoor education events."
   },
   {
    "credit": "EN-3",

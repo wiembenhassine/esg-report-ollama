@@ -1,5 +1,5 @@
 # Rapport de durabilité — University of California, Berkeley
-*Établi en référence aux normes GRI · généré le 2026-10-03 · données AASHE STARS 3.0*
+*Établi en référence aux normes GRI · généré le 2026-10-04 · données AASHE STARS 3.0*
 
 **À propos de ce rapport.** Ce rapport est généré automatiquement à partir de la soumission publique
 AASHE STARS 3.0 de University of California, Berkeley (19 février 2025), mise en correspondance avec les normes GRI.
@@ -256,7 +256,6 @@ Le rapport STARS mentionne que l'université a mis en place des programmes pour 
 
 ## Enseignement, recherche et engagement (hors GRI)
 
-<p class="review">Section à relire : le juge automatique n'a pas pu la valider entièrement (voir l'annexe « Validation du rapport »).</p>
 > Ces crédits STARS n'ont aucun équivalent dans les normes GRI, conçues pour des organisations qui n'enseignent pas. C'est un écart structurel entre les deux référentiels, et l'une des contributions de ce rapport : il montre ce qu'une université peut déclarer et que GRI ne demande pas.
 
 | Crédit STARS | Points obtenus | Niveau |
@@ -278,23 +277,19 @@ Le rapport STARS mentionne que l'université a mis en place des programmes pour 
 
 #### Enseignement
 
-L'Université de Californie à Berkeley a démontré une forte implication dans l'enseignement de la durabilité. Les cours axés sur la durabilité sont identifiés grâce à la consultation de spécialistes en la matière et à l'utilisation de mots-clés spécifiques dans les descriptions des cours. Les résultats sont ensuite validés par des étudiants de la durabilité. (GRI 305-1)
+Les cours d'enseignement axés sur la durabilité ont été recensés à l'aide d'une inventaire de cours de l'Université de Californie, qui a filtré les cours qualifiés comme axés sur la durabilité ou liés à la durabilité. Les cours ont été classés en fonction de leurs descriptions fournies dans le manuel technique STARS. Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité.
 
 #### Recherche
 
-La recherche en durabilité est également un domaine d'intérêt pour l'Université de Californie à Berkeley. Les chercheurs sont identifiés grâce à une liste de mots-clés spécifiques et à une revue des publications de recherche. Les résultats montrent une implication significative de la recherche en durabilité. (GRI 305-1)
+Un étudiant bachelier en stage à l'Office de la durabilité a créé une liste de mots-clés pour identifier la recherche sur la durabilité. La liste de mots-clés a été tirée en grande partie des mots-clés créés pour identifier les offres de cours axées sur la durabilité pour AC-1 et d'autres mots-clés ont été pris en compte dans la recherche de mots-clés de recherche sur la durabilité utilisée dans le rapport STARS précédent de l'Université de Californie. Après une grande recherche de mots-clés sur l'inventaire de recherche de FY à FY, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés.
 
-#### Engagement
+#### Centre de recherche sur la durabilité
 
-L'Université de Californie à Berkeley s'engage également dans des activités de sensibilisation et de formation. Le Centre de la durabilité, le Centre de l'énergie et de la technologie, ainsi que le Service des ressources environnementales de l'étudiant sont quelques-uns des acteurs impliqués dans ces activités. (GRI 305-1)
+L'Université compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab de l'Université de Californie.
 
-#### Centre de la durabilité
+#### Engagement et formation du personnel
 
-Le Centre de la durabilité est un exemple de centre impliqué dans des activités de recherche et de formation en durabilité. Le centre accueille des laboratoires et des ateliers axés sur la durabilité. (GRI 305-1)
-
-#### Limites et omissions
-
-Ce rapport ne peut pas établir la portée exacte de la recherche en durabilité menée par l'Université de Californie à Berkeley, car les informations disponibles ne permettent pas de le faire. De plus, le rapport ne peut pas établir la portée exacte des activités de sensibilisation et de formation menées par l'université.
+L'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires sont responsables de la formation et de l'engagement du personnel.
 
 ## Index de contenu GRI
 
@@ -460,15 +455,11 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 | Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 7.4 min |
 | Performance environnementale | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 100% | 43% | 18.4 min |
 | Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 3/5 | 83% | 62% | 8.7 min |
-| Enseignement, recherche et engagement (hors GRI) | <span class="badge part">à relire</span> | 2 | 0 | 3/5 | 67% | 100% | 12.8 min |
+| Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 83% | 100% | 15.1 min |
 
-**Bilan :** 7 section(s) validée(s) sur 8 ; fidélité moyenne 90% ; 1 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
+**Bilan :** 8 section(s) validée(s) sur 8 ; fidélité moyenne 92% ; 2 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
 4 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
-
-**À relire par un humain** — affirmations que le juge n'a pas trouvées dans les sources :
-- *Enseignement, recherche et engagement (hors GRI)* : « L'Université de Californie à Berkeley a démontré une forte implication dans l'enseignement de la durabilité. »
-- *Enseignement, recherche et engagement (hors GRI)* : « La recherche en durabilité est également un domaine d'intérêt pour l'Université de Californie à Berkeley. »
 
 ## Vérifier ce rapport
 
