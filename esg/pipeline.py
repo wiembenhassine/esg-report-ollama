@@ -16,6 +16,8 @@ import argparse
 import json
 import sys
 import time
+import traceback
+from pathlib import Path
 
 from esg import dashboard, facts, generate, gri_index, rag, render
 from esg.config import INSTITUTIONS, OUTPUTS
@@ -30,9 +32,42 @@ def cached(key: str, sec_id: str) -> dict | None:
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
 
 
+class Tee:
+    """Écrit à la fois à l'écran et dans un journal (option --log)."""
+
+    def __init__(self, stream, log):
+        self.stream, self.log = stream, log
+
+    def write(self, text):
+        self.stream.write(text)
+        self.log.write(text)
+        self.log.flush()
+
+    def flush(self):
+        self.stream.flush()
+        self.log.flush()
+
+    def reconfigure(self, **kwargs):              # appelé par les points d'entrée (encodage UTF-8)
+        self.stream.reconfigure(**kwargs)
+
+
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
+    if "--log" in sys.argv:                      # avant tout affichage, pour tout capturer
+        path = Path(sys.argv[sys.argv.index("--log") + 1])
+        path.parent.mkdir(parents=True, exist_ok=True)
+        log = path.open("w", encoding="utf-8")
+        sys.stdout, sys.stderr = Tee(sys.stdout, log), Tee(sys.stderr, log)
+    try:
+        run()
+    except Exception:
+        traceback.print_exc()                    # visible à l'écran ET dans le journal
+        raise
+
+
+def run() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--log", help="copie de toute la sortie dans ce fichier")
     ap.add_argument("institutions", nargs="*", default=[], help=f"parmi {list(INSTITUTIONS)}")
     ap.add_argument("--sections", nargs="*", default=None)
     ap.add_argument("--no-cache", action="store_true")
