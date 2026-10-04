@@ -351,9 +351,10 @@ def to_pdf(html_path: Path) -> Path | None:
 def write(name: str, md_text: str, title: str, prov: list[dict] | None = None) -> dict:
     folder = OUTPUTS / name
     folder.mkdir(parents=True, exist_ok=True)
-    md_path = folder / f"rapport_{name}.md"
+    stem = Path(name).name                              # « essai_sans_llm/cork » -> rapport_cork
+    md_path = folder / f"rapport_{stem}.md"
     md_path.write_text(md_text, encoding="utf-8")
-    html_path = folder / f"rapport_{name}.html"
+    html_path = folder / f"rapport_{stem}.html"
     html_path.write_text(to_html(md_text, title), encoding="utf-8")
     if prov is not None:
         with (folder / "provenance.csv").open("w", newline="", encoding="utf-8") as fh:

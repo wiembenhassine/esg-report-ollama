@@ -107,6 +107,21 @@ en cache (`outputs/cache/`) : une relance ne recalcule que ce qui a changé.
 (rédaction + juge), soit plusieurs heures pour les 3 rapports. Fermer les applications
 gourmandes (Oracle, Jenkins, MongoDB, PostgreSQL, onglets de navigateur) accélère nettement.
 
+## Tester le projet
+
+Du plus rapide au plus complet (PowerShell, depuis le dossier du projet) :
+
+| Test | Commande | Durée | Ce qu'il prouve |
+|---|---|---|---|
+| Tests automatiques | `.venv\Scripts\python -m pytest -v` | secondes | chiffres recalculés depuis les CSV bruts, garde-fou, mapping GRI, traçabilité de chaque section générée |
+| Démo du garde-fou | `.venv\Scripts\python -m esg.demo` | instantané | un chiffre écrit par le LLM est rejeté ; le code insère les vraies valeurs ; tout nombre est tracé |
+| Rendu sans LLM | `.venv\Scripts\python -m esg.pipeline --dry-run` | secondes | toute la chaîne de rendu (écrit dans `outputs/essai_sans_llm/`, n'écrase rien) |
+| Re-rendu des rapports | `.venv\Scripts\python -m esg.pipeline --render-only` | ~1 min | régénère PDF, HTML et tableau de bord depuis le cache |
+| Génération réelle d'une section | `.venv\Scripts\python -m esg.pipeline cork --sections gouvernance --no-cache --no-comparison` | ~10 min | Ollama rédige, le garde-fou filtre, le juge valide (remplace la version en cache) |
+| Traçabilité à la main | ouvrir un PDF de `outputs/` et chercher un chiffre dans le `provenance.csv` voisin | — | chaque chiffre renvoie à son crédit et à son URL STARS |
+
+Vérifier qu'Ollama est prêt : `ollama list` doit afficher `llama3.1:8b` et `nomic-embed-text`.
+
 ## Données détaillées STARS (compte AASHE gratuit)
 
 Les scores et les réponses narratives sont publics ; les **valeurs détaillées** (MWh, tCO2e,
@@ -141,6 +156,7 @@ esg/
   generate.py      boucle rédaction -> validation -> régénération
   render.py        Markdown, HTML, PDF, index GRI, annexe de validation, provenance
   dashboard.py     tableau de bord BI (HTML autonome, sans LLM)
+  demo.py          démonstration instantanée du garde-fou (soutenance)
   pipeline.py      commande principale
 mapping/gri_map.yaml   correspondance STARS -> GRI écrite à la main
 data/raw/              données de Hakim (scores, scorecards, récits, corpus ESG)

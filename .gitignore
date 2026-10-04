@@ -17,3 +17,6 @@ outputs/logs/
 
 # profil Edge utilisé pour l'export PDF
 data/processed/edge_profile/
+
+# rapports de test sans LLM (--dry-run)
+outputs/essai_sans_llm/

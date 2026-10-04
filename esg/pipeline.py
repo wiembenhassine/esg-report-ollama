@@ -69,7 +69,8 @@ def main() -> None:
                     print(f"   [{key}/{sec_id}] ERREUR {type(e).__name__}: {e} — texte de repli utilisé")
                     r = generate.dry_section(key, sec_id)
             results.append(r)
-        out = render.write(key, render.report_md(key, results),
+        # --dry-run écrit à part : il ne doit jamais écraser les vrais rapports.
+        out = render.write(f"essai_sans_llm/{key}" if args.dry_run else key, render.report_md(key, results),
                            f"Rapport de durabilité — {INSTITUTIONS[key]['name']}",
                            render.provenance(key, results))
         print(f"   -> {out['md'].name}, {out['html'].name}, {out['pdf'].name if out['pdf'] else 'PDF non généré'}")
