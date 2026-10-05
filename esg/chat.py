@@ -167,6 +167,9 @@ def build_prompt(question: str, keys: list[str], credits: list[str], vals: dict,
     parts.append("EXTRAITS DES RAPPORTS STARS (anglais ; années et % remplacés par des marqueurs recopiables, "
                  "autres nombres retirés) :\n"
                  + ("\n".join(f"[{SHORT[p['inst']]} {p['credit']}] {p['text']}" for p in evidence) or "(aucun)"))
+    sigles = guard.glossary_lines(*(p["text"] for p in evidence))
+    if sigles:
+        parts.append("SIGLES (ne développe aucun autre sigle) :\n" + "\n".join(sigles))
     return "\n\n".join(parts)
 
 

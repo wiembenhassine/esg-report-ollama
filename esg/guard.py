@@ -16,6 +16,12 @@ Deux contrôles :
 """
 
 import re
+import unicodedata
+from functools import lru_cache
+
+import yaml
+
+from esg.config import MAPPING
 
 PLACEHOLDER = re.compile(r"\{\{\s*([A-Za-z][A-Za-z0-9_]*)\s*\}\}")
 ANY_TEMPLATE = re.compile(r"\{\{.*?\}\}|\{%.*?%\}|\{#.*?#\}", re.S)
@@ -110,9 +116,51 @@ def misuse(text: str, markers: dict) -> list[str]:
     return problems
 
 
+@lru_cache(maxsize=None)
+def glossary() -> dict:
+    with open(MAPPING / "glossary.yaml", encoding="utf-8") as fh:
+        return yaml.safe_load(fh)
+
+
+def _plain(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s.lower())
+    return "".join(ch for ch in s if not unicodedata.combining(ch))
+
+
+# Affirmation interdite : les domaines STARS ne sont pas une analyse de matérialité de l'université.
+MATERIALITY = re.compile(r"(a|ont|avait|avoir)\s+(identifié|déterminé|défini|sélectionné|retenu)\s+"
+                         r"(les\s+|ses\s+|des\s+)?(thèmes|enjeux|sujets)\s+matériels|thèmes\s+matériels\s+suivants|"
+                         r"\bses\s+thèmes\s+matériels", re.I)
+
+
+def glossary_lines(*texts: str) -> list[str]:
+    """Lignes du lexique pour les sigles présents dans ces textes (prompt du rédacteur et du juge)."""
+    joined = " ".join(texts)
+    return [f"- {acr} = {e['meaning']}" for acr, e in glossary().items() if re.search(rf"\b{acr}s?\b", joined)]
+
+
+def wrong_expansions(text: str) -> list[str]:
+    """Sigle du lexique développé avec des mots sans rapport : « Services de l'État (SEC) »."""
+    problems = []
+    for acr, entry in glossary().items():
+        keys = [_plain(k) for k in entry["keywords"]]
+        for m in re.finditer(rf"([^.()\n]{{3,90}})\(\s*{acr}s?\s*\)", text):          # « développé (SEC) »
+            before = _plain(" ".join(m.group(1).split()[-8:]))
+            if not any(k in before for k in keys):
+                problems.append(f"sigle {acr} mal développé (« {m.group(1).strip()[-60:]} ») : {acr} = {entry['meaning']}")
+        for m in re.finditer(rf"\b{acr}s?\s*\(([^)]{{4,120}})\)", text):               # « SEC (développé) »
+            if not any(k in _plain(m.group(1)) for k in keys):
+                problems.append(f"sigle {acr} mal développé (« {m.group(1)[:60]} ») : {acr} = {entry['meaning']}")
+    return problems
+
+
 def check_draft(text: str, allowed: set[str], markers: dict | None = None) -> list[str]:
     """Liste des violations (vide = texte accepté)."""
     problems = misuse(text, markers) if markers else []
+    problems += wrong_expansions(text)
+    if MATERIALITY.search(text):
+        problems.append("les domaines STARS ne sont pas une analyse de matérialité : n'écris pas que l'université "
+                        "a identifié ou déterminé ses thèmes matériels")
     for m in CODE_LIKE.finditer(PLACEHOLDER.sub(" ", text)):
         problems.append(f"identifiant technique recopié : {m.group(0)!r}")
     for m in EMPTIED.finditer(PLACEHOLDER.sub(" X ", text)):

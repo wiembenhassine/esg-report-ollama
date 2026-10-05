@@ -1,0 +1,30 @@
+# Lexique des sigles présents dans les textes STARS des trois universités (écrit à la main).
+# - meaning : développé officiel (et traduction) donné au rédacteur et au juge ;
+# - keywords : mots dont l'un DOIT apparaître dans un développé écrit par le modèle
+#   (« Services de l'État (SEC) » est refusé : SEC = Sustainable Energy Community).
+# Un sigle absent de ce lexique ne doit pas être développé par le modèle s'il ne l'est pas
+# dans les extraits (ex. SLWC, développé à tort lors du test du 4 octobre 2026).
+SEC: {meaning: "Sustainable Energy Community (communauté énergétique durable, programme de la SEAI)", keywords: [energ]}
+SEAI: {meaning: "Sustainable Energy Authority of Ireland (agence irlandaise de l'énergie durable)", keywords: [energ]}
+SU: {meaning: "Students' Union (syndicat ou union des étudiants)", keywords: [etudiant, student, union]}
+EDI: {meaning: "Equality, Diversity and Inclusion (égalité, diversité et inclusion)", keywords: [egalite, diversite, inclusion, equality, diversity]}
+HEA: {meaning: "Higher Education Authority (autorité irlandaise de l'enseignement supérieur)", keywords: [enseignement superieur, higher education, authority, autorite]}
+HEAR: {meaning: "Higher Education Access Route (voie d'accès à l'enseignement supérieur)", keywords: [acces, access]}
+DARE: {meaning: "Disability Access Route to Education (voie d'accès pour les étudiants en situation de handicap)", keywords: [handicap, disabilit, acces, access]}
+SDG: {meaning: "Sustainable Development Goals (objectifs de développement durable, ODD)", keywords: [developpement durable, sustainable development, objectif, goal]}
+ESD: {meaning: "Education for Sustainable Development (éducation au développement durable)", keywords: [education, developpement durable, sustainable development]}
+SDSN: {meaning: "Sustainable Development Solutions Network (réseau des Nations unies)", keywords: [developpement durable, sustainable development, network, reseau]}
+GHG: {meaning: "Greenhouse Gas (gaz à effet de serre)", keywords: [gaz, serre, greenhouse]}
+TCR: {meaning: "The Climate Registry (registre climat nord-américain)", keywords: [climat, climate, registre, registry]}
+CAP: {meaning: "Climate Action Plan (plan d'action pour le climat)", keywords: [climat, climate, action]}
+NZEB: {meaning: "Nearly Zero Energy Building (bâtiment à consommation d'énergie quasi nulle)", keywords: [energ, batiment, building, zero]}
+BER: {meaning: "Building Energy Rating (classement énergétique des bâtiments, Irlande)", keywords: [energ, batiment, building]}
+LEED: {meaning: "Leadership in Energy and Environmental Design (certification de bâtiments)", keywords: [energ, environnement, environmental, design, leadership, certification]}
+PV: {meaning: "photovoltaïque", keywords: [photovolta, solaire, solar]}
+FSC: {meaning: "Forest Stewardship Council (certification forestière)", keywords: [forest, foret, stewardship]}
+LRDP: {meaning: "Long Range Development Plan (plan de développement à long terme, UC Berkeley)", keywords: [plan, developpement, development]}
+EIR: {meaning: "Environmental Impact Report (étude d'impact environnemental)", keywords: [impact, environnement, environmental]}
+CEQA: {meaning: "California Environmental Quality Act (loi californienne sur la qualité de l'environnement)", keywords: [californi, environnement, environmental, qualite, quality]}
+CPD: {meaning: "Continuing Professional Development (formation professionnelle continue)", keywords: [professionnel, professional, continu, formation]}
+SERC: {meaning: "Student Environmental Resource Center (centre étudiant de ressources environnementales, UC Berkeley)", keywords: [etudiant, student, environnement, environmental, ressource, resource]}
+KPI: {meaning: "Key Performance Indicator (indicateur clé de performance)", keywords: [indicateur, indicator, performance]}

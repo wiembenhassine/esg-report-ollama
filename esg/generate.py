@@ -61,6 +61,9 @@ FIDÉLITÉ
 - Pour qualifier un score, utilise uniquement le niveau fourni (maximal, élevé, intermédiaire, faible, nul).
 - Si une publication n'est pas couverte, écris « ce rapport ne peut pas établir… » ou « STARS ne collecte pas… » ;
   n'affirme jamais que l'université n'a pas fait quelque chose.
+- Les domaines d'objectifs STARS sont fixés par STARS : n'écris jamais que l'université « a identifié » ou
+  « a déterminé » ses thèmes matériels.
+- Ne développe un sigle que s'il figure dans le lexique SIGLES ou s'il est développé dans le CONTEXTE.
 - Respecte chaque POINT DE VIGILANCE.
 - Écris « en référence aux normes GRI », jamais « conforme ».
 
@@ -131,6 +134,10 @@ def build_prompt(key: str, sec: dict, evidence: list[dict], knowledge: list[dict
     parts.append("CONTEXTE — extraits du rapport STARS de l'établissement (anglais ; années et pourcentages "
                  "remplacés par des marqueurs, autres nombres retirés) :\n"
                  + "\n".join(f"[{p['credit']}] {p['text']}" for p in evidence))
+    sigles = guard.glossary_lines(*(p["text"] for p in evidence))
+    if sigles:
+        parts.append("SIGLES (lexique ; ne développe aucun autre sigle que ceux-ci ou ceux développés dans le "
+                     "CONTEXTE) :\n" + "\n".join(sigles))
     if knowledge:
         parts.append("VOCABULAIRE ESG (référence générale, ne pas citer comme fait sur l'établissement) :\n"
                      + "\n".join(p["text"] for p in knowledge))

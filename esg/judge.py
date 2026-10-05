@@ -17,7 +17,7 @@ formulations interdites, couverture des publications GRI de la section.
 
 import re
 
-from esg import llm
+from esg import guard, llm
 from esg.config import JUDGE_MODEL
 
 # Acceptation : la fidélité (part des affirmations supportées) prime ; la note globale d'un juge 8B
@@ -86,7 +86,13 @@ Procedure:
    - every vigilance point given must be respected;
    - the section must not present a disclosure as fully reported when the status list says otherwise
      (the section does not have to restate every status);
-   - qualitative levels (élevé, faible...) must match the VALUES table.
+   - qualitative levels (élevé, faible...) must match the VALUES table;
+   - STARS objective areas are fixed by STARS: saying the university "identified" or "determined" its material
+     topics is a violation (it is not a materiality assessment);
+   - an acronym expanded differently from the ACRONYMS list or the excerpts is an unsupported claim (e.g. SEC
+     means Sustainable Energy Community, not a state service or a committee);
+   - a score must be used for what it measures: a STARS score presented as a number of students, a year or a
+     percentage of something else is an unsupported claim.
 3. Give a score from 1 (unfaithful) to 5 (fully faithful and compliant).
 4. Write "feedback": precise instructions IN FRENCH telling the writer what to remove or fix, consistent with
    the rules above (never ask to replace a required wording). Empty if score is 5.
@@ -122,7 +128,8 @@ def judge(section_text: str, values: list[str], statuses: list[str], cautions: l
         "VALUES (inserted by code, always correct):\n" + ("\n".join(values) or "(none)") + "\n\n"
         "GRI STATUS LIST (computed by code):\n" + ("\n".join(statuses) or "(none)") + "\n\n"
         "VIGILANCE POINTS:\n" + ("\n".join(cautions) or "(none)") + "\n\n"
-        "STARS EXCERPTS (numbers removed):\n" + ("\n".join(evidence) or "(none)") + "\n\n"
+        "STARS EXCERPTS (as published, numbers included):\n" + ("\n".join(evidence) or "(none)") + "\n\n"
+        "ACRONYMS:\n" + ("\n".join(guard.glossary_lines(section_text, *evidence)) or "(none)") + "\n\n"
         "SECTION TO AUDIT:\n<<<\n" + section_text + "\n>>>"
     )
     seconds, last = 0.0, None
