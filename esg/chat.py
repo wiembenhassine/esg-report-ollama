@@ -125,7 +125,8 @@ def build_prompt(question: str, keys: list[str], credits: list[str], vals: dict,
              "DONNÉES (marqueurs à recopier tels quels, sans rien autour) :\n" + ("\n".join(lines) or "(aucune)")]
     if missing:
         parts.append("CRÉDITS SANS DONNÉE : " + "; ".join(missing))
-    parts.append("EXTRAITS DES RAPPORTS STARS (anglais, nombres retirés) :\n"
+    parts.append("EXTRAITS DES RAPPORTS STARS (anglais ; années et % remplacés par des marqueurs recopiables, "
+                 "autres nombres retirés) :\n"
                  + ("\n".join(f"[{SHORT[p['inst']]} {p['credit']}] {p['text']}" for p in evidence) or "(aucun)"))
     return "\n\n".join(parts)
 
@@ -153,7 +154,13 @@ def answer(question: str, *, log=print) -> dict:
     ix = rag.get_index()
     evidence = []
     for k in keys:
-        evidence += ix.evidence(k, credits, question, k=3, max_chars=900) if credits else []
+        raw = ix.evidence(k, credits, question, k=3, max_chars=900) if credits else []
+        items, _, text_markers = markers.evidence_markers(k, raw, max_chars=450)
+        evidence += items
+        vals |= {f"{k}_{fid}": dict(mk, label=f"{SHORT[k]} — {mk['label']}") for fid, mk in text_markers.items()}
+        for p in items:                              # marqueurs préfixés par l'université, comme les autres
+            for fid in text_markers:
+                p["text"] = p["text"].replace(f"{{{{ {fid} }}}}", f"{{{{ {k}_{fid} }}}}")
     out = llm.chat([{"role": "system", "content": SYSTEM},
                     {"role": "user", "content": build_prompt(question, keys, credits, vals, evidence)}],
                    temperature=0.2, num_predict=320)

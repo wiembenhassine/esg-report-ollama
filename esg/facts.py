@@ -153,6 +153,19 @@ def build(key: str) -> list[dict]:
         rows.append(_row(key, fid, "field", f["credit_code"], f["label"], f["value"], num, unit, disp,
                          f"{url} ({f['credit_code']} / {f['label']})"))
 
+    # Années et pourcentages cités dans les textes STARS (source : le texte, pas le CSV).
+    for code, c in sources.credits(key).items():
+        for i, line in enumerate(c["lines"]):
+            for k, n in enumerate(sources.text_numbers(line)):
+                ctx = line[max(0, n["start"] - 70):n["end"] + 50].replace(n["raw"], " ___ ", 1)
+                what = "année" if n["kind"] == "year" else "pourcentage"
+                disp = n["raw"] if n["kind"] == "year" else \
+                    fr_number(n["value"], decimals_of(n["raw"].rstrip("% ").replace(",", "."))) + " %"
+                rows.append(_row(key, sources.text_fact_id(code, i, k), "text", code,
+                                 f"{what} citée dans le texte STARS ({code}) : « … {sources.mask_numbers(ctx)} … »",
+                                 n["raw"], n["value"], what if n["kind"] == "year" else "%", disp,
+                                 f"{c.get('url') or url} (texte STARS du crédit {code}, ligne {i + 1})"))
+
     ids = [r["fact_id"] for r in rows]
     dupes = {i for i in ids if ids.count(i) > 1}
     if dupes:

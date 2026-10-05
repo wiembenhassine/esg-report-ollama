@@ -53,6 +53,12 @@ BAD_AFTER = re.compile(r"^(%|pour ?cent|étudiant|personne|salarié|employé|mem
                        r"année|tonne|euro|dollar|mwh|kwh|m³|m3|heure|arbre|bâtiment|site|panneau)", re.I)
 SCORE_INTRO = re.compile(r"obtien|obtenu|atteint|atteign|totalis|score|note|résultat|évalu|avec|soit|recueill|"
                          r"récolt|niveau|crédit|pilier|part\b|points?\b", re.I)
+YEAR_BEFORE = re.compile(r"(\ben|d'ici|depuis|dès|jusqu'en|avant|après|horizon|année|entre|et|de|du|à|au|vers|"
+                         r"–|-|le|plan|période|calendrier)\s*$", re.I)
+# Phrase vidée de son nombre (le nombre a été retiré du contexte et le modèle a gardé le reste).
+EMPTIED = re.compile(r"\b(d'ici|depuis|dès|jusqu'en)\s*(?=[.,;:)]|\bet\b|$)|"
+                     r"\b(de|à|en|environ|soit)\s+(MWh|kWh|GWh|watts?|W/unit|watt/unit|tonnes?|m³|m3|heures?|%)(?=\W|$)",
+                     re.I)
 LEVEL_WORD = re.compile(r"\b(maximale?s?|élevée?s?|intermédiaires?|faibles?|nulle?s?)\b", re.I)
 CODE_LIKE = re.compile(r"\(?\b[A-Z]{2,}\d*_?(?:Pct|pct|Score|score|Max|max|Points|points)\b\)?")
 
@@ -71,11 +77,20 @@ def misuse(text: str, markers: dict) -> list[str]:
     problems = []
     for m in PLACEHOLDER.finditer(text):
         name, mk = m.group(1), markers.get(m.group(1))
-        if not mk or mk["kind"] not in SCORE_KINDS:
+        if not mk:
             continue
         sentence_before = re.split(r"[.!?\n]", text[:m.start()])[-1]
         before = " ".join(sentence_before.split()[-4:])
         after = text[m.end():].lstrip()
+        if mk["kind"] == "text":                       # année ou % cité dans le texte STARS
+            if mk.get("unit") == "année" and not YEAR_BEFORE.search(before):
+                problems.append(f"marqueur {{{{ {name} }}}} est une ANNÉE : emploie-le comme une date (« en », "
+                                "« d'ici », « depuis »…)")
+            elif mk.get("unit") == "%" and after.startswith("%"):
+                problems.append(f"marqueur {{{{ {name} }}}} contient déjà le signe % : ne l'ajoute pas")
+            continue
+        if mk["kind"] not in SCORE_KINDS:
+            continue
         if BAD_BEFORE.search(before):
             problems.append(f"marqueur {{{{ {name} }}}} employé comme date ou quantité après « {before.split()[-1]} » : "
                             "c'est un score STARS")
@@ -100,6 +115,8 @@ def check_draft(text: str, allowed: set[str], markers: dict | None = None) -> li
     problems = misuse(text, markers) if markers else []
     for m in CODE_LIKE.finditer(PLACEHOLDER.sub(" ", text)):
         problems.append(f"identifiant technique recopié : {m.group(0)!r}")
+    for m in EMPTIED.finditer(PLACEHOLDER.sub(" X ", text)):
+        problems.append(f"phrase vidée de son nombre : « {m.group(0).strip()} » — retire la phrase ou cite le marqueur")
     used = PLACEHOLDER.findall(text)
     for name in sorted(set(used) - allowed):
         problems.append(f"placeholder inconnu {{{{ {name} }}}} : utilise uniquement ceux de la liste")
@@ -159,6 +176,7 @@ def tidy(text: str, section_title: str = "") -> str:
     while lines and lines[0].lstrip("#").strip().lower() in {section_title.lower(), ""} and lines[0].startswith("#"):
         lines.pop(0)
     lines = [re.sub(r"^(#{2,6})(\s+#{1,6})+\s+", r"\1 ", l) for l in lines]
+    lines = [re.sub(r"\s*\(\s*Refs?\s*[\d,\s]*\)", "", l) for l in lines]      # renvois « (Ref ) » vides
     text = "\n".join(lines).strip()
     if text and not re.search(r"[.!?»)\]]\s*$", text):          # fin coupée : on retire la phrase incomplète
         cut = max(text.rfind(". "), text.rfind(".\n"), text.rfind("\n\n"))
@@ -167,7 +185,9 @@ def tidy(text: str, section_title: str = "") -> str:
     return text.strip()
 
 
-FR_NUMBER = re.compile(r"\d{1,3}(?:[   ]\d{3})*(?:,\d+)?|\d+(?:,\d+)?")
+# Nombre à séparateur de milliers (« 78 414,00 ») ou nombre simple (« 2028 », « 86,76 ») : la 1re forme
+# exige au moins un groupe de milliers, sinon « 2028 » était découpé en « 202 » + « 8 ».
+FR_NUMBER = re.compile(r"\d{1,3}(?:[   ]\d{3})+(?:,\d+)?|\d+(?:,\d+)?")
 
 
 def numbers_in(text: str) -> list[str]:

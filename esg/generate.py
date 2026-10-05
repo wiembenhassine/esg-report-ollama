@@ -49,8 +49,10 @@ RÈGLE ABSOLUE SUR LES NOMBRES
   liste VALEURS. Le code le remplace par une expression COMPLÈTE (par exemple « … points STARS sur … au crédit
   OP-6, niveau intermédiaire ») : écris simplement « L'université obtient {{ OP6 }}. ». N'ajoute autour du
   marqueur ni « points », ni « % », ni niveau, et ne l'emploie jamais comme date, durée, quantité ou effectif.
-- Une valeur sans placeholder ne doit pas être mentionnée. Les nombres ont été retirés du contexte : n'essaie
-  jamais de les deviner ni de les remplacer par une estimation ou une quantité vague.
+- Dans le CONTEXTE, les années et pourcentages cités par l'établissement sont remplacés par des marqueurs
+  (par exemple {{ PA2_t0_3 }}) : tu peux les recopier, dans le même sens que dans l'extrait (« d'ici {{ PA2_t0_3 }} »).
+- Les autres nombres ont été retirés : ne les devine pas, et n'écris pas de phrase qui en aurait besoin
+  (« d'ici . », « produit de MWh ») ; décris alors le dispositif sans quantité.
 - Autorisé : les références GRI (« GRI 305-1 ») et les codes de crédits STARS (« OP-6 »).
 
 FIDÉLITÉ
@@ -126,7 +128,8 @@ def build_prompt(key: str, sec: dict, evidence: list[dict], knowledge: list[dict
     parts.append("VALEURS (marqueurs à recopier tels quels, sans rien autour) :\n" + "\n".join(describe_values(key, values)))
     if cautions:
         parts.append("POINTS DE VIGILANCE OBLIGATOIRES :\n" + "\n".join(f"- {c}" for c in cautions))
-    parts.append("CONTEXTE — extraits du rapport STARS de l'établissement (anglais, nombres masqués) :\n"
+    parts.append("CONTEXTE — extraits du rapport STARS de l'établissement (anglais ; années et pourcentages "
+                 "remplacés par des marqueurs, autres nombres retirés) :\n"
                  + "\n".join(f"[{p['credit']}] {p['text']}" for p in evidence))
     if knowledge:
         parts.append("VOCABULAIRE ESG (référence générale, ne pas citer comme fait sur l'établissement) :\n"
@@ -285,9 +288,11 @@ def run_section(key: str, sec_id: str, *, use_cache: bool = True, log=print) -> 
     entries = [gri_index.entry(key, c) for c in sec["disclosures"]]
     cautions = gri_index.cautions(key, sec_id)
     ix = rag.get_index()
-    evidence = ix.evidence(key, sec["credits"], sec["topic"])
+    raw_evidence = ix.evidence(key, sec["credits"], sec["topic"])
+    # Années et % des extraits -> marqueurs « texte » ; le juge, lui, lit les extraits avec leurs nombres.
+    evidence, judge_lines, text_markers = markers.evidence_markers(key, raw_evidence)
     knowledge = [dict(p, text=p["text"][:400]) for p in ix.knowledge(sec["topic"], k=1)]
-    values = section_values(key, sec, entries)
+    values = section_values(key, sec, entries) | text_markers
     cache = _cache_path(key, sec_id)
     result = validated_generation(
         tag=f"{key}/{sec_id}",
@@ -295,7 +300,7 @@ def run_section(key: str, sec_id: str, *, use_cache: bool = True, log=print) -> 
         values=values,
         judge_statuses=[f"GRI {e.code}: {e.status_label}" for e in entries],
         cautions=cautions,
-        judge_evidence=[f"[{p['credit']}] {p['text']}" for p in evidence],
+        judge_evidence=judge_lines,
         section_codes=[e.code for e in entries if e.status != "none"] or [e.code for e in entries],
         fallback=fallback_text(key, sec, entries, values),
         cache=cache, use_cache=use_cache, log=log)

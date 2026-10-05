@@ -52,6 +52,47 @@ def mask_numbers(text: str) -> str:
     return re.sub(r"\s{2,}", " ", text).strip()
 
 
+# Années et pourcentages cités dans les textes STARS : extraits par le CODE comme faits « texte »
+# (avec leur source), puis remplacés dans le contexte par un marqueur. Le modèle peut ainsi écrire
+# « d'ici {{ PA2_t0_1 }} » sans jamais écrire le nombre lui-même. Les autres nombres restent supprimés.
+YEAR = re.compile(r"\b(19[5-9]\d|20[0-5]\d)\b")
+REF = re.compile(r"\s*\(\s*Refs?\s*[\d,\s]*\)")          # renvois « (Ref 1) » des textes STARS
+PERCENT = re.compile(r"\b(\d{1,3}(?:[.,]\d+)?)\s?%")
+
+
+def text_numbers(line: str) -> list[dict]:
+    """Années et pourcentages d'une ligne STARS, dans l'ordre : [{start, end, kind, raw, value}]."""
+    clean = URL.sub(lambda m: " " * len(m.group(0)), line)     # jamais un nombre tiré d'une URL
+    found = [{"start": m.start(), "end": m.end(), "kind": "percent", "raw": m.group(0),
+              "value": float(m.group(1).replace(",", "."))} for m in PERCENT.finditer(clean)]
+    taken = [(f["start"], f["end"]) for f in found]
+    for m in YEAR.finditer(clean):
+        if not any(a <= m.start() < b for a, b in taken):
+            found.append({"start": m.start(), "end": m.end(), "kind": "year", "raw": m.group(0),
+                          "value": float(m.group(0))})
+    return sorted(found, key=lambda f: f["start"])
+
+
+def text_fact_id(code: str, line_idx: int, k: int) -> str:
+    return f"{code.replace('-', '')}_t{line_idx}_{k}"
+
+
+def mark_line(code: str, line_idx: int, line: str) -> tuple[str, list[str]]:
+    """Ligne pour le prompt : années et % remplacés par leur marqueur, autres nombres supprimés."""
+    nums = text_numbers(line)
+    out, pos, used = [], 0, []
+    for k, n in enumerate(nums):
+        out.append(line[pos:n["start"]])
+        out.append(f" QQMARK{chr(65 + k % 26) * (k // 26 + 1)}QQ ")   # jeton sans chiffre (survit au masquage)
+        used.append(text_fact_id(code, line_idx, k))
+        pos = n["end"]
+    out.append(line[pos:])
+    masked = mask_numbers("".join(out))
+    for k, fid in enumerate(used):
+        masked = masked.replace(f"QQMARK{chr(65 + k % 26) * (k // 26 + 1)}QQ", f"{{{{ {fid} }}}}")
+    return masked, used
+
+
 def _parse_file(key: str) -> dict:
     """{code: {"title", "url", "qa": {question: answer}, "lines": [...]}}"""
     path = RAW / "narratives" / f"{key}_credits.txt"

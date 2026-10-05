@@ -86,6 +86,34 @@ def field(key: str, fid: str) -> dict:
             "kind": "field", "level": "", "code": r["credit_code"], "fact_ids": [fid]}
 
 
+def text(key: str, fid: str) -> dict:
+    """Année ou pourcentage cité dans le texte STARS (extrait par le code, voir sources.text_numbers)."""
+    r = facts.load(key)[fid]
+    return {"label": r["label"], "display": r["display"], "kind": "text", "level": "",
+            "code": r["credit_code"], "fact_ids": [fid], "unit": r["unit"]}
+
+
+def evidence_markers(key: str, evidence: list[dict], max_chars: int = 700) -> tuple[list[dict], list[str], dict]:
+    """Extraits pour le prompt (années et % remplacés par des marqueurs, autres nombres retirés),
+    extraits pour le juge (texte réel, nombres compris) et marqueurs « texte » correspondants."""
+    from esg import sources                         # import local : sources dépend de config seulement
+    prompt_items, judge_lines, text_markers = [], [], {}
+    for p in evidence:
+        line = sources.credits(p["inst"] or key)[p["credit"]]["lines"][p["line"]]
+        marked, used = sources.mark_line(p["credit"], p["line"], line)
+        marked = sources.REF.sub("", marked)
+        if len(marked) > max_chars:                 # coupe sans laisser un marqueur à moitié
+            marked = marked[:max_chars]
+            if marked.rfind("{{") > marked.rfind("}}"):
+                marked = marked[:marked.rfind("{{")]
+        kept = [fid for fid in used if f"{{{{ {fid} }}}}" in marked]
+        for fid in kept:
+            text_markers[fid] = text(p["inst"] or key, fid)
+        prompt_items.append({"credit": p["credit"], "inst": p["inst"], "text": marked})
+        judge_lines.append(f"[{p['credit']}] {sources.URL.sub('', line)[:max_chars]}")
+    return prompt_items, judge_lines, text_markers
+
+
 def describe(name: str, mk: dict) -> str:
     """Ligne de prompt pour le rédacteur : sens du marqueur, jamais sa valeur."""
     shape = {
@@ -94,6 +122,8 @@ def describe(name: str, mk: dict) -> str:
         "overall": "le code écrira « un score STARS global de … »",
         "date": "le code écrira une date complète (jour, mois, année)",
         "field": "le code écrira la valeur et son unité",
-        "text": "le code écrira la valeur exacte citée dans le texte STARS",
+        "text": ("le code écrira l'année exacte citée dans le texte STARS (à employer comme une date, "
+                 "par exemple « d'ici … », « en … »)" if mk.get("unit") == "année" else
+                 "le code écrira le pourcentage exact cité dans le texte STARS, signe % compris"),
     }[mk["kind"]]
     return f"- {{{{ {name} }}}} : {mk['label']} — {shape}"

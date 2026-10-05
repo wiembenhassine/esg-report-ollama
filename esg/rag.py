@@ -48,9 +48,10 @@ def passages() -> list[dict]:
         for code, c in sources.credits(key).items():
             if code not in wanted:
                 continue
-            for line in c["lines"]:
+            for i, line in enumerate(c["lines"]):
                 text = sources.mask_numbers(line)[:MAX_PASSAGE]
-                out.append({"corpus": "narrative", "inst": key, "credit": code, "source": c["url"], "text": text})
+                out.append({"corpus": "narrative", "inst": key, "credit": code, "line": i,
+                            "source": c["url"], "text": text})
     return out + _knowledge_chunks()
 
 
