@@ -100,7 +100,7 @@ avec `7e6d242`.
   - les restes de renvoi « (Ref, Ref) » ;
   - une phrase ou une liste reste orpheline après un retrait.
 
-  Corriger ces défauts par le code est simple, mais le code est gelé : ils sont notés en section 6.
+  Le premier défaut s'est révélé massif : 27 phrases dans les 3 rapports, par exemple « 2,5 points STARS sur 3 au crédit PA-12, niveau élevé points STARS sur 2,5 points STARS sur 3… ». Il a donc été traité comme un **bug bloquant** et corrigé par le code, avec les restes « (Ref, Ref) » (`b4ac34e`, voir section 5). Le tableau ci-dessus décrit les textes avant ce nettoyage. Les deux autres défauts sont notés en section 6.
 
 ## 5. Corrections approuvées (« oui » du 5 octobre 2026)
 
@@ -115,7 +115,8 @@ avec `7e6d242`.
 | 6 | **Git** : un commit par correction ; envoi sur GitHub **à la fin seulement**, puis clone de vérification | en attente | — | — |
 
 Ajustements faits pendant la régénération de Dublin. Le garde-fou rejetait à tort des textes
-corrects ; chaque cas réel est couvert par un test. Le code est **gelé** après `7e6d242`.
+corrects ; chaque cas réel est couvert par un test. Le code est **gelé** après `7e6d242`, avec une seule exception pour un bug
+bloquant (`b4ac34e`).
 
 | Ajustement | Cas réel | Commit |
 |---|---|---|
@@ -123,18 +124,21 @@ corrects ; chaque cas réel est couvert par un test. Le code est **gelé** aprè
 | Années acceptées dans un nom de loi (« Act 2018 ») et après un mois (« février 2025 ») ; phrases identiques retirées | 7 phrases correctes retirées en gouvernance | `66b99dc` |
 | Formulation interdite (« n'a pas fourni… ») : seule la phrase est retirée, plus tout le texte | section entière rejetée pour une phrase | `7e6d242` |
 | Outil `esg.verify` : le pilier « ENV » était lu comme un crédit « EN-V » (chiffre déclaré absent à tort) | contrôle des 10 chiffres | `65e4773` |
+| **Bug bloquant** : mots répétés autour d'un marqueur complet, retirés du texte rendu (suppression seule). Appliqué au rendu, donc les sections en cache sont corrigées sans relancer le LLM ; « (Ref, Ref) » est aussi retiré | 27 phrases illisibles dans les 3 rapports (Cork : toute la liste Environnement) | `b4ac34e` |
 
 
 ## 6. Notés, non appliqués
 
-- **Défauts vus dans le tableau « après »** (code gelé, à décider) :
-  - retirer les mots que le modèle répète juste avant un marqueur (« un score STARS global de {{ STARS_score }} »), comme le fait déjà `drop_double_percent` pour « % » ;
-  - retirer aussi « (Ref, Ref) » dans `tidy` ;
-  - retirer une ligne qui se termine par « : » sans liste derrière ;
-  - signaler au juge les phrases proches qui se répètent.
+- **Défauts de forme restants** (code gelé, à décider) :
+  - une ligne qui se termine par « : » sans liste derrière (4 dans les 3 rapports) ;
+  - des phrases presque identiques qui se répètent (seules les phrases strictement identiques sont retirées).
 
   Aucun de ces défauts ne touche la valeur d'un chiffre.
-- **Contenu inventé** (section Environnement de Dublin) : seul un relecteur humain, ou un juge plus fort, peut le voir. Piste possible : un second juge qui vérifie chaque phrase contre l'extrait cité.
+- **Contenu inventé ou mal rattaché** : seul un relecteur humain, ou un juge plus fort, peut le voir. Exemples :
+  - section Environnement de Dublin (8 erreurs) ;
+  - à Berkeley, « le salaire minimum local est de 42,8 % » : 42,8 % est en fait le taux des avantages sociaux (CBR) dans PA-13.
+
+  Piste possible : un second juge qui vérifie chaque phrase contre l'extrait cité.
 
 - **Second modèle Ollama comme juge** (amélioration future) : possible sur ce PC (153 Go de disque libre),
   mais pas deux modèles 8B chargés en même temps (1,7 Go de RAM libre pendant la génération) ; Ollama
@@ -150,7 +154,42 @@ corrects ; chaque cas réel est couvert par un test. Le code est **gelé** aprè
 .venv\Scripts\python -m pytest -q                      # tests automatiques
 .venv\Scripts\python -m esg.validate                   # test 2
 .venv\Scripts\python -m esg.verify 10                  # test 4 (tirage aléatoire, graine affichée)
+.venv\Scripts\python -m esg.verify_univ 2026           # 10 chiffres par université (section 8)
 .venv\Scripts\python -m esg.demo --juge                # test 5 (juge sur un texte faux)
 .venv\Scripts\python -m esg.chat "Quel est le score biodiversité de Cork ?"   # test 6
 .venv\Scripts\python -m esg.pipeline tudublin --no-cache --no-comparison --log outputs\logs\dublin.log   # test 3
 ```
+
+## 8. Résultats finaux (5 octobre 2026, fin de la chaîne à 23 h 09)
+
+Même code pour les 3 universités, une université à la fois : génération complète (`--no-cache`),
+puis reprise des sections en texte de repli, puis synthèse comparative et rendu final. Journaux dans
+`outputs/logs/` (`dublin_apres`, `dublin_replis`, `berkeley_apres`, `berkeley_replis`, `cork_apres`,
+`cork_replis`, `rendu_final`, `rendu_corrige`).
+
+**Sections**
+
+| Université | Durée | Validées | À relire | Repli | Reprises | Phrases retirées par le code | Note du juge |
+|---|---|---|---|---|---|---|---|
+| TU Dublin | 104 min + 8,5 min | 8 / 8 | 0 | 0 | thèmes matériels (repli, puis validée à la reprise) | 13 | 4/5 sauf thèmes matériels 2/5 (violation écartée) |
+| UC Berkeley | 100 min | 8 / 8 | 0 | 0 | aucune | 8 | 4/5 sauf stratégie 3/5 |
+| University College Cork | 73,5 min + 9,3 min | 8 / 8 | 0 | 0 | enseignement (repli, puis validée à la reprise) | 5 | 4/5 partout |
+| Synthèse comparative | 7 min | 1 / 1 | 0 | 0 | — | 1 | 4/5 |
+
+Fidélité selon le juge : 100 % pour 19 sections sur 24, 83 % pour les 5 autres. Rappel
+(section 4 bis) : « validée » veut dire chiffres sûrs et forme contrôlée, pas sens vérifié.
+
+**10 chiffres au hasard par université** (`python -m esg.verify_univ 2026`, sortie complète dans
+`outputs/verification_chiffres.md`). Chaque chiffre est comparé au CSV brut, sans passer par `facts.py`,
+et doit figurer sur la ligne de son crédit ou de son pilier. S'y ajoutent 5 nombres « texte » par université
+(années, %), comparés à leur ligne STARS d'origine.
+
+| Université | Chiffres de score identiques au CSV | Nombres « texte » identiques à la source |
+|---|---|---|
+| UC Berkeley | 10 / 10 | 5 / 5 |
+| University College Cork | 10 / 10 | 5 / 5 |
+| TU Dublin | 10 / 10 | 5 / 5 |
+
+Résultat : **aucun écart** (45 sur 45).
+
+**Tests automatiques** : 132 passent (`pytest -q`).
