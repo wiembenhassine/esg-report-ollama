@@ -48,7 +48,8 @@ def credit(key: str, code: str) -> dict | None:
     name_fr = labels_fr().get(code, name_en)
     return {
         "label": f"score STARS du crédit {code} {name_fr} ({name_en})",
-        "display": f"{s['display']} points STARS sur {m['display']} au crédit {code}, niveau {level}",
+        "display": (f"{s['display']} {'points' if float(s['number']) >= 2 else 'point'} STARS sur {m['display']} "
+                    f"au crédit {code}, niveau {level}"),
         "kind": "credit", "level": level, "code": code, "fact_ids": [f"{v}_score", f"{v}_max"],
     }
 

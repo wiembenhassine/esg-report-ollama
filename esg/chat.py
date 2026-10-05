@@ -17,6 +17,7 @@ Mêmes règles que les rapports :
 
 import re
 import sys
+import unicodedata
 
 from jinja2 import Environment, StrictUndefined
 
@@ -25,43 +26,62 @@ from esg.config import INSTITUTIONS
 
 NOT_AVAILABLE = "Information non disponible dans les données STARS."
 JINJA = Environment(undefined=StrictUndefined, autoescape=False)
-
-ALIASES = {
-    "berkeley": ["berkeley", "californie", "california", "ucb"],
-    "cork": ["cork", "ucc", "university college cork"],
-    "tudublin": ["dublin", "tu dublin", "tud", "technological university"],
-}
 SHORT = {"berkeley": "Berkeley", "cork": "Cork", "tudublin": "TU Dublin"}
 
-# Mots-clés français -> crédits STARS (table écrite à la main, comme le reste du mapping).
+# Reconnaissance par MOTS ENTIERS, en minuscules et sans accents (voir words()). L'ancienne version
+# cherchait des morceaux de mots : « tud » trouvait TU Dublin dans « étudiants », « diversit » la
+# diversité ethnique dans « biodiversité », « plan » le plan stratégique dans « planté », etc.
+ALIASES = {  # université -> (mots, expressions)
+    "berkeley": ({"berkeley", "californie", "california", "ucb"}, []),
+    "cork": ({"cork", "ucc"}, ["university college cork"]),
+    "tudublin": ({"dublin", "tud", "tudublin"}, ["technological university"]),
+}
+
+# Sujets -> crédits STARS (table écrite à la main) : (mots exacts, expressions, crédits).
 TOPICS = [
-    (r"énerg|électric", ["OP-5"]),
-    (r"émission|carbone|\bges\b|co2|climat|gaz à effet", ["OP-6"]),
-    (r"\beau\b|hydrique", ["OP-3"]),
-    (r"déchet|recycl|compost", ["OP-12", "OP-11"]),
-    (r"achat|fournisseur|approvisionn", ["OP-9", "OP-10"]),
-    (r"aliment|restauration|nourriture|repas", ["OP-7", "OP-8"]),
-    (r"bâtiment|construction|immobilier", ["OP-1", "OP-2"]),
-    (r"transport|déplacement|mobilit|vélo|navette", ["OP-14", "OP-13"]),
-    (r"avion|aérien|voyage", ["OP-15"]),
-    (r"biodiversit|espaces? verts?|pesticide", ["OP-4"]),
-    (r"gouvernance|conseil d'administration|représentation", ["PA-3", "PA-1"]),
-    (r"plan|engagement|objectif|stratégie", ["PA-2"]),
-    (r"investissement|dotation|placement|portefeuille", ["PA-4", "PA-5"]),
-    (r"diversit|inclusion|ethni|racial", ["PA-7", "PA-6"]),
-    (r"genre|parité|femme", ["PA-8"]),
-    (r"salaire|rémunération|paie|living wage", ["PA-13"]),
-    (r"santé|sécurité|bien-être", ["PA-11"]),
-    (r"droits? des salariés|syndic|réclamation|lanceur", ["PA-12"]),
-    (r"étudiant|réussite|accessibilit|frais de scolarité|bourse", ["PA-9", "PA-10"]),
-    (r"cours|enseignement|programme|cursus", ["AC-1", "AC-2", "AC-3"]),
-    (r"recherche", ["AC-6", "AC-7"]),
-    (r"communaut|partenariat|civique|bénévol", ["EN-5", "EN-6"]),
+    ({"energie", "energies", "energetique", "energetiques", "electricite", "electrique", "electriques"}, [],
+     ["OP-5"]),
+    ({"emission", "emissions", "carbone", "ges", "co2", "climat", "climatique", "climatiques"},
+     ["gaz a effet de serre"], ["OP-6"]),
+    ({"eau", "eaux", "hydrique", "hydriques"}, [], ["OP-3"]),
+    ({"dechet", "dechets", "recyclage", "recycler", "recycle", "recycles", "compost", "compostage"}, [],
+     ["OP-12", "OP-11"]),
+    ({"achat", "achats", "fournisseur", "fournisseurs", "approvisionnement", "approvisionnements"}, [],
+     ["OP-9", "OP-10"]),
+    ({"alimentation", "aliment", "aliments", "restauration", "nourriture", "repas", "cantine"}, [],
+     ["OP-7", "OP-8"]),
+    ({"batiment", "batiments", "construction", "constructions", "immobilier"}, [], ["OP-1", "OP-2"]),
+    ({"transport", "transports", "deplacement", "deplacements", "mobilite", "velo", "velos", "navette",
+      "navettes"}, [], ["OP-14", "OP-13"]),
+    ({"avion", "avions", "aerien", "aeriens", "aerienne", "aeriennes", "voyage", "voyages"}, [], ["OP-15"]),
+    ({"biodiversite", "ecosysteme", "ecosystemes", "pesticide", "pesticides", "faune", "flore"},
+     ["espaces verts", "espace vert"], ["IL-24", "OP-4"]),
+    ({"gouvernance", "conseil", "representation"}, [], ["PA-3", "PA-1"]),
+    ({"plan", "plans", "planification", "planifier", "engagement", "engagements", "objectif", "objectifs",
+      "strategie", "strategique"}, [], ["PA-2"]),
+    ({"investissement", "investissements", "dotation", "placement", "placements", "portefeuille"}, [],
+     ["PA-4", "PA-5"]),
+    ({"diversite", "inclusion", "ethnique", "ethniques", "racial", "raciale", "raciales", "raciaux"}, [],
+     ["PA-7", "PA-6"]),
+    ({"genre", "parite", "femme", "femmes"}, [], ["PA-8"]),
+    ({"salaire", "salaires", "remuneration", "remunerations", "paie"}, ["living wage"], ["PA-13"]),
+    ({"sante", "securite"}, ["bien etre"], ["PA-11"]),
+    ({"syndicat", "syndicats", "syndical", "reclamation", "reclamations", "lanceur", "lanceurs"},
+     ["droits des salaries"], ["PA-12"]),
+    ({"reussite", "accessibilite", "bourse", "bourses"}, ["frais de scolarite"], ["PA-9", "PA-10"]),
+    ({"cours", "enseignement", "enseignements", "programme", "programmes", "cursus"}, [],
+     ["AC-1", "AC-2", "AC-3"]),
+    ({"recherche", "recherches", "chercheur", "chercheurs"}, [], ["AC-6", "AC-7"]),
+    ({"communaute", "communautes", "communautaire", "communautaires", "partenariat", "partenariats", "civique",
+      "benevolat", "benevole", "benevoles"}, [], ["EN-5", "EN-6"]),
 ]
-PILLAR_WORDS = re.compile(r"pilier|global|score|note|classement|meilleur|environnement|social|gouvernance|"
-                          r"performance|résultat|comparer|compar", re.I)
+PILLAR_WORDS = {"pilier", "piliers", "global", "globale", "classement", "meilleur", "meilleure", "environnement",
+                "environnemental", "social", "sociale", "gouvernance", "performance", "resultat", "resultats",
+                "comparer", "compare", "comparaison", "score", "scores", "note", "notes"}
+GENERAL_WORDS = {"pilier", "piliers", "global", "globale", "classement"}
 PHYSICAL = re.compile(r"tonnes?|tco2|\bt ?co2|mwh|kwh|gwh|\bm3\b|m³|litres?|mégalitres?|euros?|dollars?|€|\$|"
                       r"budget|combien d'étudiants|nombre d'(étudiants|employés|salariés)|effectifs?", re.I)
+RATING = re.compile(r"\b(platinum|gold|silver|bronze|reporter|platine|or|argent)\b", re.I)
 
 SYSTEM = """Tu es l'assistant ESG d'un projet universitaire. Tu réponds en français, en trois à six phrases,
 UNIQUEMENT à partir des DONNÉES et des EXTRAITS fournis.
@@ -75,21 +95,40 @@ RÈGLES ABSOLUES
   « Information non disponible dans les données STARS. » puis dis brièvement ce qui est disponible.
 - N'invente aucun programme, chiffre ou fait. Pour comparer, utilise les niveaux fournis (maximal, élevé,
   intermédiaire, faible, nul) et les marqueurs.
+- La note STARS (Platinum, Gold…) est la note GLOBALE de l'université : ne la relie jamais au score d'un crédit.
 - Rappelle, si tu compares des universités, que les scores STARS sont autodéclarés et que les périmètres diffèrent."""
 
 
+def words(text: str) -> list[str]:
+    """Mots de la question, en minuscules et sans accents : « Biodiversité » -> « biodiversite »."""
+    t = unicodedata.normalize("NFKD", text.replace("’", "'").lower())
+    t = "".join(ch for ch in t if not unicodedata.combining(ch))
+    return re.findall(r"[a-z0-9]+", t)
+
+
+def _matches(tokens: list[str], exact: set, phrases: list) -> bool:
+    joined = f" {' '.join(tokens)} "
+    return bool(exact & set(tokens)) or any(f" {p} " in joined for p in phrases)
+
+
 def institutions(question: str) -> list[str]:
-    q = question.lower()
-    found = [k for k, words in ALIASES.items() if any(w in q for w in words)]
+    tokens = words(question)
+    found = [k for k, (exact, phrases) in ALIASES.items() if _matches(tokens, exact, phrases)]
     return found or list(INSTITUTIONS)
 
 
 def credits_for(question: str) -> list[str]:
+    tokens = words(question)
     out = []
-    for rx, codes in TOPICS:
-        if re.search(rx, question, re.I):
+    for exact, phrases, codes in TOPICS:
+        if _matches(tokens, exact, phrases):
             out += [c for c in codes if c not in out]
     return out[:4]
+
+
+def wants_pillars(question: str, credits: list[str]) -> bool:
+    tokens = set(words(question))
+    return bool(tokens & PILLAR_WORDS) and (not credits or bool(tokens & GENERAL_WORDS))
 
 
 def values_for(keys: list[str], credits: list[str], pillars: bool) -> dict[str, dict]:
@@ -144,8 +183,7 @@ def answer(question: str, *, log=print) -> dict:
     credits = credits_for(question)
     physical = bool(PHYSICAL.search(question))
     # Les piliers ne sont ajoutés que pour une question générale (sinon le prompt s'alourdit sur CPU).
-    pillars = bool(PILLAR_WORDS.search(question)) and (
-        not credits or bool(re.search(r"pilier|global|classement", question, re.I)))
+    pillars = wants_pillars(question, credits)
     if not credits and not pillars:
         return {"text": NOT_AVAILABLE + " Aucun crédit STARS ne correspond à cette question.",
                 "keys": keys, "credits": [], "source": "code"}
@@ -166,9 +204,15 @@ def answer(question: str, *, log=print) -> dict:
                    temperature=0.2, num_predict=320)
     draft = guard.tidy(out["text"])
     allowed = set(vals)
-    removed = []
+    # Le code retire toute phrase qui relie le score d'un crédit à la note globale (Platinum, Gold…).
+    kept, removed = [], []
+    for sentence in guard.SENTENCE_END.split(draft):
+        credit_markers = [n for n in guard.PLACEHOLDER.findall(sentence) if vals.get(n, {}).get("kind") == "credit"]
+        (removed if credit_markers and RATING.search(sentence) else kept).append(sentence)
+    draft = " ".join(kept).strip()
     if guard.check_draft(draft, allowed, vals):
-        draft, removed = guard.repair(draft, allowed, vals)
+        draft, more = guard.repair(draft, allowed, vals)
+        removed += more
     if not draft or guard.check_draft(draft, allowed, vals):
         text, source = fallback(vals), "code (texte du modèle rejeté par le garde-fou)"
     else:
@@ -179,6 +223,11 @@ def answer(question: str, *, log=print) -> dict:
     if physical and NOT_AVAILABLE not in text:
         text = (NOT_AVAILABLE + " Le jeu de données contient les scores STARS, pas les valeurs physiques "
                 "(tonnes, MWh, m³…). " + text)
+    absent = missing_for(keys, credits, vals)      # dit par le code, sans dépendre du modèle
+    if absent:
+        text += "\n\n" + " ".join(
+            f"Les données STARS ne contiennent aucun résultat {c} ({markers.labels_fr().get(c, c)}) pour {SHORT[k]}."
+            for k, c in absent)
     return {"text": text, "keys": keys, "credits": credits, "source": source,
             "removed": removed, "seconds": out["seconds"]}
 
