@@ -63,7 +63,10 @@ YEAR_BEFORE = re.compile(r"(\ben|d'ici|depuis|dès|jusqu'en|avant|après|horizon
                          r"–|-|le|plan|période|calendrier)\s*$", re.I)
 # Repère temporel parmi les 3 derniers mots : « plan stratégique {{ année }} – {{ année }} ».
 YEAR_ANCHOR = re.compile(r"\b(plan|plans|stratégique|stratégie|période|calendrier|programme|exercice|années?|"
-                         r"horizon|feuille de route)\b", re.I)
+                         r"horizon|feuille de route|"
+                         r"janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre|"
+                         r"act|loi|law|charte|accord|règlement|directive|rapport|report|code|policy|politique)\b",
+                         re.I)
 
 
 def drop_double_percent(text: str, markers: dict) -> str:
@@ -239,8 +242,28 @@ def tidy(text: str, section_title: str = "") -> str:
     if text and not re.search(r"[.!?»)\]]\s*$", text):          # fin coupée : on retire la phrase incomplète
         cut = max(text.rfind(". "), text.rfind(".\n"), text.rfind("\n\n"))
         text = text[:cut + 1] if cut > 0 else text
+    text = drop_repeats(text)
     text = re.sub(r"(\n#{2,6} [^\n]*\s*)+$", "", text.rstrip())  # titre final sans contenu
     return text.strip()
+
+
+def drop_repeats(text: str) -> str:
+    """Supprime une phrase strictement identique à une phrase déjà écrite (suppression seule)."""
+    seen, out_lines = set(), []
+    for line in text.splitlines():
+        if line.lstrip().startswith("#") or not line.strip():
+            out_lines.append(line)
+            continue
+        kept = []
+        for sentence in SENTENCE_END.split(line):
+            key = " ".join(sentence.lower().split())
+            if len(key) > 25 and key in seen:
+                continue
+            seen.add(key)
+            kept.append(sentence)
+        if kept:
+            out_lines.append(" ".join(kept))
+    return re.sub(r"(#{2,6} [^\n]*\n)(\s*\n)*(?=#{2,6} |\Z)", "", "\n".join(out_lines))   # titres devenus vides
 
 
 # Nombre à séparateur de milliers (« 78 414,00 ») ou nombre simple (« 2028 », « 86,76 ») : la 1re forme

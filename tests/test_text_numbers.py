@@ -78,3 +78,24 @@ def test_double_percent_is_dropped_and_strategic_plan_years_accepted():
     assert f"{{{{ {fid(2)} }}}} des émissions" in fixed
     assert guard.check_draft(fixed, set(mk), mk) == []
     assert any("ANNÉE" in p for p in guard.check_draft(f"TU Dublin obtient {{{{ {fid(3)} }}}} points.", set(mk), mk))
+
+
+def test_years_in_law_names_and_after_a_month_are_accepted():
+    """Cas réels de la gouvernance de Dublin (5 octobre) : 7 phrases correctes retirées à tort."""
+    f = facts.load("tudublin")
+    years = [fid for fid, r in f.items() if r["kind"] == "text" and r["unit"] == "année" and r["credit_code"] == "PA-3"]
+    mk = {y: markers.text("tudublin", y) for y in years[:2]}
+    a, b = years[0], years[1]
+    ok = (f"Le Technological Universities Act {{{{ {a} }}}} impose la représentation des étudiants. "
+          f"En février {{{{ {b} }}}}, trois étudiants siégeaient au conseil.")
+    assert not [p for p in guard.check_draft(ok, set(mk), mk) if "ANNÉE" in p]
+    assert any("ANNÉE" in p for p in guard.check_draft(f"Le conseil obtient {{{{ {a} }}}} voix.", set(mk), mk))
+
+
+def test_identical_sentences_are_removed_once_written():
+    text = ("### Gouvernance\n\nTU Dublin assure la représentation des étudiants dans ses organes. "
+            "Le président de la SU siège au conseil.\n\n### Gouvernance de l'établissement\n\n"
+            "TU Dublin assure la représentation des étudiants dans ses organes.")
+    out = guard.tidy(text)
+    assert out.count("TU Dublin assure la représentation") == 1
+    assert "Gouvernance de l'établissement" not in out           # titre resté sans contenu retiré
