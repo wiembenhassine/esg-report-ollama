@@ -67,3 +67,14 @@ def test_tidy_removes_empty_reference_marks():
 
 def test_four_digit_numbers_are_not_split():
     assert guard.numbers_in("d'ici 2028, soit 46,5 % ; 78 414,00 MWh") == ["2028", "46,5", "78 414,00"]
+
+
+def test_double_percent_is_dropped_and_strategic_plan_years_accepted():
+    """Cas réels de la régénération du 5 octobre (thèmes matériels de Dublin, rejetés à tort)."""
+    mk = {fid(k): markers.text("tudublin", fid(k)) for k in range(5)}
+    draft = (f"Le plan stratégique {{{{ {fid(0)} }}}} – {{{{ {fid(1)} }}}} prévoit une réduction de "
+             f"{{{{ {fid(2)} }}}} % des émissions d'ici {{{{ {fid(3)} }}}}.")
+    fixed = guard.drop_double_percent(draft, mk)
+    assert f"{{{{ {fid(2)} }}}} des émissions" in fixed
+    assert guard.check_draft(fixed, set(mk), mk) == []
+    assert any("ANNÉE" in p for p in guard.check_draft(f"TU Dublin obtient {{{{ {fid(3)} }}}} points.", set(mk), mk))

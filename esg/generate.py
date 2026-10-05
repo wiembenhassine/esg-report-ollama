@@ -196,7 +196,7 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
         user += "\n\nRédige maintenant la section."
         out = llm.chat([{"role": "system", "content": WRITER_SYSTEM}, {"role": "user", "content": user}],
                        seed=42 + 100 * round_ + n, num_predict=700)
-        draft = guard.tidy(out["text"])
+        draft = guard.drop_double_percent(guard.tidy(out["text"]), values)
         att = {"attempt": n, "draft": draft, "gen_seconds": out["seconds"],
                "prompt_tokens": out["prompt_tokens"], "output_tokens": out["output_tokens"]}
 

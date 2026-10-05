@@ -61,6 +61,16 @@ SCORE_INTRO = re.compile(r"obtien|obtenu|atteint|atteign|totalis|score|note|rés
                          r"récolt|niveau|crédit|pilier|part\b|points?\b", re.I)
 YEAR_BEFORE = re.compile(r"(\ben|d'ici|depuis|dès|jusqu'en|avant|après|horizon|année|entre|et|de|du|à|au|vers|"
                          r"–|-|le|plan|période|calendrier)\s*$", re.I)
+# Repère temporel parmi les 3 derniers mots : « plan stratégique {{ année }} – {{ année }} ».
+YEAR_ANCHOR = re.compile(r"\b(plan|plans|stratégique|stratégie|période|calendrier|programme|exercice|années?|"
+                         r"horizon|feuille de route)\b", re.I)
+
+
+def drop_double_percent(text: str, markers: dict) -> str:
+    """Supprime un « % » écrit juste après un marqueur de pourcentage qui le contient déjà
+    (« {{ PA2_t0_2 }} % » -> « {{ PA2_t0_2 }} ») : suppression seule, le sens ne change pas."""
+    return re.sub(r"\{\{\s*(\w+)\s*\}\}\s*(?:%|pour ?cent)", lambda m: (
+        f"{{{{ {m.group(1)} }}}}" if markers.get(m.group(1), {}).get("unit") == "%" else m.group(0)), text)
 # Phrase vidée de son nombre (le nombre a été retiré du contexte et le modèle a gardé le reste).
 EMPTIED = re.compile(r"\b(d'ici|depuis|dès|jusqu'en)\s*(?=[.,;:)]|\bet\b|$)|"
                      r"\b(de|à|en|environ|soit)\s+(MWh|kWh|GWh|watts?|W/unit|watt/unit|tonnes?|m³|m3|heures?|%)(?=\W|$)",
@@ -89,7 +99,7 @@ def misuse(text: str, markers: dict) -> list[str]:
         before = " ".join(sentence_before.split()[-4:])
         after = text[m.end():].lstrip()
         if mk["kind"] == "text":                       # année ou % cité dans le texte STARS
-            if mk.get("unit") == "année" and not YEAR_BEFORE.search(before):
+            if mk.get("unit") == "année" and not (YEAR_BEFORE.search(before) or YEAR_ANCHOR.search(before)):
                 problems.append(f"marqueur {{{{ {name} }}}} est une ANNÉE : emploie-le comme une date (« en », "
                                 "« d'ici », « depuis »…)")
             elif mk.get("unit") == "%" and after.startswith("%"):

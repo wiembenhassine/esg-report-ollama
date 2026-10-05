@@ -205,7 +205,7 @@ def answer(question: str, *, log=print) -> dict:
     out = llm.chat([{"role": "system", "content": SYSTEM},
                     {"role": "user", "content": build_prompt(question, keys, credits, vals, evidence)}],
                    temperature=0.2, num_predict=320)
-    draft = guard.tidy(out["text"])
+    draft = guard.drop_double_percent(guard.tidy(out["text"]), vals)
     allowed = set(vals)
     # Le code retire toute phrase qui relie le score d'un crédit à la note globale (Platinum, Gold…).
     kept, removed = [], []
