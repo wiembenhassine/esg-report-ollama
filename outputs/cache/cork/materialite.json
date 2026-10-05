@@ -1,68 +1,86 @@
 {
- "prompt_hash": "374670ac5bf85891",
+ "prompt_hash": "88838c83efb44c30",
+ "round": 0,
  "decision": "validée",
- "text": "### Thèmes matériels\n\nL'Université College Cork (UCC) a identifié les thèmes matériels suivants dans son plan de durabilité et d'action climatique :\n\n- Aligner le programme de durabilité de l'UCC avec les stratégies pertinentes de l'université, notamment la participation à la communauté, l'équité, le développement et l'apprentissage, ainsi que les stratégies de recherche.\n- Exposer chaque étudiant de l'UCC à l'agenda de durabilité mondiale par l'éducation formelle ou informelle.\n- Capitaliser sur les opportunités de financement pour mettre en œuvre les programmes de réduction de carbone et faire de l'UCC un laboratoire vivant pour les solutions au changement climatique.\n- Connecter les différents éléments de la durabilité à l'UCC pour ajouter de la valeur et mieux communiquer notre impact.\n\n(GRI 3-2)\n\nL'Université répond à ces thèmes matériels en décrivant comment elle les aborde dans son plan de durabilité et d'action climatique. Les réponses sont fournies à l'échelle de l'université pour chaque thème, mais ne comprennent pas les impacts, les distinctions entre prévention et remédiation, ni les leçons tirées.\n\n(GRI 3-3)\n\nCe rapport ne peut pas établir si l'Université College Cork a identifié d'autres thèmes matériels, comme le prévoit la norme GRI 3-1.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'Université College Cork a identifié d'autres thèmes matériels, comme le prévoit la norme GRI 3-1.",
- "used_facts": [],
+ "text": "### Thèmes matériels\n\nCes domaines sont définis par STARS et sont identiques pour toutes les institutions.\n\nL'université a mis en place la Stratégie de durabilité et d'action climatique (Sustainability and Climate Action Plan) pour atteindre ses objectifs. Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations du campus, la recherche, l'enseignement et les interactions avec la communauté.\n\nL'université a également mis en place des objectifs spécifiques, notamment devenir un campus sans déchets (zero waste campus) d'ici 2030 et un campus neutre en carbone (carbon neutral campus) d'ici 2030.\n\nL'université a également mis en place des plans pour réduire ses émissions de gaz à effet de serre (GHG) de 51 % d'ici 2030.\n\nL'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la stratégie d'égalité, de diversité et d'inclusion (EDI), la stratégie d'enseignement et d'apprentissage, et la stratégie de recherche.\n\nL'université a également mis en place des plans pour exposer les étudiants à l'agenda de durabilité mondiale à travers leur formation ou leur éducation informelle.\n\n(GRI 3-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a mis en place des plans pour réduire ses émissions de GHG au-delà de 51 %.\n\n(GRI 3-3)",
+ "used_facts": [
+  "PA2_t0_3",
+  "PA2_t1_0",
+  "PA2_t1_1"
+ ],
  "judge_score": 4,
  "faithfulness": 0.83,
  "gri_coverage": 1.0,
  "unsupported_claims": [
-  "L'Université répond à ces thèmes matériels en décrivant comment elle les aborde dans son plan de durabilité et d'action climatique."
+  "L'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la"
  ],
  "discarded_violations": [],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 380.6,
+ "seconds": 515.8,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Thèmes matériels\n\nL'Université College Cork (UCC) a identifié les thèmes matériels suivants dans son plan de durabilité et d'action climatique :\n\n- Aligner le programme de durabilité de l'UCC avec les stratégies pertinentes de l'université, notamment la participation à la communauté, l'équité, le développement et l'apprentissage, ainsi que les stratégies de recherche.\n- Exposer chaque étudiant de l'UCC à l'agenda de durabilité mondiale par l'éducation formelle ou informelle.\n- Capitaliser sur les opportunités de financement pour mettre en œuvre les programmes de réduction de carbone et faire de l'UCC un laboratoire vivant pour les solutions au changement climatique.\n- Connecter les différents éléments de la durabilité à l'UCC pour ajouter de la valeur et mieux communiquer notre impact.\n\n(GRI 3-2)\n\nL'Université répond à ces thèmes matériels en décrivant comment elle les aborde dans son plan de durabilité et d'action climatique. Les réponses sont fournies à l'échelle de l'université pour chaque thème, mais ne comprennent pas les impacts, les distinctions entre prévention et remédiation, ni les leçons tirées.\n\n(GRI 3-3)\n\nCe rapport ne peut pas établir si l'Université College Cork a identifié d'autres thèmes matériels, comme le prévoit la norme GRI 3-1.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'Université College Cork a identifié d'autres thèmes matériels, comme le prévoit la norme GRI 3-1.",
-   "gen_seconds": 162.6,
-   "prompt_tokens": 1528,
-   "output_tokens": 390,
-   "raw_guard_problems": [],
-   "removed_sentences": [],
+   "draft": "### Thèmes matériels\n\nL'Université College Cork (UCC) a identifié cinq domaines d'objectifs pour atteindre ses objectifs de durabilité. Ces domaines sont définis par STARS et sont identiques pour toutes les institutions.\n\nL'université a mis en place la Stratégie de durabilité et d'action climatique (Sustainability and Climate Action Plan) pour atteindre ses objectifs. Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations du campus, la recherche, l'enseignement et les interactions avec la communauté.\n\nL'université a également mis en place des objectifs spécifiques, notamment devenir un campus sans déchets (zero waste campus) d'ici {{ PA2_t0_3 }} et un campus neutre en carbone (carbon neutral campus) d'ici {{ PA2_t1_1 }}.\n\nL'université a également mis en place des plans pour réduire ses émissions de gaz à effet de serre (GHG) de {{ PA2_t1_0 }} d'ici {{ PA2_t1_1 }}.\n\nL'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la stratégie d'égalité, de diversité et d'inclusion (EDI), la stratégie d'enseignement et d'apprentissage, et la stratégie de recherche.\n\nL'université a également mis en place des plans pour exposer les étudiants à l'agenda de durabilité mondiale à travers leur formation ou leur éducation informelle.\n\n(GRI 3-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a mis en place des plans pour réduire ses émissions de GHG au-delà de {{ PA2_t1_0 }}.\n\n(GRI 3-3)",
+   "gen_seconds": 266.4,
+   "prompt_tokens": 2741,
+   "output_tokens": 439,
+   "raw_guard_problems": [
+    "nombre écrit en lettres : 'cinq'"
+   ],
+   "removed_sentences": [
+    "L'Université College Cork (UCC) a identifié cinq domaines d'objectifs pour atteindre ses objectifs de durabilité."
+   ],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 1.0,
    "lint_notes": [],
-   "rendered": "### Thèmes matériels\n\nL'Université College Cork (UCC) a identifié les thèmes matériels suivants dans son plan de durabilité et d'action climatique :\n\n- Aligner le programme de durabilité de l'UCC avec les stratégies pertinentes de l'université, notamment la participation à la communauté, l'équité, le développement et l'apprentissage, ainsi que les stratégies de recherche.\n- Exposer chaque étudiant de l'UCC à l'agenda de durabilité mondiale par l'éducation formelle ou informelle.\n- Capitaliser sur les opportunités de financement pour mettre en œuvre les programmes de réduction de carbone et faire de l'UCC un laboratoire vivant pour les solutions au changement climatique.\n- Connecter les différents éléments de la durabilité à l'UCC pour ajouter de la valeur et mieux communiquer notre impact.\n\n(GRI 3-2)\n\nL'Université répond à ces thèmes matériels en décrivant comment elle les aborde dans son plan de durabilité et d'action climatique. Les réponses sont fournies à l'échelle de l'université pour chaque thème, mais ne comprennent pas les impacts, les distinctions entre prévention et remédiation, ni les leçons tirées.\n\n(GRI 3-3)\n\nCe rapport ne peut pas établir si l'Université College Cork a identifié d'autres thèmes matériels, comme le prévoit la norme GRI 3-1.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'Université College Cork a identifié d'autres thèmes matériels, comme le prévoit la norme GRI 3-1.",
-   "used_facts": [],
+   "rendered": "### Thèmes matériels\n\nCes domaines sont définis par STARS et sont identiques pour toutes les institutions.\n\nL'université a mis en place la Stratégie de durabilité et d'action climatique (Sustainability and Climate Action Plan) pour atteindre ses objectifs. Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations du campus, la recherche, l'enseignement et les interactions avec la communauté.\n\nL'université a également mis en place des objectifs spécifiques, notamment devenir un campus sans déchets (zero waste campus) d'ici 2030 et un campus neutre en carbone (carbon neutral campus) d'ici 2030.\n\nL'université a également mis en place des plans pour réduire ses émissions de gaz à effet de serre (GHG) de 51 % d'ici 2030.\n\nL'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la stratégie d'égalité, de diversité et d'inclusion (EDI), la stratégie d'enseignement et d'apprentissage, et la stratégie de recherche.\n\nL'université a également mis en place des plans pour exposer les étudiants à l'agenda de durabilité mondiale à travers leur formation ou leur éducation informelle.\n\n(GRI 3-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a mis en place des plans pour réduire ses émissions de GHG au-delà de 51 %.\n\n(GRI 3-3)",
+   "used_facts": [
+    "PA2_t0_3",
+    "PA2_t1_0",
+    "PA2_t1_1"
+   ],
    "trace_problems": [],
+   "used_markers": [
+    "PA2_t0_3",
+    "PA2_t1_0",
+    "PA2_t1_1"
+   ],
    "judge": {
     "claims": [
      {
-      "claim": "Aligner le programme de durabilité de l'UCC avec les stratégies pertinentes de l'université, notamment la participation à la communauté, l'é",
+      "claim": "L'université a mis en place la Stratégie de durabilité et d'action climatique (Sustainability and Climate Action Plan) pour atteindre ses ob",
       "supported": true
      },
      {
-      "claim": "Exposer chaque étudiant de l'UCC à l'agenda de durabilité mondiale par l'éducation formelle ou informelle.",
+      "claim": "Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations du camp",
       "supported": true
      },
      {
-      "claim": "Capitaliser sur les opportunités de financement pour mettre en œuvre les programmes de réduction de carbone et faire de l'UCC un laboratoire",
+      "claim": "L'université a également mis en place des objectifs spécifiques, notamment devenir un campus sans déchets (zero waste campus) d'ici 2030",
       "supported": true
      },
      {
-      "claim": "Connecter les différents éléments de la durabilité à l'UCC pour ajouter de la valeur et mieux communiquer notre impact.",
+      "claim": "L'université a également mis en place des plans pour réduire ses émissions de gaz à effet de serre (GHG) de 51 % d'ici 2030",
       "supported": true
      },
      {
-      "claim": "L'Université répond à ces thèmes matériels en décrivant comment elle les aborde dans son plan de durabilité et d'action climatique.",
+      "claim": "L'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la",
       "supported": false
      },
      {
-      "claim": "Ce rapport ne peut pas établir si l'Université College Cork a identifié d'autres thèmes matériels, comme le prévoit la norme GRI 3-1.",
+      "claim": "L'université a également mis en place des plans pour exposer les étudiants à l'agenda de durabilité mondiale à travers leur formation ou",
       "supported": true
      }
     ],
     "rule_violations": [
-     "L'Université répond à ces thèmes matériels en décrivant comment elle les aborde dans son plan de durabilité et d'action climatique. (Cette phrase est une violation car elle présente une disclosure en "
+     "L'acronyme EDI est utilisé sans être défini dans les ACRONYMS"
     ],
     "score": 4,
-    "feedback": "Supprimer la phrase \"L'Université répond à ces thèmes matériels en décrivant comment elle les aborde dans son plan de durabilité et d'action climatique.\" car elle présente une disclosure en décrivant comment elle les aborde, ce qui n'est pas autorisé. La phrase doit être remplacée par \"Ce rapport ne peut pas établir si l'Université College Cork a identifié d'autres thèmes matériels, comme le prévoit la norme GRI 3-1.\"",
+    "feedback": "Supprimer la mention de l'acronyme EDI et le définir dans les ACRONYMS. Remplacer la phrase \"L'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la stratégie d'égalité, de diversité et d'inclusion (EDI), la stratégie d'enseignement et d'apprentissage, et la stratégie de recherche.\" par \"L'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, en",
     "faithfulness": 0.83,
-    "seconds": 217.9,
+    "seconds": 249.2,
     "discarded_violations": [],
     "accepted": true
    }
@@ -74,19 +92,19 @@
  "evidence": [
   {
    "credit": "PA-2",
-   "text": "Within the University's Sustainability and Climate Action Plan [n]-[n], UCC has committed to a number of objectives regarding campus operations, a selection of these include:"
+   "text": "Within the University's Sustainability and Climate Action Plan {{ PA2_t11_0 }} -, UCC has committed to a number of objectives regarding campus operations, a selection of these include:"
   },
   {
    "credit": "PA-2",
-   "text": "The Sustainability and Climate Action Plan ([n]-[n]) builds on the successes of UCC's Sustainability Strategy ([n]) and sets out how UCC will continue to embed sustainability goals and targets across all aspects of the University's educational, research, ancillary operations, infrastructural developments and interactions with the community. This plan seeks to help us as a university navigate this path and help shape and inspire a world that protects our environment and our society and furthers University College Cork's commitment to a sustainable future. UCC aims to achieve significant targets including becoming a zero waste campus by [n] and a carbon neutral campus by [n]."
+   "text": "Within the University's Sustainability and Climate Action Plan {{ PA2_t2_0 }} -, UCC has committed to the following objectives:"
   },
   {
    "credit": "PA-2",
-   "text": "Within the University's Sustainability and Climate Action Plan [n]-[n], UCC has committed to the following objectives:"
+   "text": "The Sustainability and Climate Action Plan ( {{ PA2_t0_0 }} - {{ PA2_t0_1 }} ) builds on the successes of UCC's Sustainability Strategy ( {{ PA2_t0_2 }} ) and sets out how UCC will continue to embed sustainability goals and targets across all aspects of the University's educational, research, ancillary operations, infrastructural developments and interactions with the community. This plan seeks to help us as a university navigate this path and help shape and inspire a world that protects our environment and our society and furthers University College Cork's commitment to a sustainable future. UCC aims to achieve significant targets including becoming a zero waste campus by {{ PA2_t0_3 }} and"
   },
   {
    "credit": "PA-2",
-   "text": "Within the University's Sustainability and Climate Action Plan [n]-[n], UCC has committed to align UCC sustainability programme with relevant UCC strategies including Community Engagement, EDI, teaching and learning and research strategies."
+   "text": "Within the University's Sustainability and Climate Action Plan {{ PA2_t17_0 }} -, UCC has committed to align UCC sustainability programme with relevant UCC strategies including Community Engagement, EDI, teaching and learning and research strategies."
   },
   {
    "credit": "PA-2",
@@ -94,7 +112,7 @@
   },
   {
    "credit": "PA-2",
-   "text": "Within the University's Sustainability and Climate Action Plan [n]-[n], UCC has committed to:"
+   "text": "Within the University's Sustainability and Climate Action Plan {{ PA2_t18_0 }} -, UCC has committed to:"
   },
   {
    "credit": "PA-2",
@@ -110,7 +128,7 @@
   },
   {
    "credit": "PA-2",
-   "text": "UCC is required by the Irish government to reduce our absolute GHG emissions by [n]% by [n]. The University must produce annual roadmaps outlining how it intends to achieve these targets. UCC's most recent Climate Action Roadmap can be viewed here: "
+   "text": "UCC is required by the Irish government to reduce our absolute GHG emissions by {{ PA2_t1_0 }} by {{ PA2_t1_1 }}. The University must produce annual roadmaps outlining how it intends to achieve these targets. UCC's most recent Climate Action Roadmap can be viewed here:"
   }
  ]
 }

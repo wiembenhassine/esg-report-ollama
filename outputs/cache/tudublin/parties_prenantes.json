@@ -1,94 +1,86 @@
 {
- "prompt_hash": "3f47cb63a9bbb538",
+ "prompt_hash": "ba81e7ca2d97c23a",
+ "round": 0,
  "decision": "validée",
- "text": "### Engagement des parties prenantes\n\n#### Engagement des parties prenantes dans la gouvernance\n\nLa Technological Universities Act spécifie l'obligation de représentation des étudiants dans les organes de gouvernance des universités techniques, y compris la Technological University Dublin. Le site web de la Student Union (SU) liste diverses instances où les étudiants sont représentés. Le président de la Student Union est le porte-parole principal de l'Union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. (GRI 2-29)\n\n#### Engagement des parties prenantes dans la citoyenneté\n\nL'université compte un engagement significatif de ses étudiants dans les activités communautaires. (EN-5)\n\n#### Engagement des parties prenantes dans les partenariats communautaires\n\nL'université a mis en place un programme de partenariats communautaires, comme le programme SLWC+ pilot, qui inclut une déclaration de réciprocité dans l'accord de collaboration. Ce programme vise à évaluer conjointement les résultats avec le partenaire de collaboration. (EN-6)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la liste complète des partenariats communautaires pour la durabilité de l'université. (GRI 2-29)",
- "used_facts": [],
- "judge_score": 2,
+ "text": "### Engagement des parties prenantes\n\nL'université Technological University Dublin (TU Dublin) s'engage dans l'engagement des parties prenantes de manière significative, comme le montre son score STARS de 4 points STARS sur 4 au crédit PA-3, niveau maximal points sur 4 points STARS sur 4 au crédit PA-3, niveau maximal au crédit PA-3, niveau maximal. Cette approche est mise en œuvre en vertu de la Technological Universities Act 2018, qui prévoit la représentation obligatoire des étudiants dans les organes de gouvernance des universités techniques, y compris la TU Dublin.\n\nLa Students' Union (SU) joue un rôle clé dans la représentation des étudiants. Le président de la SU est le porte-parole principal de l'union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. Cela est établi dans l'article de la constitution de la SU.\n\nLa TU Dublin s'engage également dans des activités communautaires à travers divers programmes, comme les programmes de bénévolat étudiant, les comités des sports et des sociétés, les mentorats pairs et la représentation de classe.\n\nL'université offre diverses opportunités de service communautaire, notamment :\n\n* Les comités des sports et des sociétés qui gèrent des groupes étudiants pour le bénéfice d'autres étudiants ;\n* Les sociétés étudiantes (Ref, Ref) qui sont principalement engagées dans le bénévolat et les entreprises sociales, y compris la Société St. Vincent de Paul de TU Dublin, la Société d'urbanisme environnemental de TU Dublin, la Société Enactus de TU Dublin - qui reçoit un soutien important de notre GrowthHub ;\n* Le programme de bénévolat étudiant est facilité par la plateforme de bénévolat étudiant (Ref, Ref) ;\n* Le programme de représentation de la classe de l'Union des étudiants (Ref, Ref) ;\n* Le programme de mentorat pairs de TU Dublin.\n\nEnfin, l'université a mis en place un programme de partenariats avec la communauté, comme le programme SLWC+ pilot, qui prévoit une déclaration de réciprocité dans l'accord de collaboration et sert de base pour l'évaluation conjointe du programme avec le partenaire de collaboration. Cependant, ce document n'est pas accessible au public, car il s'agit de la première fois que ce programme est mis en œuvre et que l'université met l'accent sur le bénéfice mutuel et la réciprocité.\n\n(GRI 2-29)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les informations sur la méthode d'identification des parties prenantes, les groupes vulnérables ou les fournisseurs. De plus, l'université n'a pas rendu publics tous les partenariats de la communauté pour la durabilité.",
+ "used_facts": [
+  "PA3_max",
+  "PA3_score",
+  "PA3_t0_0"
+ ],
+ "judge_score": 4,
  "faithfulness": 1.0,
  "gri_coverage": 1.0,
  "unsupported_claims": [],
- "discarded_violations": [
-  "Le rapport prétend à la fois que GRI 2-29 est partiellement rapporté et que le rapport ne peut pas établir la liste complète des partenariats communautaires pour la durabilité de l'université."
- ],
- "attempts": 2,
- "guard_rejections": 1,
- "seconds": 609.0,
+ "discarded_violations": [],
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 643.6,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Engagement des parties prenantes\n\n#### Engagement des parties prenantes - GRI 2-29\n\nL'engagement des parties prenantes est un aspect clé de la gouvernance de l'Université technologique de Dublin. Selon la Loi sur les universités technologiques [n], il est obligatoire de représenter les étudiants au sein des organes de gouvernance des universités techniques, y compris l'Université technologique de Dublin. Le site web de l'Union des étudiants (SU) liste diverses instances et comités (non exhaustifs) sur lesquels les étudiants sont représentés.\n\nLe président de l'Union des étudiants (SU) est le porte-parole principal de l'Union, représentant tous les étudiants de l'Université, et est, ex officio, membre du corps universitaire de gouvernance et du Conseil académique. L'article [n] de la Constitution de l'Union des étudiants (Ref[n]) précise ce rôle.\n\n(GRI 2-29)\n\n#### Engagement des étudiants - Civic Engagement - GRI EN5\n\nL'engagement des étudiants dans les activités communautaires est un aspect important de l'Université technologique de Dublin. Au cours de l'année universitaire [n]-[n], environ [n] étudiants ont participé à des activités communautaires à travers (i) [n] étudiants participant aux programmes de bénévolat étudiant de l'Université technologique de Dublin (Ref[n]), (ii) [n] étudiants membres du comité des clubs et sociétés sportives, (iii) [n] étudiants mentors pairs, et (iv) [n] étudiants représentants de classe. Parmi [n] des [n] groupes de pratiques de communauté de durabilité (Ref[n]) et de comités, nous comptons [n] étudiants distincts, ce qui, extrapolé aux [n] groupes, donne environ [n] étudiants. La population d'étudiants engagés dans les activités communautaires est alors estimée à environ [n] ETP étudiants sur une population étudiante de [n] ETP étudiants, ce qui représente environ [n] % de la population étudiante.\n\n(GRI EN5)",
-   "gen_seconds": 255.2,
-   "prompt_tokens": 1720,
-   "output_tokens": 520,
+   "draft": "### Engagement des parties prenantes\n\nL'université Technological University Dublin (TU Dublin) s'engage dans l'engagement des parties prenantes de manière significative, comme le montre son score STARS de {{ PA3 }} points sur {{ PA3 }} au crédit PA-3, niveau maximal. Cette approche est mise en œuvre en vertu de la Technological Universities Act {{ PA3_t0_0 }}, qui prévoit la représentation obligatoire des étudiants dans les organes de gouvernance des universités techniques, y compris la TU Dublin.\n\nLa Students' Union (SU) joue un rôle clé dans la représentation des étudiants. Le président de la SU est le porte-parole principal de l'union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. Cela est établi dans l'article de la constitution de la SU.\n\nLa TU Dublin s'engage également dans des activités communautaires à travers divers programmes, comme les programmes de bénévolat étudiant, les comités des sports et des sociétés, les mentorats pairs et la représentation de classe. Environ {{ EN5 }} des étudiants participent à ces activités, ce qui représente environ {{ EN5_t2_2 }} de la population étudiante.\n\nL'université offre diverses opportunités de service communautaire, notamment :\n\n* Les comités des sports et des sociétés qui gèrent des groupes étudiants pour le bénéfice d'autres étudiants ;\n* Les sociétés étudiantes (Ref, Ref) qui sont principalement engagées dans le bénévolat et les entreprises sociales, y compris la Société St. Vincent de Paul de TU Dublin, la Société d'urbanisme environnemental de TU Dublin, la Société Enactus de TU Dublin - qui reçoit un soutien important de notre GrowthHub ;\n* Le programme de bénévolat étudiant est facilité par la plateforme de bénévolat étudiant (Ref, Ref) ;\n* Le programme de représentation de la classe de l'Union des étudiants (Ref, Ref) ;\n* Le programme de mentorat pairs de TU Dublin.\n\nEnfin, l'université a mis en place un programme de partenariats avec la communauté, comme le programme SLWC+ pilot, qui prévoit une déclaration de réciprocité dans l'accord de collaboration et sert de base pour l'évaluation conjointe du programme avec le partenaire de collaboration. Cependant, ce document n'est pas accessible au public, car il s'agit de la première fois que ce programme est mis en œuvre et que l'université met l'accent sur le bénéfice mutuel et la réciprocité.\n\n(GRI 2-29)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les informations sur la méthode d'identification des parties prenantes, les groupes vulnérables ou les fournisseurs. De plus, l'université n'a pas rendu publics tous les partenariats de la communauté pour la durabilité.",
+   "gen_seconds": 353.6,
+   "prompt_tokens": 2339,
+   "output_tokens": 700,
    "raw_guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité",
-    "chiffre écrit directement : 'EN5'",
-    "chiffre écrit directement : 'EN5)'"
-   ],
-   "removed_sentences": [],
-   "guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité",
-    "chiffre écrit directement : 'EN5'",
-    "chiffre écrit directement : 'EN5)'"
-   ],
-   "lint_problems": [],
-   "gri_coverage": 1.0,
-   "lint_notes": []
-  },
-  {
-   "attempt": 2,
-   "draft": "### Engagement des parties prenantes\n\n#### Engagement des parties prenantes dans la gouvernance\n\nLa Technological Universities Act spécifie l'obligation de représentation des étudiants dans les organes de gouvernance des universités techniques, y compris la Technological University Dublin. Le site web de la Student Union (SU) liste diverses instances où les étudiants sont représentés. Le président de la Student Union est le porte-parole principal de l'Union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. (GRI 2-29)\n\n#### Engagement des parties prenantes dans la citoyenneté\n\nL'université compte un engagement significatif de ses étudiants dans les activités communautaires. Au cours de l'année académique [n]-[n], environ [n] étudiants ont participé à des activités communautaires à travers divers programmes, notamment le programme de bénévolat des étudiants, les comités des clubs sportifs et des sociétés, les programmes de mentorat et les représentants de classe. (EN-5)\n\n#### Engagement des parties prenantes dans les partenariats communautaires\n\nL'université a mis en place un programme de partenariats communautaires, comme le programme SLWC+ pilot, qui inclut une déclaration de réciprocité dans l'accord de collaboration. Ce programme vise à évaluer conjointement les résultats avec le partenaire de collaboration. (EN-6)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la liste complète des partenariats communautaires pour la durabilité de l'université. (GRI 2-29)",
-   "gen_seconds": 129.0,
-   "prompt_tokens": 1792,
-   "output_tokens": 394,
-   "raw_guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
+    "marqueur {{ EN5 }} employé comme date ou quantité après « Environ » : c'est un score STARS"
    ],
    "removed_sentences": [
-    "Au cours de l'année académique [n]-[n], environ [n] étudiants ont participé à des activités communautaires à travers divers programmes, notamment le programme de bénévolat des étudiants, les comités des clubs sportifs et des sociétés, les programmes de mentorat et les représentants de classe."
+    "Environ {{ EN5 }} des étudiants participent à ces activités, ce qui représente environ {{ EN5_t2_2 }} de la population étudiante."
    ],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 1.0,
-   "lint_notes": [],
-   "rendered": "### Engagement des parties prenantes\n\n#### Engagement des parties prenantes dans la gouvernance\n\nLa Technological Universities Act spécifie l'obligation de représentation des étudiants dans les organes de gouvernance des universités techniques, y compris la Technological University Dublin. Le site web de la Student Union (SU) liste diverses instances où les étudiants sont représentés. Le président de la Student Union est le porte-parole principal de l'Union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. (GRI 2-29)\n\n#### Engagement des parties prenantes dans la citoyenneté\n\nL'université compte un engagement significatif de ses étudiants dans les activités communautaires. (EN-5)\n\n#### Engagement des parties prenantes dans les partenariats communautaires\n\nL'université a mis en place un programme de partenariats communautaires, comme le programme SLWC+ pilot, qui inclut une déclaration de réciprocité dans l'accord de collaboration. Ce programme vise à évaluer conjointement les résultats avec le partenaire de collaboration. (EN-6)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la liste complète des partenariats communautaires pour la durabilité de l'université. (GRI 2-29)",
-   "used_facts": [],
+   "lint_notes": [
+    "longueur de 398 mots : vise 180 à 300 mots"
+   ],
+   "rendered": "### Engagement des parties prenantes\n\nL'université Technological University Dublin (TU Dublin) s'engage dans l'engagement des parties prenantes de manière significative, comme le montre son score STARS de 4 points STARS sur 4 au crédit PA-3, niveau maximal points sur 4 points STARS sur 4 au crédit PA-3, niveau maximal au crédit PA-3, niveau maximal. Cette approche est mise en œuvre en vertu de la Technological Universities Act 2018, qui prévoit la représentation obligatoire des étudiants dans les organes de gouvernance des universités techniques, y compris la TU Dublin.\n\nLa Students' Union (SU) joue un rôle clé dans la représentation des étudiants. Le président de la SU est le porte-parole principal de l'union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. Cela est établi dans l'article de la constitution de la SU.\n\nLa TU Dublin s'engage également dans des activités communautaires à travers divers programmes, comme les programmes de bénévolat étudiant, les comités des sports et des sociétés, les mentorats pairs et la représentation de classe.\n\nL'université offre diverses opportunités de service communautaire, notamment :\n\n* Les comités des sports et des sociétés qui gèrent des groupes étudiants pour le bénéfice d'autres étudiants ;\n* Les sociétés étudiantes (Ref, Ref) qui sont principalement engagées dans le bénévolat et les entreprises sociales, y compris la Société St. Vincent de Paul de TU Dublin, la Société d'urbanisme environnemental de TU Dublin, la Société Enactus de TU Dublin - qui reçoit un soutien important de notre GrowthHub ;\n* Le programme de bénévolat étudiant est facilité par la plateforme de bénévolat étudiant (Ref, Ref) ;\n* Le programme de représentation de la classe de l'Union des étudiants (Ref, Ref) ;\n* Le programme de mentorat pairs de TU Dublin.\n\nEnfin, l'université a mis en place un programme de partenariats avec la communauté, comme le programme SLWC+ pilot, qui prévoit une déclaration de réciprocité dans l'accord de collaboration et sert de base pour l'évaluation conjointe du programme avec le partenaire de collaboration. Cependant, ce document n'est pas accessible au public, car il s'agit de la première fois que ce programme est mis en œuvre et que l'université met l'accent sur le bénéfice mutuel et la réciprocité.\n\n(GRI 2-29)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les informations sur la méthode d'identification des parties prenantes, les groupes vulnérables ou les fournisseurs. De plus, l'université n'a pas rendu publics tous les partenariats de la communauté pour la durabilité.",
+   "used_facts": [
+    "PA3_max",
+    "PA3_score",
+    "PA3_t0_0"
+   ],
    "trace_problems": [],
+   "used_markers": [
+    "PA3",
+    "PA3_t0_0"
+   ],
    "judge": {
     "claims": [
      {
-      "claim": "La Technological Universities Act spécifie l'obligation de représentation des étudiants dans les organes de gouvernance des universités",
+      "claim": "Le score STARS du crédit PA-3 Gouvernance de l'établissement est de 4 points STARS sur 4.",
       "supported": true
      },
      {
-      "claim": "Le site web de la Student Union (SU) liste diverses instances où les étudiants sont représentés",
+      "claim": "La Technological Universities Act 2018 prévoit la représentation obligatoire des étudiants dans les organes de gouvernance des universités.",
       "supported": true
      },
      {
-      "claim": "Le président de la Student Union est le porte-parole principal de l'Union, représentant tous les étudiants de l'université",
+      "claim": "La Students' Union (SU) joue un rôle clé dans la représentation des étudiants.",
       "supported": true
      },
      {
-      "claim": "L'université compte un engagement significatif de ses étudiants dans les activités communautaires",
+      "claim": "La TU Dublin s'engage dans des activités communautaires à travers divers programmes, comme les programmes de bénévolat étudiant.",
       "supported": true
      },
      {
-      "claim": "L'université a mis en place un programme de partenariats communautaires, comme le programme SLWC+ pilot",
+      "claim": "L'université offre diverses opportunités de service communautaire, notamment les comités des sports et des sociétés.",
       "supported": true
      },
      {
-      "claim": "Ce rapport ne peut pas établir la liste complète des partenariats communautaires pour la durabilité de l'université",
+      "claim": "L'université a mis en place un programme de partenariats avec la communauté, comme le programme SLWC+ pilot.",
       "supported": true
      }
     ],
-    "rule_violations": [],
-    "score": 2,
-    "feedback": "",
-    "faithfulness": 1.0,
-    "seconds": 224.8,
-    "discarded_violations": [
-     "Le rapport prétend à la fois que GRI 2-29 est partiellement rapporté et que le rapport ne peut pas établir la liste complète des partenariats communautaires pour la durabilité de l'université."
+    "rule_violations": [
+     "Le rapport mentionne que le score STARS du crédit PA-3 Gouvernance de l'établissement est de 4 points STARS sur 4, mais le GRI STATUS LIST indique que GRI 2-29 est Partiellement rapporté."
     ],
+    "score": 4,
+    "feedback": "Supprimer la mention du score STARS du crédit PA-3 Gouvernance de l'établissement dans la section d'engagement des parties prenantes, car le GRI STATUS LIST indique que GRI 2-29 est Partiellement rapporté.",
+    "faithfulness": 1.0,
+    "seconds": 289.7,
+    "discarded_violations": [],
     "accepted": true
    }
   }
@@ -99,23 +91,27 @@
  "evidence": [
   {
    "credit": "PA-3",
-   "text": "The Technological Universities Act [n] specifies the mandatory requirement of student representation on Governing Bodies within Technical Universities (including TU Dublin). Furthermore, the TU Dublin SU website lists a variety of bodies/committees (non-exhaustive) on which they have student representation.The Student Union (SU) President shall be the chief spokesperson for the Union, representing all students of the University, and shall be, ex officio, a member of the University's Governing Body and Academic Council. Article [n] of the SU Constitution (Ref[n])."
+   "text": "The Technological Universities Act {{ PA3_t0_0 }} specifies the mandatory requirement of student representation on Governing Bodies within Technical Universities (including TU Dublin). Furthermore, the TU Dublin SU website lists a variety of bodies/committees (non-exhaustive) on which they have student representation.The Student Union (SU) President shall be the chief spokesperson for the Union, representing all students of the University, and shall be, ex officio, a member of the University's Governing Body and Academic Council. Article of the SU Constitution."
   },
   {
    "credit": "PA-3",
    "text": "O'Toole, Shauna – TU Dublin Student, Student Union President"
   },
   {
-   "credit": "EN-5",
-   "text": "In the academic year [n]-[n], about [n] students engaged in community activities through (i) [n] students participating to TU Dublin student volunteering programmes (Ref[n]), (ii) [n] students are Sports clubs and Societies Committee members, (iii) [n] students are Peer Mentors, and (iv) [n] students are class representatives. Among [n] out of [n] Sustainability Community of Practices (Ref[n]) and commitees, we account for [n] distinctive students, which extrapolated to the [n] groups leads to about [n] students. The population of students engaged in community activities is then estimated to about [n] FTE students out a student population of [n] FTE students, which is ~[n]% the student popul"
+   "credit": "PA-3",
+   "text": "Meya, Avice – TU Dublin Student, Student Union"
   },
   {
    "credit": "EN-5",
-   "text": "Examples of community service opportunities for our students include: (i) Student Society and Sports Club committees who run student groups for other students' benefit (Ref[n]); (ii) Student Societies (Ref[n], Ref[n]) who are primarily engaged in volunteering and social enterprise which include our TU Dublin St. Vincent de Paul (SVP) Society (Ref[n]), TU Dublin Environmental Planning Society (Ref[n]), TU Dublin Enactus Society (Ref[n]) - which receives a lot of support from our GrowthHub (Ref[n]); (iii) Student Volunteering Programme are facilitated through the Student Volunteering platform (Ref[n], Ref[n]); (iv) Students' Union volunteering programme include Student Class Representative (Re"
+   "text": "In the academic year {{ EN5_t2_0 }} - {{ EN5_t2_1 }}, about students engaged in community activities through (i) students participating to TU Dublin student volunteering programmes, (ii) students are Sports clubs and Societies Committee members, (iii) students are Peer Mentors, and (iv) students are class representatives. Among out of Sustainability Community of Practices and commitees, we account for distinctive students, which extrapolated to the groups leads to about students. The population of students engaged in community activities is then estimated to about FTE students out a student population of FTE students, which is ~ {{ EN5_t2_2 }} the student population."
+  },
+  {
+   "credit": "EN-5",
+   "text": "Examples of community service opportunities for our students include: (i) Student Society and Sports Club committees who run student groups for other students' benefit; (ii) Student Societies (Ref, Ref ) who are primarily engaged in volunteering and social enterprise which include our TU Dublin St. Vincent de Paul (SVP) Society, TU Dublin Environmental Planning Society, TU Dublin Enactus Society - which receives a lot of support from our GrowthHub; (iii) Student Volunteering Programme are facilitated through the Student Volunteering platform (Ref, Ref ); (iv) Students' Union volunteering programme include Student Class Representative (Ref, Ref ); (v) TU Dublin Peer Mentoring Programme (Ref, "
   },
   {
    "credit": "EN-6",
-   "text": "In the SLWC+ pilot programme (Ref[n]) run by Societal Engagement with Sustainability Education and Strategic Partnerships, a statement of reciprocity, is included in the Collaboration Agreement and forms the basis of co-evaluation of the programme with the collaboration partner. This is not publicly accessible though as it is the first time we have run this and have emphasised mutual benefit and reciprocity in this way and designed in co-evaluation."
+   "text": "In the SLWC+ pilot programme run by Societal Engagement with Sustainability Education and Strategic Partnerships, a statement of reciprocity, is included in the Collaboration Agreement and forms the basis of co-evaluation of the programme with the collaboration partner. This is not publicly accessible though as it is the first time we have run this and have emphasised mutual benefit and reciprocity in this way and designed in co-evaluation."
   },
   {
    "credit": "EN-6",

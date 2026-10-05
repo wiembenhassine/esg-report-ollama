@@ -1,73 +1,76 @@
 {
- "prompt_hash": "f612117a4b57af81",
+ "prompt_hash": "212ef83e0791d2ef",
+ "round": 0,
  "decision": "validée",
- "text": "### Stratégie, politiques et pratiques\n\n#### Engagements et planification\n\nL'Université de Californie à Berkeley (UC Berkeley) a adopté un plan stratégique pour le développement durable, qui comprend des objectifs mesurables tels que l'expansion de l'accès et des opportunités pour le développement co-curriculaire et la mise en place de voies institutionnelles pour les clubs et les groupes d'étudiants pour accroître l'engagement intersectionnel avec le Centre des ressources environnementales pour les étudiants (SERC).\n\nL'UC Berkeley est signataire des Engagements de leadership climatique de Second Nature, qui incluent le Engagement sur le carbone. Cette promesse externe renforce l'engagement de l'université à réduire les émissions de carbone et à renforcer la résilience face au changement climatique.\n\n(GRI 2-22, GRI 2-23)\n\n#### Coordination de la durabilité\n\nL'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée qui s'efforce d'avancer les objectifs de durabilité de l'université et de satisfaire ses engagements climatiques. L'équipe, dirigée par le directeur principal de la durabilité et des solutions au carbone, collabore avec les départements et les parties prenantes de l'université pour développer des stratégies qui réduisent les émissions de gaz à effet de serre, améliorent l'achat durable et favorisent la responsabilité environnementale dans les opérations quotidiennes.\n\n(GRI 2-22, GRI 2-25)\n\n#### Droits des employés\n\nL'UC Berkeley a une section dédiée",
+ "text": "### Stratégie, politiques et pratiques\n\nL'Université de Californie à Berkeley (UC Berkeley) a adopté une stratégie de développement durable qui vise à renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de la durabilité. Cette stratégie est définie dans le plan stratégique du Student Environmental Resource Center (SERC) qui inclut des objectifs mesurables tels que l'expansion des opportunités de formation co-curriculaire et le développement de voies institutionnelles pour les clubs et les groupes étudiants pour accroître l'engagement intersectionnel avec le SERC.\n\nL'UC Berkeley est signataire du Climate Leadership Commitments de Second Nature, qui inclut le Carbon Commitment. Cette déclaration externe renforce l'engagement de l'université à réduire les émissions de carbone et à renforcer la résilience face au changement climatique.\n\nL'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée qui se consacre à avancer les objectifs de durabilité de l'université et à satisfaire ses engagements climatiques. Cette équipe, dirigée par le responsable de la durabilité et des solutions au carbone, collabore avec les départements et les parties prenantes de l'UC Berkeley pour développer des stratégies qui réduisent les émissions de gaz à effet de serre, améliorent l'achat durable et favorisent la responsabilité environnementale dans les opérations quotidiennes.\n\nL'UC Berkeley a une section dédiée sur son site web des ressources humaines qui expose les politiques liées aux droits des salariés, notamment le traitement équitable, les procédures de réclamation et l'équilibre vie professionnelle. Ces politiques couvrent des domaines tels que la lutte contre les discriminations, la protection des lanceurs d'alerte et les avantages pour les salariés, offrant ainsi une vue transparente des droits et du soutien offerts aux salariés.\n\nL'université de Californie a également établi un Code des valeurs et des normes de conduite éthique qui s'applique à tous les campus de l'université, y compris Berkeley. Ce code met en avant l'engagement de l'université envers l'intégrité, le respect et la responsabilité dans ses relations avec les salariés.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les engagements politiques de l'UC Berkeley en ce qui concerne les droits humains et le devoir de vigilance, car STARS ne couvre pas ces aspects. De plus, STARS ne collecte pas les informations sur les mécanismes de demande de conseil et de signalement pour les personnes en relation d'affaires, ce qui constitue également un domaine non couvert par le rapport.\n\n(GRI 2-22, GRI 2-23, GRI 2-26)",
  "used_facts": [],
- "judge_score": 2,
+ "judge_score": 3,
  "faithfulness": 1.0,
  "gri_coverage": 0.5,
  "unsupported_claims": [],
  "discarded_violations": [
-  "Le rapport prétend à la conformité avec GRI (GRI 2-22, GRI 2-23)"
+  "Le rapport mentionne que l'UC Berkeley a adopté une stratégie de développement durable, mais il ne précise pas si elle est conforme aux exigences de GRI."
  ],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 434.9,
+ "seconds": 729.9,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Stratégie, politiques et pratiques\n\n#### Engagements et planification\n\nL'Université de Californie à Berkeley (UC Berkeley) a adopté un plan stratégique pour le développement durable, qui comprend des objectifs mesurables tels que l'expansion de l'accès et des opportunités pour le développement co-curriculaire et la mise en place de voies institutionnelles pour les clubs et les groupes d'étudiants pour accroître l'engagement intersectionnel avec le Centre des ressources environnementales pour les étudiants (SERC). L'objectif stratégique [n] : Engagement de la communauté vise à renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de durabilité. Le plan stratégique liste [n] objectifs stratégiques sous cet objectif : [n] Développer des voies institutionnelles pour les clubs et les groupes d'étudiants pour accroître l'engagement intersectionnel au SERC [n] Faire preuve d'une unité au sein de la communauté en favorisant la sensibilisation à la durabilité.\n\nL'UC Berkeley est signataire des Engagements de leadership climatique de Second Nature, qui incluent le Engagement sur le carbone. Cette promesse externe renforce l'engagement de l'université à réduire les émissions de carbone et à renforcer la résilience face au changement climatique.\n\n(GRI 2-22, GRI 2-23)\n\n#### Coordination de la durabilité\n\nL'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée qui s'efforce d'avancer les objectifs de durabilité de l'université et de satisfaire ses engagements climatiques. L'équipe, dirigée par le directeur principal de la durabilité et des solutions au carbone, collabore avec les départements et les parties prenantes de l'université pour développer des stratégies qui réduisent les émissions de gaz à effet de serre, améliorent l'achat durable et favorisent la responsabilité environnementale dans les opérations quotidiennes.\n\n(GRI 2-22, GRI 2-25)\n\n#### Droits des employés\n\nL'UC Berkeley a une section dédiée",
-   "gen_seconds": 244.3,
-   "prompt_tokens": 1982,
-   "output_tokens": 520,
-   "raw_guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
-   ],
-   "removed_sentences": [
-    "L'objectif stratégique [n] : Engagement de la communauté vise à renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de durabilité.",
-    "Le plan stratégique liste [n] objectifs stratégiques sous cet objectif : [n] Développer des voies institutionnelles pour les clubs et les groupes d'étudiants pour accroître l'engagement intersectionnel au SERC [n] Faire preuve d'une unité au sein de la communauté en favorisant la sensibilisation à la durabilité."
-   ],
+   "draft": "### Stratégie, politiques et pratiques\n\nL'Université de Californie à Berkeley (UC Berkeley) a adopté une stratégie de développement durable qui vise à renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de la durabilité. Cette stratégie est définie dans le plan stratégique du Student Environmental Resource Center (SERC) qui inclut des objectifs mesurables tels que l'expansion des opportunités de formation co-curriculaire et le développement de voies institutionnelles pour les clubs et les groupes étudiants pour accroître l'engagement intersectionnel avec le SERC.\n\nL'UC Berkeley est signataire du Climate Leadership Commitments de Second Nature, qui inclut le Carbon Commitment. Cette déclaration externe renforce l'engagement de l'université à réduire les émissions de carbone et à renforcer la résilience face au changement climatique.\n\nL'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée qui se consacre à avancer les objectifs de durabilité de l'université et à satisfaire ses engagements climatiques. Cette équipe, dirigée par le responsable de la durabilité et des solutions au carbone, collabore avec les départements et les parties prenantes de l'UC Berkeley pour développer des stratégies qui réduisent les émissions de gaz à effet de serre, améliorent l'achat durable et favorisent la responsabilité environnementale dans les opérations quotidiennes.\n\nL'UC Berkeley a une section dédiée sur son site web des ressources humaines qui expose les politiques liées aux droits des salariés, notamment le traitement équitable, les procédures de réclamation et l'équilibre vie professionnelle. Ces politiques couvrent des domaines tels que la lutte contre les discriminations, la protection des lanceurs d'alerte et les avantages pour les salariés, offrant ainsi une vue transparente des droits et du soutien offerts aux salariés.\n\nL'université de Californie a également établi un Code des valeurs et des normes de conduite éthique qui s'applique à tous les campus de l'université, y compris Berkeley. Ce code met en avant l'engagement de l'université envers l'intégrité, le respect et la responsabilité dans ses relations avec les salariés.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les engagements politiques de l'UC Berkeley en ce qui concerne les droits humains et le devoir de vigilance, car STARS ne couvre pas ces aspects. De plus, STARS ne collecte pas les informations sur les mécanismes de demande de conseil et de signalement pour les personnes en relation d'affaires, ce qui constitue également un domaine non couvert par le rapport.\n\n(GRI 2-22, GRI 2-23, GRI 2-26)",
+   "gen_seconds": 375.4,
+   "prompt_tokens": 2568,
+   "output_tokens": 674,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 0.5,
-   "lint_notes": [],
-   "rendered": "### Stratégie, politiques et pratiques\n\n#### Engagements et planification\n\nL'Université de Californie à Berkeley (UC Berkeley) a adopté un plan stratégique pour le développement durable, qui comprend des objectifs mesurables tels que l'expansion de l'accès et des opportunités pour le développement co-curriculaire et la mise en place de voies institutionnelles pour les clubs et les groupes d'étudiants pour accroître l'engagement intersectionnel avec le Centre des ressources environnementales pour les étudiants (SERC).\n\nL'UC Berkeley est signataire des Engagements de leadership climatique de Second Nature, qui incluent le Engagement sur le carbone. Cette promesse externe renforce l'engagement de l'université à réduire les émissions de carbone et à renforcer la résilience face au changement climatique.\n\n(GRI 2-22, GRI 2-23)\n\n#### Coordination de la durabilité\n\nL'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée qui s'efforce d'avancer les objectifs de durabilité de l'université et de satisfaire ses engagements climatiques. L'équipe, dirigée par le directeur principal de la durabilité et des solutions au carbone, collabore avec les départements et les parties prenantes de l'université pour développer des stratégies qui réduisent les émissions de gaz à effet de serre, améliorent l'achat durable et favorisent la responsabilité environnementale dans les opérations quotidiennes.\n\n(GRI 2-22, GRI 2-25)\n\n#### Droits des employés\n\nL'UC Berkeley a une section dédiée",
+   "lint_notes": [
+    "longueur de 397 mots : vise 180 à 300 mots"
+   ],
+   "rendered": "### Stratégie, politiques et pratiques\n\nL'Université de Californie à Berkeley (UC Berkeley) a adopté une stratégie de développement durable qui vise à renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de la durabilité. Cette stratégie est définie dans le plan stratégique du Student Environmental Resource Center (SERC) qui inclut des objectifs mesurables tels que l'expansion des opportunités de formation co-curriculaire et le développement de voies institutionnelles pour les clubs et les groupes étudiants pour accroître l'engagement intersectionnel avec le SERC.\n\nL'UC Berkeley est signataire du Climate Leadership Commitments de Second Nature, qui inclut le Carbon Commitment. Cette déclaration externe renforce l'engagement de l'université à réduire les émissions de carbone et à renforcer la résilience face au changement climatique.\n\nL'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée qui se consacre à avancer les objectifs de durabilité de l'université et à satisfaire ses engagements climatiques. Cette équipe, dirigée par le responsable de la durabilité et des solutions au carbone, collabore avec les départements et les parties prenantes de l'UC Berkeley pour développer des stratégies qui réduisent les émissions de gaz à effet de serre, améliorent l'achat durable et favorisent la responsabilité environnementale dans les opérations quotidiennes.\n\nL'UC Berkeley a une section dédiée sur son site web des ressources humaines qui expose les politiques liées aux droits des salariés, notamment le traitement équitable, les procédures de réclamation et l'équilibre vie professionnelle. Ces politiques couvrent des domaines tels que la lutte contre les discriminations, la protection des lanceurs d'alerte et les avantages pour les salariés, offrant ainsi une vue transparente des droits et du soutien offerts aux salariés.\n\nL'université de Californie a également établi un Code des valeurs et des normes de conduite éthique qui s'applique à tous les campus de l'université, y compris Berkeley. Ce code met en avant l'engagement de l'université envers l'intégrité, le respect et la responsabilité dans ses relations avec les salariés.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les engagements politiques de l'UC Berkeley en ce qui concerne les droits humains et le devoir de vigilance, car STARS ne couvre pas ces aspects. De plus, STARS ne collecte pas les informations sur les mécanismes de demande de conseil et de signalement pour les personnes en relation d'affaires, ce qui constitue également un domaine non couvert par le rapport.\n\n(GRI 2-22, GRI 2-23, GRI 2-26)",
    "used_facts": [],
    "trace_problems": [],
+   "used_markers": [],
    "judge": {
     "claims": [
      {
-      "claim": "L'Université de Californie à Berkeley (UC Berkeley) a adopté un plan stratégique pour le développement durable",
+      "claim": "L'Université de Californie à Berkeley (UC Berkeley) a adopté une stratégie de développement durable.",
       "supported": true
      },
      {
-      "claim": "L'UC Berkeley est signataire des Engagements de leadership climatique de Second Nature",
+      "claim": "Cette stratégie est définie dans le plan stratégique du Student Environmental Resource Center (SERC).",
       "supported": true
      },
      {
-      "claim": "L'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée",
+      "claim": "L'UC Berkeley est signataire du Climate Leadership Commitments de Second Nature, qui inclut le Carbon Commitment.",
       "supported": true
      },
      {
-      "claim": "L'UC Berkeley a une section dédiée sur ses politiques relatives aux droits des employés",
+      "claim": "L'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée qui se consacre à avancer les objectifs de durabilité de l'univé",
       "supported": true
      },
      {
-      "claim": "L'UC Berkeley a adopté un plan stratégique pour le développement durable, qui comprend des objectifs mesurables",
+      "claim": "L'UC Berkeley a une section dédiée sur son site web des ressources humaines qui expose les politiques liées aux droits des salariés.",
       "supported": true
      },
      {
-      "claim": "L'Office de la durabilité de l'UC Berkeley collabore avec les départements et les parties prenantes de l'université",
+      "claim": "L'université de Californie a également établi un Code des valeurs et des normes de conduite éthique qui s'applique à tous les campus de l'un",
       "supported": true
      }
     ],
-    "rule_violations": [],
-    "score": 2,
-    "feedback": "",
+    "rule_violations": [
+     "Le rapport mentionne que l'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée, mais il ne précise pas si elle est composée de personnes qualifiées.",
+     "Le rapport mentionne que l'UC Berkeley a une section dédiée sur son site web des ressources humaines, mais il ne précise pas si elle est mise à jour régulièrement.",
+     "Le rapport mentionne que l'université de Californie a établi un Code des valeurs et des normes de conduite éthique, mais il ne précise pas si il est applicable à tous les campus de l'université."
+    ],
+    "score": 3,
+    "feedback": "Il faut supprimer les phrases qui ne sont pas étayées par des sources. Par exemple, la phrase 'L'UC Berkeley a adopté une stratégie de développement durable' doit être supprimée car elle n'est pas étayée par des sources. De même, la phrase 'L'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée' doit être modifiée pour préciser que l'équipe est composée de personnes qualifiées. Enfin, la phrase 'L'université de Californie a établi un Code des valeurs et des normes de condu",
     "faithfulness": 1.0,
-    "seconds": 190.5,
+    "seconds": 354.4,
     "discarded_violations": [
-     "Le rapport prétend à la conformité avec GRI (GRI 2-22, GRI 2-23)"
+     "Le rapport mentionne que l'UC Berkeley a adopté une stratégie de développement durable, mais il ne précise pas si elle est conforme aux exigences de GRI."
     ],
     "accepted": true
    }
@@ -79,7 +82,7 @@
  "evidence": [
   {
    "credit": "PA-2",
-   "text": "UC Berkeley's Student Environmental Resource Center (SERC) adopted a [n]-[n] strategic plan that includes measurable objectives such as expanding access and opportunities for co-curricular learning opportunities and developing institutional pathways for clubs and student groups to increase intersectional engagement with SERC. Strategic Goal [n]: Community Engagement aims to strengthen programs and resources to deepen engagement in the sustainability community. The strategic plan lists [n] strategic objectives under this goal:[n]: Develop institutional pathways for clubs and student groups to increase intersectional engagement at SERC[n]: Foster a sense of unity within the community by provid"
+   "text": "UC Berkeley's Student Environmental Resource Center (SERC) adopted a {{ PA2_t7_0 }} - {{ PA2_t7_1 }} strategic plan that includes measurable objectives such as expanding access and opportunities for co-curricular learning opportunities and developing institutional pathways for clubs and student groups to increase intersectional engagement with SERC. Strategic Goal: Community Engagement aims to strengthen programs and resources to deepen engagement in the sustainability community. The strategic plan lists strategic objectives under this goal:: Develop institutional pathways for clubs and student groups to increase intersectional engagement at SERC: Foster a sense of unity within the community"
   },
   {
    "credit": "PA-2",
@@ -95,11 +98,11 @@
   },
   {
    "credit": "OP-9",
-   "text": "Sustainable Procurement Guidelines mandate [n]% of RFP/RFQ comply with sustainability requirements."
+   "text": "Sustainable Procurement Guidelines mandate {{ OP9_t2_0 }} of RFP/RFQ comply with sustainability requirements."
   },
   {
    "credit": "EN-3",
-   "text": "Created by the Office of Sustainability, this UC Berkeley Sustainability Staff Training is composed of [n] comprehensive modules, designed to allow staff to work and complete at their own pace."
+   "text": "Created by the Office of Sustainability, this UC Berkeley Sustainability Staff Training is composed of comprehensive modules, designed to allow staff to work and complete at their own pace."
   },
   {
    "credit": "EN-3",

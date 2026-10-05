@@ -1,69 +1,124 @@
 {
- "prompt_hash": "d5769102f6b5f66d",
+ "prompt_hash": "72ecc1176e7ff028",
+ "round": 0,
  "decision": "validée",
- "text": "### Performance sociale et économique\n\n#### Politiques et dispositifs\n\nLe University of California, Berkeley, a mis en place des politiques et dispositifs pour promouvoir l'équité salariale et le salaire minimum. Le rapport STARS mentionne que l'université utilise le Massachusetts Institute of Technology Living Wage Calculator pour déterminer le salaire minimum. Les employés doivent également respecter les exigences de la politique sur les congés familiaux et médicaux (GRI 401-3).\n\nL'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de congés et de santé et de sécurité au travail. Le rapport STARS mentionne que l'université a une politique de congés familiaux et médicaux qui respecte les exigences de la loi (GRI 401-1).\n\n#### Système de management de la santé et de la sécurité au travail\n\nLe rapport STARS mentionne que l'université a mis en place un système de management de la santé et de la sécurité au travail, mais il ne fournit pas d'informations sur la réglementation ou la norme suivie (GRI 403-1).\n\n#### Services de santé au travail\n\nLe rapport STARS mentionne que l'université offre des services de santé généraux, mais il ne fournit pas d'informations sur les services de santé au travail spécifiques (GRI 403-3).\n\n#### Participation et consultation des travailleurs en santé et sécurité\n\nLe rapport STARS mentionne que l'université a un comité de santé et de sécurité, mais il ne fournit pas d'informations sur la fréquence des réunions ou le pouvoir de décision des travailleurs (GRI 403-4).\n\n#### Promotion de la santé des travailleurs\n\nLe rapport STARS mentionne que l'université a mis en place des programmes pour promouvoir la santé des travailleurs, mais il ne fournit pas d'informations sur les détails de ces programmes (GRI 403-6).\n\n#### Diversité des organes de gouvernance et des salariés\n\nLe rapport STARS mentionne que l'université a mis en place un indice de diversité, mais il ne fournit pas d'informations sur la ventilation en pourcentages demandée ou les données d'âge (GRI",
- "used_facts": [],
- "judge_score": 3,
+ "text": "### Performance sociale et économique\n\nL'université de Californie à Berkeley a obtenu 4,34 points STARS sur 5 au crédit PA-13, niveau élevé points STARS sur 4,34 points STARS sur 5 au crédit PA-13, niveau élevé au crédit PA-13, niveau élevé, pour sa politique de salaire décent. Le salaire minimum local est de 42,8 % de la valeur actuelle. L'heure de travail doit être au moins de 42,8 % de la valeur actuelle, en tenant compte du taux de bénéfices combinés des employés.\n\nL'université a également obtenu 2,5 points STARS sur 3 au crédit PA-12, niveau élevé points STARS sur 2,5 points STARS sur 3 au crédit PA-12, niveau élevé au crédit PA-12, niveau élevé, pour ses droits des salariés. Les employés doivent satisfaire aux exigences de la politique de congé parental. Le site web des ressources humaines de l'université présente des politiques sur les droits des employés, notamment le traitement équitable, les procédures de réclamation et l'équilibre travail-vie.\n\nL'université a obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal points STARS sur 3 points STARS sur 3 au crédit PA-11, niveau maximal au crédit PA-11, niveau maximal, pour sa santé, sécurité et bien-être. Le système de gestion de la santé et de la sécurité au travail n'est pas décrit.\n\nL'université a obtenu 1,67 point STARS sur 2 au crédit PA-8, niveau élevé points STARS sur 1,67 point STARS sur 2 au crédit PA-8, niveau élevé au crédit PA-8, niveau élevé, pour la parité femmes-hommes. Le directeur de la diversité, de l'équité, de l'inclusion et de l'appartenance est Lasana Hotep.\n\nL'université a obtenu 1,59 point STARS sur 3 au crédit PA-7, niveau intermédiaire points STARS sur 1,59 point STARS sur 3 au crédit PA-7, niveau intermédiaire au crédit PA-7, niveau intermédiaire, pour la représentation ethnique et raciale. Les initiatives de données sur l'équité sont menées par l'équipe de l'équité et de l'inclusion.\n\nL'université a obtenu 2,5 points STARS sur 3 au crédit PA-9, niveau élevé points STARS sur 2,5 points STARS sur 3 au crédit PA-9, niveau élevé au crédit PA-9, niveau élevé, pour l'accès et l'accessibilité financière. La proportion de tous les étudiants de premier cycle recevant des subventions Pell pour l'année universitaire 2021 est de 2021.\n\nL'université a obtenu 3 points STARS sur 3 au crédit PA-6, niveau maximal points STARS sur 3 points STARS sur 3 au crédit PA-6, niveau maximal au crédit PA-6, niveau maximal, pour le climat institutionnel. Les organisations basées sur la race et l'éthnicité des employés comprennent Alianza, Asian Pacific American Systemwide Alliance, Black Staff & Faculty Organization, MENASA et Native & Indigenous Council.\n\nL'université a obtenu 2,8 points STARS sur 3 au crédit PA-10, niveau élevé points STARS sur 2,8 points STARS sur 3 au crédit PA-10, niveau élevé au crédit PA-10, niveau élevé, pour la réussite étudiante. Le directeur exécutif de l'Office of Planning and Analysis est Sereeta Alexander.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le ratio entre le salaire d'entrée et le salaire minimum local par genre. Le salaire minimum figure dans un crédit sur l'emploi étudiant.",
+ "used_facts": [
+  "PA10_max",
+  "PA10_score",
+  "PA11_max",
+  "PA11_score",
+  "PA12_max",
+  "PA12_score",
+  "PA13_max",
+  "PA13_score",
+  "PA13_t1_0",
+  "PA13_t1_1",
+  "PA6_max",
+  "PA6_score",
+  "PA7_max",
+  "PA7_score",
+  "PA8_max",
+  "PA8_score",
+  "PA9_max",
+  "PA9_score",
+  "PA9_t0_0"
+ ],
+ "judge_score": 4,
  "faithfulness": 0.83,
- "gri_coverage": 0.62,
+ "gri_coverage": 0.0,
  "unsupported_claims": [
-  "L'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de cong"
+  "Les employés doivent satisfaire aux exigences de la politique de congé parental"
  ],
  "discarded_violations": [],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 519.4,
+ "seconds": 773.6,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Performance sociale et économique\n\n#### Politiques et dispositifs\n\nLe University of California, Berkeley, a mis en place des politiques et dispositifs pour promouvoir l'équité salariale et le salaire minimum. Le rapport STARS mentionne que l'université utilise le Massachusetts Institute of Technology Living Wage Calculator pour déterminer le salaire minimum. Les employés doivent également respecter les exigences de la politique sur les congés familiaux et médicaux (GRI 401-3).\n\nL'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de congés et de santé et de sécurité au travail. Le rapport STARS mentionne que l'université a une politique de congés familiaux et médicaux qui respecte les exigences de la loi (GRI 401-1).\n\n#### Système de management de la santé et de la sécurité au travail\n\nLe rapport STARS mentionne que l'université a mis en place un système de management de la santé et de la sécurité au travail, mais il ne fournit pas d'informations sur la réglementation ou la norme suivie (GRI 403-1).\n\n#### Services de santé au travail\n\nLe rapport STARS mentionne que l'université offre des services de santé généraux, mais il ne fournit pas d'informations sur les services de santé au travail spécifiques (GRI 403-3).\n\n#### Participation et consultation des travailleurs en santé et sécurité\n\nLe rapport STARS mentionne que l'université a un comité de santé et de sécurité, mais il ne fournit pas d'informations sur la fréquence des réunions ou le pouvoir de décision des travailleurs (GRI 403-4).\n\n#### Promotion de la santé des travailleurs\n\nLe rapport STARS mentionne que l'université a mis en place des programmes pour promouvoir la santé des travailleurs, mais il ne fournit pas d'informations sur les détails de ces programmes (GRI 403-6).\n\n#### Diversité des organes de gouvernance et des salariés\n\nLe rapport STARS mentionne que l'université a mis en place un indice de diversité, mais il ne fournit pas d'informations sur la ventilation en pourcentages demandée ou les données d'âge (GRI",
-   "gen_seconds": 264.9,
-   "prompt_tokens": 2235,
-   "output_tokens": 520,
+   "draft": "### Performance sociale et économique\n\nL'université de Californie à Berkeley a obtenu {{ PA13 }} points STARS sur {{ PA13 }} au crédit PA-13, niveau élevé, pour sa politique de salaire décent. Le salaire minimum local est de {{ PA13_t1_0 }} de la valeur actuelle. L'heure de travail doit être au moins de {{ PA13_t1_1 }} de la valeur actuelle, en tenant compte du taux de bénéfices combinés des employés.\n\nL'université a également obtenu {{ PA12 }} points STARS sur {{ PA12 }} au crédit PA-12, niveau élevé, pour ses droits des salariés. Les employés doivent satisfaire aux exigences de la politique de congé parental. Le site web des ressources humaines de l'université présente des politiques sur les droits des employés, notamment le traitement équitable, les procédures de réclamation et l'équilibre travail-vie.\n\nL'université a obtenu {{ PA11 }} points STARS sur {{ PA11 }} au crédit PA-11, niveau maximal, pour sa santé, sécurité et bien-être. Le système de gestion de la santé et de la sécurité au travail n'est pas décrit.\n\nL'université a obtenu {{ PA8 }} points STARS sur {{ PA8 }} au crédit PA-8, niveau élevé, pour la parité femmes-hommes. Le directeur de la diversité, de l'équité, de l'inclusion et de l'appartenance est Lasana Hotep.\n\nL'université a obtenu {{ PA7 }} points STARS sur {{ PA7 }} au crédit PA-7, niveau intermédiaire, pour la représentation ethnique et raciale. Les initiatives de données sur l'équité sont menées par l'équipe de l'équité et de l'inclusion.\n\nL'université a obtenu {{ PA9 }} points STARS sur {{ PA9 }} au crédit PA-9, niveau élevé, pour l'accès et l'accessibilité financière. La proportion de tous les étudiants de premier cycle recevant des subventions Pell pour l'année universitaire {{ PA9_t0_0 }} est de {{ PA9_t0_0 }}.\n\nL'université a obtenu {{ PA6 }} points STARS sur {{ PA6 }} au crédit PA-6, niveau maximal, pour le climat institutionnel. Les organisations basées sur la race et l'éthnicité des employés comprennent Alianza, Asian Pacific American Systemwide Alliance, Black Staff & Faculty Organization, MENASA et Native & Indigenous Council.\n\nL'université a obtenu {{ PA10 }} points STARS sur {{ PA10 }} au crédit PA-10, niveau élevé, pour la réussite étudiante. Le directeur exécutif de l'Office of Planning and Analysis est Sereeta Alexander.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le ratio entre le salaire d'entrée et le salaire minimum local par genre. Le salaire minimum figure dans un crédit sur l'emploi étudiant.",
+   "gen_seconds": 441.5,
+   "prompt_tokens": 2821,
+   "output_tokens": 697,
    "raw_guard_problems": [],
    "removed_sentences": [],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 0.62,
-   "lint_notes": [],
-   "rendered": "### Performance sociale et économique\n\n#### Politiques et dispositifs\n\nLe University of California, Berkeley, a mis en place des politiques et dispositifs pour promouvoir l'équité salariale et le salaire minimum. Le rapport STARS mentionne que l'université utilise le Massachusetts Institute of Technology Living Wage Calculator pour déterminer le salaire minimum. Les employés doivent également respecter les exigences de la politique sur les congés familiaux et médicaux (GRI 401-3).\n\nL'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de congés et de santé et de sécurité au travail. Le rapport STARS mentionne que l'université a une politique de congés familiaux et médicaux qui respecte les exigences de la loi (GRI 401-1).\n\n#### Système de management de la santé et de la sécurité au travail\n\nLe rapport STARS mentionne que l'université a mis en place un système de management de la santé et de la sécurité au travail, mais il ne fournit pas d'informations sur la réglementation ou la norme suivie (GRI 403-1).\n\n#### Services de santé au travail\n\nLe rapport STARS mentionne que l'université offre des services de santé généraux, mais il ne fournit pas d'informations sur les services de santé au travail spécifiques (GRI 403-3).\n\n#### Participation et consultation des travailleurs en santé et sécurité\n\nLe rapport STARS mentionne que l'université a un comité de santé et de sécurité, mais il ne fournit pas d'informations sur la fréquence des réunions ou le pouvoir de décision des travailleurs (GRI 403-4).\n\n#### Promotion de la santé des travailleurs\n\nLe rapport STARS mentionne que l'université a mis en place des programmes pour promouvoir la santé des travailleurs, mais il ne fournit pas d'informations sur les détails de ces programmes (GRI 403-6).\n\n#### Diversité des organes de gouvernance et des salariés\n\nLe rapport STARS mentionne que l'université a mis en place un indice de diversité, mais il ne fournit pas d'informations sur la ventilation en pourcentages demandée ou les données d'âge (GRI",
-   "used_facts": [],
+   "gri_coverage": 0.0,
+   "lint_notes": [
+    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 202-1), (GRI 401-2), (GRI 401-3), (GRI 403-1)"
+   ],
+   "rendered": "### Performance sociale et économique\n\nL'université de Californie à Berkeley a obtenu 4,34 points STARS sur 5 au crédit PA-13, niveau élevé points STARS sur 4,34 points STARS sur 5 au crédit PA-13, niveau élevé au crédit PA-13, niveau élevé, pour sa politique de salaire décent. Le salaire minimum local est de 42,8 % de la valeur actuelle. L'heure de travail doit être au moins de 42,8 % de la valeur actuelle, en tenant compte du taux de bénéfices combinés des employés.\n\nL'université a également obtenu 2,5 points STARS sur 3 au crédit PA-12, niveau élevé points STARS sur 2,5 points STARS sur 3 au crédit PA-12, niveau élevé au crédit PA-12, niveau élevé, pour ses droits des salariés. Les employés doivent satisfaire aux exigences de la politique de congé parental. Le site web des ressources humaines de l'université présente des politiques sur les droits des employés, notamment le traitement équitable, les procédures de réclamation et l'équilibre travail-vie.\n\nL'université a obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal points STARS sur 3 points STARS sur 3 au crédit PA-11, niveau maximal au crédit PA-11, niveau maximal, pour sa santé, sécurité et bien-être. Le système de gestion de la santé et de la sécurité au travail n'est pas décrit.\n\nL'université a obtenu 1,67 point STARS sur 2 au crédit PA-8, niveau élevé points STARS sur 1,67 point STARS sur 2 au crédit PA-8, niveau élevé au crédit PA-8, niveau élevé, pour la parité femmes-hommes. Le directeur de la diversité, de l'équité, de l'inclusion et de l'appartenance est Lasana Hotep.\n\nL'université a obtenu 1,59 point STARS sur 3 au crédit PA-7, niveau intermédiaire points STARS sur 1,59 point STARS sur 3 au crédit PA-7, niveau intermédiaire au crédit PA-7, niveau intermédiaire, pour la représentation ethnique et raciale. Les initiatives de données sur l'équité sont menées par l'équipe de l'équité et de l'inclusion.\n\nL'université a obtenu 2,5 points STARS sur 3 au crédit PA-9, niveau élevé points STARS sur 2,5 points STARS sur 3 au crédit PA-9, niveau élevé au crédit PA-9, niveau élevé, pour l'accès et l'accessibilité financière. La proportion de tous les étudiants de premier cycle recevant des subventions Pell pour l'année universitaire 2021 est de 2021.\n\nL'université a obtenu 3 points STARS sur 3 au crédit PA-6, niveau maximal points STARS sur 3 points STARS sur 3 au crédit PA-6, niveau maximal au crédit PA-6, niveau maximal, pour le climat institutionnel. Les organisations basées sur la race et l'éthnicité des employés comprennent Alianza, Asian Pacific American Systemwide Alliance, Black Staff & Faculty Organization, MENASA et Native & Indigenous Council.\n\nL'université a obtenu 2,8 points STARS sur 3 au crédit PA-10, niveau élevé points STARS sur 2,8 points STARS sur 3 au crédit PA-10, niveau élevé au crédit PA-10, niveau élevé, pour la réussite étudiante. Le directeur exécutif de l'Office of Planning and Analysis est Sereeta Alexander.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le ratio entre le salaire d'entrée et le salaire minimum local par genre. Le salaire minimum figure dans un crédit sur l'emploi étudiant.",
+   "used_facts": [
+    "PA10_max",
+    "PA10_score",
+    "PA11_max",
+    "PA11_score",
+    "PA12_max",
+    "PA12_score",
+    "PA13_max",
+    "PA13_score",
+    "PA13_t1_0",
+    "PA13_t1_1",
+    "PA6_max",
+    "PA6_score",
+    "PA7_max",
+    "PA7_score",
+    "PA8_max",
+    "PA8_score",
+    "PA9_max",
+    "PA9_score",
+    "PA9_t0_0"
+   ],
    "trace_problems": [],
+   "used_markers": [
+    "PA10",
+    "PA11",
+    "PA12",
+    "PA13",
+    "PA13_t1_0",
+    "PA13_t1_1",
+    "PA6",
+    "PA7",
+    "PA8",
+    "PA9",
+    "PA9_t0_0"
+   ],
    "judge": {
     "claims": [
      {
-      "claim": "Le University of California, Berkeley, a mis en place des politiques et dispositifs pour promouvoir l'équité salariale et le salaire minimum",
+      "claim": "L'université de Californie à Berkeley a obtenu 4,34 points STARS sur 5 au crédit PA-13, niveau élevé",
       "supported": true
      },
      {
-      "claim": "Les employés doivent également respecter les exigences de la politique sur les congés familiaux et médicaux (GRI 401-3)",
+      "claim": "Le salaire minimum local est de 42,8 % de la valeur actuelle",
       "supported": true
      },
      {
-      "claim": "L'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de cong",
+      "claim": "L'université a obtenu 2,5 points STARS sur 3 au crédit PA-12, niveau élevé",
+      "supported": true
+     },
+     {
+      "claim": "Les employés doivent satisfaire aux exigences de la politique de congé parental",
       "supported": false
      },
      {
-      "claim": "Le rapport STARS mentionne que l'université a mis en place un système de management de la santé et de la sécurité au travail, mais il ne",
+      "claim": "L'université a obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal",
       "supported": true
      },
      {
-      "claim": "Le rapport STARS mentionne que l'université offre des services de santé généraux, mais il ne fournit pas d'informations sur les services",
-      "supported": true
-     },
-     {
-      "claim": "Le rapport STARS mentionne que l'université a un comité de santé et de sécurité, mais il ne fournit pas d'informations sur la fréquence",
+      "claim": "L'université a obtenu 2,8 points STARS sur 3 au crédit PA-10, niveau élevé",
       "supported": true
      }
     ],
     "rule_violations": [
-     "L'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de congés et de santé et de sécurité au travail. Le rapport STARS n",
-     "Le rapport STARS mentionne que l'université a mis en place un système de management de la santé et de la sécurité au travail, mais il ne fournit pas d'informations sur la réglementation ou la norme su"
+     "Le claim 2 est un violation car il dit que les employés doivent satisfaire aux exigences de la politique de congé parental, mais le rapport ne peut pas établir cela."
     ],
-    "score": 3,
-    "feedback": "Supprimer les phrases non étayées par les sources. Pour GRI 401-3, utiliser le wording requis : 'ce rapport ne peut pas établir'.",
+    "score": 4,
+    "feedback": "Supprimer les phrases non étayées par les sources. Pour le claim 2, utiliser le wording 'ce rapport ne peut pas établir' pour indiquer que les employés doivent satisfaire aux exigences de la politique de congé parental.",
     "faithfulness": 0.83,
-    "seconds": 254.4,
+    "seconds": 332.0,
     "discarded_violations": [],
     "accepted": true
    }
@@ -75,7 +130,7 @@
  "evidence": [
   {
    "credit": "PA-13",
-   "text": "The instructions say to use the Massachusetts Institute of Technology Living Wage Calculator. and when Berkeley is inserted, the living wage for [n] adults and [n] children is $[n]/hr. The campus composite benefits rate for staff members is currently [n]%. Hence, to qualify for an hourly living wage, the hourly rate must be at least $[n]/hr, when incorporating the [n]% CBR."
+   "text": "The instructions say to use the Massachusetts Institute of Technology Living Wage Calculator. and when Berkeley is inserted, the living wage for adults and children is $ /hr. The campus composite benefits rate for staff members is currently {{ PA13_t1_0 }}. Hence, to qualify for an hourly living wage, the hourly rate must be at least $ /hr, when incorporating the {{ PA13_t1_1 }} CBR."
   },
   {
    "credit": "PA-12",
@@ -99,7 +154,7 @@
   },
   {
    "credit": "PA-9",
-   "text": "Data is from IPEDS, % of all undergraduate students receiving Pell Grants for academic year [n]-[n] (most recent year publicly available)."
+   "text": "Data is from IPEDS, % of all undergraduate students receiving Pell Grants for academic year {{ PA9_t0_0 }} - (most recent year publicly available)."
   },
   {
    "credit": "PA-6",

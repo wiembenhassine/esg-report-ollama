@@ -1,9 +1,9 @@
 # Rapport de durabilité — University College Cork
-*Établi en référence aux normes GRI · généré le 2026-10-03 · données AASHE STARS 3.0*
+*Établi en référence aux normes GRI · généré le 2026-10-05 · données AASHE STARS 3.0*
 
 **À propos de ce rapport.** Ce rapport est généré automatiquement à partir de la soumission publique
 AASHE STARS 3.0 de University College Cork (5 mars 2026), mise en correspondance avec les normes GRI.
-Il examine les 78 publications GRI de 13 normes. Lorsqu'une publication ne peut pas être renseignée à partir
+Il examine les 86 publications GRI de 14 normes (dont GRI 101: Biodiversité 2024). Lorsqu'une publication ne peut pas être renseignée à partir
 des données STARS, il le dit et explique pourquoi, au lieu d'omettre la question.
 
 **D'où viennent les chiffres, et pourquoi s'y fier.** Le modèle de langage qui rédige le texte
@@ -58,23 +58,27 @@ Les scores STARS 3.0 sont autodéclarés et notés par rapport à un groupe de p
 
 ### Organisation, périmètre et effectifs
 
-L'University College Cork (UCC) est une institution d'enseignement supérieur située en Irlande. Le périmètre de ce rapport couvre l'ensemble du campus principal et des campus satellites gérés par l'office des bâtiments et des biens de l'UCC. Les sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin), ne sont pas incluses dans ce rapport.
+L'Université College Cork (UCC) est une institution d'enseignement supérieur située en Irlande. Elle est dénommée sous le nom de University College Cork dans le contexte de ce rapport.
 
-L'UCC a mené une étude approfondie pour identifier les parties responsables de chaque crédit. Des documents de guidage, des définitions et des feuilles de calcul ont été transmis à chaque partie responsable, et des réunions ont été tenues pour s'assurer de l'exactitude des données collectées. Ce processus a été mené par l'office de la durabilité et de l'action climatique, avec l'aide supplémentaire de l'officier de recherche et de données institutionnelles de l'université.
+Le périmètre de l'UCC exclut ses sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin). Ces entités ne sont pas incluses dans la soumission STARS de l'université.
 
-Le rapport de l'UCC a obtenu la note « Platinum » au STARS, ce qui reflète son engagement en matière de durabilité.
+L'université a effectué une cartographie approfondie pour identifier les parties responsables de chaque crédit. Ce processus a été mené par l'office de la Durabilité et de l'Action Climatique, avec le soutien de l'officier de la recherche et des données institutionnelles.
 
-(GRI 2-1, GRI 2-2, GRI 2-3, GRI 2-5, GRI 2-6)
+L'université a également présenté des mises à jour régulières sur le processus de collecte de données au comité de direction sur la durabilité et l'action climatique.
 
-### Limites et omissions
-
-Ce rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'UCC, car ces informations ne sont pas collectées par STARS. De même, il ne peut pas fournir de liste d'entités incluses dans le reporting de durabilité, car STARS ne collecte pas ces informations sous forme de liste.
-
-(GRI 2-1, GRI 2-2)
+(GRI 2-1, GRI 2-2, GRI 2-3)
 
 ### Limites et omissions
 
-Ce rapport ne peut pas fournir de vérification externe, car les données STARS sont autodéclarées et non vérifiées par l'AASHE.
+Ce rapport ne peut pas établir le nombre d'effectifs de l'université, ni les ratios par personne ou par m², en raison de la différence de périmètre entre les établissements.
+
+(GRI 2-7)
+
+### Limites et omissions
+
+Ce rapport ne couvre pas les entités suivantes : les sociétés filiales de l'université, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin).
+
+(GRI 2-4, GRI 2-8)
 
 ## Thèmes matériels
 
@@ -84,24 +88,25 @@ Ce rapport ne peut pas fournir de vérification externe, car les données STARS 
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'Université College Cork (UCC) a identifié les thèmes matériels suivants dans son plan de durabilité et d'action climatique :
+Ces domaines sont définis par STARS et sont identiques pour toutes les institutions.
 
-- Aligner le programme de durabilité de l'UCC avec les stratégies pertinentes de l'université, notamment la participation à la communauté, l'équité, le développement et l'apprentissage, ainsi que les stratégies de recherche.
-- Exposer chaque étudiant de l'UCC à l'agenda de durabilité mondiale par l'éducation formelle ou informelle.
-- Capitaliser sur les opportunités de financement pour mettre en œuvre les programmes de réduction de carbone et faire de l'UCC un laboratoire vivant pour les solutions au changement climatique.
-- Connecter les différents éléments de la durabilité à l'UCC pour ajouter de la valeur et mieux communiquer notre impact.
+L'université a mis en place la Stratégie de durabilité et d'action climatique (Sustainability and Climate Action Plan) pour atteindre ses objectifs. Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations du campus, la recherche, l'enseignement et les interactions avec la communauté.
+
+L'université a également mis en place des objectifs spécifiques, notamment devenir un campus sans déchets (zero waste campus) d'ici 2030 et un campus neutre en carbone (carbon neutral campus) d'ici 2030.
+
+L'université a également mis en place des plans pour réduire ses émissions de gaz à effet de serre (GHG) de 51 % d'ici 2030.
+
+L'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la stratégie d'égalité, de diversité et d'inclusion (EDI), la stratégie d'enseignement et d'apprentissage, et la stratégie de recherche.
+
+L'université a également mis en place des plans pour exposer les étudiants à l'agenda de durabilité mondiale à travers leur formation ou leur éducation informelle.
 
 (GRI 3-2)
 
-L'Université répond à ces thèmes matériels en décrivant comment elle les aborde dans son plan de durabilité et d'action climatique. Les réponses sont fournies à l'échelle de l'université pour chaque thème, mais ne comprennent pas les impacts, les distinctions entre prévention et remédiation, ni les leçons tirées.
-
-(GRI 3-3)
-
-Ce rapport ne peut pas établir si l'Université College Cork a identifié d'autres thèmes matériels, comme le prévoit la norme GRI 3-1.
-
 ### Limites et omissions
 
-Ce rapport ne peut pas établir si l'Université College Cork a identifié d'autres thèmes matériels, comme le prévoit la norme GRI 3-1.
+Ce rapport ne peut pas établir si l'université a mis en place des plans pour réduire ses émissions de GHG au-delà de 51 %.
+
+(GRI 3-3)
 
 ## Gouvernance
 
@@ -114,15 +119,21 @@ Ce rapport ne peut pas établir si l'Université College Cork a identifié d'aut
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'Université College Cork a mis en place un organe de gouvernance composé de membres du Students Union, d'organisations externes et d'un représentant démocratiquement élu par le personnel de l'université. Ce dernier siège sur l'autorité de gouvernance, le plus haut organe décisionnel de l'université (GRI 2-9). 
+L'Université College Cork (UCC) a mis en place un système de gouvernance qui favorise la durabilité et la responsabilité environnementale. Le poste de Head of Sustainability and Climate Action est occupé par Dr Maria Kirrane, qui coordonne l'Office de la durabilité et de l'action climatique. L'office est responsable de la mise en œuvre de la stratégie de durabilité de l'université et coordonne diverses initiatives et programmes universitaires.
 
-L'Université a également signé l'engagement de l'UN PRI, ce qui implique l'intégration des questions ESG dans les processus d'analyse et de décision d'investissement, ainsi que dans les politiques de propriété et de gestion (GRI 2-13). 
+L'Université a également mis en place un système de gouvernance participatif, qui implique les étudiants dans les décisions importantes. Les membres du syndicat des étudiants (SU) siègent au sein de l'autorité de gouvernance de l'université, la plus haute instance décisionnelle. Les étudiants sont également représentés dans divers comités autonomes, tels que le Societies Guild Executive et le Clubs Executive, qui gèrent les activités extrascolaires des étudiants.
 
-Les fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis (GRI 2-21).
+L'Université a signé l'engagement des Nations Unies sur les Principes pour une investissement responsable (PRI), ce qui implique l'intégration des questions de durabilité environnementale, sociale et de gouvernance (ESG) dans les processus d'analyse et de décision d'investissement. L'Université a également mis en place des politiques de propriété et de pratiques d'investissement qui tiennent compte des questions ESG.
+
+Les fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis.
+
+(GRI 2-9)
 
 ### Limites et omissions
 
-Ce rapport ne peut pas établir la composition de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion des impacts à l'organe de gouvernance. De plus, le texte de la lettre signée par la direction n'est pas disponible.
+Ce rapport ne peut pas établir les informations relatives à la composition de l'autorité de gouvernance de l'université, ni les informations sur la fréquence de la réunion des responsables de la gestion des impacts.
+
+(GRI 2-13)
 
 ## Stratégie, politiques et pratiques
 
@@ -136,25 +147,29 @@ Ce rapport ne peut pas établir la composition de l'organe de gouvernance, ni la
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-#### Stratégie de développement durable
+L'Université College Cork (UCC) a élaboré la Stratégie de durabilité et d'action climatique (The Sustainability and Climate Action Plan), qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université. Cette stratégie est élaborée en référence aux normes GRI.
 
-Le University College Cork (UCC) a élaboré la Stratégie de développement durable, qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université. Cette stratégie est étayée par le Plan d'action pour la durabilité et la lutte contre le changement climatique, qui a été élaboré après une consultation approfondie avec le personnel et les étudiants (GRI 2-22).
+L'université a décidé d'aligner son programme de durabilité avec les stratégies pertinentes, notamment la participation à la communauté, l'égalité, la diversité et l'inclusion, l'enseignement et l'apprentissage, ainsi que les stratégies de recherche.
 
-#### Engagements politiques
+L'Office de la durabilité et de l'action climatique (The Office of Sustainability and Climate Action) est situé dans le Bureau du président de l'université et est soutenu par la Stratégie de durabilité et d'action climatique. Cette stratégie a été élaborée après une consultation approfondie avec le personnel et les étudiants.
 
-Le UCC a adopté des engagements politiques pour promouvoir la durabilité, notamment la mise en place d'un système de reporting sur les impacts environnementaux (GRI 2-23). Cependant, ce rapport ne peut pas établir si ces engagements sont étendus aux droits humains et au devoir de vigilance.
+L'université a également mis en place des politiques pour promouvoir la durabilité, notamment en matière de recrutement de fournisseurs durables. Ainsi, 21 % des appels d'offres ont inclus des spécifications de durabilité pour les fournisseurs, et 54 % des appels d'offres ont inclus des conditions de durabilité pour les produits.
 
-#### Intégration des engagements politiques
+(GRI 2-22)
 
-Le UCC a mis en place des mécanismes pour intégrer les engagements politiques dans les procédures de l'université, notamment en matière de formation et de code de conduite des fournisseurs (GRI 2-24). Cependant, ce rapport ne peut pas établir si ces mécanismes sont étendus à toutes les parties prenantes affectées.
+(GRI 2-23)
 
-#### Processus de remédiation des impacts négatifs
+(GRI 2-24)
 
-Le UCC a mis en place un processus de remédiation des impacts négatifs, notamment en matière de publication d'informations sur les impacts environnementaux (GRI 2-25). Cependant, ce rapport ne peut pas établir si ce processus est étendu à toutes les parties prenantes affectées.
+(GRI 2-25)
 
-#### Mécanismes de demande de conseil et de signalement
+(GRI 2-26)
 
-Le UCC a mis en place des mécanismes pour permettre aux salariés de demander des conseils et de signaler les impacts négatifs (GRI 2-26). Cependant, ce rapport ne peut pas établir si ces mécanismes sont étendus aux personnes en relation d'affaires.
+(GRI 2-28)
+
+### Limites et omissions
+
+Ce rapport ne peut pas établir les mécanismes de demande de conseil et de signalement pour les parties prenantes autres que les salariés, ni les engagements politiques de l'université en matière de droits humains et de devoir de vigilance.
 
 ## Engagement des parties prenantes
 
@@ -167,17 +182,17 @@ Le UCC a mis en place des mécanismes pour permettre aux salariés de demander d
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'engagement des parties prenantes est un aspect clé de la gouvernance de l'University College Cork. Le rapport STARS indique que les étudiants sont représentés sur l'autorité de gouvernement de l'université, la plus haute instance décisionnelle de l'établissement (GRI 2-29).
+L'engagement des parties prenantes est un aspect clé de la stratégie de l'University College Cork (UCC) pour promouvoir la durabilité. Selon le rapport STARS, l'université a obtenu 4 points STARS sur 4 au crédit PA-3, niveau maximal (GRI 2-29).
 
-Le modèle choisi pour le Forum des étudiants est inspiré de l'Assemblée des citoyens irlandaise. L'un des objectifs principaux du Forum est de renforcer la transparence et l'intégrité dans la prise de décision et de faciliter une bonne prise de décision (GRI 2-29). L'université se concentre sur la formation de citoyens qui façonnent la société pour le bien commun et le mieux-être de l'humanité et du planète.
+Cette note maximale reflète la forte implication de l'université dans l'engagement des parties prenantes. Les membres de l'Union des étudiants siègent au sein de l'Autorité de gouvernement de l'université, le plus haut organe décisionnel de l'université. Cette approche délibérative et participative permet aux étudiants de participer activement aux décisions stratégiques et politiques qui touchent la communauté universitaire.
 
-Les enseignants et le personnel sont également représentés sur l'autorité de gouvernement de l'université, démocratiquement élus par les membres du personnel de l'université (GRI 2-29).
+La création du Forum des étudiants, inspiré par l'Assemblée des citoyens irlandais, vise à renforcer la transparence et l'intégrité dans la prise de décision et à faciliter une prise de décision éclairée. Cette approche permet à l'université de cultiver des citoyens qui contribuent au bien commun et au mieux-être de l'humanité et du planète.
 
-L'université a établi le programme UNIC, qui comprend la recherche sur la collaboration entre les universités et les municipalités pour atteindre les objectifs de lutte contre le changement climatique dans les villes (GRI 2-29).
+L'université a également établi des partenariats avec la communauté locale, comme le programme UNIC, qui a donné lieu à la création de l'Urban Climate Collab, un projet de recherche visant à renforcer les collaborations entre universités et municipalités pour atteindre les objectifs de lutte contre le changement climatique dans les villes (EN-5).
 
-L'université a également développé des lignes directrices et des ressources pour la participation communautaire, notamment un kit de toolkit de participation civique et des lignes directrices de science shop (GRI 2-29).
+En outre, l'université a développé des lignes directrices et des ressources pour la participation communautaire, notamment le Civic Engagement Toolkit et les lignes directrices de la science shop, qui guident les participants à suivre les lignes directrices nationales de Campus Engage (EN-6).
 
-Enfin, l'université a adopté les lignes directrices nationales de Campus Engage, un effort collaboratif pour construire la capacité et l'excellence nationales en matière de participation communautaire et de partenariat (GRI 2-29).
+Enfin, l'université respecte les droits des salariés, en tant que droit fondamental de la Constitution irlandaise (PA-12).
 
 (GRI 2-29)
 
@@ -197,46 +212,75 @@ Enfin, l'université a adopté les lignes directrices nationales de Campus Engag
 | OP-13 — Vehicle Fleet | 0,67 / 2 | faible |
 | OP-14 — Commute Modal Split | 4,83 / 6 | élevé |
 | OP-15 — Air Travel | 0 / 2 | nul (aucun point obtenu) |
+| OP-4 — Ecologically Managed Grounds | 4,06 / 5 | élevé |
+| IL-24 — Biodiversity Assessment | 1 / 1 | maximal (tous les points obtenus) |
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-#### Énergie
+Voici la section rédigée :
 
-L'Université College Cork (UCC) a déclaré que 5,62 points ont été obtenus sur 10 possibles pour la performance énergétique, ce qui correspond à un niveau intermédiaire. 
+**Environnement**
 
-L'UCC a également déclaré que 10,63 points ont été obtenus sur 16 possibles pour les émissions de gaz à effet de serre, ce qui correspond à un niveau intermédiaire.
+**Consommation d'énergie (Energy Use)**
 
-#### Eau
+* Score STARS : 5,62 points STARS sur 10 au crédit OP-5, niveau intermédiaire
 
-L'UCC a déclaré que 4,67 points ont été obtenus sur 6 possibles pour la gestion de l'eau, ce qui correspond à un niveau élevé.
+**Émissions de gaz à effet de serre (Greenhouse Gas Emissions)**
 
-#### Déchets
+* Score STARS : 10,63 points STARS sur 16 au crédit OP-6, niveau intermédiaire
 
-L'UCC a déclaré que 3,99 points ont été obtenus sur 5 possibles pour la gestion des déchets, ce qui correspond à un niveau élevé.
+**Consommation d'eau (Water Use)**
 
-#### Matériaux
+* Score STARS : 4,67 points STARS sur 6 au crédit OP-3, niveau élevé
 
-L'UCC a déclaré que 3 points ont été obtenus sur 4 possibles pour la gestion des matériaux, ce qui correspond à un niveau élevé.
+**Production et valorisation des déchets (Waste Generation and Recovery)**
 
-#### Achats
+* Score STARS : 3,99 points STARS sur 5 au crédit OP-12, niveau élevé
 
-L'UCC a déclaré que 2,15 points ont été obtenus sur 7 possibles pour le système d'approvisionnement durable, ce qui correspond à un niveau faible.
+**Gestion des matériaux (Materials Management)**
 
-#### Véhicules
+* Score STARS : 3 points STARS sur 4 au crédit OP-11, niveau élevé
 
-L'UCC a déclaré que 0,67 points ont été obtenus sur 2 possibles pour la flotte de véhicules, ce qui correspond à un niveau faible.
+**Système d'achats durables (Sustainable Procurement System)**
 
-#### Transport
+* Score STARS : 2,15 points STARS sur 7 au crédit OP-9, niveau faible
 
-L'UCC a déclaré que 4,83 points ont été obtenus sur 6 possibles pour la répartition modale des déplacements, ce qui correspond à un niveau élevé.
+**Biens achetés (Purchased Goods)**
 
-#### Limites et omissions
+* Score STARS : 1,13 point STARS sur 4 au crédit OP-10, niveau faible
 
-Ce rapport ne peut pas établir les émissions directes de GES (champ d'application 1) de l'UCC, car les données ne sont pas disponibles. De même, ce rapport ne peut pas établir les émissions indirectes de GES liées à l'énergie (champ d'application 2), car les méthodes utilisées ne sont pas précisées.
+**Conception et construction des bâtiments (Building Design and Construction)**
+
+* Score STARS : 2,95 points STARS sur 3 au crédit OP-1, niveau élevé
+
+**Exploitation et maintenance des bâtiments (Building Operations and Maintenance)**
+
+* Score STARS : 2,08 points STARS sur 5 au crédit OP-2, niveau intermédiaire
+
+**Flotte de véhicules (Vehicle Fleet)**
+
+* Score STARS : 0,67 point STARS sur 2 au crédit OP-13, niveau faible
+
+**Modes de déplacement domicile-campus (Commute Modal Split)**
+
+* Score STARS : 4,83 points STARS sur 6 au crédit OP-14, niveau élevé
+
+**Voyages en avion (Air Travel)**
+
+* Score STARS : 0 point STARS sur 2 au crédit OP-15, niveau nul
+
+**Gestion écologique des espaces verts (Ecologically Managed Grounds)**
+
+* Score STARS : 4,06 points STARS sur 5 au crédit OP-4, niveau élevé
+
+**Évaluation de la biodiversité (Biodiversity Assessment)**
+
+* Score STARS : 1 point STARS sur 1 au crédit IL-24, niveau maximal
+
+**Part des points STARS obtenus dans le pilier Environnement**
 
 ## Performance sociale et économique
 
-<p class="review">Section à relire : le juge automatique n'a pas pu la valider entièrement (voir l'annexe « Validation du rapport »).</p>
 | Crédit STARS | Points obtenus | Niveau |
 |---|---:|---|
 | PA-13 — Pay Equity and Living Wage | 3,8 / 5 | élevé |
@@ -250,31 +294,29 @@ Ce rapport ne peut pas établir les émissions directes de GES (champ d'applicat
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-#### Politiques et dispositifs
+L'University College Cork (UCC) a obtenu 3,8 points STARS sur 5 au crédit PA-13, niveau élevé, et 3 points STARS sur 3 au crédit PA-12, niveau maximal.
 
-L'Université College Cork (UCC) a mis en place diverses politiques et dispositifs pour promouvoir la performance sociale et économique. La politique de l'équité salariale (3,8/5) a été évaluée comme étant élevée. De plus, la politique de droits de l'emploi (3/3) a été évaluée comme étant maximale.
+La politique de congé parental de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs, les taux de retour ou les taux de rétention.
 
-L'UCC a également mis en place une politique de santé et sécurité au travail (partiellement rapportée). Le système de management de la santé et de la sécurité au travail est en place, mais les informations disponibles ne permettent pas de déterminer si ce système est réglementaire ou si une norme spécifique est suivie.
+L'UCC a également obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal, et 2 points STARS sur 2 au crédit PA-8, niveau maximal.
 
-#### Diversité et inclusion
+La politique de diversité et d'inclusion de l'UCC est décrite dans le rapport STARS, notamment dans le cadre de l'Action Plan 2025 - 2028.
 
-L'UCC a également mis en place diverses politiques et dispositifs pour promouvoir la diversité et l'inclusion. La politique de diversité des organes de gouvernance et des salariés (non évaluée) n'a pas été évaluée, mais l'UCC a mis en place un indice de diversité qui n'est pas la ventilation en pourcentages demandée.
+La politique de santé, de sécurité et de bien-être de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation.
 
-#### Équité salariale
+La politique d'équité salariale et de salaire décent de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation.
 
-L'équité salariale est un aspect important de la performance sociale et économique de l'UCC. La politique de l'équité salariale (3,8/5) a été évaluée comme étant élevée.
+L'UCC a également obtenu 2,5 points STARS sur 3 au crédit PA-10, niveau élevé.
 
-#### Droits de l'emploi
+### Limites et omissions
 
-Les droits de l'emploi sont également un aspect important de la performance sociale et économique de l'UCC. La politique de droits de l'emploi (3/3) a été évaluée comme étant maximale.
+Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de congé parental, de santé, de sécurité et de bien-être, ou d'équité salariale et de salaire décent.
 
-#### Santé et sécurité au travail
+Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de diversité et d'inclusion.
 
-La santé et la sécurité au travail sont des aspects importants de la performance sociale et économique de l'UCC. La politique de santé et sécurité au travail (partiellement rapportée) a été évaluée comme étant partiellement rapportée.
+Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de santé, de sécurité et de bien-être.
 
-#### Diversité et inclusion
-
-La diversité et l'inclusion sont des aspects importants de la performance sociale et économique de l'UCC.
+(GRI 202-1, GRI 401-2, GRI 401-3, GRI 403-1, GRI 403-3, GRI 403-4, GRI 403-6, GRI 405-1)
 
 ## Enseignement, recherche et engagement (hors GRI)
 
@@ -297,33 +339,43 @@ La diversité et l'inclusion sont des aspects importants de la performance socia
 
 ### Enseignement, recherche et engagement
 
-#### Organisation et politiques
+L'Université College Cork (UCC) a démontré sa détermination à intégrer la durabilité dans ses programmes et activités. Les résultats des crédits STARS suivants reflètent cette approche :
 
-L'University College Cork (UCC) a mis en place plusieurs initiatives pour intégrer la durabilité dans son enseignement. Le module "Planet - Preparing Leaders for a Sustainable World" est obligatoire pour les étudiants de la Cork University Business School, leur permettant d'acquérir une connaissance approfondie des aspects environnementaux de la durabilité (GRI 305-1).
+- L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal Offre de cours en durabilité, niveau maximal.
+- L'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé Programmes de premier cycle, niveau élevé.
+- L'université obtient 7,09 points STARS sur 8 au crédit AC-3, niveau élevé Programmes de cycles supérieurs, niveau élevé.
+- L'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal Recherche en durabilité, niveau maximal.
+- L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal Centre de recherche en durabilité, niveau maximal.
+- L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal Communication et sensibilisation, niveau maximal.
+- L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal Activités parascolaires, niveau maximal.
+- L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal Engagement et formation du personnel, niveau maximal.
+- L'université obtient 7 points STARS sur 8 au crédit EN-5, niveau élevé Engagement civique, niveau élevé.
+- L'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal Formation continue, niveau maximal.
 
-#### Recherche et développement
+### Limites et omissions
 
-La UCC a créé le "UCC Green Campus Living Laboratory Seed Fund", qui offre une bourse financière complète pour couvrir les frais et le traitement d'un étudiant de master par recherche, dans le but de soutenir les recherches en durabilité. Le "Delap Prize for Postgraduate Research" est également décerné annuellement par le School of Biological, Earth & Environmental Sciences pour récompenser la meilleure publication scientifique (GRI 305-1).
-
-#### Engagement et communication
-
-La UCC met en avant sa committment à la durabilité dans de nombreux documents et communications destinés aux étudiants et au personnel. Les nouvelles d'actualité sur la durabilité sont régulièrement diffusées auprès de la communauté universitaire par le biais du message trimestriel du Président et du newsletter de l'Office de la durabilité et de l'action climatique (GRI 305-1).
-
-#### Activités co-curriculaires et formation
-
-Le Centre pour l'éducation des adultes et la formation continue offre également le Diplôme en Environnement, Durabilité et Climat, qui introduit les étudiants aux théories et compétences clés en matière d'environnement et de durabilité (GRI 305-1).
-
-#### Limites et omissions
-
-Ce rapport ne peut pas établir lesquelles sont les qualifications universitaires qui sont focalisées sur la durabilité et qui ont des exigences d'apprentissage focalisées sur la durabilité.
+Ce rapport ne peut pas établir si les programmes et activités de l'université sont accessibles à tous les étudiants et membres du personnel.
 
 ## Index de contenu GRI
 
 | Rapporté | Partiellement rapporté | Non rapporté | Non évalué |
 |:-:|:-:|:-:|:-:|
-| 0 | 25 | 37 | 16 |
+| 0 | 28 | 44 | 14 |
 
 *Statuts calculés par le code à partir de la table de correspondance écrite à la main (`mapping/gri_map.yaml`). « Non évalué » : un champ STARS correspondant existe mais sa valeur n'a pas été extraite.*
+
+### GRI 101 : Biodiversité 2024
+
+| Publication | Statut | Valeur ou justification | Remarques |
+|---|---|---|---|
+| **101-1** Politiques pour enrayer et inverser la perte de biodiversité | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
+| **101-2** Gestion des impacts sur la biodiversité | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (OP-4) ; les champs structurés n'ont pas été extraits. | OP-4 décrit la gestion écologique des espaces verts du campus ; GRI 101-2 vise aussi la chaîne de valeur et la hiérarchie d'atténuation (éviter, réduire, restaurer). |
+| **101-3** Accès et partage des avantages | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
+| **101-4** Identification des impacts sur la biodiversité | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (IL-24) ; les champs structurés n'ont pas été extraits. | IL-24 (crédit bonus) : évaluation de la biodiversité des terrains de l'établissement (espèces, habitats). GRI 101-4 demande aussi les impacts indirects, dans la chaîne d'approvisionnement. |
+| **101-5** Sites ayant des impacts sur la biodiversité | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (IL-24) ; les champs structurés n'ont pas été extraits. | IL-24 couvre les terrains possédés ou gérés par l'établissement ; GRI 101-5 demande la liste des sites, leur superficie et leur proximité avec des zones importantes pour la biodiversité. |
+| **101-6** Facteurs directs de perte de biodiversité | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
+| **101-7** Évolution de l'état de la biodiversité | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
+| **101-8** Services écosystémiques | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
 
 ### GRI 2 : Éléments généraux 2021
 
@@ -342,14 +394,14 @@ Ce rapport ne peut pas établir lesquelles sont les qualifications universitaire
 | **2-11** Président de l'organe de gouvernance le plus élevé | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
 | **2-12** Rôle de l'organe de gouvernance dans la supervision de la gestion des impacts | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
 | **2-13** Délégation de la responsabilité de la gestion des impacts | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (PA-1) ; les champs structurés n'ont pas été extraits. | GRI 2-13-b demande si et à quelle fréquence ces responsables rendent compte à l'organe de gouvernance ; STARS ne le demande pas. |
-| **2-14** Rôle de l'organe de gouvernance dans le reporting de durabilité | <span class="badge pend">Non évalué</span> | Champ STARS identifié (PRE-1) mais valeur non extraite : nécessite les pages STARS authentifiées. | Une lettre signée par la direction n'est pas une revue et une approbation par l'organe de gouvernance ; le texte de la lettre n'est pas dans les données. |
+| **2-14** Rôle de l'organe de gouvernance dans le reporting de durabilité | <span class="badge no">Non rapporté</span> | Aucune donnée : PRE-1 non renseigné par l'établissement. | Une lettre signée par la direction n'est pas une revue et une approbation par l'organe de gouvernance ; le texte de la lettre n'est pas dans les données. |
 | **2-15** Conflits d'intérêts | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
 | **2-16** Communication des préoccupations majeures | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
 | **2-17** Connaissances collectives de l'organe de gouvernance | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
 | **2-18** Évaluation de la performance de l'organe de gouvernance | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
 | **2-19** Politiques de rémunération | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
 | **2-20** Procédure de détermination de la rémunération | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
-| **2-21** Ratio de rémunération totale annuelle | <span class="badge pend">Non évalué</span> | Champ STARS identifié (IL-62) mais valeur non extraite : nécessite les pages STARS authentifiées. | Dénominateurs différents : GRI divise par la rémunération MÉDIANE, STARS (IL-62, crédit bonus facultatif) par la plus BASSE. Le chiffre STARS n'est pas comparable à un ratio GRI 2-21. |
+| **2-21** Ratio de rémunération totale annuelle | <span class="badge no">Non rapporté</span> | Aucune donnée : IL-62 non renseigné par l'établissement. | Dénominateurs différents : GRI divise par la rémunération MÉDIANE, STARS (IL-62, crédit bonus facultatif) par la plus BASSE. Le chiffre STARS n'est pas comparable à un ratio GRI 2-21. |
 | **2-22** Déclaration sur la stratégie de développement durable | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (PA-2) ; les champs structurés n'ont pas été extraits. | GRI 2-22 exige une déclaration de l'organe de gouvernance ou du dirigeant le plus élevé ; STARS n'attribue pas la vision à un signataire. |
 | **2-23** Engagements politiques | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (PA-2) ; les champs structurés n'ont pas été extraits. | GRI 2-23 vise les engagements relatifs aux droits humains et au devoir de vigilance ; un engagement de durabilité est plus large et ne les implique pas. |
 | **2-24** Intégration des engagements politiques | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (OP-9, EN-3, PA-1) ; les champs structurés n'ont pas été extraits. | STARS décrit des résultats (code fournisseurs, formations) mais pas l'attribution interne des responsabilités ni l'intégration dans les procédures. |
@@ -468,28 +520,81 @@ Ce rapport ne peut pas établir lesquelles sont les qualifications universitaire
 | **405-1** Diversité des organes de gouvernance et des salariés | <span class="badge pend">Non évalué</span> | Champ STARS identifié (PA-7, PA-8) mais valeur non extraite : nécessite les pages STARS authentifiées. | Un indice de diversité (score de 0 à 1) n'est pas la ventilation en pourcentages demandée ; deux catégories de genre au lieu de trois ; aucune donnée d'âge. |
 | **405-2** Ratio du salaire de base et de la rémunération des femmes par rapport aux hommes | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. | PA-13 couvre le salaire décent, pas l'écart de rémunération femmes-hommes, malgré son intitulé « Pay Equity ». |
 
+## Annexe — Correspondance STARS → GRI, TCFD, ESRS
+
+Correspondance **thématique** écrite à la main (`mapping/frameworks.yaml`, `mapping/gri_map.yaml`), jamais générée par le modèle. Un crédit sans équivalent est marqué « Aucune correspondance » plutôt que forcé. Correspondance STARS -> GRI : 22/50 crédits reliés, 28 sans correspondance \| TCFD : 7/50 crédits reliés, 43 sans correspondance \| ESRS : 32/50 crédits reliés, 18 sans correspondance.
+
+| Crédit STARS | GRI | TCFD | ESRS |
+|---|---|---|---|
+| **PRE-1** Executive Letter | GRI 2-14 | Aucune correspondance | Aucune correspondance |
+| **PRE-2** Points of Distinction | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **PRE-3** Institutional Characteristics | GRI 2-1, GRI 2-2, GRI 2-6, GRI 2-7 | Aucune correspondance | ESRS 2 |
+| **PRE-4** Reporting Methodologies | GRI 2-3, GRI 2-5 | Aucune correspondance | ESRS 2 |
+| **AC-1** Sustainability Course Offerings | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-2** Undergraduate Programs | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-3** Graduate Programs | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-4** Applied Learning | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-5** Sustainability Literacy Assessment | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-6** Sustainability Research | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-7** Center for Sustainability Research | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-8** Responsible Research and Innovation | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-1** Outreach and Communications | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-2** Co-Curricular Activities | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-3** Staff Engagement and Training | GRI 2-24 | Aucune correspondance | S1 |
+| **EN-4** Sustainability Culture Assessment | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-5** Civic Engagement | Aucune correspondance | Aucune correspondance | S3 |
+| **EN-6** Community Partnerships | GRI 2-29 | Aucune correspondance | S3 |
+| **EN-7** Continuing Education | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-8** Shared Facilities | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-9** Inter-Campus Collaboration | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **OP-1** Building Design and Construction | Aucune correspondance | Aucune correspondance | E1 |
+| **OP-2** Building Operations and Maintenance | Aucune correspondance | Aucune correspondance | E1 |
+| **OP-3** Water Use | GRI 303-1, GRI 303-3 | Aucune correspondance | E3 |
+| **OP-4** Ecologically Managed Grounds | GRI 101-2 | Aucune correspondance | E4, E2 |
+| **OP-5** Energy Use | GRI 302-1, GRI 302-3 | MT-a | E1 |
+| **OP-6** Greenhouse Gas Emissions | GRI 2-3, GRI 305-1, GRI 305-2, GRI 305-3, GRI 305-4, GRI 305-5 | MT-b, MT-c | E1 |
+| **OP-7** Dining Service Procurement | Aucune correspondance | Aucune correspondance | G1 |
+| **OP-8** Food Recovery | Aucune correspondance | Aucune correspondance | E5 |
+| **OP-9** Sustainable Procurement System | GRI 2-24, GRI 308-1 | Aucune correspondance | G1, S2 |
+| **OP-10** Purchased Goods | Aucune correspondance | Aucune correspondance | E5 |
+| **OP-11** Materials Management | GRI 306-2 | Aucune correspondance | E5, E2 |
+| **OP-12** Waste Generation and Recovery | GRI 306-2, GRI 306-3, GRI 306-4, GRI 306-5 | Aucune correspondance | E5 |
+| **OP-13** Vehicle Fleet | Aucune correspondance | MT-a | E1 |
+| **OP-14** Commute Modal Split | Aucune correspondance | MT-a | E1 |
+| **OP-15** Air Travel | Aucune correspondance | MT-a | E1 |
+| **PA-1** Sustainability Coordination | GRI 2-13, GRI 2-24, GRI 3-3 | GOV-b | ESRS 2 |
+| **PA-2** Commitments and Planning | GRI 2-22, GRI 2-23, GRI 2-28, GRI 3-2, GRI 3-3 | STR-a, MT-c | ESRS 2, E1 |
+| **PA-3** Institutional Governance | GRI 2-9, GRI 2-29 | Aucune correspondance | ESRS 2 |
+| **PA-4** Sustainable Investment Program | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **PA-5** Investment Holdings | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **PA-6** Institutional Climate | Aucune correspondance | Aucune correspondance | S1 |
+| **PA-7** Racial and Ethnic Representation | GRI 405-1 | Aucune correspondance | S1 |
+| **PA-8** Gender Parity | GRI 405-1 | Aucune correspondance | S1 |
+| **PA-9** Affordability and Access | GRI 202-1 | Aucune correspondance | S4 |
+| **PA-10** Student Success | Aucune correspondance | Aucune correspondance | S4 |
+| **PA-11** Health, Safety and Wellbeing | GRI 403-1, GRI 403-3, GRI 403-4, GRI 403-6 | Aucune correspondance | S1 |
+| **PA-12** Employee Rights | GRI 2-25, GRI 2-26, GRI 401-2, GRI 401-3 | Aucune correspondance | S1, G1 |
+| **PA-13** Pay Equity and Living Wage | GRI 202-1 | Aucune correspondance | S1 |
+| **IL-24** Biodiversity Assessment | GRI 101-4, GRI 101-5 | Aucune correspondance | E4 |
+
 ## Annexe — Validation du rapport
 
 Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → substitution par le code → audit par le juge → régénération si refus (trois tentatives au plus).
 
 | Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |
 |---|---|:-:|:-:|:-:|:-:|:-:|--:|
-| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 1 | 0 | 2/5 | 100% | 83% | 8.9 min |
-| Thèmes matériels | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 83% | 100% | 6.3 min |
-| Gouvernance | <span class="badge ok">validée</span> | 1 | 0 | 2/5 | 100% | 75% | 6.3 min |
-| Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 100% | 83% | 13.0 min |
-| Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 83% | 100% | 6.3 min |
-| Performance environnementale | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 11.3 min |
-| Performance sociale et économique | <span class="badge part">à relire</span> | 2 | 0 | 2/5 | 67% | 0% | 16.7 min |
-| Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 1 | 0 | 3/5 | 100% | 100% | 10.1 min |
+| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 67% | 6.9 min |
+| Thèmes matériels | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 83% | 100% | 8.6 min |
+| Gouvernance | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 7.8 min |
+| Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 10.6 min |
+| Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 8.1 min |
+| Performance environnementale | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 12.5 min |
+| Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 11.1 min |
+| Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 100% | 100% | 8.6 min |
 
-**Bilan :** 7 section(s) validée(s) sur 8 ; fidélité moyenne 92% ; 0 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
+**Bilan :** 8 section(s) validée(s) sur 8 ; fidélité moyenne 98% ; 1 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
-2 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
-
-**À relire par un humain** — affirmations que le juge n'a pas trouvées dans les sources :
-- *Performance sociale et économique* : « La politique de diversité des organes de gouvernance et des salariés n'a pas été évaluée. »
-- *Performance sociale et économique* : « L'UCC a mis en place un indice de diversité qui n'est pas la ventilation en pourcentages demandée. »
+1 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
 
 ## Vérifier ce rapport
 

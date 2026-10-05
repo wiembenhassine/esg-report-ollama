@@ -1,70 +1,80 @@
 {
- "prompt_hash": "890a2dcf5e038b88",
- "round": 1,
+ "prompt_hash": "5a0822c96d4d9fb7",
+ "round": 0,
  "decision": "validée",
- "text": "### Organisation, périmètre et effectifs\n\nL'organisation est la Technological University Dublin (TUD), établie en Irlande. Le rapport STARS 3.0 de l'université a obtenu la note « Gold ».\n\nLe périmètre de l'université n'est pas spécifié sous forme de liste d'entités. Le rapport STARS décrit le périmètre sous forme de récit libre, mentionnant que l'université a effectué une cartographie exhaustive pour identifier les personnes chargées de collecter, traiter et valider les informations pour chaque question STARS.\n\nLe nombre d'effectifs de l'université n'est pas spécifié. Le rapport STARS mentionne que les données sont autodéclarées et non vérifiées par l'AASHE.\n\n(GRI 2-1, GRI 2-2, GRI 2-7)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le détail de l'organisation, le siège et les pays d'activité de l'université, car ces informations ne sont pas collectées par STARS. De plus, le rapport STARS ne fournit pas de liste d'entités incluses dans le reporting de durabilité, ni de données sur les effectifs de l'université. Enfin, le rapport STARS ne fournit pas de données sur la vérification externe de l'université, car les données STARS sont autodéclarées et non vérifiées par l'AASHE.\n\n(GRI 2-1, GRI 2-2, GRI 2-5)",
- "used_facts": [],
- "judge_score": 2,
- "faithfulness": 1.0,
- "gri_coverage": 0.67,
- "unsupported_claims": [],
- "discarded_violations": [
-  "Le rapport mentionne que le rapport STARS a obtenu la note « Gold », ce qui est une violation de la règle selon laquelle le rapport ne doit pas prétendre à la conformité avec GRI."
+ "text": "### Organisation, périmètre et effectifs\n\nL'Université technologique de Dublin est une institution d'enseignement supérieur irlandaise. Le rapport STARS 3.0 de l'université a obtenu un score STARS global de un score STARS global de 83,35. Le rapport a été soumis le 2 décembre 2024.\n\nL'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derrière chaque question STARS. Cette étude a permis de suivre la chaîne d'approvisionnement de l'information. Une deuxième étude a identifié les systèmes d'information qui détiennent les informations requises par STARS ou exploitable pour le rapport.\n\nLes représentants de l'Union des étudiants et les membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux étudiants. \n\n(GRI 2-3)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE. (GRI 2-5)",
+ "used_facts": [
+  "STARS_date",
+  "STARS_score"
  ],
+ "judge_score": 4,
+ "faithfulness": 1.0,
+ "gri_coverage": 1.0,
+ "unsupported_claims": [],
+ "discarded_violations": [],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 366.2,
+ "seconds": 396.1,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Organisation, périmètre et effectifs\n\nL'organisation est la Technological University Dublin (TUD), établie en Irlande. Le rapport STARS 3.0 de l'université a obtenu la note « Gold ».\n\nLe périmètre de l'université n'est pas spécifié sous forme de liste d'entités. Le rapport STARS décrit le périmètre sous forme de récit libre, mentionnant que l'université a effectué une cartographie exhaustive pour identifier les personnes chargées de collecter, traiter et valider les informations pour chaque question STARS.\n\nLe nombre d'effectifs de l'université n'est pas spécifié. Le rapport STARS mentionne que les données sont autodéclarées et non vérifiées par l'AASHE.\n\n(GRI 2-1, GRI 2-2, GRI 2-7)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le détail de l'organisation, le siège et les pays d'activité de l'université, car ces informations ne sont pas collectées par STARS. De plus, le rapport STARS ne fournit pas de liste d'entités incluses dans le reporting de durabilité, ni de données sur les effectifs de l'université. Enfin, le rapport STARS ne fournit pas de données sur la vérification externe de l'université, car les données STARS sont autodéclarées et non vérifiées par l'AASHE.\n\n(GRI 2-1, GRI 2-2, GRI 2-5)",
-   "gen_seconds": 156.3,
-   "prompt_tokens": 1734,
-   "output_tokens": 354,
+   "draft": "### Organisation, périmètre et effectifs\n\nL'Université technologique de Dublin est une institution d'enseignement supérieur irlandaise. Le rapport STARS 3.0 de l'université a obtenu un score STARS global de {{ STARS_score }}. Le rapport a été soumis le {{ STARS_date }}.\n\nL'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derrière chaque question STARS. Cette étude a permis de suivre la chaîne d'approvisionnement de l'information. Une deuxième étude a identifié les systèmes d'information qui détiennent les informations requises par STARS ou exploitable pour le rapport.\n\nLes représentants de l'Union des étudiants et les membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux étudiants. \n\n(GRI 2-3)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE. (GRI 2-5)",
+   "gen_seconds": 175.8,
+   "prompt_tokens": 1824,
+   "output_tokens": 280,
    "raw_guard_problems": [],
    "removed_sentences": [],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 0.67,
-   "lint_notes": [],
-   "rendered": "### Organisation, périmètre et effectifs\n\nL'organisation est la Technological University Dublin (TUD), établie en Irlande. Le rapport STARS 3.0 de l'université a obtenu la note « Gold ».\n\nLe périmètre de l'université n'est pas spécifié sous forme de liste d'entités. Le rapport STARS décrit le périmètre sous forme de récit libre, mentionnant que l'université a effectué une cartographie exhaustive pour identifier les personnes chargées de collecter, traiter et valider les informations pour chaque question STARS.\n\nLe nombre d'effectifs de l'université n'est pas spécifié. Le rapport STARS mentionne que les données sont autodéclarées et non vérifiées par l'AASHE.\n\n(GRI 2-1, GRI 2-2, GRI 2-7)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le détail de l'organisation, le siège et les pays d'activité de l'université, car ces informations ne sont pas collectées par STARS. De plus, le rapport STARS ne fournit pas de liste d'entités incluses dans le reporting de durabilité, ni de données sur les effectifs de l'université. Enfin, le rapport STARS ne fournit pas de données sur la vérification externe de l'université, car les données STARS sont autodéclarées et non vérifiées par l'AASHE.\n\n(GRI 2-1, GRI 2-2, GRI 2-5)",
-   "used_facts": [],
+   "gri_coverage": 1.0,
+   "lint_notes": [
+    "longueur de 151 mots : vise 180 à 300 mots"
+   ],
+   "rendered": "### Organisation, périmètre et effectifs\n\nL'Université technologique de Dublin est une institution d'enseignement supérieur irlandaise. Le rapport STARS 3.0 de l'université a obtenu un score STARS global de un score STARS global de 83,35. Le rapport a été soumis le 2 décembre 2024.\n\nL'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derrière chaque question STARS. Cette étude a permis de suivre la chaîne d'approvisionnement de l'information. Une deuxième étude a identifié les systèmes d'information qui détiennent les informations requises par STARS ou exploitable pour le rapport.\n\nLes représentants de l'Union des étudiants et les membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux étudiants. \n\n(GRI 2-3)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE. (GRI 2-5)",
+   "used_facts": [
+    "STARS_date",
+    "STARS_score"
+   ],
    "trace_problems": [],
+   "used_markers": [
+    "STARS_date",
+    "STARS_score"
+   ],
    "judge": {
     "claims": [
      {
-      "claim": "Le rapport STARS 3.0 de l'université a obtenu la note « Gold ».",
+      "claim": "L'Université technologique de Dublin est une institution d'enseignement supérieur irlandaise.",
       "supported": true
      },
      {
-      "claim": "L'université a effectué une cartographie exhaustive pour identifier les personnes chargées de collecter, traiter et valider les informations",
+      "claim": "Le rapport STARS 3.0 de l'université a obtenu un score STARS global de 83,35.",
       "supported": true
      },
      {
-      "claim": "Les données sont autodéclarées et non vérifiées par l'AASHE.",
+      "claim": "Le rapport a été soumis le 2 décembre 2024.",
       "supported": true
      },
      {
-      "claim": "Le rapport ne peut pas établir le détail de l'organisation, le siège et les pays d'activité de l'université.",
+      "claim": "L'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derî",
       "supported": true
      },
      {
-      "claim": "Le rapport STARS ne fournit pas de liste d'entités incluses dans le reporting de durabilité.",
+      "claim": "Les représentants de l'Union des étudiants et les membres du Conseil de durabilité de l'université ont contribué à répondre aux questions li",
       "supported": true
      },
      {
-      "claim": "Le rapport STARS ne fournit pas de données sur les effectifs de l'université.",
+      "claim": "Ce rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université.",
       "supported": true
      }
     ],
-    "rule_violations": [],
-    "score": 2,
-    "feedback": "",
-    "faithfulness": 1.0,
-    "seconds": 209.9,
-    "discarded_violations": [
-     "Le rapport mentionne que le rapport STARS a obtenu la note « Gold », ce qui est une violation de la règle selon laquelle le rapport ne doit pas prétendre à la conformité avec GRI."
+    "rule_violations": [
+     "Le rapport présente une disclosure comme pleinement rapportée alors que la liste de statut GRI dit le contraire (GRI 2-3)"
     ],
+    "score": 4,
+    "feedback": "Supprimer la phrase 'L'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derî' car elle n'est pas étayée par les sources. La phrase 'Les représentants de l'Union des étudiants et les membres du Conseil de durabilité de l'université ont contribué à répondre aux questions li' est étayée par les sources, mais il faut supprimer la mention de 'Conseil de durabilité' car elle n'est pas mentionnée dans les sources. La G",
+    "faithfulness": 1.0,
+    "seconds": 220.2,
+    "discarded_violations": [],
     "accepted": true
    }
   }

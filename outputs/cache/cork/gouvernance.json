@@ -1,70 +1,70 @@
 {
- "prompt_hash": "a6e8b68c9cf34a09",
+ "prompt_hash": "3b68caaa9e394caf",
+ "round": 0,
  "decision": "validée",
- "text": "### Gouvernance\n\nL'Université College Cork a mis en place un organe de gouvernance composé de membres du Students Union, d'organisations externes et d'un représentant démocratiquement élu par le personnel de l'université. Ce dernier siège sur l'autorité de gouvernance, le plus haut organe décisionnel de l'université (GRI 2-9). \n\nL'Université a également signé l'engagement de l'UN PRI, ce qui implique l'intégration des questions ESG dans les processus d'analyse et de décision d'investissement, ainsi que dans les politiques de propriété et de gestion (GRI 2-13). \n\nLes fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis (GRI 2-21).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion des impacts à l'organe de gouvernance. De plus, le texte de la lettre signée par la direction n'est pas disponible.",
+ "text": "### Gouvernance\n\nL'Université College Cork (UCC) a mis en place un système de gouvernance qui favorise la durabilité et la responsabilité environnementale. Le poste de Head of Sustainability and Climate Action est occupé par Dr Maria Kirrane, qui coordonne l'Office de la durabilité et de l'action climatique. L'office est responsable de la mise en œuvre de la stratégie de durabilité de l'université et coordonne diverses initiatives et programmes universitaires.\n\nL'Université a également mis en place un système de gouvernance participatif, qui implique les étudiants dans les décisions importantes. Les membres du syndicat des étudiants (SU) siègent au sein de l'autorité de gouvernance de l'université, la plus haute instance décisionnelle. Les étudiants sont également représentés dans divers comités autonomes, tels que le Societies Guild Executive et le Clubs Executive, qui gèrent les activités extrascolaires des étudiants.\n\nL'Université a signé l'engagement des Nations Unies sur les Principes pour une investissement responsable (PRI), ce qui implique l'intégration des questions de durabilité environnementale, sociale et de gouvernance (ESG) dans les processus d'analyse et de décision d'investissement. L'Université a également mis en place des politiques de propriété et de pratiques d'investissement qui tiennent compte des questions ESG.\n\nLes fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis.\n\n(GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les informations relatives à la composition de l'autorité de gouvernance de l'université, ni les informations sur la fréquence de la réunion des responsables de la gestion des impacts.\n\n(GRI 2-13)",
  "used_facts": [],
- "judge_score": 2,
+ "judge_score": 4,
  "faithfulness": 1.0,
- "gri_coverage": 0.75,
+ "gri_coverage": 1.0,
  "unsupported_claims": [],
  "discarded_violations": [
-  "Le rapport prétend à la fois à la conformité avec GRI 2-9 et à ne pas être en mesure d'établir la composition de l'organe de gouvernance."
+  "Le rapport indique que les informations relatives à la composition de l'autorité de gouvernance de l'université sont non rapportées, mais il ne doit pas faire référence à une éventuelle non-compliance"
  ],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 377.7,
+ "seconds": 467.9,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Gouvernance\n\nL'Université College Cork a mis en place un organe de gouvernance composé de membres du Students Union, d'organisations externes et d'un représentant démocratiquement élu par le personnel de l'université. Ce dernier siège sur l'autorité de gouvernance, le plus haut organe décisionnel de l'université (GRI 2-9). \n\nL'Université a également signé l'engagement de l'UN PRI, ce qui implique l'intégration des questions ESG dans les processus d'analyse et de décision d'investissement, ainsi que dans les politiques de propriété et de gestion (GRI 2-13). \n\nLes fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis (GRI 2-21).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion des impacts à l'organe de gouvernance. De plus, le texte de la lettre signée par la direction n'est pas disponible.",
-   "gen_seconds": 162.5,
-   "prompt_tokens": 1944,
-   "output_tokens": 277,
+   "draft": "### Gouvernance\n\nL'Université College Cork (UCC) a mis en place un système de gouvernance qui favorise la durabilité et la responsabilité environnementale. Le poste de Head of Sustainability and Climate Action est occupé par Dr Maria Kirrane, qui coordonne l'Office de la durabilité et de l'action climatique. L'office est responsable de la mise en œuvre de la stratégie de durabilité de l'université et coordonne diverses initiatives et programmes universitaires.\n\nL'Université a également mis en place un système de gouvernance participatif, qui implique les étudiants dans les décisions importantes. Les membres du syndicat des étudiants (SU) siègent au sein de l'autorité de gouvernance de l'université, la plus haute instance décisionnelle. Les étudiants sont également représentés dans divers comités autonomes, tels que le Societies Guild Executive et le Clubs Executive, qui gèrent les activités extrascolaires des étudiants.\n\nL'Université a signé l'engagement des Nations Unies sur les Principes pour une investissement responsable (PRI), ce qui implique l'intégration des questions de durabilité environnementale, sociale et de gouvernance (ESG) dans les processus d'analyse et de décision d'investissement. L'Université a également mis en place des politiques de propriété et de pratiques d'investissement qui tiennent compte des questions ESG.\n\nLes fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis.\n\n(GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les informations relatives à la composition de l'autorité de gouvernance de l'université, ni les informations sur la fréquence de la réunion des responsables de la gestion des impacts.\n\n(GRI 2-13)",
+   "gen_seconds": 213.7,
+   "prompt_tokens": 2145,
+   "output_tokens": 439,
    "raw_guard_problems": [],
    "removed_sentences": [],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 0.75,
-   "lint_notes": [
-    "longueur de 152 mots : vise 180 à 300 mots"
-   ],
-   "rendered": "### Gouvernance\n\nL'Université College Cork a mis en place un organe de gouvernance composé de membres du Students Union, d'organisations externes et d'un représentant démocratiquement élu par le personnel de l'université. Ce dernier siège sur l'autorité de gouvernance, le plus haut organe décisionnel de l'université (GRI 2-9). \n\nL'Université a également signé l'engagement de l'UN PRI, ce qui implique l'intégration des questions ESG dans les processus d'analyse et de décision d'investissement, ainsi que dans les politiques de propriété et de gestion (GRI 2-13). \n\nLes fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis (GRI 2-21).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion des impacts à l'organe de gouvernance. De plus, le texte de la lettre signée par la direction n'est pas disponible.",
+   "gri_coverage": 1.0,
+   "lint_notes": [],
+   "rendered": "### Gouvernance\n\nL'Université College Cork (UCC) a mis en place un système de gouvernance qui favorise la durabilité et la responsabilité environnementale. Le poste de Head of Sustainability and Climate Action est occupé par Dr Maria Kirrane, qui coordonne l'Office de la durabilité et de l'action climatique. L'office est responsable de la mise en œuvre de la stratégie de durabilité de l'université et coordonne diverses initiatives et programmes universitaires.\n\nL'Université a également mis en place un système de gouvernance participatif, qui implique les étudiants dans les décisions importantes. Les membres du syndicat des étudiants (SU) siègent au sein de l'autorité de gouvernance de l'université, la plus haute instance décisionnelle. Les étudiants sont également représentés dans divers comités autonomes, tels que le Societies Guild Executive et le Clubs Executive, qui gèrent les activités extrascolaires des étudiants.\n\nL'Université a signé l'engagement des Nations Unies sur les Principes pour une investissement responsable (PRI), ce qui implique l'intégration des questions de durabilité environnementale, sociale et de gouvernance (ESG) dans les processus d'analyse et de décision d'investissement. L'Université a également mis en place des politiques de propriété et de pratiques d'investissement qui tiennent compte des questions ESG.\n\nLes fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis.\n\n(GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les informations relatives à la composition de l'autorité de gouvernance de l'université, ni les informations sur la fréquence de la réunion des responsables de la gestion des impacts.\n\n(GRI 2-13)",
    "used_facts": [],
    "trace_problems": [],
+   "used_markers": [],
    "judge": {
     "claims": [
      {
-      "claim": "L'Université College Cork a mis en place un organe de gouvernance composé de membres du Students Union, d'organisations externes et d'un rép",
+      "claim": "L'Université College Cork (UCC) a mis en place un système de gouvernance qui favorise la durabilité et la responsabilité environnementale.",
       "supported": true
      },
      {
-      "claim": "Ce dernier siège sur l'autorité de gouvernance, le plus haut organe décisionnel de l'université (GRI 2-9).",
+      "claim": "Le poste de Head of Sustainability and Climate Action est occupé par Dr Maria Kirrane, qui coordonne l'Office de la durabilité et de l'acclé",
       "supported": true
      },
      {
-      "claim": "L'Université a également signé l'engagement de l'UN PRI, ce qui implique l'intégration des questions ESG dans les processus d'analyse et de",
+      "claim": "L'office est responsable de la mise en œuvre de la stratégie de durabilité de l'université et coordonne diverses initiatives et programmes",
       "supported": true
      },
      {
-      "claim": "Les fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les li",
+      "claim": "Les membres du syndicat des étudiants (SU) siègent au sein de l'autorité de gouvernance de l'université, la plus haute instance décisionelle",
       "supported": true
      },
      {
-      "claim": "Ce rapport ne peut pas établir la composition de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion",
+      "claim": "L'Université a signé l'engagement des Nations Unies sur les Principes pour une investissement responsable (PRI)",
       "supported": true
      },
      {
-      "claim": "De plus, le texte de la lettre signée par la direction n'est pas disponible.",
+      "claim": "Les fonds de l'Université sont gérés par Cantor Fitzgerald",
       "supported": true
      }
     ],
     "rule_violations": [],
-    "score": 2,
+    "score": 4,
     "feedback": "",
     "faithfulness": 1.0,
-    "seconds": 215.2,
+    "seconds": 254.1,
     "discarded_violations": [
-     "Le rapport prétend à la fois à la conformité avec GRI 2-9 et à ne pas être en mesure d'établir la composition de l'organe de gouvernance."
+     "Le rapport indique que les informations relatives à la composition de l'autorité de gouvernance de l'université sont non rapportées, mais il ne doit pas faire référence à une éventuelle non-compliance"
     ],
     "accepted": true
    }
@@ -92,11 +92,11 @@
   },
   {
    "credit": "PA-3",
-   "text": "[n] members of the Students Union sit on the University's Governing Authority, the highest decision making body in the University."
+   "text": "members of the Students Union sit on the University's Governing Authority, the highest decision making body in the University."
   },
   {
    "credit": "PA-3",
-   "text": "A number of representatives of external organisations are members of the University's Governing Authority "
+   "text": "A number of representatives of external organisations are members of the University's Governing Authority"
   },
   {
    "credit": "PA-3",

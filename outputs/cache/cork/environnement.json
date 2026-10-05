@@ -1,8 +1,13 @@
 {
- "prompt_hash": "f57196ff73278c3e",
+ "prompt_hash": "0b2f32c07d1cd2de",
+ "round": 0,
  "decision": "validée",
- "text": "### Performance environnementale\n\n#### Énergie\n\nL'Université College Cork (UCC) a déclaré que 5,62 points ont été obtenus sur 10 possibles pour la performance énergétique, ce qui correspond à un niveau intermédiaire. \n\nL'UCC a également déclaré que 10,63 points ont été obtenus sur 16 possibles pour les émissions de gaz à effet de serre, ce qui correspond à un niveau intermédiaire.\n\n#### Eau\n\nL'UCC a déclaré que 4,67 points ont été obtenus sur 6 possibles pour la gestion de l'eau, ce qui correspond à un niveau élevé.\n\n#### Déchets\n\nL'UCC a déclaré que 3,99 points ont été obtenus sur 5 possibles pour la gestion des déchets, ce qui correspond à un niveau élevé.\n\n#### Matériaux\n\nL'UCC a déclaré que 3 points ont été obtenus sur 4 possibles pour la gestion des matériaux, ce qui correspond à un niveau élevé.\n\n#### Achats\n\nL'UCC a déclaré que 2,15 points ont été obtenus sur 7 possibles pour le système d'approvisionnement durable, ce qui correspond à un niveau faible.\n\n#### Véhicules\n\nL'UCC a déclaré que 0,67 points ont été obtenus sur 2 possibles pour la flotte de véhicules, ce qui correspond à un niveau faible.\n\n#### Transport\n\nL'UCC a déclaré que 4,83 points ont été obtenus sur 6 possibles pour la répartition modale des déplacements, ce qui correspond à un niveau élevé.\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir les émissions directes de GES (champ d'application 1) de l'UCC, car les données ne sont pas disponibles. De même, ce rapport ne peut pas établir les émissions indirectes de GES liées à l'énergie (champ d'application 2), car les méthodes utilisées ne sont pas précisées.\n\n### Limites et omissions\n\nCe rapport ne couvre",
+ "text": "Voici la section rédigée :\n\n**Environnement**\n\n**Consommation d'énergie (Energy Use)**\n\n* Score STARS : 5,62 points STARS sur 10 au crédit OP-5, niveau intermédiaire points STARS sur 5,62 points STARS sur 10 au crédit OP-5, niveau intermédiaire au crédit OP-5, niveau intermédiaire\n\n**Émissions de gaz à effet de serre (Greenhouse Gas Emissions)**\n\n* Score STARS : 10,63 points STARS sur 16 au crédit OP-6, niveau intermédiaire points STARS sur 10,63 points STARS sur 16 au crédit OP-6, niveau intermédiaire au crédit OP-6, niveau intermédiaire\n\n**Consommation d'eau (Water Use)**\n\n* Score STARS : 4,67 points STARS sur 6 au crédit OP-3, niveau élevé points STARS sur 4,67 points STARS sur 6 au crédit OP-3, niveau élevé au crédit OP-3, niveau élevé\n\n**Production et valorisation des déchets (Waste Generation and Recovery)**\n\n* Score STARS : 3,99 points STARS sur 5 au crédit OP-12, niveau élevé points STARS sur 3,99 points STARS sur 5 au crédit OP-12, niveau élevé au crédit OP-12, niveau élevé\n\n**Gestion des matériaux (Materials Management)**\n\n* Score STARS : 3 points STARS sur 4 au crédit OP-11, niveau élevé points STARS sur 3 points STARS sur 4 au crédit OP-11, niveau élevé au crédit OP-11, niveau élevé\n\n**Système d'achats durables (Sustainable Procurement System)**\n\n* Score STARS : 2,15 points STARS sur 7 au crédit OP-9, niveau faible points STARS sur 2,15 points STARS sur 7 au crédit OP-9, niveau faible au crédit OP-9, niveau faible\n\n**Biens achetés (Purchased Goods)**\n\n* Score STARS : 1,13 point STARS sur 4 au crédit OP-10, niveau faible points STARS sur 1,13 point STARS sur 4 au crédit OP-10, niveau faible au crédit OP-10, niveau faible\n\n**Conception et construction des bâtiments (Building Design and Construction)**\n\n* Score STARS : 2,95 points STARS sur 3 au crédit OP-1, niveau élevé points STARS sur 2,95 points STARS sur 3 au crédit OP-1, niveau élevé au crédit OP-1, niveau élevé\n\n**Exploitation et maintenance des bâtiments (Building Operations and Maintenance)**\n\n* Score STARS : 2,08 points STARS sur 5 au crédit OP-2, niveau intermédiaire points STARS sur 2,08 points STARS sur 5 au crédit OP-2, niveau intermédiaire au crédit OP-2, niveau intermédiaire\n\n**Flotte de véhicules (Vehicle Fleet)**\n\n* Score STARS : 0,67 point STARS sur 2 au crédit OP-13, niveau faible points STARS sur 0,67 point STARS sur 2 au crédit OP-13, niveau faible au crédit OP-13, niveau faible\n\n**Modes de déplacement domicile-campus (Commute Modal Split)**\n\n* Score STARS : 4,83 points STARS sur 6 au crédit OP-14, niveau élevé points STARS sur 4,83 points STARS sur 6 au crédit OP-14, niveau élevé au crédit OP-14, niveau élevé\n\n**Voyages en avion (Air Travel)**\n\n* Score STARS : 0 point STARS sur 2 au crédit OP-15, niveau nul points STARS sur 0 point STARS sur 2 au crédit OP-15, niveau nul au crédit OP-15, niveau nul\n\n**Gestion écologique des espaces verts (Ecologically Managed Grounds)**\n\n* Score STARS : 4,06 points STARS sur 5 au crédit OP-4, niveau élevé points STARS sur 4,06 points STARS sur 5 au crédit OP-4, niveau élevé au crédit OP-4, niveau élevé\n\n**Évaluation de la biodiversité (Biodiversity Assessment)**\n\n* Score STARS : 1 point STARS sur 1 au crédit IL-24, niveau maximal points STARS sur 1 point STARS sur 1 au crédit IL-24, niveau maximal au crédit IL-24, niveau maximal\n\n**Part des points STARS obtenus dans le pilier Environnement**\n\n**Pourcentage de points assignés à la durabilité dans le texte STARS (OP-9)**",
  "used_facts": [
+  "IL24_max",
+  "IL24_score",
+  "OP10_max",
+  "OP10_score",
   "OP11_max",
   "OP11_score",
   "OP12_max",
@@ -11,8 +16,16 @@
   "OP13_score",
   "OP14_max",
   "OP14_score",
+  "OP15_max",
+  "OP15_score",
+  "OP1_max",
+  "OP1_score",
+  "OP2_max",
+  "OP2_score",
   "OP3_max",
   "OP3_score",
+  "OP4_max",
+  "OP4_score",
   "OP5_max",
   "OP5_score",
   "OP6_max",
@@ -27,24 +40,32 @@
  "discarded_violations": [],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 675.3,
+ "seconds": 749.4,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Performance environnementale\n\n#### Énergie\n\nL'Université College Cork (UCC) a déclaré que {{ OP5_score }} points ont été obtenus sur {{ OP5_max }} possibles pour la performance énergétique, ce qui correspond à un niveau intermédiaire. \n\nL'UCC a également déclaré que {{ OP6_score }} points ont été obtenus sur {{ OP6_max }} possibles pour les émissions de gaz à effet de serre, ce qui correspond à un niveau intermédiaire.\n\n#### Eau\n\nL'UCC a déclaré que {{ OP3_score }} points ont été obtenus sur {{ OP3_max }} possibles pour la gestion de l'eau, ce qui correspond à un niveau élevé.\n\n#### Déchets\n\nL'UCC a déclaré que {{ OP12_score }} points ont été obtenus sur {{ OP12_max }} possibles pour la gestion des déchets, ce qui correspond à un niveau élevé.\n\n#### Matériaux\n\nL'UCC a déclaré que {{ OP11_score }} points ont été obtenus sur {{ OP11_max }} possibles pour la gestion des matériaux, ce qui correspond à un niveau élevé.\n\n#### Achats\n\nL'UCC a déclaré que {{ OP9_score }} points ont été obtenus sur {{ OP9_max }} possibles pour le système d'approvisionnement durable, ce qui correspond à un niveau faible.\n\n#### Véhicules\n\nL'UCC a déclaré que {{ OP13_score }} points ont été obtenus sur {{ OP13_max }} possibles pour la flotte de véhicules, ce qui correspond à un niveau faible.\n\n#### Transport\n\nL'UCC a déclaré que {{ OP14_score }} points ont été obtenus sur {{ OP14_max }} possibles pour la répartition modale des déplacements, ce qui correspond à un niveau élevé.\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir les émissions directes de GES (champ d'application 1) de l'UCC, car les données ne sont pas disponibles. De même, ce rapport ne peut pas établir les émissions indirectes de GES liées à l'énergie (champ d'application 2), car les méthodes utilisées ne sont pas précisées.\n\n### Limites et omissions\n\nCe rapport ne couvre",
-   "gen_seconds": 368.8,
-   "prompt_tokens": 2840,
-   "output_tokens": 520,
-   "raw_guard_problems": [],
-   "removed_sentences": [],
+   "draft": "Voici la section rédigée :\n\n**Environnement**\n\n**Consommation d'énergie (Energy Use)**\n\n* Score STARS : {{ OP5 }} points STARS sur {{ OP5 }} au crédit OP-5, niveau intermédiaire\n\n**Émissions de gaz à effet de serre (Greenhouse Gas Emissions)**\n\n* Score STARS : {{ OP6 }} points STARS sur {{ OP6 }} au crédit OP-6, niveau intermédiaire\n\n**Consommation d'eau (Water Use)**\n\n* Score STARS : {{ OP3 }} points STARS sur {{ OP3 }} au crédit OP-3, niveau élevé\n\n**Production et valorisation des déchets (Waste Generation and Recovery)**\n\n* Score STARS : {{ OP12 }} points STARS sur {{ OP12 }} au crédit OP-12, niveau élevé\n\n**Gestion des matériaux (Materials Management)**\n\n* Score STARS : {{ OP11 }} points STARS sur {{ OP11 }} au crédit OP-11, niveau élevé\n\n**Système d'achats durables (Sustainable Procurement System)**\n\n* Score STARS : {{ OP9 }} points STARS sur {{ OP9 }} au crédit OP-9, niveau faible\n\n**Biens achetés (Purchased Goods)**\n\n* Score STARS : {{ OP10 }} points STARS sur {{ OP10 }} au crédit OP-10, niveau faible\n\n**Conception et construction des bâtiments (Building Design and Construction)**\n\n* Score STARS : {{ OP1 }} points STARS sur {{ OP1 }} au crédit OP-1, niveau élevé\n\n**Exploitation et maintenance des bâtiments (Building Operations and Maintenance)**\n\n* Score STARS : {{ OP2 }} points STARS sur {{ OP2 }} au crédit OP-2, niveau intermédiaire\n\n**Flotte de véhicules (Vehicle Fleet)**\n\n* Score STARS : {{ OP13 }} points STARS sur {{ OP13 }} au crédit OP-13, niveau faible\n\n**Modes de déplacement domicile-campus (Commute Modal Split)**\n\n* Score STARS : {{ OP14 }} points STARS sur {{ OP14 }} au crédit OP-14, niveau élevé\n\n**Voyages en avion (Air Travel)**\n\n* Score STARS : {{ OP15 }} points STARS sur {{ OP15 }} au crédit OP-15, niveau nul\n\n**Gestion écologique des espaces verts (Ecologically Managed Grounds)**\n\n* Score STARS : {{ OP4 }} points STARS sur {{ OP4 }} au crédit OP-4, niveau élevé\n\n**Évaluation de la biodiversité (Biodiversity Assessment)**\n\n* Score STARS : {{ IL24 }} points STARS sur {{ IL24 }} au crédit IL-24, niveau maximal\n\n**Part des points STARS obtenus dans le pilier Environnement**\n\n* Part des points STARS : {{ ENV }} % des points STARS du pilier Environnement, niveau intermédiaire\n\n**Pourcentage de points assignés à la durabilité dans le texte STARS (OP-9)**",
+   "gen_seconds": 347.6,
+   "prompt_tokens": 2050,
+   "output_tokens": 700,
+   "raw_guard_problems": [
+    "marqueur {{ ENV }} suivi de « % » : c'est un score STARS complet, pas un nombre à compléter"
+   ],
+   "removed_sentences": [
+    "* Part des points STARS : {{ ENV }} % des points STARS du pilier Environnement, niveau intermédiaire"
+   ],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 0.0,
    "lint_notes": [
-    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 302-1), (GRI 302-3), (GRI 303-1), (GRI 303-3)"
+    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 101-2), (GRI 101-4), (GRI 101-5), (GRI 302-1)"
    ],
-   "rendered": "### Performance environnementale\n\n#### Énergie\n\nL'Université College Cork (UCC) a déclaré que 5,62 points ont été obtenus sur 10 possibles pour la performance énergétique, ce qui correspond à un niveau intermédiaire. \n\nL'UCC a également déclaré que 10,63 points ont été obtenus sur 16 possibles pour les émissions de gaz à effet de serre, ce qui correspond à un niveau intermédiaire.\n\n#### Eau\n\nL'UCC a déclaré que 4,67 points ont été obtenus sur 6 possibles pour la gestion de l'eau, ce qui correspond à un niveau élevé.\n\n#### Déchets\n\nL'UCC a déclaré que 3,99 points ont été obtenus sur 5 possibles pour la gestion des déchets, ce qui correspond à un niveau élevé.\n\n#### Matériaux\n\nL'UCC a déclaré que 3 points ont été obtenus sur 4 possibles pour la gestion des matériaux, ce qui correspond à un niveau élevé.\n\n#### Achats\n\nL'UCC a déclaré que 2,15 points ont été obtenus sur 7 possibles pour le système d'approvisionnement durable, ce qui correspond à un niveau faible.\n\n#### Véhicules\n\nL'UCC a déclaré que 0,67 points ont été obtenus sur 2 possibles pour la flotte de véhicules, ce qui correspond à un niveau faible.\n\n#### Transport\n\nL'UCC a déclaré que 4,83 points ont été obtenus sur 6 possibles pour la répartition modale des déplacements, ce qui correspond à un niveau élevé.\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir les émissions directes de GES (champ d'application 1) de l'UCC, car les données ne sont pas disponibles. De même, ce rapport ne peut pas établir les émissions indirectes de GES liées à l'énergie (champ d'application 2), car les méthodes utilisées ne sont pas précisées.\n\n### Limites et omissions\n\nCe rapport ne couvre",
+   "rendered": "Voici la section rédigée :\n\n**Environnement**\n\n**Consommation d'énergie (Energy Use)**\n\n* Score STARS : 5,62 points STARS sur 10 au crédit OP-5, niveau intermédiaire points STARS sur 5,62 points STARS sur 10 au crédit OP-5, niveau intermédiaire au crédit OP-5, niveau intermédiaire\n\n**Émissions de gaz à effet de serre (Greenhouse Gas Emissions)**\n\n* Score STARS : 10,63 points STARS sur 16 au crédit OP-6, niveau intermédiaire points STARS sur 10,63 points STARS sur 16 au crédit OP-6, niveau intermédiaire au crédit OP-6, niveau intermédiaire\n\n**Consommation d'eau (Water Use)**\n\n* Score STARS : 4,67 points STARS sur 6 au crédit OP-3, niveau élevé points STARS sur 4,67 points STARS sur 6 au crédit OP-3, niveau élevé au crédit OP-3, niveau élevé\n\n**Production et valorisation des déchets (Waste Generation and Recovery)**\n\n* Score STARS : 3,99 points STARS sur 5 au crédit OP-12, niveau élevé points STARS sur 3,99 points STARS sur 5 au crédit OP-12, niveau élevé au crédit OP-12, niveau élevé\n\n**Gestion des matériaux (Materials Management)**\n\n* Score STARS : 3 points STARS sur 4 au crédit OP-11, niveau élevé points STARS sur 3 points STARS sur 4 au crédit OP-11, niveau élevé au crédit OP-11, niveau élevé\n\n**Système d'achats durables (Sustainable Procurement System)**\n\n* Score STARS : 2,15 points STARS sur 7 au crédit OP-9, niveau faible points STARS sur 2,15 points STARS sur 7 au crédit OP-9, niveau faible au crédit OP-9, niveau faible\n\n**Biens achetés (Purchased Goods)**\n\n* Score STARS : 1,13 point STARS sur 4 au crédit OP-10, niveau faible points STARS sur 1,13 point STARS sur 4 au crédit OP-10, niveau faible au crédit OP-10, niveau faible\n\n**Conception et construction des bâtiments (Building Design and Construction)**\n\n* Score STARS : 2,95 points STARS sur 3 au crédit OP-1, niveau élevé points STARS sur 2,95 points STARS sur 3 au crédit OP-1, niveau élevé au crédit OP-1, niveau élevé\n\n**Exploitation et maintenance des bâtiments (Building Operations and Maintenance)**\n\n* Score STARS : 2,08 points STARS sur 5 au crédit OP-2, niveau intermédiaire points STARS sur 2,08 points STARS sur 5 au crédit OP-2, niveau intermédiaire au crédit OP-2, niveau intermédiaire\n\n**Flotte de véhicules (Vehicle Fleet)**\n\n* Score STARS : 0,67 point STARS sur 2 au crédit OP-13, niveau faible points STARS sur 0,67 point STARS sur 2 au crédit OP-13, niveau faible au crédit OP-13, niveau faible\n\n**Modes de déplacement domicile-campus (Commute Modal Split)**\n\n* Score STARS : 4,83 points STARS sur 6 au crédit OP-14, niveau élevé points STARS sur 4,83 points STARS sur 6 au crédit OP-14, niveau élevé au crédit OP-14, niveau élevé\n\n**Voyages en avion (Air Travel)**\n\n* Score STARS : 0 point STARS sur 2 au crédit OP-15, niveau nul points STARS sur 0 point STARS sur 2 au crédit OP-15, niveau nul au crédit OP-15, niveau nul\n\n**Gestion écologique des espaces verts (Ecologically Managed Grounds)**\n\n* Score STARS : 4,06 points STARS sur 5 au crédit OP-4, niveau élevé points STARS sur 4,06 points STARS sur 5 au crédit OP-4, niveau élevé au crédit OP-4, niveau élevé\n\n**Évaluation de la biodiversité (Biodiversity Assessment)**\n\n* Score STARS : 1 point STARS sur 1 au crédit IL-24, niveau maximal points STARS sur 1 point STARS sur 1 au crédit IL-24, niveau maximal au crédit IL-24, niveau maximal\n\n**Part des points STARS obtenus dans le pilier Environnement**\n\n**Pourcentage de points assignés à la durabilité dans le texte STARS (OP-9)**",
    "used_facts": [
+    "IL24_max",
+    "IL24_score",
+    "OP10_max",
+    "OP10_score",
     "OP11_max",
     "OP11_score",
     "OP12_max",
@@ -53,8 +74,16 @@
     "OP13_score",
     "OP14_max",
     "OP14_score",
+    "OP15_max",
+    "OP15_score",
+    "OP1_max",
+    "OP1_score",
+    "OP2_max",
+    "OP2_score",
     "OP3_max",
     "OP3_score",
+    "OP4_max",
+    "OP4_score",
     "OP5_max",
     "OP5_score",
     "OP6_max",
@@ -63,40 +92,56 @@
     "OP9_score"
    ],
    "trace_problems": [],
+   "used_markers": [
+    "IL24",
+    "OP1",
+    "OP10",
+    "OP11",
+    "OP12",
+    "OP13",
+    "OP14",
+    "OP15",
+    "OP2",
+    "OP3",
+    "OP4",
+    "OP5",
+    "OP6",
+    "OP9"
+   ],
    "judge": {
     "claims": [
      {
-      "claim": "5,62 points ont été obtenus sur 10 possibles pour la performance énergétique",
+      "claim": "Score STARS du crédit OP-5 Consommation d'énergie (Energy Use) : 5,62 points STARS sur 10",
       "supported": true
      },
      {
-      "claim": "10,63 points ont été obtenus sur 16 possibles pour les émissions de gaz à effet de serre",
+      "claim": "Score STARS du crédit OP-6 Émissions de gaz à effet de serre (Greenhouse Gas Emissions) : 10,63 points STARS sur 16",
       "supported": true
      },
      {
-      "claim": "4,67 points ont été obtenus sur 6 possibles pour la gestion de l'eau",
+      "claim": "Score STARS du crédit OP-3 Consommation d'eau (Water Use) : 4,67 points STARS sur 6",
       "supported": true
      },
      {
-      "claim": "3,99 points ont été obtenus sur 5 possibles pour la gestion des déchets",
+      "claim": "Score STARS du crédit OP-12 Production et valorisation des déchets (Waste Generation and Recovery) : 3,99 points STARS sur 5",
       "supported": true
      },
      {
-      "claim": "3 points ont été obtenus sur 4 possibles pour la gestion des matériaux",
+      "claim": "Score STARS du crédit OP-11 Gestion des matériaux (Materials Management) : 3 points STARS sur 4",
       "supported": true
      },
      {
-      "claim": "2,15 points ont été obtenus sur 7 possibles pour le système d'approvisionnement durable",
+      "claim": "Score STARS du crédit OP-9 Système d'achats durables (Sustainable Procurement System) : 2,15 points STARS sur 7",
       "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport déclare que les émissions directes de GES (champ d'application 1) de l'UCC sont non disponibles, ce qui est incorrect car il devrait être décrit comme quelque chose que ce rapport ne peut é"
+     "Le rapport mentionne que le crédit OP-9 a un niveau faible, mais le GRI STATUS LIST indique que le crédit GRI 308-1 est partiellement rapporté, ce qui n'est pas le cas pour le crédit OP-9."
     ],
     "score": 4,
-    "feedback": "Supprimer la phrase 'ce rapport ne peut pas établir les émissions directes de GES (champ d'application 1) de l'UCC, car les données ne sont pas disponibles.' et la remplacer par 'ce rapport ne peut pas établir les émissions directes de GES (champ d'application 1) de l'UCC, car les données ne permettent pas.'",
+    "feedback": "Supprimer les mentions de niveau faible pour le crédit OP-9 et le crédit GRI 308-1. Remplacer les mentions de niveau intermédiaire par les mentions correspondantes dans le GRI STATUS LIST.",
     "faithfulness": 1.0,
-    "seconds": 306.5,
+    "seconds": 401.5,
     "discarded_violations": [],
     "accepted": true
    }
@@ -112,11 +157,11 @@
   },
   {
    "credit": "OP-6",
-   "text": "Calculated by our contracted supplier Sustineo to GHG Protocol standards and ISO [n]-[n]. A top down method was used to assess expenditure data and identify hotspots. A bottom up methodology was then employed using primary data. UCC also submits data to the Sustainable Energy Authority of Ireland to report on the University's Climate Mandate to government. This is updated annually."
+   "text": "Calculated by our contracted supplier Sustineo to GHG Protocol standards and ISO -. A top down method was used to assess expenditure data and identify hotspots. A bottom up methodology was then employed using primary data. UCC also submits data to the Sustainable Energy Authority of Ireland to report on the University's Climate Mandate to government. This is updated annually."
   },
   {
    "credit": "OP-3",
-   "text": "In the University's Western Gateway Building, discharge water from the Ground Source Heat Pump (GSHP) is used to fill water storage tanks used in the flushing of toilets "
+   "text": "In the University's Western Gateway Building, discharge water from the Ground Source Heat Pump (GSHP) is used to fill water storage tanks used in the flushing of toilets"
   },
   {
    "credit": "OP-12",
@@ -124,11 +169,11 @@
   },
   {
    "credit": "OP-11",
-   "text": "The Health and Safety Office at UCC maintains protocols and training resources for the safe disposal of chemical and biological hazardous wastes. An example of one such protocol is here: "
+   "text": "The Health and Safety Office at UCC maintains protocols and training resources for the safe disposal of chemical and biological hazardous wastes. An example of one such protocol is here:"
   },
   {
    "credit": "OP-9",
-   "text": "[n]% would be the average of points assigned to sustainability. In some cases, where there is a very strong environmental impact associated with a certain activity the amount will be much higher, for example the [n] waste tender assigned [n]% of points for sustainability."
+   "text": "{{ OP9_t1_0 }} would be the average of points assigned to sustainability. In some cases, where there is a very strong environmental impact associated with a certain activity the amount will be much higher, for example the {{ OP9_t1_1 }} waste tender assigned {{ OP9_t1_2 }} of points for sustainability."
   },
   {
    "credit": "OP-10",
@@ -136,15 +181,15 @@
   },
   {
    "credit": "OP-2",
-   "text": "UCC has been certified to ISO[n] since [n]. Annual reviews are carried out to identify the significant energy users (SEU's) across UCC as well as the variables and people that can significantly impact them. To determine the SEU's the following process is applied:"
+   "text": "UCC has been certified to ISO since {{ OP2_t2_0 }}. Annual reviews are carried out to identify the significant energy users (SEU's) across UCC as well as the variables and people that can significantly impact them. To determine the SEU's the following process is applied:"
   },
   {
    "credit": "OP-13",
-   "text": "UCC's fleet inventory is relatively small, consisting of [n] work vehicles with a combined annual mileage of under [n] km. Emissions from this fleet account for less than [n]% of UCC's total annual energy-related emissions, while a further [n]% is attributed to fuel consumed by the Park & Ride service. Of the [n] vehicles, [n] are fully electric. The remaining [n] serve operational functions that are not yet suitable for electrification; however, as these vehicles reach the end of their service life, the University will assess technical options to transition them to electric alternatives where technical solutions are available."
+   "text": "UCC's fleet inventory is relatively small, consisting of work vehicles with a combined annual mileage of under km. Emissions from this fleet account for less than {{ OP13_t0_0 }} of UCC's total annual energy-related emissions, while a further {{ OP13_t0_1 }} is attributed to fuel consumed by the Park & Ride service. Of the vehicles, are fully electric. The remaining serve operational functions that are not yet suitable for electrification; however, as these vehicles reach the end of their service life, the University will assess technical options to transition them to electric alternatives where technical solutions are available."
   },
   {
-   "credit": "OP-14",
-   "text": "A staff travel survey is conducted every year by the commuter plan manager. The survey is shared to all staff via the All Exchange Users email survey. UCC Green Campus also shares via social media accounts. The data presented here are based on the [n] survey."
+   "credit": "OP-4",
+   "text": "Fastgrow seaweed fertiliser and xlpro bio organic products are used on campus grounds, if required.No pesticides or fungicides are used on campus landscapes, except where invasive species need to be controlled or eliminated. This approach is detailed in the uploaded IPM document."
   }
  ]
 }

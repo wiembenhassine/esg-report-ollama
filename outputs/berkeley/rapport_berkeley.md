@@ -1,9 +1,9 @@
 # Rapport de durabilité — University of California, Berkeley
-*Établi en référence aux normes GRI · généré le 2026-10-04 · données AASHE STARS 3.0*
+*Établi en référence aux normes GRI · généré le 2026-10-05 · données AASHE STARS 3.0*
 
 **À propos de ce rapport.** Ce rapport est généré automatiquement à partir de la soumission publique
 AASHE STARS 3.0 de University of California, Berkeley (19 février 2025), mise en correspondance avec les normes GRI.
-Il examine les 78 publications GRI de 13 normes. Lorsqu'une publication ne peut pas être renseignée à partir
+Il examine les 86 publications GRI de 14 normes (dont GRI 101: Biodiversité 2024). Lorsqu'une publication ne peut pas être renseignée à partir
 des données STARS, il le dit et explique pourquoi, au lieu d'omettre la question.
 
 **D'où viennent les chiffres, et pourquoi s'y fier.** Le modèle de langage qui rédige le texte
@@ -54,17 +54,43 @@ Les scores STARS 3.0 sont autodéclarés et notés par rapport à un groupe de p
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-### Organisation, périmètre et effectifs
+L'université de Californie, Berkeley, est une institution universitaire située dans la ville de Berkeley, en Californie. Elle est membre de l'Université de Californie, qui regroupe plusieurs établissements dans le même périmètre d'activité.
 
-L'organisation couverte par ce rapport est l'University of California, Berkeley. Elle est dénommée sous le nom de « University of California, Berkeley » et est située dans la ville de Berkeley (GRI 2-1).
+Le périmètre d'activité de l'université de Californie, Berkeley, est défini en fonction de ses besoins opérationnels.
 
-Le périmètre de l'organisation est celui de l'université, qui comprend son campus principal, le campus Hill, le Richmond Field Station et d'autres stations et réserves opérées par l'université (GRI 2-2). Ce périmètre n'est pas défini par une liste d'entités mais par une description du périmètre opérationnel de l'université.
+L'université de Californie, Berkeley, a déclaré que son périmètre d'activité est celui pour lequel elle conserve le contrôle opérationnel.
 
-L'effectif de l'université n'est pas défini en termes d'équivalent temps plein mais en termes de nombre de salariés (GRI 2-7).
+(GRI 2-1)
+
+L'université de Californie, Berkeley, a déclaré que son périmètre d'activité comprend les entités suivantes : le campus principal, le Hill campus, le Richmond Field Station et les réserves opérées par l'université.
+
+(GRI 2-2)
+
+(GRI 2-3)
+
+(GRI 2-3)
 
 ### Limites et omissions
 
-Ce rapport ne peut pas établir la dénomination légale de l'université, son siège ou les pays d'activité, car ces informations ne sont pas collectées par STARS. De même, ce rapport ne peut pas établir la chaîne de valeur, les produits et services, les marchés desservis ou la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur, car ces informations ne sont pas collectées par STARS.
+Ce rapport ne peut pas établir les détails sur la dénomination légale, le siège et les pays d'activité de l'université de Californie, Berkeley, car ces informations ne sont pas collectées par STARS.
+
+(GRI 2-1)
+
+Ce rapport ne peut pas établir les entités incluses dans le périmètre d'activité de l'université de Californie, Berkeley, car les ratios par personne ou par m² ne sont pas comparables tels quels.
+
+(GRI 2-2)
+
+Ce rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université de Californie, Berkeley, car ces informations ne sont pas collectées par STARS.
+
+(GRI 2-3)
+
+Ce rapport ne peut pas établir la vérification externe de l'université de Californie, Berkeley, car les informations sur la norme d'assurance, le niveau d'assurance et la relation avec le vérificateur ne sont pas collectées par STARS.
+
+(GRI 2-5)
+
+Ce rapport ne peut pas établir les activités, la chaîne de valeur et les relations d'affaires de l'université de Californie, Berkeley, car ces informations ne sont pas collectées par STARS.
+
+(GRI 2-6)
 
 ## Thèmes matériels
 
@@ -74,19 +100,13 @@ Ce rapport ne peut pas établir la dénomination légale de l'université, son s
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-#### Gestion des thèmes matériels
+Ces domaines sont fixés par STARS et sont identiques pour toutes les institutions.
 
-Ces domaines sont alignés avec les politiques de durabilité du système universitaire de l'Université de Californie.
+### Gestion des thèmes matériels
 
-L'Université de Californie à Berkeley a également mis en place des plans et des politiques pour atteindre ses objectifs de durabilité. Le plan de durabilité de l'Université de Californie à Berkeley comprend des objectifs spécifiques pour les domaines de la durabilité de l'énergie, de la durabilité de l'eau, de la durabilité des déchets et de la durabilité des systèmes alimentaires. Le plan de réduction des gaz à effet de serre de l'Université de Californie à Berkeley détaille les stratégies pour atteindre les objectifs de réduction des gaz à effet de serre.
+L'université a adopté un plan stratégique pour la durabilité qui inclut des objectifs mesurables, tels que l'expansion de l'accès et des opportunités de formation co-curriculaires et le développement de voies institutionnelles pour les clubs et les groupes étudiants pour accroître leur engagement intersectionnel avec le Centre de ressources environnementales (SERC). Le plan stratégique comprend également des objectifs stratégiques sous le but de renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de la durabilité.
 
-(GRI 3-3)
-
-#### Limites et omissions
-
-Ce rapport ne peut pas établir les impacts des thèmes matériels sur l'Université de Californie à Berkeley. Il ne fournit pas non plus de distinction entre les mesures de prévention et de remédiation, ni d'enseignements tirés de ces mesures.
-
-(GRI 3-2)
+L'université suit également la politique de pratiques durables du système UC, qui inclut des objectifs tels que la réduction des émissions de gaz à effet de serre de manière à atteindre un campus à zéro carbone.
 
 ## Gouvernance
 
@@ -99,25 +119,19 @@ Ce rapport ne peut pas établir les impacts des thèmes matériels sur l'Univers
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-#### Structure et composition de la gouvernance
+L'université de Californie à Berkeley a plusieurs officiers de durabilité dans le Bureau de la durabilité, la Haas et le SERC. L'université de Californie à Berkeley inclut des représentants étudiants dans son organe de décision le plus élevé, le conseil des régents de l'université de Californie. Bien que le conseil des régents gouverne l'ensemble du système de l'université de Californie et non seulement le campus de Berkeley, il exerce l'autorité ultime sur les politiques, les finances et la planification stratégique de l'université de Californie, y compris le campus de Berkeley.
 
-L'Université de Californie à Berkeley (UC Berkeley) dispose d'un organe de gouvernance composé du Conseil des régents de l'Université de Californie, qui est l'autorité suprême de l'université. Ce conseil est responsable de la fixation des politiques, des finances et de la planification stratégique de l'université. (GRI 2-9)
+L'université de Californie à Berkeley a plusieurs organes en cours qui permettent aux membres du personnel académique de participer à la gouvernance de l'institution. Le principal organe est la division de Berkeley de l'Académie de la durabilité, qui fait partie du Sénat académique de l'université de Californie. Ce Sénat fournit aux membres du personnel académique un moyen structuré et démocratique de participer à la gouvernance du campus et à la prise de décision.
 
-#### Délégation de la responsabilité de la gestion des impacts
+L'université de Californie à Berkeley obtient 3,5 points STARS sur 4 au crédit PA-3, niveau élevé.
 
-L'Université de Californie à Berkeley a délégué la responsabilité de la gestion des impacts à diverses unités, notamment l'Office de la durabilité, la Haas Business School et le SERC. Cependant, les informations disponibles ne permettent pas de déterminer si ces responsables rendent compte régulièrement à l'organe de gouvernance. (GRI 2-13)
+L'université de Californie à Berkeley obtient 4 points STARS sur 4 au crédit PA-4, niveau maximal.
 
-#### Rôle de l'organe de gouvernance dans le reporting de durabilité
+L'université de Californie à Berkeley obtient 2,51 points STARS sur 6 au crédit PA-5, niveau intermédiaire.
 
-L'Université de Californie à Berkeley a signé une lettre de la direction qui témoigne de son engagement en faveur de la durabilité. Cependant, cette lettre n'est pas une revue et une approbation par l'organe de gouvernance. (GRI 2-14)
+### Limites et omissions
 
-#### Ratio de rémunération totale annuelle
-
-L'Université de Californie à Berkeley n'a pas fourni de données sur le ratio de rémunération totale annuelle, ce qui est une information requise par GRI 2-21. (GRI 2-21)
-
-#### Limites et omissions
-
-Ce rapport ne peut pas établir si les responsables de la gestion des impacts rendent compte régulièrement à l'organe de gouvernance. De plus, les informations disponibles ne permettent pas de déterminer si l'organe de gouvernance a réellement approuvé la lettre de la direction. Enfin, les données disponibles ne permettent pas de calculer le ratio de rémunération totale annuelle.
+Ce rapport ne peut pas établir la structure et la composition de la gouvernance de l'université de Californie à Berkeley, en particulier les catégories GRI 2-10 à GRI 2-21, qui ne sont pas couvertes par STARS.
 
 ## Stratégie, politiques et pratiques
 
@@ -131,19 +145,21 @@ Ce rapport ne peut pas établir si les responsables de la gestion des impacts re
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-#### Engagements et planification
+L'Université de Californie à Berkeley (UC Berkeley) a adopté une stratégie de développement durable qui vise à renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de la durabilité. Cette stratégie est définie dans le plan stratégique du Student Environmental Resource Center (SERC) qui inclut des objectifs mesurables tels que l'expansion des opportunités de formation co-curriculaire et le développement de voies institutionnelles pour les clubs et les groupes étudiants pour accroître l'engagement intersectionnel avec le SERC.
 
-L'Université de Californie à Berkeley (UC Berkeley) a adopté un plan stratégique pour le développement durable, qui comprend des objectifs mesurables tels que l'expansion de l'accès et des opportunités pour le développement co-curriculaire et la mise en place de voies institutionnelles pour les clubs et les groupes d'étudiants pour accroître l'engagement intersectionnel avec le Centre des ressources environnementales pour les étudiants (SERC).
+L'UC Berkeley est signataire du Climate Leadership Commitments de Second Nature, qui inclut le Carbon Commitment. Cette déclaration externe renforce l'engagement de l'université à réduire les émissions de carbone et à renforcer la résilience face au changement climatique.
 
-L'UC Berkeley est signataire des Engagements de leadership climatique de Second Nature, qui incluent le Engagement sur le carbone. Cette promesse externe renforce l'engagement de l'université à réduire les émissions de carbone et à renforcer la résilience face au changement climatique.
+L'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée qui se consacre à avancer les objectifs de durabilité de l'université et à satisfaire ses engagements climatiques. Cette équipe, dirigée par le responsable de la durabilité et des solutions au carbone, collabore avec les départements et les parties prenantes de l'UC Berkeley pour développer des stratégies qui réduisent les émissions de gaz à effet de serre, améliorent l'achat durable et favorisent la responsabilité environnementale dans les opérations quotidiennes.
 
-(GRI 2-22, GRI 2-23)
+L'UC Berkeley a une section dédiée sur son site web des ressources humaines qui expose les politiques liées aux droits des salariés, notamment le traitement équitable, les procédures de réclamation et l'équilibre vie professionnelle. Ces politiques couvrent des domaines tels que la lutte contre les discriminations, la protection des lanceurs d'alerte et les avantages pour les salariés, offrant ainsi une vue transparente des droits et du soutien offerts aux salariés.
 
-#### Coordination de la durabilité
+L'université de Californie a également établi un Code des valeurs et des normes de conduite éthique qui s'applique à tous les campus de l'université, y compris Berkeley. Ce code met en avant l'engagement de l'université envers l'intégrité, le respect et la responsabilité dans ses relations avec les salariés.
 
-L'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée qui s'efforce d'avancer les objectifs de durabilité de l'université et de satisfaire ses engagements climatiques. L'équipe, dirigée par le directeur principal de la durabilité et des solutions au carbone, collabore avec les départements et les parties prenantes de l'université pour développer des stratégies qui réduisent les émissions de gaz à effet de serre, améliorent l'achat durable et favorisent la responsabilité environnementale dans les opérations quotidiennes.
+### Limites et omissions
 
-(GRI 2-22, GRI 2-25)
+Ce rapport ne peut pas établir les engagements politiques de l'UC Berkeley en ce qui concerne les droits humains et le devoir de vigilance, car STARS ne couvre pas ces aspects. De plus, STARS ne collecte pas les informations sur les mécanismes de demande de conseil et de signalement pour les personnes en relation d'affaires, ce qui constitue également un domaine non couvert par le rapport.
+
+(GRI 2-22, GRI 2-23, GRI 2-26)
 
 ## Engagement des parties prenantes
 
@@ -156,27 +172,23 @@ L'Office de la durabilité de l'UC Berkeley est dirigé par une équipe dédiée
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'engagement des parties prenantes est un aspect clé de la gouvernance de l'University of California, Berkeley. L'université a mis en place diverses structures pour impliquer les parties prenantes dans ses décisions et initiatives.
+L'engagement des parties prenantes est un aspect clé de la stratégie de l'University of California, Berkeley. Le rapport STARS indique que l'université a mis en place des comités consultatifs pour l'engagement communautaire, qui impliquent des membres de la communauté locale, notamment dans les domaines de la santé publique, de la durabilité et de la justice sociale.
 
-#### Participation des étudiants
+L'université a également établi des comités consultatifs pour la gouvernance, qui impliquent des membres de la communauté locale et des étudiants. Ces comités fournissent aux organisations communautaires un forum pour donner leur avis sur les politiques et les initiatives de l'université qui affectent la population locale.
 
-L'université compte des comités consultatifs qui rassemblent des membres de la communauté locale, notamment dans les domaines de la santé publique, de la durabilité et de la justice sociale. Ces comités offrent aux organisations communautaires un forum pour donner leurs avis sur les politiques et initiatives de l'université qui affectent la population locale.
+L'université a également mis en place des partenariats avec la communauté, tels que le programme College Corps, qui a permis à des étudiants de la faculté de participer à des partenariats communautaires dans le domaine de la justice climatique et alimentaire.
 
-Par exemple, l'Associated Students of the University of California, le Chancellor's Office, le Student Environmental Resource Center, la Zero Waste Coalition, la Graduate Assembly, l'Office of Student Affairs et la Housing and Dining division ont chacun un siège et un vote au sein du CACS.
+Enfin, l'université a mis en place des politiques pour protéger les droits des salariés, notamment en matière de traitement équitable, de procédures de réclamation et d'équilibre vie professionnelle/vie personnelle.
 
-#### Participation du personnel
+(GRI 2-29)
 
-Les membres du personnel non-académiques de l'université peuvent participer à la gouvernance de l'institution via divers comités consultatifs, tels que le Chancellor's Staff Advisory Committee (CSAC), le Chancellor's Cabinet et d'autres comités consultatifs sur la diversité, la durabilité, le développement du personnel et les services universitaires.
+### Limites et omissions
 
-#### Engagement civique
+Ce rapport ne peut pas établir les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.
 
-L'engagement civique est un aspect clé de la mission de l'université. Le Public Service Center rassemble des étudiants, des professeurs et des communautés pour mobiliser leurs connaissances et leur expertise en faveur de la justice sociale, de l'engagement civique et de la transformation sociale.
+### Limites et omissions
 
-L'université a également établi des partenariats avec des organisations communautaires, telles que la Sustainability Office, le SERC et le Government & Community Relations.
-
-#### Partenariats communautaires
-
-L'université a mis en place des partenariats avec des organisations communautaires pour soutenir les objectifs de durabilité et de justice sociale. Par exemple, le College Corps a permis à des étudiants de l'université de travailler en partenariat avec des organisations communautaires pour des projets liés à la durabilité et à la justice sociale.
+Ce rapport ne couvre pas les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.
 
 ## Performance environnementale
 
@@ -194,28 +206,66 @@ L'université a mis en place des partenariats avec des organisations communautai
 | OP-13 — Vehicle Fleet | 0,28 / 2 | faible |
 | OP-14 — Commute Modal Split | 4,89 / 6 | élevé |
 | OP-15 — Air Travel | 2 / 2 | maximal (tous les points obtenus) |
+| OP-4 — Ecologically Managed Grounds | 5 / 5 | maximal (tous les points obtenus) |
+| IL-24 — Biodiversity Assessment | 1 / 1 | maximal (tous les points obtenus) |
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
 #### Énergie
 
-L'université de Californie à Berkeley a déclaré que l'énergie renouvelable représente une partie importante de sa consommation d'énergie, notamment grâce au programme UC Clean Power qui intègre des sources d'énergie certifiées et non certifiées. Cependant, la consommation d'énergie au sein de l'organisation n'est pas évaluée en référence aux normes GRI 302-1.
+L'université obtient 6,87 points STARS sur 10 au crédit OP-5, niveau intermédiaire. Le campus utilise une partie de l'énergie renouvelable via le programme UC Clean Power, qui inclut des sources d'électricité certifiées et non certifiées.
+
+#### Émissions de gaz à effet de serre
+
+L'université obtient 8,01 points STARS sur 16 au crédit OP-6, niveau intermédiaire. Les émissions de gaz à effet de serre sont compensées par des instruments de retraitement des émissions, issus de projets forestiers américains.
 
 #### Eau
 
-L'université a mis en place plusieurs systèmes de récupération d'eau de pluie, notamment le Hearst Field Annex Rainwater Harvesting System et le Bioswale Project, ainsi que le projet de récupération d'eau de pluie et de réutilisation du Chou Hall à la Haas School of Business. Cependant, les interactions avec l'eau en tant que ressource partagée ne sont pas pleinement rapportées en référence aux normes GRI 303-1.
-
-#### GES
-
-L'université a déclaré que les émissions directes de GES sont calculées en tenant compte des retraits d'offsets. Cependant, les émissions directes de GES ne sont pas évaluées en référence aux normes GRI 305-1.
+L'université obtient 2,43 points STARS sur 7 au crédit OP-3, niveau faible. Le campus a mis en place un système de récupération d'eau de pluie, notamment au sein de la Haas School of Business.
 
 #### Déchets
 
-L'université a mis en place un système de compostage intégré à ses systèmes de collecte, qui est ensuite envoyé à un centre de compostage industriel. Cependant, la gestion des impacts significatifs liés aux déchets et les déchets générés ne sont pas pleinement rapportés en référence aux normes GRI 306-2 et GRI 306-3.
+L'université obtient 3,27 points STARS sur 5 au crédit OP-12, niveau intermédiaire. Le campus a mis en place un système de compostage industriel.
 
-#### Fournisseurs
+#### Matériaux
 
-L'université a déclaré que les nouveaux fournisseurs évalués selon des critères environnementaux sont un aspect important de sa stratégie de durabilité. Cependant, les nouveaux fournisseurs évalués selon des critères environnementaux ne sont pas pleinement rapportés en référence aux normes GRI 308-1.
+L'université obtient 3,75 points STARS sur 4 au crédit OP-11, niveau élevé. Le campus a mis en place un système de gestion des matériaux, notamment via l'intégration de la collecte séparée des déchets.
+
+#### Système d'achats durables
+
+L'université obtient 7 points STARS sur 7 au crédit OP-9, niveau maximal. Le campus a mis en place un système de réduction des émissions de carbone dans la chaîne d'approvisionnement.
+
+#### Conception et construction des bâtiments
+
+L'université obtient 2,91 points STARS sur 3 au crédit OP-1, niveau élevé. Le campus a mis en place des bâtiments répondant aux normes LEED-EBOM.
+
+#### Exploitation et maintenance des bâtiments
+
+L'université obtient 4 points STARS sur 5 au crédit OP-2, niveau élevé.
+
+#### Flotte de véhicules
+
+L'université obtient 0,28 point STARS sur 2 au crédit OP-13, niveau faible. Le campus a mis en place une flotte de véhicules, dont une partie est considérée comme verte.
+
+#### Modes de déplacement domicile-campus
+
+L'université obtient 4,89 points STARS sur 6 au crédit OP-14, niveau élevé. Le campus a mis en place des modes de déplacement durables.
+
+#### Voyages en avion
+
+L'université obtient 2 points STARS sur 2 au crédit OP-15, niveau maximal. Le campus a mis en place des mesures pour réduire les émissions de gaz à effet de serre liées aux voyages en avion.
+
+#### Gestion écologique des espaces verts
+
+L'université obtient 5 points STARS sur 5 au crédit OP-4, niveau maximal. Le campus a mis en place des espaces verts gérés de manière écologique.
+
+#### Évaluation de la biodiversité
+
+L'université obtient 1 point STARS sur 1 au crédit IL-24, niveau maximal. Le campus a mis en place une évaluation de la biodiversité, notamment via le plan de gestion des feux de végétation.
+
+#### Pourcentage de la flotte de véhicules considérée comme verte
+
+Le campus a mis en place une flotte de véhicules, dont plus de 35 % est considérée comme verte.
 
 ## Performance sociale et économique
 
@@ -232,27 +282,25 @@ L'université a déclaré que les nouveaux fournisseurs évalués selon des crit
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-#### Politiques et dispositifs
+L'université de Californie à Berkeley a obtenu 4,34 points STARS sur 5 au crédit PA-13, niveau élevé, pour sa politique de salaire décent. Le salaire minimum local est de 42,8 % de la valeur actuelle. L'heure de travail doit être au moins de 42,8 % de la valeur actuelle, en tenant compte du taux de bénéfices combinés des employés.
 
-Le University of California, Berkeley, a mis en place des politiques et dispositifs pour promouvoir l'équité salariale et le salaire minimum. Le rapport STARS mentionne que l'université utilise le Massachusetts Institute of Technology Living Wage Calculator pour déterminer le salaire minimum. Les employés doivent également respecter les exigences de la politique sur les congés familiaux et médicaux (GRI 401-3).
+L'université a également obtenu 2,5 points STARS sur 3 au crédit PA-12, niveau élevé, pour ses droits des salariés. Les employés doivent satisfaire aux exigences de la politique de congé parental. Le site web des ressources humaines de l'université présente des politiques sur les droits des employés, notamment le traitement équitable, les procédures de réclamation et l'équilibre travail-vie.
 
-L'université a également mis en place des politiques pour protéger les droits des employés, notamment en matière d'équité salariale, de congés et de santé et de sécurité au travail. Le rapport STARS mentionne que l'université a une politique de congés familiaux et médicaux qui respecte les exigences de la loi (GRI 401-1).
+L'université a obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal, pour sa santé, sécurité et bien-être. Le système de gestion de la santé et de la sécurité au travail n'est pas décrit.
 
-#### Système de management de la santé et de la sécurité au travail
+L'université a obtenu 1,67 point STARS sur 2 au crédit PA-8, niveau élevé, pour la parité femmes-hommes. Le directeur de la diversité, de l'équité, de l'inclusion et de l'appartenance est Lasana Hotep.
 
-Le rapport STARS mentionne que l'université a mis en place un système de management de la santé et de la sécurité au travail, mais il ne fournit pas d'informations sur la réglementation ou la norme suivie (GRI 403-1).
+L'université a obtenu 1,59 point STARS sur 3 au crédit PA-7, niveau intermédiaire, pour la représentation ethnique et raciale. Les initiatives de données sur l'équité sont menées par l'équipe de l'équité et de l'inclusion.
 
-#### Services de santé au travail
+L'université a obtenu 2,5 points STARS sur 3 au crédit PA-9, niveau élevé, pour l'accès et l'accessibilité financière. La proportion de tous les étudiants de premier cycle recevant des subventions Pell pour l'année universitaire 2021 est de 2021.
 
-Le rapport STARS mentionne que l'université offre des services de santé généraux, mais il ne fournit pas d'informations sur les services de santé au travail spécifiques (GRI 403-3).
+L'université a obtenu 3 points STARS sur 3 au crédit PA-6, niveau maximal, pour le climat institutionnel. Les organisations basées sur la race et l'éthnicité des employés comprennent Alianza, Asian Pacific American Systemwide Alliance, Black Staff & Faculty Organization, MENASA et Native & Indigenous Council.
 
-#### Participation et consultation des travailleurs en santé et sécurité
+L'université a obtenu 2,8 points STARS sur 3 au crédit PA-10, niveau élevé, pour la réussite étudiante. Le directeur exécutif de l'Office of Planning and Analysis est Sereeta Alexander.
 
-Le rapport STARS mentionne que l'université a un comité de santé et de sécurité, mais il ne fournit pas d'informations sur la fréquence des réunions ou le pouvoir de décision des travailleurs (GRI 403-4).
+### Limites et omissions
 
-#### Promotion de la santé des travailleurs
-
-Le rapport STARS mentionne que l'université a mis en place des programmes pour promouvoir la santé des travailleurs, mais il ne fournit pas d'informations sur les détails de ces programmes (GRI 403-6).
+Ce rapport ne peut pas établir le ratio entre le salaire d'entrée et le salaire minimum local par genre. Le salaire minimum figure dans un crédit sur l'emploi étudiant.
 
 ## Enseignement, recherche et engagement (hors GRI)
 
@@ -275,29 +323,44 @@ Le rapport STARS mentionne que l'université a mis en place des programmes pour 
 
 ### Enseignement, recherche et engagement
 
-#### Enseignement
+L'université obtient 13,01 points STARS sur 14 au crédit AC-1, niveau élevé. L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de 2021 à 2024, en filtrant les éléments qui se qualifient comme des cours axés sur la durabilité ou liés à la durabilité. Les cours qui se qualifient ont été comptabilisés comme des offres de cours en durabilité.
 
-Les cours d'enseignement axés sur la durabilité ont été recensés à l'aide d'une inventaire de cours de l'Université de Californie, qui a filtré les cours qualifiés comme axés sur la durabilité ou liés à la durabilité. Les cours ont été classés en fonction de leurs descriptions fournies dans le manuel technique STARS. Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité.
+L'université obtient 10,22 points STARS sur 15 au crédit AC-2, niveau intermédiaire. Les programmes de premier cycle de l'Université de Californie à Berkeley incluent une exigence de cours axée sur la durabilité.
 
-#### Recherche
+L'université obtient 8 points STARS sur 8 au crédit AC-3, niveau maximal. Les programmes de cycles supérieurs de l'Université de Californie à Berkeley incluent des cours axés sur la durabilité.
 
-Un étudiant bachelier en stage à l'Office de la durabilité a créé une liste de mots-clés pour identifier la recherche sur la durabilité. La liste de mots-clés a été tirée en grande partie des mots-clés créés pour identifier les offres de cours axées sur la durabilité pour AC-1 et d'autres mots-clés ont été pris en compte dans la recherche de mots-clés de recherche sur la durabilité utilisée dans le rapport STARS précédent de l'Université de Californie. Après une grande recherche de mots-clés sur l'inventaire de recherche de FY à FY, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés.
+L'université obtient 7,35 points STARS sur 10 au crédit AC-6, niveau intermédiaire. Un étudiant de premier cycle a créé une liste de mots-clés pour identifier la recherche en durabilité. L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche en durabilité et le nombre de départements universitaires engagés dans la recherche en durabilité.
 
-#### Centre de recherche sur la durabilité
+L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal. L'Université de Californie à Berkeley compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab.
 
-L'Université compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab de l'Université de Californie.
+L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. L'Université de Californie à Berkeley a un centre de recherche en durabilité.
 
-#### Engagement et formation du personnel
+L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Le centre étudiant de ressources environnementales (SERC) de l'Université de Californie à Berkeley organise de nombreux événements axés sur la durabilité sur le campus, notamment la semaine de la justice climatique et la semaine de la Terre, une série de carrières environnementales, des formations à la justice environnementale et des événements d'éducation en plein air.
 
-L'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires sont responsables de la formation et de l'engagement du personnel.
+L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. L'Office de la durabilité, le SERC, le gouvernement et les relations communautaires de l'Université de Californie à Berkeley.
+
+L'université obtient 8 points STARS sur 8 au crédit EN-5, niveau maximal.
 
 ## Index de contenu GRI
 
 | Rapporté | Partiellement rapporté | Non rapporté | Non évalué |
 |:-:|:-:|:-:|:-:|
-| 0 | 26 | 37 | 15 |
+| 0 | 29 | 43 | 14 |
 
 *Statuts calculés par le code à partir de la table de correspondance écrite à la main (`mapping/gri_map.yaml`). « Non évalué » : un champ STARS correspondant existe mais sa valeur n'a pas été extraite.*
+
+### GRI 101 : Biodiversité 2024
+
+| Publication | Statut | Valeur ou justification | Remarques |
+|---|---|---|---|
+| **101-1** Politiques pour enrayer et inverser la perte de biodiversité | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
+| **101-2** Gestion des impacts sur la biodiversité | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (OP-4) ; les champs structurés n'ont pas été extraits. | OP-4 décrit la gestion écologique des espaces verts du campus ; GRI 101-2 vise aussi la chaîne de valeur et la hiérarchie d'atténuation (éviter, réduire, restaurer). |
+| **101-3** Accès et partage des avantages | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
+| **101-4** Identification des impacts sur la biodiversité | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (IL-24) ; les champs structurés n'ont pas été extraits. | IL-24 (crédit bonus) : évaluation de la biodiversité des terrains de l'établissement (espèces, habitats). GRI 101-4 demande aussi les impacts indirects, dans la chaîne d'approvisionnement. |
+| **101-5** Sites ayant des impacts sur la biodiversité | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (IL-24) ; les champs structurés n'ont pas été extraits. | IL-24 couvre les terrains possédés ou gérés par l'établissement ; GRI 101-5 demande la liste des sites, leur superficie et leur proximité avec des zones importantes pour la biodiversité. |
+| **101-6** Facteurs directs de perte de biodiversité | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
+| **101-7** Évolution de l'état de la biodiversité | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
+| **101-8** Services écosystémiques | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
 
 ### GRI 2 : Éléments généraux 2021
 
@@ -323,7 +386,7 @@ L'Office de la durabilité, le Centre des ressources environnementales de l'étu
 | **2-18** Évaluation de la performance de l'organe de gouvernance | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
 | **2-19** Politiques de rémunération | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
 | **2-20** Procédure de détermination de la rémunération | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. |  |
-| **2-21** Ratio de rémunération totale annuelle | <span class="badge pend">Non évalué</span> | Champ STARS identifié (IL-62) mais valeur non extraite : nécessite les pages STARS authentifiées. | Dénominateurs différents : GRI divise par la rémunération MÉDIANE, STARS (IL-62, crédit bonus facultatif) par la plus BASSE. Le chiffre STARS n'est pas comparable à un ratio GRI 2-21. |
+| **2-21** Ratio de rémunération totale annuelle | <span class="badge no">Non rapporté</span> | Aucune donnée : IL-62 non renseigné par l'établissement. | Dénominateurs différents : GRI divise par la rémunération MÉDIANE, STARS (IL-62, crédit bonus facultatif) par la plus BASSE. Le chiffre STARS n'est pas comparable à un ratio GRI 2-21. |
 | **2-22** Déclaration sur la stratégie de développement durable | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (PA-2) ; les champs structurés n'ont pas été extraits. | GRI 2-22 exige une déclaration de l'organe de gouvernance ou du dirigeant le plus élevé ; STARS n'attribue pas la vision à un signataire. |
 | **2-23** Engagements politiques | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (PA-2) ; les champs structurés n'ont pas été extraits. | GRI 2-23 vise les engagements relatifs aux droits humains et au devoir de vigilance ; un engagement de durabilité est plus large et ne les implique pas. |
 | **2-24** Intégration des engagements politiques | <span class="badge part">Partiellement rapporté</span> | Couvert par le récit de l'établissement (OP-9, EN-3, PA-1) ; les champs structurés n'ont pas été extraits. | STARS décrit des résultats (code fournisseurs, formations) mais pas l'attribution interne des responsabilités ni l'intégration dans les procédures. |
@@ -442,24 +505,81 @@ L'Office de la durabilité, le Centre des ressources environnementales de l'étu
 | **405-1** Diversité des organes de gouvernance et des salariés | <span class="badge pend">Non évalué</span> | Champ STARS identifié (PA-7, PA-8) mais valeur non extraite : nécessite les pages STARS authentifiées. | Un indice de diversité (score de 0 à 1) n'est pas la ventilation en pourcentages demandée ; deux catégories de genre au lieu de trois ; aucune donnée d'âge. |
 | **405-2** Ratio du salaire de base et de la rémunération des femmes par rapport aux hommes | <span class="badge no">Non rapporté</span> | Aucune donnée STARS ne correspond à cette publication. | PA-13 couvre le salaire décent, pas l'écart de rémunération femmes-hommes, malgré son intitulé « Pay Equity ». |
 
+## Annexe — Correspondance STARS → GRI, TCFD, ESRS
+
+Correspondance **thématique** écrite à la main (`mapping/frameworks.yaml`, `mapping/gri_map.yaml`), jamais générée par le modèle. Un crédit sans équivalent est marqué « Aucune correspondance » plutôt que forcé. Correspondance STARS -> GRI : 22/50 crédits reliés, 28 sans correspondance \| TCFD : 7/50 crédits reliés, 43 sans correspondance \| ESRS : 32/50 crédits reliés, 18 sans correspondance.
+
+| Crédit STARS | GRI | TCFD | ESRS |
+|---|---|---|---|
+| **PRE-1** Executive Letter | GRI 2-14 | Aucune correspondance | Aucune correspondance |
+| **PRE-2** Points of Distinction | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **PRE-3** Institutional Characteristics | GRI 2-1, GRI 2-2, GRI 2-6, GRI 2-7 | Aucune correspondance | ESRS 2 |
+| **PRE-4** Reporting Methodologies | GRI 2-3, GRI 2-5 | Aucune correspondance | ESRS 2 |
+| **AC-1** Sustainability Course Offerings | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-2** Undergraduate Programs | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-3** Graduate Programs | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-4** Applied Learning | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-5** Sustainability Literacy Assessment | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-6** Sustainability Research | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-7** Center for Sustainability Research | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **AC-8** Responsible Research and Innovation | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-1** Outreach and Communications | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-2** Co-Curricular Activities | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-3** Staff Engagement and Training | GRI 2-24 | Aucune correspondance | S1 |
+| **EN-4** Sustainability Culture Assessment | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-5** Civic Engagement | Aucune correspondance | Aucune correspondance | S3 |
+| **EN-6** Community Partnerships | GRI 2-29 | Aucune correspondance | S3 |
+| **EN-7** Continuing Education | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-8** Shared Facilities | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **EN-9** Inter-Campus Collaboration | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **OP-1** Building Design and Construction | Aucune correspondance | Aucune correspondance | E1 |
+| **OP-2** Building Operations and Maintenance | Aucune correspondance | Aucune correspondance | E1 |
+| **OP-3** Water Use | GRI 303-1, GRI 303-3 | Aucune correspondance | E3 |
+| **OP-4** Ecologically Managed Grounds | GRI 101-2 | Aucune correspondance | E4, E2 |
+| **OP-5** Energy Use | GRI 302-1, GRI 302-3 | MT-a | E1 |
+| **OP-6** Greenhouse Gas Emissions | GRI 2-3, GRI 305-1, GRI 305-2, GRI 305-3, GRI 305-4, GRI 305-5 | MT-b, MT-c | E1 |
+| **OP-7** Dining Service Procurement | Aucune correspondance | Aucune correspondance | G1 |
+| **OP-8** Food Recovery | Aucune correspondance | Aucune correspondance | E5 |
+| **OP-9** Sustainable Procurement System | GRI 2-24, GRI 308-1 | Aucune correspondance | G1, S2 |
+| **OP-10** Purchased Goods | Aucune correspondance | Aucune correspondance | E5 |
+| **OP-11** Materials Management | GRI 306-2 | Aucune correspondance | E5, E2 |
+| **OP-12** Waste Generation and Recovery | GRI 306-2, GRI 306-3, GRI 306-4, GRI 306-5 | Aucune correspondance | E5 |
+| **OP-13** Vehicle Fleet | Aucune correspondance | MT-a | E1 |
+| **OP-14** Commute Modal Split | Aucune correspondance | MT-a | E1 |
+| **OP-15** Air Travel | Aucune correspondance | MT-a | E1 |
+| **PA-1** Sustainability Coordination | GRI 2-13, GRI 2-24, GRI 3-3 | GOV-b | ESRS 2 |
+| **PA-2** Commitments and Planning | GRI 2-22, GRI 2-23, GRI 2-28, GRI 3-2, GRI 3-3 | STR-a, MT-c | ESRS 2, E1 |
+| **PA-3** Institutional Governance | GRI 2-9, GRI 2-29 | Aucune correspondance | ESRS 2 |
+| **PA-4** Sustainable Investment Program | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **PA-5** Investment Holdings | Aucune correspondance | Aucune correspondance | Aucune correspondance |
+| **PA-6** Institutional Climate | Aucune correspondance | Aucune correspondance | S1 |
+| **PA-7** Racial and Ethnic Representation | GRI 405-1 | Aucune correspondance | S1 |
+| **PA-8** Gender Parity | GRI 405-1 | Aucune correspondance | S1 |
+| **PA-9** Affordability and Access | GRI 202-1 | Aucune correspondance | S4 |
+| **PA-10** Student Success | Aucune correspondance | Aucune correspondance | S4 |
+| **PA-11** Health, Safety and Wellbeing | GRI 403-1, GRI 403-3, GRI 403-4, GRI 403-6 | Aucune correspondance | S1 |
+| **PA-12** Employee Rights | GRI 2-25, GRI 2-26, GRI 401-2, GRI 401-3 | Aucune correspondance | S1, G1 |
+| **PA-13** Pay Equity and Living Wage | GRI 202-1 | Aucune correspondance | S1 |
+| **IL-24** Biodiversity Assessment | GRI 101-4, GRI 101-5 | Aucune correspondance | E4 |
+
 ## Annexe — Validation du rapport
 
 Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → substitution par le code → audit par le juge → régénération si refus (trois tentatives au plus).
 
 | Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |
 |---|---|:-:|:-:|:-:|:-:|:-:|--:|
-| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 1 | 0 | 2/5 | 100% | 50% | 3.8 min |
-| Thèmes matériels | <span class="badge ok">validée</span> | 2 | 1 | 2/5 | 83% | 100% | 6.5 min |
-| Gouvernance | <span class="badge ok">validée</span> | 2 | 0 | 3/5 | 83% | 100% | 12.9 min |
-| Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 1 | 0 | 2/5 | 100% | 50% | 7.2 min |
-| Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 7.4 min |
-| Performance environnementale | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 100% | 43% | 18.4 min |
-| Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 3/5 | 83% | 62% | 8.7 min |
-| Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 83% | 100% | 15.1 min |
+| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 83% | 9.0 min |
+| Thèmes matériels | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 9.1 min |
+| Gouvernance | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 100% | 0% | 12.3 min |
+| Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 1 | 0 | 3/5 | 100% | 50% | 12.2 min |
+| Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 6.8 min |
+| Performance environnementale | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 83% | 0% | 21.2 min |
+| Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 83% | 0% | 12.9 min |
+| Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 83% | 100% | 15.6 min |
 
-**Bilan :** 8 section(s) validée(s) sur 8 ; fidélité moyenne 92% ; 2 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
+**Bilan :** 8 section(s) validée(s) sur 8 ; fidélité moyenne 94% ; 3 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
-4 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
+2 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
 
 ## Vérifier ce rapport
 

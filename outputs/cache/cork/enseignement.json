@@ -1,72 +1,144 @@
 {
- "prompt_hash": "3aa6645c05ccf102",
+ "prompt_hash": "bcb7adb07ee94392",
+ "round": 1,
  "decision": "validée",
- "text": "### Enseignement, recherche et engagement\n\n#### Organisation et politiques\n\nL'University College Cork (UCC) a mis en place plusieurs initiatives pour intégrer la durabilité dans son enseignement. Le module \"Planet - Preparing Leaders for a Sustainable World\" est obligatoire pour les étudiants de la Cork University Business School, leur permettant d'acquérir une connaissance approfondie des aspects environnementaux de la durabilité (GRI 305-1).\n\n#### Recherche et développement\n\nLa UCC a créé le \"UCC Green Campus Living Laboratory Seed Fund\", qui offre une bourse financière complète pour couvrir les frais et le traitement d'un étudiant de master par recherche, dans le but de soutenir les recherches en durabilité. Le \"Delap Prize for Postgraduate Research\" est également décerné annuellement par le School of Biological, Earth & Environmental Sciences pour récompenser la meilleure publication scientifique (GRI 305-1).\n\n#### Engagement et communication\n\nLa UCC met en avant sa committment à la durabilité dans de nombreux documents et communications destinés aux étudiants et au personnel. Les nouvelles d'actualité sur la durabilité sont régulièrement diffusées auprès de la communauté universitaire par le biais du message trimestriel du Président et du newsletter de l'Office de la durabilité et de l'action climatique (GRI 305-1).\n\n#### Activités co-curriculaires et formation\n\nLe Centre pour l'éducation des adultes et la formation continue offre également le Diplôme en Environnement, Durabilité et Climat, qui introduit les étudiants aux théories et compétences clés en matière d'environnement et de durabilité (GRI 305-1).\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir lesquelles sont les qualifications universitaires qui sont focalisées sur la durabilité et qui ont des exigences d'apprentissage focalisées sur la durabilité.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir lesquelles sont les qualifications universitaires qui sont focalisées sur la durabilité et qui ont des exigences d'app",
- "used_facts": [],
- "judge_score": 3,
+ "text": "### Enseignement, recherche et engagement\n\nL'Université College Cork (UCC) a démontré sa détermination à intégrer la durabilité dans ses programmes et activités. Les résultats des crédits STARS suivants reflètent cette approche :\n\n- L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal au crédit AC-1 Offre de cours en durabilité, niveau maximal.\n- L'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé au crédit AC-2 Programmes de premier cycle, niveau élevé.\n- L'université obtient 7,09 points STARS sur 8 au crédit AC-3, niveau élevé au crédit AC-3 Programmes de cycles supérieurs, niveau élevé.\n- L'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal au crédit AC-6 Recherche en durabilité, niveau maximal.\n- L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal au crédit AC-7 Centre de recherche en durabilité, niveau maximal.\n- L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal au crédit EN-1 Communication et sensibilisation, niveau maximal.\n- L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal au crédit EN-2 Activités parascolaires, niveau maximal.\n- L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal au crédit EN-3 Engagement et formation du personnel, niveau maximal.\n- L'université obtient 7 points STARS sur 8 au crédit EN-5, niveau élevé au crédit EN-5 Engagement civique, niveau élevé.\n- L'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal au crédit EN-7 Formation continue, niveau maximal.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si les programmes et activités de l'université sont accessibles à tous les étudiants et membres du personnel.",
+ "used_facts": [
+  "AC1_max",
+  "AC1_score",
+  "AC2_max",
+  "AC2_score",
+  "AC3_max",
+  "AC3_score",
+  "AC6_max",
+  "AC6_score",
+  "AC7_max",
+  "AC7_score",
+  "EN1_max",
+  "EN1_score",
+  "EN2_max",
+  "EN2_score",
+  "EN3_max",
+  "EN3_score",
+  "EN5_max",
+  "EN5_score",
+  "EN7_max",
+  "EN7_score"
+ ],
+ "judge_score": 4,
  "faithfulness": 1.0,
  "gri_coverage": 1.0,
  "unsupported_claims": [],
  "discarded_violations": [],
- "attempts": 1,
- "guard_rejections": 0,
- "seconds": 603.3,
+ "attempts": 2,
+ "guard_rejections": 1,
+ "seconds": 517.2,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Enseignement, recherche et engagement\n\n#### Organisation et politiques\n\nL'University College Cork (UCC) a mis en place plusieurs initiatives pour intégrer la durabilité dans son enseignement. Le module \"Planet - Preparing Leaders for a Sustainable World\" est obligatoire pour les étudiants de la Cork University Business School, leur permettant d'acquérir une connaissance approfondie des aspects environnementaux de la durabilité (GRI 305-1).\n\n#### Recherche et développement\n\nLa UCC a créé le \"UCC Green Campus Living Laboratory Seed Fund\", qui offre une bourse financière complète pour couvrir les frais et le traitement d'un étudiant de master par recherche, dans le but de soutenir les recherches en durabilité. Le \"Delap Prize for Postgraduate Research\" est également décerné annuellement par le School of Biological, Earth & Environmental Sciences pour récompenser la meilleure publication scientifique (GRI 305-1).\n\n#### Engagement et communication\n\nLa UCC met en avant sa committment à la durabilité dans de nombreux documents et communications destinés aux étudiants et au personnel. Les nouvelles d'actualité sur la durabilité sont régulièrement diffusées auprès de la communauté universitaire par le biais du message trimestriel du Président et du newsletter de l'Office de la durabilité et de l'action climatique (GRI 305-1).\n\n#### Activités co-curriculaires et formation\n\nLes étudiants de la UCC participent à diverses activités liées à la durabilité, notamment le \"Your Compass\" programme, qui a été suivi par [n] étudiants. Le Centre pour l'éducation des adultes et la formation continue offre également le Diplôme en Environnement, Durabilité et Climat, qui introduit les étudiants aux théories et compétences clés en matière d'environnement et de durabilité (GRI 305-1).\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir lesquelles sont les qualifications universitaires qui sont focalisées sur la durabilité et qui ont des exigences d'apprentissage focalisées sur la durabilité.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir lesquelles sont les qualifications universitaires qui sont focalisées sur la durabilité et qui ont des exigences d'app",
-   "gen_seconds": 314.9,
-   "prompt_tokens": 1890,
-   "output_tokens": 520,
+   "draft": "#### Offre de cours en durabilité\n\nL'Université College Cork obtient {{ AC1 }} points STARS sur {{ AC1 }} au crédit AC-1, niveau maximal.\n\n#### Programmes de premier cycle\n\nL'Université College Cork obtient {{ AC2 }} points STARS sur {{ AC2 }} au crédit AC-2, niveau élevé.\n\n#### Programmes de cycles supérieurs\n\nL'Université College Cork obtient {{ AC3 }} points STARS sur {{ AC3 }} au crédit AC-3, niveau élevé.\n\n#### Recherche en durabilité\n\nL'Université College Cork obtient {{ AC6 }} points STARS sur {{ AC6 }} au crédit AC-6, niveau maximal.\n\n#### Centre de recherche en durabilité\n\nL'Université College Cork obtient {{ AC7 }} points STARS sur {{ AC7 }} au crédit AC-7, niveau maximal.\n\n#### Communication et sensibilisation\n\nL'Université College Cork obtient {{ EN1 }} points STARS sur {{ EN1 }} au crédit EN-1, niveau maximal.\n\n#### Activités parascolaires\n\nL'Université College Cork obtient {{ EN2 }} points STARS sur {{ EN2 }} au crédit EN-2, niveau maximal.\n\n#### Engagement et formation du personnel\n\nL'Université College Cork obtient {{ EN3 }} points STARS sur {{ EN3 }} au crédit EN-3, niveau maximal.\n\n#### Engagement civique\n\nL'Université College Cork obtient {{ EN5 }} points STARS sur {{ EN5 }} au crédit EN-5, niveau élevé.\n\n#### Formation continue\n\nL'Université College Cork obtient {{ EN7 }} points STARS sur {{ EN7 }} au crédit EN-7, niveau maximal.\n\n#### Part des points STARS obtenus dans le pilier Enseignement, recherche et engagement\n\nL'Université College Cork obtient {{ CTX }} % des points STARS du pilier Enseignement, recherche et engagement, niveau élevé.\n\n(GRI 305-1)",
+   "gen_seconds": 139.3,
+   "prompt_tokens": 2184,
+   "output_tokens": 449,
    "raw_guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
+    "marqueur {{ CTX }} suivi de « % » : c'est un score STARS complet, pas un nombre à compléter"
    ],
    "removed_sentences": [
-    "Les étudiants de la UCC participent à diverses activités liées à la durabilité, notamment le \"Your Compass\" programme, qui a été suivi par [n] étudiants."
+    "L'Université College Cork obtient {{ CTX }} % des points STARS du pilier Enseignement, recherche et engagement, niveau élevé."
+   ],
+   "guard_problems": [],
+   "lint_problems": [
+    "cette section ne correspond à aucune publication GRI : ne cite aucun code GRI"
+   ],
+   "gri_coverage": 1.0,
+   "lint_notes": []
+  },
+  {
+   "attempt": 2,
+   "draft": "### Enseignement, recherche et engagement\n\nL'Université College Cork (UCC) a démontré sa détermination à intégrer la durabilité dans ses programmes et activités. Les résultats des crédits STARS suivants reflètent cette approche :\n\n- L'université obtient {{ AC1 }} au crédit AC-1 Offre de cours en durabilité, niveau maximal.\n- L'université obtient {{ AC2 }} au crédit AC-2 Programmes de premier cycle, niveau élevé.\n- L'université obtient {{ AC3 }} au crédit AC-3 Programmes de cycles supérieurs, niveau élevé.\n- L'université obtient {{ AC6 }} au crédit AC-6 Recherche en durabilité, niveau maximal.\n- L'université obtient {{ AC7 }} au crédit AC-7 Centre de recherche en durabilité, niveau maximal.\n- L'université obtient {{ EN1 }} au crédit EN-1 Communication et sensibilisation, niveau maximal.\n- L'université obtient {{ EN2 }} au crédit EN-2 Activités parascolaires, niveau maximal.\n- L'université obtient {{ EN3 }} au crédit EN-3 Engagement et formation du personnel, niveau maximal.\n- L'université obtient {{ EN5 }} au crédit EN-5 Engagement civique, niveau élevé.\n- L'université obtient {{ EN7 }} au crédit EN-7 Formation continue, niveau maximal.\n\nLa part des points STARS obtenus dans le pilier Enseignement, recherche et engagement est de {{ CTX }} % des points STARS du pilier Enseignement, recherche et engagement, niveau élevé.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si les programmes et activités de l'université sont accessibles à tous les étudiants et membres du personnel.",
+   "gen_seconds": 136.2,
+   "prompt_tokens": 2225,
+   "output_tokens": 413,
+   "raw_guard_problems": [
+    "marqueur {{ CTX }} suivi de « % » : c'est un score STARS complet, pas un nombre à compléter"
+   ],
+   "removed_sentences": [
+    "La part des points STARS obtenus dans le pilier Enseignement, recherche et engagement est de {{ CTX }} % des points STARS du pilier Enseignement, recherche et engagement, niveau élevé."
    ],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 1.0,
    "lint_notes": [],
-   "rendered": "### Enseignement, recherche et engagement\n\n#### Organisation et politiques\n\nL'University College Cork (UCC) a mis en place plusieurs initiatives pour intégrer la durabilité dans son enseignement. Le module \"Planet - Preparing Leaders for a Sustainable World\" est obligatoire pour les étudiants de la Cork University Business School, leur permettant d'acquérir une connaissance approfondie des aspects environnementaux de la durabilité (GRI 305-1).\n\n#### Recherche et développement\n\nLa UCC a créé le \"UCC Green Campus Living Laboratory Seed Fund\", qui offre une bourse financière complète pour couvrir les frais et le traitement d'un étudiant de master par recherche, dans le but de soutenir les recherches en durabilité. Le \"Delap Prize for Postgraduate Research\" est également décerné annuellement par le School of Biological, Earth & Environmental Sciences pour récompenser la meilleure publication scientifique (GRI 305-1).\n\n#### Engagement et communication\n\nLa UCC met en avant sa committment à la durabilité dans de nombreux documents et communications destinés aux étudiants et au personnel. Les nouvelles d'actualité sur la durabilité sont régulièrement diffusées auprès de la communauté universitaire par le biais du message trimestriel du Président et du newsletter de l'Office de la durabilité et de l'action climatique (GRI 305-1).\n\n#### Activités co-curriculaires et formation\n\nLe Centre pour l'éducation des adultes et la formation continue offre également le Diplôme en Environnement, Durabilité et Climat, qui introduit les étudiants aux théories et compétences clés en matière d'environnement et de durabilité (GRI 305-1).\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir lesquelles sont les qualifications universitaires qui sont focalisées sur la durabilité et qui ont des exigences d'apprentissage focalisées sur la durabilité.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir lesquelles sont les qualifications universitaires qui sont focalisées sur la durabilité et qui ont des exigences d'app",
-   "used_facts": [],
+   "rendered": "### Enseignement, recherche et engagement\n\nL'Université College Cork (UCC) a démontré sa détermination à intégrer la durabilité dans ses programmes et activités. Les résultats des crédits STARS suivants reflètent cette approche :\n\n- L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal au crédit AC-1 Offre de cours en durabilité, niveau maximal.\n- L'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé au crédit AC-2 Programmes de premier cycle, niveau élevé.\n- L'université obtient 7,09 points STARS sur 8 au crédit AC-3, niveau élevé au crédit AC-3 Programmes de cycles supérieurs, niveau élevé.\n- L'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal au crédit AC-6 Recherche en durabilité, niveau maximal.\n- L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal au crédit AC-7 Centre de recherche en durabilité, niveau maximal.\n- L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal au crédit EN-1 Communication et sensibilisation, niveau maximal.\n- L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal au crédit EN-2 Activités parascolaires, niveau maximal.\n- L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal au crédit EN-3 Engagement et formation du personnel, niveau maximal.\n- L'université obtient 7 points STARS sur 8 au crédit EN-5, niveau élevé au crédit EN-5 Engagement civique, niveau élevé.\n- L'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal au crédit EN-7 Formation continue, niveau maximal.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si les programmes et activités de l'université sont accessibles à tous les étudiants et membres du personnel.",
+   "used_facts": [
+    "AC1_max",
+    "AC1_score",
+    "AC2_max",
+    "AC2_score",
+    "AC3_max",
+    "AC3_score",
+    "AC6_max",
+    "AC6_score",
+    "AC7_max",
+    "AC7_score",
+    "EN1_max",
+    "EN1_score",
+    "EN2_max",
+    "EN2_score",
+    "EN3_max",
+    "EN3_score",
+    "EN5_max",
+    "EN5_score",
+    "EN7_max",
+    "EN7_score"
+   ],
    "trace_problems": [],
+   "used_markers": [
+    "AC1",
+    "AC2",
+    "AC3",
+    "AC6",
+    "AC7",
+    "EN1",
+    "EN2",
+    "EN3",
+    "EN5",
+    "EN7"
+   ],
    "judge": {
     "claims": [
      {
-      "claim": "L'University College Cork (UCC) a mis en place plusieurs initiatives pour intégrer la durabilité dans son enseignement.",
+      "claim": "L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal.",
       "supported": true
      },
      {
-      "claim": "Le module 'Planet - Preparing Leaders for a Sustainable World' est obligatoire pour les étudiants de la Cork University Business School.",
+      "claim": "L'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé.",
       "supported": true
      },
      {
-      "claim": "La UCC a créé le 'UCC Green Campus Living Laboratory Seed Fund', qui offre une bourse financière complète pour couvrir les frais et le trait",
+      "claim": "L'université obtient 7,09 points STARS sur 8 au crédit AC-3, niveau élevé.",
       "supported": true
      },
      {
-      "claim": "Le 'Delap Prize for Postgraduate Research' est décerné annuellement par le School of Biological, Earth & Environmental Sciences.",
+      "claim": "L'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal.",
       "supported": true
      },
      {
-      "claim": "La UCC met en avant sa committment à la durabilité dans de nombreux documents et communications destinés aux étudiants et au personnel.",
+      "claim": "L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal.",
       "supported": true
      },
      {
-      "claim": "Le Centre pour l'éducation des adultes et la formation continue offre également le Diplôme en Environnement, Durabilité et Climat.",
+      "claim": "L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal.",
       "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport mentionne que le module 'Planet - Preparing Leaders for a Sustainable World' est obligatoire pour les étudiants de la Cork University Business School, mais il ne mentionne pas que ce module",
-     "Le rapport mentionne que la UCC a créé le 'UCC Green Campus Living Laboratory Seed Fund', mais il ne mentionne pas que ce fonds est destiné à soutenir les recherches en durabilité.",
-     "Le rapport mentionne que le 'Delap Prize for Postgraduate Research' est décerné annuellement par le School of Biological, Earth & Environmental Sciences, mais il ne mentionne pas que ce prix est dédié"
+     "Le rapport mentionne que l'université obtient 7 points STARS sur 8 au crédit EN-5, niveau élevé, mais la liste de statut GRI est vide, ce qui signifie que l'université n'a pas été vérifiée par GRI. Le"
     ],
-    "score": 3,
-    "feedback": "Supprimer les phrases suivantes : 'Le module 'Planet - Preparing Leaders for a Sustainable World' est obligatoire pour les étudiants de la Cork University Business School, leur permettant d'acquérir une connaissance approfondie des aspects environnementaux de la durabilité (GRI 305-1).', 'Le 'Delap Prize for Postgraduate Research' est également décerné annuellement par le School of Biological, Earth & Environmental Sciences pour récompenser la meilleure publication scientifique (GRI 305-1).', 'L",
+    "score": 4,
+    "feedback": "Supprimer les mentions de GRI et les scores STARS qui ne sont pas étayés par les sources. Réécrire les phrases pour refléter les limites et omissions du rapport, par exemple : 'Ce rapport ne peut pas établir si les programmes et activités de l'université sont accessibles à tous les étudiants et membres du personnel.'",
     "faithfulness": 1.0,
-    "seconds": 288.4,
+    "seconds": 241.3,
     "discarded_violations": [],
     "accepted": true
    }
@@ -86,7 +158,7 @@
   },
   {
    "credit": "AC-6",
-   "text": "- The UCC Green Campus Living Laboratory Seed Fund offers a full financial scholarship to cover the fees and stipend of a Masters by Research student, one scholarship is available per funding round. Research proposals must support the sustainability goals outlined in UCC's Sustainability and Climate Action Plan. The School of Biological, Earth & Environmental Sciences offers the ‘Delap Prize for Postgraduate Research' annually. The prize is awarded to the best peer-reviewed academic paper (including review papers) accepted for publication in a given academic year by a registered/recently graduated postgraduate student."
+   "text": "The Sustainability Institute is UCC's primary institute for sustainability research. it uses a global challenge-based approach to respond to, and find research solutions for, the core environmental challenges of Climate Action, Circular Economy, and Healthy Environment. The ERI brings together over researchers (Staff & students) from different disciplines with expertise in the broad research platforms of Environment, Sustainable Energy, Marine, Sustainable Agri-Food, and Sustainable Materials."
   },
   {
    "credit": "EN-1",
@@ -94,7 +166,7 @@
   },
   {
    "credit": "EN-2",
-   "text": "Aside from participation in Societies, UCC students also engage with sustainability activities through the UCC Graduate Attributes Programme, one example of this is the \"Your Compass\" resource - Your Compass | University College Cork, programme, which over [n] students have actively engaged in."
+   "text": "Aside from participation in Societies, UCC students also engage with sustainability activities through the UCC Graduate Attributes Programme, one example of this is the \"Your Compass\" resource - Your Compass | University College Cork, programme, which over students have actively engaged in."
   },
   {
    "credit": "EN-7",

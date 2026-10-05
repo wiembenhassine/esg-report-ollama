@@ -1,0 +1,51 @@
+credit_code,credit_name,gri,tcfd,esrs,note
+PRE-1,Executive Letter,GRI 2-14,Aucune correspondance,Aucune correspondance,Lettre de la direction : aucune exigence équivalente.
+PRE-2,Points of Distinction,Aucune correspondance,Aucune correspondance,Aucune correspondance,Points forts mis en avant par l'établissement : pas d'équivalent.
+PRE-3,Institutional Characteristics,"GRI 2-1, GRI 2-2, GRI 2-6, GRI 2-7",Aucune correspondance,ESRS 2,Périmètre de l'établissement ≈ ESRS 2 BP-1 (base d'établissement).
+PRE-4,Reporting Methodologies,"GRI 2-3, GRI 2-5",Aucune correspondance,ESRS 2,Méthodes de collecte ≈ ESRS 2 BP-2.
+AC-1,Sustainability Course Offerings,Aucune correspondance,Aucune correspondance,Aucune correspondance,Enseignement : aucun équivalent dans des référentiels conçus pour les entreprises.
+AC-2,Undergraduate Programs,Aucune correspondance,Aucune correspondance,Aucune correspondance,Enseignement : aucun équivalent.
+AC-3,Graduate Programs,Aucune correspondance,Aucune correspondance,Aucune correspondance,Enseignement : aucun équivalent.
+AC-4,Applied Learning,Aucune correspondance,Aucune correspondance,Aucune correspondance,Enseignement : aucun équivalent.
+AC-5,Sustainability Literacy Assessment,Aucune correspondance,Aucune correspondance,Aucune correspondance,Évaluation des connaissances des étudiants : aucun équivalent.
+AC-6,Sustainability Research,Aucune correspondance,Aucune correspondance,Aucune correspondance,Recherche : aucun équivalent.
+AC-7,Center for Sustainability Research,Aucune correspondance,Aucune correspondance,Aucune correspondance,Recherche : aucun équivalent.
+AC-8,Responsible Research and Innovation,Aucune correspondance,Aucune correspondance,Aucune correspondance,Recherche responsable : aucun équivalent.
+EN-1,Outreach and Communications,Aucune correspondance,Aucune correspondance,Aucune correspondance,Communication : aucun équivalent.
+EN-2,Co-Curricular Activities,Aucune correspondance,Aucune correspondance,Aucune correspondance,Vie étudiante : aucun équivalent.
+EN-3,Staff Engagement and Training,GRI 2-24,Aucune correspondance,S1,Formation du personnel ≈ S1 (formation des salariés).
+EN-4,Sustainability Culture Assessment,Aucune correspondance,Aucune correspondance,Aucune correspondance,Enquête de culture durable : aucun équivalent.
+EN-5,Civic Engagement,Aucune correspondance,Aucune correspondance,S3,Engagement civique ≈ S3 (communautés).
+EN-6,Community Partnerships,GRI 2-29,Aucune correspondance,S3,Partenariats avec la communauté ≈ S3.
+EN-7,Continuing Education,Aucune correspondance,Aucune correspondance,Aucune correspondance,Formation continue : aucun équivalent.
+EN-8,Shared Facilities,Aucune correspondance,Aucune correspondance,Aucune correspondance,Installations partagées : aucun équivalent.
+EN-9,Inter-Campus Collaboration,Aucune correspondance,Aucune correspondance,Aucune correspondance,Collaboration entre campus : aucun équivalent.
+OP-1,Building Design and Construction,Aucune correspondance,Aucune correspondance,E1,Construction : performance énergétique des bâtiments ≈ E1.
+OP-2,Building Operations and Maintenance,Aucune correspondance,Aucune correspondance,E1,Exploitation des bâtiments ≈ E1.
+OP-3,Water Use,"GRI 303-1, GRI 303-3",Aucune correspondance,E3,Consommation d'eau ≈ E3.
+OP-4,Ecologically Managed Grounds,GRI 101-2,Aucune correspondance,"E4, E2",Gestion écologique des espaces verts ≈ E4 (GRI 101-2) ; pesticides ≈ E2.
+OP-5,Energy Use,"GRI 302-1, GRI 302-3",MT-a,E1,Consommation d'énergie ≈ E1-5 ; indicateur climat TCFD.
+OP-6,Greenhouse Gas Emissions,"GRI 2-3, GRI 305-1, GRI 305-2, GRI 305-3, GRI 305-4, GRI 305-5","MT-b, MT-c",E1,Émissions GES et objectif de réduction ≈ E1-6 / E1-4 ; TCFD MT-b et MT-c.
+OP-7,Dining Service Procurement,Aucune correspondance,Aucune correspondance,G1,Achats alimentaires ≈ G1 (relations fournisseurs).
+OP-8,Food Recovery,Aucune correspondance,Aucune correspondance,E5,Récupération alimentaire ≈ E5 (déchets).
+OP-9,Sustainable Procurement System,"GRI 2-24, GRI 308-1",Aucune correspondance,"G1, S2",Achats durables ≈ G1-2 et S2 (chaîne de valeur).
+OP-10,Purchased Goods,Aucune correspondance,Aucune correspondance,E5,Biens achetés ≈ E5 (ressources entrantes).
+OP-11,Materials Management,GRI 306-2,Aucune correspondance,"E5, E2",Gestion des matériaux ≈ E5 ; substances dangereuses ≈ E2.
+OP-12,Waste Generation and Recovery,"GRI 306-2, GRI 306-3, GRI 306-4, GRI 306-5",Aucune correspondance,E5,Déchets ≈ E5-5 (ressources sortantes).
+OP-13,Vehicle Fleet,Aucune correspondance,MT-a,E1,Flotte de véhicules : source d'émissions ≈ E1.
+OP-14,Commute Modal Split,Aucune correspondance,MT-a,E1,Déplacements domicile-campus : émissions scope 3 ≈ E1.
+OP-15,Air Travel,Aucune correspondance,MT-a,E1,Voyages en avion : émissions scope 3 ≈ E1.
+PA-1,Sustainability Coordination,"GRI 2-13, GRI 2-24, GRI 3-3",GOV-b,ESRS 2,"Coordination de la durabilité ≈ rôle de la direction (TCFD GOV-b, ESRS 2 GOV-1)."
+PA-2,Commitments and Planning,"GRI 2-22, GRI 2-23, GRI 2-28, GRI 3-2, GRI 3-3","STR-a, MT-c","ESRS 2, E1","Engagements, plans et objectifs mesurables ≈ E1-1/E1-4 ; TCFD STR-a et MT-c."
+PA-3,Institutional Governance,"GRI 2-9, GRI 2-29",Aucune correspondance,ESRS 2,"Représentation dans la gouvernance ≈ ESRS 2 GOV-1 ; ne traite pas du climat, donc pas de TCFD."
+PA-4,Sustainable Investment Program,Aucune correspondance,Aucune correspondance,Aucune correspondance,Programme d'investissement durable : pas de norme ESRS adoptée pour les investisseurs ; pas d'équivalent retenu.
+PA-5,Investment Holdings,Aucune correspondance,Aucune correspondance,Aucune correspondance,Portefeuille d'investissements : pas d'équivalent retenu.
+PA-6,Institutional Climate,Aucune correspondance,Aucune correspondance,S1,Climat institutionnel (inclusion) ≈ S1.
+PA-7,Racial and Ethnic Representation,GRI 405-1,Aucune correspondance,S1,Représentation ethnique ≈ S1-9 (diversité) ; la partie étudiants n'a pas d'équivalent.
+PA-8,Gender Parity,GRI 405-1,Aucune correspondance,S1,Parité ≈ S1-9.
+PA-9,Affordability and Access,GRI 202-1,Aucune correspondance,S4,Accessibilité financière pour les étudiants ≈ S4 (usagers).
+PA-10,Student Success,Aucune correspondance,Aucune correspondance,S4,Réussite étudiante ≈ S4.
+PA-11,"Health, Safety and Wellbeing","GRI 403-1, GRI 403-3, GRI 403-4, GRI 403-6",Aucune correspondance,S1,"Santé, sécurité et bien-être ≈ S1-14."
+PA-12,Employee Rights,"GRI 2-25, GRI 2-26, GRI 401-2, GRI 401-3",Aucune correspondance,"S1, G1",Droits des salariés ≈ S1 ; protection des lanceurs d'alerte ≈ G1-1.
+PA-13,Pay Equity and Living Wage,GRI 202-1,Aucune correspondance,S1,Salaire décent ≈ S1-10.
+IL-24,Biodiversity Assessment,"GRI 101-4, GRI 101-5",Aucune correspondance,E4,Évaluation de la biodiversité (crédit bonus) ≈ E4 ; GRI 101-4 et 101-5.

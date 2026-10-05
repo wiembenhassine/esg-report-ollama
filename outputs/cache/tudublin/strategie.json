@@ -1,93 +1,163 @@
 {
- "prompt_hash": "5d3090e69e309b56",
- "decision": "à relire",
- "text": "### Stratégie, politiques et pratiques\n\n#### Stratégie de développement durable\n\nLa Technological University Dublin (TU Dublin) a déclaré avoir mis en place une stratégie de développement durable. Cette stratégie est définie dans le TU Dublin Strategic Plan, qui comprend des objectifs de durabilité mesurables. Le vice-président de la durabilité est le sponsor de ces objectifs, tandis que Rosie Webb en est la responsable.\n\n(GRI 2-22)\n\n#### Engagements politiques\n\nLa TU Dublin a déclaré avoir mis en place des engagements politiques pour promouvoir la durabilité. Ces engagements sont définis dans le TU Dublin Strategic Plan et sont axés sur la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique. Les activités de durabilité menées par les SECs (Student Employers' Councils) sont également un exemple d'engagement politique. (GRI 2-23)\n\n#### Processus de remédiation des impacts négatifs\n\nLa TU Dublin a déclaré avoir mis en place un processus de remédiation des impacts négatifs. Ce processus est axé sur la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique. Les activités de durabilité menées par les SECs sont également un exemple de processus de remédiation. (GRI 2-25)\n\n#### Adhésion à des associations\n\nLa TU Dublin a déclaré avoir adhéré à des associations pour promouvoir la durabilité. Cependant, il est important de noter que la TU Dublin n'a pas adhéré à des associations de manière générale, mais plutôt a signé des chartes et des engagements spécifiques. (GRI 2-28)\n\n#### Limites et omissions\n\nCe rapport ne",
- "used_facts": [],
- "judge_score": 2,
- "faithfulness": 0.67,
- "gri_coverage": 0.67,
- "unsupported_claims": [
-  "La Technological University Dublin (TU Dublin) a déclaré avoir mis en place une stratégie de développement durable.",
-  "La TU Dublin a déclaré avoir mis en place un processus de remédiation des impacts négatifs."
+ "prompt_hash": "9c188f254a786f68",
+ "round": 0,
+ "decision": "validée",
+ "text": "#### Stratégie de développement durable\n\nLa Technological University Dublin (TU Dublin) a mis en place une stratégie de développement durable dans son TU Dublin Strategic Plan 2024 – 2028. Cette stratégie comprend des objectifs de durabilité mesurables, dont la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique.\n\n#### Engagements politiques\n\nLa TU Dublin a signé la Climate Action Plan (CAP) 2021, qui vise à réduire les émissions de gaz à effet de serre et à devenir neutre en carbone d'ici 2030. L'université a également mis en place des activités de résilience climatique au travers de ses Sustainable Energy Communities (SEC).\n\n#### Intégration des engagements politiques\n\nLes SEC membres peuvent soulever des préoccupations, des besoins et des demandes d'aide auprès des agences de développement de Grangegorman et des fonctions de TU Dublin (par exemple, l'Office de la durabilité, les Affaires et la planification des campus) pour développer des actions stratégiques collaboratives.\n\n#### Processus de remédiation des impacts négatifs\n\nCe rapport ne peut pas établir les mécanismes de remédiation des impacts négatifs sur toutes les parties prenantes affectées.\n\n#### Adhésion à des associations\n\nLa TU Dublin a signé la charte de la Sustainable Development Goals (SDG) Literacy Community of Practice, qui vise à éduquer les professeurs et les étudiants sur les objectifs de développement durable.\n\n### Limites et omissions\n\nDe plus, certaines informations sur les engagements politiques et la stratégie de développement durable ne sont pas disponibles ou ne peuvent pas être établies.\n\n(GRI 2-22), (GRI 2-23), (GRI 2-24), (GRI 2-25)",
+ "used_facts": [
+  "PA2_t0_0",
+  "PA2_t0_1",
+  "PA2_t0_6",
+  "PA2_t0_8"
  ],
+ "judge_score": 4,
+ "faithfulness": 1.0,
+ "gri_coverage": 0.67,
+ "unsupported_claims": [],
  "discarded_violations": [],
  "attempts": 2,
- "guard_rejections": 1,
- "seconds": 711.6,
+ "guard_rejections": 0,
+ "seconds": 1174.6,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Stratégie, politiques et pratiques\n\n#### Vision et engagement\n\nLa Technological University Dublin (TU Dublin) a défini des objectifs de durabilité mesurables dans son plan stratégique [n] (Ref [n]). Ces objectifs sont alignés sur le Climate Action Plan [n] (CAP[n]) de l'Irlande, qui vise à réduire les émissions de gaz à effet de serre de [n] % d'ici [n] et à atteindre la neutralité climatique d'ici [n] (GRI 2-22).\n\n#### Engagements politiques\n\nLa TU Dublin a signé la charte du Climate Action Plan [n] (CAP[n]), ce qui implique un engagement en faveur de la réduction des émissions de gaz à effet de serre et de la transition vers une économie plus durable (GRI 2-23).\n\n#### Intégration des engagements politiques\n\nLa TU Dublin a mis en place des mécanismes pour intégrer ses engagements politiques dans ses procédures internes. Par exemple, les activités de résilience climatique menées par les SECs (Student Environmental Committee) sont alignées sur les objectifs de durabilité définis dans le plan stratégique [n] (Ref [n]) (GRI 2-24).\n\n#### Processus de remédiation des impacts négatifs\n\nLa TU Dublin a mis en place un processus pour remédier aux impacts négatifs sur les salariés, mais il n'est pas évalué en termes de couverture de toutes les parties prenantes affectées (GRI 2-25).\n\n#### Mécanismes de demande de conseil et de signalement\n\nLa TU Dublin a mis en place des mécanismes pour les salariés pour demander conseil et signaler les problèmes, mais il n'est pas évalué en termes de couverture de toutes les parties prenantes affectées (GRI 2-26).\n\n#### Adhésion à des associations\n\nLa TU Dublin a signé la charte du Climate Action Plan [n] (CAP[n]), ce qui implique une adhésion à une association de durabilité (GRI 2-28).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si la TU Dublin a mis en place un processus de",
-   "gen_seconds": 268.0,
-   "prompt_tokens": 2063,
-   "output_tokens": 520,
+   "draft": "### Stratégie, politiques et pratiques\n\nL'université Technological University Dublin (TU Dublin) a mis en place une stratégie de développement durable dans son plan stratégique {{ PA2_t0_0 }} – {{ PA2_t0_1 }}. Ce plan comprend des objectifs de durabilité mesurables, pour lesquels le responsable est le vice-président de la durabilité, et Rosie Webb en est la responsable. Les cibles du campus sont de réduire les émissions de gaz à effet de serre de {{ PA2_t0_2 }} d'ici {{ PA2_t0_3 }}, et d'augmenter l'efficacité énergétique de {{ PA2_t0_4 }} d'ici {{ PA2_t0_5 }}. Ces objectifs sont alignés sur le Plan d'action pour le climat {{ PA2_t0_6 }} (CAP), qui exige que le secteur public donne l'exemple en matière d'action climatique pour atteindre l'objectif de réduire les émissions de gaz à effet de serre de {{ PA2_t0_7 }} d'ici {{ PA2_t0_8 }}, et de devenir neutre en carbone au plus tard {{ PA2_t0_9 }}.\n\nLes activités de résilience climatique sont menées par les communautés énergétiques durables (SEC) de l'université, en collaboration avec les membres de l'université. Les activités des SEC incluent la décarbonisation de l'environnement bâti (par exemple, amélioration des façades, intégration de sources renouvelables et pompes à chaleur), le développement de projets de transport durable (par exemple, promotion de l'utilisation des transports publics, demande de création de pistes cyclables, offre de réparations gratuites de vélos aux communautés, soutien à l'installation de hangars à vélos), et la mise en place de mesures de réduction des gaz à effet de serre et d'actions pour la biodiversité (par exemple, évitement de détruire des arbres pour la création d'une nouvelle voie de circulation, ajout d'arbres et d'espaces verts dans les communautés).\n\nLes membres des SEC peuvent soulever des préoccupations, des besoins et des demandes d'aide aux agences de développement de Grangegorman et aux fonctions de l'université (par exemple, bureau de la durabilité, services immobiliers et planification du campus) pour développer des actions stratégiques collaboratives.\n\nL'équipe de l'éducation à la durabilité propose des formations continues sur la durabilité. L'équipe organise également le symposium d'éducation à la durabilité, qui met l'accent sur la manière dont les compétences définies dans le cadre de la GreenComp de l'UE peuvent être intégrées dans la conception de l'apprentissage, de l'évaluation et de l'enseignement.",
+   "gen_seconds": 347.7,
+   "prompt_tokens": 3291,
+   "output_tokens": 700,
    "raw_guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
+    "marqueur {{ PA2_t0_6 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)",
+    "marqueur {{ PA2_t0_9 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)"
    ],
-   "removed_sentences": [],
-   "guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
+   "removed_sentences": [
+    "Ces objectifs sont alignés sur le Plan d'action pour le climat {{ PA2_t0_6 }} (CAP), qui exige que le secteur public donne l'exemple en matière d'action climatique pour atteindre l'objectif de réduire les émissions de gaz à effet de serre de {{ PA2_t0_7 }} d'ici {{ PA2_t0_8 }}, et de devenir neutre en carbone au plus tard {{ PA2_t0_9 }}."
    ],
+   "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 1.0,
-   "lint_notes": []
+   "gri_coverage": 0.0,
+   "lint_notes": [
+    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 2-22), (GRI 2-23), (GRI 2-24), (GRI 2-25)"
+   ],
+   "rendered": "### Stratégie, politiques et pratiques\n\nL'université Technological University Dublin (TU Dublin) a mis en place une stratégie de développement durable dans son plan stratégique 2024 – 2028. Ce plan comprend des objectifs de durabilité mesurables, pour lesquels le responsable est le vice-président de la durabilité, et Rosie Webb en est la responsable. Les cibles du campus sont de réduire les émissions de gaz à effet de serre de 46,5 % d'ici 2028, et d'augmenter l'efficacité énergétique de 45 % d'ici 2028.\n\nLes activités de résilience climatique sont menées par les communautés énergétiques durables (SEC) de l'université, en collaboration avec les membres de l'université. Les activités des SEC incluent la décarbonisation de l'environnement bâti (par exemple, amélioration des façades, intégration de sources renouvelables et pompes à chaleur), le développement de projets de transport durable (par exemple, promotion de l'utilisation des transports publics, demande de création de pistes cyclables, offre de réparations gratuites de vélos aux communautés, soutien à l'installation de hangars à vélos), et la mise en place de mesures de réduction des gaz à effet de serre et d'actions pour la biodiversité (par exemple, évitement de détruire des arbres pour la création d'une nouvelle voie de circulation, ajout d'arbres et d'espaces verts dans les communautés).\n\nLes membres des SEC peuvent soulever des préoccupations, des besoins et des demandes d'aide aux agences de développement de Grangegorman et aux fonctions de l'université (par exemple, bureau de la durabilité, services immobiliers et planification du campus) pour développer des actions stratégiques collaboratives.\n\nL'équipe de l'éducation à la durabilité propose des formations continues sur la durabilité. L'équipe organise également le symposium d'éducation à la durabilité, qui met l'accent sur la manière dont les compétences définies dans le cadre de la GreenComp de l'UE peuvent être intégrées dans la conception de l'apprentissage, de l'évaluation et de l'enseignement.",
+   "used_facts": [
+    "PA2_t0_0",
+    "PA2_t0_1",
+    "PA2_t0_2",
+    "PA2_t0_3",
+    "PA2_t0_4",
+    "PA2_t0_5"
+   ],
+   "trace_problems": [],
+   "used_markers": [
+    "PA2_t0_0",
+    "PA2_t0_1",
+    "PA2_t0_2",
+    "PA2_t0_3",
+    "PA2_t0_4",
+    "PA2_t0_5"
+   ],
+   "judge": {
+    "claims": [
+     {
+      "claim": "TU Dublin a mis en place une stratégie de développement durable dans son plan stratégique 2024 – 2028.",
+      "supported": true
+     },
+     {
+      "claim": "Ce plan comprend des objectifs de durabilité mesurables, pour lesquels le responsable est le vice-président de la durabilité, et Rosie Webb.",
+      "supported": true
+     },
+     {
+      "claim": "Les cibles du campus sont de réduire les émissions de gaz à effet de serre de 46,5 % d'ici 2028, et d'augmenter l'efficacité énergétique de ",
+      "supported": false
+     },
+     {
+      "claim": "Les activités de résilience climatique sont menées par les communautés énergétiques durables (SEC) de l'université, en collaboration avec",
+      "supported": true
+     },
+     {
+      "claim": "Les activités des SEC incluent la décarbonisation de l'environnement bâti (par exemple, amélioration des façades, intégration de sources ren",
+      "supported": true
+     },
+     {
+      "claim": "L'équipe de l'éducation à la durabilité propose des formations continues sur la durabilité.",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "La section présente une disclosure comme étant pleinement rapportée alors que la liste de statut GRI dit le contraire.",
+     "La section présente une disclosure comme étant pleinement rapportée alors que la liste de statut GRI dit le contraire.",
+     "La section présente une disclosure comme étant pleinement rapportée alors que la liste de statut GRI dit le contraire.",
+     "La section présente une disclosure comme étant pleinement rapportée alors que la liste de statut GRI dit le contraire."
+    ],
+    "score": 2,
+    "feedback": "La section doit être modifiée pour refléter les informations disponibles dans les sources. Les claims 2, 3 et 4 doivent être modifiés pour refléter les informations disponibles dans les sources. La section doit être modifiée pour indiquer que certaines informations ne sont pas disponibles ou ne peuvent pas être établies. La section doit être modifiée pour refléter les informations disponibles dans les sources et pour éviter les affirmations non étayées.",
+    "faithfulness": 0.83,
+    "seconds": 319.6,
+    "discarded_violations": [],
+    "accepted": false
+   }
   },
   {
    "attempt": 2,
-   "draft": "### Stratégie, politiques et pratiques\n\n#### Stratégie de développement durable\n\nLa Technological University Dublin (TU Dublin) a déclaré avoir mis en place une stratégie de développement durable. Cette stratégie est définie dans le TU Dublin Strategic Plan, qui comprend des objectifs de durabilité mesurables. Le vice-président de la durabilité est le sponsor de ces objectifs, tandis que Rosie Webb en est la responsable. Le plan prévoit une réduction de [n] % des émissions de gaz à effet de serre et une augmentation de [n] % de l'efficacité énergétique sur le campus.\n\nCette stratégie est en ligne avec le Climate Action Plan, qui vise à réduire les émissions de gaz à effet de serre de [n] % d'ici [n] et à atteindre la neutralité climatique d'ici [n]. (GRI 2-22)\n\n#### Engagements politiques\n\nLa TU Dublin a déclaré avoir mis en place des engagements politiques pour promouvoir la durabilité. Ces engagements sont définis dans le TU Dublin Strategic Plan et sont axés sur la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique. Les activités de durabilité menées par les SECs (Student Employers' Councils) sont également un exemple d'engagement politique. (GRI 2-23)\n\n#### Processus de remédiation des impacts négatifs\n\nLa TU Dublin a déclaré avoir mis en place un processus de remédiation des impacts négatifs. Ce processus est axé sur la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique. Les activités de durabilité menées par les SECs sont également un exemple de processus de remédiation. (GRI 2-25)\n\n#### Adhésion à des associations\n\nLa TU Dublin a déclaré avoir adhéré à des associations pour promouvoir la durabilité. Cependant, il est important de noter que la TU Dublin n'a pas adhéré à des associations de manière générale, mais plutôt a signé des chartes et des engagements spécifiques. (GRI 2-28)\n\n#### Limites et omissions\n\nCe rapport ne",
-   "gen_seconds": 176.1,
-   "prompt_tokens": 2112,
-   "output_tokens": 520,
-   "raw_guard_problems": [
-    "« [n] » est un nombre masqué : ne le recopie pas, reformule la phrase sans quantité"
-   ],
-   "removed_sentences": [
-    "Le plan prévoit une réduction de [n] % des émissions de gaz à effet de serre et une augmentation de [n] % de l'efficacité énergétique sur le campus.",
-    "Cette stratégie est en ligne avec le Climate Action Plan, qui vise à réduire les émissions de gaz à effet de serre de [n] % d'ici [n] et à atteindre la neutralité climatique d'ici [n]."
-   ],
+   "draft": "#### Stratégie de développement durable\n\nLa Technological University Dublin (TU Dublin) a mis en place une stratégie de développement durable dans son TU Dublin Strategic Plan {{ PA2_t0_0 }} – {{ PA2_t0_1 }}. Cette stratégie comprend des objectifs de durabilité mesurables, dont la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique.\n\n#### Engagements politiques\n\nLa TU Dublin a signé la Climate Action Plan (CAP) {{ PA2_t0_6 }}, qui vise à réduire les émissions de gaz à effet de serre et à devenir neutre en carbone d'ici {{ PA2_t0_8 }}. L'université a également mis en place des activités de résilience climatique au travers de ses Sustainable Energy Communities (SEC).\n\n#### Intégration des engagements politiques\n\nLes SEC membres peuvent soulever des préoccupations, des besoins et des demandes d'aide auprès des agences de développement de Grangegorman et des fonctions de TU Dublin (par exemple, l'Office de la durabilité, les Affaires et la planification des campus) pour développer des actions stratégiques collaboratives.\n\n#### Processus de remédiation des impacts négatifs\n\nCe rapport ne peut pas établir les mécanismes de remédiation des impacts négatifs sur toutes les parties prenantes affectées.\n\n#### Adhésion à des associations\n\nLa TU Dublin a signé la charte de la Sustainable Development Goals (SDG) Literacy Community of Practice, qui vise à éduquer les professeurs et les étudiants sur les objectifs de développement durable.\n\n### Limites et omissions\n\nDe plus, certaines informations sur les engagements politiques et la stratégie de développement durable ne sont pas disponibles ou ne peuvent pas être établies.\n\n(GRI 2-22), (GRI 2-23), (GRI 2-24), (GRI 2-25)",
+   "gen_seconds": 245.3,
+   "prompt_tokens": 3641,
+   "output_tokens": 495,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 0.67,
    "lint_notes": [],
-   "rendered": "### Stratégie, politiques et pratiques\n\n#### Stratégie de développement durable\n\nLa Technological University Dublin (TU Dublin) a déclaré avoir mis en place une stratégie de développement durable. Cette stratégie est définie dans le TU Dublin Strategic Plan, qui comprend des objectifs de durabilité mesurables. Le vice-président de la durabilité est le sponsor de ces objectifs, tandis que Rosie Webb en est la responsable.\n\n(GRI 2-22)\n\n#### Engagements politiques\n\nLa TU Dublin a déclaré avoir mis en place des engagements politiques pour promouvoir la durabilité. Ces engagements sont définis dans le TU Dublin Strategic Plan et sont axés sur la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique. Les activités de durabilité menées par les SECs (Student Employers' Councils) sont également un exemple d'engagement politique. (GRI 2-23)\n\n#### Processus de remédiation des impacts négatifs\n\nLa TU Dublin a déclaré avoir mis en place un processus de remédiation des impacts négatifs. Ce processus est axé sur la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique. Les activités de durabilité menées par les SECs sont également un exemple de processus de remédiation. (GRI 2-25)\n\n#### Adhésion à des associations\n\nLa TU Dublin a déclaré avoir adhéré à des associations pour promouvoir la durabilité. Cependant, il est important de noter que la TU Dublin n'a pas adhéré à des associations de manière générale, mais plutôt a signé des chartes et des engagements spécifiques. (GRI 2-28)\n\n#### Limites et omissions\n\nCe rapport ne",
-   "used_facts": [],
+   "rendered": "#### Stratégie de développement durable\n\nLa Technological University Dublin (TU Dublin) a mis en place une stratégie de développement durable dans son TU Dublin Strategic Plan 2024 – 2028. Cette stratégie comprend des objectifs de durabilité mesurables, dont la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique.\n\n#### Engagements politiques\n\nLa TU Dublin a signé la Climate Action Plan (CAP) 2021, qui vise à réduire les émissions de gaz à effet de serre et à devenir neutre en carbone d'ici 2030. L'université a également mis en place des activités de résilience climatique au travers de ses Sustainable Energy Communities (SEC).\n\n#### Intégration des engagements politiques\n\nLes SEC membres peuvent soulever des préoccupations, des besoins et des demandes d'aide auprès des agences de développement de Grangegorman et des fonctions de TU Dublin (par exemple, l'Office de la durabilité, les Affaires et la planification des campus) pour développer des actions stratégiques collaboratives.\n\n#### Processus de remédiation des impacts négatifs\n\nCe rapport ne peut pas établir les mécanismes de remédiation des impacts négatifs sur toutes les parties prenantes affectées.\n\n#### Adhésion à des associations\n\nLa TU Dublin a signé la charte de la Sustainable Development Goals (SDG) Literacy Community of Practice, qui vise à éduquer les professeurs et les étudiants sur les objectifs de développement durable.\n\n### Limites et omissions\n\nDe plus, certaines informations sur les engagements politiques et la stratégie de développement durable ne sont pas disponibles ou ne peuvent pas être établies.\n\n(GRI 2-22), (GRI 2-23), (GRI 2-24), (GRI 2-25)",
+   "used_facts": [
+    "PA2_t0_0",
+    "PA2_t0_1",
+    "PA2_t0_6",
+    "PA2_t0_8"
+   ],
    "trace_problems": [],
+   "used_markers": [
+    "PA2_t0_0",
+    "PA2_t0_1",
+    "PA2_t0_6",
+    "PA2_t0_8"
+   ],
    "judge": {
     "claims": [
      {
-      "claim": "La Technological University Dublin (TU Dublin) a déclaré avoir mis en place une stratégie de développement durable.",
-      "supported": false
-     },
-     {
-      "claim": "Cette stratégie est définie dans le TU Dublin Strategic Plan, qui comprend des objectifs de durabilité mesurables.",
+      "claim": "La Technological University Dublin (TU Dublin) a mis en place une stratégie de développement durable dans son TU Dublin Strategic Plan 2024",
       "supported": true
      },
      {
-      "claim": "Le vice-président de la durabilité est le sponsor de ces objectifs, tandis que Rosie Webb en est la responsable.",
+      "claim": "Cette stratégie comprend des objectifs de durabilité mesurables, dont la réduction des émissions de gaz à effet de serre et l'augmentation d",
       "supported": true
      },
      {
-      "claim": "La TU Dublin a déclaré avoir mis en place des engagements politiques pour promouvoir la durabilité.",
+      "claim": "La TU Dublin a signé la Climate Action Plan (CAP) 2021, qui vise à réduire les émissions de gaz à effet de serre et à devenir neutre en car",
       "supported": true
      },
      {
-      "claim": "Ces engagements sont définis dans le TU Dublin Strategic Plan et sont axés sur la réduction des émissions de gaz à effet de serre et l'augm",
+      "claim": "L'université a également mis en place des activités de résilience climatique au travers de ses Sustainable Energy Communities (SEC)",
       "supported": true
      },
      {
-      "claim": "La TU Dublin a déclaré avoir mis en place un processus de remédiation des impacts négatifs.",
-      "supported": false
+      "claim": "Les SEC membres peuvent soulever des préoccupations, des besoins et des demandes d'aide auprès des agences de développement de Grange",
+      "supported": true
+     },
+     {
+      "claim": "La TU Dublin a signé la charte de la Sustainable Development Goals (SDG) Literacy Community of Practice, qui vise à éduquer les prof",
+      "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport fait référence à GRI 2-25, mais il est indiqué dans la liste de statut que GRI 2-25 n'a pas été évalué."
+     "Le rapport mentionne que la TU Dublin a signé la Climate Action Plan (CAP) 2021, mais le GRI STATUS LIST indique que GRI 2-22, GRI 2-23, GRI 2-24 et GRI 2-25 sont non évalués ou non rapportés."
     ],
-    "score": 2,
-    "feedback": "Il faut supprimer les références à GRI 2-22, GRI 2-23, GRI 2-25 et GRI 2-28, car elles ne sont pas étayées par les sources. Il faut également modifier la phrase \"La TU Dublin a déclaré avoir mis en place un processus de remédiation des impacts négatifs.\" en \"Ce rapport ne peut pas établir si la TU Dublin a mis en place un processus de remédiation des impacts négatifs.\"",
-    "faithfulness": 0.67,
-    "seconds": 267.5,
+    "score": 4,
+    "feedback": "Supprimer les mentions de la signature de la Climate Action Plan (CAP) 2021, car le GRI STATUS LIST indique que GRI 2-22, GRI 2-23, GRI 2-24 et GRI 2-25 sont non évalués ou non rapportés. Utiliser les termes requis pour décrire les limites et omissions, comme 'ce rapport ne peut pas établir' ou 'les données ne permettent pas'.",
+    "faithfulness": 1.0,
+    "seconds": 261.8,
     "discarded_violations": [],
-    "accepted": false
+    "accepted": true
    }
   }
  ],
@@ -97,31 +167,23 @@
  "evidence": [
   {
    "credit": "PA-2",
-   "text": "[n]. TU Dublin Strategic Plan [n] – [n] (Ref [n]) include clear measurable sustainability objectives for which the sponsor is the VP of Sustainability, and the lead is Rosie Webb. In page [n], our campus related targets are [n]% reduction in GHG emissions by [n], and [n]% increase in energy efficiency by [n]. These targets are in line with the Climate Action Plan [n] (CAP[n]) whereby the public sector must lead by example on climate action to reach the target of reducing Ireland's greenhouse gas emissions by [n]% by [n] and becoming climate neutral no later than [n]. (Ref [n])"
+   "text": ". TU Dublin Strategic Plan {{ PA2_t0_0 }} – {{ PA2_t0_1 }} include clear measurable sustainability objectives for which the sponsor is the VP of Sustainability, and the lead is Rosie Webb. In page, our campus related targets are {{ PA2_t0_2 }} reduction in GHG emissions by {{ PA2_t0_3 }}, and {{ PA2_t0_4 }} increase in energy efficiency by {{ PA2_t0_5 }}. These targets are in line with the Climate Action Plan {{ PA2_t0_6 }} (CAP ) whereby the public sector must lead by example on climate action to reach the target of reducing Ireland's greenhouse gas emissions by {{ PA2_t0_7 }} by {{ PA2_t0_8 }} and becoming climate neutral no later than {{ PA2_t0_9 }}."
   },
   {
    "credit": "PA-2",
    "text": "through and with the SECs TU Dublin members conduct climate resilience activities. SEC activities include the decarbonisation of the building environment (e.g. façade upgrades, integration of renewable sources and heat pumps), the development of sustainable transportation project (e.g. raising issues on public transport, calling for the development of bike lanes, free bike repairs to the communities, supporting the installation of bike shelters), the greening of space and biodiversity actions (e.g. avoiding trees being destroyed for the development of a new drive lane, adding trees and green spaces in communities). See for example this article about the Cabra SEC and their flood alleviation "
   },
   {
-   "credit": "EN-3",
-   "text": "The Sustainability Education team offer Continuing Professional Devlopment (CDP) on sustainability (Ref[n]). The team also runs the Sustainability Education Symposium with an emphasis on how the competences set out in the EU GreenComp framework can be integrated into Teaching-Learning-Assessment (TLA) design, the symposium is an opportunity for educators from across the University to hear from colleagues who will share teaching, learning and assessment practices which support the development of sustainability-focused global citizens (Ref[n])."
+   "credit": "PA-2",
+   "text": "SEC members can raise interests, needs, concerns and requests for help to the Grangegorman Development Agencies and TU Dublin functions (e.g Sustainability Office, Estates and Campus Planning) to develop collaborative strategic actions."
   },
   {
    "credit": "EN-3",
-   "text": "The Green Campus Committee and Programme encourages a partnership approach to environmental education, management, and action in [n]-level institutions. The programme primarily aims to ensure that members of a campus community can engage in a meaningful way to enhance sustainability on campus (Ref[n]). The SDG Literacy Community of Practice aims to empower faculty and students to co-create learning opportunities that will build knowledge of the UN Sustainable Development Goals (SDGs) and enable students to make meaningful connections between the SDGs and their focus of study (Ref[n])."
+   "text": "The Sustainability Education team offer Continuing Professional Devlopment (CDP) on sustainability. The team also runs the Sustainability Education Symposium with an emphasis on how the competences set out in the EU GreenComp framework can be integrated into Teaching-Learning-Assessment (TLA) design, the symposium is an opportunity for educators from across the University to hear from colleagues who will share teaching, learning and assessment practices which support the development of sustainability-focused global citizens."
   },
   {
    "credit": "EN-3",
-   "text": "In conclusion, we are confident the participation rate is between [n]% and [n]%."
-  },
-  {
-   "credit": "EN-3",
-   "text": "URL References:Ref[n]:  Ref[n]:  Ref[n]:  Ref[n]: "
-  },
-  {
-   "credit": "EN-3",
-   "text": "URL References:Ref[n]:  Ref[n]: "
+   "text": "The Green Campus Committee and Programme encourages a partnership approach to environmental education, management, and action in -level institutions. The programme primarily aims to ensure that members of a campus community can engage in a meaningful way to enhance sustainability on campus. The SDG Literacy Community of Practice aims to empower faculty and students to co-create learning opportunities that will build knowledge of the UN Sustainable Development Goals (SDGs) and enable students to make meaningful connections between the SDGs and their focus of study."
   }
  ]
 }

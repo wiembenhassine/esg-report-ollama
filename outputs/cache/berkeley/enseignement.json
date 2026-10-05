@@ -1,29 +1,64 @@
 {
- "prompt_hash": "24fdc14edf71a71a",
- "round": 1,
+ "prompt_hash": "27304583388357b8",
+ "round": 0,
  "decision": "validée",
- "text": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nLes cours d'enseignement axés sur la durabilité ont été recensés à l'aide d'une inventaire de cours de l'Université de Californie, qui a filtré les cours qualifiés comme axés sur la durabilité ou liés à la durabilité. Les cours ont été classés en fonction de leurs descriptions fournies dans le manuel technique STARS. Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité.\n\n#### Recherche\n\nUn étudiant bachelier en stage à l'Office de la durabilité a créé une liste de mots-clés pour identifier la recherche sur la durabilité. La liste de mots-clés a été tirée en grande partie des mots-clés créés pour identifier les offres de cours axées sur la durabilité pour AC-1 et d'autres mots-clés ont été pris en compte dans la recherche de mots-clés de recherche sur la durabilité utilisée dans le rapport STARS précédent de l'Université de Californie. Après une grande recherche de mots-clés sur l'inventaire de recherche de FY à FY, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés.\n\n#### Centre de recherche sur la durabilité\n\nL'Université compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab de l'Université de Californie.\n\n#### Engagement et formation du personnel\n\nL'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires sont responsables de la formation et de l'engagement du personnel.\n\n#### Engagement civique",
- "used_facts": [],
+ "text": "### Enseignement, recherche et engagement\n\nL'université obtient 13,01 points STARS sur 14 au crédit AC-1, niveau élevé. L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de 2021 à 2024, en filtrant les éléments qui se qualifient comme des cours axés sur la durabilité ou liés à la durabilité. Les cours qui se qualifient ont été comptabilisés comme des offres de cours en durabilité.\n\nL'université obtient 10,22 points STARS sur 15 au crédit AC-2, niveau intermédiaire. Les programmes de premier cycle de l'Université de Californie à Berkeley incluent une exigence de cours axée sur la durabilité.\n\nL'université obtient 8 points STARS sur 8 au crédit AC-3, niveau maximal. Les programmes de cycles supérieurs de l'Université de Californie à Berkeley incluent des cours axés sur la durabilité.\n\nL'université obtient 7,35 points STARS sur 10 au crédit AC-6, niveau intermédiaire. Un étudiant de premier cycle a créé une liste de mots-clés pour identifier la recherche en durabilité. L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche en durabilité et le nombre de départements universitaires engagés dans la recherche en durabilité.\n\nL'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal. L'Université de Californie à Berkeley compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab.\n\nL'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. L'Université de Californie à Berkeley a un centre de recherche en durabilité.\n\nL'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Le centre étudiant de ressources environnementales (SERC) de l'Université de Californie à Berkeley organise de nombreux événements axés sur la durabilité sur le campus, notamment la semaine de la justice climatique et la semaine de la Terre, une série de carrières environnementales, des formations à la justice environnementale et des événements d'éducation en plein air.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. L'Office de la durabilité, le SERC, le gouvernement et les relations communautaires de l'Université de Californie à Berkeley.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-5, niveau maximal.",
+ "used_facts": [
+  "AC1_max",
+  "AC1_score",
+  "AC1_t9_0",
+  "AC1_t9_1",
+  "AC2_max",
+  "AC2_score",
+  "AC3_max",
+  "AC3_score",
+  "AC6_max",
+  "AC6_score",
+  "AC7_max",
+  "AC7_score",
+  "EN1_max",
+  "EN1_score",
+  "EN2_max",
+  "EN2_score",
+  "EN3_max",
+  "EN3_score",
+  "EN5_max",
+  "EN5_score"
+ ],
  "judge_score": 4,
  "faithfulness": 0.83,
  "gri_coverage": 1.0,
  "unsupported_claims": [
-  "Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité"
+  "L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de"
  ],
  "discarded_violations": [],
  "attempts": 2,
  "guard_rejections": 1,
- "seconds": 903.8,
+ "seconds": 933.5,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nL'Université de Californie à Berkeley a mis en place un système de notation pour les cours de durabilité, avec un total de {{ AC1_max }} points possibles. L'université a obtenu {{ AC1_score }} points, ce qui correspond à un niveau élevé (GRI 305-1).\n\nL'université a également mis en place des programmes d'études supérieures en durabilité, avec un total de {{ AC2_max }} points possibles. L'université a obtenu {{ AC2_score }} points, ce qui correspond à un niveau intermédiaire (GRI 305-1).\n\nLes programmes d'études supérieures en durabilité de l'université ont obtenu un score maximal de {{ AC3_score }} points sur {{ AC3_max }} points possibles, ce qui correspond à un niveau maximal (GRI 305-1).\n\n#### Recherche\n\nL'université a mis en place un système de notation pour la recherche en durabilité, avec un total de {{ AC6_max }} points possibles. L'université a obtenu {{ AC6_score }} points, ce qui correspond à un niveau intermédiaire (GRI 305-1).\n\nLe Centre de recherche sur la durabilité de l'université a obtenu un score maximal de {{ AC7_score }} points sur {{ AC7_max }} points possibles, ce qui correspond à un niveau maximal (GRI 305-1).\n\n#### Engagement\n\nL'université a mis en place un système de notation pour l'engagement en durabilité, avec un total de {{ EN1_max }} points possibles. L'université a obtenu {{ EN1_score }} points, ce qui correspond à un niveau maximal (GRI 305-1).\n\nL'université a également mis en place des activités extrascolaires en durabilité, avec un total de {{ EN2_max }} points possibles. L'université a obtenu {{ EN2_score }} points, ce qui correspond à un niveau maximal (GRI 305-1).\n\nLe personnel de l'université a bénéficié d'une formation en durabilité, avec un total de {{ EN3_max }} points possibles. L'université a obtenu {{ EN3_score }} points, ce qui correspond à un niveau maximal (GRI 305-1).\n\nL'université a également mis en place des programmes de formation continue en durabilité, avec un total de {{ EN7_max }} points possibles. L'université a obtenu {{ EN7_score }} points, ce qui correspond à un niveau maximal (GRI 305-1).\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir la liste exhaustive des cours de durabilité offerts par l'université, car les données disponibles ne permettent pas de le faire.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la liste exhaustive des cours de durabilité offerts par l'université, car les données disponibles ne permettent pas de le faire.",
-   "gen_seconds": 347.0,
-   "prompt_tokens": 1889,
-   "output_tokens": 660,
-   "raw_guard_problems": [],
+   "draft": "### Enseignement, recherche et engagement\n\nL'université de Californie à Berkeley a déclaré un total de {{ AC1 }} points STARS sur {{ AC2 }} au crédit AC-1, niveau élevé, pour ses offres de cours en durabilité. Les cours ont été collectés via un inventaire de cours de l'université de Californie à Berkeley de {{ AC1_t9_0 }} à {{ AC1_t9_1 }}, en filtrant les éléments qui se qualifient comme des cours axés sur la durabilité ou liés à la durabilité.\n\nL'université a également déclaré un total de {{ AC3 }} points STARS sur {{ AC6 }} au crédit AC-3, niveau maximal, pour ses programmes de cycles supérieurs. Les programmes de cycles supérieurs ont été évalués pour leur contenu en durabilité.\n\nEn ce qui concerne la recherche en durabilité, l'université a déclaré un total de {{ AC6 }} points STARS sur {{ AC7 }} au crédit AC-6, niveau intermédiaire. Les chercheurs ont identifié des recherches en durabilité via une grande recherche de mots-clés de l'inventaire de recherche pour l'exercice financier {{ AC6_t0_0 }} à {{ AC6_t0_1 }}.\n\nL'université a également déclaré un total de {{ EN1 }} points STARS sur {{ EN2 }} au crédit EN-1, niveau maximal, pour sa communication et sa sensibilisation. Les activités parascolaires, telles que des événements et des séries axés sur la durabilité, sont organisés par le centre étudiant de ressources environnementales (SERC).\n\nL'université a également déclaré un total de {{ EN3 }} points STARS sur {{ EN5 }} au crédit EN-3, niveau maximal, pour l'engagement et la formation du personnel. Le centre étudiant de ressources environnementales (SERC) et l'Office de la durabilité de l'université de Californie à Berkeley sont responsables de l'engagement et de la formation du personnel.\n\nEnfin, l'université a déclaré un total de {{ EN7 }} points STARS sur {{ EN5 }} au crédit EN-7, niveau maximal, pour la formation continue. Les universitaires de l'université de Californie à Berkeley ont développé des formations continues en durabilité, telles que des certificats en ressources renouvelables et en conception de véhicules électriques.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la part des points STARS obtenus dans le pilier Enseignement, recherche et engagement, car les données ne sont pas disponibles.\n\n(GRI 305-1)",
+   "gen_seconds": 356.7,
+   "prompt_tokens": 2638,
+   "output_tokens": 610,
+   "raw_guard_problems": [
+    "marqueur {{ AC1 }} sans verbe de score : écris par exemple « obtient {{ AC1 }} »",
+    "marqueur {{ AC3 }} sans verbe de score : écris par exemple « obtient {{ AC3 }} »",
+    "marqueur {{ AC6 }} sans verbe de score : écris par exemple « obtient {{ AC6 }} »",
+    "marqueur {{ EN1 }} sans verbe de score : écris par exemple « obtient {{ EN1 }} »",
+    "marqueur {{ EN3 }} sans verbe de score : écris par exemple « obtient {{ EN3 }} »",
+    "marqueur {{ EN7 }} sans verbe de score : écris par exemple « obtient {{ EN7 }} »"
+   ],
    "removed_sentences": [],
-   "guard_problems": [],
+   "guard_problems": [
+    "marqueur {{ AC1 }} sans verbe de score : écris par exemple « obtient {{ AC1 }} »",
+    "marqueur {{ AC3 }} sans verbe de score : écris par exemple « obtient {{ AC3 }} »",
+    "marqueur {{ AC6 }} sans verbe de score : écris par exemple « obtient {{ AC6 }} »",
+    "marqueur {{ EN1 }} sans verbe de score : écris par exemple « obtient {{ EN1 }} »",
+    "marqueur {{ EN3 }} sans verbe de score : écris par exemple « obtient {{ EN3 }} »",
+    "marqueur {{ EN7 }} sans verbe de score : écris par exemple « obtient {{ EN7 }} »"
+   ],
    "lint_problems": [
     "cette section ne correspond à aucune publication GRI : ne cite aucun code GRI"
    ],
@@ -32,69 +67,93 @@
   },
   {
    "attempt": 2,
-   "draft": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nL'Université de Californie à Berkeley a déclaré un niveau élevé de performance dans la catégorie **Sustainability Course Offerings** (AC1). Les cours d'enseignement axés sur la durabilité ont été recensés à l'aide d'une inventaire de cours de l'Université de Californie, qui a filtré les cours qualifiés comme axés sur la durabilité ou liés à la durabilité. Les cours ont été classés en fonction de leurs descriptions fournies dans le manuel technique STARS. Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité. Les résultats ont été analysés par l'Office de planification et d'analyse de l'Université pour calculer le pourcentage de départements totaux ayant au moins un cours d'enseignement axé sur la durabilité (AC1).\n\n#### Recherche\n\nL'Université de Californie à Berkeley a déclaré un niveau intermédiaire de performance dans la catégorie **Sustainability Research** (AC6). Un étudiant bachelier en stage à l'Office de la durabilité a créé une liste de mots-clés pour identifier la recherche sur la durabilité. La liste de mots-clés a été tirée en grande partie des mots-clés créés pour identifier les offres de cours axées sur la durabilité pour AC-1 et d'autres mots-clés ont été pris en compte dans la recherche de mots-clés de recherche sur la durabilité utilisée dans le rapport STARS précédent de l'Université de Californie. Après une grande recherche de mots-clés sur l'inventaire de recherche de FY à FY, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés. L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche sur la durabilité et le nombre de départements universitaires engagés dans la recherche sur la durabilité en FY (AC6).\n\n#### Centre de recherche sur la durabilité\n\nL'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Center for Sustainability Research** (AC7). L'Université compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab de l'Université de Californie.\n\n#### Engagement et formation du personnel\n\nL'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Staff Engagement and Training** (EN3). L'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires sont responsables de la formation et de l'engagement du personnel.\n\n#### Engagement civique\n\nL'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Civic Engagement** (EN5).",
-   "gen_seconds": 251.7,
-   "prompt_tokens": 1930,
+   "draft": "### Enseignement, recherche et engagement\n\nL'université obtient {{ AC1 }}. L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de {{ AC1_t9_0 }} à {{ AC1_t9_1 }}, en filtrant les éléments qui se qualifient comme des cours axés sur la durabilité ou liés à la durabilité. Les cours qui se qualifient ont été comptabilisés comme des offres de cours en durabilité.\n\nL'université obtient {{ AC2 }}. Les programmes de premier cycle de l'Université de Californie à Berkeley incluent une exigence de cours axée sur la durabilité.\n\nL'université obtient {{ AC3 }}. Les programmes de cycles supérieurs de l'Université de Californie à Berkeley incluent des cours axés sur la durabilité.\n\nL'université obtient {{ AC6 }}. Un étudiant de premier cycle a créé une liste de mots-clés pour identifier la recherche en durabilité. La liste de mots-clés a été élaborée en prenant en compte les mots-clés utilisés pour identifier les offres de cours en durabilité pour {{ AC1 }} et d'autres mots-clés ont été pris en compte à partir de la recherche de mots-clés pour la recherche en durabilité utilisée dans le rapport STARS précédent. Après une grande recherche de mots-clés de l'inventaire de recherche pour {{ AC6_t0_0 }} à {{ AC6_t0_1 }}, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés. L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche en durabilité et le nombre de départements universitaires engagés dans la recherche en durabilité.\n\nL'université obtient {{ AC7 }}. L'Université de Californie à Berkeley compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab.\n\nL'université obtient {{ EN1 }}. L'Université de Californie à Berkeley a un centre de recherche en durabilité.\n\nL'université obtient {{ EN2 }}. Le centre étudiant de ressources environnementales (SERC) de l'Université de Californie à Berkeley organise de nombreux événements axés sur la durabilité sur le campus, notamment la semaine de la justice climatique et la semaine de la Terre, une série de carrières environnementales, des formations à la justice environnementale et des événements d'éducation en plein air.\n\nL'université obtient {{ EN3 }}. L'Office de la durabilité, le SERC, le gouvernement et les relations communautaires de l'Université de Californie à Berkeley.\n\nL'université obtient {{ EN5 }}.",
+   "gen_seconds": 266.9,
+   "prompt_tokens": 2835,
    "output_tokens": 700,
    "raw_guard_problems": [
-    "chiffre écrit directement : '(AC1).'",
-    "chiffre écrit directement : '(AC1).'",
-    "chiffre écrit directement : '(AC6).'",
-    "chiffre écrit directement : '(AC6).'",
-    "chiffre écrit directement : '(AC7).'",
-    "chiffre écrit directement : '(EN3).'",
-    "chiffre écrit directement : '(EN5).'"
+    "marqueur {{ AC1 }} sans verbe de score : écris par exemple « obtient {{ AC1 }} »",
+    "marqueur {{ AC6_t0_0 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)"
    ],
    "removed_sentences": [
-    "L'Université de Californie à Berkeley a déclaré un niveau élevé de performance dans la catégorie **Sustainability Course Offerings** (AC1).",
-    "Les résultats ont été analysés par l'Office de planification et d'analyse de l'Université pour calculer le pourcentage de départements totaux ayant au moins un cours d'enseignement axé sur la durabilité (AC1).",
-    "L'Université de Californie à Berkeley a déclaré un niveau intermédiaire de performance dans la catégorie **Sustainability Research** (AC6).",
-    "L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche sur la durabilité et le nombre de départements universitaires engagés dans la recherche sur la durabilité en FY (AC6).",
-    "L'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Center for Sustainability Research** (AC7).",
-    "L'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Staff Engagement and Training** (EN3).",
-    "L'Université de Californie à Berkeley a déclaré un niveau maximal de performance dans la catégorie **Civic Engagement** (EN5)."
+    "La liste de mots-clés a été élaborée en prenant en compte les mots-clés utilisés pour identifier les offres de cours en durabilité pour {{ AC1 }} et d'autres mots-clés ont été pris en compte à partir de la recherche de mots-clés pour la recherche en durabilité utilisée dans le rapport STARS précédent.",
+    "Après une grande recherche de mots-clés de l'inventaire de recherche pour {{ AC6_t0_0 }} à {{ AC6_t0_1 }}, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés."
    ],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 1.0,
    "lint_notes": [],
-   "rendered": "### Enseignement, recherche et engagement\n\n#### Enseignement\n\nLes cours d'enseignement axés sur la durabilité ont été recensés à l'aide d'une inventaire de cours de l'Université de Californie, qui a filtré les cours qualifiés comme axés sur la durabilité ou liés à la durabilité. Les cours ont été classés en fonction de leurs descriptions fournies dans le manuel technique STARS. Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité.\n\n#### Recherche\n\nUn étudiant bachelier en stage à l'Office de la durabilité a créé une liste de mots-clés pour identifier la recherche sur la durabilité. La liste de mots-clés a été tirée en grande partie des mots-clés créés pour identifier les offres de cours axées sur la durabilité pour AC-1 et d'autres mots-clés ont été pris en compte dans la recherche de mots-clés de recherche sur la durabilité utilisée dans le rapport STARS précédent de l'Université de Californie. Après une grande recherche de mots-clés sur l'inventaire de recherche de FY à FY, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés.\n\n#### Centre de recherche sur la durabilité\n\nL'Université compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab de l'Université de Californie.\n\n#### Engagement et formation du personnel\n\nL'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires sont responsables de la formation et de l'engagement du personnel.\n\n#### Engagement civique",
-   "used_facts": [],
+   "rendered": "### Enseignement, recherche et engagement\n\nL'université obtient 13,01 points STARS sur 14 au crédit AC-1, niveau élevé. L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de 2021 à 2024, en filtrant les éléments qui se qualifient comme des cours axés sur la durabilité ou liés à la durabilité. Les cours qui se qualifient ont été comptabilisés comme des offres de cours en durabilité.\n\nL'université obtient 10,22 points STARS sur 15 au crédit AC-2, niveau intermédiaire. Les programmes de premier cycle de l'Université de Californie à Berkeley incluent une exigence de cours axée sur la durabilité.\n\nL'université obtient 8 points STARS sur 8 au crédit AC-3, niveau maximal. Les programmes de cycles supérieurs de l'Université de Californie à Berkeley incluent des cours axés sur la durabilité.\n\nL'université obtient 7,35 points STARS sur 10 au crédit AC-6, niveau intermédiaire. Un étudiant de premier cycle a créé une liste de mots-clés pour identifier la recherche en durabilité. L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche en durabilité et le nombre de départements universitaires engagés dans la recherche en durabilité.\n\nL'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal. L'Université de Californie à Berkeley compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab.\n\nL'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. L'Université de Californie à Berkeley a un centre de recherche en durabilité.\n\nL'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Le centre étudiant de ressources environnementales (SERC) de l'Université de Californie à Berkeley organise de nombreux événements axés sur la durabilité sur le campus, notamment la semaine de la justice climatique et la semaine de la Terre, une série de carrières environnementales, des formations à la justice environnementale et des événements d'éducation en plein air.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. L'Office de la durabilité, le SERC, le gouvernement et les relations communautaires de l'Université de Californie à Berkeley.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-5, niveau maximal.",
+   "used_facts": [
+    "AC1_max",
+    "AC1_score",
+    "AC1_t9_0",
+    "AC1_t9_1",
+    "AC2_max",
+    "AC2_score",
+    "AC3_max",
+    "AC3_score",
+    "AC6_max",
+    "AC6_score",
+    "AC7_max",
+    "AC7_score",
+    "EN1_max",
+    "EN1_score",
+    "EN2_max",
+    "EN2_score",
+    "EN3_max",
+    "EN3_score",
+    "EN5_max",
+    "EN5_score"
+   ],
    "trace_problems": [],
+   "used_markers": [
+    "AC1",
+    "AC1_t9_0",
+    "AC1_t9_1",
+    "AC2",
+    "AC3",
+    "AC6",
+    "AC7",
+    "EN1",
+    "EN2",
+    "EN3",
+    "EN5"
+   ],
    "judge": {
     "claims": [
      {
-      "claim": "Les cours d'enseignement axés sur la durabilité ont été recensés à l'aide d'une inventaire de cours de l'Université de Californie",
+      "claim": "L'université obtient 13,01 points STARS sur 14 au crédit AC-1, niveau élevé.",
       "supported": true
      },
      {
-      "claim": "Un étudiant bachelier en stage à l'Office de la durabilité a créé une liste de mots-clés pour identifier la recherche sur la durabilité",
-      "supported": true
-     },
-     {
-      "claim": "L'Université compte plusieurs centres engagés dans des sujets liés à la durabilité",
-      "supported": true
-     },
-     {
-      "claim": "L'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires",
-      "supported": true
-     },
-     {
-      "claim": "Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité",
+      "claim": "L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de",
       "supported": false
      },
      {
-      "claim": "L'Office de la durabilité, le Centre des ressources environnementales de l'étudiant (SERC), le gouvernement et les relations communautaires",
+      "claim": "Les programmes de premier cycle de l'Université de Californie à Berkeley incluent une exigence de cours axée sur la durabilité.",
+      "supported": true
+     },
+     {
+      "claim": "L'université obtient 7,35 points STARS sur 10 au crédit AC-6, niveau intermédiaire.",
+      "supported": true
+     },
+     {
+      "claim": "Un étudiant de premier cycle a créé une liste de mots-clés pour identifier la recherche en durabilité.",
+      "supported": true
+     },
+     {
+      "claim": "L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal.",
       "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport prétend que les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité, mais le GRI status list indique que les données"
+     "L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de 2021 à 2024, en filtrant les éléments qui se qualifient"
     ],
     "score": 4,
-    "feedback": "Supprimer la phrase \"Les cours axés sur la durabilité ou liés à la durabilité ont été comptabilisés comme des offres de cours axées sur la durabilité\" car elle n'est pas étayée par les sources. Utiliser le wording \"ce rapport ne peut pas établir\" pour les informations qui ne sont pas disponibles.",
+    "feedback": "Supprimer les phrases non étayées par les sources. Pour le crédit AC-1, utiliser la phrase 'L'université obtient 13,01 points STARS sur 14 au crédit AC-1, niveau élevé.' et supprimer la phrase suivante. Pour le crédit AC-6, utiliser la phrase 'L'université obtient 7,35 points STARS sur 10 au crédit AC-6, niveau intermédiaire.' et supprimer la phrase suivante. Pour le crédit EN-3, utiliser la phrase 'L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal.' et supprimer la phrase",
     "faithfulness": 0.83,
-    "seconds": 305.1,
+    "seconds": 309.4,
     "discarded_violations": [],
     "accepted": true
    }
@@ -106,7 +165,7 @@
  "evidence": [
   {
    "credit": "AC-1",
-   "text": "The information for sustainability course offerings was collected via a UC Berkeley course inventory from - filtering for items that qualified as sustainability-focused or sustainability-related courses. UC Berkeley Office of Sustainability undergraduate fellows classified the courses as sustainability-related or -focused based on the descriptions provided in the STARS technical manual. All courses that were either -focused or -related were counted as a sustainability offering. The resulting courses were then analyzed by the school's Office of Planning and Analysis to calculate the percentage of total departments that had at least one sustainability course offering. The Office of Planning an"
+   "text": "The information for sustainability course offerings was collected via a UC Berkeley course inventory from {{ AC1_t9_0 }} - {{ AC1_t9_1 }} filtering for items that qualified as sustainability-focused or sustainability-related courses. UC Berkeley Office of Sustainability undergraduate fellows classified the courses as sustainability-related or -focused based on the descriptions provided in the STARS technical manual. All courses that were either -focused or -related were counted as a sustainability offering. The resulting courses were then analyzed by the school's Office of Planning and Analysis to calculate the percentage of total departments that had at least one sustainability course offer"
   },
   {
    "credit": "AC-2",
@@ -118,7 +177,7 @@
   },
   {
    "credit": "AC-6",
-   "text": "An undergraduate student fellow at the Office of Sustainability created a list of keywords to identify sustainability research. The keyword list was drawn heavily from the keywords created to identify sustainability course offerings for AC-, and other keywords were taken from the sustainability research keyword search used during the previous UCB STARS report. After a large keyword search of the entire research inventory for FY to FY, the fellow then reviewed the identified research to screen the accuracy of the keyword search. The fellow then calculated the number of employees engaged in sustainability research and the number of academic departments engaged in sustainability research in FY "
+   "text": "An undergraduate student fellow at the Office of Sustainability created a list of keywords to identify sustainability research. The keyword list was drawn heavily from the keywords created to identify sustainability course offerings for AC-, and other keywords were taken from the sustainability research keyword search used during the previous UCB STARS report. After a large keyword search of the entire research inventory for FY {{ AC6_t0_0 }} to FY {{ AC6_t0_1 }}, the fellow then reviewed the identified research to screen the accuracy of the keyword search. The fellow then calculated the number of employees engaged in sustainability research and the number of academic departments engaged in "
   },
   {
    "credit": "AC-7",

@@ -1,103 +1,92 @@
 {
- "prompt_hash": "dd24a3f7b41eae81",
+ "prompt_hash": "edd75fe4f876a317",
+ "round": 0,
  "decision": "validée",
- "text": "### Gouvernance\n\n#### Composition de la gouvernance\n\nL'université Technological University Dublin (TU Dublin) a mis en place des mécanismes de gouvernance qui assurent la représentation des différentes parties prenantes. Le GRI 2-9 est partiellement rapporté. (GRI 2-9)\n\n#### Délégation de la responsabilité de la gestion des impacts\n\nTU Dublin ne rapporte pas sur la délégation de la responsabilité de la gestion des impacts. (GRI 2-13)\n\n#### Rôle de l'organe de gouvernance dans le reporting de durabilité\n\nLa direction de l'université a signé une lettre de déclaration de son engagement en faveur de la durabilité, mais ce document n'est pas une revue et une approbation par l'organe de gouvernance. (GRI 2-14)\n\n#### Ratio de rémunération totale annuelle\n\nTU Dublin ne rapporte pas sur le ratio de rémunération totale annuelle. (GRI 2-21)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir le nombre de membres de l'organe de gouvernance, leur indépendance ou leur représentation par genre. De plus, les données ne permettent pas de déterminer si les responsables de la gestion des impacts rendent compte régulièrement à l'organe de gouvernance.\n\n### Gouvernance\n\n#### Points obtenus\n\nTU Dublin a obtenu 4 points sur 4 pour la gouvernance institutionnelle, ce qui correspond à un niveau de maximal. (PA-3)\n\n#### Part des points obtenus\n\nLa part des points obtenus pour la gouvernance est élevée, 97,0 %.\n\n#### Points obtenus - pilier Gouvernance\n\nTU Dublin a obtenu 10,67 points sur 11 pour le pilier Gouvernance, ce qui correspond à un niveau de maximal.\n\n#### Part des points obtenus - pilier Gouvernance\n\nLa part des points obtenus pour le pilier Gouvernance est élevée, 97,0 %.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le nombre de membres de l'organe de gouvernance",
+ "text": "### Gouvernance\n\nL'université obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal. \n\nLa gouvernance de l'université est assurée par le Technological Universities Act 2018, qui impose la représentation des étudiants dans les organes de gouvernance. Le site web de l'Union des étudiants (SU) liste diverses instances où les étudiants sont représentés. Le président de l'Union des étudiants (SU) est le porte-parole principal de l'Union et représente tous les étudiants de l'université. Il est également membre ex officio du corps de gouvernance et du conseil académique de l'université.\n\nEn février 2025, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidente de l'Union des étudiants), Princewill Aguele (vice-président de l'Union des étudiants pour les événements et les engagements) et Avice Meya (étudiante de master membre de l'Union des étudiants).\n\nLe Technological Universities Act 2018 impose également la représentation des étudiants dans les organes de gouvernance.\n\nLe corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré dans le TU Act 2018. En février 2025, les membres non-académiques et académiques du corps de gouvernance étaient :\n\nL'université a également mis en place des comités et des groupes de travail formels, ainsi que des enquêtes universitaires, où les membres du personnel participent régulièrement. La représentation du personnel est souvent filtrée par le TUI (Syndicat des enseignants d'Irlande).\n\n(GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la rémunération totale annuelle des membres du corps de gouvernance, car ce chiffre n'est pas disponible.\n\n(GRI 2-21)",
  "used_facts": [
-  "GOV_max",
-  "GOV_pct",
-  "GOV_points",
   "PA3_max",
-  "PA3_score"
+  "PA3_score",
+  "PA3_t0_0",
+  "PA3_t1_0",
+  "PA3_t2_0",
+  "PA3_t3_0",
+  "PA3_t3_1"
  ],
- "judge_score": 2,
+ "judge_score": 4,
  "faithfulness": 1.0,
- "gri_coverage": 1.0,
+ "gri_coverage": 0.67,
  "unsupported_claims": [],
- "discarded_violations": [
-  "Le rapport mentionne que le GRI 2-9 est partiellement rapporté, ce qui est une violation de la règle qui interdit de faire état de la conformité au GRI."
- ],
- "attempts": 2,
- "guard_rejections": 1,
- "seconds": 691.3,
+ "discarded_violations": [],
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 548.3,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Gouvernance\n\n#### Composition de la gouvernance\n\nEn référence aux normes GRI (GRI 2-9), la gouvernance de Technological University Dublin est partiellement rapportée. L'université indique que le corps de gouvernement comprend des membres issus du personnel non académique et des étudiants. En effet, le Technological Universities Act légifère la représentation des étudiants dans les corps de gouvernement des universités techniques, y compris TU Dublin (GRI 2-9).\n\n#### Rôle de l'organe de gouvernance dans le reporting de durabilité\n\nEn référence aux normes GRI (GRI 2-14), la gouvernance de Technological University Dublin ne rapporte pas explicitement le rôle de l'organe de gouvernance dans le reporting de durabilité. Le rapport STARS indique que la direction a signé une lettre de déclaration de la durabilité, mais ce document n'est pas disponible dans les données.\n\n#### Ratio de rémunération totale annuelle\n\nEn référence aux normes GRI (GRI 2-21), la gouvernance de Technological University Dublin ne rapporte pas le ratio de rémunération totale annuelle. Le rapport STARS indique que la rémunération la plus basse est utilisée comme dénominateur, ce qui n'est pas conforme aux normes GRI.\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir le nombre de membres du corps de gouvernement, leur indépendance, ni leur représentation par genre. De plus, les données ne permettent pas d'évaluer la fréquence à laquelle les responsables de la gestion des impacts rendent compte à l'organe de gouvernance.\n\n#### Gouvernance — Partiellement rapporté\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le nombre de membres du corps de gouvernement, leur indépendance, ni leur représentation par genre. De plus, les données ne permettent pas d'évaluer la fréquence à laquelle les responsables de la gestion des impacts rendent compte à l'organe de gouvernance.",
-   "gen_seconds": 279.6,
-   "prompt_tokens": 2036,
-   "output_tokens": 477,
+   "draft": "### Gouvernance\n\nL'université obtient {{ PA3 }}. \n\nLa gouvernance de l'université est assurée par le Technological Universities Act {{ PA3_t0_0 }}, qui impose la représentation des étudiants dans les organes de gouvernance. Le site web de l'Union des étudiants (SU) liste diverses instances où les étudiants sont représentés. Le président de l'Union des étudiants (SU) est le porte-parole principal de l'Union et représente tous les étudiants de l'université. Il est également membre ex officio du corps de gouvernance et du conseil académique de l'université.\n\nEn février {{ PA3_t1_0 }}, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidente de l'Union des étudiants), Princewill Aguele (vice-président de l'Union des étudiants pour les événements et les engagements) et Avice Meya (étudiante de master membre de l'Union des étudiants).\n\nLe Technological Universities Act {{ PA3_t2_0 }} impose également la représentation des étudiants dans les organes de gouvernance.\n\nLe corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré dans le TU Act {{ PA3_t3_0 }}. En février {{ PA3_t3_1 }}, les membres non-académiques et académiques du corps de gouvernance étaient :\n\nL'université a également mis en place des comités et des groupes de travail formels, ainsi que des enquêtes universitaires, où les membres du personnel participent régulièrement. La représentation du personnel est souvent filtrée par le TUI (Syndicat des enseignants d'Irlande).\n\n(GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la rémunération totale annuelle des membres du corps de gouvernance, car ce chiffre n'est pas disponible.\n\n(GRI 2-21)",
+   "gen_seconds": 353.8,
+   "prompt_tokens": 2718,
+   "output_tokens": 479,
    "raw_guard_problems": [],
    "removed_sentences": [],
    "guard_problems": [],
-   "lint_problems": [
-    "écrire « en référence aux normes GRI », jamais « conforme » ou « en conformité »"
-   ],
-   "gri_coverage": 0.75,
-   "lint_notes": []
-  },
-  {
-   "attempt": 2,
-   "draft": "### Gouvernance\n\n#### Composition de la gouvernance\n\nL'université Technological University Dublin (TU Dublin) a mis en place des mécanismes de gouvernance qui assurent la représentation des différentes parties prenantes. Le GRI 2-9 est partiellement rapporté. (GRI 2-9)\n\n#### Délégation de la responsabilité de la gestion des impacts\n\nTU Dublin ne rapporte pas sur la délégation de la responsabilité de la gestion des impacts. (GRI 2-13)\n\n#### Rôle de l'organe de gouvernance dans le reporting de durabilité\n\nLa direction de l'université a signé une lettre de déclaration de son engagement en faveur de la durabilité, mais ce document n'est pas une revue et une approbation par l'organe de gouvernance. (GRI 2-14)\n\n#### Ratio de rémunération totale annuelle\n\nTU Dublin ne rapporte pas sur le ratio de rémunération totale annuelle. (GRI 2-21)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir le nombre de membres de l'organe de gouvernance, leur indépendance ou leur représentation par genre. De plus, les données ne permettent pas de déterminer si les responsables de la gestion des impacts rendent compte régulièrement à l'organe de gouvernance.\n\n### Gouvernance\n\n#### Points obtenus\n\nTU Dublin a obtenu {{ PA3_score }} points sur {{ PA3_max }} pour la gouvernance institutionnelle, ce qui correspond à un niveau de maximal. (PA-3)\n\n#### Part des points obtenus\n\nLa part des points obtenus pour la gouvernance est élevée, {{ GOV_pct }}. (GOV_pct)\n\n#### Points obtenus - pilier Gouvernance\n\nTU Dublin a obtenu {{ GOV_points }} points sur {{ GOV_max }} pour le pilier Gouvernance, ce qui correspond à un niveau de maximal. (GOV_points)\n\n#### Part des points obtenus - pilier Gouvernance\n\nLa part des points obtenus pour le pilier Gouvernance est élevée, {{ GOV_pct }}. (GOV_pct)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le nombre de membres de l'organe de gouvernance",
-   "gen_seconds": 187.6,
-   "prompt_tokens": 2081,
-   "output_tokens": 520,
-   "raw_guard_problems": [
-    "placeholder mal écrit : écris exactement {{ GOV_points }} (doubles accolades)",
-    "placeholder mal écrit : écris exactement {{ GOV_pct }} (doubles accolades)"
-   ],
-   "removed_sentences": [
-    "(GOV_pct)",
-    "(GOV_points)",
-    "(GOV_pct)"
-   ],
-   "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 1.0,
+   "gri_coverage": 0.67,
    "lint_notes": [],
-   "rendered": "### Gouvernance\n\n#### Composition de la gouvernance\n\nL'université Technological University Dublin (TU Dublin) a mis en place des mécanismes de gouvernance qui assurent la représentation des différentes parties prenantes. Le GRI 2-9 est partiellement rapporté. (GRI 2-9)\n\n#### Délégation de la responsabilité de la gestion des impacts\n\nTU Dublin ne rapporte pas sur la délégation de la responsabilité de la gestion des impacts. (GRI 2-13)\n\n#### Rôle de l'organe de gouvernance dans le reporting de durabilité\n\nLa direction de l'université a signé une lettre de déclaration de son engagement en faveur de la durabilité, mais ce document n'est pas une revue et une approbation par l'organe de gouvernance. (GRI 2-14)\n\n#### Ratio de rémunération totale annuelle\n\nTU Dublin ne rapporte pas sur le ratio de rémunération totale annuelle. (GRI 2-21)\n\n#### Limites et omissions\n\nCe rapport ne peut pas établir le nombre de membres de l'organe de gouvernance, leur indépendance ou leur représentation par genre. De plus, les données ne permettent pas de déterminer si les responsables de la gestion des impacts rendent compte régulièrement à l'organe de gouvernance.\n\n### Gouvernance\n\n#### Points obtenus\n\nTU Dublin a obtenu 4 points sur 4 pour la gouvernance institutionnelle, ce qui correspond à un niveau de maximal. (PA-3)\n\n#### Part des points obtenus\n\nLa part des points obtenus pour la gouvernance est élevée, 97,0 %.\n\n#### Points obtenus - pilier Gouvernance\n\nTU Dublin a obtenu 10,67 points sur 11 pour le pilier Gouvernance, ce qui correspond à un niveau de maximal.\n\n#### Part des points obtenus - pilier Gouvernance\n\nLa part des points obtenus pour le pilier Gouvernance est élevée, 97,0 %.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le nombre de membres de l'organe de gouvernance",
+   "rendered": "### Gouvernance\n\nL'université obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal. \n\nLa gouvernance de l'université est assurée par le Technological Universities Act 2018, qui impose la représentation des étudiants dans les organes de gouvernance. Le site web de l'Union des étudiants (SU) liste diverses instances où les étudiants sont représentés. Le président de l'Union des étudiants (SU) est le porte-parole principal de l'Union et représente tous les étudiants de l'université. Il est également membre ex officio du corps de gouvernance et du conseil académique de l'université.\n\nEn février 2025, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidente de l'Union des étudiants), Princewill Aguele (vice-président de l'Union des étudiants pour les événements et les engagements) et Avice Meya (étudiante de master membre de l'Union des étudiants).\n\nLe Technological Universities Act 2018 impose également la représentation des étudiants dans les organes de gouvernance.\n\nLe corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré dans le TU Act 2018. En février 2025, les membres non-académiques et académiques du corps de gouvernance étaient :\n\nL'université a également mis en place des comités et des groupes de travail formels, ainsi que des enquêtes universitaires, où les membres du personnel participent régulièrement. La représentation du personnel est souvent filtrée par le TUI (Syndicat des enseignants d'Irlande).\n\n(GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la rémunération totale annuelle des membres du corps de gouvernance, car ce chiffre n'est pas disponible.\n\n(GRI 2-21)",
    "used_facts": [
-    "GOV_max",
-    "GOV_pct",
-    "GOV_points",
     "PA3_max",
-    "PA3_score"
+    "PA3_score",
+    "PA3_t0_0",
+    "PA3_t1_0",
+    "PA3_t2_0",
+    "PA3_t3_0",
+    "PA3_t3_1"
    ],
    "trace_problems": [],
+   "used_markers": [
+    "PA3",
+    "PA3_t0_0",
+    "PA3_t1_0",
+    "PA3_t2_0",
+    "PA3_t3_0",
+    "PA3_t3_1"
+   ],
    "judge": {
     "claims": [
      {
-      "claim": "L'université Technological University Dublin (TU Dublin) a mis en place des mécanismes de gouvernance qui assurent la représentation des不同的 ",
+      "claim": "L'université obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal.",
       "supported": true
      },
      {
-      "claim": "Le GRI 2-9 est partiellement rapporté.",
+      "claim": "La gouvernance de l'université est assurée par le Technological Universities Act 2018, qui impose la représentation des étudiants dans les  ",
       "supported": true
      },
      {
-      "claim": "TU Dublin ne rapporte pas sur la délégation de la responsabilité de la gestion des impacts.",
+      "claim": "Le site web de l'Union des étudiants (SU) liste diverses instances où les étudiants sont représentés.",
       "supported": true
      },
      {
-      "claim": "La direction de l'université a signé une lettre de déclaration de son engagement en faveur de la durabilité, mais ce document n'est pas une ",
+      "claim": "Le président de l'Union des étudiants (SU) est le porte-parole principal de l'Union et représente tous les étudiants de l'université.",
       "supported": true
      },
      {
-      "claim": "TU Dublin ne rapporte pas sur le ratio de rémunération totale annuelle.",
+      "claim": "En février 2025, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidente de l'Union des étudiants), Princewill Agué",
       "supported": true
      },
      {
-      "claim": "Ce rapport ne peut pas établir le nombre de membres de l'organe de gouvernance, leur indépendance ou leur représentation par genre.",
+      "claim": "Le corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré ",
       "supported": true
      }
     ],
-    "rule_violations": [],
-    "score": 2,
-    "feedback": "",
-    "faithfulness": 1.0,
-    "seconds": 224.0,
-    "discarded_violations": [
-     "Le rapport mentionne que le GRI 2-9 est partiellement rapporté, ce qui est une violation de la règle qui interdit de faire état de la conformité au GRI."
+    "rule_violations": [
+     "Le rapport mentionne que la gouvernance de l'université est assurée par le Technological Universities Act 2018, mais il ne mentionne pas que ce rapport ne peut pas établir la rémunération totale ann"
     ],
+    "score": 4,
+    "feedback": "Supprimer la phrase \"Le rapport mentionne que la gouvernance de l'université est assurée par le Technological Universities Act 2018, mais il ne mentionne pas que ce rapport ne peut pas établir la rémunération totale annuelle des membres du corps de gouvernance, car ce chiffre n'est pas disponible.\"",
+    "faithfulness": 1.0,
+    "seconds": 194.5,
+    "discarded_violations": [],
     "accepted": true
    }
   }
@@ -108,23 +97,23 @@
  "evidence": [
   {
    "credit": "PA-3",
-   "text": "There is membership on Governing Body specifically reserved for a TU Dublin non-academic (i.e. professional services) staff member (legislated within the TU Act [n]). As of [n] Feb [n], non-academic and academic staff that are members of the Governing Body are:"
+   "text": "The Technological Universities Act {{ PA3_t0_0 }} specifies the mandatory requirement of student representation on Governing Bodies within Technical Universities (including TU Dublin). Furthermore, the TU Dublin SU website lists a variety of bodies/committees (non-exhaustive) on which they have student representation.The Student Union (SU) President shall be the chief spokesperson for the Union, representing all students of the University, and shall be, ex officio, a member of the University's Governing Body and Academic Council. Article of the SU Constitution."
   },
   {
    "credit": "PA-3",
-   "text": "As of [n] Feb [n], O'Toole, Shauna (SU President), Aguele, Princewill (SU VP for Events and Engagements), and Meya, Avice (Post Grad Student member) are [n] of the student members in the governing body: (Ref [n], Ref [n])"
+   "text": "As of Feb {{ PA3_t1_0 }}, O'Toole, Shauna (SU President), Aguele, Princewill (SU VP for Events and Engagements), and Meya, Avice (Post Grad Student member) are of the student members in the governing body: (Ref, Ref )"
   },
   {
    "credit": "PA-3",
-   "text": "The Technological Universities Act [n] specifies the mandatory requirement of student representation on Governing Bodies within Technical Universities (including TU Dublin). Furthermore, the TU Dublin SU website lists a variety of bodies/committees (non-exhaustive) on which they have student representation.The Student Union (SU) President shall be the chief spokesperson for the Union, representing all students of the University, and shall be, ex officio, a member of the University's Governing Body and Academic Council. Article [n] of the SU Constitution (Ref[n])."
+   "text": "There is membership on Governing Body specifically reserved for a TU Dublin non-academic (i.e. professional services) staff member (legislated within the TU Act {{ PA3_t3_0 }} ). As of Feb {{ PA3_t3_1 }}, non-academic and academic staff that are members of the Governing Body are:"
   },
   {
    "credit": "PA-3",
-   "text": "Of the [n] Governing Body members, [n] are external (Non-TU Dublin) members with academic and non-academic backgrounds. (Ref [n], Ref [n])"
+   "text": "The Technological Universities Act {{ PA3_t2_0 }} specifies the mandatory requirement of student representation on Governing Bodies within TU's (including TU Dublin)."
   },
   {
    "credit": "PA-3",
-   "text": "The Technological Universities Act [n] specifies the mandatory requirement of student representation on Governing Bodies within TU's (including TU Dublin)."
+   "text": "Of the Governing Body members, are external (Non-TU Dublin) members with academic and non-academic backgrounds. (Ref, Ref )"
   },
   {
    "credit": "PA-3",
@@ -140,11 +129,11 @@
   },
   {
    "credit": "PA-4",
-   "text": "This credit was marked as Not Applicable for the following reason: The investment pool is less than $[n] [n] US Dollars."
+   "text": "This credit was marked as Not Applicable for the following reason: The investment pool is less than $ US Dollars."
   },
   {
    "credit": "PA-5",
-   "text": "This credit was marked as Not Applicable for the following reason: The investment pool is less than $[n] [n] US Dollars."
+   "text": "This credit was marked as Not Applicable for the following reason: The investment pool is less than $ US Dollars."
   }
  ]
 }
