@@ -29,7 +29,7 @@ import time
 
 from jinja2 import Environment, StrictUndefined
 
-from esg import facts, gri_index, guard, judge, llm, rag, sources
+from esg import facts, gri_index, guard, judge, llm, markers, rag, sources
 from esg.config import INSTITUTIONS, OUTPUTS
 
 MAX_ATTEMPTS = 2          # CPU lent : une régénération au plus
@@ -45,8 +45,10 @@ Langue : français uniquement. Ton : factuel, sobre, style rapport institutionne
 
 RÈGLE ABSOLUE SUR LES NOMBRES
 - N'écris AUCUN nombre : ni chiffre, ni nombre en lettres, ni année, ni date, ni pourcentage.
-- Pour citer une valeur, recopie exactement son placeholder, par exemple {{ OP6_score }}, tel qu'il figure
-  dans la liste VALEURS. Le code le remplacera par la vraie valeur. Tu ne connais pas les valeurs.
+- Pour citer une valeur, recopie exactement son marqueur, par exemple {{ OP6 }}, tel qu'il figure dans la
+  liste VALEURS. Le code le remplace par une expression COMPLÈTE (par exemple « … points STARS sur … au crédit
+  OP-6, niveau intermédiaire ») : écris simplement « L'université obtient {{ OP6 }}. ». N'ajoute autour du
+  marqueur ni « points », ni « % », ni niveau, et ne l'emploie jamais comme date, durée, quantité ou effectif.
 - Une valeur sans placeholder ne doit pas être mentionnée. Les nombres ont été retirés du contexte : n'essaie
   jamais de les deviner ni de les remplacer par une estimation ou une quantité vague.
 - Autorisé : les références GRI (« GRI 305-1 ») et les codes de crédits STARS (« OP-6 »).
@@ -76,39 +78,28 @@ CONTENU ATTENDU
 
 
 def section_values(key: str, sec: dict, entries: list) -> dict[str, dict]:
-    """Faits proposés au rédacteur pour cette section : {placeholder: ligne de fait}."""
-    f = facts.load(key)
+    """Marqueurs proposés au rédacteur pour cette section : {nom: marqueur complet} (voir esg/markers.py)."""
     out = {}
     for code in sec["credits"]:
-        v = facts.credit_var(code)
-        for suffix in ("_score", "_max"):
-            if v + suffix in f:
-                out[v + suffix] = f[v + suffix]
+        mk = markers.credit(key, code)
+        if mk:
+            out[facts.credit_var(code)] = mk
     pillar = SECTION_PILLAR.get(sec["id"])
     if pillar == "STARS":
-        out["STARS_score"] = f["STARS_score"]
-        out["STARS_date"] = f["STARS_date"]
+        out["STARS_score"] = markers.overall(key)
+        out["STARS_date"] = markers.date(key)
     elif pillar:
-        for suffix in ("_points", "_max", "_pct"):
-            if pillar + suffix in f:
-                out[pillar + suffix] = f[pillar + suffix]
+        mk = markers.pillar(key, pillar)
+        if mk:
+            out[pillar] = mk
     for e in entries:
         for fid in e.fact_ids:
-            out[fid] = f[fid]
+            out[fid] = markers.field(key, fid)
     return out
 
 
 def describe_values(key: str, values: dict) -> list[str]:
-    b = facts.bands(key)
-    lines = []
-    for name, r in values.items():
-        level = ""
-        if r["kind"] == "score":
-            level = f" — niveau : {b.get(r['credit_code'], '')}"
-        elif name.endswith("_pct"):
-            level = f" — niveau : {b.get(name[:3], '')}"
-        lines.append(f"- {{{{ {name} }}}} : {r['label']}{level}")
-    return lines
+    return [markers.describe(name, mk) for name, mk in values.items()]
 
 
 def status_lines(entries: list) -> list[str]:
@@ -132,7 +123,7 @@ def build_prompt(key: str, sec: dict, evidence: list[dict], knowledge: list[dict
         parts.append("STATUTS DES PUBLICATIONS GRI (calculés par le code, à respecter) :\n" + "\n".join(status_lines(entries)))
     if sec.get("gap_note"):
         parts.append("À EXPLIQUER : " + sec["gap_note"])
-    parts.append("VALEURS (placeholders à recopier tels quels) :\n" + "\n".join(describe_values(key, values)))
+    parts.append("VALEURS (marqueurs à recopier tels quels, sans rien autour) :\n" + "\n".join(describe_values(key, values)))
     if cautions:
         parts.append("POINTS DE VIGILANCE OBLIGATOIRES :\n" + "\n".join(f"- {c}" for c in cautions))
     parts.append("CONTEXTE — extraits du rapport STARS de l'établissement (anglais, nombres masqués) :\n"
@@ -162,14 +153,9 @@ def fallback_text(key: str, sec: dict, entries: list, values: dict) -> str:
     return "\n".join(lines)
 
 
-def judge_level(r: dict) -> str:
-    """Niveau qualitatif donné au rédacteur, transmis aussi au juge pour qu'il puisse le vérifier."""
-    b = facts.bands(r["institution"])
-    if r["kind"] == "score":
-        return f" (level: {b.get(r['credit_code'], '')})"
-    if r["fact_id"].endswith("_pct"):
-        return f" (level: {b.get(r['fact_id'][:3], '')})"
-    return ""
+def judge_values_of(values: dict) -> list[str]:
+    """Valeurs vues par le juge : le texte complet que le code insère (niveau compris), pour qu'il le vérifie."""
+    return [f"{mk['label']}: {mk['display']}" for mk in values.values()]
 
 
 def _cache_path(key: str, sec_id: str):
@@ -189,7 +175,7 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
             return cached
         round_ = cached.get("round", 0) + 1
 
-    judge_values = [f"{r['label']}: {r['display']}{judge_level(r)}" for r in values.values()]
+    judge_values = judge_values_of(values)
     attempts, feedback = [], []
     t0 = time.time()
     for n in range(1, MAX_ATTEMPTS + 1):
@@ -204,14 +190,15 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
         att = {"attempt": n, "draft": draft, "gen_seconds": out["seconds"],
                "prompt_tokens": out["prompt_tokens"], "output_tokens": out["output_tokens"]}
 
-        problems = guard.check_draft(draft, set(values))
+        problems = guard.check_draft(draft, set(values), values)
         att["raw_guard_problems"], att["removed_sentences"] = problems, []
         if problems:
             # Le code retire les phrases fautives ; trop de suppressions = version rejetée.
-            repaired, removed = guard.repair(draft, set(values))
+            repaired, removed = guard.repair(draft, set(values), values)
             if (len(" ".join(removed).split()) <= 0.4 * len(draft.split())
-                    and not guard.check_draft(repaired, set(values))):
-                log(f"   [{tag}] tentative {n} : {len(removed)} phrase(s) contenant un nombre retirée(s) par le garde-fou")
+                    and not guard.check_draft(repaired, set(values), values)):
+                log(f"   [{tag}] tentative {n} : {len(removed)} phrase(s) retirée(s) par le garde-fou "
+                    f"(nombre écrit par le modèle ou marqueur mal employé)")
                 draft, problems, att["removed_sentences"] = repaired, [], removed
         lint_problems, lint_notes, coverage = judge.lint(guard.PLACEHOLDER.sub("X", draft), section_codes)
         att["guard_problems"], att["lint_problems"], att["gri_coverage"] = problems, lint_problems, coverage
@@ -226,7 +213,9 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
         substituted = {name: values[name]["display"] for name in used}
         rendered = JINJA.from_string(draft).render(**substituted)
         trace_problems = guard.check_rendered(rendered, substituted)
-        att["rendered"], att["used_facts"], att["trace_problems"] = rendered, sorted(used), trace_problems
+        fact_ids = sorted({fid for name in used for fid in values[name]["fact_ids"]})   # provenance
+        att["rendered"], att["used_facts"], att["trace_problems"] = rendered, fact_ids, trace_problems
+        att["used_markers"] = sorted(used)
         if trace_problems:                                   # ne devrait jamais arriver
             attempts.append(att)
             feedback = trace_problems
@@ -329,23 +318,23 @@ COMPARISON_CAUTIONS = [
 
 
 def comparison_values() -> dict[str, dict]:
+    """Marqueurs complets des trois établissements (score global et piliers), préfixés par l'université."""
     out = {}
     for key in INSTITUTIONS:
-        f = facts.load(key)
-        for fid in ("STARS_score", "ENV_pct", "SOC_pct", "GOV_pct", "CTX_pct"):
-            r = dict(f[fid])
-            r["label"] = f"{INSTITUTIONS[key]['name']} — {r['label']}"
-            out[f"{key}_{fid}"] = r
+        name = INSTITUTIONS[key]["name"]
+        items = [("STARS_score", markers.overall(key))] + [(pid, markers.pillar(key, pid)) for pid in markers.PILLARS]
+        for suffix, mk in items:
+            if mk:
+                mk = dict(mk, label=f"{name} — {mk['label']}",
+                          display=f"{mk['display']} ({name})" if suffix == "STARS_score" else mk["display"],
+                          fact_ids=[f"{key}:{fid}" for fid in mk["fact_ids"]])
+                out[f"{key}_{suffix}"] = mk
     return out
 
 
 def run_comparison(*, use_cache: bool = True, log=print) -> dict:
     values = comparison_values()
-    lines = []
-    for name, r in values.items():
-        key, fid = name.split("_", 1)
-        level = facts.bands(key).get(fid[:3], "") if fid.endswith("_pct") else ""
-        lines.append(f"- {{{{ {name} }}}} : {r['label']}" + (f" — niveau : {level}" if level else ""))
+    lines = [markers.describe(name, mk) for name, mk in values.items()]
     ratings = "; ".join(f"{INSTITUTIONS[k]['name']} : note STARS « {sources.header(k)['rating']} »"
                         for k in INSTITUTIONS)
     prompt = "\n\n".join([
@@ -357,7 +346,7 @@ def run_comparison(*, use_cache: bool = True, log=print) -> dict:
         "VIGILANCE. Si tu cites un niveau, recopie exactement celui de la liste VALEURS pour cet "
         "établissement et ce pilier. EXCEPTION aux règles de forme : cette section ne correspond à aucune "
         "publication GRI, n'écris donc aucune référence « GRI ».",
-        "VALEURS (placeholders à recopier tels quels) :\n" + "\n".join(lines),
+        "VALEURS (marqueurs à recopier tels quels, sans rien autour) :\n" + "\n".join(lines),
         "POINTS DE VIGILANCE OBLIGATOIRES :\n" + "\n".join(f"- {c}" for c in COMPARISON_CAUTIONS),
         "CONTEXTE : les piliers regroupent les crédits STARS : Environnement = OP ; Social = PA-6 à PA-13 ; "
         "Gouvernance = PA-1 à PA-5 ; Enseignement, recherche et engagement = AC et EN. Ce regroupement est un "

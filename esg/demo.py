@@ -49,12 +49,12 @@ def guard_demo() -> None:
     print("   Retiré  :", removed)
     print("   Après   :", fixed)
 
-    print("\n3. Texte correct : le modèle écrit des marqueurs")
-    good = ("Pour le crédit OP-6, Berkeley obtient {{ OP6_score }} points sur {{ OP6_max }} (GRI 305-1). "
-            "Le pilier Environnement atteint {{ ENV_pct }} des points possibles.")
+    env = section_allowed("berkeley", "environnement")
+    print("\n3. Texte correct : le modèle écrit des marqueurs complets")
+    good = "Pour ses émissions de gaz à effet de serre, Berkeley obtient {{ OP6 }} (GRI 305-1). Le pilier atteint {{ ENV }}."
     print("   Écrit par le modèle :", good)
-    print("   Garde-fou           :", guard.check_draft(good, allowed) or "aucun problème")
-    used = {n: f[n]["display"] for n in guard.PLACEHOLDER.findall(good)}
+    print("   Garde-fou           :", guard.check_draft(good, set(env), env) or "aucun problème")
+    used = {n: env[n]["display"] for n in guard.PLACEHOLDER.findall(good)}
     final = Environment(undefined=StrictUndefined).from_string(good).render(**used)
     print("   Inséré par le code  :", final)
 
@@ -62,15 +62,24 @@ def guard_demo() -> None:
     print("   Nombres trouvés     :", guard.numbers_in(final))
     print("   Non traçables       :", guard.check_rendered(final, used) or "aucun")
     for n in used:
-        print(f"   {n:<10} = {f[n]['display']:<10} source : {f[n]['source']}")
+        for fid in env[n]["fact_ids"]:
+            print(f"   {fid:<11} = {f[fid]['display']:<9} source : {f[fid]['source'][:90]}")
 
     print("\n5. Marqueur d'un autre pilier, dans la section Environnement")
-    env = section_allowed("berkeley", "environnement")
-    wrong = "Le salaire décent atteint {{ PA13_score }} (GRI 202-1)."
+    wrong = "Le salaire décent obtient {{ PA13 }} (GRI 202-1)."
     print("   Marqueurs autorisés :", ", ".join(sorted(env)))
     print("   Texte               :", wrong)
-    for p in guard.check_draft(wrong, set(env)):
+    for p in guard.check_draft(wrong, set(env), env):
         print("   REJET               :", p)
+
+    print("\n6. Vrai score employé dans un faux contexte (cas réels du rapport de Dublin)")
+    misused = ["Environ {{ OP14 }} étudiants viennent à vélo (GRI 305-3).",
+               "Les émissions baisseront de l'ordre de {{ OP6 }} % d'ici {{ OP6 }}.",
+               "Le pilier atteint {{ ENV }} %, un niveau maximal."]
+    for text in misused:
+        print("   Texte :", text)
+        for p in guard.check_draft(text, set(env), env):
+            print("      REJET :", p)
     print("=" * 70)
 
 
@@ -90,8 +99,8 @@ def judge_demo() -> None:
     print("\n7. Texte sans chiffre mais faux, soumis au juge Ollama")
     false_text = (
         "### Performance environnementale\n\n"
-        "Cork obtient {{ OP6_score }} points sur {{ OP6_max }} pour ses émissions, soit le niveau maximal "
-        "(GRI 305-1). L'université a déjà atteint la neutralité carbone et toute son électricité provient de "
+        "Pour ses émissions, Cork obtient {{ OP6 }} (GRI 305-1). "
+        "L'université a déjà atteint la neutralité carbone et toute son électricité provient de "
         "panneaux solaires installés sur le campus (GRI 302-1). Elle a aussi supprimé tous ses déchets mis en "
         "décharge grâce à un programme zéro déchet certifié par l'AASHE (GRI 306-5).")
     used = {n: values[n]["display"] for n in guard.PLACEHOLDER.findall(false_text)}
@@ -101,7 +110,7 @@ def judge_demo() -> None:
     evidence = rag.get_index().evidence(key, sec["credits"], sec["topic"])
     print("   … le juge Ollama relit (une à trois minutes sur CPU)")
     v = judge.judge(rendered,
-                    [f"{r['label']}: {r['display']}{generate.judge_level(r)}" for r in values.values()],
+                    generate.judge_values_of(values),
                     [f"GRI {e.code}: {e.status_label}" for e in entries],
                     gri_index.cautions(key, sec_id),
                     [f"[{p['credit']}] {p['text']}" for p in evidence])

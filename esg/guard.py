@@ -45,9 +45,61 @@ def strip_refs(text: str) -> str:
     return text
 
 
-def check_draft(text: str, allowed: set[str]) -> list[str]:
-    """Liste des violations (vide = texte accepté)."""
+# Contexte d'emploi d'un marqueur de SCORE (crédit, pilier, score global, valeur de champ).
+SCORE_KINDS = {"credit", "pillar", "overall", "field"}
+BAD_BEFORE = re.compile(r"(d'ici|depuis|\ben|dès|environ|de l'ordre de|inférieure?s? à|supérieure?s? à|plus de|"
+                        r"moins de|jusqu'à|près de|au moins|au plus)\s*$", re.I)
+BAD_AFTER = re.compile(r"^(%|pour ?cent|étudiant|personne|salarié|employé|membre|projet|cours|module|ans?\b|"
+                       r"année|tonne|euro|dollar|mwh|kwh|m³|m3|heure|arbre|bâtiment|site|panneau)", re.I)
+SCORE_INTRO = re.compile(r"obtien|obtenu|atteint|atteign|totalis|score|note|résultat|évalu|avec|soit|recueill|"
+                         r"récolt|niveau|crédit|pilier|part\b|points?\b", re.I)
+LEVEL_WORD = re.compile(r"\b(maximale?s?|élevée?s?|intermédiaires?|faibles?|nulle?s?)\b", re.I)
+CODE_LIKE = re.compile(r"\(?\b[A-Z]{2,}\d*_?(?:Pct|pct|Score|score|Max|max|Points|points)\b\)?")
+
+
+def _level(word: str) -> str:
+    w = word.lower()
+    for base in ("maximal", "élevé", "intermédiaire", "faible", "nul"):
+        if w.startswith(base):
+            return base
+    return w
+
+
+def misuse(text: str, markers: dict) -> list[str]:
+    """Marqueurs employés hors de leur sens : un score STARS utilisé comme date, quantité ou effectif,
+    suivi d'un « % » en double, sans verbe de score, ou avec un niveau qui contredit le vrai niveau."""
     problems = []
+    for m in PLACEHOLDER.finditer(text):
+        name, mk = m.group(1), markers.get(m.group(1))
+        if not mk or mk["kind"] not in SCORE_KINDS:
+            continue
+        sentence_before = re.split(r"[.!?\n]", text[:m.start()])[-1]
+        before = " ".join(sentence_before.split()[-4:])
+        after = text[m.end():].lstrip()
+        if BAD_BEFORE.search(before):
+            problems.append(f"marqueur {{{{ {name} }}}} employé comme date ou quantité après « {before.split()[-1]} » : "
+                            "c'est un score STARS")
+        elif BAD_AFTER.match(after):
+            problems.append(f"marqueur {{{{ {name} }}}} suivi de « {after.split()[0]} » : c'est un score STARS complet, "
+                            "pas un nombre à compléter")
+        elif mk["kind"] != "field" and not SCORE_INTRO.search(sentence_before):
+            problems.append(f"marqueur {{{{ {name} }}}} sans verbe de score : écris par exemple « obtient {{{{ {name} }}}} »")
+    for sentence in SENTENCE_END.split(text):
+        names = [n for n in PLACEHOLDER.findall(sentence) if markers.get(n, {}).get("level")]
+        if len(names) == 1:
+            said = {_level(w) for w in LEVEL_WORD.findall(PLACEHOLDER.sub(" ", sentence))}
+            wrong = said - {markers[names[0]]["level"]}
+            if wrong:
+                problems.append(f"niveau « {', '.join(sorted(wrong))} » faux pour {{{{ {names[0]} }}}} "
+                                f"(vrai niveau : {markers[names[0]]['level']})")
+    return problems
+
+
+def check_draft(text: str, allowed: set[str], markers: dict | None = None) -> list[str]:
+    """Liste des violations (vide = texte accepté)."""
+    problems = misuse(text, markers) if markers else []
+    for m in CODE_LIKE.finditer(PLACEHOLDER.sub(" ", text)):
+        problems.append(f"identifiant technique recopié : {m.group(0)!r}")
     used = PLACEHOLDER.findall(text)
     for name in sorted(set(used) - allowed):
         problems.append(f"placeholder inconnu {{{{ {name} }}}} : utilise uniquement ceux de la liste")
@@ -74,7 +126,7 @@ def check_draft(text: str, allowed: set[str]) -> list[str]:
 SENTENCE_END = re.compile(r"(?<=[.!?…])\s+")
 
 
-def repair(text: str, allowed: set[str]) -> tuple[str, list[str]]:
+def repair(text: str, allowed: set[str], markers: dict | None = None) -> tuple[str, list[str]]:
     """Retire les phrases (et titres) qui violent le garde-fou ; renvoie (texte, phrases retirées).
 
     Le code ne fait que SUPPRIMER : il n'ajoute ni ne modifie aucun mot. Une phrase fautive
@@ -85,12 +137,12 @@ def repair(text: str, allowed: set[str]) -> tuple[str, list[str]]:
         if not line.strip():
             kept_lines.append(line)
             continue
-        if line.lstrip().startswith(("#", "-", "*")) and check_draft(line, allowed):
+        if line.lstrip().startswith(("#", "-", "*")) and check_draft(line, allowed, markers):
             removed.append(line.strip())
             continue
         kept = []
         for sentence in SENTENCE_END.split(line):
-            if check_draft(sentence, allowed):
+            if check_draft(sentence, allowed, markers):
                 removed.append(sentence.strip())
             else:
                 kept.append(sentence)

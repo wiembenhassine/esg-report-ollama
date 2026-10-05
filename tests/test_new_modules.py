@@ -92,18 +92,18 @@ def test_chat_question_without_data_is_answered_by_code(monkeypatch):
 
 def test_chat_numbers_come_from_code_and_model_numbers_are_removed(monkeypatch):
     monkeypatch.setattr(chat.rag, "get_index", lambda: NoIndex())
-    reply = ("Cork obtient {{ cork_OP12_score }} sur {{ cork_OP12_max }} pour ses déchets, un niveau élevé. "
+    reply = ("Pour ses déchets, Cork obtient {{ cork_OP12 }}. "
              "Cork recycle 80 % de ses déchets.")
     monkeypatch.setattr(chat.llm, "chat", lambda *a, **k: {"text": reply, "seconds": 0})
     r = chat.answer("Quel est le score de Cork sur la gestion des déchets ?")
-    assert "3,99 sur 5" in r["text"]
+    assert "3,99 points STARS sur 5 au crédit OP-12, niveau élevé" in r["text"]
     assert "80" not in r["text"] and len(r["removed"]) == 1
 
 
 def test_chat_compares_universities_and_flags_physical_values(monkeypatch):
     monkeypatch.setattr(chat.rag, "get_index", lambda: NoIndex())
-    monkeypatch.setattr(chat.llm, "chat", lambda *a, **k: {"text": "Berkeley obtient {{ berkeley_OP6_score }}, "
-                        "TU Dublin {{ tudublin_OP6_score }}.", "seconds": 0})
+    monkeypatch.setattr(chat.llm, "chat", lambda *a, **k: {"text": "Berkeley obtient {{ berkeley_OP6 }} et "
+                        "TU Dublin obtient {{ tudublin_OP6 }}.", "seconds": 0})
     r = chat.answer("Combien de tonnes de CO2 émettent Berkeley et TU Dublin ?")
     assert r["keys"] == ["berkeley", "tudublin"]
     assert r["text"].startswith(chat.NOT_AVAILABLE)
