@@ -119,3 +119,10 @@ def test_verify_reads_the_raw_csv_and_detects_a_wrong_number():
     value, _ = verify.expected("cork", "OP12_score", rows)
     assert abs(verify.parse_fr("3,99") - value) < 0.006          # chiffre juste
     assert abs(verify.parse_fr("4,99") - value) > 0.006          # chiffre faux : détecté
+
+
+def test_verify_anchor_does_not_take_the_environment_pillar_for_a_credit():
+    from esg import verify
+    assert verify.anchor("EN5_score", "Points obtenus — Campus Engagement") == "EN-5 —"
+    assert verify.anchor("ENV_points", "Points obtenus — pilier Environnement") == "| Environnement |"
+    assert verify.anchor("PRE1_score", "Points obtenus — Prérequis") == ""

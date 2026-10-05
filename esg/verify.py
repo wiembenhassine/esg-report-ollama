@@ -12,6 +12,7 @@ Pour chaque chiffre : il doit apparaître dans le texte du rapport, et sa valeur
 
 import csv
 import random
+import re
 import sys
 
 from esg.config import INSTITUTIONS, OUTPUTS, RAW
@@ -51,6 +52,16 @@ def expected(key: str, fact_id: str, rows: list[dict]):
     return None, f"{code} introuvable dans le CSV"
 
 
+def anchor(fact_id: str, label: str) -> str:
+    """Texte qui doit figurer sur la même ligne que le chiffre : « OP-1 — » ou « | Environnement | ».
+    (« ENV » commence par « EN » : on exige un crédit complet, lettres puis chiffres.)"""
+    head = fact_id.rpartition("_")[0]
+    m = re.fullmatch(r"(OP|PA|AC|EN)(\d+)", head)
+    if m:
+        return f"{m[1]}-{m[2]} —"
+    return f"| {label.split('pilier ')[-1]} |" if "pilier" in label else ""
+
+
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 10
@@ -74,10 +85,8 @@ def main() -> None:
         value, how = expected(key, p["fact_id"], rows)
         shown = p["display"]
         # Le chiffre doit figurer sur la MÊME ligne que son crédit (ou son pilier), pas n'importe où.
-        head = p["fact_id"].rpartition("_")[0]
-        anchor = (head[:2] + "-" + head[2:] + " —") if head[:2] in ("OP", "PA", "AC", "EN") else \
-            p["label"].split("pilier ")[-1] if "pilier" in p["label"] else ""
-        in_text = any(shown in line and anchor in line for line in report.splitlines())
+        where = anchor(p["fact_id"], p["label"])
+        in_text = any(shown in line and where in line for line in report.splitlines())
         same = value is not None and abs(parse_fr(shown) - value) < 0.006
         if value is None:
             verdict = "non comparable"
