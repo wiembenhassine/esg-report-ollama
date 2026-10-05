@@ -61,8 +61,15 @@ def matching_facts(key: str, spec: dict) -> list[str]:
 
 
 def has_narrative(key: str, credits: list[str]) -> list[str]:
-    cr = sources.credits(key)
-    return [c for c in credits if cr.get(c, {}).get("lines")]
+    return [c for c in credits if sources.substantive_lines(key, c)]
+
+
+def absent_credits(key: str, credits: list[str]) -> list[str]:
+    """Crédits sans score ni texte propre pour cet établissement (ou marqués « Not Applicable »)."""
+    f = facts.load(key)
+    return [c for c in credits
+            if (facts.credit_var(c) + "_score" not in f and not sources.substantive_lines(key, c))
+            or sources.not_applicable(key, c)]
 
 
 def entry(key: str, code: str) -> Entry:
@@ -75,6 +82,13 @@ def entry(key: str, code: str) -> Entry:
     if coverage == "none":
         return Entry(status="none", reason="Aucune donnée STARS ne correspond à cette publication.",
                      fact_ids=[], **base)
+
+    absent = absent_credits(key, credits)
+    if credits and len(absent) == len(credits):
+        na = [c for c in absent if sources.not_applicable(key, c)]
+        why = (f"{', '.join(na)} marqué « Non applicable » par l'établissement dans STARS" if na
+               else f"{', '.join(absent)} non renseigné par l'établissement")
+        return Entry(status="none", reason=f"Aucune donnée : {why}.", fact_ids=[], **base)
 
     fids = matching_facts(key, spec)
     if fids:

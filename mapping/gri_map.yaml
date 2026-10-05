@@ -4,8 +4,12 @@
 # serait une faute d'intégrité dans un outil ESG.
 #
 # Base : GRI 2 (2021), GRI 3 (2021) et normes thématiques 202, 204, 301, 302,
-# 303, 305, 306, 308, 401, 403, 405 — 78 publications, comme le rapport de
-# référence (berkeley_gri_full.pdf). Titres GRI en traduction libre.
+# 303, 305, 306, 308, 401, 403, 405 — les 78 publications du rapport de
+# référence (berkeley_gri_full.pdf) — plus GRI 101: Biodiversity 2024 (8 publications),
+# qui remplace GRI 304 (2016) depuis le 1er janvier 2026 (vérifié sur globalreporting.org).
+# Total : 86 publications, 14 normes. Titres GRI en traduction libre.
+# Évolution future (non appliquée) : GRI 102: Climate Change 2025 remplacera 305-1 à 305-5
+# le 1er janvier 2027.
 #
 # Champs d'une publication :
 #   credits     crédits STARS qui peuvent l'alimenter
@@ -56,8 +60,9 @@ sections:
   - id: environnement
     title: "Performance environnementale"
     topic: "energy use, cogeneration plant, renewable electricity, solar, greenhouse gas emissions inventory, carbon offsets, water use, rainwater harvesting, waste diversion, recycling, composting, hazardous waste, sustainable procurement, supplier code"
-    credits: [OP-5, OP-6, OP-3, OP-12, OP-11, OP-9, OP-10, OP-1, OP-2, OP-13, OP-14, OP-15]
-    disclosures: ["301-1", "301-2", "301-3", "302-1", "302-2", "302-3", "302-4", "302-5",
+    credits: [OP-5, OP-6, OP-3, OP-12, OP-11, OP-9, OP-10, OP-1, OP-2, OP-13, OP-14, OP-15, OP-4, IL-24]
+    disclosures: ["101-1", "101-2", "101-3", "101-4", "101-5", "101-6", "101-7", "101-8",
+                  "301-1", "301-2", "301-3", "302-1", "302-2", "302-3", "302-4", "302-5",
                   "303-1", "303-2", "303-3", "303-4", "303-5",
                   "305-1", "305-2", "305-3", "305-4", "305-5", "305-6", "305-7",
                   "306-1", "306-2", "306-3", "306-4", "306-5", "308-1", "308-2"]
@@ -78,6 +83,7 @@ sections:
     gap_note: "Ces crédits STARS n'ont aucun équivalent dans les normes GRI, conçues pour des organisations qui n'enseignent pas. C'est un écart structurel entre les deux référentiels, et l'une des contributions de ce rapport : il montre ce qu'une université peut déclarer et que GRI ne demande pas."
 
 standards:
+  "GRI 101": "Biodiversité 2024"
   "GRI 2": "Éléments généraux 2021"
   "GRI 3": "Thèmes matériels 2021"
   "GRI 202": "Présence sur le marché 2016"
@@ -266,6 +272,31 @@ disclosures:
     coverage: partial
     qualitative: true
     note: "Réponses à l'échelle de l'établissement à une question que GRI pose thème par thème ; ni impacts, ni distinction prévention / remédiation, ni enseignements tirés."
+
+  # ---------------------------------------------------------------- GRI 101 (Biodiversité 2024)
+  "101-1": {title: "Politiques pour enrayer et inverser la perte de biodiversité", credits: [], coverage: none}
+  "101-2":
+    title: "Gestion des impacts sur la biodiversité"
+    credits: [OP-4]
+    coverage: partial
+    qualitative: true
+    note: "OP-4 décrit la gestion écologique des espaces verts du campus ; GRI 101-2 vise aussi la chaîne de valeur et la hiérarchie d'atténuation (éviter, réduire, restaurer)."
+  "101-3": {title: "Accès et partage des avantages", credits: [], coverage: none}
+  "101-4":
+    title: "Identification des impacts sur la biodiversité"
+    credits: [IL-24]
+    coverage: partial
+    qualitative: true
+    note: "IL-24 (crédit bonus) : évaluation de la biodiversité des terrains de l'établissement (espèces, habitats). GRI 101-4 demande aussi les impacts indirects, dans la chaîne d'approvisionnement."
+  "101-5":
+    title: "Sites ayant des impacts sur la biodiversité"
+    credits: [IL-24]
+    coverage: partial
+    qualitative: true
+    note: "IL-24 couvre les terrains possédés ou gérés par l'établissement ; GRI 101-5 demande la liste des sites, leur superficie et leur proximité avec des zones importantes pour la biodiversité."
+  "101-6": {title: "Facteurs directs de perte de biodiversité", credits: [], coverage: none}
+  "101-7": {title: "Évolution de l'état de la biodiversité", credits: [], coverage: none}
+  "101-8": {title: "Services écosystémiques", credits: [], coverage: none}
 
   # ---------------------------------------------------------------- GRI 202 / 204
   "202-1":

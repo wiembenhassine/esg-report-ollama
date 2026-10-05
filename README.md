@@ -21,7 +21,7 @@ réutilise telle quelle et ne la refait pas.
 | Ce qui vient de Hakim (copié dans `data/raw/`, inchangé) | Ce que j'ai ajouté (Wiem) |
 |---|---|
 | Scraping AASHE STARS des 3 universités (scorecards, pages de crédits) | Validation des données ligne par ligne (`esg/validate.py`) |
-| `combined_esg_dataset.csv` (scores par crédit, regroupement en piliers) | Correspondance STARS → **GRI** (78 publications), **TCFD**, **ESRS**, écrite à la main (`mapping/`) |
+| `combined_esg_dataset.csv` (scores par crédit, regroupement en piliers) | Correspondance STARS → **GRI** (86 publications, dont GRI 101 Biodiversité 2024), **TCFD**, **ESRS**, écrite à la main (`mapping/`) |
 | `*_credits.txt` (textes des pages de crédits) | Base de connaissances : découpage, embeddings `nomic-embed-text`, recherche par similarité (`esg/rag.py`) |
 | `knowledge_sources/` (corpus de référence ESG) | Génération des rapports avec Ollama, section par section, sans chiffre écrit par le modèle (`esg/generate.py`, `esg/guard.py`) |
 | Le choix des 3 universités et le regroupement E/S/G | Validation par Ollama (juge LLM), régénération, recoupement par le code (`esg/judge.py`) |
@@ -126,6 +126,9 @@ interrompt la génération (le cache permet de reprendre).
   « non disponible » à ces questions.
 - **Correspondances TCFD/ESRS thématiques** : aucun organisme ne publie de table STARS → TCFD/ESRS ;
   la table proposée est raisonnée et à valider.
+- **Évolution GRI à venir** : GRI 101: Biodiversité 2024 (en vigueur depuis le 1er janvier 2026) est intégrée ;
+  GRI 102: Climate Change 2025 remplacera les publications 305-1 à 305-5 le 1er janvier 2027 (pas encore appliqué,
+  GRI 305 reste valable pour un rapport publié en 2026).
 - **Juge 8B imparfait** : il laisse parfois passer une erreur fine (une publication GRI mal
   attribuée) ; les sections qu'il n'a pas pu valider sont marquées « à relire » et listées en
   annexe de chaque rapport, avec les affirmations non confirmées.
@@ -164,7 +167,7 @@ esg/
   validate.py      étape 0 : validation du CSV de Hakim
   facts.py         table des faits (seule source des chiffres) + niveaux qualitatifs
   frameworks.py    table STARS -> GRI / TCFD / ESRS
-  gri_index.py     statuts des 78 publications GRI
+  gri_index.py     statuts des 86 publications GRI (14 normes)
   sources.py       textes STARS : retrait du texte d'aide, suppression des nombres
   rag.py           embeddings nomic-embed-text + recherche par similarité
   llm.py           client Ollama (chat, JSON contraint, embeddings)

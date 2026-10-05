@@ -39,6 +39,8 @@ def about(key: str) -> str:
     head = sources.header(key)
     f = facts.load(key)
     has_fields = any(r["kind"] == "field" for r in f.values())
+    n_disc = len(gri_index.load_map()["disclosures"])
+    n_std = len(gri_index.load_map()["standards"])
     scope = (
         "Les valeurs détaillées des champs STARS (énergie, émissions, eau, déchets, effectifs…) ont été extraites "
         "des pages authentifiées et alimentent les publications concernées."
@@ -50,7 +52,7 @@ def about(key: str) -> str:
     )
     return f"""**À propos de ce rapport.** Ce rapport est généré automatiquement à partir de la soumission publique
 AASHE STARS 3.0 de {inst['name']} ({f['STARS_date']['display']}), mise en correspondance avec les normes GRI.
-Il examine les 78 publications GRI de 13 normes. Lorsqu'une publication ne peut pas être renseignée à partir
+Il examine les {n_disc} publications GRI de {n_std} normes (dont GRI 101: Biodiversité 2024). Lorsqu'une publication ne peut pas être renseignée à partir
 des données STARS, il le dit et explique pourquoi, au lieu d'omettre la question.
 
 **D'où viennent les chiffres, et pourquoi s'y fier.** Le modèle de langage qui rédige le texte

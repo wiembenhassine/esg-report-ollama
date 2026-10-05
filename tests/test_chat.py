@@ -58,6 +58,7 @@ def test_biodiversity_tu_dublin_gives_op4_and_says_il24_is_missing(model):
     r = chat.answer("Quel est le score biodiversité de TU Dublin ?")
     assert "0,69 point STARS sur 5 au crédit OP-4, niveau faible" in r["text"]
     assert "aucun résultat IL-24 (Évaluation de la biodiversité" in r["text"] and "pour TU Dublin" in r["text"]
+    assert "marqué « Non applicable » dans son rapport STARS (raison non fournie" in r["text"]
     assert set(guard.numbers_in(r["text"])) <= {"0,69", "5"}         # rien d'inventé
 
 

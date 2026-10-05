@@ -46,7 +46,7 @@ def passages() -> list[dict]:
     out = []
     for key in INSTITUTIONS:
         for code, c in sources.credits(key).items():
-            if code not in wanted:
+            if code not in wanted and not code.startswith("IL-"):    # crédits bonus IL indexés aussi
                 continue
             for i, line in enumerate(c["lines"]):
                 text = sources.mask_numbers(line)[:MAX_PASSAGE]

@@ -30,10 +30,12 @@ def load() -> dict:
 
 
 def credit_names() -> dict[str, str]:
+    """Crédits cartographiés : tous les crédits hors bonus, plus les bonus présents dans frameworks.yaml (IL-24)."""
+    mapped_bonus = {c for c in load()["credits"] if c.startswith("IL-")}
     names = {}
     for c in validate.validate():
         code = c.row.get("credit_code", "")
-        if code and not code.startswith("IL-"):
+        if code and (not code.startswith("IL-") or code in mapped_bonus):
             names.setdefault(code, c.row.get("credit_name", ""))
     return names
 

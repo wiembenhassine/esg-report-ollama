@@ -226,7 +226,9 @@ def answer(question: str, *, log=print) -> dict:
     absent = missing_for(keys, credits, vals)      # dit par le code, sans dépendre du modèle
     if absent:
         text += "\n\n" + " ".join(
-            f"Les données STARS ne contiennent aucun résultat {c} ({markers.labels_fr().get(c, c)}) pour {SHORT[k]}."
+            f"Les données STARS ne contiennent aucun résultat {c} ({markers.labels_fr().get(c, c)}) pour {SHORT[k]}"
+            + (" : ce crédit est marqué « Non applicable » dans son rapport STARS (raison non fournie dans les "
+               "données)." if sources.not_applicable(k, c) else ".")
             for k, c in absent)
     return {"text": text, "keys": keys, "credits": credits, "source": source,
             "removed": removed, "seconds": out["seconds"]}

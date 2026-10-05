@@ -74,7 +74,7 @@ credits:
   OP-1: {tcfd: [], esrs: [E1], note: "Construction : performance énergétique des bâtiments ≈ E1."}
   OP-2: {tcfd: [], esrs: [E1], note: "Exploitation des bâtiments ≈ E1."}
   OP-3: {tcfd: [], esrs: [E3], note: "Consommation d'eau ≈ E3."}
-  OP-4: {tcfd: [], esrs: [E4, E2], note: "Gestion écologique des espaces verts ≈ E4 ; pesticides ≈ E2."}
+  OP-4: {tcfd: [], esrs: [E4, E2], note: "Gestion écologique des espaces verts ≈ E4 (GRI 101-2) ; pesticides ≈ E2."}
   OP-5: {tcfd: [MT-a], esrs: [E1], note: "Consommation d'énergie ≈ E1-5 ; indicateur climat TCFD."}
   OP-6: {tcfd: [MT-b, MT-c], esrs: [E1], note: "Émissions GES et objectif de réduction ≈ E1-6 / E1-4 ; TCFD MT-b et MT-c."}
   OP-7: {tcfd: [], esrs: [G1], note: "Achats alimentaires ≈ G1 (relations fournisseurs)."}
@@ -100,3 +100,5 @@ credits:
   PA-11: {tcfd: [], esrs: [S1], note: "Santé, sécurité et bien-être ≈ S1-14."}
   PA-12: {tcfd: [], esrs: [S1, G1], note: "Droits des salariés ≈ S1 ; protection des lanceurs d'alerte ≈ G1-1."}
   PA-13: {tcfd: [], esrs: [S1], note: "Salaire décent ≈ S1-10."}
+  # ------------------------------------------------------------ Crédit bonus cartographié
+  IL-24: {tcfd: [], esrs: [E4], note: "Évaluation de la biodiversité (crédit bonus) ≈ E4 ; GRI 101-4 et 101-5."}

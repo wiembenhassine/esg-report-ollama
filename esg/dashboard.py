@@ -157,7 +157,7 @@ def pillar_table() -> str:
 
 
 def gri_chart() -> str:
-    """Barres empilées à 100 % : statut des 78 publications GRI par université."""
+    """Barres empilées à 100 % : statut des publications GRI par université."""
     labels = gri_index.STATUS_LABELS
     color = {"reported": "var(--o600)", "partial": "var(--o400)", "pending": "var(--o250)", "none": "var(--none)"}
     left, width, bar = 120, 900, 26
@@ -262,7 +262,7 @@ def build() -> str:
 Scores autodéclarés, notés par rapport à un groupe de pairs. Périmètres différents : Cork exclut ses filiales ;
 TU Dublin n'a pas de crédits d'investissement (PA-4, PA-5 non applicables).</p>
 {legend_inst()}{pillar_chart()}{pillar_table()}</div>
-<div class="card"><h2>Couverture des 78 publications GRI</h2>
+<div class="card"><h2>Couverture des {len(gri_index.load_map()["disclosures"])} publications GRI</h2>
 <p class="note">Statuts calculés par le code. « Non évalué » : un champ STARS existe mais sa valeur n'a pas été extraite
 (accès AASHE authentifié requis).</p>{gri_chart()}</div>
 <div class="card"><h2>Résultats par crédit STARS</h2>

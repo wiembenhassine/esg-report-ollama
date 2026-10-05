@@ -144,6 +144,19 @@ def credits(key: str) -> dict:
     return load_all()[key]
 
 
+NOT_APPLICABLE = re.compile(r"marked as Not Applicable|Total adjusted for non-applicable credits", re.I)
+
+
+def not_applicable(key: str, code: str) -> bool:
+    """Crédit marqué « Not Applicable » sur sa page STARS (ex. IL-24 pour TU Dublin)."""
+    return any(NOT_APPLICABLE.search(l) for l in credits(key).get(code, {}).get("lines", []))
+
+
+def substantive_lines(key: str, code: str) -> list[str]:
+    """Lignes propres à l'établissement, hors mentions « Not Applicable »."""
+    return [l for l in credits(key).get(code, {}).get("lines", []) if not NOT_APPLICABLE.search(l)]
+
+
 def header(key: str) -> dict:
     """Note globale, score global et date de soumission (en-tête de chaque page)."""
     for c in credits(key).values():

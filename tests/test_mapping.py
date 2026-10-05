@@ -10,11 +10,12 @@ KNOWN_CREDITS = {r["credit_code"] for r in csv.DictReader(open(RAW / "scores" / 
                                                                 encoding="utf-8"))}
 
 
-def test_78_disclosures_in_13_standards():
+def test_86_disclosures_in_14_standards():
+    """78 publications du rapport de référence + 8 de GRI 101: Biodiversité 2024."""
     codes = list(MAP["disclosures"])
-    assert len(codes) == 78
+    assert len(codes) == 86
     assert {gri_index.standard_of(c) for c in codes} == set(MAP["standards"])
-    assert len(MAP["standards"]) == 13
+    assert len(MAP["standards"]) == 14 and "GRI 101" in MAP["standards"] and "GRI 304" not in MAP["standards"]
 
 
 def test_each_disclosure_in_exactly_one_section():
@@ -97,3 +98,21 @@ def test_sections_without_disclosures_must_not_cite_gri():
     text = "Les écarts entre établissements reflètent aussi des périmètres différents. " * 15
     assert lint(text, [])[0] == []
     assert lint(text + " Voir (GRI 305-1).", [])[0]
+
+
+
+def test_biodiversity_gri_101_and_esrs_e4():
+    from esg import frameworks
+    disc = MAP["disclosures"]
+    assert disc["101-4"]["credits"] == ["IL-24"] and disc["101-5"]["credits"] == ["IL-24"]
+    assert disc["101-2"]["credits"] == ["OP-4"]
+    rows = {r["credit_code"]: r for r in frameworks.table()}
+    assert rows["IL-24"]["gri"] == "GRI 101-4, GRI 101-5" and rows["IL-24"]["esrs"] == "E4"
+    assert "GRI 101-2" in rows["OP-4"]["gri"] and "E4" in rows["OP-4"]["esrs"]
+
+
+def test_il24_status_depends_on_the_university():
+    cork = gri_index.entry("cork", "101-4")
+    dublin = gri_index.entry("tudublin", "101-4")
+    assert cork.status == "partial" and "IL-24" in cork.reason
+    assert dublin.status == "none" and "Non applicable" in dublin.reason
