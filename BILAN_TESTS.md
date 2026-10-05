@@ -112,7 +112,7 @@ avec `7e6d242`.
 | 3 | **Chat** : mots entiers sans accents (9 faux positifs + « emissions » sans accent + alias « tud » trouvé dans « étudiants ») ; biodiversité → IL-24 + OP-4 ; donnée absente dite par le code ; phrase « score de crédit = note Platinum » retirée | fait | `9cafd29` | 120 passent (`tests/test_chat.py`) |
 | 4 | **Biodiversité dans les correspondances** : GRI 101 (2024) vérifiée sur globalreporting.org (remplace GRI 304 depuis le 1er janvier 2026) ; IL-24 → 101-4, 101-5, ESRS E4 ; OP-4 → 101-2 ; textes des crédits IL indexés (1 312 passages) ; IL-24 de TU Dublin marqué « Not Applicable » sur sa page STARS → « Non rapporté » | fait | `1c62a37` | 122 passent |
 | 5 | **Lexique de 24 sigles** + règle de matérialité, donnés au rédacteur et au juge ; mauvais développés (« Services de l'État (SEC) ») et « a identifié les thèmes matériels » retirés par le code ; le juge lit les extraits avec leurs vrais nombres | fait | `88667de` | 125 passent (`tests/test_glossary.py`) |
-| 6 | **Git** : un commit par correction ; envoi sur GitHub **à la fin seulement**, puis clone de vérification | en attente | — | — |
+| 6 | **Git** : un commit par correction ; envoi sur GitHub **à la fin seulement**, puis clone de vérification | fait : envoyé le 5 octobre ; clone neuf depuis GitHub = même HEAD, 120 fichiers suivis, `.env` absent | `4496377` | 132 passent dans le clone ; `esg.verify_univ 2026` : aucun écart |
 
 Ajustements faits pendant la régénération de Dublin. Le garde-fou rejetait à tort des textes
 corrects ; chaque cas réel est couvert par un test. Le code est **gelé** après `7e6d242`, avec une seule exception pour un bug
