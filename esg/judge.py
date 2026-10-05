@@ -25,17 +25,7 @@ from esg.config import JUDGE_MODEL
 ACCEPT_SCORE = 3
 ACCEPT_FAITHFULNESS = 0.8
 
-FORBIDDEN = [
-    (re.compile(r"conforme? aux normes GRI|en conformité avec (les )?(normes )?GRI|in accordance with", re.I),
-     "écrire « en référence aux normes GRI », jamais « conforme » ou « en conformité »"),
-    (re.compile(r"n'a (pas|jamais) (réalisé|mené|conduit|effectué|procédé)[^.]{0,40}matérialité", re.I),
-     "ne jamais affirmer que l'université n'a pas mené d'analyse de matérialité : écrire que ce rapport ne peut pas l'établir"),
-    (re.compile(r"\bn'a (pas|jamais) (fourni|communiqué|publié|déclaré|transmis)", re.I),
-     "ne pas écrire que l'université « n'a pas fourni » une information : écrire que STARS ne la collecte pas "
-     "ou que ce rapport ne peut pas l'établir"),
-    (re.compile(r"\b(certifié|audité|vérifié) par (un tiers|l'AASHE)", re.I),
-     "les données STARS sont autodéclarées et non vérifiées : ne pas les présenter comme auditées"),
-]
+FORBIDDEN = guard.FORBIDDEN          # formulations interdites (définies dans guard : la phrase est retirée)
 FR_WORDS = re.compile(r"\b(le|la|les|des|du|une|est|sont|dans|pour|avec|qui|que|par|sur|ce|cette)\b", re.I)
 EN_WORDS = re.compile(r"\b(the|and|of|is|are|with|which|that|for|this|its|has|have)\b", re.I)
 

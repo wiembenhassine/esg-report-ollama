@@ -140,6 +140,19 @@ def _plain(s: str) -> str:
     return "".join(ch for ch in s if not unicodedata.combining(ch))
 
 
+# Formulations interdites : la phrase est retirée par repair() (avant, toute la version était rejetée).
+FORBIDDEN = [
+    (re.compile(r"conforme? aux normes GRI|en conformité avec (les )?(normes )?GRI|in accordance with", re.I),
+     "écrire « en référence aux normes GRI », jamais « conforme » ou « en conformité »"),
+    (re.compile(r"n'a (pas|jamais) (réalisé|mené|conduit|effectué|procédé)[^.]{0,40}matérialité", re.I),
+     "ne jamais affirmer que l'université n'a pas mené d'analyse de matérialité : écrire que ce rapport ne peut pas l'établir"),
+    (re.compile(r"\bn'a (pas|jamais) (fourni|communiqué|publié|déclaré|transmis)", re.I),
+     "ne pas écrire que l'université « n'a pas fourni » une information : écrire que STARS ne la collecte pas "
+     "ou que ce rapport ne peut pas l'établir"),
+    (re.compile(r"\b(certifié|audité|vérifié) par (un tiers|l'AASHE)", re.I),
+     "les données STARS sont autodéclarées et non vérifiées : ne pas les présenter comme auditées"),
+]
+
 # Affirmation interdite : les domaines STARS ne sont pas une analyse de matérialité de l'université.
 MATERIALITY = re.compile(r"(a|ont|avait|avoir)\s+(identifié|déterminé|défini|sélectionné|retenu)\s+"
                          r"(les\s+|ses\s+|des\s+)?(thèmes|enjeux|sujets)\s+matériels|thèmes\s+matériels\s+suivants|"
@@ -171,6 +184,9 @@ def check_draft(text: str, allowed: set[str], markers: dict | None = None) -> li
     """Liste des violations (vide = texte accepté)."""
     problems = misuse(text, markers) if markers else []
     problems += wrong_expansions(text)
+    for rx, msg in FORBIDDEN:
+        if rx.search(text):
+            problems.append(f"formulation interdite : {msg}")
     if MATERIALITY.search(text):
         problems.append("les domaines STARS ne sont pas une analyse de matérialité : n'écris pas que l'université "
                         "a identifié ou déterminé ses thèmes matériels")

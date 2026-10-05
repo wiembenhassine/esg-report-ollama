@@ -43,3 +43,14 @@ def test_glossary_reaches_writer_and_judge(monkeypatch):
     judge.judge("Texte avec les Services de l'État (SEC).", [], [], [], ["[PA-2] members of the SEC"])
     assert "ACRONYMS:" in seen["user"] and "SEC = Sustainable Energy Community" in seen["user"]
     assert "material" in seen["system"] and "number of students" in seen["system"]
+
+
+def test_forbidden_wording_removes_the_sentence_not_the_whole_text():
+    """Cas réel (5 octobre) : une seule phrase « n'a pas fourni » faisait rejeter toute la section."""
+    text = ("Les domaines d'objectifs fixés par STARS couvrent les opérations du campus (GRI 3-2). "
+            "L'université n'a pas fourni d'analyse de ses impacts. "
+            "Ce rapport ne peut pas établir le processus de détermination des thèmes (GRI 3-1).")
+    fixed, removed = guard.repair(text, set(), {})
+    assert removed == ["L'université n'a pas fourni d'analyse de ses impacts."]
+    assert "ne peut pas établir" in fixed
+    assert not [p for p in judge.lint(fixed, ["3-1", "3-2"])[0] if "fourni" in p]
