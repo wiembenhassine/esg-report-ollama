@@ -221,7 +221,7 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
 
         used = set(guard.PLACEHOLDER.findall(draft))
         substituted = {name: values[name]["display"] for name in used}
-        rendered = JINJA.from_string(draft).render(**substituted)
+        rendered = guard.drop_marker_echo(JINJA.from_string(draft).render(**substituted))
         trace_problems = guard.check_rendered(rendered, substituted)
         fact_ids = sorted({fid for name in used for fid in values[name]["fact_ids"]})   # provenance
         att["rendered"], att["used_facts"], att["trace_problems"] = rendered, fact_ids, trace_problems

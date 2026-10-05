@@ -259,7 +259,7 @@ def report_md(key: str, results: list[dict]) -> str:
             parts += [table, ""]
         for caution in gri_index.cautions(key, r["section"]):   # mise en garde garantie par le code
             parts += [f"> **Point de vigilance.** {caution}", ""]
-        parts.append(guard.tidy(r["text"], r["title"]))
+        parts.append(guard.tidy(guard.drop_marker_echo(r["text"]), r["title"]))
     parts += ["", "## Index de contenu GRI", "", gri_index_md(key),
               "", "## Annexe — Correspondance STARS → GRI, TCFD, ESRS", "", frameworks_md(),
               "", "## Annexe — Validation du rapport", "", validation_md(results),
@@ -293,7 +293,8 @@ def comparison_md(comp: dict) -> str:
            "", "## Analyse", ""]
     if comp["decision"] == "à relire":
         md.append('<p class="review">Section à relire : validation automatique incomplète.</p>')
-    md += [guard.tidy(comp["text"], comp["title"]), "", "## Validation", "", validation_md([comp])]
+    md += [guard.tidy(guard.drop_marker_echo(comp["text"]), comp["title"]), "", "## Validation", "",
+           validation_md([comp])]
     return "\n".join(md)
 
 

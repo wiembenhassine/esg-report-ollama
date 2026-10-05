@@ -73,3 +73,29 @@ def test_complete_marker_renders_a_self_describing_sentence():
     assert text == ("Pour l'engagement civique, TU Dublin obtient 4,5 points STARS sur 8 au crédit EN-5, "
                     "niveau intermédiaire.")
     assert mk["EN5"]["fact_ids"] == ["EN5_score", "EN5_max"]
+
+
+def test_repeated_full_marker_is_cleaned_in_the_rendered_text():
+    """Cas réels du 5 octobre (27 phrases dans les 3 rapports) : le modèle répète le marqueur complet."""
+    berkeley = ("L'université a également obtenu 2,5 points STARS sur 3 au crédit PA-12, niveau élevé points STARS "
+                "sur 2,5 points STARS sur 3 au crédit PA-12, niveau élevé au crédit PA-12.")
+    assert guard.drop_marker_echo(berkeley) == \
+        "L'université a également obtenu 2,5 points STARS sur 3 au crédit PA-12, niveau élevé."
+    cork = ("* Score STARS : 1 point STARS sur 1 au crédit IL-24, niveau maximal points STARS sur 1 point STARS "
+            "sur 1 au crédit IL-24, niveau maximal au crédit IL-24, niveau maximal")
+    assert guard.drop_marker_echo(cork) == "* Score STARS : 1 point STARS sur 1 au crédit IL-24, niveau maximal"
+    dublin = ("comme le montre son score STARS de 4 points STARS sur 4 au crédit PA-3, niveau maximal points sur "
+              "4 points STARS sur 4 au crédit PA-3, niveau maximal au crédit PA-3, niveau maximal. Ensuite.")
+    assert guard.drop_marker_echo(dublin) == \
+        "comme le montre son score STARS de 4 points STARS sur 4 au crédit PA-3, niveau maximal. Ensuite."
+    overall = "Le rapport a obtenu un score STARS global de un score STARS global de 83,35."
+    assert guard.drop_marker_echo(overall) == "Le rapport a obtenu un score STARS global de 83,35."
+    # Deux crédits différents côte à côte : rien n'est retiré.
+    two = ("obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal et 3 points STARS sur 3 au crédit "
+           "PA-6, niveau maximal.")
+    assert guard.drop_marker_echo(two) == two
+
+
+def test_empty_reference_lists_are_removed():
+    assert guard.tidy("Les sociétés étudiantes (Ref, Ref) et le programme (Refs 2, 3) existent (Ref ).") == \
+        "Les sociétés étudiantes et le programme existent."

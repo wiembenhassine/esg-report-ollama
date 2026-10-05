@@ -220,7 +220,7 @@ def answer(question: str, *, log=print) -> dict:
         text, source = fallback(vals), "code (texte du modèle rejeté par le garde-fou)"
     else:
         used = {n: vals[n]["display"] for n in guard.PLACEHOLDER.findall(draft)}
-        text = JINJA.from_string(draft).render(**used)
+        text = guard.drop_marker_echo(JINJA.from_string(draft).render(**used))
         assert not guard.check_rendered(text, used), "nombre non traçable"
         source = "modèle (chiffres insérés par le code)"
     if physical and NOT_AVAILABLE not in text:

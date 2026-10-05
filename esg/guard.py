@@ -74,6 +74,21 @@ def drop_double_percent(text: str, markers: dict) -> str:
     (« {{ PA2_t0_2 }} % » -> « {{ PA2_t0_2 }} ») : suppression seule, le sens ne change pas."""
     return re.sub(r"\{\{\s*(\w+)\s*\}\}\s*(?:%|pour ?cent)", lambda m: (
         f"{{{{ {m.group(1)} }}}}" if markers.get(m.group(1), {}).get("unit") == "%" else m.group(0)), text)
+
+
+# Marqueur complet « répété » par le modèle (cas réels du 5 octobre, 27 phrases) :
+#   « {{ PA12 }} points STARS sur {{ PA12 }} au crédit PA-12 »  et  « un score STARS global de {{ STARS_score }} ».
+CREDIT_SHOWN = (r"(?P<d>\d+(?:,\d+)? points? STARS sur \d+(?:,\d+)? au crédit (?P<c>[A-Z]{2,3}-\d+), "
+                r"niveau (?P<l>\w+))")
+CREDIT_ECHO = re.compile(CREDIT_SHOWN + r"(?:\s+points?(?:\s+STARS)?\s+sur\s+(?P=d))?"
+                         r"(?:\s+au crédit (?P=c))?(?:,?\s+niveau (?P=l))?")
+OVERALL_ECHO = re.compile(r"(?:\b(?:un |le )?score STARS global(?: de)?\s+)+(?=un score STARS global de \d)")
+
+
+def drop_marker_echo(text: str) -> str:
+    """Retire les mots que le modèle a répétés autour d'un marqueur complet, dans le texte rendu
+    (suppression seule : la valeur, le crédit et le niveau restent ceux du marqueur)."""
+    return OVERALL_ECHO.sub("", CREDIT_ECHO.sub(lambda m: m.group("d"), text))
 # Phrase vidée de son nombre (le nombre a été retiré du contexte et le modèle a gardé le reste).
 EMPTIED = re.compile(r"\b(d'ici|depuis|dès|jusqu'en)\s*(?=[.,;:)]|\bet\b|$)|"
                      r"\b(de|à|en|environ|soit)\s+(MWh|kWh|GWh|watts?|W/unit|watt/unit|tonnes?|m³|m3|heures?|%)(?=\W|$)",
@@ -253,7 +268,8 @@ def tidy(text: str, section_title: str = "") -> str:
     while lines and lines[0].lstrip("#").strip().lower() in {section_title.lower(), ""} and lines[0].startswith("#"):
         lines.pop(0)
     lines = [re.sub(r"^(#{2,6})(\s+#{1,6})+\s+", r"\1 ", l) for l in lines]
-    lines = [re.sub(r"\s*\(\s*Refs?\s*[\d,\s]*\)", "", l) for l in lines]      # renvois « (Ref ) » vides
+    lines = [re.sub(r"\s*\(\s*Refs?[\s\d]*(?:,\s*Refs?[\s\d]*|,[\s\d]*)*\)", "", l)   # « (Ref ) », « (Ref, Ref) »
+             for l in lines]
     text = "\n".join(lines).strip()
     if text and not re.search(r"[.!?»)\]]\s*$", text):          # fin coupée : on retire la phrase incomplète
         cut = max(text.rfind(". "), text.rfind(".\n"), text.rfind("\n\n"))
