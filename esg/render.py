@@ -16,7 +16,7 @@ from pathlib import Path
 
 import markdown
 
-from esg import docx_export, facts, gri_index, guard, sources
+from esg import docx_export, facts, gri_index, guard, review, sources
 from esg.config import GEN_MODEL, INSTITUTIONS, OUTPUTS, PROCESSED, report_url
 
 PILLAR_ORDER = [("ENV", "Environnement"), ("SOC", "Social"), ("GOV", "Gouvernance"),
@@ -166,7 +166,7 @@ def frameworks_md() -> str:
     return "\n".join(md)
 
 
-def validation_md(results: list[dict]) -> str:
+def validation_md(results: list[dict], key: str = "") -> str:
     md = ["Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → "
           "substitution par le code → audit par le juge → régénération si refus (trois tentatives au plus).", "",
           "| Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |",
@@ -188,10 +188,18 @@ def validation_md(results: list[dict]) -> str:
         md += ["", f"{disc} violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle "
                    "déterministe (par exemple une « revendication de conformité GRI » absente du texte) : "
                    "le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier."]
-    review = [r for r in results if r["decision"] == "à relire" and r["unsupported_claims"]]
-    if review:
+    n_fix, n_sec = review.count(key) if key else (0, 0)
+    if n_fix:
+        md += ["", f"**Relecture hors pipeline** (6 octobre 2026) : {n_fix} correction(s) dans {n_sec} section(s). "
+                   "Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la "
+                   "main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de "
+                   "Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois "
+                   f"validées par elle. Liste détaillée : `relecture/{key}.yaml` et `outputs/relecture_humaine.md`. "
+                   "Le texte écrit par le modèle reste consultable dans `outputs/cache/`."]
+    to_review = [r for r in results if r["decision"] == "à relire" and r["unsupported_claims"]]
+    if to_review:
         md += ["", "**À relire par un humain** — affirmations que le juge n'a pas trouvées dans les sources :"]
-        for r in review:
+        for r in to_review:
             for claim in r["unsupported_claims"]:
                 md.append(f"- *{esc(r['title'])}* : « {esc(claim)} »")
     return "\n".join(md)
@@ -229,6 +237,11 @@ def provenance(key: str, results: list[dict]) -> list[dict]:
             rows.append({"section": f"{r['title']} (indicateurs)", "fact_id": fid, "display": f[fid]["display"],
                          "raw_value": f[fid]["raw_value"], "label": f[fid]["label"], "source": f[fid]["source"]})
     for r in results:
+        for fid in review.apply(key, r["section"], r["text"])[1]:       # nombres cités par la relecture
+            rows.append({"section": f"{r['title']} (relecture)", "fact_id": fid,
+                         "display": f[fid]["display"], "raw_value": f[fid]["raw_value"],
+                         "label": f[fid]["label"], "source": f[fid]["source"]})
+    for r in results:
         for fid in r["used_facts"]:
             fact = f[fid]
             rows.append({"section": r["title"], "fact_id": fid, "display": fact["display"],
@@ -259,10 +272,14 @@ def report_md(key: str, results: list[dict]) -> str:
             parts += [table, ""]
         for caution in gri_index.cautions(key, r["section"]):   # mise en garde garantie par le code
             parts += [f"> **Point de vigilance.** {caution}", ""]
-        parts.append(guard.tidy(guard.drop_marker_echo(r["text"]), r["title"]))
+        text, _, missing = review.apply(key, r["section"], r["text"])     # relecture humaine d'abord
+        for c in missing:
+            print(f"   ATTENTION relecture : passage introuvable dans {key}/{r['section']} "
+                  f"(texte régénéré depuis ?) : « {c['avant'][:70]} »")
+        parts.append(guard.tidy(guard.drop_marker_echo(text), r["title"]))
     parts += ["", "## Index de contenu GRI", "", gri_index_md(key),
               "", "## Annexe — Correspondance STARS → GRI, TCFD, ESRS", "", frameworks_md(),
-              "", "## Annexe — Validation du rapport", "", validation_md(results),
+              "", "## Annexe — Validation du rapport", "", validation_md(results, key),
               "", "## Vérifier ce rapport", "",
               f"Chaque chiffre de ce rapport est listé dans `provenance.csv` avec le crédit STARS, le champ et l'URL "
               f"dont il provient. `pytest` recalcule ces chiffres à partir des fichiers bruts, indépendamment du code "

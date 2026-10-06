@@ -1,0 +1,110 @@
+# Relecture hors pipeline — rapport de TU Dublin (6 octobre 2026).
+# Corrections proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine ; à valider par elle.
+# Chaque phrase validée par le juge a été relue contre les textes STARS de TU Dublin
+# (data/raw, lignes numérotées comme dans facts.csv). Appliqué par le code au rendu (esg/review.py) ;
+# « apres » vide = phrase supprimée. Aucun chiffre tapé à la main : {{ ID }} = valeur de facts.csv.
+# Les 24 erreurs du tableau 4 bis de BILAN_TESTS.md : 5 sont corrigées par le code (marqueur répété x2,
+# « (Ref, Ref) », phrase répétée, « étaient : » sans liste) ; les 19 autres sont ci-dessous, avec
+# 5 erreurs de plus trouvées à cette relecture (marquées « trouvé à cette relecture »).
+
+materialite:
+  - avant: "le Plan de l'égalité des sexes"
+    apres: "le plan pour l'égalité raciale (Race Equality Plan)"
+    raison: "Contresens de traduction : « Race Equality Plan » est un plan pour l'égalité raciale, pas pour l'égalité des sexes."
+    source: "PA-2, ligne 2 : « …certification from Athena Swan, the Race Equality Plan, and Ending Sexual Violence and Harassment (ESVH) »"
+  - avant: "un équilibre de genre de 40 % de femmes et 40 % d'hommes à tous les niveaux de prise de décision"
+    apres: "un équilibre entre les genres (au moins {{ PA2_t1_2 }} de femmes et au moins {{ PA2_t1_3 }} d'hommes) à tous les niveaux de décision de la direction"
+    raison: "Élargi à tort : la cible vaut pour les niveaux de décision de la direction (« senior »), avec « au moins » 40 % de chaque genre."
+    source: "PA-2, ligne 2 : « achieving gender balance (at least 40% female and 40% male) at all senior decision making levels »"
+
+gouvernance:
+  - avant: "Shauna O'Toole (présidente de l'Union des étudiants), Princewill Aguele (vice-président de l'Union des étudiants pour les événements et les engagements) et Avice Meya (étudiante de master membre de l'Union des étudiants)"
+    apres: "Shauna O'Toole (présidence de l'Union des étudiants), Princewill Aguele (vice-présidence de l'Union des étudiants chargée des événements et de l'engagement) et Avice Meya (membre au titre des étudiants de troisième cycle)"
+    raison: "La source ne dit pas que la troisième personne est membre de l'Union des étudiants : elle siège comme « Post Grad Student member ». Fonctions écrites au neutre : la source ne donne pas le genre des personnes."
+    source: "PA-3, ligne 2 : « O'Toole, Shauna (SU President), Aguele, Princewill (SU VP for Events and Engagements), and Meya, Avice (Post Grad Student member) »"
+
+strategie:
+  - avant: "La TU Dublin a signé la Climate Action Plan (CAP) 2021, qui vise à réduire les émissions de gaz à effet de serre et à devenir neutre en carbone d'ici 2030."
+    apres: "Ces objectifs sont alignés sur le Climate Action Plan {{ PA2_t0_6 }} (CAP), qui demande au secteur public de montrer l'exemple pour réduire de {{ PA2_t0_7 }} les émissions de gaz à effet de serre de l'Irlande d'ici {{ PA2_t0_8 }} et atteindre la neutralité climatique au plus tard en {{ PA2_t0_9 }}."
+    raison: "Deux erreurs : TU Dublin n'a pas « signé » ce plan national, ses objectifs y sont alignés ; et 2030 est l'échéance de la baisse de 51 %, la neutralité climatique est visée au plus tard en 2050."
+    source: "PA-2, ligne 1 : « These targets are in line with the Climate Action Plan 2021 (CAP21) … reducing Ireland's greenhouse gas emissions by 51% by 2030 and becoming climate neutral no later than 2050 »"
+  - avant: "L'université a également mis en place des activités de résilience climatique au travers de ses Sustainable Energy Communities (SEC)."
+    apres: "Des membres de son Office de la durabilité participent à des Sustainable Energy Communities (SEC) voisines du campus de Grangegorman, soutenues par la SEAI, et mènent avec elles des activités de résilience climatique."
+    raison: "Trouvé à cette relecture : les SEC ne sont pas « ses » communautés ; ce sont des communautés locales auxquelles participent des membres de l'université."
+    source: "PA-2, lignes 4 à 6 : « TU Dublin Sustainability Office members participate to sustainable energy communities (SEC) sponsored by … SEAI » ; « through and with the SECs TU Dublin members conduct climate resilience activities »"
+  - avant: "La TU Dublin a signé la charte de la Sustainable Development Goals (SDG) Literacy Community of Practice, qui vise à éduquer les professeurs et les étudiants sur les objectifs de développement durable."
+    apres: "Parmi ses communautés de pratique, TU Dublin compte la SDG Literacy Community of Practice, qui permet aux enseignants et aux étudiants de construire ensemble des occasions d'apprendre sur les objectifs de développement durable des Nations unies. TU Dublin est par ailleurs membre de l'Université européenne de technologie (European University of Technology)."
+    raison: "Aucune « charte » signée dans les sources : la SDG Literacy Community of Practice est une communauté de pratique interne de TU Dublin. L'adhésion réelle à une association (EUt+) est citée à la place."
+    source: "AC-1, ligne 9 : « Within TU Dublin Communities of Practice is the SDG Literacy Community of Practice. TU Dublin is also a member of the European University of Technology » ; EN-3, ligne 1"
+
+parties_prenantes:
+  - avant: "De plus, l'université n'a pas rendu publics tous les partenariats de la communauté pour la durabilité."
+    apres: "Ce rapport ne peut pas établir la liste complète des partenariats de l'université avec la communauté pour la durabilité."
+    raison: "Formulation interdite (« l'université n'a pas… ») et généralisation : la source dit seulement que le document du programme SLWC+ n'est pas public."
+    source: "EN-6, ligne 6 : « This is not publicly accessible though as it is the first time we have run this »"
+  - avant: "Cela est établi dans l'article de la constitution de la SU."
+    apres: "Cela est établi par la constitution de la SU."
+    raison: "Trouvé à cette relecture : le numéro d'article a été retiré du contexte (règle des nombres), « l'article » ne désigne plus rien."
+    source: "PA-3, ligne 1 : « Article 7.1.2 of the SU Constitution »"
+
+environnement:
+  - avant: "L'université de Dublin (TU Dublin)"
+    apres: "TU Dublin"
+    raison: "Mauvais nom : l'« université de Dublin » (University of Dublin) est un autre établissement."
+    source: "Nom STARS de l'établissement : Technological University Dublin"
+  - avant: " Dans le cadre de son pilier Environnement, l'université a obtenu des scores élevés dans plusieurs domaines clés."
+    apres: ""
+    raison: "Faux : énergie (OP-5), eau (OP-3) et gaz à effet de serre (OP-6) sont au niveau intermédiaire (tableau des indicateurs)."
+    source: "facts.csv : crédits OP-5, OP-3, OP-6"
+  - avant: "Cette énergie est utilisée pour alimenter les bâtiments de l'université. De plus, l'université a mis en place un système de récupération d'eau de pluie sur le toit du Greenway Hub, qui est utilisé pour alimenter les toilettes."
+    apres: "Des panneaux photovoltaïques sont installés sur le toit de l'atelier d'impression. Leur production d'électricité reste faible, et un projet de géothermie est en cours de développement."
+    raison: "Deux erreurs : « Cette énergie » renvoie à une phrase retirée par le garde-fou, et « alimenter les bâtiments » n'est pas sourcé ; la récupération d'eau de pluie est répétée hors de sa rubrique (elle reste sous « Eau »)."
+    source: "OP-5, lignes 1-2 : « Photovoltaic electricity are installed on top of the print workshop » ; « Small amount of photovoltaic electrical power generated. Geothermal project in development »"
+  - avant: "De plus, l'université mesure la consommation d'eau à un niveau de bâtiment, ce qui permet d'identifier les opportunités de réduction de la consommation d'eau."
+    apres: "La consommation d'eau n'est mesurée bâtiment par bâtiment que pour le Greenway Hub, un bâtiment de recherche équipé de capteurs reliés à son système de gestion technique."
+    raison: "Généralisation : le comptage par bâtiment n'existe que pour le Greenway Hub."
+    source: "OP-2, ligne 1 : « Water consumption at the building level is currently done only in one building, the Greenway Hub »"
+  - avant: "L'université a mis en place un système de compostage pour les déchets organiques, qui sont ensuite utilisés comme engrais pour les jardins de l'université."
+    apres: "Les déchets alimentaires, avant et après consommation, sont déposés dans des bacs à compost bruns fournis par le prestataire de gestion des déchets de l'université."
+    raison: "Inventé : rien ne dit que le compost sert d'engrais aux jardins de l'université."
+    source: "OP-8, lignes 1-2 : « Pre/Post consumer waste is disposed of in brown compost bins provided by the University's waste management contractor »"
+  - avant: " De plus, l'université a mis en place un système de collecte séparée des déchets, ce qui permet de réduire la quantité de déchets qui sont envoyés aux décharges."
+    apres: ""
+    raison: "Trouvé à cette relecture : aucun texte STARS de TU Dublin ne décrit une collecte séparée ni la mise en décharge."
+    source: "Aucune (OP-11 et OP-12 de TU Dublin n'en parlent pas)"
+  - avant: " De plus, l'université a mis en place un système de gestion des véhicules, qui permet de réduire la consommation de carburant et de réduire les émissions de gaz à effet de serre."
+    apres: ""
+    raison: "Inventé : la source parle seulement du remplacement des véhicules diesel par des véhicules électriques."
+    source: "OP-13, ligne 1"
+  - avant: "L'université a obtenu des scores élevés dans plusieurs domaines clés, notamment dans les domaines de l'énergie, de l'eau, des déchets et des véhicules. L'université a également mis en place un système de gestion environnementale, qui permet de suivre et de mesurer les performances environnementales de l'université."
+    apres: ""
+    raison: "Deux erreurs : « scores élevés » répété et faux (énergie et eau sont au niveau intermédiaire) ; « système de gestion environnementale » inventé (seuls des noms de cours en parlent)."
+    source: "facts.csv : OP-5, OP-3 ; aucune source pour le système de gestion"
+
+social:
+  - avant: "L'université Technological University Dublin (TU Dublin) s'engage à verser un salaire décent à ses employés. Elle vérifie"
+    apres: "TU Dublin vérifie"
+    raison: "Trouvé à cette relecture : aucun engagement à verser un salaire décent au personnel dans la source ; les salaires suivent les grilles du secteur public (phrase déjà présente plus bas)."
+    source: "PA-13, ligne 1 : « University staff salaries are set in accordance with public service pay and conditions policies »"
+  - avant: "(GRI 403-6)"
+    apres: ""
+    raison: "Mauvais code GRI : les aides financières aux étudiants (PA-9) ne relèvent pas de GRI 403-6 (promotion de la santé des travailleurs, reliée à PA-11)."
+    source: "mapping/gri_map.yaml : 403-6 → PA-11"
+  - avant: "(GRI 403-4)"
+    apres: ""
+    raison: "Mauvais code GRI : le climat d'inclusion (PA-6) ne relève pas de GRI 403-4 (participation des travailleurs en santé-sécurité, reliée à PA-11)."
+    source: "mapping/gri_map.yaml : 403-4 → PA-11"
+
+enseignement:
+  - avant: "la qualité des activités parascolaires de l'université, qui incluent des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques."
+    apres: "la qualité des activités parascolaires de l'université, qui incluent des sociétés étudiantes actives en durabilité et en justice sociale (Environment and Planning Society, St Vincent de Paul Society), des étudiants ambassadeurs de l'éducation à la durabilité et des projets de bénévolat créés par les étudiants."
+    raison: "Description de la formation continue (EN-7) recopiée pour les activités parascolaires (EN-2)."
+    source: "EN-2, lignes 1, 3, 6 et 10"
+  - avant: "la qualité de l'engagement civique de l'université, qui comprend des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques."
+    apres: "la qualité de l'engagement civique de l'université, qui comprend le bénévolat étudiant, les comités des clubs sportifs et des sociétés, le mentorat par les pairs, la représentation de classe et le bénévolat des employés pendant leurs heures de travail."
+    raison: "Description de la formation continue (EN-7) recopiée pour l'engagement civique (EN-5)."
+    source: "EN-5, lignes 1 et 7"
+  - avant: "la qualité de la formation continue de l'université, qui comprend des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques."
+    apres: "la qualité de la formation continue de l'université, qui comprend des modules axés sur la durabilité dans plusieurs écoles, par exemple en horticulture durable, en infrastructures résilientes au climat ou en biodiversité et conservation de la nature."
+    raison: "Trouvé à cette relecture : « conception de véhicules électriques » n'apparaît dans aucune source."
+    source: "EN-7, lignes 3, 5 et 6"

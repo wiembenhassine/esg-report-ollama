@@ -1,0 +1,15 @@
+# Relecture hors pipeline — rapport de University College Cork, section Environnement (6 octobre 2026).
+# Corrections proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine ; à valider par elle.
+# Le texte du modèle ne contient aucune affirmation inventée : il ne contient que la liste des scores
+# (déjà nettoyée par le code : marqueur répété, « Voici la section rédigée : »). Restent deux défauts de
+# forme, corrigés ici. Appliqué par le code au rendu (esg/review.py).
+
+environnement:
+  - avant: "**Environnement**\n\n"
+    apres: ""
+    raison: "Titre en double : la section a déjà son titre « Performance environnementale »."
+    source: "—"
+  - avant: "**Part des points STARS obtenus dans le pilier Environnement**\n\n**Pourcentage de points assignés à la durabilité dans le texte STARS (OP-9)**"
+    apres: ""
+    raison: "Titres vides : les phrases qui suivaient ont été retirées par le garde-fou (« {{ ENV }} % », pourcentage mal employé)."
+    source: "—"

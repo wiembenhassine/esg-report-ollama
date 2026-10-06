@@ -270,8 +270,9 @@ def tidy(text: str, section_title: str = "") -> str:
     lines = [re.sub(r"^(#{2,6})(\s+#{1,6})+\s+", r"\1 ", l) for l in lines]
     lines = [re.sub(r"\s*\(\s*Refs?[\s\d]*(?:,\s*Refs?[\s\d]*|,[\s\d]*)*\)", "", l)   # « (Ref ) », « (Ref, Ref) »
              for l in lines]
-    text = "\n".join(lines).strip()
-    if text and not re.search(r"[.!?»)\]]\s*$", text):          # fin coupée : on retire la phrase incomplète
+    text = drop_orphan_colons("\n".join(lines).strip())
+    last = text.splitlines()[-1] if text else ""
+    if text and not re.search(r"[.!?»)\]]\s*$", text) and not LIST_ITEM.match(last):   # fin coupée (pas une liste)
         cut = max(text.rfind(". "), text.rfind(".\n"), text.rfind("\n\n"))
         text = text[:cut + 1] if cut > 0 else text
     text = drop_repeats(text)
@@ -279,9 +280,51 @@ def tidy(text: str, section_title: str = "") -> str:
     return text.strip()
 
 
+LIST_ITEM = re.compile(r"^\s*([*\-•]\s|\||\d+[.)]\s)")      # « **Gras** » n'est pas une liste
+
+
+def drop_orphan_colons(text: str) -> str:
+    """Retire une phrase qui annonce une liste (« … étaient : ») quand aucune liste ne suit
+    (suppression seule ; cas réels : liste retirée par le garde-fou, « Voici la section rédigée : »)."""
+    lines = text.splitlines()
+    out = []
+    for i, line in enumerate(lines):
+        if re.search(r":\s*$", line) and not line.lstrip().startswith("#"):
+            nxt = next((l for l in lines[i + 1:] if l.strip()), "")
+            if not LIST_ITEM.match(nxt):
+                line = " ".join(SENTENCE_END.split(line.strip())[:-1])
+                if not line:
+                    continue
+        out.append(line)
+    return "\n".join(out)
+
+
+STOPWORDS = set("""le la les l un une des de du d et ou a au aux en dans par pour sur avec qui que qu est sont
+ont ce cette ces son sa ses leur leurs il elle ils elles se s y ne pas plus egalement aussi ainsi enfin notamment
+tres tout tous toute toutes comme dont""".split())
+
+
+def _content(sentence: str) -> tuple[set, set]:
+    """(mots porteurs de sens, éléments protégés = marqueurs et tokens contenant un chiffre)."""
+    marks = {m.group(1) for m in PLACEHOLDER.finditer(sentence)}
+    words = re.findall(r"[\w%-]+", _plain(PLACEHOLDER.sub(" ", sentence)))
+    protected = marks | {w for w in words if DIGIT.search(w)}
+    return {w for w in words if w not in STOPWORDS and len(w) > 1} | marks, protected
+
+
+def near_repeat(sentence: str, earlier: list[tuple[set, set]]) -> bool:
+    """Phrase presque identique à une phrase déjà écrite : au moins 90 % de ses mots porteurs de sens
+    y figurent déjà, et aucun chiffre, code ou marqueur nouveau (deux crédits différents ne sont jamais
+    confondus)."""
+    words, protected = _content(sentence)
+    if len(words) < 6:
+        return False
+    return any(protected <= p and len(words & w) >= 0.9 * len(words) for w, p in earlier)
+
+
 def drop_repeats(text: str) -> str:
-    """Supprime une phrase strictement identique à une phrase déjà écrite (suppression seule)."""
-    seen, out_lines = set(), []
+    """Supprime une phrase identique ou presque identique à une phrase déjà écrite (suppression seule)."""
+    seen, earlier, out_lines = set(), [], []
     for line in text.splitlines():
         if line.lstrip().startswith("#") or not line.strip():
             out_lines.append(line)
@@ -289,9 +332,10 @@ def drop_repeats(text: str) -> str:
         kept = []
         for sentence in SENTENCE_END.split(line):
             key = " ".join(sentence.lower().split())
-            if len(key) > 25 and key in seen:
+            if len(key) > 25 and (key in seen or near_repeat(sentence, earlier)):
                 continue
             seen.add(key)
+            earlier.append(_content(sentence))
             kept.append(sentence)
         if kept:
             out_lines.append(" ".join(kept))
