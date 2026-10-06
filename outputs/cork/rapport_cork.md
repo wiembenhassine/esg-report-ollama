@@ -62,9 +62,9 @@ L'Université College Cork (UCC) est une institution d'enseignement supérieur s
 
 Le périmètre de l'UCC exclut ses sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin). Ces entités ne sont pas incluses dans la soumission STARS de l'université.
 
-L'université a effectué une cartographie approfondie pour identifier les parties responsables de chaque crédit. Ce processus a été mené par l'office de la Durabilité et de l'Action Climatique, avec le soutien de l'officier de la recherche et des données institutionnelles.
+L'université a effectué une cartographie approfondie pour identifier les parties responsables de chaque crédit. Ce processus a été mené par l'office de la Durabilité et de l'Action Climatique, avec l'appui de la fonction « Data and Institutional Research Officer » de l'université.
 
-L'université a également présenté des mises à jour régulières sur le processus de collecte de données au comité de direction sur la durabilité et l'action climatique.
+L'université a également présenté des mises à jour régulières sur le processus de collecte de données au sous-comité de l'équipe de direction de l'université sur la durabilité et l'action climatique, présidé par la présidence de l'université.
 
 (GRI 2-1, GRI 2-2, GRI 2-3)
 
@@ -73,12 +73,6 @@ L'université a également présenté des mises à jour régulières sur le proc
 Ce rapport ne peut pas établir le nombre d'effectifs de l'université, ni les ratios par personne ou par m², en raison de la différence de périmètre entre les établissements.
 
 (GRI 2-7)
-
-### Limites et omissions
-
-Ce rapport ne couvre pas les entités suivantes : les sociétés filiales de l'université, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin).
-
-(GRI 2-4, GRI 2-8)
 
 ## Thèmes matériels
 
@@ -90,11 +84,11 @@ Ce rapport ne couvre pas les entités suivantes : les sociétés filiales de l'u
 
 Ces domaines sont définis par STARS et sont identiques pour toutes les institutions.
 
-L'université a mis en place la Stratégie de durabilité et d'action climatique (Sustainability and Climate Action Plan) pour atteindre ses objectifs. Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations du campus, la recherche, l'enseignement et les interactions avec la communauté.
+L'université a adopté un plan de durabilité et d'action climatique (Sustainability and Climate Action Plan, 2023-2028), qui prolonge sa stratégie de durabilité de 2016. Ce plan vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations du campus, la recherche, l'enseignement et les interactions avec la communauté.
 
-L'université a également mis en place des objectifs spécifiques, notamment devenir un campus sans déchets (zero waste campus) d'ici 2030 et un campus neutre en carbone (carbon neutral campus) d'ici 2030.
+L'université a également mis en place des objectifs spécifiques, notamment devenir un campus sans déchets (zero waste campus) d'ici 2030 et un campus neutre en carbone (carbon neutral campus) d'ici 2040.
 
-L'université a également mis en place des plans pour réduire ses émissions de gaz à effet de serre (GHG) de 51 % d'ici 2030.
+Le plan prévoit de dépasser l'objectif fixé par le gouvernement irlandais, soit une baisse de 51 % des émissions de scopes 1 et 2 d'ici 2030, et d'atteindre zéro émission nette de gaz à effet de serre au total d'ici 2040.
 
 L'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la stratégie d'égalité, de diversité et d'inclusion (EDI), la stratégie d'enseignement et d'apprentissage, et la stratégie de recherche.
 
@@ -104,7 +98,7 @@ L'université a également mis en place des plans pour exposer les étudiants à
 
 ### Limites et omissions
 
-Ce rapport ne peut pas établir si l'université a mis en place des plans pour réduire ses émissions de GHG au-delà de 51 %.
+Ce rapport ne peut pas établir, pour chaque thème matériel, les impacts, les actions engagées et le suivi de leur efficacité.
 
 (GRI 3-3)
 
@@ -119,13 +113,13 @@ Ce rapport ne peut pas établir si l'université a mis en place des plans pour r
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'Université College Cork (UCC) a mis en place un système de gouvernance qui favorise la durabilité et la responsabilité environnementale. Le poste de Head of Sustainability and Climate Action est occupé par Dr Maria Kirrane, qui coordonne l'Office de la durabilité et de l'action climatique. L'office est responsable de la mise en œuvre de la stratégie de durabilité de l'université et coordonne diverses initiatives et programmes universitaires.
+L'Université College Cork (UCC) a mis en place un système de gouvernance qui favorise la durabilité et la responsabilité environnementale. Le poste de Head of Sustainability and Climate Action est occupé par Dr Maria Kirrane, qui coordonne l'Office de la durabilité et de l'action climatique. L'office est responsable de la mise en œuvre du plan de durabilité et d'action climatique et coordonne diverses initiatives et programmes universitaires.
 
 L'Université a également mis en place un système de gouvernance participatif, qui implique les étudiants dans les décisions importantes. Les membres du syndicat des étudiants (SU) siègent au sein de l'autorité de gouvernance de l'université, la plus haute instance décisionnelle. Les étudiants sont également représentés dans divers comités autonomes, tels que le Societies Guild Executive et le Clubs Executive, qui gèrent les activités extrascolaires des étudiants.
 
-L'Université a signé l'engagement des Nations Unies sur les Principes pour une investissement responsable (PRI), ce qui implique l'intégration des questions de durabilité environnementale, sociale et de gouvernance (ESG) dans les processus d'analyse et de décision d'investissement. L'Université a également mis en place des politiques de propriété et de pratiques d'investissement qui tiennent compte des questions ESG.
+L'université est signataire des Principes pour l'investissement responsable des Nations unies (UN PRI). Elle s'est ainsi engagée à intégrer les questions environnementales, sociales et de gouvernance (ESG) dans l'analyse et les décisions d'investissement, à être un actionnaire actif et à intégrer ces questions dans ses politiques et pratiques d'actionnaire.
 
-Les fonds de l'Université sont gérés par Cantor Fitzgerald, et les informations sur les fonds d'investissement sont disponibles sur les liens fournis.
+Les fonds de l'Université sont gérés par Cantor Fitzgerald, qui publie une présentation de ses fonds d'investissement ; le rapport de transparence UN PRI de l'université détaille les types d'investissements.
 
 (GRI 2-9)
 
@@ -147,13 +141,13 @@ Ce rapport ne peut pas établir les informations relatives à la composition de 
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'Université College Cork (UCC) a élaboré la Stratégie de durabilité et d'action climatique (The Sustainability and Climate Action Plan), qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université. Cette stratégie est élaborée en référence aux normes GRI.
+L'University College Cork (UCC) a élaboré un plan de durabilité et d'action climatique (Sustainability and Climate Action Plan), qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université.
 
 L'université a décidé d'aligner son programme de durabilité avec les stratégies pertinentes, notamment la participation à la communauté, l'égalité, la diversité et l'inclusion, l'enseignement et l'apprentissage, ainsi que les stratégies de recherche.
 
-L'Office de la durabilité et de l'action climatique (The Office of Sustainability and Climate Action) est situé dans le Bureau du président de l'université et est soutenu par la Stratégie de durabilité et d'action climatique. Cette stratégie a été élaborée après une consultation approfondie avec le personnel et les étudiants.
+L'Office de la durabilité et de l'action climatique (The Office of Sustainability and Climate Action) est situé dans le Bureau du président de l'université et s'appuie sur le plan de durabilité et d'action climatique. Ce plan a été élaboré après une consultation approfondie avec le personnel et les étudiants.
 
-L'université a également mis en place des politiques pour promouvoir la durabilité, notamment en matière de recrutement de fournisseurs durables. Ainsi, 21 % des appels d'offres ont inclus des spécifications de durabilité pour les fournisseurs, et 54 % des appels d'offres ont inclus des conditions de durabilité pour les produits.
+L'université a également mis en place des politiques pour promouvoir la durabilité, notamment dans ses appels d'offres : 21 % des appels d'offres ont inclus des spécifications de durabilité pour les fournisseurs, et 54 % des appels d'offres ont inclus des conditions de durabilité pour les produits.
 
 (GRI 2-22)
 
@@ -184,15 +178,15 @@ Ce rapport ne peut pas établir les mécanismes de demande de conseil et de sign
 
 L'engagement des parties prenantes est un aspect clé de la stratégie de l'University College Cork (UCC) pour promouvoir la durabilité. Selon le rapport STARS, l'université a obtenu 4 points STARS sur 4 au crédit PA-3, niveau maximal (GRI 2-29).
 
-Cette note maximale reflète la forte implication de l'université dans l'engagement des parties prenantes. Les membres de l'Union des étudiants siègent au sein de l'Autorité de gouvernement de l'université, le plus haut organe décisionnel de l'université. Cette approche délibérative et participative permet aux étudiants de participer activement aux décisions stratégiques et politiques qui touchent la communauté universitaire.
+Cette note maximale reflète la forte implication de l'université dans l'engagement des parties prenantes. Les membres de l'Union des étudiants siègent au sein de l'autorité de gouvernance de l'université (Governing Authority), le plus haut organe décisionnel de l'université. Cette approche délibérative et participative permet aux étudiants de participer activement aux décisions stratégiques et politiques qui touchent la communauté universitaire.
 
-La création du Forum des étudiants, inspiré par l'Assemblée des citoyens irlandais, vise à renforcer la transparence et l'intégrité dans la prise de décision et à faciliter une prise de décision éclairée. Cette approche permet à l'université de cultiver des citoyens qui contribuent au bien commun et au mieux-être de l'humanité et du planète.
+La création du Forum des étudiants, inspiré par l'Assemblée des citoyens irlandais, vise à renforcer la transparence et l'intégrité dans la prise de décision et à faciliter une prise de décision éclairée. Cette approche permet à l'université de cultiver des citoyens qui contribuent au bien commun et au mieux-être de l'humanité et de la planète.
 
 L'université a également établi des partenariats avec la communauté locale, comme le programme UNIC, qui a donné lieu à la création de l'Urban Climate Collab, un projet de recherche visant à renforcer les collaborations entre universités et municipalités pour atteindre les objectifs de lutte contre le changement climatique dans les villes (EN-5).
 
 En outre, l'université a développé des lignes directrices et des ressources pour la participation communautaire, notamment le Civic Engagement Toolkit et les lignes directrices de la science shop, qui guident les participants à suivre les lignes directrices nationales de Campus Engage (EN-6).
 
-Enfin, l'université respecte les droits des salariés, en tant que droit fondamental de la Constitution irlandaise (PA-12).
+Enfin, la liberté d'association est rappelée comme un droit fondamental garanti par la Constitution irlandaise, et le syndicat IFUT est présenté sur le site de l'université (PA-12).
 
 (GRI 2-29)
 
@@ -217,61 +211,29 @@ Enfin, l'université respecte les droits des salariés, en tant que droit fondam
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-**Consommation d'énergie (Energy Use)**
+**Consommation d'énergie (OP-5)**
 
-* Score STARS : 5,62 points STARS sur 10 au crédit OP-5, niveau intermédiaire
+L'établissement a obtenu un score de 5,62 points STARS sur 10 au crédit OP-5, niveau intermédiaire.
 
-**Émissions de gaz à effet de serre (Greenhouse Gas Emissions)**
+**Émissions de gaz à effet de serre (OP-6)**
 
-* Score STARS : 10,63 points STARS sur 16 au crédit OP-6, niveau intermédiaire
+L'établissement a obtenu un score de 10,63 points STARS sur 16 au crédit OP-6, niveau intermédiaire. Les émissions sont calculées par le prestataire Sustineo selon le GHG Protocol et la norme ISO 14064-1 : une approche descendante à partir des dépenses repère les postes principaux, puis une approche ascendante utilise des données primaires. L'université transmet aussi ses données à l'Autorité irlandaise de l'énergie durable (SEAI), pour rendre compte au gouvernement de son mandat climatique ; ces données sont mises à jour chaque année.
 
-**Consommation d'eau (Water Use)**
+**Consommation d'eau (OP-3)**
 
-* Score STARS : 4,67 points STARS sur 6 au crédit OP-3, niveau élevé
+L'établissement a obtenu un score de 4,67 points STARS sur 6 au crédit OP-3, niveau élevé. Dans le bâtiment Western Gateway, l'eau rejetée par la pompe à chaleur géothermique (Ground Source Heat Pump) sert à remplir les réservoirs des chasses d'eau des toilettes.
 
-**Production et valorisation des déchets (Waste Generation and Recovery)**
+**Production et valorisation des déchets (OP-12)**
 
-* Score STARS : 3,99 points STARS sur 5 au crédit OP-12, niveau élevé
+L'établissement a obtenu un score de 3,99 points STARS sur 5 au crédit OP-12, niveau élevé. Les données sur les déchets non dangereux sont collectées au nom de l'Université par le fournisseur de déchets contractuel, Panda. Les données sur les déchets de construction et de démolition sont fournies par la société de construction contractuelle.
 
-**Gestion des matériaux (Materials Management)**
+**Gestion des matériaux (OP-11)**
 
-* Score STARS : 3 points STARS sur 4 au crédit OP-11, niveau élevé
+L'établissement a obtenu un score de 3 points STARS sur 4 au crédit OP-11, niveau élevé. L'Office de la santé et de la sécurité de l'Université maintient des protocoles et des ressources de formation pour la gestion sécurisée des déchets chimiques et biologiques dangereux.
 
-**Système d'achats durables (Sustainable Procurement System)**
+**Système d'achats durables (OP-9)**
 
-* Score STARS : 2,15 points STARS sur 7 au crédit OP-9, niveau faible
-
-**Biens achetés (Purchased Goods)**
-
-* Score STARS : 1,13 point STARS sur 4 au crédit OP-10, niveau faible
-
-**Conception et construction des bâtiments (Building Design and Construction)**
-
-* Score STARS : 2,95 points STARS sur 3 au crédit OP-1, niveau élevé
-
-**Exploitation et maintenance des bâtiments (Building Operations and Maintenance)**
-
-* Score STARS : 2,08 points STARS sur 5 au crédit OP-2, niveau intermédiaire
-
-**Flotte de véhicules (Vehicle Fleet)**
-
-* Score STARS : 0,67 point STARS sur 2 au crédit OP-13, niveau faible
-
-**Modes de déplacement domicile-campus (Commute Modal Split)**
-
-* Score STARS : 4,83 points STARS sur 6 au crédit OP-14, niveau élevé
-
-**Voyages en avion (Air Travel)**
-
-* Score STARS : 0 point STARS sur 2 au crédit OP-15, niveau nul
-
-**Gestion écologique des espaces verts (Ecologically Managed Grounds)**
-
-* Score STARS : 4,06 points STARS sur 5 au crédit OP-4, niveau élevé
-
-**Évaluation de la biodiversité (Biodiversity Assessment)**
-
-* Score STARS : 1 point STARS sur 1 au crédit IL-24, niveau maximal
+L'établissement a obtenu un score de 2,15 points STARS sur 7 au crédit OP-9, niveau faible. En moyenne, 5 % des points d'évaluation des appels d'offres portent sur la durabilité, et davantage pour les achats à fort impact environnemental : 20 % pour l'appel d'offres sur les déchets de 2023.
 
 ## Performance sociale et économique
 
@@ -290,7 +252,7 @@ Enfin, l'université respecte les droits des salariés, en tant que droit fondam
 
 L'University College Cork (UCC) a obtenu 3,8 points STARS sur 5 au crédit PA-13, niveau élevé, et 3 points STARS sur 3 au crédit PA-12, niveau maximal.
 
-La politique de congé parental de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs, les taux de retour ou les taux de rétention.
+Les différents congés du personnel, dont le congé de maternité, sont décrits dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs, les taux de retour ou les taux de rétention.
 
 L'UCC a également obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal, et 2 points STARS sur 2 au crédit PA-8, niveau maximal.
 
@@ -334,16 +296,16 @@ Ce rapport ne peut pas établir les effectifs ou les taux de participation pour 
 
 L'Université College Cork (UCC) a démontré sa détermination à intégrer la durabilité dans ses programmes et activités. Les résultats des crédits STARS suivants reflètent cette approche :
 
-- L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal Offre de cours en durabilité, niveau maximal.
-- L'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé Programmes de premier cycle, niveau élevé.
-- L'université obtient 7,09 points STARS sur 8 au crédit AC-3, niveau élevé Programmes de cycles supérieurs, niveau élevé.
-- L'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal Recherche en durabilité, niveau maximal.
-- L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal Centre de recherche en durabilité, niveau maximal.
-- L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal Communication et sensibilisation, niveau maximal.
-- L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal Activités parascolaires, niveau maximal.
-- L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal Engagement et formation du personnel, niveau maximal.
-- L'université obtient 7 points STARS sur 8 au crédit EN-5, niveau élevé Engagement civique, niveau élevé.
-- L'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal Formation continue, niveau maximal.
+- L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal.
+- L'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé.
+- L'université obtient 7,09 points STARS sur 8 au crédit AC-3, niveau élevé.
+- L'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal.
+- L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal.
+- L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal.
+- L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal.
+- L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal.
+- L'université obtient 7 points STARS sur 8 au crédit EN-5, niveau élevé.
+- L'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal.
 
 ### Limites et omissions
 
@@ -581,7 +543,7 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 | Gouvernance | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 7.8 min |
 | Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 10.6 min |
 | Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 8.1 min |
-| Performance environnementale | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 12.5 min |
+| Performance environnementale | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 8.0 min |
 | Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 11.1 min |
 | Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 100% | 100% | 8.6 min |
 
@@ -589,7 +551,7 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 
 1 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
 
-**Relecture hors pipeline** (6 octobre 2026) : 2 correction(s) dans 1 section(s). Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois validées par elle. Liste détaillée : `relecture/cork.yaml` et `outputs/relecture_humaine.md`. Le texte écrit par le modèle reste consultable dans `outputs/cache/`.
+**Relecture hors pipeline** (6 octobre 2026) : 22 correction(s) dans 7 section(s). Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois validées par elle. Liste détaillée : `relecture/cork.yaml` et `outputs/relecture_humaine.md`. Le texte écrit par le modèle reste consultable dans `outputs/cache/`.
 
 ## Vérifier ce rapport
 

@@ -54,9 +54,7 @@ Les scores STARS 3.0 sont autodéclarés et notés par rapport à un groupe de p
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'université de Californie, Berkeley, est une institution universitaire située dans la ville de Berkeley, en Californie. Elle est membre de l'Université de Californie, qui regroupe plusieurs établissements dans le même périmètre d'activité.
-
-Le périmètre d'activité de l'université de Californie, Berkeley, est défini en fonction de ses besoins opérationnels.
+L'université de Californie, Berkeley, est une institution universitaire située dans la ville de Berkeley, en Californie. Elle fait partie du système de l'Université de Californie, dont le conseil des régents (Board of Regents) gouverne l'ensemble des campus.
 
 L'université de Californie, Berkeley, a déclaré que son périmètre d'activité est celui pour lequel elle conserve le contrôle opérationnel.
 
@@ -66,19 +64,11 @@ L'université de Californie, Berkeley, a déclaré que son périmètre d'activit
 
 (GRI 2-2)
 
-(GRI 2-3)
-
-(GRI 2-3)
-
 ### Limites et omissions
 
 Ce rapport ne peut pas établir les détails sur la dénomination légale, le siège et les pays d'activité de l'université de Californie, Berkeley, car ces informations ne sont pas collectées par STARS.
 
 (GRI 2-1)
-
-Ce rapport ne peut pas établir les entités incluses dans le périmètre d'activité de l'université de Californie, Berkeley, car les ratios par personne ou par m² ne sont pas comparables tels quels.
-
-(GRI 2-2)
 
 Ce rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université de Californie, Berkeley, car ces informations ne sont pas collectées par STARS.
 
@@ -104,9 +94,9 @@ Ces domaines sont fixés par STARS et sont identiques pour toutes les institutio
 
 ### Gestion des thèmes matériels
 
-L'université a adopté un plan stratégique pour la durabilité qui inclut des objectifs mesurables, tels que l'expansion de l'accès et des opportunités de formation co-curriculaires et le développement de voies institutionnelles pour les clubs et les groupes étudiants pour accroître leur engagement intersectionnel avec le Centre de ressources environnementales (SERC). Le plan stratégique comprend également des objectifs stratégiques sous le but de renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de la durabilité.
+Le Student Environmental Resource Center (SERC) de l'université a adopté un plan stratégique 2017-2022 qui inclut des objectifs mesurables, tels que l'expansion de l'accès et des opportunités de formation co-curriculaires et le développement de voies institutionnelles pour les clubs et les groupes étudiants pour accroître leur engagement intersectionnel avec le Centre de ressources environnementales (SERC). Le plan stratégique comprend également des objectifs stratégiques sous le but de renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de la durabilité.
 
-L'université suit également la politique de pratiques durables du système UC, qui inclut des objectifs tels que la réduction des émissions de gaz à effet de serre de manière à atteindre un campus à zéro carbone.
+L'université a aussi publié un plan de durabilité (Sustainability Plan), avec des objectifs pour l'énergie, l'eau, les déchets, l'alimentation durable et la biodiversité, et un plan d'action climat (Climate Action Plan). Elle suit la politique de pratiques durables (Sustainable Practices Policy) du système UC, qui demande à tous les sites UC de réduire toutes leurs émissions d'au moins 90 % d'ici 2045 et d'éliminer les émissions restantes par des crédits de captage et de stockage du carbone.
 
 ## Gouvernance
 
@@ -119,9 +109,9 @@ L'université suit également la politique de pratiques durables du système UC,
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'université de Californie à Berkeley a plusieurs officiers de durabilité dans le Bureau de la durabilité, la Haas et le SERC. L'université de Californie à Berkeley inclut des représentants étudiants dans son organe de décision le plus élevé, le conseil des régents de l'université de Californie. Bien que le conseil des régents gouverne l'ensemble du système de l'université de Californie et non seulement le campus de Berkeley, il exerce l'autorité ultime sur les politiques, les finances et la planification stratégique de l'université de Californie, y compris le campus de Berkeley.
+L'université de Californie à Berkeley a plusieurs responsables de la durabilité (Sustainability Officers) au Bureau de la durabilité, à Haas et au SERC. L'université de Californie à Berkeley inclut des représentants étudiants dans son organe de décision le plus élevé, le conseil des régents de l'université de Californie. Bien que le conseil des régents gouverne l'ensemble du système de l'université de Californie et non seulement le campus de Berkeley, il exerce l'autorité ultime sur les politiques, les finances et la planification stratégique de l'université de Californie, y compris le campus de Berkeley.
 
-L'université de Californie à Berkeley a plusieurs organes en cours qui permettent aux membres du personnel académique de participer à la gouvernance de l'institution. Le principal organe est la division de Berkeley de l'Académie de la durabilité, qui fait partie du Sénat académique de l'université de Californie. Ce Sénat fournit aux membres du personnel académique un moyen structuré et démocratique de participer à la gouvernance du campus et à la prise de décision.
+L'université de Californie à Berkeley a plusieurs organes permanents qui permettent au personnel académique de participer à la gouvernance de l'institution. Le principal est la division de Berkeley du Sénat académique, qui fait partie du Sénat académique de l'ensemble du système de l'université de Californie. Ce Sénat fournit aux membres du personnel académique un moyen structuré et démocratique de participer à la gouvernance du campus et à la prise de décision.
 
 L'université de Californie à Berkeley obtient 3,5 points STARS sur 4 au crédit PA-3, niveau élevé.
 
@@ -131,7 +121,7 @@ L'université de Californie à Berkeley obtient 2,51 points STARS sur 6 au créd
 
 ### Limites et omissions
 
-Ce rapport ne peut pas établir la structure et la composition de la gouvernance de l'université de Californie à Berkeley, en particulier les catégories GRI 2-10 à GRI 2-21, qui ne sont pas couvertes par STARS.
+Ce rapport ne peut pas établir la composition détaillée de l'organe de gouvernance (GRI 2-9), ni les publications GRI 2-10 à GRI 2-21, que STARS ne couvre pas ou seulement en partie (GRI 2-13 et GRI 2-14).
 
 ## Stratégie, politiques et pratiques
 
@@ -145,7 +135,7 @@ Ce rapport ne peut pas établir la structure et la composition de la gouvernance
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'Université de Californie à Berkeley (UC Berkeley) a adopté une stratégie de développement durable qui vise à renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de la durabilité. Cette stratégie est définie dans le plan stratégique du Student Environmental Resource Center (SERC) qui inclut des objectifs mesurables tels que l'expansion des opportunités de formation co-curriculaire et le développement de voies institutionnelles pour les clubs et les groupes étudiants pour accroître l'engagement intersectionnel avec le SERC.
+L'Université de Californie à Berkeley (UC Berkeley) a publié un plan de durabilité (Sustainability Plan) et un plan d'action climat (Climate Action Plan). Son centre étudiant, le Student Environmental Resource Center (SERC), a adopté un plan stratégique qui vise à renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de la durabilité, et qui inclut des objectifs mesurables tels que l'expansion des opportunités de formation co-curriculaire et le développement de voies institutionnelles pour les clubs et les groupes étudiants pour accroître l'engagement intersectionnel avec le SERC.
 
 L'UC Berkeley est signataire du Climate Leadership Commitments de Second Nature, qui inclut le Carbon Commitment. Cette déclaration externe renforce l'engagement de l'université à réduire les émissions de carbone et à renforcer la résilience face au changement climatique.
 
@@ -174,9 +164,9 @@ Ce rapport ne peut pas établir les engagements politiques de l'UC Berkeley en c
 
 L'engagement des parties prenantes est un aspect clé de la stratégie de l'University of California, Berkeley. Le rapport STARS indique que l'université a mis en place des comités consultatifs pour l'engagement communautaire, qui impliquent des membres de la communauté locale, notamment dans les domaines de la santé publique, de la durabilité et de la justice sociale.
 
-L'université a également établi des comités consultatifs pour la gouvernance, qui impliquent des membres de la communauté locale et des étudiants. Ces comités fournissent aux organisations communautaires un forum pour donner leur avis sur les politiques et les initiatives de l'université qui affectent la population locale.
+Ces instances donnent aux organisations communautaires un forum pour donner leur avis sur les politiques et les initiatives de l'université qui touchent la population locale. Les étudiants sont représentés au CACS, où plusieurs organisations étudiantes et services ont chacun un siège et une voix, et le personnel non académique participe à la gouvernance par des comités consultatifs comme le Chancellor's Staff Advisory Committee (CSAC).
 
-L'université a également mis en place des partenariats avec la communauté, tels que le programme College Corps, qui a permis à des étudiants de la faculté de participer à des partenariats communautaires dans le domaine de la justice climatique et alimentaire.
+L'université a également mis en place des partenariats avec la communauté, tels que le programme College Corps, partenariat de l'État de Californie financé par California Volunteers, par lequel le Public Service Center a placé des étudiants de premier cycle dans des partenariats de justice climatique ou alimentaire avec des organisations locales.
 
 Enfin, l'université a mis en place des politiques pour protéger les droits des salariés, notamment en matière de traitement équitable, de procédures de réclamation et d'équilibre vie professionnelle/vie personnelle.
 
@@ -274,21 +264,21 @@ L'université obtient 1 point STARS sur 1 au crédit IL-24, niveau maximal. Le p
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'université de Californie à Berkeley a obtenu 4,34 points STARS sur 5 au crédit PA-13, niveau élevé, pour sa politique de salaire décent. Le salaire minimum local est de 42,8 % de la valeur actuelle. L'heure de travail doit être au moins de 42,8 % de la valeur actuelle, en tenant compte du taux de bénéfices combinés des employés.
+L'université de Californie à Berkeley a obtenu 4,34 points STARS sur 5 au crédit PA-13, niveau élevé, pour sa politique de salaire décent. Le salaire décent de référence est calculé avec le calculateur du Massachusetts Institute of Technology (MIT) ; le seuil horaire retenu pour le personnel tient compte du taux composite des avantages sociaux (CBR), actuellement de 42,8 %.
 
-L'université a également obtenu 2,5 points STARS sur 3 au crédit PA-12, niveau élevé, pour ses droits des salariés. Les employés doivent satisfaire aux exigences de la politique de congé parental. Le site web des ressources humaines de l'université présente des politiques sur les droits des employés, notamment le traitement équitable, les procédures de réclamation et l'équilibre travail-vie.
+L'université a également obtenu 2,5 points STARS sur 3 au crédit PA-12, niveau élevé, pour ses droits des salariés. Les employés doivent remplir les conditions de la politique de congé familial et médical (Family and Medical Leave Policy). Le site web des ressources humaines de l'université présente des politiques sur les droits des employés, notamment le traitement équitable, les procédures de réclamation et l'équilibre travail-vie.
 
-L'université a obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal, pour sa santé, sécurité et bien-être. Le système de gestion de la santé et de la sécurité au travail n'est pas décrit.
+L'université a obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal, pour sa santé, sécurité et bien-être. Le campus propose des ateliers de bien-être (série Mind-Body-Spirit) et applique une politique de campus sans fumée ni tabac, mise à jour par les services de santé universitaires (University Health Services).
 
-L'université a obtenu 1,67 point STARS sur 2 au crédit PA-8, niveau élevé, pour la parité femmes-hommes. Le directeur de la diversité, de l'équité, de l'inclusion et de l'appartenance est Lasana Hotep.
+L'université a obtenu 1,67 point STARS sur 2 au crédit PA-8, niveau élevé, pour la parité femmes-hommes.
 
-L'université a obtenu 1,59 point STARS sur 3 au crédit PA-7, niveau intermédiaire, pour la représentation ethnique et raciale. Les initiatives de données sur l'équité sont menées par l'équipe de l'équité et de l'inclusion.
+L'université a obtenu 1,59 point STARS sur 3 au crédit PA-7, niveau intermédiaire, pour la représentation ethnique et raciale.
 
-L'université a obtenu 2,5 points STARS sur 3 au crédit PA-9, niveau élevé, pour l'accès et l'accessibilité financière. La proportion de tous les étudiants de premier cycle recevant des subventions Pell pour l'année universitaire 2021 est de 2021.
+L'université a obtenu 2,5 points STARS sur 3 au crédit PA-9, niveau élevé, pour l'accès et l'accessibilité financière. Les données viennent de l'IPEDS : part des étudiants de premier cycle bénéficiant d'une bourse Pell, pour l'année universitaire débutant en 2021 (la plus récente disponible).
 
-L'université a obtenu 3 points STARS sur 3 au crédit PA-6, niveau maximal, pour le climat institutionnel. Les organisations basées sur la race et l'éthnicité des employés comprennent Alianza, Asian Pacific American Systemwide Alliance, Black Staff & Faculty Organization, MENASA et Native & Indigenous Council.
+L'université a obtenu 3 points STARS sur 3 au crédit PA-6, niveau maximal, pour le climat institutionnel. Les organisations basées sur la race et l'ethnicité des employés comprennent Alianza, Asian Pacific American Systemwide Alliance, Black Staff & Faculty Organization, MENASA et Native & Indigenous Council.
 
-L'université a obtenu 2,8 points STARS sur 3 au crédit PA-10, niveau élevé, pour la réussite étudiante. Le directeur exécutif de l'Office of Planning and Analysis est Sereeta Alexander.
+L'université a obtenu 2,8 points STARS sur 3 au crédit PA-10, niveau élevé, pour la réussite étudiante.
 
 ### Limites et omissions
 
@@ -317,19 +307,19 @@ Ce rapport ne peut pas établir le ratio entre le salaire d'entrée et le salair
 
 L'université obtient 13,01 points STARS sur 14 au crédit AC-1, niveau élevé. L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de 2021 à 2024, en filtrant les éléments qui se qualifient comme des cours axés sur la durabilité ou liés à la durabilité. Les cours qui se qualifient ont été comptabilisés comme des offres de cours en durabilité.
 
-L'université obtient 10,22 points STARS sur 15 au crédit AC-2, niveau intermédiaire. Les programmes de premier cycle de l'Université de Californie à Berkeley incluent une exigence de cours axée sur la durabilité.
+L'université obtient 10,22 points STARS sur 15 au crédit AC-2, niveau intermédiaire. Une partie des programmes de premier cycle comporte l'obligation de suivre au moins un cours axé sur la durabilité (liste fournie dans le rapport STARS).
 
-L'université obtient 8 points STARS sur 8 au crédit AC-3, niveau maximal. Les programmes de cycles supérieurs de l'Université de Californie à Berkeley incluent des cours axés sur la durabilité.
+L'université obtient 8 points STARS sur 8 au crédit AC-3, niveau maximal. Une partie des programmes de cycles supérieurs comporte un apprentissage axé sur la durabilité (liste fournie dans le rapport STARS).
 
 L'université obtient 7,35 points STARS sur 10 au crédit AC-6, niveau intermédiaire. Un étudiant de premier cycle a créé une liste de mots-clés pour identifier la recherche en durabilité. L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche en durabilité et le nombre de départements universitaires engagés dans la recherche en durabilité.
 
 L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal. L'Université de Californie à Berkeley compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab.
 
-L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. L'Université de Californie à Berkeley a un centre de recherche en durabilité.
+L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. Les nouveaux étudiants rencontrent les services liés à la durabilité lors de l'orientation (Golden Bear Orientation), le nouveau personnel reçoit une présentation lors de son accueil, et le campus publie des tableaux de bord (émissions, énergie, eau) et des rapports de durabilité.
 
 L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Le centre étudiant de ressources environnementales (SERC) de l'Université de Californie à Berkeley organise de nombreux événements axés sur la durabilité sur le campus, notamment la semaine de la justice climatique et la semaine de la Terre, une série de carrières environnementales, des formations à la justice environnementale et des événements d'éducation en plein air.
 
-L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. L'Office de la durabilité, le SERC, le gouvernement et les relations communautaires de l'Université de Californie à Berkeley.
+L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. Le Bureau de la durabilité a créé une formation à la durabilité pour le personnel (UC Berkeley Sustainability Staff Training), composée de modules que chacun suit à son rythme.
 
 L'université obtient 8 points STARS sur 8 au crédit EN-5, niveau maximal.
 
@@ -573,7 +563,7 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 
 2 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
 
-**Relecture hors pipeline** (6 octobre 2026) : 11 correction(s) dans 1 section(s). Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois validées par elle. Liste détaillée : `relecture/berkeley.yaml` et `outputs/relecture_humaine.md`. Le texte écrit par le modèle reste consultable dans `outputs/cache/`.
+**Relecture hors pipeline** (6 octobre 2026) : 35 correction(s) dans 8 section(s). Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois validées par elle. Liste détaillée : `relecture/berkeley.yaml` et `outputs/relecture_humaine.md`. Le texte écrit par le modèle reste consultable dans `outputs/cache/`.
 
 ## Vérifier ce rapport
 

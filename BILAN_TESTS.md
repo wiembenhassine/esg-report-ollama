@@ -130,11 +130,9 @@ bloquant (`b4ac34e`).
 ## 6. Notés, non appliqués
 
 - ~~Défauts de forme restants~~ : corrigés le 6 octobre (section 9).
-- **Contenu inventé ou mal rattaché** : seul un relecteur humain, ou un juge plus fort, peut le voir. Dublin
-  et les sections Environnement de Berkeley et de Cork ont été relus (section 9). **Pas encore relu** : les
-  autres sections de Berkeley et de Cork. Exemple déjà repéré à Berkeley (section Social, non corrigé) :
-  « le salaire minimum local est de 42,8 % », alors que 42,8 % est le taux des avantages sociaux (CBR) dans PA-13.
-  Piste possible : un second juge qui vérifie chaque phrase contre l'extrait cité.
+- **Contenu inventé ou mal rattaché** : seul un relecteur humain, ou un juge plus fort, peut le voir. Les
+  24 sections des trois rapports ont été relues (sections 9 et 10). Piste pour la suite : un second juge qui
+  vérifie chaque phrase contre l'extrait cité.
 
 - **Second modèle Ollama comme juge** (amélioration future) : possible sur ce PC (153 Go de disque libre),
   mais pas deux modèles 8B chargés en même temps (1,7 Go de RAM libre pendant la génération) ; Ollama
@@ -236,3 +234,53 @@ seulement) :
 - Rendu sans LLM : aucun passage introuvable.
 - `esg.verify_univ 2026` : **aucun écart** (45 sur 45).
 - PDF et Word régénérés pour les 3 rapports et la synthèse comparative.
+
+## 10. Relecture des autres sections de Berkeley et de Cork, et nouvelle section Environnement de Cork (6 octobre 2026)
+
+Même méthode qu'en section 9 : chaque phrase relue contre les textes STARS, corrections écrites dans
+`relecture/berkeley.yaml` et `relecture/cork.yaml` (passage fautif, raison, source avec numéro de ligne).
+Elles ont été proposées par Claude Code et sont **à valider par Wiem**. La liste complète est dans
+`outputs/relecture_humaine.md`.
+
+**Erreurs trouvées et corrigées**
+
+| Rapport | Sections | Erreurs | Exemples (source STARS) |
+|---|---|---|---|
+| UC Berkeley | les 7 hors Environnement | 23 (+ 1 coquille) | **42,8 % présenté comme « salaire minimum local »**, alors que c'est le taux composite des avantages sociaux, CBR (PA-13, l. 2, erreur signalée) ; « la proportion d'étudiants Pell… est de 2021 » (une année prise pour une proportion, PA-9) ; « Académie de la durabilité » inventée (Sénat académique, PA-3) ; plan stratégique du centre étudiant SERC présenté comme celui de l'université (PA-2, l. 8) ; « congé parental » pour *Family and Medical Leave* (PA-12) ; noms de contacts présentés comme résultats (PA-8, PA-10) ; EN-1 et EN-3 sans rapport avec le crédit |
+| UC Berkeley | Environnement (section 9) | 9 | déjà corrigées |
+| University College Cork | les 6 hors Environnement | 16 (+ 1 coquille) | **neutralité carbone « d'ici 2030 »** au lieu de 2040 (PA-1, l. 3) ; « élaboré **en référence aux normes GRI** », inventé (PA-2) ; objectif de 51 % présenté comme un plan propre alors que c'est l'objectif du gouvernement, que le plan veut dépasser (PA-2, l. 13) ; « plan » traduit par « stratégie » (×4) ; engagements PRI présentés comme des politiques en place (PA-4) |
+| University College Cork | Environnement (nouveau texte) | 4 (+ 1 titre en double) | « pompier à chaleur » au lieu de pompe à chaleur (OP-3) ; score « dû à » la méthode de calcul, lien inventé (OP-6) ; « Nous » recopié de la source ; 5 % mal compris (part moyenne des points d'évaluation des appels d'offres, OP-9) |
+
+Corrigé aussi par le code, sans relecture : les marqueurs répétés (8 phrases à Berkeley, et à Cork les 10
+lignes de l'enseignement sous la forme « …niveau maximal au crédit AC-1 Offre de cours…, niveau maximal »)
+et les phrases presque identiques.
+
+**Section Environnement de Cork régénérée (LLM)**
+
+| Série (graine) | Résultat |
+|---|---|
+| 0 (`--no-cache`, même graine qu'avant) | **même texte** qu'avant, une liste de scores : avec la même graine, le modèle réécrit exactement la même chose |
+| 1 | **repli** : les 2 versions ont été refusées par le garde-fou (scores sans verbe, « 0 » tapés par le modèle, 10 niveaux faux, par exemple OP-9 « élevé » au lieu de faible) |
+| 2 | **validée** (juge 4/5, fidélité 100 %), avec un vrai texte : 6 crédits sur 14 décrits avec leurs sources (le tableau du code donne les 14 scores) |
+
+Le juge n'a vu aucune des 4 erreurs du nouveau texte ; sa seule « violation » était fausse. La conclusion de
+la section 4 bis tient toujours : le juge valide, la relecture corrige le sens.
+
+**Modifications du code**
+- `--no-cache` change maintenant de graine quand une version existe déjà (`esg/generate.py`). Sinon, régénérer ne sert à rien.
+- Répétition du libellé du crédit après un marqueur, retirée seulement si le même niveau suit (`esg/guard.py`, test du cas réel de Cork).
+- Relecture : « scopes 1 et 2 » et « ISO 14064-1 » sont acceptés comme des noms, pas comme des chiffres tapés à la main (`esg/review.py`).
+
+**Totaux de la relecture (3 rapports, 24 sections)**
+
+| Rapport | Corrections appliquées | Sections |
+|---|---|---|
+| TU Dublin | 22 | 7 (l'organisation n'avait qu'une erreur, corrigée par le code) |
+| UC Berkeley | 35 | 8 |
+| University College Cork | 22 | 7 (l'enseignement n'avait que des marqueurs répétés, corrigés par le code) |
+
+**Contrôles**
+- `pytest -q` : **142 tests passent**, dont un sur l'erreur du 42,8 % et un sur le libellé répété de Cork.
+- Rendu sans LLM : aucun passage introuvable.
+- `esg.verify_univ 2026` : **aucun écart** (45 sur 45).
+- Word, PDF et HTML régénérés.

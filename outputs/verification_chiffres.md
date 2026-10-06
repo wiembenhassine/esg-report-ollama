@@ -1,6 +1,6 @@
 Graine 2026 (rejouer : python -m esg.verify_univ 2026)
 
-## University of California, Berkeley — 88 chiffres de score, 6 nombres de texte
+## University of California, Berkeley — 88 chiffres de score, 10 nombres de texte
 
 | # | Chiffre | Élément | Valeur CSV | Dans le texte | Identique |
 |---|---|---|---|---|---|
@@ -17,13 +17,13 @@ Graine 2026 (rejouer : python -m esg.verify_univ 2026)
 
 | # | Nombre | Source | Ligne STARS (extrait) | Dans le texte | Identique |
 |---|---|---|---|---|---|
-| 1 | 42,8 % | PA-13, ligne 2 | …least $22.62/hr, when incorporating the 42.8% CBR.… | oui | OUI |
+| 1 | 42,8 % | PA-13, ligne 2 | …its rate for staff members is currently 42.8%. Hence, to qualify … | oui | OUI |
 | 2 | 2024 | AC-1, ligne 10 | … UC Berkeley course inventory from 2021-2024 filtering for items… | oui | OUI |
-| 3 | 2021 | PA-9, ligne 1 | …receiving Pell Grants for academic year 2021-22 (most recent yea… | oui | OUI |
-| 4 | 42,8 % | PA-13, ligne 2 | …its rate for staff members is currently 42.8%. Hence, to qualify … | oui | OUI |
-| 5 | 2021 | AC-1, ligne 10 | …via a UC Berkeley course inventory from 2021-2024 filtering for … | oui | OUI |
+| 3 | 42,8 % | PA-13, ligne 2 | …least $22.62/hr, when incorporating the 42.8% CBR.… | oui | OUI |
+| 4 | 2021 | PA-9, ligne 1 | …receiving Pell Grants for academic year 2021-22 (most recent yea… | oui | OUI |
+| 5 | 2045 | PA-2, ligne 9 | …ducing all emissions by at least 90% by 2045 and eliminating the… | oui | OUI |
 
-## University College Cork — 88 chiffres de score, 7 nombres de texte
+## University College Cork — 88 chiffres de score, 18 nombres de texte
 
 | # | Chiffre | Élément | Valeur CSV | Dans le texte | Identique |
 |---|---|---|---|---|---|
@@ -40,11 +40,11 @@ Graine 2026 (rejouer : python -m esg.verify_univ 2026)
 
 | # | Nombre | Source | Ligne STARS (extrait) | Dans le texte | Identique |
 |---|---|---|---|---|---|
-| 1 | 51 % | PA-2, ligne 2 | …to reduce our absolute GHG emissions by 51% by 2030. The Univer… | oui | OUI |
-| 2 | 2025 | PA-6, ligne 21 | …nd Inclusion Framework and Action Plan, 2025-2028 - recognises t… | oui | OUI |
-| 3 | 21 % | OP-9, ligne 1 | …included sustainability considerations. 21% of tenders included… | oui | OUI |
-| 4 | 2030 | PA-2, ligne 2 | …ce our absolute GHG emissions by 51% by 2030. The University mus… | oui | OUI |
-| 5 | 2030 | PA-2, ligne 1 | …cluding becoming a zero waste campus by 2030 and a carbon neutra… | oui | OUI |
+| 1 | 2040 | PA-2, ligne 13 | …hieving net zero total GHG emissions by 2040.… | oui | OUI |
+| 2 | 21 % | OP-9, ligne 1 | …included sustainability considerations. 21% of tenders included… | oui | OUI |
+| 3 | 5 % | OP-9, ligne 2 | …5% would be the averag… | oui | OUI |
+| 4 | 2028 | PA-2, ligne 1 | …inability and Climate Action Plan (2023-2028) builds on the succ… | oui | OUI |
+| 5 | 2040 | PA-1, ligne 3 | … by 2030 and a carbon neutral campus by 2040.… | oui | OUI |
 
 ## Technological University Dublin — 82 chiffres de score, 20 nombres de texte
 
