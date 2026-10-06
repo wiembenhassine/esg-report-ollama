@@ -46,6 +46,7 @@ plus bas (« Vérifier la non-redondance »).
 | 5 | Garde-fou | `esg/guard.py` | rejette tout chiffre ou nombre en lettres écrit par le modèle, et tout marqueur étranger à la section ; retire les phrases fautives (suppression uniquement) ; vérifie que chaque nombre final vient de `facts.csv` |
 | 6 | Juge (LLM-as-judge) | `esg/judge.py` | Ollama relit la section, vérifie chaque affirmation contre les sources, donne une **note /5** et une **fidélité %** (affichées dans le terminal) ; sous le seuil, la section est régénérée avec ses consignes |
 | 7 | Sorties | `esg/render.py`, `esg/docx_export.py`, `esg/dashboard.py` | rapport **Word (.docx)**, PDF, HTML et Markdown par université, synthèse comparative, `provenance.csv`, table des correspondances, tableau de bord HTML |
+| 7 bis | Relecture hors pipeline | `relecture/*.yaml`, `esg/review.py` | corrections de sens proposées après lecture des sources STARS (Claude Code, à valider par Wiem), appliquées au rendu ; chaque correction cite sa source, aucun chiffre tapé à la main |
 | 8 | Questions-réponses | `esg/chat.py` | réponses tirées des seules données, comparaisons entre universités, « Information non disponible » si la donnée n'existe pas |
 
 Le marqueur choisi est `{{ OP6_score }}` (syntaxe Jinja2, ex. `[[OP-6]]` dans le cahier des
@@ -84,6 +85,8 @@ le dépôt (`data/raw/`) : aucun téléchargement supplémentaire n'est nécessa
 .venv\Scripts\python -m esg.chat "Compare Cork et TU Dublin sur les déchets"
 .venv\Scripts\python -m esg.demo                        # démonstration du garde-fou (instantanée)
 .venv\Scripts\python -m esg.demo --juge                 # + test du juge sur un texte volontairement faux
+.venv\Scripts\python -m esg.verify_univ 2026           # 10 chiffres par université comparés au CSV
+.venv\Scripts\python -m esg.review                     # liste des corrections de relecture (outputs/relecture_humaine.md)
 .venv\Scripts\python -m pytest -v                       # tests automatiques
 ```
 
@@ -98,6 +101,8 @@ Sorties :
 | `outputs/correspondance_stars_gri_tcfd_esrs.csv` | table des correspondances |
 | `outputs/tableau_de_bord.html` | tableau de bord (hors ligne, thème clair/sombre) |
 | `outputs/cache/` | sections validées et historique complet des tentatives et verdicts du juge |
+| `outputs/relecture_humaine.md` | corrections de relecture : passage fautif, raison, source STARS, correction |
+| `outputs/verification_chiffres.md` | 10 chiffres tirés au hasard par université, comparés au CSV |
 
 **Durée** : sans GPU, `llama3.1:8b` produit 2 à 4 mots-unités par seconde ; une section prend
 5 à 15 minutes (rédaction + juge). Laisser le PC branché et éveillé : une mise en veille
@@ -129,9 +134,11 @@ interrompt la génération (le cache permet de reprendre).
 - **Évolution GRI à venir** : GRI 101: Biodiversité 2024 (en vigueur depuis le 1er janvier 2026) est intégrée ;
   GRI 102: Climate Change 2025 remplacera les publications 305-1 à 305-5 le 1er janvier 2027 (pas encore appliqué,
   GRI 305 reste valable pour un rapport publié en 2026).
-- **Juge 8B imparfait** : il laisse parfois passer une erreur fine (une publication GRI mal
-  attribuée) ; les sections qu'il n'a pas pu valider sont marquées « à relire » et listées en
-  annexe de chaque rapport, avec les affirmations non confirmées.
+- **Juge 8B imparfait** : il garantit peu le sens. Sur les 8 sections de Dublin relues à la main, il a
+  vu 1 erreur sur 24 (contenu inventé, mauvais rattachement, traduction fausse), alors que les chiffres
+  étaient tous justes. D'où la relecture hors pipeline (`relecture/`) : Dublin en entier, puis les sections
+  Environnement de Berkeley et de Cork, où le modèle invente le plus. Les autres sections de Berkeley et
+  de Cork n'ont pas encore été relues (voir `BILAN_TESTS.md`).
 - **Peu de chiffres dans la prose** : le modèle utilise rarement les marqueurs ; les scores sont
   surtout présentés dans les tableaux écrits par le code en tête de chaque section.
 - **Piliers E/S/G** : regroupement raisonné des crédits STARS (repris de Hakim), pas officiel.
@@ -175,14 +182,17 @@ esg/
   judge.py         juge LLM + règles déterministes
   generate.py      boucle rédaction -> garde-fou -> juge -> régénération
   render.py        Markdown, HTML, PDF, index GRI, annexes, provenance
+  review.py        relecture hors pipeline (relecture/*.yaml) appliquée au rendu
   docx_export.py   export Word
   dashboard.py     tableau de bord HTML
   chat.py          assistant de questions-réponses
   demo.py          démonstrations pour la soutenance
   pipeline.py      commande principale
+  verify.py        contrôle de chiffres tirés au hasard contre le CSV (verify_univ.py : par université)
   fetch.py         extension facultative, adaptée du code de Hakim (crédité)
   parse_fields.py  extension facultative, non testée sur de vraies pages
 mapping/           correspondances écrites à la main (GRI, TCFD, ESRS)
+relecture/         corrections de relecture par université (passage, raison, source STARS)
 data/raw/          données de Hakim (inchangées)
 tests/             tests automatiques
 ```

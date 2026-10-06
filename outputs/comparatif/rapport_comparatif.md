@@ -1,5 +1,5 @@
 # Synthèse comparative — Berkeley, Cork et TU Dublin
-*Généré le 2026-10-05 · données AASHE STARS 3.0 · mêmes règles que les rapports individuels*
+*Généré le 2026-10-06 · données AASHE STARS 3.0 · mêmes règles que les rapports individuels*
 
 | | University of California, Berkeley | University College Cork | Technological University Dublin |
 |---|---:|---:|---:|

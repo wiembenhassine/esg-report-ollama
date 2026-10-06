@@ -1,5 +1,5 @@
 # Rapport de durabilité — University of California, Berkeley
-*Établi en référence aux normes GRI · généré le 2026-10-05 · données AASHE STARS 3.0*
+*Établi en référence aux normes GRI · généré le 2026-10-06 · données AASHE STARS 3.0*
 
 **À propos de ce rapport.** Ce rapport est généré automatiquement à partir de la soumission publique
 AASHE STARS 3.0 de University of California, Berkeley (19 février 2025), mise en correspondance avec les normes GRI.
@@ -186,10 +186,6 @@ Enfin, l'université a mis en place des politiques pour protéger les droits des
 
 Ce rapport ne peut pas établir les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.
 
-### Limites et omissions
-
-Ce rapport ne couvre pas les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.
-
 ## Performance environnementale
 
 | Crédit STARS | Points obtenus | Niveau |
@@ -213,11 +209,11 @@ Ce rapport ne couvre pas les informations sur les fournisseurs de l'université,
 
 #### Énergie
 
-L'université obtient 6,87 points STARS sur 10 au crédit OP-5, niveau intermédiaire. Le campus utilise une partie de l'énergie renouvelable via le programme UC Clean Power, qui inclut des sources d'électricité certifiées et non certifiées.
+L'université obtient 6,87 points STARS sur 10 au crédit OP-5, niveau intermédiaire. Une partie de l'électricité du campus provient du programme UC Clean Power : sa part solaire est déclarée comme électricité renouvelable hors site certifiée, et sa part de grande hydraulique comme électricité renouvelable hors site non certifiée.
 
 #### Émissions de gaz à effet de serre
 
-L'université obtient 8,01 points STARS sur 16 au crédit OP-6, niveau intermédiaire. Les émissions de gaz à effet de serre sont compensées par des instruments de retraitement des émissions, issus de projets forestiers américains.
+L'université obtient 8,01 points STARS sur 16 au crédit OP-6, niveau intermédiaire. Dans le cadre du programme Cap and Trade, des crédits de compensation sont répartis chaque année entre les campus selon leurs émissions ; cette année, les instruments de conformité retirés proviennent de projets forestiers aux États-Unis.
 
 #### Eau
 
@@ -225,31 +221,31 @@ L'université obtient 2,43 points STARS sur 7 au crédit OP-3, niveau faible. Le
 
 #### Déchets
 
-L'université obtient 3,27 points STARS sur 5 au crédit OP-12, niveau intermédiaire. Le campus a mis en place un système de compostage industriel.
+L'université obtient 3,27 points STARS sur 5 au crédit OP-12, niveau intermédiaire.
 
 #### Matériaux
 
-L'université obtient 3,75 points STARS sur 4 au crédit OP-11, niveau élevé. Le campus a mis en place un système de gestion des matériaux, notamment via l'intégration de la collecte séparée des déchets.
+L'université obtient 3,75 points STARS sur 4 au crédit OP-11, niveau élevé. Le compostage est intégré à tous les circuits de collecte du campus, et les déchets compostables sont envoyés vers une installation de compostage industriel.
 
 #### Système d'achats durables
 
-L'université obtient 7 points STARS sur 7 au crédit OP-9, niveau maximal. Le campus a mis en place un système de réduction des émissions de carbone dans la chaîne d'approvisionnement.
+L'université obtient 7 points STARS sur 7 au crédit OP-9, niveau maximal. Tous les appels d'offres intègrent des critères de durabilité ; l'université évalue ses fournisseurs avec EcoVadis, et ses lignes directrices d'achats durables visent notamment à réduire les émissions et les impacts carbone de la chaîne d'approvisionnement.
 
 #### Conception et construction des bâtiments
 
-L'université obtient 2,91 points STARS sur 3 au crédit OP-1, niveau élevé. Le campus a mis en place des bâtiments répondant aux normes LEED-EBOM.
+L'université obtient 2,91 points STARS sur 3 au crédit OP-1, niveau élevé.
 
 #### Exploitation et maintenance des bâtiments
 
-L'université obtient 4 points STARS sur 5 au crédit OP-2, niveau élevé.
+L'université obtient 4 points STARS sur 5 au crédit OP-2, niveau élevé. De nombreux bâtiments du campus respectent la norme LEED-EBOM (exploitation et maintenance des bâtiments existants), qui met l'accent sur le nettoyage écologique, les matériaux durables, la qualité de l'air et la réduction des déchets.
 
 #### Flotte de véhicules
 
-L'université obtient 0,28 point STARS sur 2 au crédit OP-13, niveau faible. Le campus a mis en place une flotte de véhicules, dont une partie est considérée comme verte.
+L'université obtient 0,28 point STARS sur 2 au crédit OP-13, niveau faible. Plus de 35 % de la flotte du campus est considérée comme verte, véhicules à carburant modulable compris ; les voiturettes électriques non immatriculées ne sont pas comptées dans la flotte.
 
 #### Modes de déplacement domicile-campus
 
-L'université obtient 4,89 points STARS sur 6 au crédit OP-14, niveau élevé. Le campus a mis en place des modes de déplacement durables.
+L'université obtient 4,89 points STARS sur 6 au crédit OP-14, niveau élevé. La répartition des modes de déplacement provient d'une enquête annuelle sur les transports, diffusée par courriel à tout le campus ou à un échantillon représentatif.
 
 #### Voyages en avion
 
@@ -261,11 +257,7 @@ L'université obtient 5 points STARS sur 5 au crédit OP-4, niveau maximal. Le c
 
 #### Évaluation de la biodiversité
 
-L'université obtient 1 point STARS sur 1 au crédit IL-24, niveau maximal. Le campus a mis en place une évaluation de la biodiversité, notamment via le plan de gestion des feux de végétation.
-
-#### Pourcentage de la flotte de véhicules considérée comme verte
-
-Le campus a mis en place une flotte de véhicules, dont plus de 35 % est considérée comme verte.
+L'université obtient 1 point STARS sur 1 au crédit IL-24, niveau maximal. Le projet de rapport d'impact environnemental (Draft EIR) du plan de gestion de la végétation combustible des espaces naturels (Wildland Vegetative Fuel Management Plan) décrit les zones importantes pour la biodiversité.
 
 ## Performance sociale et économique
 
@@ -580,6 +572,8 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 **Bilan :** 8 section(s) validée(s) sur 8 ; fidélité moyenne 94% ; 3 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
 2 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
+
+**Relecture hors pipeline** (6 octobre 2026) : 11 correction(s) dans 1 section(s). Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois validées par elle. Liste détaillée : `relecture/berkeley.yaml` et `outputs/relecture_humaine.md`. Le texte écrit par le modèle reste consultable dans `outputs/cache/`.
 
 ## Vérifier ce rapport
 

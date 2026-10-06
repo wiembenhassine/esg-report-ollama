@@ -1,5 +1,5 @@
 # Rapport de durabilité — Technological University Dublin
-*Établi en référence aux normes GRI · généré le 2026-10-05 · données AASHE STARS 3.0*
+*Établi en référence aux normes GRI · généré le 2026-10-06 · données AASHE STARS 3.0*
 
 **À propos de ce rapport.** Ce rapport est généré automatiquement à partir de la soumission publique
 AASHE STARS 3.0 de Technological University Dublin (2 décembre 2024), mise en correspondance avec les normes GRI.
@@ -82,7 +82,7 @@ Le plan stratégique de l'université 2024 - 2028 comprend des objectifs de dura
 
 #### Égalité, diversité et inclusion
 
-Le plan stratégique de l'université 2024 - 2028 comprend un indicateur clé de performance (KPI) sur la « livraison réussie des plans d'action EDI », mené par Prof. Yvonne Galligan, directrice de l'égalité, de la diversité et de l'inclusion. Les objectifs incluent l'obtention de la certification d'Athena Swan, le Plan de l'égalité des sexes, et la fin de la violence et du harcèlement sexuels (ESVH). L'université vise à atteindre un équilibre de genre de 40 % de femmes et 40 % d'hommes à tous les niveaux de prise de décision.
+Le plan stratégique de l'université 2024 - 2028 comprend un indicateur clé de performance (KPI) sur la « livraison réussie des plans d'action EDI », mené par Prof. Yvonne Galligan, directrice de l'égalité, de la diversité et de l'inclusion. Les objectifs incluent l'obtention de la certification d'Athena Swan, le plan pour l'égalité raciale (Race Equality Plan), et la fin de la violence et du harcèlement sexuels (ESVH). L'université vise à atteindre un équilibre entre les genres (au moins 40 % de femmes et au moins 40 % d'hommes) à tous les niveaux de décision de la direction.
 
 (GRI 3-2)
 
@@ -107,11 +107,10 @@ L'université obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal.
 
 La gouvernance de l'université est assurée par le Technological Universities Act 2018, qui impose la représentation des étudiants dans les organes de gouvernance. Le site web de l'Union des étudiants (SU) liste diverses instances où les étudiants sont représentés. Le président de l'Union des étudiants (SU) est le porte-parole principal de l'Union et représente tous les étudiants de l'université. Il est également membre ex officio du corps de gouvernance et du conseil académique de l'université.
 
-En février 2025, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidente de l'Union des étudiants), Princewill Aguele (vice-président de l'Union des étudiants pour les événements et les engagements) et Avice Meya (étudiante de master membre de l'Union des étudiants).
+En février 2025, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidence de l'Union des étudiants), Princewill Aguele (vice-présidence de l'Union des étudiants chargée des événements et de l'engagement) et Avice Meya (membre au titre des étudiants de troisième cycle).
 
-Le Technological Universities Act 2018 impose également la représentation des étudiants dans les organes de gouvernance.
 
-Le corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré dans le TU Act 2018. En février 2025, les membres non-académiques et académiques du corps de gouvernance étaient :
+Le corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré dans le TU Act 2018.
 
 L'université a également mis en place des comités et des groupes de travail formels, ainsi que des enquêtes universitaires, où les membres du personnel participent régulièrement. La représentation du personnel est souvent filtrée par le TUI (Syndicat des enseignants d'Irlande).
 
@@ -141,7 +140,7 @@ La Technological University Dublin (TU Dublin) a mis en place une stratégie de 
 
 #### Engagements politiques
 
-La TU Dublin a signé la Climate Action Plan (CAP) 2021, qui vise à réduire les émissions de gaz à effet de serre et à devenir neutre en carbone d'ici 2030. L'université a également mis en place des activités de résilience climatique au travers de ses Sustainable Energy Communities (SEC).
+Ces objectifs sont alignés sur le Climate Action Plan 2021 (CAP), qui demande au secteur public de montrer l'exemple pour réduire de 51 % les émissions de gaz à effet de serre de l'Irlande d'ici 2030 et atteindre la neutralité climatique au plus tard en 2050. Des membres de son Office de la durabilité participent à des Sustainable Energy Communities (SEC) voisines du campus de Grangegorman, soutenues par la SEAI, et mènent avec elles des activités de résilience climatique.
 
 #### Intégration des engagements politiques
 
@@ -153,7 +152,7 @@ Ce rapport ne peut pas établir les mécanismes de remédiation des impacts nég
 
 #### Adhésion à des associations
 
-La TU Dublin a signé la charte de la Sustainable Development Goals (SDG) Literacy Community of Practice, qui vise à éduquer les professeurs et les étudiants sur les objectifs de développement durable.
+Parmi ses communautés de pratique, TU Dublin compte la SDG Literacy Community of Practice, qui permet aux enseignants et aux étudiants de construire ensemble des occasions d'apprendre sur les objectifs de développement durable des Nations unies. TU Dublin est par ailleurs membre de l'Université européenne de technologie (European University of Technology).
 
 ### Limites et omissions
 
@@ -174,7 +173,7 @@ De plus, certaines informations sur les engagements politiques et la stratégie 
 
 L'université Technological University Dublin (TU Dublin) s'engage dans l'engagement des parties prenantes de manière significative, comme le montre son score STARS de 4 points STARS sur 4 au crédit PA-3, niveau maximal. Cette approche est mise en œuvre en vertu de la Technological Universities Act 2018, qui prévoit la représentation obligatoire des étudiants dans les organes de gouvernance des universités techniques, y compris la TU Dublin.
 
-La Students' Union (SU) joue un rôle clé dans la représentation des étudiants. Le président de la SU est le porte-parole principal de l'union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. Cela est établi dans l'article de la constitution de la SU.
+La Students' Union (SU) joue un rôle clé dans la représentation des étudiants. Le président de la SU est le porte-parole principal de l'union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. Cela est établi par la constitution de la SU.
 
 La TU Dublin s'engage également dans des activités communautaires à travers divers programmes, comme les programmes de bénévolat étudiant, les comités des sports et des sociétés, les mentorats pairs et la représentation de classe.
 
@@ -192,7 +191,7 @@ Enfin, l'université a mis en place un programme de partenariats avec la communa
 
 ### Limites et omissions
 
-Ce rapport ne peut pas établir les informations sur la méthode d'identification des parties prenantes, les groupes vulnérables ou les fournisseurs. De plus, l'université n'a pas rendu publics tous les partenariats de la communauté pour la durabilité.
+Ce rapport ne peut pas établir les informations sur la méthode d'identification des parties prenantes, les groupes vulnérables ou les fournisseurs. Ce rapport ne peut pas établir la liste complète des partenariats de l'université avec la communauté pour la durabilité.
 
 ## Performance environnementale
 
@@ -214,27 +213,23 @@ Ce rapport ne peut pas établir les informations sur la méthode d'identificatio
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'université de Dublin (TU Dublin) a mis en place plusieurs initiatives pour réduire son impact environnemental. Dans le cadre de son pilier Environnement, l'université a obtenu des scores élevés dans plusieurs domaines clés.
+TU Dublin a mis en place plusieurs initiatives pour réduire son impact environnemental.
 
 #### Énergie
 
-Cette énergie est utilisée pour alimenter les bâtiments de l'université. De plus, l'université a mis en place un système de récupération d'eau de pluie sur le toit du Greenway Hub, qui est utilisé pour alimenter les toilettes.
+Des panneaux photovoltaïques sont installés sur le toit de l'atelier d'impression. Leur production d'électricité reste faible, et un projet de géothermie est en cours de développement.
 
 #### Eau
 
-L'université a mis en place un système de récupération d'eau de pluie sur le toit du Greenway Hub, qui est utilisé pour alimenter les toilettes. De plus, l'université mesure la consommation d'eau à un niveau de bâtiment, ce qui permet d'identifier les opportunités de réduction de la consommation d'eau.
+L'université a mis en place un système de récupération d'eau de pluie sur le toit du Greenway Hub, qui est utilisé pour alimenter les toilettes. La consommation d'eau n'est mesurée bâtiment par bâtiment que pour le Greenway Hub, un bâtiment de recherche équipé de capteurs reliés à son système de gestion technique.
 
 #### Déchets
 
-L'université a mis en place un système de compostage pour les déchets organiques, qui sont ensuite utilisés comme engrais pour les jardins de l'université. De plus, l'université a mis en place un système de collecte séparée des déchets, ce qui permet de réduire la quantité de déchets qui sont envoyés aux décharges.
+Les déchets alimentaires, avant et après consommation, sont déposés dans des bacs à compost bruns fournis par le prestataire de gestion des déchets de l'université.
 
 #### Véhicules
 
-L'université a remplacé tous ses véhicules diesel par des véhicules électriques, ce qui a contribué à réduire les émissions de gaz à effet de serre. De plus, l'université a mis en place un système de gestion des véhicules, qui permet de réduire la consommation de carburant et de réduire les émissions de gaz à effet de serre.
-
-#### Bilan environnemental
-
-L'université a obtenu des scores élevés dans plusieurs domaines clés, notamment dans les domaines de l'énergie, de l'eau, des déchets et des véhicules. L'université a également mis en place un système de gestion environnementale, qui permet de suivre et de mesurer les performances environnementales de l'université.
+L'université a remplacé tous ses véhicules diesel par des véhicules électriques, ce qui a contribué à réduire les émissions de gaz à effet de serre.
 
 ## Performance sociale et économique
 
@@ -253,7 +248,7 @@ L'université a obtenu des scores élevés dans plusieurs domaines clés, notamm
 
 #### Équité salariale et salaire décent
 
-L'université Technological University Dublin (TU Dublin) s'engage à verser un salaire décent à ses employés. Elle vérifie régulièrement la conformité de ses sous-traitants avec la National Minimum Wage Act 2000 et la Payment of Wages Act 1991, qui imposent aux employeurs de payer un salaire minimum et de fournir tous les avantages statutaires. La TU Dublin estime que tout le monde a le droit à un salaire équitable et attend que tous ses fournisseurs paient à leurs employés au moins le salaire minimum, ou une représentation juste du salaire moyen de l'industrie (ce qui est le plus élevé), et leur fournissent tous les avantages statutaires.
+TU Dublin vérifie régulièrement la conformité de ses sous-traitants avec la National Minimum Wage Act 2000 et la Payment of Wages Act 1991, qui imposent aux employeurs de payer un salaire minimum et de fournir tous les avantages statutaires. La TU Dublin estime que tout le monde a le droit à un salaire équitable et attend que tous ses fournisseurs paient à leurs employés au moins le salaire minimum, ou une représentation juste du salaire moyen de l'industrie (ce qui est le plus élevé), et leur fournissent tous les avantages statutaires.
 
 La TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services professionnels, de transport et de vente. Tous les sous-traitants paient un salaire décent à leurs employés.
 
@@ -271,7 +266,7 @@ En vertu de la politique du gouvernement irlandais de « Tobacco Free Ireland »
 
 La TU Dublin a mis en place des fonds d'aide aux étudiants (Student Assistance Fund) et le Fonds de bourse, qui visent les étudiants issus de milieux défavorisés ou sous-représentés.
 
-(GRI 403-6)
+
 
 #### Climat institutionnel (inclusion)
 
@@ -280,8 +275,6 @@ L'office de l'égalité, de la diversité et de l'inclusion (EDI) de la TU Dubli
 * L'office de l'EDI soutient les employés de plusieurs groupes sous-représentés.
 * La direction de l'EDI mène des efforts pour intégrer l'antiracisme dans tous les programmes, en fournissant des ressources, des formations et un soutien aux employés et étudiants.
 * Le programme de développement communautaire et de travail avec les jeunes (CDYW) inclut des ateliers de formation sur l'antiracisme.
-
-(GRI 403-4)
 
 ## Enseignement, recherche et engagement (hors GRI)
 
@@ -324,7 +317,7 @@ L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. Cett
 
 #### Activités parascolaires
 
-L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Cette note reflète la qualité des activités parascolaires de l'université, qui incluent des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.
+L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Cette note reflète la qualité des activités parascolaires de l'université, qui incluent des sociétés étudiantes actives en durabilité et en justice sociale (Environment and Planning Society, St Vincent de Paul Society), des étudiants ambassadeurs de l'éducation à la durabilité et des projets de bénévolat créés par les étudiants.
 
 #### Engagement et formation du personnel
 
@@ -332,11 +325,11 @@ L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. Cett
 
 #### Engagement civique
 
-L'université obtient 4,5 points STARS sur 8 au crédit EN-5, niveau intermédiaire. Cette note reflète la qualité de l'engagement civique de l'université, qui comprend des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.
+L'université obtient 4,5 points STARS sur 8 au crédit EN-5, niveau intermédiaire. Cette note reflète la qualité de l'engagement civique de l'université, qui comprend le bénévolat étudiant, les comités des clubs sportifs et des sociétés, le mentorat par les pairs, la représentation de classe et le bénévolat des employés pendant leurs heures de travail.
 
 #### Formation continue
 
-L'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal. Cette note reflète la qualité de la formation continue de l'université, qui comprend des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.
+L'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal. Cette note reflète la qualité de la formation continue de l'université, qui comprend des modules axés sur la durabilité dans plusieurs écoles, par exemple en horticulture durable, en infrastructures résilientes au climat ou en biodiversité et conservation de la nature.
 
 ## Index de contenu GRI
 
@@ -577,6 +570,8 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 **Bilan :** 8 section(s) validée(s) sur 8 ; fidélité moyenne 98% ; 0 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
 1 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
+
+**Relecture hors pipeline** (6 octobre 2026) : 22 correction(s) dans 7 section(s). Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois validées par elle. Liste détaillée : `relecture/tudublin.yaml` et `outputs/relecture_humaine.md`. Le texte écrit par le modèle reste consultable dans `outputs/cache/`.
 
 ## Vérifier ce rapport
 

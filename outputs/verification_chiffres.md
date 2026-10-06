@@ -46,7 +46,7 @@ Graine 2026 (rejouer : python -m esg.verify_univ 2026)
 | 4 | 2030 | PA-2, ligne 2 | …ce our absolute GHG emissions by 51% by 2030. The University mus… | oui | OUI |
 | 5 | 2030 | PA-2, ligne 1 | …cluding becoming a zero waste campus by 2030 and a carbon neutra… | oui | OUI |
 
-## Technological University Dublin — 82 chiffres de score, 18 nombres de texte
+## Technological University Dublin — 82 chiffres de score, 20 nombres de texte
 
 | # | Chiffre | Élément | Valeur CSV | Dans le texte | Identique |
 |---|---|---|---|---|---|
@@ -63,10 +63,10 @@ Graine 2026 (rejouer : python -m esg.verify_univ 2026)
 
 | # | Nombre | Source | Ligne STARS (extrait) | Dans le texte | Identique |
 |---|---|---|---|---|---|
-| 1 | 2025 | PA-3, ligne 4 | …d within the TU Act 2018). As of 20 Feb 2025, non-academic and a… | oui | OUI |
-| 2 | 45 % | PA-2, ligne 1 | …reduction in GHG emissions by 2028, and 45% increase in energy … | oui | OUI |
-| 3 | 2024 | PA-2, ligne 1 | …1. TU Dublin Strategic Plan 2024 – 2028 (Ref 1) incl… | oui | OUI |
+| 1 | 2018 | PA-3, ligne 1 | …The Technological Universities Act 2018 specifies the manda… | oui | OUI |
+| 2 | 51 % | PA-2, ligne 1 | …g Ireland's greenhouse gas emissions by 51% by 2030 and becomin… | oui | OUI |
+| 3 | 2020 | PA-11, ligne 1 | …moke free zone on campus from September 2020 (Ref 1, Ref 2).… | oui | OUI |
 | 4 | 40 % | PA-2, ligne 2 | …e 3, achieving gender balance (at least 40% female and 40% male… | oui | OUI |
-| 5 | 46,5 % | PA-2, ligne 1 | … page 9, our campus related targets are 46.5% reduction in GHG em… | oui | OUI |
+| 5 | 2025 | PA-3, ligne 2 | …As of 20 Feb 2025, O'Toole, Shauna (S… | oui | OUI |
 
 Résultat : aucun écart.

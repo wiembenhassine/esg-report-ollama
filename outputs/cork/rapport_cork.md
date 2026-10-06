@@ -1,5 +1,5 @@
 # Rapport de durabilité — University College Cork
-*Établi en référence aux normes GRI · généré le 2026-10-05 · données AASHE STARS 3.0*
+*Établi en référence aux normes GRI · généré le 2026-10-06 · données AASHE STARS 3.0*
 
 **À propos de ce rapport.** Ce rapport est généré automatiquement à partir de la soumission publique
 AASHE STARS 3.0 de University College Cork (5 mars 2026), mise en correspondance avec les normes GRI.
@@ -217,10 +217,6 @@ Enfin, l'université respecte les droits des salariés, en tant que droit fondam
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-Voici la section rédigée :
-
-**Environnement**
-
 **Consommation d'énergie (Energy Use)**
 
 * Score STARS : 5,62 points STARS sur 10 au crédit OP-5, niveau intermédiaire
@@ -277,8 +273,6 @@ Voici la section rédigée :
 
 * Score STARS : 1 point STARS sur 1 au crédit IL-24, niveau maximal
 
-**Part des points STARS obtenus dans le pilier Environnement**
-
 ## Performance sociale et économique
 
 | Crédit STARS | Points obtenus | Niveau |
@@ -314,7 +308,6 @@ Ce rapport ne peut pas établir les effectifs ou les taux de participation pour 
 
 Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de diversité et d'inclusion.
 
-Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de santé, de sécurité et de bien-être.
 
 (GRI 202-1, GRI 401-2, GRI 401-3, GRI 403-1, GRI 403-3, GRI 403-4, GRI 403-6, GRI 405-1)
 
@@ -595,6 +588,8 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 **Bilan :** 8 section(s) validée(s) sur 8 ; fidélité moyenne 98% ; 1 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
 1 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
+
+**Relecture hors pipeline** (6 octobre 2026) : 2 correction(s) dans 1 section(s). Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois validées par elle. Liste détaillée : `relecture/cork.yaml` et `outputs/relecture_humaine.md`. Le texte écrit par le modèle reste consultable dans `outputs/cache/`.
 
 ## Vérifier ce rapport
 

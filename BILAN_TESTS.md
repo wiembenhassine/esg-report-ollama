@@ -129,15 +129,11 @@ bloquant (`b4ac34e`).
 
 ## 6. Notés, non appliqués
 
-- **Défauts de forme restants** (code gelé, à décider) :
-  - une ligne qui se termine par « : » sans liste derrière (4 dans les 3 rapports) ;
-  - des phrases presque identiques qui se répètent (seules les phrases strictement identiques sont retirées).
-
-  Aucun de ces défauts ne touche la valeur d'un chiffre.
-- **Contenu inventé ou mal rattaché** : seul un relecteur humain, ou un juge plus fort, peut le voir. Exemples :
-  - section Environnement de Dublin (8 erreurs) ;
-  - à Berkeley, « le salaire minimum local est de 42,8 % » : 42,8 % est en fait le taux des avantages sociaux (CBR) dans PA-13.
-
+- ~~Défauts de forme restants~~ : corrigés le 6 octobre (section 9).
+- **Contenu inventé ou mal rattaché** : seul un relecteur humain, ou un juge plus fort, peut le voir. Dublin
+  et les sections Environnement de Berkeley et de Cork ont été relus (section 9). **Pas encore relu** : les
+  autres sections de Berkeley et de Cork. Exemple déjà repéré à Berkeley (section Social, non corrigé) :
+  « le salaire minimum local est de 42,8 % », alors que 42,8 % est le taux des avantages sociaux (CBR) dans PA-13.
   Piste possible : un second juge qui vérifie chaque phrase contre l'extrait cité.
 
 - **Second modèle Ollama comme juge** (amélioration future) : possible sur ce PC (153 Go de disque libre),
@@ -155,6 +151,8 @@ bloquant (`b4ac34e`).
 .venv\Scripts\python -m esg.validate                   # test 2
 .venv\Scripts\python -m esg.verify 10                  # test 4 (tirage aléatoire, graine affichée)
 .venv\Scripts\python -m esg.verify_univ 2026           # 10 chiffres par université (section 8)
+.venv\Scripts\python -m esg.review                     # liste des corrections de relecture (section 9)
+.venv\Scripts\python -m esg.pipeline --render-only      # re-rendre Word/PDF/HTML avec la relecture, sans LLM
 .venv\Scripts\python -m esg.demo --juge                # test 5 (juge sur un texte faux)
 .venv\Scripts\python -m esg.chat "Quel est le score biodiversité de Cork ?"   # test 6
 .venv\Scripts\python -m esg.pipeline tudublin --no-cache --no-comparison --log outputs\logs\dublin.log   # test 3
@@ -193,3 +191,48 @@ et doit figurer sur la ligne de son crédit ou de son pilier. S'y ajoutent 5 nom
 Résultat : **aucun écart** (45 sur 45).
 
 **Tests automatiques** : 132 passent (`pytest -q`).
+
+## 9. Relecture hors pipeline et nettoyages de forme (6 octobre 2026)
+
+**Qui a relu.** À la demande de Wiem Ben Hassine, **l'assistant Claude Code (une IA, pas une personne)** a
+relu les sections contre les textes STARS et proposé les corrections. Chacune cite son passage, sa raison
+et sa source. **Elles deviennent une relecture humaine une fois validées par Wiem** : lire
+`outputs/relecture_humaine.md` et retirer ou modifier toute correction qui ne convient pas dans
+`relecture/<université>.yaml`.
+
+**Comment c'est appliqué.**
+- Les corrections sont dans `relecture/<université>.yaml` (passage fautif, correction, raison, source STARS).
+- `esg/review.py` les applique au rendu (`--render-only`), sans LLM.
+- Le cache du modèle n'est pas modifié : on voit toujours ce que le modèle a écrit, et ce que la relecture a changé.
+- Règles vérifiées par le code et par les tests (`tests/test_review.py`) :
+  - chaque passage doit exister tel quel dans le texte validé ;
+  - une correction ne contient **aucun chiffre tapé à la main** : les nombres viennent de `facts.csv` par marqueur (`{{ PA2_t0_9 }}` → 2050) et sont ajoutés à `provenance.csv` ;
+  - si une section est régénérée, un passage introuvable est signalé au rendu (« ATTENTION relecture ») et le test échoue.
+- L'annexe « Validation du rapport » de chaque rapport indique le nombre de corrections et qui les a proposées.
+
+**Résultat.**
+
+| Rapport | Sections relues | Erreurs | Corrigées par le code | Corrigées par la relecture | Erreurs en plus trouvées à cette relecture |
+|---|---|---|---|---|---|
+| TU Dublin | les 8 | 24 (tableau 4 bis) | 5 : marqueur répété (×2), « (Ref, Ref) », phrase répétée, « étaient : » sans liste | 19, en 22 corrections dans 7 sections | 5 : SEC présentées comme « ses » communautés ; « l'article » vide ; « collecte séparée » inventée ; « s'engage à verser un salaire décent » non sourcé ; « véhicules électriques » dans EN-7 |
+| UC Berkeley | Environnement | 9 : énergie (imprécis) ; compensation (contresens « retraitement ») ; compostage « industriel » sur le campus ; « collecte séparée » ; « système » d'achats ; LEED-EBOM sous le mauvais crédit ; flotte répétée ; modes de déplacement (phrase vide) ; biodiversité (imprécis) | — | 9, en 11 corrections | — |
+| University College Cork | Environnement | aucune affirmation inventée (le texte n'est qu'une liste de scores) ; 4 défauts de forme | 2 : marqueur répété (×14), « Voici la section rédigée : » | 2 : titre en double, titres vides | — |
+
+En plus, à Dublin, les fonctions des membres étudiants sont maintenant écrites au neutre, puisque la source
+ne donne pas leur genre. La liste complète est dans `outputs/relecture_humaine.md` (passage, raison, source,
+correction).
+
+**Nettoyages de forme ajoutés au code** (`esg/guard.py`, appliqués à la génération et au rendu ; suppression
+seulement) :
+
+| Règle | Ce qu'elle retire | Cas réels retirés dans les 25 textes |
+|---|---|---|
+| Phrase qui annonce une liste absente | une phrase finissant par « : » sans liste à la suite (une ligne en gras n'est pas une liste) | « …du corps de gouvernance étaient : » (Dublin), « Voici la section rédigée : » (Cork) |
+| Phrase presque identique | au moins 90 % de ses mots porteurs de sens déjà écrits, **sans aucun chiffre, code de crédit ni marqueur nouveau**, donc deux crédits ou deux années différents ne sont jamais confondus | phrase sur le TU Act répétée (Dublin), « Ce rapport ne couvre pas… » répétant la phrase précédente (Berkeley), limite santé-sécurité répétée (Cork) |
+| Fin de texte en liste | une liste en fin de section n'est plus prise pour une phrase coupée | la ligne de score IL-24 de Cork, qui avait disparu à un essai, est conservée |
+
+**Contrôles après la relecture.**
+- `pytest -q` : **140 tests passent**.
+- Rendu sans LLM : aucun passage introuvable.
+- `esg.verify_univ 2026` : **aucun écart** (45 sur 45).
+- PDF et Word régénérés pour les 3 rapports et la synthèse comparative.
