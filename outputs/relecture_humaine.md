@@ -79,7 +79,7 @@ Corrections proposées par l'assistant Claude Code (IA) à la demande de Wiem Be
 | 3 | « L'Université de Californie à Berkeley a un centre de recherche en durabilité. » | Sans rapport avec le crédit EN-1 (communication et sensibilisation) et non sourcé. | EN-1, lignes 1 à 7 | « Les nouveaux étudiants rencontrent les services liés à la durabilité lors de l'orientation (Golden Bear Orientation), le nouveau personnel reçoit une présentation lors de son accueil, et le campus publie des tableaux de bord (émissions, énergie, eau) et des rapports de durabilité. » |
 | 4 | « L'Office de la durabilité, le SERC, le gouvernement et les relations communautaires de l'Université de Californie à Berkeley. » | Pas une phrase : la liste des services sources est recopiée, et « gouvernement » traduit mal « Government & Community Relations ». | EN-3, ligne 3 : « this UC Berkeley Sustainability Staff Training is composed of … comprehensive modules » | « Le Bureau de la durabilité a créé une formation à la durabilité pour le personnel (UC Berkeley Sustainability Staff Training), composée de modules que chacun suit à son rythme. » |
 
-## University College Cork — 22 corrections dans 7 section(s)
+## University College Cork — 27 corrections dans 7 section(s)
 
 ### environnement
 
@@ -95,9 +95,10 @@ Corrections proposées par l'assistant Claude Code (IA) à la demande de Wiem Be
 
 | # | Passage fautif | Pourquoi c'est faux | Source STARS | Correction |
 |---|---|---|---|---|
-| 1 | « avec le soutien de l'officier de la recherche et des données institutionnelles » | Faux-ami : « officer » désigne une fonction (chargé de mission), pas un « officier ». | PRE-4, ligne 1 | « avec l'appui de la fonction « Data and Institutional Research Officer » de l'université » |
-| 2 | « au comité de direction sur la durabilité et l'action climatique » | Imprécis : c'est un sous-comité de l'équipe de direction (ULT Subcommittee), présidé par la présidence de l'université. | PRE-4, ligne 4 : « University Leadership Team Subcommittee on Sustainability and Climate Action, which is chaired by the University President » | « au sous-comité de l'équipe de direction de l'université sur la durabilité et l'action climatique, présidé par la présidence de l'université » |
-| 3 | « ### Limites et omissions Ce rapport ne couvre pas les entités suivantes : les sociétés filiales de l'université, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin). (GRI 2-4, GRI 2-8) » | Répétition : les filiales exclues sont déjà indiquées plus haut, sous un second titre « Limites et omissions » en double ; GRI 2-4 et 2-8 ne correspondent pas à ce contenu. | PRE-3, ligne 1 | supprimée |
+| 1 | « Elle est dénommée sous le nom de University College Cork dans le contexte de ce rapport. » | Signalé par Wiem à la relecture : phrase sans information (le nom est déjà donné juste avant). | — | supprimée |
+| 2 | « avec le soutien de l'officier de la recherche et des données institutionnelles » | Faux-ami : « officer » désigne une fonction (chargé de mission), pas un « officier ». | PRE-4, ligne 1 | « avec l'appui de la fonction « Data and Institutional Research Officer » de l'université » |
+| 3 | « au comité de direction sur la durabilité et l'action climatique » | Imprécis : c'est un sous-comité de l'équipe de direction (ULT Subcommittee), présidé par la présidence de l'université. | PRE-4, ligne 4 : « University Leadership Team Subcommittee on Sustainability and Climate Action, which is chaired by the University President » | « au sous-comité de l'équipe de direction de l'université sur la durabilité et l'action climatique, présidé par la présidence de l'université » |
+| 4 | « ### Limites et omissions Ce rapport ne couvre pas les entités suivantes : les sociétés filiales de l'université, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin). (GRI 2-4, GRI 2-8) » | Répétition : les filiales exclues sont déjà indiquées plus haut, sous un second titre « Limites et omissions » en double ; GRI 2-4 et 2-8 ne correspondent pas à ce contenu. | PRE-3, ligne 1 | supprimée |
 
 ### materialite
 
@@ -136,7 +137,11 @@ Corrections proposées par l'assistant Claude Code (IA) à la demande de Wiem Be
 
 | # | Passage fautif | Pourquoi c'est faux | Source STARS | Correction |
 |---|---|---|---|---|
-| 1 | « La politique de congé parental de l'UCC est décrite dans le rapport STARS » | Imprécis : la source décrit les types de congés et le congé de maternité, pas une « politique de congé parental ». | PA-12, lignes 1 à 3 | « Les différents congés du personnel, dont le congé de maternité, sont décrits dans le rapport STARS » |
+| 1 | « , mais les données ne permettent pas d'établir les effectifs, les taux de retour ou les taux de rétention. » | Signalé par Wiem à la relecture : limite répétée dans le corps du texte alors qu'elle figure dans « Limites et omissions ». | — | « . » |
+| 2 | « La politique de santé, de sécurité et de bien-être de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation. » | Signalé par Wiem à la relecture : même limite répétée (déjà dans « Limites et omissions »). | — | « La politique de santé, de sécurité et de bien-être de l'UCC est décrite dans le rapport STARS. » |
+| 3 | « La politique d'équité salariale et de salaire décent de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation. » | Signalé par Wiem à la relecture : même limite répétée (déjà dans « Limites et omissions »). | — | « La politique d'équité salariale et de salaire décent de l'UCC est décrite dans le rapport STARS. » |
+| 4 | « Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de congé parental, de santé, de sécurité et de bien-être, ou d'équité salariale et de salaire décent. Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de diversité et d'inclusion. Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de santé, de sécurité et de bien-être. » | Signalé par Wiem à la relecture : trois phrases de limites qui se répètent, regroupées en une seule. | — | « Ce rapport ne peut pas établir les effectifs ni les taux de participation, de retour ou de rétention liés aux politiques de congé, de santé, de sécurité et de bien-être, d'équité salariale et de salaire décent, et de diversité et d'inclusion. » |
+| 5 | « La politique de congé parental de l'UCC est décrite dans le rapport STARS » | Imprécis : la source décrit les types de congés et le congé de maternité, pas une « politique de congé parental ». | PA-12, lignes 1 à 3 | « Les différents congés du personnel, dont le congé de maternité, sont décrits dans le rapport STARS » |
 
 ## Technological University Dublin — 22 corrections dans 7 section(s)
 

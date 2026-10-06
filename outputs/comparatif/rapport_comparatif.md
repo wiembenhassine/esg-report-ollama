@@ -24,7 +24,7 @@
 
 Cependant, il est important de noter que les différences entre les établissements peuvent être influencées par des facteurs tels que le périmètre de reporting, les dates de soumission et les caractéristiques propres à chaque établissement.
 
-En effet, University College Cork exclut ses filiales de son périmètre de reporting, ce qui peut affecter la comparaison avec les autres établissements. De plus, les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ce qui signifie qu'ils ne sont pas vérifiés par l'AASHE. Enfin, Technological University Dublin n'a pas de fonds de dotation, ce qui change la base de son pilier Gouvernance.
+En effet, University College Cork (UCC) exclut ses filiales de son périmètre de reporting, ce qui peut affecter la comparaison avec les autres établissements. De plus, les scores STARS sont autodéclarés et notés par rapport à un groupe de pairs, ce qui signifie qu'ils ne sont pas vérifiés par l'AASHE. Enfin, Technological University Dublin (TU Dublin) n'a pas de fonds de dotation, ce qui change la base de son pilier Gouvernance.
 
 Il est donc difficile de conclure à des différences de performance entre les établissements sans tenir compte de ces facteurs. Il est important de considérer les limites de la comparaison et de ne pas présenter les écarts comme des différences de performance purement.
 

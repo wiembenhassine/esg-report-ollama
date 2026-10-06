@@ -56,7 +56,7 @@ Les scores STARS 3.0 sont autodéclarés et notés par rapport à un groupe de p
 
 ### Organisation, périmètre et effectifs
 
-L'Université technologique de Dublin est une institution d'enseignement supérieur irlandaise. Le rapport STARS 3.0 de l'université a obtenu un score STARS global de 83,35. Le rapport a été soumis le 2 décembre 2024.
+Technological University Dublin (TU Dublin) est une institution d'enseignement supérieur irlandaise. Le rapport STARS 3.0 de l'université a obtenu un score STARS global de 83,35. Le rapport a été soumis le 2 décembre 2024.
 
 L'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derrière chaque question STARS. Cette étude a permis de suivre la chaîne d'approvisionnement de l'information. Une deuxième étude a identifié les systèmes d'information qui détiennent les informations requises par STARS ou exploitable pour le rapport.
 
@@ -136,7 +136,7 @@ Ce rapport ne peut pas établir la rémunération totale annuelle des membres du
 
 #### Stratégie de développement durable
 
-La Technological University Dublin (TU Dublin) a mis en place une stratégie de développement durable dans son TU Dublin Strategic Plan 2024 – 2028. Cette stratégie comprend des objectifs de durabilité mesurables, dont la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique.
+Technological University Dublin (TU Dublin) a mis en place une stratégie de développement durable dans son TU Dublin Strategic Plan 2024 – 2028. Cette stratégie comprend des objectifs de durabilité mesurables, dont la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique.
 
 #### Engagements politiques
 
@@ -158,7 +158,7 @@ Parmi ses communautés de pratique, TU Dublin compte la SDG Literacy Community o
 
 De plus, certaines informations sur les engagements politiques et la stratégie de développement durable ne sont pas disponibles ou ne peuvent pas être établies.
 
-(GRI 2-22), (GRI 2-23), (GRI 2-24), (GRI 2-25)
+(GRI 2-22, GRI 2-23, GRI 2-24, GRI 2-25)
 
 ## Engagement des parties prenantes
 
@@ -171,11 +171,11 @@ De plus, certaines informations sur les engagements politiques et la stratégie 
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'université Technological University Dublin (TU Dublin) s'engage dans l'engagement des parties prenantes de manière significative, comme le montre son score STARS de 4 points STARS sur 4 au crédit PA-3, niveau maximal. Cette approche est mise en œuvre en vertu de la Technological Universities Act 2018, qui prévoit la représentation obligatoire des étudiants dans les organes de gouvernance des universités techniques, y compris la TU Dublin.
+Technological University Dublin (TU Dublin) s'engage dans l'engagement des parties prenantes de manière significative, comme le montre son score STARS de 4 points STARS sur 4 au crédit PA-3, niveau maximal. Cette approche est mise en œuvre en vertu de la Technological Universities Act 2018, qui prévoit la représentation obligatoire des étudiants dans les organes de gouvernance des universités techniques, y compris TU Dublin.
 
 La Students' Union (SU) joue un rôle clé dans la représentation des étudiants. Le président de la SU est le porte-parole principal de l'union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. Cela est établi par la constitution de la SU.
 
-La TU Dublin s'engage également dans des activités communautaires à travers divers programmes, comme les programmes de bénévolat étudiant, les comités des sports et des sociétés, les mentorats pairs et la représentation de classe.
+TU Dublin s'engage également dans des activités communautaires à travers divers programmes, comme les programmes de bénévolat étudiant, les comités des sports et des sociétés, les mentorats pairs et la représentation de classe.
 
 L'université offre diverses opportunités de service communautaire, notamment :
 
@@ -248,29 +248,29 @@ L'université a remplacé tous ses véhicules diesel par des véhicules électri
 
 #### Équité salariale et salaire décent
 
-TU Dublin vérifie régulièrement la conformité de ses sous-traitants avec la National Minimum Wage Act 2000 et la Payment of Wages Act 1991, qui imposent aux employeurs de payer un salaire minimum et de fournir tous les avantages statutaires. La TU Dublin estime que tout le monde a le droit à un salaire équitable et attend que tous ses fournisseurs paient à leurs employés au moins le salaire minimum, ou une représentation juste du salaire moyen de l'industrie (ce qui est le plus élevé), et leur fournissent tous les avantages statutaires.
+TU Dublin vérifie régulièrement la conformité de ses sous-traitants avec la National Minimum Wage Act 2000 et la Payment of Wages Act 1991, qui imposent aux employeurs de payer un salaire minimum et de fournir tous les avantages statutaires. TU Dublin estime que tout le monde a le droit à un salaire équitable et attend que tous ses fournisseurs paient à leurs employés au moins le salaire minimum, ou une représentation juste du salaire moyen de l'industrie (ce qui est le plus élevé), et leur fournissent tous les avantages statutaires.
 
-La TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services professionnels, de transport et de vente. Tous les sous-traitants paient un salaire décent à leurs employés.
+TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services professionnels, de transport et de vente. Tous les sous-traitants paient un salaire décent à leurs employés.
 
-Les salaires des employés de la TU Dublin sont fixés en fonction des politiques de rémunération et de conditions du secteur public, établies et mises à jour périodiquement par le gouvernement.
+Les salaires des employés de TU Dublin sont fixés en fonction des politiques de rémunération et de conditions du secteur public, établies et mises à jour périodiquement par le gouvernement.
 
 (GRI 202-1)
 
 #### Santé, sécurité et bien-être
 
-En vertu de la politique du gouvernement irlandais de « Tobacco Free Ireland », la TU Dublin a introduit une zone sans fumée sur le campus en septembre 2020.
+En vertu de la politique du gouvernement irlandais de « Tobacco Free Ireland », TU Dublin a introduit une zone sans fumée sur le campus en septembre 2020.
 
 (GRI 403-1)
 
 #### Accessibilité financière et accès
 
-La TU Dublin a mis en place des fonds d'aide aux étudiants (Student Assistance Fund) et le Fonds de bourse, qui visent les étudiants issus de milieux défavorisés ou sous-représentés.
+TU Dublin a mis en place des fonds d'aide aux étudiants (Student Assistance Fund) et le Fonds de bourse, qui visent les étudiants issus de milieux défavorisés ou sous-représentés.
 
 
 
 #### Climat institutionnel (inclusion)
 
-L'office de l'égalité, de la diversité et de l'inclusion (EDI) de la TU Dublin comprend plusieurs initiatives. L'université soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple :
+L'office de l'égalité, de la diversité et de l'inclusion (EDI) de TU Dublin comprend plusieurs initiatives. L'université soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple :
 
 * L'office de l'EDI soutient les employés de plusieurs groupes sous-représentés.
 * La direction de l'EDI mène des efforts pour intégrer l'antiracisme dans tous les programmes, en fournissant des ressources, des formations et un soutien aux employés et étudiants.

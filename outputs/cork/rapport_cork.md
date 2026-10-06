@@ -58,7 +58,7 @@ Les scores STARS 3.0 sont autodéclarés et notés par rapport à un groupe de p
 
 ### Organisation, périmètre et effectifs
 
-L'Université College Cork (UCC) est une institution d'enseignement supérieur située en Irlande. Elle est dénommée sous le nom de University College Cork dans le contexte de ce rapport.
+University College Cork (UCC) est une institution d'enseignement supérieur située en Irlande.
 
 Le périmètre de l'UCC exclut ses sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin). Ces entités ne sont pas incluses dans la soumission STARS de l'université.
 
@@ -113,7 +113,7 @@ Ce rapport ne peut pas établir, pour chaque thème matériel, les impacts, les 
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'Université College Cork (UCC) a mis en place un système de gouvernance qui favorise la durabilité et la responsabilité environnementale. Le poste de Head of Sustainability and Climate Action est occupé par Dr Maria Kirrane, qui coordonne l'Office de la durabilité et de l'action climatique. L'office est responsable de la mise en œuvre du plan de durabilité et d'action climatique et coordonne diverses initiatives et programmes universitaires.
+University College Cork (UCC) a mis en place un système de gouvernance qui favorise la durabilité et la responsabilité environnementale. Le poste de Head of Sustainability and Climate Action est occupé par Dr Maria Kirrane, qui coordonne l'Office de la durabilité et de l'action climatique. L'office est responsable de la mise en œuvre du plan de durabilité et d'action climatique et coordonne diverses initiatives et programmes universitaires.
 
 L'Université a également mis en place un système de gouvernance participatif, qui implique les étudiants dans les décisions importantes. Les membres du syndicat des étudiants (SU) siègent au sein de l'autorité de gouvernance de l'université, la plus haute instance décisionnelle. Les étudiants sont également représentés dans divers comités autonomes, tels que le Societies Guild Executive et le Clubs Executive, qui gèrent les activités extrascolaires des étudiants.
 
@@ -141,7 +141,7 @@ Ce rapport ne peut pas établir les informations relatives à la composition de 
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'University College Cork (UCC) a élaboré un plan de durabilité et d'action climatique (Sustainability and Climate Action Plan), qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université.
+University College Cork (UCC) a élaboré un plan de durabilité et d'action climatique (Sustainability and Climate Action Plan), qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université.
 
 L'université a décidé d'aligner son programme de durabilité avec les stratégies pertinentes, notamment la participation à la communauté, l'égalité, la diversité et l'inclusion, l'enseignement et l'apprentissage, ainsi que les stratégies de recherche.
 
@@ -149,17 +149,7 @@ L'Office de la durabilité et de l'action climatique (The Office of Sustainabili
 
 L'université a également mis en place des politiques pour promouvoir la durabilité, notamment dans ses appels d'offres : 21 % des appels d'offres ont inclus des spécifications de durabilité pour les fournisseurs, et 54 % des appels d'offres ont inclus des conditions de durabilité pour les produits.
 
-(GRI 2-22)
-
-(GRI 2-23)
-
-(GRI 2-24)
-
-(GRI 2-25)
-
-(GRI 2-26)
-
-(GRI 2-28)
+(GRI 2-22, GRI 2-23, GRI 2-24, GRI 2-25, GRI 2-26, GRI 2-28)
 
 ### Limites et omissions
 
@@ -176,7 +166,7 @@ Ce rapport ne peut pas établir les mécanismes de demande de conseil et de sign
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'engagement des parties prenantes est un aspect clé de la stratégie de l'University College Cork (UCC) pour promouvoir la durabilité. Selon le rapport STARS, l'université a obtenu 4 points STARS sur 4 au crédit PA-3, niveau maximal (GRI 2-29).
+L'engagement des parties prenantes est un aspect clé de la stratégie de University College Cork (UCC) pour promouvoir la durabilité. Selon le rapport STARS, l'université a obtenu 4 points STARS sur 4 au crédit PA-3, niveau maximal (GRI 2-29).
 
 Cette note maximale reflète la forte implication de l'université dans l'engagement des parties prenantes. Les membres de l'Union des étudiants siègent au sein de l'autorité de gouvernance de l'université (Governing Authority), le plus haut organe décisionnel de l'université. Cette approche délibérative et participative permet aux étudiants de participer activement aux décisions stratégiques et politiques qui touchent la communauté universitaire.
 
@@ -250,26 +240,23 @@ L'établissement a obtenu un score de 2,15 points STARS sur 7 au crédit OP-9, n
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'University College Cork (UCC) a obtenu 3,8 points STARS sur 5 au crédit PA-13, niveau élevé, et 3 points STARS sur 3 au crédit PA-12, niveau maximal.
+University College Cork (UCC) a obtenu 3,8 points STARS sur 5 au crédit PA-13, niveau élevé, et 3 points STARS sur 3 au crédit PA-12, niveau maximal.
 
-Les différents congés du personnel, dont le congé de maternité, sont décrits dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs, les taux de retour ou les taux de rétention.
+Les différents congés du personnel, dont le congé de maternité, sont décrits dans le rapport STARS.
 
 L'UCC a également obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal, et 2 points STARS sur 2 au crédit PA-8, niveau maximal.
 
 La politique de diversité et d'inclusion de l'UCC est décrite dans le rapport STARS, notamment dans le cadre de l'Action Plan 2025 - 2028.
 
-La politique de santé, de sécurité et de bien-être de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation.
+La politique de santé, de sécurité et de bien-être de l'UCC est décrite dans le rapport STARS.
 
-La politique d'équité salariale et de salaire décent de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation.
+La politique d'équité salariale et de salaire décent de l'UCC est décrite dans le rapport STARS.
 
 L'UCC a également obtenu 2,5 points STARS sur 3 au crédit PA-10, niveau élevé.
 
 ### Limites et omissions
 
-Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de congé parental, de santé, de sécurité et de bien-être, ou d'équité salariale et de salaire décent.
-
-Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de diversité et d'inclusion.
-
+Ce rapport ne peut pas établir les effectifs ni les taux de participation, de retour ou de rétention liés aux politiques de congé, de santé, de sécurité et de bien-être, d'équité salariale et de salaire décent, et de diversité et d'inclusion.
 
 (GRI 202-1, GRI 401-2, GRI 401-3, GRI 403-1, GRI 403-3, GRI 403-4, GRI 403-6, GRI 405-1)
 
@@ -294,7 +281,7 @@ Ce rapport ne peut pas établir les effectifs ou les taux de participation pour 
 
 ### Enseignement, recherche et engagement
 
-L'Université College Cork (UCC) a démontré sa détermination à intégrer la durabilité dans ses programmes et activités. Les résultats des crédits STARS suivants reflètent cette approche :
+University College Cork (UCC) a démontré sa détermination à intégrer la durabilité dans ses programmes et activités. Les résultats des crédits STARS suivants reflètent cette approche :
 
 - L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal.
 - L'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé.
@@ -551,7 +538,7 @@ Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde
 
 1 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
 
-**Relecture hors pipeline** (6 octobre 2026) : 22 correction(s) dans 7 section(s). Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois validées par elle. Liste détaillée : `relecture/cork.yaml` et `outputs/relecture_humaine.md`. Le texte écrit par le modèle reste consultable dans `outputs/cache/`.
+**Relecture hors pipeline** (6 octobre 2026) : 27 correction(s) dans 7 section(s). Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois validées par elle. Liste détaillée : `relecture/cork.yaml` et `outputs/relecture_humaine.md`. Le texte écrit par le modèle reste consultable dans `outputs/cache/`.
 
 ## Vérifier ce rapport
 
