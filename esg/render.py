@@ -16,7 +16,7 @@ from pathlib import Path
 
 import markdown
 
-from esg import docx_export, facts, gri_index, guard, review, sources
+from esg import docx_export, facts, gri_index, guard, names, review, sources
 from esg.config import GEN_MODEL, INSTITUTIONS, OUTPUTS, PROCESSED, report_url
 
 PILLAR_ORDER = [("ENV", "Environnement"), ("SOC", "Social"), ("GOV", "Gouvernance"),
@@ -276,7 +276,7 @@ def report_md(key: str, results: list[dict]) -> str:
         for c in missing:
             print(f"   ATTENTION relecture : passage introuvable dans {key}/{r['section']} "
                   f"(texte régénéré depuis ?) : « {c['avant'][:70]} »")
-        parts.append(guard.tidy(guard.drop_marker_echo(text), r["title"]))
+        parts.append(names.normalize(key, guard.tidy(guard.drop_marker_echo(text), r["title"])))
     parts += ["", "## Index de contenu GRI", "", gri_index_md(key),
               "", "## Annexe — Correspondance STARS → GRI, TCFD, ESRS", "", frameworks_md(),
               "", "## Annexe — Validation du rapport", "", validation_md(results, key),
@@ -310,7 +310,7 @@ def comparison_md(comp: dict) -> str:
            "", "## Analyse", ""]
     if comp["decision"] == "à relire":
         md.append('<p class="review">Section à relire : validation automatique incomplète.</p>')
-    md += [guard.tidy(guard.drop_marker_echo(comp["text"]), comp["title"]), "", "## Validation", "",
+    md += [names.normalize_all(guard.tidy(guard.drop_marker_echo(comp["text"]), comp["title"])), "", "## Validation", "",
            validation_md([comp])]
     return "\n".join(md)
 

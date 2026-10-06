@@ -27,6 +27,10 @@ environnement:
     source: "OP-9, ligne 2 : « 5% would be the average of points assigned to sustainability … for example the 2023 waste tender assigned 20% of points for sustainability »"
 
 organisation:
+  - avant: " Elle est dénommée sous le nom de University College Cork dans le contexte de ce rapport."
+    apres: ""
+    raison: "Signalé par Wiem à la relecture : phrase sans information (le nom est déjà donné juste avant)."
+    source: "—"
   - avant: "avec le soutien de l'officier de la recherche et des données institutionnelles"
     apres: "avec l'appui de la fonction « Data and Institutional Research Officer » de l'université"
     raison: "Faux-ami : « officer » désigne une fonction (chargé de mission), pas un « officier »."
@@ -101,6 +105,22 @@ parties_prenantes:
     source: "PA-12, lignes 4-5 : « Freedom of Association is a fundamental right under the irish constitution » ; « the UCC Trade Union IFUT »"
 
 social:
+  - avant: ", mais les données ne permettent pas d'établir les effectifs, les taux de retour ou les taux de rétention."
+    apres: "."
+    raison: "Signalé par Wiem à la relecture : limite répétée dans le corps du texte alors qu'elle figure dans « Limites et omissions »."
+    source: "—"
+  - avant: "La politique de santé, de sécurité et de bien-être de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation."
+    apres: "La politique de santé, de sécurité et de bien-être de l'UCC est décrite dans le rapport STARS."
+    raison: "Signalé par Wiem à la relecture : même limite répétée (déjà dans « Limites et omissions »)."
+    source: "—"
+  - avant: "La politique d'équité salariale et de salaire décent de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation."
+    apres: "La politique d'équité salariale et de salaire décent de l'UCC est décrite dans le rapport STARS."
+    raison: "Signalé par Wiem à la relecture : même limite répétée (déjà dans « Limites et omissions »)."
+    source: "—"
+  - avant: "Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de congé parental, de santé, de sécurité et de bien-être, ou d'équité salariale et de salaire décent.\n\nCe rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de diversité et d'inclusion.\n\nCe rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de santé, de sécurité et de bien-être."
+    apres: "Ce rapport ne peut pas établir les effectifs ni les taux de participation, de retour ou de rétention liés aux politiques de congé, de santé, de sécurité et de bien-être, d'équité salariale et de salaire décent, et de diversité et d'inclusion."
+    raison: "Signalé par Wiem à la relecture : trois phrases de limites qui se répètent, regroupées en une seule."
+    source: "—"
   - avant: "La politique de congé parental de l'UCC est décrite dans le rapport STARS"
     apres: "Les différents congés du personnel, dont le congé de maternité, sont décrits dans le rapport STARS"
     raison: "Imprécis : la source décrit les types de congés et le congé de maternité, pas une « politique de congé parental »."

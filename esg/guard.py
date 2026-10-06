@@ -277,9 +277,40 @@ def tidy(text: str, section_title: str = "") -> str:
     if text and not re.search(r"[.!?»)\]]\s*$", text) and not LIST_ITEM.match(last):   # fin coupée (pas une liste)
         cut = max(text.rfind(". "), text.rfind(".\n"), text.rfind("\n\n"))
         text = text[:cut + 1] if cut > 0 else text
-    text = drop_repeats(text)
+    text = drop_repeats(merge_gri_refs(text))
     text = re.sub(r"(\n#{2,6} [^\n]*\s*)+$", "", text.rstrip())  # titre final sans contenu
     return text.strip()
+
+
+GRI_REF_LINE = re.compile(r"^\s*\(?GRI\s\d+(?:-\d+)?\)?(?:\s*,\s*\(?GRI\s\d+(?:-\d+)?\)?)*\s*$")
+
+
+def merge_gri_refs(text: str) -> str:
+    """Regroupe sur une ligne les renvois GRI empilés seuls (« (GRI 2-22) », « (GRI 2-23) »… sur des lignes
+    séparées) : « (GRI 2-22, GRI 2-23) ». Doublons retirés ; un titre arrête le regroupement."""
+    out, refs, blank = [], [], False
+
+    def merged() -> str:
+        return "(" + ", ".join(f"GRI {c}" for c in dict.fromkeys(refs)) + ")"
+
+    for line in text.split("\n"):
+        if GRI_REF_LINE.match(line):
+            refs += re.findall(r"GRI\s(\d+(?:-\d+)?)", line)
+            blank = False
+            continue
+        if refs and not line.strip():
+            blank = True
+            continue
+        if refs:
+            out.append(merged())
+            refs.clear()
+            if blank:
+                out.append("")
+            blank = False
+        out.append(line)
+    if refs:
+        out.append(merged())
+    return "\n".join(out)
 
 
 LIST_ITEM = re.compile(r"^\s*([*\-•]\s|\||\d+[.)]\s)")      # « **Gras** » n'est pas une liste

@@ -49,8 +49,13 @@ def split_row(line: str) -> list[str]:
     return [c.strip() for c in cells]
 
 
+def is_separator(line: str) -> bool:
+    """Ligne de séparation Markdown (« |---|:-:|--:| ») : ce n'est pas une ligne du tableau."""
+    return all(re.fullmatch(r":?-+:?", c) for c in split_row(line))
+
+
 def add_table(doc, lines: list[str]) -> None:
-    rows = [split_row(l) for l in lines if not re.match(r"^\|?\s*:?-{3,}", l.strip())]
+    rows = [split_row(l) for l in lines if not is_separator(l)]
     if not rows:
         return
     width = max(len(r) for r in rows)
