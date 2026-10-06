@@ -27,7 +27,8 @@ from esg.config import INSTITUTIONS, OUTPUTS, ROOT
 FOLDER = ROOT / "relecture"
 JINJA = Environment(undefined=StrictUndefined, autoescape=False)
 CREDIT_MARKER = re.compile(r"(AC|EN|OP|PA|IL|PRE)(\d+)")
-CODES = re.compile(r"\b(?:AC|EN|OP|PA|IL|PRE)-\d+\b|\bGRI \d+(?:-\d+)?\b")   # codes, pas des chiffres
+CODES = re.compile(r"\b(?:AC|EN|OP|PA|IL|PRE)-\d+\b|\bGRI \d+(?:-\d+)?\b|"    # codes, pas des chiffres
+                   r"\bscopes? [123](?: et [123])?\b|\bISO \d{3,5}(?:-\d+)?\b")
 
 
 class ReviewError(ValueError):

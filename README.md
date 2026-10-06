@@ -136,9 +136,9 @@ interrompt la génération (le cache permet de reprendre).
   GRI 305 reste valable pour un rapport publié en 2026).
 - **Juge 8B imparfait** : il garantit peu le sens. Sur les 8 sections de Dublin relues à la main, il a
   vu 1 erreur sur 24 (contenu inventé, mauvais rattachement, traduction fausse), alors que les chiffres
-  étaient tous justes. D'où la relecture hors pipeline (`relecture/`) : Dublin en entier, puis les sections
-  Environnement de Berkeley et de Cork, où le modèle invente le plus. Les autres sections de Berkeley et
-  de Cork n'ont pas encore été relues (voir `BILAN_TESTS.md`).
+  étaient tous justes. D'où la relecture hors pipeline (`relecture/`) des 24 sections des trois rapports,
+  proposée par Claude Code et à valider par Wiem (voir `BILAN_TESTS.md`, sections 9 et 10). Une section
+  régénérée doit être relue à nouveau (le rendu signale toute correction qui ne correspond plus au texte).
 - **Peu de chiffres dans la prose** : le modèle utilise rarement les marqueurs ; les scores sont
   surtout présentés dans les tableaux écrits par le code en tête de chaque section.
 - **Piliers E/S/G** : regroupement raisonné des crédits STARS (repris de Hakim), pas officiel.

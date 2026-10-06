@@ -177,10 +177,10 @@ def validated_generation(*, tag: str, prompt: str, values: dict, judge_statuses:
                          fallback: str, cache, use_cache: bool = True, log=print) -> dict:
     """Boucle rédaction -> garde-fou -> substitution -> juge -> régénération (voir docstring du module)."""
     prompt_hash = hashlib.sha256((WRITER_SYSTEM + prompt).encode("utf-8")).hexdigest()[:16]
-    round_ = 0                      # nouvelle série après un repli : autre graine, sinon même texte
-    if use_cache and cache.exists():
+    round_ = 0                      # nouvelle série (repli ou --no-cache) : autre graine, sinon même texte
+    if cache.exists():
         cached = json.loads(cache.read_text(encoding="utf-8"))
-        if cached.get("prompt_hash") == prompt_hash and cached.get("decision") != "repli":
+        if use_cache and cached.get("prompt_hash") == prompt_hash and cached.get("decision") != "repli":
             log(f"   [{tag}] depuis le cache ({cached['decision']})")
             return cached
         round_ = cached.get("round", 0) + 1

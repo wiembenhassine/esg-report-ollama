@@ -99,3 +99,13 @@ def test_repeated_full_marker_is_cleaned_in_the_rendered_text():
 def test_empty_reference_lists_are_removed():
     assert guard.tidy("Les sociétés étudiantes (Ref, Ref) et le programme (Refs 2, 3) existent (Ref ).") == \
         "Les sociétés étudiantes et le programme existent."
+
+
+def test_repeated_credit_label_is_cleaned():
+    """Cas réel (Cork, enseignement, 10 lignes) : « …niveau maximal au crédit AC-1 Offre de cours…, niveau maximal »."""
+    cork = ("- L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal au crédit AC-1 "
+            "Offre de cours en durabilité, niveau maximal.")
+    assert guard.drop_marker_echo(cork) == \
+        "- L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal."
+    other_level = "obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal Grâce à ses cours, niveau élevé."
+    assert guard.drop_marker_echo(other_level) == other_level

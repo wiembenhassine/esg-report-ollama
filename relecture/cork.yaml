@@ -1,15 +1,107 @@
-# Relecture hors pipeline — rapport de University College Cork, section Environnement (6 octobre 2026).
+# Relecture hors pipeline — rapport de University College Cork, toutes les sections (6 octobre 2026).
 # Corrections proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine ; à valider par elle.
-# Le texte du modèle ne contient aucune affirmation inventée : il ne contient que la liste des scores
-# (déjà nettoyée par le code : marqueur répété, « Voici la section rédigée : »). Restent deux défauts de
-# forme, corrigés ici. Appliqué par le code au rendu (esg/review.py).
+# La section Environnement a été régénérée le 6 octobre (vrai texte au lieu d'une liste de scores, 3e série
+# de graines) puis relue. Appliqué par le code au rendu (esg/review.py) ; « apres » vide = phrase supprimée.
+# Aucun chiffre tapé à la main : {{ ID }} = valeur de facts.csv.
 
 environnement:
   - avant: "**Environnement**\n\n"
     apres: ""
     raison: "Titre en double : la section a déjà son titre « Performance environnementale »."
     source: "—"
-  - avant: "**Part des points STARS obtenus dans le pilier Environnement**\n\n**Pourcentage de points assignés à la durabilité dans le texte STARS (OP-9)**"
+  - avant: "Cette performance est due à l'utilisation d'un système de comptage des émissions de gaz à effet de serre (GHG) selon les normes du GHG Protocol et de l'ISO."
+    apres: "Les émissions sont calculées par le prestataire Sustineo selon le GHG Protocol et la norme ISO 14064-1 : une approche descendante à partir des dépenses repère les postes principaux, puis une approche ascendante utilise des données primaires."
+    raison: "Lien de cause inventé : rien ne dit que le score « est dû » à la méthode de calcul ; la source décrit seulement comment les émissions sont calculées."
+    source: "OP-6, ligne 1 : « Calculated by our contracted supplier Sustineo to GHG Protocol standards and ISO 14064-1. A top down method… A bottom up methodology… »"
+  - avant: "Nous soumettons également des données à l'Autorité irlandaise de l'énergie durable pour rapporter sur les mandats climatiques de l'Université auprès du gouvernement. Ce rapport est mis à jour chaque année."
+    apres: "L'université transmet aussi ses données à l'Autorité irlandaise de l'énergie durable (SEAI), pour rendre compte au gouvernement de son mandat climatique ; ces données sont mises à jour chaque année."
+    raison: "Première personne (« Nous ») recopiée de la source : le rapport parle de l'université à la troisième personne."
+    source: "OP-6, ligne 1 : « UCC also submits data to the Sustainable Energy Authority of Ireland to report on the University's Climate Mandate to government. This is updated annually »"
+  - avant: "Dans le bâtiment Western Gateway, l'eau de refroidissement du pompier à chaleur (GSHP) est utilisée pour remplir les réservoirs d'eau utilisés pour le vidange des toilettes."
+    apres: "Dans le bâtiment Western Gateway, l'eau rejetée par la pompe à chaleur géothermique (Ground Source Heat Pump) sert à remplir les réservoirs des chasses d'eau des toilettes."
+    raison: "Contresens de traduction : « pompier à chaleur » au lieu de « pompe à chaleur » ; il s'agit de l'eau rejetée (discharge water), pas d'eau de refroidissement."
+    source: "OP-3, ligne 2 : « discharge water from the Ground Source Heat Pump (GSHP) is used to fill water storage tanks used in the flushing of toilets »"
+  - avant: "Le pourcentage de points attribués à la durabilité pour les activités de certains achats est de 5 %."
+    apres: "En moyenne, {{ OP9_t1_0 }} des points d'évaluation des appels d'offres portent sur la durabilité, et davantage pour les achats à fort impact environnemental : {{ OP9_t1_2 }} pour l'appel d'offres sur les déchets de {{ OP9_t1_1 }}."
+    raison: "Mal compris : 5 % est la part moyenne des points d'évaluation consacrée à la durabilité dans les appels d'offres, pas celle de « certains achats »."
+    source: "OP-9, ligne 2 : « 5% would be the average of points assigned to sustainability … for example the 2023 waste tender assigned 20% of points for sustainability »"
+
+organisation:
+  - avant: "avec le soutien de l'officier de la recherche et des données institutionnelles"
+    apres: "avec l'appui de la fonction « Data and Institutional Research Officer » de l'université"
+    raison: "Faux-ami : « officer » désigne une fonction (chargé de mission), pas un « officier »."
+    source: "PRE-4, ligne 1"
+  - avant: "au comité de direction sur la durabilité et l'action climatique"
+    apres: "au sous-comité de l'équipe de direction de l'université sur la durabilité et l'action climatique, présidé par la présidence de l'université"
+    raison: "Imprécis : c'est un sous-comité de l'équipe de direction (ULT Subcommittee), présidé par la présidence de l'université."
+    source: "PRE-4, ligne 4 : « University Leadership Team Subcommittee on Sustainability and Climate Action, which is chaired by the University President »"
+  - avant: "\n\n### Limites et omissions\n\nCe rapport ne couvre pas les entités suivantes : les sociétés filiales de l'université, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin).\n\n(GRI 2-4, GRI 2-8)"
     apres: ""
-    raison: "Titres vides : les phrases qui suivaient ont été retirées par le garde-fou (« {{ ENV }} % », pourcentage mal employé)."
+    raison: "Répétition : les filiales exclues sont déjà indiquées plus haut, sous un second titre « Limites et omissions » en double ; GRI 2-4 et 2-8 ne correspondent pas à ce contenu."
+    source: "PRE-3, ligne 1"
+
+materialite:
+  - avant: "L'université a mis en place la Stratégie de durabilité et d'action climatique (Sustainability and Climate Action Plan) pour atteindre ses objectifs. Cette stratégie vise"
+    apres: "L'université a adopté un plan de durabilité et d'action climatique (Sustainability and Climate Action Plan, {{ PA2_t0_0 }}-{{ PA2_t0_1 }}), qui prolonge sa stratégie de durabilité de {{ PA2_t0_2 }}. Ce plan vise"
+    raison: "Confusion entre deux documents : le « Sustainability and Climate Action Plan » est un plan, qui prolonge l'ancienne stratégie de durabilité (Sustainability Strategy)."
+    source: "PA-2, ligne 1 : « The Sustainability and Climate Action Plan (2023-2028) builds on the successes of UCC's Sustainability Strategy (2016) »"
+  - avant: "notamment devenir un campus sans déchets (zero waste campus) d'ici 2030 et un campus neutre en carbone (carbon neutral campus) d'ici 2030."
+    apres: "notamment devenir un campus sans déchets (zero waste campus) d'ici {{ PA1_t2_0 }} et un campus neutre en carbone (carbon neutral campus) d'ici {{ PA1_t2_1 }}."
+    raison: "Date fausse : la neutralité carbone est visée pour 2040, pas 2030."
+    source: "PA-1, ligne 3 : « becoming a zero waste campus by 2030 and a carbon neutral campus by 2040 »"
+  - avant: "L'université a également mis en place des plans pour réduire ses émissions de gaz à effet de serre (GHG) de 51 % d'ici 2030."
+    apres: "Le plan prévoit de dépasser l'objectif fixé par le gouvernement irlandais, soit une baisse de {{ PA2_t12_0 }} des émissions de scopes 1 et 2 d'ici {{ PA2_t12_1 }}, et d'atteindre zéro émission nette de gaz à effet de serre au total d'ici {{ PA2_t12_2 }}."
+    raison: "Incomplet : 51 % est l'objectif imposé par le gouvernement (scopes 1 et 2), que le plan prévoit de dépasser, avec zéro émission nette en 2040."
+    source: "PA-2, ligne 13 : « Exceed government target of reducing scope 1 and 2 GHG emissions by 51% by 2030 and achieving net zero total GHG emissions by 2040 »"
+  - avant: "Ce rapport ne peut pas établir si l'université a mis en place des plans pour réduire ses émissions de GHG au-delà de 51 %."
+    apres: "Ce rapport ne peut pas établir, pour chaque thème matériel, les impacts, les actions engagées et le suivi de leur efficacité."
+    raison: "Contredit la source : le plan prévoit justement de dépasser l'objectif de 51 % ; la limite à signaler pour GRI 3-3 est la gestion des thèmes matériels."
+    source: "PA-2, ligne 13"
+
+gouvernance:
+  - avant: "L'office est responsable de la mise en œuvre de la stratégie de durabilité de l'université"
+    apres: "L'office est responsable de la mise en œuvre du plan de durabilité et d'action climatique"
+    raison: "Même confusion plan / stratégie : l'office met en œuvre le plan."
+    source: "PA-1, ligne 2 : « The office has overall responsibility for the implementation of the plan »"
+  - avant: "L'Université a signé l'engagement des Nations Unies sur les Principes pour une investissement responsable (PRI), ce qui implique l'intégration des questions de durabilité environnementale, sociale et de gouvernance (ESG) dans les processus d'analyse et de décision d'investissement. L'Université a également mis en place des politiques de propriété et de pratiques d'investissement qui tiennent compte des questions ESG."
+    apres: "L'université est signataire des Principes pour l'investissement responsable des Nations unies (UN PRI). Elle s'est ainsi engagée à intégrer les questions environnementales, sociales et de gouvernance (ESG) dans l'analyse et les décisions d'investissement, à être un actionnaire actif et à intégrer ces questions dans ses politiques et pratiques d'actionnaire."
+    raison: "Surinterprétation : la source décrit des engagements pris en signant les PRI, pas des politiques déjà « mises en place »."
+    source: "PA-4, ligne 4 : « As a signatory of the UN PRI, UCC have agreed • To incorporate ESG issues into investment analysis… • To be an active owner… »"
+  - avant: ", et les informations sur les fonds d'investissement sont disponibles sur les liens fournis."
+    apres: ", qui publie une présentation de ses fonds d'investissement ; le rapport de transparence UN PRI de l'université détaille les types d'investissements."
+    raison: "Renvoie à des « liens fournis » absents du rapport."
+    source: "PA-5, lignes 1-2"
+
+strategie:
+  - avant: "L'Université College Cork (UCC) a élaboré la Stratégie de durabilité et d'action climatique (The Sustainability and Climate Action Plan), qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université. Cette stratégie est élaborée en référence aux normes GRI."
+    apres: "L'University College Cork (UCC) a élaboré un plan de durabilité et d'action climatique (Sustainability and Climate Action Plan), qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université."
+    raison: "Inventé et interdit : rien n'indique que ce plan est élaboré « en référence aux normes GRI » ; « stratégie » au lieu de « plan »."
+    source: "PA-2, ligne 1"
+  - avant: "est soutenu par la Stratégie de durabilité et d'action climatique. Cette stratégie a été élaborée"
+    apres: "s'appuie sur le plan de durabilité et d'action climatique. Ce plan a été élaboré"
+    raison: "Même confusion plan / stratégie."
+    source: "PA-1, ligne 1 : « It is supported by the Sustainability and Climate Action Plan. This plan was developed following extensive consultation »"
+  - avant: "notamment en matière de recrutement de fournisseurs durables. Ainsi,"
+    apres: "notamment dans ses appels d'offres :"
+    raison: "Contresens : il ne s'agit pas de « recrutement de fournisseurs » mais de critères de durabilité dans les appels d'offres."
+    source: "OP-9, ligne 1 : « 21% of tenders included supplier sustainability specifications and 54% of tenders included product sustainability considerations »"
+
+parties_prenantes:
+  - avant: "l'Autorité de gouvernement de l'université"
+    apres: "l'autorité de gouvernance de l'université (Governing Authority)"
+    raison: "Traduction fausse de « Governing Authority »."
+    source: "PA-3, ligne 3"
+  - avant: "de l'humanité et du planète"
+    apres: "de l'humanité et de la planète"
+    raison: "Coquille (non comptée comme erreur)."
     source: "—"
+  - avant: "Enfin, l'université respecte les droits des salariés, en tant que droit fondamental de la Constitution irlandaise (PA-12)."
+    apres: "Enfin, la liberté d'association est rappelée comme un droit fondamental garanti par la Constitution irlandaise, et le syndicat IFUT est présenté sur le site de l'université (PA-12)."
+    raison: "Généralisation : la source parle de la liberté d'association, pas des « droits des salariés » en général."
+    source: "PA-12, lignes 4-5 : « Freedom of Association is a fundamental right under the irish constitution » ; « the UCC Trade Union IFUT »"
+
+social:
+  - avant: "La politique de congé parental de l'UCC est décrite dans le rapport STARS"
+    apres: "Les différents congés du personnel, dont le congé de maternité, sont décrits dans le rapport STARS"
+    raison: "Imprécis : la source décrit les types de congés et le congé de maternité, pas une « politique de congé parental »."
+    source: "PA-12, lignes 1 à 3"

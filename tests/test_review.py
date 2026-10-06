@@ -87,3 +87,12 @@ def test_near_repeat_is_removed_but_different_credits_are_kept():
     assert guard.drop_repeats(credits) == credits
     years = "Le plan vise la neutralité d'ici 2030 pour le campus. Le plan vise la neutralité d'ici 2050 pour le campus."
     assert guard.drop_repeats(years) == years
+
+
+def test_berkeley_benefits_rate_is_no_longer_a_minimum_wage():
+    """Erreur signalée : 42,8 % est le taux composite des avantages sociaux (CBR), pas un salaire minimum."""
+    before, after = cached("berkeley", "social"), corrected("berkeley", "social")
+    assert "Le salaire minimum local est de 42,8" in before
+    assert "Le salaire minimum local est de" not in after and "valeur actuelle" not in after
+    assert "taux composite des avantages sociaux (CBR), actuellement de 42,8 %" in after
+    assert "est de 2021" not in after                                  # une année n'est plus une proportion

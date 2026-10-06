@@ -81,7 +81,9 @@ def drop_double_percent(text: str, markers: dict) -> str:
 CREDIT_SHOWN = (r"(?P<d>\d+(?:,\d+)? points? STARS sur \d+(?:,\d+)? au crédit (?P<c>[A-Z]{2,3}-\d+), "
                 r"niveau (?P<l>\w+))")
 CREDIT_ECHO = re.compile(CREDIT_SHOWN + r"(?:\s+points?(?:\s+STARS)?\s+sur\s+(?P=d))?"
-                         r"(?:\s+au crédit (?P=c))?(?:,?\s+niveau (?P=l))?")
+                         r"(?:\s+au crédit (?P=c))?"
+                         # libellé du crédit répété, seulement s'il est suivi du même niveau (Cork, 10 lignes)
+                         r"(?:(?:\s+[A-ZÉÈ][^,.;:]{0,60})?,?\s+niveau (?P=l))?")
 OVERALL_ECHO = re.compile(r"(?:\b(?:un |le )?score STARS global(?: de)?\s+)+(?=un score STARS global de \d)")
 
 

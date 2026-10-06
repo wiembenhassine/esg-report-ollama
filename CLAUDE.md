@@ -40,7 +40,10 @@ Les livrables (rapports) sont en **français**.
   fidélité (≥ 80 %) plus la note (≥ 3/5) ou des violations toutes écartées. Les points de
   vigilance et les tableaux d'indicateurs sont rendus par le code, pas confiés au modèle.
 - Sortie du rédacteur coupée par `num_predict` : `guard.tidy` retire la phrase incomplète.
-- Une section en « repli » n'est jamais reprise du cache ; une nouvelle série change la graine.
+- Une section en « repli » n'est jamais reprise du cache ; une nouvelle série change la graine. `--no-cache`
+  aussi change de graine si une version existe (sinon le modèle réécrit exactement le même texte).
+- **Relecture** : `relecture/<univ>.yaml` est appliqué au rendu (`esg/review.py`). Régénérer une section
+  rend ses corrections caduques (« ATTENTION relecture » au rendu, test en échec) : la relire à nouveau.
 - Lancer les longues exécutions en processus détaché (`Start-Process`) avec un journal dans
   `outputs/logs/` ; une mise en veille du PC tue la génération (le cache permet de reprendre).
 - Console Windows : `sys.stdout.reconfigure(encoding="utf-8")` dans les points d'entrée.
