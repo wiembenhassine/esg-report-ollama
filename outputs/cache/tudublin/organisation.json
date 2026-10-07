@@ -1,79 +1,77 @@
 {
- "prompt_hash": "5a0822c96d4d9fb7",
- "round": 0,
+ "prompt_hash": "42cbd7b13dd2d2a9",
+ "round": 1,
  "decision": "validée",
- "text": "### Organisation, périmètre et effectifs\n\nL'Université technologique de Dublin est une institution d'enseignement supérieur irlandaise. Le rapport STARS 3.0 de l'université a obtenu un score STARS global de un score STARS global de 83,35. Le rapport a été soumis le 2 décembre 2024.\n\nL'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derrière chaque question STARS. Cette étude a permis de suivre la chaîne d'approvisionnement de l'information. Une deuxième étude a identifié les systèmes d'information qui détiennent les informations requises par STARS ou exploitable pour le rapport.\n\nLes représentants de l'Union des étudiants et les membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux étudiants. \n\n(GRI 2-3)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE. (GRI 2-5)",
+ "text": "### Organisation, périmètre et effectifs\n\nL'université est membre de Technological University Dublin (Irlande) et a soumis son rapport STARS 3.0. Le rapport a obtenu un score STARS global de 83,35. \n\nL'université a mené une vaste étude de cartographie pour identifier les personnes chargées de collecter, de traiter et de valider les informations nécessaires à la réponse aux questions STARS. Cette étude a permis de suivre la chaîne d'information de la collecte des informations. Un deuxième exercice de cartographie a identifié les systèmes informatiques qui détiennent les informations requises.\n\nLes représentants de l'Union des étudiants membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux étudiants. \n\n### Limites et omissions\nCe rapport ne peut pas établir la fréquence de publication, la date de publication ou le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE.",
  "used_facts": [
-  "STARS_date",
   "STARS_score"
  ],
  "judge_score": 4,
  "faithfulness": 1.0,
- "gri_coverage": 1.0,
+ "gri_coverage": 0.0,
  "unsupported_claims": [],
  "discarded_violations": [],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 396.1,
+ "seconds": 450.7,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Organisation, périmètre et effectifs\n\nL'Université technologique de Dublin est une institution d'enseignement supérieur irlandaise. Le rapport STARS 3.0 de l'université a obtenu un score STARS global de {{ STARS_score }}. Le rapport a été soumis le {{ STARS_date }}.\n\nL'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derrière chaque question STARS. Cette étude a permis de suivre la chaîne d'approvisionnement de l'information. Une deuxième étude a identifié les systèmes d'information qui détiennent les informations requises par STARS ou exploitable pour le rapport.\n\nLes représentants de l'Union des étudiants et les membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux étudiants. \n\n(GRI 2-3)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE. (GRI 2-5)",
-   "gen_seconds": 175.8,
-   "prompt_tokens": 1824,
-   "output_tokens": 280,
+   "draft": "### Organisation, périmètre et effectifs\n\nL'université est membre de Technological University Dublin (Irlande) et a soumis son rapport STARS 3.0. Le rapport a obtenu un score STARS global de {{ STARS_score }}. \n\nL'université a mené une vaste étude de cartographie pour identifier les personnes chargées de collecter, de traiter et de valider les informations nécessaires à la réponse aux questions STARS. Cette étude a permis de suivre la chaîne d'information de la collecte des informations. Un deuxième exercice de cartographie a identifié les systèmes informatiques qui détiennent les informations requises.\n\nLes représentants de l'Union des étudiants membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux étudiants. \n\n### Limites et omissions\nCe rapport ne peut pas établir la fréquence de publication, la date de publication ou le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE.",
+   "gen_seconds": 177.7,
+   "prompt_tokens": 1771,
+   "output_tokens": 250,
    "raw_guard_problems": [],
    "removed_sentences": [],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 1.0,
+   "gri_coverage": 0.0,
    "lint_notes": [
-    "longueur de 151 mots : vise 180 à 300 mots"
+    "longueur de 145 mots : vise 180 à 300 mots",
+    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 2-3), (GRI 2-5)"
    ],
-   "rendered": "### Organisation, périmètre et effectifs\n\nL'Université technologique de Dublin est une institution d'enseignement supérieur irlandaise. Le rapport STARS 3.0 de l'université a obtenu un score STARS global de un score STARS global de 83,35. Le rapport a été soumis le 2 décembre 2024.\n\nL'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derrière chaque question STARS. Cette étude a permis de suivre la chaîne d'approvisionnement de l'information. Une deuxième étude a identifié les systèmes d'information qui détiennent les informations requises par STARS ou exploitable pour le rapport.\n\nLes représentants de l'Union des étudiants et les membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux étudiants. \n\n(GRI 2-3)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE. (GRI 2-5)",
+   "rendered": "### Organisation, périmètre et effectifs\n\nL'université est membre de Technological University Dublin (Irlande) et a soumis son rapport STARS 3.0. Le rapport a obtenu un score STARS global de 83,35. \n\nL'université a mené une vaste étude de cartographie pour identifier les personnes chargées de collecter, de traiter et de valider les informations nécessaires à la réponse aux questions STARS. Cette étude a permis de suivre la chaîne d'information de la collecte des informations. Un deuxième exercice de cartographie a identifié les systèmes informatiques qui détiennent les informations requises.\n\nLes représentants de l'Union des étudiants membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux étudiants. \n\n### Limites et omissions\nCe rapport ne peut pas établir la fréquence de publication, la date de publication ou le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE.",
    "used_facts": [
-    "STARS_date",
     "STARS_score"
    ],
    "trace_problems": [],
    "used_markers": [
-    "STARS_date",
     "STARS_score"
    ],
    "judge": {
     "claims": [
      {
-      "claim": "L'Université technologique de Dublin est une institution d'enseignement supérieur irlandaise.",
+      "claim": "L'université est membre de Technological University Dublin (Irlande)",
       "supported": true
      },
      {
-      "claim": "Le rapport STARS 3.0 de l'université a obtenu un score STARS global de 83,35.",
+      "claim": "Le rapport a obtenu un score STARS global de 83,35",
       "supported": true
      },
      {
-      "claim": "Le rapport a été soumis le 2 décembre 2024.",
+      "claim": "L'université a mené une vaste étude de cartographie pour identifier les personnes chargées de collecter, de traiter et de valider les rense.",
       "supported": true
      },
      {
-      "claim": "L'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derî",
+      "claim": "Les représentants de l'Union des étudiants membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux",
       "supported": true
      },
      {
-      "claim": "Les représentants de l'Union des étudiants et les membres du Conseil de durabilité de l'université ont contribué à répondre aux questions li",
+      "claim": "Ce rapport ne peut pas établir la fréquence de publication, la date de publication ou le point de contact de l'université.",
       "supported": true
      },
      {
-      "claim": "Ce rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université.",
+      "claim": "Les données STARS sont autodéclarées et non vérifiées par l'AASHE.",
       "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport présente une disclosure comme pleinement rapportée alors que la liste de statut GRI dit le contraire (GRI 2-3)"
+     "Le rapport présente un score STARS global comme un fait, mais il ne s'agit que d'une information générale."
     ],
     "score": 4,
-    "feedback": "Supprimer la phrase 'L'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derî' car elle n'est pas étayée par les sources. La phrase 'Les représentants de l'Union des étudiants et les membres du Conseil de durabilité de l'université ont contribué à répondre aux questions li' est étayée par les sources, mais il faut supprimer la mention de 'Conseil de durabilité' car elle n'est pas mentionnée dans les sources. La G",
+    "feedback": "Supprimer la phrase 'Le rapport a obtenu un score STARS global de 83,35' car elle présente un score STARS global comme un fait, mais il ne s'agit que d'une information générale. La phrase doit être remplacée par 'Le rapport a obtenu un score STARS global de 83,35, selon les informations fournies par STARS.'",
     "faithfulness": 1.0,
-    "seconds": 220.2,
+    "seconds": 272.9,
     "discarded_violations": [],
     "accepted": true
    }
@@ -85,7 +83,7 @@
  "evidence": [
   {
    "credit": "PRE-4",
-   "text": "An extensive mapping exercise identifying which people collect, process and validate information behind each STARS questions has been conducted. The supply chain of information was tracked as information was seeked. A second mapping exercise looked at identifying which IT system holds which pieces of information requested in STARS or exploitable to report in STARS. Each stakeholder were given the user manual, the section of the user manual relevant to them, STARS Tracking Worksheet templates complemented with all the credit criteria information and examples provided in the manual. STARS Tracking Worksheets were customised to groups of stakeholders with people designated to input and function"
+   "text": "An extensive mapping exercise identifying which people collect, process and validate information behind each STARS questions has been conducted. The supply chain of information was tracked as information was seeked. A second mapping exercise looked at identifying which IT system holds which pieces of information reques"
   },
   {
    "credit": "PRE-4",
@@ -93,7 +91,7 @@
   },
   {
    "credit": "PRE-4",
-   "text": "Aideen Gurrin, Aimee Byrne, Alan Bruce, Anne Campion, Aoibheana Hobson, Ayesha O'Reilly, Beatriz Lorenzo, Brendon Duffy, Brendan Jennings, Brian Gormley, Brian Jordan, Bronagh Elliot, Catherina Benson, Claire Flannery, Collette Burns, Damian Bruce, David Gavin, Dorothy Dalton, Dusan Kovacevic, Edel Niland, Elizabeth Darcy, Frances Madden, Helena Fitzgerald, Hugh Byrne, Iseult O'Siochain, Jennifer Boyer, Jennifer Farrell, Jesus Frias, Jimmy Kane, Joanne Kearney, Ken Boyle, Lindsay Dowling, Lorraine D'Arcy, Lucia Walsh, Mark Geraghty, Mark Russell, Mary Deasy, Melody Chinenyanga, Nick Skelly, Olivia Freeman, Orlaith McEvoy, Paul Campbell, Paul Coleman, Rachel Freeman, Rachel O'Connor, Rebecca "
+   "text": "Aideen Gurrin, Aimee Byrne, Alan Bruce, Anne Campion, Aoibheana Hobson, Ayesha O'Reilly, Beatriz Lorenzo, Brendon Duffy, Brendan Jennings, Brian Gormley, Brian Jordan, Bronagh Elliot, Catherina Benson, Claire Flannery, Collette Burns, Damian Bruce, David Gavin, Dorothy Dalton, Dusan Kovacevic, Edel Niland, Elizabeth Da"
   }
  ]
 }

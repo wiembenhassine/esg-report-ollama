@@ -1,117 +1,72 @@
 {
- "prompt_hash": "75e8622ca93a8f06",
- "round": 0,
+ "prompt_hash": "440684f88d5d2c3f",
+ "round": 1,
  "decision": "validée",
- "text": "### Gouvernance\n\nL'université de Californie à Berkeley a plusieurs officiers de durabilité dans le Bureau de la durabilité, la Haas et le SERC. L'université de Californie à Berkeley inclut des représentants étudiants dans son organe de décision le plus élevé, le conseil des régents de l'université de Californie. Bien que le conseil des régents gouverne l'ensemble du système de l'université de Californie et non seulement le campus de Berkeley, il exerce l'autorité ultime sur les politiques, les finances et la planification stratégique de l'université de Californie, y compris le campus de Berkeley.\n\nL'université de Californie à Berkeley a plusieurs organes en cours qui permettent aux membres du personnel académique de participer à la gouvernance de l'institution. Le principal organe est la division de Berkeley de l'Académie de la durabilité, qui fait partie du Sénat académique de l'université de Californie. Ce Sénat fournit aux membres du personnel académique un moyen structuré et démocratique de participer à la gouvernance du campus et à la prise de décision.\n\nL'université de Californie à Berkeley obtient 3,5 points STARS sur 4 au crédit PA-3, niveau élevé.\n\nL'université de Californie à Berkeley obtient 4 points STARS sur 4 au crédit PA-4, niveau maximal.\n\nL'université de Californie à Berkeley obtient 2,51 points STARS sur 6 au crédit PA-5, niveau intermédiaire.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la structure et la composition de la gouvernance de l'université de Californie à Berkeley, en particulier les catégories GRI 2-10 à GRI 2-21, qui ne sont pas couvertes par STARS.",
+ "text": "### Gouvernance\n\nL'université obtient 3,5 points STARS sur 4 au crédit PA-3, niveau élevé.\n\nL'Office de la durabilité (Office of Sustainability) fournit une direction du campus en fixant des objectifs de durabilité ambitieux et des stratégies, et en accélérant la réalisation de ces objectifs grâce à la mise en œuvre de projets, à la planification, aux partenariats et à la participation de la communauté. (GRI 2-9)\n\nL'Académie du Sénat (Academic Senate) des professeurs de l'université joue un rôle dans les responsabilités de gouvernance partagées établies par les Régents (The Regents). Le Sénat est investi par le corps de gouvernance de l'université, le Conseil des Régents (Board of Regents), de la prise de décision directe sur les affaires académiques importantes pour l'université. (GRI 2-13)\n\nLe Conseil des Régents (Board of Regents) de l'université comprend des représentants étudiants. Bien que le Conseil des Régents gouverne le système universitaire de la Californie, il est la principale autorité sur les politiques, les finances et la planification stratégique de l'université. (GRI 2-14)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a défini des critères pour l'indépendance des membres de son organe de gouvernance, ou si elle a mis en place des procédures pour garantir la représentation de la diversité de genre au sein de son organe de gouvernance.",
  "used_facts": [
   "PA3_max",
-  "PA3_score",
-  "PA4_max",
-  "PA4_score",
-  "PA5_max",
-  "PA5_score"
+  "PA3_score"
  ],
  "judge_score": 4,
  "faithfulness": 1.0,
- "gri_coverage": 0.0,
+ "gri_coverage": 1.0,
  "unsupported_claims": [],
  "discarded_violations": [],
- "attempts": 2,
- "guard_rejections": 1,
- "seconds": 738.9,
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 507.0,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Gouvernance\n\nL'université de Californie, Berkeley, a mis en place plusieurs Sustainability Officers dans l'Office de la durabilité, HAAS et SERC ({{ PA1 }}). L'organe de gouvernance de l'université, le Conseil des régents de l'université de Californie, comprend des représentants étudiants, ce qui permet une gouvernance inclusive ({{ PA3 }}). Les membres du corps professoral de l'Académie de la faculté participent à la gouvernance de l'établissement par le biais de la division de Berkeley de l'Académie de la faculté, qui est partie intégrante du système de l'Académie de la faculté de l'université de Californie ({{ PA3 }}).\n\nL'université de Californie, Berkeley, a adopté une politique d'investissement durable qui prend en compte les risques ESG matériels avec la même importance que les autres risques d'investissement ({{ PA4 }}). L'université a également mis en place un portefeuille d'investissements positifs pour la durabilité qui couvre diverses classes d'actifs, notamment l'équité publique, l'immeuble et la private equity ({{ PA5 }}).\n\n(GRI 2-9)\n\n(GRI 2-13)\n\n(GRI 2-14)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition de l'organe de gouvernance de l'université, notamment le nombre de membres, leur indépendance et leur représentation du genre.",
-   "gen_seconds": 207.3,
-   "prompt_tokens": 2173,
-   "output_tokens": 358,
-   "raw_guard_problems": [
-    "marqueur {{ PA1 }} sans verbe de score : écris par exemple « obtient {{ PA1 }} »",
-    "marqueur {{ PA3 }} sans verbe de score : écris par exemple « obtient {{ PA3 }} »",
-    "marqueur {{ PA3 }} sans verbe de score : écris par exemple « obtient {{ PA3 }} »",
-    "marqueur {{ PA5 }} sans verbe de score : écris par exemple « obtient {{ PA5 }} »",
-    "sigle SERC mal développé (« {{ PA1 }} ») : SERC = Student Environmental Resource Center (centre étudiant de ressources environnementales, UC Berkeley)"
-   ],
+   "draft": "### Gouvernance\n\nL'université obtient {{ PA3 }}.\n\nL'Office de la durabilité (Office of Sustainability) fournit une direction du campus en fixant des objectifs de durabilité ambitieux et des stratégies, et en accélérant la réalisation de ces objectifs grâce à la mise en œuvre de projets, à la planification, aux partenariats et à la participation de la communauté. (GRI 2-9)\n\nL'Académie du Sénat (Academic Senate) des professeurs de l'université joue un rôle dans les responsabilités de gouvernance partagées établies par les Régents (The Regents). Le Sénat est investi par le corps de gouvernance de l'université, le Conseil des Régents (Board of Regents), de la prise de décision directe sur les affaires académiques importantes pour l'université. (GRI 2-13)\n\nLe Conseil des Régents (Board of Regents) de l'université comprend des représentants étudiants. Bien que le Conseil des Régents gouverne le système universitaire de la Californie, il est la principale autorité sur les politiques, les finances et la planification stratégique de l'université. (GRI 2-14)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a défini des critères pour l'indépendance des membres de son organe de gouvernance, ou si elle a mis en place des procédures pour garantir la représentation de la diversité de genre au sein de son organe de gouvernance.",
+   "gen_seconds": 266.1,
+   "prompt_tokens": 2352,
+   "output_tokens": 378,
+   "raw_guard_problems": [],
    "removed_sentences": [],
-   "guard_problems": [
-    "marqueur {{ PA1 }} sans verbe de score : écris par exemple « obtient {{ PA1 }} »",
-    "marqueur {{ PA3 }} sans verbe de score : écris par exemple « obtient {{ PA3 }} »",
-    "marqueur {{ PA3 }} sans verbe de score : écris par exemple « obtient {{ PA3 }} »",
-    "marqueur {{ PA5 }} sans verbe de score : écris par exemple « obtient {{ PA5 }} »",
-    "sigle SERC mal développé (« {{ PA1 }} ») : SERC = Student Environmental Resource Center (centre étudiant de ressources environnementales, UC Berkeley)"
-   ],
-   "lint_problems": [],
-   "gri_coverage": 1.0,
-   "lint_notes": []
-  },
-  {
-   "attempt": 2,
-   "draft": "### Gouvernance\n\nL'université de Californie à Berkeley a plusieurs officiers de durabilité dans le Bureau de la durabilité, la Haas et le SERC. L'université de Californie à Berkeley inclut des représentants étudiants dans son organe de décision le plus élevé, le conseil des régents de l'université de Californie. Bien que le conseil des régents gouverne l'ensemble du système de l'université de Californie et non seulement le campus de Berkeley, il exerce l'autorité ultime sur les politiques, les finances et la planification stratégique de l'université de Californie, y compris le campus de Berkeley.\n\nL'université de Californie à Berkeley a plusieurs organes en cours qui permettent aux membres du personnel académique de participer à la gouvernance de l'institution. Le principal organe est la division de Berkeley de l'Académie de la durabilité, qui fait partie du Sénat académique de l'université de Californie. Ce Sénat fournit aux membres du personnel académique un moyen structuré et démocratique de participer à la gouvernance du campus et à la prise de décision.\n\nL'université de Californie à Berkeley obtient {{ PA3 }}.\n\n\nL'université de Californie à Berkeley obtient {{ PA4 }}.\n\n\nL'université de Californie à Berkeley obtient {{ PA5 }}.\n\nL'université de Californie à Berkeley obtient {{ GOV }} % des points STARS du pilier Gouvernance.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la structure et la composition de la gouvernance de l'université de Californie à Berkeley, en particulier les catégories GRI 2-10 à GRI 2-21, qui ne sont pas couvertes par STARS.",
-   "gen_seconds": 246.1,
-   "prompt_tokens": 2336,
-   "output_tokens": 653,
-   "raw_guard_problems": [
-    "marqueur {{ GOV }} suivi de « % » : c'est un score STARS complet, pas un nombre à compléter"
-   ],
-   "removed_sentences": [
-    "L'université de Californie à Berkeley obtient {{ GOV }} % des points STARS du pilier Gouvernance."
-   ],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 0.0,
-   "lint_notes": [
-    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 2-9), (GRI 2-13), (GRI 2-14)"
-   ],
-   "rendered": "### Gouvernance\n\nL'université de Californie à Berkeley a plusieurs officiers de durabilité dans le Bureau de la durabilité, la Haas et le SERC. L'université de Californie à Berkeley inclut des représentants étudiants dans son organe de décision le plus élevé, le conseil des régents de l'université de Californie. Bien que le conseil des régents gouverne l'ensemble du système de l'université de Californie et non seulement le campus de Berkeley, il exerce l'autorité ultime sur les politiques, les finances et la planification stratégique de l'université de Californie, y compris le campus de Berkeley.\n\nL'université de Californie à Berkeley a plusieurs organes en cours qui permettent aux membres du personnel académique de participer à la gouvernance de l'institution. Le principal organe est la division de Berkeley de l'Académie de la durabilité, qui fait partie du Sénat académique de l'université de Californie. Ce Sénat fournit aux membres du personnel académique un moyen structuré et démocratique de participer à la gouvernance du campus et à la prise de décision.\n\nL'université de Californie à Berkeley obtient 3,5 points STARS sur 4 au crédit PA-3, niveau élevé.\n\nL'université de Californie à Berkeley obtient 4 points STARS sur 4 au crédit PA-4, niveau maximal.\n\nL'université de Californie à Berkeley obtient 2,51 points STARS sur 6 au crédit PA-5, niveau intermédiaire.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la structure et la composition de la gouvernance de l'université de Californie à Berkeley, en particulier les catégories GRI 2-10 à GRI 2-21, qui ne sont pas couvertes par STARS.",
+   "gri_coverage": 1.0,
+   "lint_notes": [],
+   "rendered": "### Gouvernance\n\nL'université obtient 3,5 points STARS sur 4 au crédit PA-3, niveau élevé.\n\nL'Office de la durabilité (Office of Sustainability) fournit une direction du campus en fixant des objectifs de durabilité ambitieux et des stratégies, et en accélérant la réalisation de ces objectifs grâce à la mise en œuvre de projets, à la planification, aux partenariats et à la participation de la communauté. (GRI 2-9)\n\nL'Académie du Sénat (Academic Senate) des professeurs de l'université joue un rôle dans les responsabilités de gouvernance partagées établies par les Régents (The Regents). Le Sénat est investi par le corps de gouvernance de l'université, le Conseil des Régents (Board of Regents), de la prise de décision directe sur les affaires académiques importantes pour l'université. (GRI 2-13)\n\nLe Conseil des Régents (Board of Regents) de l'université comprend des représentants étudiants. Bien que le Conseil des Régents gouverne le système universitaire de la Californie, il est la principale autorité sur les politiques, les finances et la planification stratégique de l'université. (GRI 2-14)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a défini des critères pour l'indépendance des membres de son organe de gouvernance, ou si elle a mis en place des procédures pour garantir la représentation de la diversité de genre au sein de son organe de gouvernance.",
    "used_facts": [
     "PA3_max",
-    "PA3_score",
-    "PA4_max",
-    "PA4_score",
-    "PA5_max",
-    "PA5_score"
+    "PA3_score"
    ],
    "trace_problems": [],
    "used_markers": [
-    "PA3",
-    "PA4",
-    "PA5"
+    "PA3"
    ],
    "judge": {
     "claims": [
      {
-      "claim": "L'université de Californie à Berkeley a plusieurs officiers de durabilité dans le Bureau de la durabilité, la Haas et le SERC.",
+      "claim": "L'université obtient 3,5 points STARS sur 4 au crédit PA-3, niveau élevé.",
       "supported": true
      },
      {
-      "claim": "L'université de Californie à Berkeley inclut des représentants étudiants dans son organe de décision le plus élevé, le conseil des régents.",
+      "claim": "L'Office de la durabilité (Office of Sustainability) fournit une direction du campus en fixant des objectifs de durabilité ambitieux et des",
       "supported": true
      },
      {
-      "claim": "L'université de Californie à Berkeley obtient 3,5 points STARS sur 4 au crédit PA-3, niveau élevé.",
+      "claim": "L'Académie du Sénat (Academic Senate) des professeurs de l'université joue un rôle dans les responsabilités de gouvernance partagées établis",
       "supported": true
      },
      {
-      "claim": "L'université de Californie à Berkeley obtient 4 points STARS sur 4 au crédit PA-4, niveau maximal.",
+      "claim": "Le Conseil des Régents (Board of Regents) de l'université comprend des représentants étudiants.",
       "supported": true
      },
      {
-      "claim": "L'université de Californie à Berkeley obtient 2,51 points STARS sur 6 au crédit PA-5, niveau intermédiaire.",
-      "supported": true
-     },
-     {
-      "claim": "Ce rapport ne peut pas établir la structure et la composition de la gouvernance de l'université de Californie à Berkeley, en particulier les",
+      "claim": "Ce rapport ne peut pas établir si l'université a défini des critères pour l'indépendance des membres de son organe de gouvernance, ou si",
       "supported": true
      }
     ],
     "rule_violations": [
-     "L'université de Californie à Berkeley inclut des représentants étudiants dans son organe de décision le plus élevé, le conseil des régents de l'université de Californie. Bien que le conseil des régens"
+     "Le rapport dit que l'université a obtenu 3,5 points STARS sur 4 au crédit PA-3, mais le GRI STATUS LIST dit que GRI 2-13 est partiellement rapporté."
     ],
     "score": 4,
-    "feedback": "Supprimer la phrase \"Bien que le conseil des régents gouverne l'ensemble du système de l'université de Californie et non seulement le campus de Berkeley, il exerce l'autorité ultime sur les politiques, les finances et la planification stratégique de l'université de Californie, y compris le campus de Berkeley.\" car elle contredit le GRI STATUS LIST.",
+    "feedback": "Supprimer la phrase \"niveau élevé\" car elle n'est pas dans les valeurs. Ajouter \"ce rapport ne peut pas établir\" avant les deuxième et troisième phrases pour les deuxième et troisième claims.",
     "faithfulness": 1.0,
-    "seconds": 285.2,
+    "seconds": 240.7,
     "discarded_violations": [],
     "accepted": true
    }
@@ -126,28 +81,40 @@
    "text": "UC Berkeley has several Sustainability Officers in the Office of Sustainability, HAAS, and SERC."
   },
   {
-   "credit": "PA-3",
-   "text": "UC Berkeley includes student representatives on its highest decision-making body, the UC Board of Regents. While the Board of Regents governs the entire University of California system rather than just the Berkeley campus, it serves as the ultimate authority over university policies, finances, and strategic planning across all UC campuses, including Berkeley."
+   "credit": "PA-1",
+   "text": "The UC Berkeley Office of Sustainability provides campus leadership by setting ambitious sustainability goals and strategies and by accelerating the achievement of these goals through project implementation, planning, partnerships and community engagement. Our mission is to integrate cutting-edge sustainability practic"
   },
   {
    "credit": "PA-3",
-   "text": "UC faculty in the Academic Senate carry out shared-governance responsibilities established by The Regents. The Senate is empowered by UC's governing body, the Board of Regents, to exercise direct control over academic matters of central importance to the University – to determine academic policy, set conditions for admission and the granting of degrees, authorize and supervise courses and curricula; and to advise the administration on faculty appointments, promotions and budgets."
+   "text": "UC faculty in the Academic Senate carry out shared-governance responsibilities established by The Regents. The Senate is empowered by UC's governing body, the Board of Regents, to exercise direct control over academic matters of central importance to the University – to determine academic policy, set conditions for adm"
   },
   {
    "credit": "PA-3",
-   "text": "UC Berkeley has several ongoing bodies that enable academic staff to participate in the governance of the institution. The primary body is the Berkeley Division of the Academic Senate, which is part of the University of California's systemwide Academic Senate. This Senate provides faculty members with a structured and democratic way to engage in campus governance and decision-making."
+   "text": "UC Berkeley includes student representatives on its highest decision-making body, the UC Board of Regents. While the Board of Regents governs the entire University of California system rather than just the Berkeley campus, it serves as the ultimate authority over university policies, finances, and strategic planning ac"
   },
   {
    "credit": "PRE-1",
-   "text": "Our core mission of teaching, research, and public service provides a unique opportunity to use the campus as a living laboratory for sustainability. UC Berkeley is consistently rated the top school in the world for environmental sciences, with departments across the campus—not just the renowned Rausser College of Natural Resources—producing groundbreaking scholarship. Offering over sustainability-focused courses, we emphasize integrating sustainability across disciplines to foster sustainability literacy among our students."
+   "text": "Our core mission of teaching, research, and public service provides a unique opportunity to use the campus as a living laboratory for sustainability. UC Berkeley is consistently rated the top school in the world for environmental sciences, with departments across the campus—not just the renowned Rausser College of Natu"
+  },
+  {
+   "credit": "PRE-1",
+   "text": "Our participation in STARS reflects our commitment to advancing sustainability on campus and beyond. This version's more rigorous framework underscores our dedication to tackling complex sustainability challenges while holding ourselves accountable to the highest standards. Building on the success of our previous STARS"
   },
   {
    "credit": "PA-4",
    "text": "At the governance level, the UC Board of Regents' Investment Policy Statement for the endowment makes clear that material ESG risks shall be considered with the same weight as any other material investment risk. The Board of Regents' policy regarding sustainability in endowment investments states in relevant part:"
   },
   {
+   "credit": "PA-4",
+   "text": "Investment Officer manages the [endowment] consistent with these sustainability principles. The Framework can be found on the Office of the Chief Investment Officer website in the sustainability section.”"
+  },
+  {
    "credit": "PA-5",
-   "text": "UC's endowment is investing in a wide range of positive sustainability investments across all of our asset classes, ranging from public equity to real estate to private equity. The examples below are not the comprehensive list of the investments referenced above, but rather illustrative examples of our sustainable investments."
+   "text": "UC's endowment is investing in a wide range of positive sustainability investments across all of our asset classes, ranging from public equity to real estate to private equity. The examples below are not the comprehensive list of the investments referenced above, but rather illustrative examples of our sustainable inve"
+  },
+  {
+   "credit": "PA-5",
+   "text": "Various public equity, fixed income and real asset holdings in companies that provide alternative fueling infrastructure development, stationary fuel cells, solar equipment, energy efficiency technologies, agtech, and sustainable water technologies."
   }
  ]
 }

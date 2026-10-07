@@ -17,6 +17,8 @@ from esg.config import INSTITUTIONS
     ("génère les rapports des trois universités", ["berkeley", "cork", "tudublin"], False),
     ("Régénère le rapport de Cork avec Ollama", ["cork"], True),
     ("rapport UCC avec le LLM", ["cork"], True),
+    ("genenre le rapport de dublin", ["tudublin"], False),          # faute de frappe vue par Wiem le 7 octobre
+    ("regenre le rapport de Cork", ["cork"], False),                # faute sur « régénère » : jamais Ollama
 ])
 def test_report_requests_are_recognised(question, keys, regen):
     req = chat.report_request(question)
@@ -30,6 +32,8 @@ def test_report_requests_are_recognised(question, keys, regen):
     "Compare Cork et TU Dublin sur les déchets",
     "Quel est le score biodiversité de Cork ?",
     "Combien de tonnes de CO2 Berkeley a-t-il émis ?",
+    "Quelles données du rapport de Cork portent sur le genre ?",
+    "Le genre dans le rapport de Cork",
 ])
 def test_normal_questions_are_unchanged(question):
     assert chat.report_request(question) is None

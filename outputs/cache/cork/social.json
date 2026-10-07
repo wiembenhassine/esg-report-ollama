@@ -1,8 +1,8 @@
 {
- "prompt_hash": "138553d8b81e532e",
- "round": 0,
+ "prompt_hash": "6a765c2e14d62920",
+ "round": 1,
  "decision": "validée",
- "text": "### Performance sociale et économique\n\nL'University College Cork (UCC) a obtenu 3,8 points STARS sur 5 au crédit PA-13, niveau élevé points STARS sur 3,8 points STARS sur 5 au crédit PA-13, niveau élevé au crédit PA-13, niveau élevé, et 3 points STARS sur 3 au crédit PA-12, niveau maximal points STARS sur 3 points STARS sur 3 au crédit PA-12, niveau maximal au crédit PA-12, niveau maximal.\n\nLa politique de congé parental de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs, les taux de retour ou les taux de rétention.\n\nL'UCC a également obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal points STARS sur 3 points STARS sur 3 au crédit PA-11, niveau maximal au crédit PA-11, niveau maximal, et 2 points STARS sur 2 au crédit PA-8, niveau maximal points STARS sur 2 points STARS sur 2 au crédit PA-8, niveau maximal au crédit PA-8, niveau maximal.\n\nLa politique de diversité et d'inclusion de l'UCC est décrite dans le rapport STARS, notamment dans le cadre de l'Action Plan 2025 - 2028.\n\nLa politique de santé, de sécurité et de bien-être de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation.\n\nLa politique d'équité salariale et de salaire décent de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation.\n\nL'UCC a également obtenu 2,5 points STARS sur 3 au crédit PA-10, niveau élevé points STARS sur 2,5 points STARS sur 3 au crédit PA-10, niveau élevé au crédit PA-10, niveau élevé.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de congé parental, de santé, de sécurité et de bien-être, ou d'équité salariale et de salaire décent.\n\nCe rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de diversité et d'inclusion.\n\nCe rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de santé, de sécurité et de bien-être.\n\n(GRI 202-1, GRI 401-2, GRI 401-3, GRI 403-1, GRI 403-3, GRI 403-4, GRI 403-6, GRI 405-1)",
+ "text": "### Performance sociale et économique\n\nL'université obtient 3,8 points STARS sur 5 au crédit PA-13, niveau élevé.\n\nL'université obtient 3 points STARS sur 3 au crédit PA-12, niveau maximal.\n\nL'université obtient 3 points STARS sur 3 au crédit PA-11, niveau maximal. Les services de santé et de bien-être sont fournis aux employés, notamment à travers le portail Spectrum Life, qui propose des ressources pour la santé mentale, la nutrition et l'exercice.\n\nL'université obtient 2 points STARS sur 2 au crédit PA-8, niveau maximal.\n\nL'université obtient 1,2 point STARS sur 3 au crédit PA-7, niveau faible. La représentation ethnique et raciale est présente à l'université, même si elle n'est pas majoritaire.\n\nL'université obtient 2 points STARS sur 3 au crédit PA-9, niveau intermédiaire. L'accès financier et l'accès sont promus à l'université, comme en témoignent les données sur les étudiants ayant un handicap.\n\nL'université obtient 3 points STARS sur 3 au crédit PA-6, niveau maximal. L'inclusion et la diversité sont promues à l'université, comme en témoignent les données sur les étudiants et les employés.\n\nL'université obtient 2,5 points STARS sur 3 au crédit PA-10, niveau élevé. La réussite des étudiants est promue à l'université, comme en témoignent les données sur la fréquence de réussite.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les ratios entre les salaires d'entrée et les salaires minimums locaux, car STARS ne collecte pas ces données.",
  "used_facts": [
   "PA10_max",
   "PA10_score",
@@ -12,33 +12,48 @@
   "PA12_score",
   "PA13_max",
   "PA13_score",
-  "PA6_t20_0",
-  "PA6_t20_1",
+  "PA6_max",
+  "PA6_score",
+  "PA7_max",
+  "PA7_score",
   "PA8_max",
-  "PA8_score"
+  "PA8_score",
+  "PA9_max",
+  "PA9_score"
  ],
  "judge_score": 4,
  "faithfulness": 1.0,
- "gri_coverage": 1.0,
+ "gri_coverage": 0.0,
  "unsupported_claims": [],
  "discarded_violations": [],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 666.9,
+ "seconds": 1113.6,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Performance sociale et économique\n\nL'University College Cork (UCC) a obtenu {{ PA13 }} points STARS sur {{ PA13 }} au crédit PA-13, niveau élevé, et {{ PA12 }} points STARS sur {{ PA12 }} au crédit PA-12, niveau maximal.\n\nLa politique de congé parental de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs, les taux de retour ou les taux de rétention.\n\nL'UCC a également obtenu {{ PA11 }} points STARS sur {{ PA11 }} au crédit PA-11, niveau maximal, et {{ PA8 }} points STARS sur {{ PA8 }} au crédit PA-8, niveau maximal.\n\nLa politique de diversité et d'inclusion de l'UCC est décrite dans le rapport STARS, notamment dans le cadre de l'Action Plan {{ PA6_t20_0 }} - {{ PA6_t20_1 }}.\n\nLa politique de santé, de sécurité et de bien-être de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation.\n\nLa politique d'équité salariale et de salaire décent de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation.\n\nL'UCC a également obtenu {{ PA10 }} points STARS sur {{ PA10 }} au crédit PA-10, niveau élevé.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de congé parental, de santé, de sécurité et de bien-être, ou d'équité salariale et de salaire décent.\n\nCe rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de diversité et d'inclusion.\n\nCe rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de santé, de sécurité et de bien-être.\n\n(GRI 202-1, GRI 401-2, GRI 401-3, GRI 403-1, GRI 403-3, GRI 403-4, GRI 403-6, GRI 405-1)",
-   "gen_seconds": 349.9,
-   "prompt_tokens": 3297,
-   "output_tokens": 521,
-   "raw_guard_problems": [],
-   "removed_sentences": [],
+   "draft": "### Performance sociale et économique\n\nL'université obtient {{ PA13 }}. Les salaires des employés à temps partiel et temporaires sont similaires à ceux des employés à temps plein, ce qui reflète l'engagement de l'université à promouvoir l'équité salariale.\n\nL'université obtient {{ PA12 }}. Les employés bénéficient de congés de maternité et de congés parentaux, ce qui reflète l'engagement de l'université à promouvoir les droits des salariés.\n\nL'université obtient {{ PA11 }}. Les services de santé et de bien-être sont fournis aux employés, notamment à travers le portail Spectrum Life, qui propose des ressources pour la santé mentale, la nutrition et l'exercice.\n\nL'université obtient {{ PA8 }}. La parité femmes-hommes est promue à l'université, comme en témoignent les données comparatives des décisions de gestion entre 2018 et 2019.\n\nL'université obtient {{ PA7 }}. La représentation ethnique et raciale est présente à l'université, même si elle n'est pas majoritaire.\n\nL'université obtient {{ PA9 }}. L'accès financier et l'accès sont promus à l'université, comme en témoignent les données sur les étudiants ayant un handicap.\n\nL'université obtient {{ PA6 }}. L'inclusion et la diversité sont promues à l'université, comme en témoignent les données sur les étudiants et les employés.\n\nL'université obtient {{ PA10 }}. La réussite des étudiants est promue à l'université, comme en témoignent les données sur la fréquence de réussite.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les ratios entre les salaires d'entrée et les salaires minimums locaux, car STARS ne collecte pas ces données.",
+   "gen_seconds": 594.1,
+   "prompt_tokens": 4537,
+   "output_tokens": 444,
+   "raw_guard_problems": [
+    "formule creuse ou promotionnelle : décris un fait précis du CONTEXTE à la place",
+    "chiffre écrit directement : '2018'",
+    "chiffre écrit directement : '2019.'"
+   ],
+   "removed_sentences": [
+    "Les salaires des employés à temps partiel et temporaires sont similaires à ceux des employés à temps plein, ce qui reflète l'engagement de l'université à promouvoir l'équité salariale.",
+    "Les employés bénéficient de congés de maternité et de congés parentaux, ce qui reflète l'engagement de l'université à promouvoir les droits des salariés.",
+    "La parité femmes-hommes est promue à l'université, comme en témoignent les données comparatives des décisions de gestion entre 2018 et 2019."
+   ],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 1.0,
-   "lint_notes": [],
-   "rendered": "### Performance sociale et économique\n\nL'University College Cork (UCC) a obtenu 3,8 points STARS sur 5 au crédit PA-13, niveau élevé points STARS sur 3,8 points STARS sur 5 au crédit PA-13, niveau élevé au crédit PA-13, niveau élevé, et 3 points STARS sur 3 au crédit PA-12, niveau maximal points STARS sur 3 points STARS sur 3 au crédit PA-12, niveau maximal au crédit PA-12, niveau maximal.\n\nLa politique de congé parental de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs, les taux de retour ou les taux de rétention.\n\nL'UCC a également obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal points STARS sur 3 points STARS sur 3 au crédit PA-11, niveau maximal au crédit PA-11, niveau maximal, et 2 points STARS sur 2 au crédit PA-8, niveau maximal points STARS sur 2 points STARS sur 2 au crédit PA-8, niveau maximal au crédit PA-8, niveau maximal.\n\nLa politique de diversité et d'inclusion de l'UCC est décrite dans le rapport STARS, notamment dans le cadre de l'Action Plan 2025 - 2028.\n\nLa politique de santé, de sécurité et de bien-être de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation.\n\nLa politique d'équité salariale et de salaire décent de l'UCC est décrite dans le rapport STARS, mais les données ne permettent pas d'établir les effectifs ou les taux de participation.\n\nL'UCC a également obtenu 2,5 points STARS sur 3 au crédit PA-10, niveau élevé points STARS sur 2,5 points STARS sur 3 au crédit PA-10, niveau élevé au crédit PA-10, niveau élevé.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de congé parental, de santé, de sécurité et de bien-être, ou d'équité salariale et de salaire décent.\n\nCe rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de diversité et d'inclusion.\n\nCe rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de santé, de sécurité et de bien-être.\n\n(GRI 202-1, GRI 401-2, GRI 401-3, GRI 403-1, GRI 403-3, GRI 403-4, GRI 403-6, GRI 405-1)",
+   "gri_coverage": 0.0,
+   "lint_notes": [
+    "longueur de 158 mots : vise 180 à 300 mots",
+    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 202-1), (GRI 401-2), (GRI 401-3), (GRI 403-1)"
+   ],
+   "rendered": "### Performance sociale et économique\n\nL'université obtient 3,8 points STARS sur 5 au crédit PA-13, niveau élevé.\n\nL'université obtient 3 points STARS sur 3 au crédit PA-12, niveau maximal.\n\nL'université obtient 3 points STARS sur 3 au crédit PA-11, niveau maximal. Les services de santé et de bien-être sont fournis aux employés, notamment à travers le portail Spectrum Life, qui propose des ressources pour la santé mentale, la nutrition et l'exercice.\n\nL'université obtient 2 points STARS sur 2 au crédit PA-8, niveau maximal.\n\nL'université obtient 1,2 point STARS sur 3 au crédit PA-7, niveau faible. La représentation ethnique et raciale est présente à l'université, même si elle n'est pas majoritaire.\n\nL'université obtient 2 points STARS sur 3 au crédit PA-9, niveau intermédiaire. L'accès financier et l'accès sont promus à l'université, comme en témoignent les données sur les étudiants ayant un handicap.\n\nL'université obtient 3 points STARS sur 3 au crédit PA-6, niveau maximal. L'inclusion et la diversité sont promues à l'université, comme en témoignent les données sur les étudiants et les employés.\n\nL'université obtient 2,5 points STARS sur 3 au crédit PA-10, niveau élevé. La réussite des étudiants est promue à l'université, comme en témoignent les données sur la fréquence de réussite.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les ratios entre les salaires d'entrée et les salaires minimums locaux, car STARS ne collecte pas ces données.",
    "used_facts": [
     "PA10_max",
     "PA10_score",
@@ -48,10 +63,14 @@
     "PA12_score",
     "PA13_max",
     "PA13_score",
-    "PA6_t20_0",
-    "PA6_t20_1",
+    "PA6_max",
+    "PA6_score",
+    "PA7_max",
+    "PA7_score",
     "PA8_max",
-    "PA8_score"
+    "PA8_score",
+    "PA9_max",
+    "PA9_score"
    ],
    "trace_problems": [],
    "used_markers": [
@@ -59,44 +78,45 @@
     "PA11",
     "PA12",
     "PA13",
-    "PA6_t20_0",
-    "PA6_t20_1",
-    "PA8"
+    "PA6",
+    "PA7",
+    "PA8",
+    "PA9"
    ],
    "judge": {
     "claims": [
      {
-      "claim": "L'University College Cork (UCC) a obtenu 3,8 points STARS sur 5 au crédit PA-13, niveau élevé",
+      "claim": "L'université obtient 3,8 points STARS sur 5 au crédit PA-13, niveau élevé.",
       "supported": true
      },
      {
-      "claim": "L'UCC a également obtenu 3 points STARS sur 3 au crédit PA-12, niveau maximal",
+      "claim": "L'université obtient 3 points STARS sur 3 au crédit PA-12, niveau maximal.",
       "supported": true
      },
      {
-      "claim": "L'UCC a également obtenu 3 points STARS sur 3 au crédit PA-11, niveau maximal",
+      "claim": "L'université obtient 3 points STARS sur 3 au crédit PA-11, niveau maximal. Les services de santé et de bien-être sont fournis aux employés,",
       "supported": true
      },
      {
-      "claim": "L'UCC a également obtenu 2 points STARS sur 2 au crédit PA-8, niveau maximal",
+      "claim": "L'université obtient 2 points STARS sur 2 au crédit PA-8, niveau maximal.",
       "supported": true
      },
      {
-      "claim": "La politique de diversité et d'inclusion de l'UCC est décrite dans le rapport STARS, notamment dans le cadre de l'Action Plan 2025 - 2028",
+      "claim": "L'université obtient 1,2 point STARS sur 3 au crédit PA-7, niveau faible.",
       "supported": true
      },
      {
-      "claim": "L'UCC a également obtenu 2,5 points STARS sur 3 au crédit PA-10, niveau élevé",
+      "claim": "L'université obtient 2 points STARS sur 3 au crédit PA-9, niveau intermédiaire.",
       "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport mentionne que les données ne permettent pas d'établir les effectifs ou les taux de participation pour les politiques de congé parental, de santé, de sécurité et de bien-être, ou d'équité"
+     "L'université a obtenu 3,8 points STARS sur 5 au crédit PA-13, niveau élevé. (ce rapport ne peut pas établir les ratios entre les salaires d'entrée et les salaires minimums locaux, car STARS ne collect"
     ],
     "score": 4,
-    "feedback": "Supprimer les phrases suivantes : 'Ce rapport ne peut pas établir les effectifs ou les taux de participation pour les politiques de congé parental, de santé, de sécurité et de bien-être, ou d'équité salariale et de salaire décent.'",
+    "feedback": "Supprimer les phrases non nécessaires et les phrases qui ne sont pas étayées par les sources. Par exemple, supprimer la phrase \"Les services de santé et de bien-être sont fournis aux employés, notamment à travers le portail Spectrum Life, qui propose des ressources pour la santé mentale, la nutrition et l'exercice.\" car elle n'est pas étayée par les sources.",
     "faithfulness": 1.0,
-    "seconds": 316.9,
+    "seconds": 518.9,
     "discarded_violations": [],
     "accepted": true
    }
@@ -111,8 +131,20 @@
    "text": "All full-time, part-time and temporary employees who received pay in the -month period leading up to the snapshot date which is June {{ PA13_t1_0 }}. Staff are only included if they were in receipt of pay during this period. Employees on unpaid leave are excluded, in line with national regulations."
   },
   {
+   "credit": "PA-13",
+   "text": "In addition to mean and median hourly pay, we are also required to report on:"
+  },
+  {
    "credit": "PA-12",
-   "text": "Under the maternity legislation all women are entitled to weeks maternity leave. Payment of maternity leave may be sourced both from the Department of Social Welfare and/or the University. The week entitlement is divided into weeks paid and an additional weeks unpaid. Entitlements to paid leave and unpaid leave are outlined in the Universities maternity leave policy. Employees are entitled to full pay for weeks."
+   "text": "Under the maternity legislation all women are entitled to weeks maternity leave. Payment of maternity leave may be sourced both from the Department of Social Welfare and/or the University. The week entitlement is divided into weeks paid and an additional weeks unpaid. Entitlements to paid leave and unpaid leave are out"
+  },
+  {
+   "credit": "PA-12",
+   "text": "Freedom of Association is a fundamental right under the irish constitution and"
+  },
+  {
+   "credit": "PA-11",
+   "text": "Day to day health and wellbeing services are also provided through the university's Spectrum Life portal. The portal is acts as a personalised wellbeing app, with access to hours of wellbeing content. Topics covered are based on the core areas of mental wellbeing, nutrition and exercise."
   },
   {
    "credit": "PA-11",
@@ -123,28 +155,40 @@
    "text": "UCC is also obliged legally to report on gender pay gap. This is done annlually and the most report is available here:"
   },
   {
+   "credit": "PA-8",
+   "text": "Table outlines the percentage of women in all UCC's decision-making bodies and by staff category. The data compares the snapshots from December {{ PA8_t0_0 }} versus December {{ PA8_t0_1 }}."
+  },
+  {
    "credit": "PA-7",
-   "text": "Number of marginalised racial, ethnic, and/or Indigenous groups that are equitably represented among executive staff (required)"
+   "text": "Other ethnic backgrounds and answer options constituted {{ PA7_t24_0 }} or less."
+  },
+  {
+   "credit": "PA-7",
+   "text": "Other ethnic backgrounds and answer options constituted less than {{ PA7_t20_0 }}."
   },
   {
    "credit": "PA-9",
-   "text": "Table. Capturing Equality Grounds in Student Populations – Methods and Data Collected."
+   "text": "The “National Access Plan: A Strategic Plan for Equity of Access, Participation and Success in HE, {{ PA9_t2_0 }} - {{ PA9_t2_1 }} ” underpins equal access for underrepresented student groups, and UCC has long been committed to its principles. Student data is captured through CAO. Student Information System (ITS) holds"
+  },
+  {
+   "credit": "PA-9",
+   "text": "Across the period {{ PA9_t10_0 }} - {{ PA9_t10_1 }} to {{ PA9_t10_2 }} - {{ PA9_t10_3 }} of the disability categories on the Access Survey, students who report a learning disability had the highest average DIS Score at {{ PA9_t10_4 }} of these students were from a Marginally Above Average or Affluent area ( "
   },
   {
    "credit": "PA-6",
-   "text": "Number of marginalised racial, ethnic, and/or Indigenous groups that are equitably represented among executive staff (required)"
+   "text": "Belonging at UCC: Equality, Diversity and Inclusion Framework and Action Plan, {{ PA6_t20_0 }} - {{ PA6_t20_1 }} - recognises that UCC is increasingly made up of a diverse cohort of people with different lived experiences and needs. It acknowledges that not everyone feels a sense of belonging and UCC needs to do more t"
   },
   {
    "credit": "PA-6",
-   "text": "Belonging at UCC: Equality, Diversity and Inclusion Framework and Action Plan, {{ PA6_t20_0 }} - {{ PA6_t20_1 }} - recognises that UCC is increasingly made up of a diverse cohort of people with different lived experiences and needs. It acknowledges that not everyone feels a sense of belonging and UCC needs to do more to address and eliminate bullying, harassment or discrimination based on the following protected characteristics: Age, Civil Status, Disability, Family Status, Gender, Membership of the Traveller Community, Religion, Race, Sexual Orientation, and Socio-Economic Status."
-  },
-  {
-   "credit": "PA-6",
-   "text": "Number of marginalised racial, ethnic, and/or Indigenous groups that are equitably represented among regular/permanent non-academic staff (required)"
+   "text": "Data collection from staff and students is crucial for informing the University's work in the areas of Equality, Diversity, Inclusion, and Belonging (EDIB). To reduce the number of consultations and to meet the organisational commitment under Goal.ii of the UCC Strategic Plan {{ PA6_t72_0 }} - {{ PA6_t72_1 }} to “measu"
   },
   {
    "credit": "PA-10",
-   "text": "The HEA uses home addresses of ROI domiciled students to using to develop socio economic profiles of HEIs by assigning Deprivation Index Scores (DIS) to the student data. Please refer to this page for the methodology.. UCC's completion rate is at {{ PA10_t3_0 }}, in general terms. For Low income students at UCC this drops to {{ PA10_t3_1 }}, {{ PA10_t3_2 }} drop out. See link to data here: HEA – Non-progression by Student Characteristics – | Statistics | Higher Education Authority"
+   "text": "The HEA uses home addresses of ROI domiciled students to using to develop socio economic profiles of HEIs by assigning Deprivation Index Scores (DIS) to the student data. Please refer to this page for the methodology.. UCC's completion rate is at {{ PA10_t3_0 }}, in general terms. For Low income students at UCC this dr"
+  },
+  {
+   "credit": "PA-10",
+   "text": "See completion / non progression frates for UCC students that hold SUSI grants here:"
   }
  ]
 }

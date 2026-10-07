@@ -1,82 +1,87 @@
 {
- "prompt_hash": "5b8afbaa914355e1",
- "round": 0,
+ "prompt_hash": "bab01148af7757e9",
+ "round": 1,
  "decision": "validée",
- "text": "### Stratégie, politiques et pratiques\n\nL'Université College Cork (UCC) a élaboré la Stratégie de durabilité et d'action climatique (The Sustainability and Climate Action Plan), qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université. Cette stratégie est élaborée en référence aux normes GRI.\n\nL'université a décidé d'aligner son programme de durabilité avec les stratégies pertinentes, notamment la participation à la communauté, l'égalité, la diversité et l'inclusion, l'enseignement et l'apprentissage, ainsi que les stratégies de recherche.\n\nL'Office de la durabilité et de l'action climatique (The Office of Sustainability and Climate Action) est situé dans le Bureau du président de l'université et est soutenu par la Stratégie de durabilité et d'action climatique. Cette stratégie a été élaborée après une consultation approfondie avec le personnel et les étudiants.\n\nL'université a également mis en place des politiques pour promouvoir la durabilité, notamment en matière de recrutement de fournisseurs durables. Ainsi, 21 % des appels d'offres ont inclus des spécifications de durabilité pour les fournisseurs, et 54 % des appels d'offres ont inclus des conditions de durabilité pour les produits.\n\n(GRI 2-22)\n\n(GRI 2-23)\n\n(GRI 2-24)\n\n(GRI 2-25)\n\n(GRI 2-26)\n\n(GRI 2-28)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les mécanismes de demande de conseil et de signalement pour les parties prenantes autres que les salariés, ni les engagements politiques de l'université en matière de droits humains et de devoir de vigilance.",
+ "text": "### Stratégie, politiques et pratiques\n\nL'université s'appuie sur sa Stratégie de développement durable et son Plan d'action pour la durabilité et le climat pour guider ses actions en matière de durabilité. Cette stratégie vise à aligner les objectifs de durabilité de l'université avec ses stratégies pertinentes, notamment celles liées à la communauté, à l'égalité, à la diversité et à l'inclusion, à l'enseignement et à l'apprentissage, ainsi qu'à la recherche (5,67 points STARS sur 6 au crédit PA-2, niveau élevé).\n\nL'université compte un organisme de gouvernance, l'Office de la durabilité et de l'action climatique, qui coordonne les efforts de durabilité de l'université. Ce dernier est soutenu par le Plan d'action pour la durabilité et le climat et bénéficie de la consultation étendue avec le personnel et les étudiants (GRI 2-23).\n\nL'université a adopté des pratiques de durabilité dans ses achats, comme en témoigne la présence de considérations de durabilité dans 21 % des appels d'offres, et 54 % des appels d'offres comprennent des spécifications de durabilité pour les fournisseurs et des conditions de durabilité pour les produits (GRI 2-28).\n\nEn outre, l'université a mis en place un système de formation et d'engagement du personnel pour favoriser la durabilité, comme le cours de formation sur le leadership climatique développé en collaboration avec l'Institut de la durabilité et l'Académie de la durabilité (GRI 2-25).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a mis en place un mécanisme de demande de conseils et de signalement pour les parties prenantes autres que les salariés (GRI 2-26).",
  "used_facts": [
   "OP9_t0_1",
-  "OP9_t0_2"
+  "OP9_t0_2",
+  "PA2_max",
+  "PA2_score"
  ],
  "judge_score": 4,
  "faithfulness": 1.0,
- "gri_coverage": 1.0,
+ "gri_coverage": 0.67,
  "unsupported_claims": [],
  "discarded_violations": [],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 635.8,
+ "seconds": 889.9,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Stratégie, politiques et pratiques\n\nL'Université College Cork (UCC) a élaboré la Stratégie de durabilité et d'action climatique (The Sustainability and Climate Action Plan), qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université. Cette stratégie est élaborée en référence aux normes GRI.\n\nL'université a décidé d'aligner son programme de durabilité avec les stratégies pertinentes, notamment la participation à la communauté, l'égalité, la diversité et l'inclusion, l'enseignement et l'apprentissage, ainsi que les stratégies de recherche. Elle a également décidé d'atteindre des objectifs significatifs, notamment devenir un campus sans déchets par {{ PA2_t0_3 }} et un campus neutre en carbone par {{ PA2_t0_3 }}.\n\nL'Office de la durabilité et de l'action climatique (The Office of Sustainability and Climate Action) est situé dans le Bureau du président de l'université et est soutenu par la Stratégie de durabilité et d'action climatique. Cette stratégie a été élaborée après une consultation approfondie avec le personnel et les étudiants.\n\nL'université a également mis en place des politiques pour promouvoir la durabilité, notamment en matière de recrutement de fournisseurs durables. Ainsi, {{ OP9_t0_1 }} des appels d'offres ont inclus des spécifications de durabilité pour les fournisseurs, et {{ OP9_t0_2 }} des appels d'offres ont inclus des conditions de durabilité pour les produits.\n\n(GRI 2-22)\n\n(GRI 2-23)\n\n(GRI 2-24)\n\n(GRI 2-25)\n\n(GRI 2-26)\n\n(GRI 2-28)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les mécanismes de demande de conseil et de signalement pour les parties prenantes autres que les salariés, ni les engagements politiques de l'université en matière de droits humains et de devoir de vigilance.",
-   "gen_seconds": 363.1,
-   "prompt_tokens": 3371,
-   "output_tokens": 491,
+   "draft": "### Stratégie, politiques et pratiques\n\nL'université s'appuie sur sa Stratégie de développement durable et son Plan d'action pour la durabilité et le climat pour guider ses actions en matière de durabilité. Cette stratégie vise à aligner les objectifs de durabilité de l'université avec ses stratégies pertinentes, notamment celles liées à la communauté, à l'égalité, à la diversité et à l'inclusion, à l'enseignement et à l'apprentissage, ainsi qu'à la recherche ({{ PA2 }}).\n\nLe Plan d'action pour la durabilité et le climat ({{ PA2_t0_0 }}-{{ PA2_t0_1 }}) repose sur les réussites de la Stratégie de durabilité de l'université ({{ PA2_t0_2 }}) et détaille comment l'université continuera à intégrer les objectifs de durabilité dans tous les aspects de ses activités éducatives, de recherche et d'exploitation (GRI 2-22).\n\nL'université compte un organisme de gouvernance, l'Office de la durabilité et de l'action climatique, qui coordonne les efforts de durabilité de l'université. Ce dernier est soutenu par le Plan d'action pour la durabilité et le climat et bénéficie de la consultation étendue avec le personnel et les étudiants (GRI 2-23).\n\nL'université a adopté des pratiques de durabilité dans ses achats, comme en témoigne la présence de considérations de durabilité dans {{ OP9_t0_1 }} des appels d'offres, et {{ OP9_t0_2 }} des appels d'offres comprennent des spécifications de durabilité pour les fournisseurs et des conditions de durabilité pour les produits (GRI 2-28).\n\nEn outre, l'université a mis en place un système de formation et d'engagement du personnel pour favoriser la durabilité, comme le cours de formation sur le leadership climatique développé en collaboration avec l'Institut de la durabilité et l'Académie de la durabilité (GRI 2-25).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a mis en place un mécanisme de demande de conseils et de signalement pour les parties prenantes autres que les salariés (GRI 2-26).",
+   "gen_seconds": 480.0,
+   "prompt_tokens": 3129,
+   "output_tokens": 555,
    "raw_guard_problems": [
-    "marqueur {{ PA2_t0_3 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)",
-    "marqueur {{ PA2_t0_3 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)"
+    "marqueur {{ PA2_t0_0 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)",
+    "marqueur {{ PA2_t0_2 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)"
    ],
    "removed_sentences": [
-    "Elle a également décidé d'atteindre des objectifs significatifs, notamment devenir un campus sans déchets par {{ PA2_t0_3 }} et un campus neutre en carbone par {{ PA2_t0_3 }}."
+    "Le Plan d'action pour la durabilité et le climat ({{ PA2_t0_0 }}-{{ PA2_t0_1 }}) repose sur les réussites de la Stratégie de durabilité de l'université ({{ PA2_t0_2 }}) et détaille comment l'université continuera à intégrer les objectifs de durabilité dans tous les aspects de ses activités éducatives, de recherche et d'exploitation (GRI 2-22)."
    ],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 1.0,
+   "gri_coverage": 0.67,
    "lint_notes": [],
-   "rendered": "### Stratégie, politiques et pratiques\n\nL'Université College Cork (UCC) a élaboré la Stratégie de durabilité et d'action climatique (The Sustainability and Climate Action Plan), qui vise à intégrer les objectifs de durabilité dans toutes les activités de l'université. Cette stratégie est élaborée en référence aux normes GRI.\n\nL'université a décidé d'aligner son programme de durabilité avec les stratégies pertinentes, notamment la participation à la communauté, l'égalité, la diversité et l'inclusion, l'enseignement et l'apprentissage, ainsi que les stratégies de recherche.\n\nL'Office de la durabilité et de l'action climatique (The Office of Sustainability and Climate Action) est situé dans le Bureau du président de l'université et est soutenu par la Stratégie de durabilité et d'action climatique. Cette stratégie a été élaborée après une consultation approfondie avec le personnel et les étudiants.\n\nL'université a également mis en place des politiques pour promouvoir la durabilité, notamment en matière de recrutement de fournisseurs durables. Ainsi, 21 % des appels d'offres ont inclus des spécifications de durabilité pour les fournisseurs, et 54 % des appels d'offres ont inclus des conditions de durabilité pour les produits.\n\n(GRI 2-22)\n\n(GRI 2-23)\n\n(GRI 2-24)\n\n(GRI 2-25)\n\n(GRI 2-26)\n\n(GRI 2-28)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les mécanismes de demande de conseil et de signalement pour les parties prenantes autres que les salariés, ni les engagements politiques de l'université en matière de droits humains et de devoir de vigilance.",
+   "rendered": "### Stratégie, politiques et pratiques\n\nL'université s'appuie sur sa Stratégie de développement durable et son Plan d'action pour la durabilité et le climat pour guider ses actions en matière de durabilité. Cette stratégie vise à aligner les objectifs de durabilité de l'université avec ses stratégies pertinentes, notamment celles liées à la communauté, à l'égalité, à la diversité et à l'inclusion, à l'enseignement et à l'apprentissage, ainsi qu'à la recherche (5,67 points STARS sur 6 au crédit PA-2, niveau élevé).\n\nL'université compte un organisme de gouvernance, l'Office de la durabilité et de l'action climatique, qui coordonne les efforts de durabilité de l'université. Ce dernier est soutenu par le Plan d'action pour la durabilité et le climat et bénéficie de la consultation étendue avec le personnel et les étudiants (GRI 2-23).\n\nL'université a adopté des pratiques de durabilité dans ses achats, comme en témoigne la présence de considérations de durabilité dans 21 % des appels d'offres, et 54 % des appels d'offres comprennent des spécifications de durabilité pour les fournisseurs et des conditions de durabilité pour les produits (GRI 2-28).\n\nEn outre, l'université a mis en place un système de formation et d'engagement du personnel pour favoriser la durabilité, comme le cours de formation sur le leadership climatique développé en collaboration avec l'Institut de la durabilité et l'Académie de la durabilité (GRI 2-25).\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a mis en place un mécanisme de demande de conseils et de signalement pour les parties prenantes autres que les salariés (GRI 2-26).",
    "used_facts": [
     "OP9_t0_1",
-    "OP9_t0_2"
+    "OP9_t0_2",
+    "PA2_max",
+    "PA2_score"
    ],
    "trace_problems": [],
    "used_markers": [
     "OP9_t0_1",
-    "OP9_t0_2"
+    "OP9_t0_2",
+    "PA2"
    ],
    "judge": {
     "claims": [
      {
-      "claim": "L'Université College Cork (UCC) a élaboré la Stratégie de durabilité et d'action climatique (The Sustainability and Climate Action Plan)",
+      "claim": "L'université s'appuie sur sa Stratégie de développement durable et son Plan d'action pour la durabilité et le climat pour guider ses actions",
       "supported": true
      },
      {
-      "claim": "Cette stratégie est élaborée en référence aux normes GRI",
+      "claim": "Cette stratégie vise à aligner les objectifs de durabilité de l'université avec ses stratégies pertinentes",
       "supported": true
      },
      {
-      "claim": "L'université a décidé d'aligner son programme de durabilité avec les stratégies pertinentes",
+      "claim": "L'université compte un organisme de gouvernance, l'Office de la durabilité et de l'action climatique",
       "supported": true
      },
      {
-      "claim": "L'Office de la durabilité et de l'action climatique (The Office of Sustainability and Climate Action) est situé dans le Bureau du président",
+      "claim": "Ce dernier est soutenu par le Plan d'action pour la durabilité et le climat",
       "supported": true
      },
      {
-      "claim": "21 % des appels d'offres ont inclus des spécifications de durabilité pour les fournisseurs",
+      "claim": "L'université a adopté des pratiques de durabilité dans ses achats",
       "supported": true
      },
      {
-      "claim": "54 % des appels d'offres ont inclus des conditions de durabilité pour les produits",
+      "claim": "L'université a mis en place un système de formation et d'engagement du personnel pour favoriser la durabilité",
       "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport ne peut pas établir les mécanismes de demande de conseil et de signalement pour les parties prenantes autres que les salariés, ni les engagements politiques de l'université en matière de"
+     "La phrase 'GRI 2-23' est utilisée comme référence, mais il n'y a pas de lien direct avec la Stratégie de développement durable et le Plan d'action pour la durabilité et le climat."
     ],
     "score": 4,
-    "feedback": "Supprimer les phrases suivantes : 'Cette stratégie est élaborée en référence aux normes GRI.' et 'L'université a décidé d'aligner son programme de durabilité avec les stratégies pertinentes.'",
+    "feedback": "Il faut supprimer la référence à GRI 2-23 et clarifier le lien entre la Stratégie de développement durable et le Plan d'action pour la durabilité et le climat. Il faut également être plus précis dans la description des pratiques de durabilité adoptées dans les achats.",
     "faithfulness": 1.0,
-    "seconds": 272.5,
+    "seconds": 409.2,
     "discarded_violations": [],
     "accepted": true
    }
@@ -88,27 +93,15 @@
  "evidence": [
   {
    "credit": "PA-2",
-   "text": "The Sustainability and Climate Action Plan ( {{ PA2_t0_0 }} - {{ PA2_t0_1 }} ) builds on the successes of UCC's Sustainability Strategy ( {{ PA2_t0_2 }} ) and sets out how UCC will continue to embed sustainability goals and targets across all aspects of the University's educational, research, ancillary operations, infrastructural developments and interactions with the community. This plan seeks to help us as a university navigate this path and help shape and inspire a world that protects our environment and our society and furthers University College Cork's commitment to a sustainable future. UCC aims to achieve significant targets including becoming a zero waste campus by {{ PA2_t0_3 }} and"
-  },
-  {
-   "credit": "PA-2",
    "text": "Within the University's Sustainability and Climate Action Plan {{ PA2_t17_0 }} -, UCC has committed to align UCC sustainability programme with relevant UCC strategies including Community Engagement, EDI, teaching and learning and research strategies."
   },
   {
    "credit": "PA-2",
-   "text": "Within the University's Sustainability and Climate Action Plan {{ PA2_t2_0 }} -, UCC has committed to the following objectives:"
+   "text": "The Sustainability and Climate Action Plan ( {{ PA2_t0_0 }} - {{ PA2_t0_1 }} ) builds on the successes of UCC's Sustainability Strategy ( {{ PA2_t0_2 }} ) and sets out how UCC will continue to embed sustainability goals and targets across all aspects of the University's educational, research, ancillary operations, infr"
   },
   {
-   "credit": "PA-2",
-   "text": "Within the University's Sustainability and Climate Action Plan {{ PA2_t18_0 }} -, UCC has committed to:"
-  },
-  {
-   "credit": "PA-2",
-   "text": "- Align UCC sustainability programme with relevant UCC strategies including Community Engagement, EDI, teaching and learning and research strategies."
-  },
-  {
-   "credit": "PA-2",
-   "text": "Within the University's Sustainability and Climate Action Plan {{ PA2_t11_0 }} -, UCC has committed to a number of objectives regarding campus operations, a selection of these include:"
+   "credit": "PA-1",
+   "text": "The Head of Sustainability and Climate Action coordinates the Office of Sustainability and Climate Action. This office also coordinates the Green Campus Committee, Green Forum and ULT Subcommittee on Sustainability and Climate Action."
   },
   {
    "credit": "PA-1",
@@ -119,12 +112,24 @@
    "text": "There are a number of different leave types available to all staff of UCC, regardless of gender. These include:"
   },
   {
+   "credit": "PA-12",
+   "text": "Under the maternity legislation all women are entitled to weeks maternity leave. Payment of maternity leave may be sourced both from the Department of Social Welfare and/or the University. The week entitlement is divided into weeks paid and an additional weeks unpaid. Entitlements to paid leave and unpaid leave are out"
+  },
+  {
    "credit": "OP-9",
    "text": "Tenders were completed in {{ OP9_t0_0 }} and of these included sustainability considerations. {{ OP9_t0_1 }} of tenders included supplier sustainability specifications and {{ OP9_t0_2 }} of tenders included product sustainability condsiderations."
   },
   {
+   "credit": "OP-9",
+   "text": "UCC procurement Officer provided details for all contract spend that included social or EDI considerations."
+  },
+  {
    "credit": "EN-3",
    "text": "In {{ EN3_t2_0 }}, UCC's Office of Sustainability and Climate Action in collaboration with the Sustainability Institute and Academy developed a -hour Climate Leadership Training Course which was delivered to all members of the University's Leadership team."
+  },
+  {
+   "credit": "EN-3",
+   "text": "- All management level staff from of the Colleges within the University, as well as the University Leadership Team have undertaken Climate Leadership Training, which involves a significant element of interactive workshopping to determine actions that can be undertaken within individual schools and colleges."
   }
  ]
 }

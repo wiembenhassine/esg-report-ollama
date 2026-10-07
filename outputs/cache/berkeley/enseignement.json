@@ -1,159 +1,70 @@
 {
- "prompt_hash": "27304583388357b8",
- "round": 0,
+ "prompt_hash": "5bfaaeacc146e308",
+ "round": 1,
  "decision": "validée",
- "text": "### Enseignement, recherche et engagement\n\nL'université obtient 13,01 points STARS sur 14 au crédit AC-1, niveau élevé. L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de 2021 à 2024, en filtrant les éléments qui se qualifient comme des cours axés sur la durabilité ou liés à la durabilité. Les cours qui se qualifient ont été comptabilisés comme des offres de cours en durabilité.\n\nL'université obtient 10,22 points STARS sur 15 au crédit AC-2, niveau intermédiaire. Les programmes de premier cycle de l'Université de Californie à Berkeley incluent une exigence de cours axée sur la durabilité.\n\nL'université obtient 8 points STARS sur 8 au crédit AC-3, niveau maximal. Les programmes de cycles supérieurs de l'Université de Californie à Berkeley incluent des cours axés sur la durabilité.\n\nL'université obtient 7,35 points STARS sur 10 au crédit AC-6, niveau intermédiaire. Un étudiant de premier cycle a créé une liste de mots-clés pour identifier la recherche en durabilité. L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche en durabilité et le nombre de départements universitaires engagés dans la recherche en durabilité.\n\nL'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal. L'Université de Californie à Berkeley compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab.\n\nL'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. L'Université de Californie à Berkeley a un centre de recherche en durabilité.\n\nL'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Le centre étudiant de ressources environnementales (SERC) de l'Université de Californie à Berkeley organise de nombreux événements axés sur la durabilité sur le campus, notamment la semaine de la justice climatique et la semaine de la Terre, une série de carrières environnementales, des formations à la justice environnementale et des événements d'éducation en plein air.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. L'Office de la durabilité, le SERC, le gouvernement et les relations communautaires de l'Université de Californie à Berkeley.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-5, niveau maximal.",
- "used_facts": [
-  "AC1_max",
-  "AC1_score",
-  "AC1_t9_0",
-  "AC1_t9_1",
-  "AC2_max",
-  "AC2_score",
-  "AC3_max",
-  "AC3_score",
-  "AC6_max",
-  "AC6_score",
-  "AC7_max",
-  "AC7_score",
-  "EN1_max",
-  "EN1_score",
-  "EN2_max",
-  "EN2_score",
-  "EN3_max",
-  "EN3_score",
-  "EN5_max",
-  "EN5_score"
- ],
+ "text": "### Enseignement, recherche et engagement\n\nL'université de Californie à Berkeley a mis en place divers programmes et dispositifs pour promouvoir l'enseignement, la recherche et l'engagement en matière de durabilité.\n\n#### Offre de cours en durabilité\n\nL'université de Californie à Berkeley offre une vaste gamme de cours en durabilité, qui sont classés en fonction de leur contenu et de leur lien avec les objectifs de durabilité. Ces cours sont proposés dans divers domaines, notamment l'environnement, la santé et la justice sociale.\n\n#### Programmes de premier cycle\n\nLes programmes de premier cycle de l'université de Californie à Berkeley sont conçus pour donner aux étudiants les compétences et les connaissances nécessaires pour relever les défis de la durabilité. Les étudiants peuvent choisir des cours et des projets qui leur permettent de développer leurs compétences en matière de durabilité.\n\n#### Programmes de cycles supérieurs\n\nLes programmes de cycles supérieurs de l'université de Californie à Berkeley offrent aux étudiants la possibilité de poursuivre leurs études en matière de durabilité et de développer des compétences plus avancées. Ces programmes sont conçus pour préparer les étudiants à des carrières dans le domaine de la durabilité.\n\n#### Recherche en durabilité\n\nL'université de Californie à Berkeley soutient la recherche en durabilité à travers diverses partenariats, notamment avec le Laboratoire national de Berkeley. Les chercheurs et les étudiants travaillent ensemble pour développer des solutions innovantes pour les défis de la durabilité.\n\n#### Centre de recherche en durabilité\n\nL'université de Californie à Berkeley compte plusieurs centres de recherche en durabilité, qui travaillent ensemble pour promouvoir la durabilité et la responsabilité environnementale. Ces centres sont conçus pour faciliter la collaboration entre les chercheurs et les étudiants.\n\n#### Communication et sensibilisation\n\nL'université de Californie à Berkeley a mis en place diverses initiatives pour sensibiliser les étudiants, le personnel et la communauté à l'importance de la durabilité. Ces initiatives incluent des campagnes de sensibilisation, des événements et des programmes de formation.\n\n#### Activités parascolaires\n\nL'université de Californie à Berkeley propose diverses activités parascolaires pour les étudiants, qui leur permettent de développer leurs compétences en matière de durabilité et de participer à des projets de durabilité.\n\n#### Engagement et formation du personnel\n\nL'université de Californie à Berkeley a mis en place des programmes de formation pour le personnel, qui leur permettent de développer leurs compétences en matière de durabilité et de promouvoir la durabilité dans leur travail.\n\n#### Engagement civique\n\nL'université de Californie à Berkeley a mis en place des programmes pour encourager les étudiants et le personnel à participer à des activités de citoyenneté et de service communautaire.",
+ "used_facts": [],
  "judge_score": 4,
- "faithfulness": 0.83,
+ "faithfulness": 1.0,
  "gri_coverage": 1.0,
- "unsupported_claims": [
-  "L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de"
- ],
+ "unsupported_claims": [],
  "discarded_violations": [],
- "attempts": 2,
- "guard_rejections": 1,
- "seconds": 933.5,
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 821.9,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Enseignement, recherche et engagement\n\nL'université de Californie à Berkeley a déclaré un total de {{ AC1 }} points STARS sur {{ AC2 }} au crédit AC-1, niveau élevé, pour ses offres de cours en durabilité. Les cours ont été collectés via un inventaire de cours de l'université de Californie à Berkeley de {{ AC1_t9_0 }} à {{ AC1_t9_1 }}, en filtrant les éléments qui se qualifient comme des cours axés sur la durabilité ou liés à la durabilité.\n\nL'université a également déclaré un total de {{ AC3 }} points STARS sur {{ AC6 }} au crédit AC-3, niveau maximal, pour ses programmes de cycles supérieurs. Les programmes de cycles supérieurs ont été évalués pour leur contenu en durabilité.\n\nEn ce qui concerne la recherche en durabilité, l'université a déclaré un total de {{ AC6 }} points STARS sur {{ AC7 }} au crédit AC-6, niveau intermédiaire. Les chercheurs ont identifié des recherches en durabilité via une grande recherche de mots-clés de l'inventaire de recherche pour l'exercice financier {{ AC6_t0_0 }} à {{ AC6_t0_1 }}.\n\nL'université a également déclaré un total de {{ EN1 }} points STARS sur {{ EN2 }} au crédit EN-1, niveau maximal, pour sa communication et sa sensibilisation. Les activités parascolaires, telles que des événements et des séries axés sur la durabilité, sont organisés par le centre étudiant de ressources environnementales (SERC).\n\nL'université a également déclaré un total de {{ EN3 }} points STARS sur {{ EN5 }} au crédit EN-3, niveau maximal, pour l'engagement et la formation du personnel. Le centre étudiant de ressources environnementales (SERC) et l'Office de la durabilité de l'université de Californie à Berkeley sont responsables de l'engagement et de la formation du personnel.\n\nEnfin, l'université a déclaré un total de {{ EN7 }} points STARS sur {{ EN5 }} au crédit EN-7, niveau maximal, pour la formation continue. Les universitaires de l'université de Californie à Berkeley ont développé des formations continues en durabilité, telles que des certificats en ressources renouvelables et en conception de véhicules électriques.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la part des points STARS obtenus dans le pilier Enseignement, recherche et engagement, car les données ne sont pas disponibles.\n\n(GRI 305-1)",
-   "gen_seconds": 356.7,
-   "prompt_tokens": 2638,
-   "output_tokens": 610,
-   "raw_guard_problems": [
-    "marqueur {{ AC1 }} sans verbe de score : écris par exemple « obtient {{ AC1 }} »",
-    "marqueur {{ AC3 }} sans verbe de score : écris par exemple « obtient {{ AC3 }} »",
-    "marqueur {{ AC6 }} sans verbe de score : écris par exemple « obtient {{ AC6 }} »",
-    "marqueur {{ EN1 }} sans verbe de score : écris par exemple « obtient {{ EN1 }} »",
-    "marqueur {{ EN3 }} sans verbe de score : écris par exemple « obtient {{ EN3 }} »",
-    "marqueur {{ EN7 }} sans verbe de score : écris par exemple « obtient {{ EN7 }} »"
-   ],
-   "removed_sentences": [],
-   "guard_problems": [
-    "marqueur {{ AC1 }} sans verbe de score : écris par exemple « obtient {{ AC1 }} »",
-    "marqueur {{ AC3 }} sans verbe de score : écris par exemple « obtient {{ AC3 }} »",
-    "marqueur {{ AC6 }} sans verbe de score : écris par exemple « obtient {{ AC6 }} »",
-    "marqueur {{ EN1 }} sans verbe de score : écris par exemple « obtient {{ EN1 }} »",
-    "marqueur {{ EN3 }} sans verbe de score : écris par exemple « obtient {{ EN3 }} »",
-    "marqueur {{ EN7 }} sans verbe de score : écris par exemple « obtient {{ EN7 }} »"
-   ],
-   "lint_problems": [
-    "cette section ne correspond à aucune publication GRI : ne cite aucun code GRI"
-   ],
-   "gri_coverage": 1.0,
-   "lint_notes": []
-  },
-  {
-   "attempt": 2,
-   "draft": "### Enseignement, recherche et engagement\n\nL'université obtient {{ AC1 }}. L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de {{ AC1_t9_0 }} à {{ AC1_t9_1 }}, en filtrant les éléments qui se qualifient comme des cours axés sur la durabilité ou liés à la durabilité. Les cours qui se qualifient ont été comptabilisés comme des offres de cours en durabilité.\n\nL'université obtient {{ AC2 }}. Les programmes de premier cycle de l'Université de Californie à Berkeley incluent une exigence de cours axée sur la durabilité.\n\nL'université obtient {{ AC3 }}. Les programmes de cycles supérieurs de l'Université de Californie à Berkeley incluent des cours axés sur la durabilité.\n\nL'université obtient {{ AC6 }}. Un étudiant de premier cycle a créé une liste de mots-clés pour identifier la recherche en durabilité. La liste de mots-clés a été élaborée en prenant en compte les mots-clés utilisés pour identifier les offres de cours en durabilité pour {{ AC1 }} et d'autres mots-clés ont été pris en compte à partir de la recherche de mots-clés pour la recherche en durabilité utilisée dans le rapport STARS précédent. Après une grande recherche de mots-clés de l'inventaire de recherche pour {{ AC6_t0_0 }} à {{ AC6_t0_1 }}, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés. L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche en durabilité et le nombre de départements universitaires engagés dans la recherche en durabilité.\n\nL'université obtient {{ AC7 }}. L'Université de Californie à Berkeley compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab.\n\nL'université obtient {{ EN1 }}. L'Université de Californie à Berkeley a un centre de recherche en durabilité.\n\nL'université obtient {{ EN2 }}. Le centre étudiant de ressources environnementales (SERC) de l'Université de Californie à Berkeley organise de nombreux événements axés sur la durabilité sur le campus, notamment la semaine de la justice climatique et la semaine de la Terre, une série de carrières environnementales, des formations à la justice environnementale et des événements d'éducation en plein air.\n\nL'université obtient {{ EN3 }}. L'Office de la durabilité, le SERC, le gouvernement et les relations communautaires de l'Université de Californie à Berkeley.\n\nL'université obtient {{ EN5 }}.",
-   "gen_seconds": 266.9,
-   "prompt_tokens": 2835,
+   "draft": "### Enseignement, recherche et engagement\n\nL'université de Californie à Berkeley a mis en place divers programmes et dispositifs pour promouvoir l'enseignement, la recherche et l'engagement en matière de durabilité.\n\n#### Offre de cours en durabilité\n\nL'université de Californie à Berkeley offre une vaste gamme de cours en durabilité, qui sont classés en fonction de leur contenu et de leur lien avec les objectifs de durabilité. Ces cours sont proposés dans divers domaines, notamment l'environnement, la santé et la justice sociale.\n\n#### Programmes de premier cycle\n\nLes programmes de premier cycle de l'université de Californie à Berkeley sont conçus pour donner aux étudiants les compétences et les connaissances nécessaires pour relever les défis de la durabilité. Les étudiants peuvent choisir des cours et des projets qui leur permettent de développer leurs compétences en matière de durabilité.\n\n#### Programmes de cycles supérieurs\n\nLes programmes de cycles supérieurs de l'université de Californie à Berkeley offrent aux étudiants la possibilité de poursuivre leurs études en matière de durabilité et de développer des compétences plus avancées. Ces programmes sont conçus pour préparer les étudiants à des carrières dans le domaine de la durabilité.\n\n#### Recherche en durabilité\n\nL'université de Californie à Berkeley soutient la recherche en durabilité à travers diverses partenariats, notamment avec le Laboratoire national de Berkeley. Les chercheurs et les étudiants travaillent ensemble pour développer des solutions innovantes pour les défis de la durabilité.\n\n#### Centre de recherche en durabilité\n\nL'université de Californie à Berkeley compte plusieurs centres de recherche en durabilité, qui travaillent ensemble pour promouvoir la durabilité et la responsabilité environnementale. Ces centres sont conçus pour faciliter la collaboration entre les chercheurs et les étudiants.\n\n#### Communication et sensibilisation\n\nL'université de Californie à Berkeley a mis en place diverses initiatives pour sensibiliser les étudiants, le personnel et la communauté à l'importance de la durabilité. Ces initiatives incluent des campagnes de sensibilisation, des événements et des programmes de formation.\n\n#### Activités parascolaires\n\nL'université de Californie à Berkeley propose diverses activités parascolaires pour les étudiants, qui leur permettent de développer leurs compétences en matière de durabilité et de participer à des projets de durabilité.\n\n#### Engagement et formation du personnel\n\nL'université de Californie à Berkeley a mis en place des programmes de formation pour le personnel, qui leur permettent de développer leurs compétences en matière de durabilité et de promouvoir la durabilité dans leur travail.\n\n#### Engagement civique\n\nL'université de Californie à Berkeley a mis en place des programmes pour encourager les étudiants et le personnel à participer à des activités de citoyenneté et de service communautaire.",
+   "gen_seconds": 437.8,
+   "prompt_tokens": 2847,
    "output_tokens": 700,
-   "raw_guard_problems": [
-    "marqueur {{ AC1 }} sans verbe de score : écris par exemple « obtient {{ AC1 }} »",
-    "marqueur {{ AC6_t0_0 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)"
-   ],
-   "removed_sentences": [
-    "La liste de mots-clés a été élaborée en prenant en compte les mots-clés utilisés pour identifier les offres de cours en durabilité pour {{ AC1 }} et d'autres mots-clés ont été pris en compte à partir de la recherche de mots-clés pour la recherche en durabilité utilisée dans le rapport STARS précédent.",
-    "Après une grande recherche de mots-clés de l'inventaire de recherche pour {{ AC6_t0_0 }} à {{ AC6_t0_1 }}, l'étudiant a ensuite examiné la recherche identifiée pour vérifier l'exactitude de la recherche de mots-clés."
-   ],
+   "raw_guard_problems": [],
+   "removed_sentences": [],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 1.0,
-   "lint_notes": [],
-   "rendered": "### Enseignement, recherche et engagement\n\nL'université obtient 13,01 points STARS sur 14 au crédit AC-1, niveau élevé. L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de 2021 à 2024, en filtrant les éléments qui se qualifient comme des cours axés sur la durabilité ou liés à la durabilité. Les cours qui se qualifient ont été comptabilisés comme des offres de cours en durabilité.\n\nL'université obtient 10,22 points STARS sur 15 au crédit AC-2, niveau intermédiaire. Les programmes de premier cycle de l'Université de Californie à Berkeley incluent une exigence de cours axée sur la durabilité.\n\nL'université obtient 8 points STARS sur 8 au crédit AC-3, niveau maximal. Les programmes de cycles supérieurs de l'Université de Californie à Berkeley incluent des cours axés sur la durabilité.\n\nL'université obtient 7,35 points STARS sur 10 au crédit AC-6, niveau intermédiaire. Un étudiant de premier cycle a créé une liste de mots-clés pour identifier la recherche en durabilité. L'étudiant a ensuite calculé le nombre d'employés engagés dans la recherche en durabilité et le nombre de départements universitaires engagés dans la recherche en durabilité.\n\nL'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal. L'Université de Californie à Berkeley compte plusieurs centres engagés dans des sujets liés à la durabilité, notamment le Sutardja Center for Entrepreneurship and Technology qui abrite le Alternative Meats X Lab.\n\nL'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. L'Université de Californie à Berkeley a un centre de recherche en durabilité.\n\nL'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Le centre étudiant de ressources environnementales (SERC) de l'Université de Californie à Berkeley organise de nombreux événements axés sur la durabilité sur le campus, notamment la semaine de la justice climatique et la semaine de la Terre, une série de carrières environnementales, des formations à la justice environnementale et des événements d'éducation en plein air.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. L'Office de la durabilité, le SERC, le gouvernement et les relations communautaires de l'Université de Californie à Berkeley.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-5, niveau maximal.",
-   "used_facts": [
-    "AC1_max",
-    "AC1_score",
-    "AC1_t9_0",
-    "AC1_t9_1",
-    "AC2_max",
-    "AC2_score",
-    "AC3_max",
-    "AC3_score",
-    "AC6_max",
-    "AC6_score",
-    "AC7_max",
-    "AC7_score",
-    "EN1_max",
-    "EN1_score",
-    "EN2_max",
-    "EN2_score",
-    "EN3_max",
-    "EN3_score",
-    "EN5_max",
-    "EN5_score"
+   "lint_notes": [
+    "longueur de 424 mots : vise 180 à 300 mots"
    ],
+   "rendered": "### Enseignement, recherche et engagement\n\nL'université de Californie à Berkeley a mis en place divers programmes et dispositifs pour promouvoir l'enseignement, la recherche et l'engagement en matière de durabilité.\n\n#### Offre de cours en durabilité\n\nL'université de Californie à Berkeley offre une vaste gamme de cours en durabilité, qui sont classés en fonction de leur contenu et de leur lien avec les objectifs de durabilité. Ces cours sont proposés dans divers domaines, notamment l'environnement, la santé et la justice sociale.\n\n#### Programmes de premier cycle\n\nLes programmes de premier cycle de l'université de Californie à Berkeley sont conçus pour donner aux étudiants les compétences et les connaissances nécessaires pour relever les défis de la durabilité. Les étudiants peuvent choisir des cours et des projets qui leur permettent de développer leurs compétences en matière de durabilité.\n\n#### Programmes de cycles supérieurs\n\nLes programmes de cycles supérieurs de l'université de Californie à Berkeley offrent aux étudiants la possibilité de poursuivre leurs études en matière de durabilité et de développer des compétences plus avancées. Ces programmes sont conçus pour préparer les étudiants à des carrières dans le domaine de la durabilité.\n\n#### Recherche en durabilité\n\nL'université de Californie à Berkeley soutient la recherche en durabilité à travers diverses partenariats, notamment avec le Laboratoire national de Berkeley. Les chercheurs et les étudiants travaillent ensemble pour développer des solutions innovantes pour les défis de la durabilité.\n\n#### Centre de recherche en durabilité\n\nL'université de Californie à Berkeley compte plusieurs centres de recherche en durabilité, qui travaillent ensemble pour promouvoir la durabilité et la responsabilité environnementale. Ces centres sont conçus pour faciliter la collaboration entre les chercheurs et les étudiants.\n\n#### Communication et sensibilisation\n\nL'université de Californie à Berkeley a mis en place diverses initiatives pour sensibiliser les étudiants, le personnel et la communauté à l'importance de la durabilité. Ces initiatives incluent des campagnes de sensibilisation, des événements et des programmes de formation.\n\n#### Activités parascolaires\n\nL'université de Californie à Berkeley propose diverses activités parascolaires pour les étudiants, qui leur permettent de développer leurs compétences en matière de durabilité et de participer à des projets de durabilité.\n\n#### Engagement et formation du personnel\n\nL'université de Californie à Berkeley a mis en place des programmes de formation pour le personnel, qui leur permettent de développer leurs compétences en matière de durabilité et de promouvoir la durabilité dans leur travail.\n\n#### Engagement civique\n\nL'université de Californie à Berkeley a mis en place des programmes pour encourager les étudiants et le personnel à participer à des activités de citoyenneté et de service communautaire.",
+   "used_facts": [],
    "trace_problems": [],
-   "used_markers": [
-    "AC1",
-    "AC1_t9_0",
-    "AC1_t9_1",
-    "AC2",
-    "AC3",
-    "AC6",
-    "AC7",
-    "EN1",
-    "EN2",
-    "EN3",
-    "EN5"
-   ],
+   "used_markers": [],
    "judge": {
     "claims": [
      {
-      "claim": "L'université obtient 13,01 points STARS sur 14 au crédit AC-1, niveau élevé.",
+      "claim": "L'université de Californie à Berkeley offre une vaste gamme de cours en durabilité",
       "supported": true
      },
      {
-      "claim": "L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de",
-      "supported": false
-     },
-     {
-      "claim": "Les programmes de premier cycle de l'Université de Californie à Berkeley incluent une exigence de cours axée sur la durabilité.",
+      "claim": "Les programmes de premier cycle de l'université de Californie à Berkeley sont conçus pour donner aux étudiants les compétences et les connaî",
       "supported": true
      },
      {
-      "claim": "L'université obtient 7,35 points STARS sur 10 au crédit AC-6, niveau intermédiaire.",
+      "claim": "L'université de Californie à Berkeley a mis en place diverses initiatives pour sensibiliser les étudiants, le personnel et la communauté à l",
       "supported": true
      },
      {
-      "claim": "Un étudiant de premier cycle a créé une liste de mots-clés pour identifier la recherche en durabilité.",
+      "claim": "L'université de Californie à Berkeley a mis en place des programmes de formation pour le personnel, qui leur permettent de développer leurs",
       "supported": true
      },
      {
-      "claim": "L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal.",
+      "claim": "L'université de Californie à Berkeley a mis en place des programmes pour encourager les étudiants et le personnel à participer à des activit",
+      "supported": true
+     },
+     {
+      "claim": "L'université de Californie à Berkeley a mis en place divers programmes et dispositifs pour promouvoir l'enseignement, la recherche et l'eng",
       "supported": true
      }
     ],
     "rule_violations": [
-     "L'information pour les offres de cours en durabilité a été collectée via un inventaire des cours de l'Université de Californie à Berkeley de 2021 à 2024, en filtrant les éléments qui se qualifient"
+     "La section présente une liste de scores STARS au lieu de prose écrite"
     ],
     "score": 4,
-    "feedback": "Supprimer les phrases non étayées par les sources. Pour le crédit AC-1, utiliser la phrase 'L'université obtient 13,01 points STARS sur 14 au crédit AC-1, niveau élevé.' et supprimer la phrase suivante. Pour le crédit AC-6, utiliser la phrase 'L'université obtient 7,35 points STARS sur 10 au crédit AC-6, niveau intermédiaire.' et supprimer la phrase suivante. Pour le crédit EN-3, utiliser la phrase 'L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal.' et supprimer la phrase",
-    "faithfulness": 0.83,
-    "seconds": 309.4,
+    "feedback": "Supprimer la liste de scores STARS et rédiger les scores en prose écrite. Par exemple, au lieu de dire 'L'université de Californie à Berkeley a obtenu 13,01 points STARS sur 14 au crédit AC-1', dire 'L'université de Californie à Berkeley a obtenu un score de 13,01 points STARS sur 14 au crédit AC-1, ce qui correspond à un niveau élevé'.",
+    "faithfulness": 1.0,
+    "seconds": 383.7,
     "discarded_violations": [],
     "accepted": true
    }
@@ -165,11 +76,23 @@
  "evidence": [
   {
    "credit": "AC-1",
-   "text": "The information for sustainability course offerings was collected via a UC Berkeley course inventory from {{ AC1_t9_0 }} - {{ AC1_t9_1 }} filtering for items that qualified as sustainability-focused or sustainability-related courses. UC Berkeley Office of Sustainability undergraduate fellows classified the courses as sustainability-related or -focused based on the descriptions provided in the STARS technical manual. All courses that were either -focused or -related were counted as a sustainability offering. The resulting courses were then analyzed by the school's Office of Planning and Analysis to calculate the percentage of total departments that had at least one sustainability course offer"
+   "text": "The information for sustainability course offerings was collected via a UC Berkeley course inventory from {{ AC1_t9_0 }} - {{ AC1_t9_1 }} filtering for items that qualified as sustainability-focused or sustainability-related courses. UC Berkeley Office of Sustainability undergraduate fellows classified the courses as s"
+  },
+  {
+   "credit": "AC-1",
+   "text": "Subject matter experts were consulted to access the database of course offerings at UC Berkeley: Dr. Kira Blaisdell-Sloan and Matthew Betts from the UC Berkeley Office of Planning & Analysis. Their office utilized custom queries that search for AASHE's curated list of sustainability keywords within the course catalog d"
   },
   {
    "credit": "AC-2",
    "text": "Undergraduate List: th tab titled, \"one sustainability-focused course learning requirement\""
+  },
+  {
+   "credit": "AC-2",
+   "text": "Undergraduate List: nd tab titled, \"sustainability-focused degrees\""
+  },
+  {
+   "credit": "AC-3",
+   "text": "Graduate List: nd tab, \"sustainability-focused programs\""
   },
   {
    "credit": "AC-3",
@@ -177,23 +100,59 @@
   },
   {
    "credit": "AC-6",
-   "text": "An undergraduate student fellow at the Office of Sustainability created a list of keywords to identify sustainability research. The keyword list was drawn heavily from the keywords created to identify sustainability course offerings for AC-, and other keywords were taken from the sustainability research keyword search used during the previous UCB STARS report. After a large keyword search of the entire research inventory for FY {{ AC6_t0_0 }} to FY {{ AC6_t0_1 }}, the fellow then reviewed the identified research to screen the accuracy of the keyword search. The fellow then calculated the number of employees engaged in sustainability research and the number of academic departments engaged in "
+   "text": "An undergraduate student fellow at the Office of Sustainability created a list of keywords to identify sustainability research. The keyword list was drawn heavily from the keywords created to identify sustainability course offerings for AC-, and other keywords were taken from the sustainability research keyword search "
+  },
+  {
+   "credit": "AC-6",
+   "text": "UC Berkeley supports interdisciplinary sustainability research through partnerships, including those with Lawrence Berkeley National Laboratory, to advance climate and sustainability research. The Berkeley Climate Change Network, for instance, connects researchers and students with funding and collaborative opportuniti"
   },
   {
    "credit": "AC-7",
    "text": "There are multiple centers at UC Berkeley engaged in sustainability related topics.One example is the Sutardja for Entrepreneurship and Technology center that has the Alternative Meats X Lab at UC Berkeley."
   },
   {
+   "credit": "AC-7",
+   "text": "In addition to the Berkeley Climate Change Network and CITRUS research centers, there are other institutes and organizations focused on sustainabiltiy research at UC Berkeley."
+  },
+  {
+   "credit": "EN-1",
+   "text": "UC Berkeley has coordinated several sustainability-focused outreach campaigns over the past years, with various initiatives aimed at engaging the campus community in environmental stewardship and social justice. Some of the key campaigns include:"
+  },
+  {
+   "credit": "EN-1",
+   "text": "Email campaigns: Collected data on sustainability newsletters and event invitations sent through campus-wide distribution lists."
+  },
+  {
    "credit": "EN-2",
    "text": "UC Berkeley's community hosts many sustainability focused events and series on campus. The Student Environmental Resource Center (SERC) hosts of events each semester, including Climate Justice Week and Earth Week, an environmental career series, environmental justice trainings, and outdoor education events."
   },
   {
+   "credit": "EN-2",
+   "text": "The Student Environmental Resource Center is a campus department that focuses on creating and supporting the co-curricular experience for students interested in the environment. Programs include the SERC Membership program and the Student Leadership Institute for Climate Resilience amongst many more."
+  },
+  {
    "credit": "EN-3",
-   "text": "Office of Sustainability, SERC, Government & Community Relations"
+   "text": "Sustainability Staff Training: We included employees who have completed sustainability-focused training, reflecting their commitment to sustainable practices and awareness."
+  },
+  {
+   "credit": "EN-3",
+   "text": "Created by the Office of Sustainability, this UC Berkeley Sustainability Staff Training is composed of comprehensive modules, designed to allow staff to work and complete at their own pace."
   },
   {
    "credit": "EN-5",
-   "text": "Sustainable Agriculture and Land Use: Berkeley's College of Natural Resources has pioneered research on sustainable agriculture and land use, with an emphasis on reducing agricultural emissions, water conservation, and soil health. Faculty members have advised the U.S. Department of Agriculture (USDA) on sustainable farming practices, which in turn influence international agricultural sustainability guidelines."
+   "text": "UC Berkeley has programs designed to support employee community service. One key initiative is the Cal Civic Engagement Program, which encourages and supports faculty and staff in contributing to the community through volunteerism and civic engagement. This program aligns with the university's mission to promote social"
+  },
+  {
+   "credit": "EN-5",
+   "text": "Sustainability Office, SERC, Government & Community Relations"
+  },
+  {
+   "credit": "EN-7",
+   "text": "The information in this section was provided by UC Berkeley Extension's Construction and Sustainability Department and its program director, David Brotherton."
+  },
+  {
+   "credit": "EN-7",
+   "text": "Introduction to Climate Change, Environment and Sustainability:"
   }
  ]
 }

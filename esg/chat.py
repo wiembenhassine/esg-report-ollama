@@ -15,6 +15,7 @@ Mêmes règles que les rapports :
     demandée — tonnes, MWh, m³… — que le jeu de données ne contient pas), puis par le modèle.
 """
 
+import difflib
 import os
 import re
 import subprocess
@@ -273,7 +274,9 @@ def report_request(question: str) -> dict | None:
     tokens = words(question)
     if not tokens or not REPORT_WORDS & set(tokens):
         return None
-    if not (tokens[0] in REPORT_WORDS or ACTION_WORDS & set(tokens) or REGEN_WORDS & set(tokens)):
+    # Verbe en tête avec une faute de frappe (« genenre le rapport de dublin ») : rendu depuis le cache, jamais Ollama.
+    typo = len(tokens[0]) >= 5 and difflib.get_close_matches(tokens[0], ACTION_WORDS | REGEN_WORDS, n=1, cutoff=0.8)
+    if not (tokens[0] in REPORT_WORDS or typo or ACTION_WORDS & set(tokens) or REGEN_WORDS & set(tokens)):
         return None
     if credits_for(question):
         return None

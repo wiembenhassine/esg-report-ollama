@@ -1,68 +1,78 @@
 {
- "prompt_hash": "ad0e7f5924beb104",
- "round": 0,
+ "prompt_hash": "d69fd57fd6a4f287",
+ "round": 1,
  "decision": "validée",
- "text": "### Organisation, périmètre et effectifs\n\nL'Université College Cork (UCC) est une institution d'enseignement supérieur située en Irlande. Elle est dénommée sous le nom de University College Cork dans le contexte de ce rapport.\n\nLe périmètre de l'UCC exclut ses sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin). Ces entités ne sont pas incluses dans la soumission STARS de l'université.\n\nL'université a effectué une cartographie approfondie pour identifier les parties responsables de chaque crédit. Ce processus a été mené par l'office de la Durabilité et de l'Action Climatique, avec le soutien de l'officier de la recherche et des données institutionnelles.\n\nL'université a également présenté des mises à jour régulières sur le processus de collecte de données au comité de direction sur la durabilité et l'action climatique.\n\n(GRI 2-1, GRI 2-2, GRI 2-3)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le nombre d'effectifs de l'université, ni les ratios par personne ou par m², en raison de la différence de périmètre entre les établissements.\n\n(GRI 2-7)\n\n### Limites et omissions\n\nCe rapport ne couvre pas les entités suivantes : les sociétés filiales de l'université, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin).\n\n(GRI 2-4, GRI 2-8)",
- "used_facts": [],
+ "text": "### L'organisation, son périmètre et ses effectifs\n\nL'université obtient un score STARS global de 85,99.\n\nL'université est une organisation à but non lucratif qui est une partie de l'Université nationale d'Irlande. Elle est située à Cork, en Irlande. L'université a un périmètre qui exclut ses sociétés filiales, notamment Campus Accommodation, le Mardyke Arena, le Centre des étudiants et l'Irish Management Institute (Dublin).\n\nL'université a mené une étape de mapping exhaustive pour identifier les parties responsables de chaque crédit. Des feuilles de calcul, des guides de crédit et des définitions ont été envoyés à chaque partie responsable et des réunions ont été tenues pour s'assurer de l'exactitude des données collectées.\n\nL'université a également mis en place des réunions régulières avec son responsable de la recherche et de l'institution. Ces réunions visaient à présenter des mises à jour régulières sur le processus de collecte de données.\n\n(GRI 2-1)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'université, car ces informations ne sont pas collectées par STARS. De même, ce rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université, car ces informations ne sont pas collectées par STARS. Enfin, ce rapport ne peut pas établir la vérification externe de l'université, car les données STARS sont autodéclarées et non vérifiées par l'AASHE.",
+ "used_facts": [
+  "STARS_score"
+ ],
  "judge_score": 4,
- "faithfulness": 1.0,
- "gri_coverage": 0.67,
- "unsupported_claims": [],
+ "faithfulness": 0.83,
+ "gri_coverage": 0.17,
+ "unsupported_claims": [
+  "L'université a un périmètre qui exclut ses sociétés filiales, notamment Campus Accommodation, le Mardyke Arena, le Centre des étudiants et l"
+ ],
  "discarded_violations": [],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 413.1,
+ "seconds": 716.2,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Organisation, périmètre et effectifs\n\nL'Université College Cork (UCC) est une institution d'enseignement supérieur située en Irlande. Elle est dénommée sous le nom de University College Cork dans le contexte de ce rapport.\n\nLe périmètre de l'UCC exclut ses sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin). Ces entités ne sont pas incluses dans la soumission STARS de l'université.\n\nL'université a effectué une cartographie approfondie pour identifier les parties responsables de chaque crédit. Ce processus a été mené par l'office de la Durabilité et de l'Action Climatique, avec le soutien de l'officier de la recherche et des données institutionnelles.\n\nL'université a également présenté des mises à jour régulières sur le processus de collecte de données au comité de direction sur la durabilité et l'action climatique.\n\n(GRI 2-1, GRI 2-2, GRI 2-3)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le nombre d'effectifs de l'université, ni les ratios par personne ou par m², en raison de la différence de périmètre entre les établissements.\n\n(GRI 2-7)\n\n### Limites et omissions\n\nCe rapport ne couvre pas les entités suivantes : les sociétés filiales de l'université, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin).\n\n(GRI 2-4, GRI 2-8)",
-   "gen_seconds": 194.4,
-   "prompt_tokens": 2153,
+   "draft": "### L'organisation, son périmètre et ses effectifs\n\nL'université obtient {{ STARS_score }}.\n\nL'université est une organisation à but non lucratif qui est une partie de l'Université nationale d'Irlande. Elle est située à Cork, en Irlande. L'université a un périmètre qui exclut ses sociétés filiales, notamment Campus Accommodation, le Mardyke Arena, le Centre des étudiants et l'Irish Management Institute (Dublin).\n\nL'université a mené une étape de mapping exhaustive pour identifier les parties responsables de chaque crédit. Des feuilles de calcul, des guides de crédit et des définitions ont été envoyés à chaque partie responsable et des réunions ont été tenues pour s'assurer de l'exactitude des données collectées.\n\nL'université a également mis en place des réunions régulières avec son responsable de la recherche et de l'institution. Ces réunions visaient à présenter des mises à jour régulières sur le processus de collecte de données.\n\n(GRI 2-1)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'université, car ces informations ne sont pas collectées par STARS. De même, ce rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université, car ces informations ne sont pas collectées par STARS. Enfin, ce rapport ne peut pas établir la vérification externe de l'université, car les données STARS sont autodéclarées et non vérifiées par l'AASHE.",
+   "gen_seconds": 413.1,
+   "prompt_tokens": 2154,
    "output_tokens": 387,
    "raw_guard_problems": [],
    "removed_sentences": [],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 0.67,
-   "lint_notes": [],
-   "rendered": "### Organisation, périmètre et effectifs\n\nL'Université College Cork (UCC) est une institution d'enseignement supérieur située en Irlande. Elle est dénommée sous le nom de University College Cork dans le contexte de ce rapport.\n\nLe périmètre de l'UCC exclut ses sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin). Ces entités ne sont pas incluses dans la soumission STARS de l'université.\n\nL'université a effectué une cartographie approfondie pour identifier les parties responsables de chaque crédit. Ce processus a été mené par l'office de la Durabilité et de l'Action Climatique, avec le soutien de l'officier de la recherche et des données institutionnelles.\n\nL'université a également présenté des mises à jour régulières sur le processus de collecte de données au comité de direction sur la durabilité et l'action climatique.\n\n(GRI 2-1, GRI 2-2, GRI 2-3)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir le nombre d'effectifs de l'université, ni les ratios par personne ou par m², en raison de la différence de périmètre entre les établissements.\n\n(GRI 2-7)\n\n### Limites et omissions\n\nCe rapport ne couvre pas les entités suivantes : les sociétés filiales de l'université, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Management Institute (Dublin).\n\n(GRI 2-4, GRI 2-8)",
-   "used_facts": [],
+   "gri_coverage": 0.17,
+   "lint_notes": [
+    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 2-2), (GRI 2-3), (GRI 2-5), (GRI 2-6)"
+   ],
+   "rendered": "### L'organisation, son périmètre et ses effectifs\n\nL'université obtient un score STARS global de 85,99.\n\nL'université est une organisation à but non lucratif qui est une partie de l'Université nationale d'Irlande. Elle est située à Cork, en Irlande. L'université a un périmètre qui exclut ses sociétés filiales, notamment Campus Accommodation, le Mardyke Arena, le Centre des étudiants et l'Irish Management Institute (Dublin).\n\nL'université a mené une étape de mapping exhaustive pour identifier les parties responsables de chaque crédit. Des feuilles de calcul, des guides de crédit et des définitions ont été envoyés à chaque partie responsable et des réunions ont été tenues pour s'assurer de l'exactitude des données collectées.\n\nL'université a également mis en place des réunions régulières avec son responsable de la recherche et de l'institution. Ces réunions visaient à présenter des mises à jour régulières sur le processus de collecte de données.\n\n(GRI 2-1)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'université, car ces informations ne sont pas collectées par STARS. De même, ce rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université, car ces informations ne sont pas collectées par STARS. Enfin, ce rapport ne peut pas établir la vérification externe de l'université, car les données STARS sont autodéclarées et non vérifiées par l'AASHE.",
+   "used_facts": [
+    "STARS_score"
+   ],
    "trace_problems": [],
-   "used_markers": [],
+   "used_markers": [
+    "STARS_score"
+   ],
    "judge": {
     "claims": [
      {
-      "claim": "L'Université College Cork (UCC) est une institution d'enseignement supérieur située en Irlande.",
+      "claim": "L'université obtient un score STARS global de 85,99.",
       "supported": true
      },
      {
-      "claim": "Le périmètre de l'UCC exclut ses sociétés filiales, telles que Campus Accommodation, le Mardyke Arena, le Student Centre et l'Irish Manageme",
+      "claim": "L'université est une organisation à but non lucratif qui est une partie de l'Université nationale d'Irlande.",
       "supported": true
      },
      {
-      "claim": "L'université a effectué une cartographie approfondie pour identifier les parties responsables de chaque crédit.",
+      "claim": "L'université a un périmètre qui exclut ses sociétés filiales, notamment Campus Accommodation, le Mardyke Arena, le Centre des étudiants et l",
+      "supported": false
+     },
+     {
+      "claim": "L'université a mené une étape de mapping exhaustive pour identifier les parties responsables de chaque crédit.",
       "supported": true
      },
      {
-      "claim": "Ce rapport ne peut pas établir le nombre d'effectifs de l'université, ni les ratios par personne ou par m², en raison de la différence de pé",
+      "claim": "L'université a également mis en place des réunions régulières avec son responsable de la recherche et de l'institution.",
       "supported": true
      },
      {
-      "claim": "Ce rapport ne couvre pas les entités suivantes : les sociétés filiales de l'université, telles que Campus Accommodation, le Mardyke Arena, l",
-      "supported": true
-     },
-     {
-      "claim": "Le score STARS du crédit PA-12 Droits des salariés est de 3 points STARS sur 3 au crédit PA-12, niveau maximal.",
+      "claim": "Ce rapport ne peut pas établir la dénomination légale, le siège et les pays d'activité de l'université, car ces informations ne sont pas",
       "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport présente le score STARS du crédit PA-12 Droits des salariés comme un niveau maximal, mais le GRI STATUS LIST indique que le crédit est partiellement rapporté."
+     "L'université a un périmètre qui exclut ses sociétés filiales, notamment Campus Accommodation, le Mardyke Arena, le Centre des étudiants et l'Irish Management Institute (Dublin)."
     ],
     "score": 4,
-    "feedback": "Supprimer la phrase 'niveau maximal' dans la section sur le score STARS du crédit PA-12 Droits des salariés.",
-    "faithfulness": 1.0,
-    "seconds": 218.7,
+    "feedback": "Supprimer la phrase 'L'université a un périmètre qui exclut ses sociétés filiales, notamment Campus Accommodation, le Mardyke Arena, le Centre des étudiants et l'Irish Management Institute (Dublin).' car elle n'est pas étayée par les sources.",
+    "faithfulness": 0.83,
+    "seconds": 302.6,
     "discarded_violations": [],
     "accepted": true
    }
@@ -74,15 +84,11 @@
  "evidence": [
   {
    "credit": "PRE-3",
-   "text": "This submission covers all of UCC main campus and satellite campuses that are under the management of UCC Buildings and Estates office. Subsidiary companies are not included in this submission, these include Campus Accommodation, the Mardyke Arena, the Student Centre and the Irish Management Institute (Dublin). As per guidelines, rented multi-tenant buildings are not included."
+   "text": "This submission covers all of UCC main campus and satellite campuses that are under the management of UCC Buildings and Estates office. Subsidiary companies are not included in this submission, these include Campus Accommodation, the Mardyke Arena, the Student Centre and the Irish Management Institute (Dublin). As per "
   },
   {
    "credit": "PRE-4",
-   "text": "As with previous reports an extensive mapping execise was undertaken to identify parties responsible for each credit. Spreadsheets, credit guidance, and definitions were sent to each responsible party and meetings held to ensure the accuracy of data collected. The process was led by the office of Sustainability and Climate Action, with additional support in data collection provided by the University's Data and Instiutional Research Officer."
-  },
-  {
-   "credit": "PRE-4",
-   "text": "Emissions figures were verified by the University's contracted carbon footprint provider, Sustineo."
+   "text": "As with previous reports an extensive mapping execise was undertaken to identify parties responsible for each credit. Spreadsheets, credit guidance, and definitions were sent to each responsible party and meetings held to ensure the accuracy of data collected. The process was led by the office of Sustainability and Cli"
   },
   {
    "credit": "PRE-4",
@@ -90,23 +96,15 @@
   },
   {
    "credit": "PRE-4",
-   "text": "Regular updates on data collection were presented at the University Leadership Team Subcommittee on Sustainability and Climate Action, which is chaired by the University President."
-  },
-  {
-   "credit": "PRE-4",
    "text": "Regular meetings were also held with the University's Data and Instiutional Research Officer."
   },
   {
-   "credit": "PRE-4",
-   "text": "Dr Maria Kirrane, Head of Sustainability and Climate"
+   "credit": "PA-12",
+   "text": "Under the maternity legislation all women are entitled to weeks maternity leave. Payment of maternity leave may be sourced both from the Department of Social Welfare and/or the University. The week entitlement is divided into weeks paid and an additional weeks unpaid. Entitlements to paid leave and unpaid leave are out"
   },
   {
    "credit": "PA-12",
    "text": "There are a number of different leave types available to all staff of UCC, regardless of gender. These include:"
-  },
-  {
-   "credit": "PA-12",
-   "text": "Under the maternity legislation all women are entitled to weeks maternity leave. Payment of maternity leave may be sourced both from the Department of Social Welfare and/or the University. The week entitlement is divided into weeks paid and an additional weeks unpaid. Entitlements to paid leave and unpaid leave are outlined in the Universities maternity leave policy. Employees are entitled to full pay for weeks."
   },
   {
    "credit": "PA-12",
