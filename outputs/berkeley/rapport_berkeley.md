@@ -1,5 +1,5 @@
 # Rapport de durabilité — University of California, Berkeley
-*Établi en référence aux normes GRI · généré le 2026-10-06 · données AASHE STARS 3.0*
+*Établi en référence aux normes GRI · généré le 2026-10-07 · données AASHE STARS 3.0*
 
 **À propos de ce rapport.** Ce rapport est généré automatiquement à partir de la soumission publique
 AASHE STARS 3.0 de University of California, Berkeley (19 février 2025), mise en correspondance avec les normes GRI.
@@ -82,6 +82,14 @@ Ce rapport ne peut pas établir les activités, la chaîne de valeur et les rela
 
 (GRI 2-6)
 
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-12 Droits des salariés (2,5 sur 3).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : aucun.
+
 ## Thèmes matériels
 
 | Crédit STARS | Points obtenus | Niveau |
@@ -97,6 +105,14 @@ Ces domaines sont fixés par STARS et sont identiques pour toutes les institutio
 Le Student Environmental Resource Center (SERC) de l'université a adopté un plan stratégique 2017-2022 qui inclut des objectifs mesurables, tels que l'expansion de l'accès et des opportunités de formation co-curriculaires et le développement de voies institutionnelles pour les clubs et les groupes étudiants pour accroître leur engagement intersectionnel avec le Centre de ressources environnementales (SERC). Le plan stratégique comprend également des objectifs stratégiques sous le but de renforcer les programmes et les ressources pour approfondir l'engagement dans la communauté de la durabilité.
 
 L'université a aussi publié un plan de durabilité (Sustainability Plan), avec des objectifs pour l'énergie, l'eau, les déchets, l'alimentation durable et la biodiversité, et un plan d'action climat (Climate Action Plan). Elle suit la politique de pratiques durables (Sustainable Practices Policy) du système UC, qui demande à tous les sites UC de réduire toutes leurs émissions d'au moins 90 % d'ici 2045 et d'éliminer les émissions restantes par des crédits de captage et de stockage du carbone.
+
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-2 Engagements et planification (6 sur 6).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : aucun.
 
 ## Gouvernance
 
@@ -122,6 +138,14 @@ UC Berkeley obtient 2,51 points STARS sur 6 au crédit PA-5, niveau intermédiai
 ### Limites et omissions
 
 Ce rapport ne peut pas établir la composition détaillée de l'organe de gouvernance (GRI 2-9), ni les publications GRI 2-10 à GRI 2-21, que STARS ne couvre pas ou seulement en partie (GRI 2-13 et GRI 2-14).
+
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-1 Coordination de la durabilité (1 sur 1) ; PA-4 Programme d'investissement durable (4 sur 4) ; PA-3 Gouvernance de l'établissement (3,5 sur 4).
+- **Partiellement atteints** : PA-5 Portefeuille d'investissements (2,51 sur 6).
+- **À améliorer** : aucun.
 
 ## Stratégie, politiques et pratiques
 
@@ -151,6 +175,14 @@ Ce rapport ne peut pas établir les engagements politiques de UC Berkeley en ce 
 
 (GRI 2-22, GRI 2-23, GRI 2-26)
 
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-2 Engagements et planification (6 sur 6) ; PA-1 Coordination de la durabilité (1 sur 1) ; OP-9 Système d'achats durables (7 sur 7) ; EN-3 Engagement et formation du personnel (8 sur 8) ; PA-12 Droits des salariés (2,5 sur 3).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : aucun.
+
 ## Engagement des parties prenantes
 
 | Crédit STARS | Points obtenus | Niveau |
@@ -162,7 +194,7 @@ Ce rapport ne peut pas établir les engagements politiques de UC Berkeley en ce 
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-L'engagement des parties prenantes est un aspect clé de la stratégie de University of California, Berkeley (UC Berkeley). Le rapport STARS indique que l'université a mis en place des comités consultatifs pour l'engagement communautaire, qui impliquent des membres de la communauté locale, notamment dans les domaines de la santé publique, de la durabilité et de la justice sociale.
+Le rapport STARS indique que l'université a mis en place des comités consultatifs pour l'engagement communautaire, qui impliquent des membres de la communauté locale, notamment dans les domaines de la santé publique, de la durabilité et de la justice sociale.
 
 Ces instances donnent aux organisations communautaires un forum pour donner leur avis sur les politiques et les initiatives de l'université qui touchent la population locale. Les étudiants sont représentés au CACS, où plusieurs organisations étudiantes et services ont chacun un siège et une voix, et le personnel non académique participe à la gouvernance par des comités consultatifs comme le Chancellor's Staff Advisory Committee (CSAC).
 
@@ -175,6 +207,14 @@ Enfin, l'université a mis en place des politiques pour protéger les droits des
 ### Limites et omissions
 
 Ce rapport ne peut pas établir les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.
+
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : EN-5 Engagement civique (8 sur 8) ; EN-6 Partenariats avec la communauté (9 sur 9) ; PA-3 Gouvernance de l'établissement (3,5 sur 4) ; PA-12 Droits des salariés (2,5 sur 3).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : aucun.
 
 ## Performance environnementale
 
@@ -249,6 +289,14 @@ L'université obtient 5 points STARS sur 5 au crédit OP-4, niveau maximal. Le c
 
 L'université obtient 1 point STARS sur 1 au crédit IL-24, niveau maximal. Le projet de rapport d'impact environnemental (Draft EIR) du plan de gestion de la végétation combustible des espaces naturels (Wildland Vegetative Fuel Management Plan) décrit les zones importantes pour la biodiversité.
 
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : OP-9 Système d'achats durables (7 sur 7) ; OP-15 Voyages en avion (2 sur 2) ; OP-4 Gestion écologique des espaces verts (5 sur 5) ; IL-24 Évaluation de la biodiversité (1 sur 1) ; OP-1 Conception et construction des bâtiments (2,91 sur 3) ; OP-11 Gestion des matériaux (3,75 sur 4) ; OP-14 Modes de déplacement domicile-campus (4,89 sur 6) ; OP-2 Exploitation et maintenance des bâtiments (4 sur 5).
+- **Partiellement atteints** : OP-10 Biens achetés (2,8 sur 4) ; OP-5 Consommation d'énergie (6,87 sur 10) ; OP-12 Production et valorisation des déchets (3,27 sur 5) ; OP-6 Émissions de gaz à effet de serre (8,01 sur 16).
+- **À améliorer** : OP-13 Flotte de véhicules (0,28 sur 2) ; OP-3 Consommation d'eau (2,43 sur 7).
+
 ## Performance sociale et économique
 
 | Crédit STARS | Points obtenus | Niveau |
@@ -283,6 +331,14 @@ L'université a obtenu 2,8 points STARS sur 3 au crédit PA-10, niveau élevé, 
 ### Limites et omissions
 
 Ce rapport ne peut pas établir le ratio entre le salaire d'entrée et le salaire minimum local par genre. Le salaire minimum figure dans un crédit sur l'emploi étudiant.
+
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-11 Santé, sécurité et bien-être (3 sur 3) ; PA-6 Climat institutionnel (3 sur 3) ; PA-10 Réussite étudiante (2,8 sur 3) ; PA-13 Équité salariale et salaire décent (4,34 sur 5) ; PA-8 Parité femmes-hommes (1,67 sur 2) ; PA-12 Droits des salariés (2,5 sur 3) ; PA-9 Accessibilité financière et accès (2,5 sur 3).
+- **Partiellement atteints** : PA-7 Représentation ethnique et raciale (1,59 sur 3).
+- **À améliorer** : aucun.
 
 ## Enseignement, recherche et engagement (hors GRI)
 
@@ -322,6 +378,14 @@ L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Le c
 L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. Le Bureau de la durabilité a créé une formation à la durabilité pour le personnel (UC Berkeley Sustainability Staff Training), composée de modules que chacun suit à son rythme.
 
 L'université obtient 8 points STARS sur 8 au crédit EN-5, niveau maximal.
+
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : AC-3 Programmes de cycles supérieurs (8 sur 8) ; AC-7 Centre de recherche en durabilité (6 sur 6) ; EN-1 Communication et sensibilisation (5 sur 5) ; EN-2 Activités parascolaires (9 sur 9) ; EN-3 Engagement et formation du personnel (8 sur 8) ; EN-5 Engagement civique (8 sur 8) ; EN-7 Formation continue (3 sur 3) ; AC-1 Offre de cours en durabilité (13,01 sur 14).
+- **Partiellement atteints** : AC-6 Recherche en durabilité (7,35 sur 10) ; AC-2 Programmes de premier cycle (10,22 sur 15).
+- **À améliorer** : aucun.
 
 ## Index de contenu GRI
 
@@ -546,18 +610,20 @@ Correspondance **thématique** écrite à la main (`mapping/frameworks.yaml`, `m
 
 ## Annexe — Validation du rapport
 
-Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → substitution par le code → audit par le juge → régénération si refus (trois tentatives au plus).
+Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → substitution par le code → audit par le juge → régénération si refus (deux essais au plus ; sinon texte de repli écrit par le code).
 
-| Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |
-|---|---|:-:|:-:|:-:|:-:|:-:|--:|
-| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 83% | 9.0 min |
-| Thèmes matériels | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 9.1 min |
-| Gouvernance | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 100% | 0% | 12.3 min |
-| Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 1 | 0 | 3/5 | 100% | 50% | 12.2 min |
-| Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 6.8 min |
-| Performance environnementale | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 83% | 0% | 21.2 min |
-| Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 83% | 0% | 12.9 min |
-| Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 83% | 100% | 15.6 min |
+| Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Codes GRI cités dans le texte | Publications GRI avec données (index) | Durée |
+|---|---|:-:|:-:|:-:|:-:|:-:|:-:|--:|
+| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 83% | 5 sur 8 | 9.0 min |
+| Thèmes matériels | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 2 sur 3 | 9.1 min |
+| Gouvernance | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 100% | 0% | 3 sur 13 | 12.3 min |
+| Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 1 | 0 | 3/5 | 100% | 50% | 6 sur 7 | 12.2 min |
+| Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 1 sur 2 | 6.8 min |
+| Performance environnementale | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 83% | 0% | 6 sur 35 | 21.2 min |
+| Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 83% | 0% | 6 sur 18 | 12.9 min |
+| Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 2 | 1 | 4/5 | 83% | — | — | 15.6 min |
+
+*« Codes GRI cités dans le texte » : part des publications GRI de la section dont le code (par exemple GRI 305-1) est cité dans le texte rédigé ; c'est une mesure de citation, pas de couverture des données. « Publications GRI avec données » : publications de la section rapportées ou partiellement rapportées dans l'index de contenu GRI, sur le total de la section.*
 
 **Bilan :** 8 section(s) validée(s) sur 8 ; fidélité moyenne 94% ; 3 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 

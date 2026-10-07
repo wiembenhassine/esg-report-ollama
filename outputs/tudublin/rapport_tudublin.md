@@ -1,5 +1,5 @@
 # Rapport de durabilité — Technological University Dublin
-*Établi en référence aux normes GRI · généré le 2026-10-06 · données AASHE STARS 3.0*
+*Établi en référence aux normes GRI · généré le 2026-10-07 · données AASHE STARS 3.0*
 
 **À propos de ce rapport.** Ce rapport est généré automatiquement à partir de la soumission publique
 AASHE STARS 3.0 de Technological University Dublin (2 décembre 2024), mise en correspondance avec les normes GRI.
@@ -68,6 +68,14 @@ Les représentants de l'Union des étudiants et les membres du Conseil de durabi
 
 Ce rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE. (GRI 2-5)
 
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-12 Droits des salariés (3 sur 3).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : aucun.
+
 ## Thèmes matériels
 
 | Crédit STARS | Points obtenus | Niveau |
@@ -92,6 +100,14 @@ Ce rapport ne peut pas établir les impacts, les mesures de prévention et de re
 
 (GRI 3-3)
 
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-2 Engagements et planification (5,67 sur 6).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : aucun.
+
 ## Gouvernance
 
 | Crédit STARS | Points obtenus | Niveau |
@@ -109,7 +125,6 @@ La gouvernance de l'université est assurée par le Technological Universities A
 
 En février 2025, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidence de l'Union des étudiants), Princewill Aguele (vice-présidence de l'Union des étudiants chargée des événements et de l'engagement) et Avice Meya (membre au titre des étudiants de troisième cycle).
 
-
 Le corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré dans le TU Act 2018.
 
 L'université a également mis en place des comités et des groupes de travail formels, ainsi que des enquêtes universitaires, où les membres du personnel participent régulièrement. La représentation du personnel est souvent filtrée par le TUI (Syndicat des enseignants d'Irlande).
@@ -121,6 +136,14 @@ L'université a également mis en place des comités et des groupes de travail f
 Ce rapport ne peut pas établir la rémunération totale annuelle des membres du corps de gouvernance, car ce chiffre n'est pas disponible.
 
 (GRI 2-21)
+
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-1 Coordination de la durabilité (1 sur 1) ; PA-3 Gouvernance de l'établissement (4 sur 4).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : aucun.
 
 ## Stratégie, politiques et pratiques
 
@@ -160,6 +183,14 @@ De plus, certaines informations sur les engagements politiques et la stratégie 
 
 (GRI 2-22, GRI 2-23, GRI 2-24, GRI 2-25)
 
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-1 Coordination de la durabilité (1 sur 1) ; PA-12 Droits des salariés (3 sur 3) ; EN-3 Engagement et formation du personnel (8 sur 8) ; PA-2 Engagements et planification (5,67 sur 6).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : OP-9 Système d'achats durables (2,4 sur 7).
+
 ## Engagement des parties prenantes
 
 | Crédit STARS | Points obtenus | Niveau |
@@ -171,7 +202,7 @@ De plus, certaines informations sur les engagements politiques et la stratégie 
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-Technological University Dublin (TU Dublin) s'engage dans l'engagement des parties prenantes de manière significative, comme le montre son score STARS de 4 points STARS sur 4 au crédit PA-3, niveau maximal. Cette approche est mise en œuvre en vertu de la Technological Universities Act 2018, qui prévoit la représentation obligatoire des étudiants dans les organes de gouvernance des universités techniques, y compris TU Dublin.
+Cette approche est mise en œuvre en vertu de la Technological Universities Act 2018, qui prévoit la représentation obligatoire des étudiants dans les organes de gouvernance des universités techniques, y compris TU Dublin.
 
 La Students' Union (SU) joue un rôle clé dans la représentation des étudiants. Le président de la SU est le porte-parole principal de l'union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. Cela est établi par la constitution de la SU.
 
@@ -192,6 +223,14 @@ Enfin, l'université a mis en place un programme de partenariats avec la communa
 ### Limites et omissions
 
 Ce rapport ne peut pas établir les informations sur la méthode d'identification des parties prenantes, les groupes vulnérables ou les fournisseurs. Ce rapport ne peut pas établir la liste complète des partenariats de l'université avec la communauté pour la durabilité.
+
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-3 Gouvernance de l'établissement (4 sur 4) ; PA-12 Droits des salariés (3 sur 3) ; EN-6 Partenariats avec la communauté (7 sur 9).
+- **Partiellement atteints** : EN-5 Engagement civique (4,5 sur 8).
+- **À améliorer** : aucun.
 
 ## Performance environnementale
 
@@ -231,6 +270,14 @@ Les déchets alimentaires, avant et après consommation, sont déposés dans des
 
 L'université a remplacé tous ses véhicules diesel par des véhicules électriques, ce qui a contribué à réduire les émissions de gaz à effet de serre.
 
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : OP-13 Flotte de véhicules (2 sur 2) ; OP-14 Modes de déplacement domicile-campus (5,39 sur 6) ; OP-12 Production et valorisation des déchets (3,94 sur 5).
+- **Partiellement atteints** : OP-3 Consommation d'eau (4,33 sur 6) ; OP-10 Biens achetés (2,75 sur 4) ; OP-6 Émissions de gaz à effet de serre (10,79 sur 16) ; OP-5 Consommation d'énergie (6,34 sur 10) ; OP-11 Gestion des matériaux (2,25 sur 4) ; OP-1 Conception et construction des bâtiments (1,38 sur 3).
+- **À améliorer** : OP-15 Voyages en avion (0 sur 2) ; OP-4 Gestion écologique des espaces verts (0,69 sur 5) ; OP-9 Système d'achats durables (2,4 sur 7) ; OP-2 Exploitation et maintenance des bâtiments (1,97 sur 5).
+
 ## Performance sociale et économique
 
 | Crédit STARS | Points obtenus | Niveau |
@@ -266,8 +313,6 @@ En vertu de la politique du gouvernement irlandais de « Tobacco Free Ireland »
 
 TU Dublin a mis en place des fonds d'aide aux étudiants (Student Assistance Fund) et le Fonds de bourse, qui visent les étudiants issus de milieux défavorisés ou sous-représentés.
 
-
-
 #### Climat institutionnel (inclusion)
 
 L'office de l'égalité, de la diversité et de l'inclusion (EDI) de TU Dublin comprend plusieurs initiatives. L'université soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple :
@@ -275,6 +320,14 @@ L'office de l'égalité, de la diversité et de l'inclusion (EDI) de TU Dublin c
 * L'office de l'EDI soutient les employés de plusieurs groupes sous-représentés.
 * La direction de l'EDI mène des efforts pour intégrer l'antiracisme dans tous les programmes, en fournissant des ressources, des formations et un soutien aux employés et étudiants.
 * Le programme de développement communautaire et de travail avec les jeunes (CDYW) inclut des ateliers de formation sur l'antiracisme.
+
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-12 Droits des salariés (3 sur 3) ; PA-11 Santé, sécurité et bien-être (3 sur 3) ; PA-6 Climat institutionnel (3 sur 3) ; PA-10 Réussite étudiante (2,91 sur 3) ; PA-13 Équité salariale et salaire décent (4,8 sur 5) ; PA-9 Accessibilité financière et accès (2,5 sur 3).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : PA-8 Parité femmes-hommes (0,33 sur 2) ; PA-7 Représentation ethnique et raciale (0,86 sur 3).
 
 ## Enseignement, recherche et engagement (hors GRI)
 
@@ -330,6 +383,14 @@ L'université obtient 4,5 points STARS sur 8 au crédit EN-5, niveau intermédia
 #### Formation continue
 
 L'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal. Cette note reflète la qualité de la formation continue de l'université, qui comprend des modules axés sur la durabilité dans plusieurs écoles, par exemple en horticulture durable, en infrastructures résilientes au climat ou en biodiversité et conservation de la nature.
+
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : AC-1 Offre de cours en durabilité (14 sur 14) ; AC-3 Programmes de cycles supérieurs (8 sur 8) ; AC-6 Recherche en durabilité (10 sur 10) ; AC-7 Centre de recherche en durabilité (6 sur 6) ; EN-1 Communication et sensibilisation (5 sur 5) ; EN-2 Activités parascolaires (9 sur 9) ; EN-3 Engagement et formation du personnel (8 sur 8) ; EN-7 Formation continue (3 sur 3) ; AC-2 Programmes de premier cycle (13,28 sur 15).
+- **Partiellement atteints** : EN-5 Engagement civique (4,5 sur 8).
+- **À améliorer** : aucun.
 
 ## Index de contenu GRI
 
@@ -554,18 +615,20 @@ Correspondance **thématique** écrite à la main (`mapping/frameworks.yaml`, `m
 
 ## Annexe — Validation du rapport
 
-Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → substitution par le code → audit par le juge → régénération si refus (trois tentatives au plus).
+Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → substitution par le code → audit par le juge → régénération si refus (deux essais au plus ; sinon texte de repli écrit par le code).
 
-| Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |
-|---|---|:-:|:-:|:-:|:-:|:-:|--:|
-| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 6.6 min |
-| Thèmes matériels | <span class="badge ok">validée</span> | 1 | 0 | 2/5 | 100% | 100% | 7.9 min |
-| Gouvernance | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 67% | 9.1 min |
-| Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 100% | 67% | 19.6 min |
-| Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 10.7 min |
-| Performance environnementale | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 100% | 0% | 26.0 min |
-| Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 83% | 50% | 14.2 min |
-| Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 11.6 min |
+| Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Codes GRI cités dans le texte | Publications GRI avec données (index) | Durée |
+|---|---|:-:|:-:|:-:|:-:|:-:|:-:|--:|
+| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 2 sur 8 | 6.6 min |
+| Thèmes matériels | <span class="badge ok">validée</span> | 1 | 0 | 2/5 | 100% | 100% | 2 sur 3 | 7.9 min |
+| Gouvernance | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 67% | 1 sur 13 | 9.1 min |
+| Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 100% | 67% | 4 sur 7 | 19.6 min |
+| Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 1 sur 2 | 10.7 min |
+| Performance environnementale | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 100% | 0% | 3 sur 35 | 26.0 min |
+| Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 83% | 50% | 4 sur 18 | 14.2 min |
+| Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | — | — | 11.6 min |
+
+*« Codes GRI cités dans le texte » : part des publications GRI de la section dont le code (par exemple GRI 305-1) est cité dans le texte rédigé ; c'est une mesure de citation, pas de couverture des données. « Publications GRI avec données » : publications de la section rapportées ou partiellement rapportées dans l'index de contenu GRI, sur le total de la section.*
 
 **Bilan :** 8 section(s) validée(s) sur 8 ; fidélité moyenne 98% ; 0 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
