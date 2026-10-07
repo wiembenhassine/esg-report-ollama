@@ -1,84 +1,108 @@
 {
- "prompt_hash": "c87c82a2a65cca7c",
- "round": 2,
+ "prompt_hash": "f663ae0d1741f052",
+ "round": 1,
  "decision": "validée",
- "text": "### Thèmes matériels\n\n#### Impacts environnementaux\n\nL'université a déclaré que les impacts environnementaux sont matériels pour elle. Elle a identifié les émissions de gaz à effet de serre (GHG) comme étant un thème matériel. L'université a indiqué que ses campus liés à ses objectifs sont réduire les émissions de GHG de 46,5 % et d'ici 2028.\n\n#### Impacts sociaux\n\nL'université a déclaré que les impacts sociaux sont matériels pour elle. Elle a identifié la diversité, l'égalité et l'inclusion (EDI) comme étant un thème matériel. L'université a indiqué que ses campus liés à ses objectifs sont atteindre la certification d'Athena Swan, le plan de lutte contre les discriminations, et mettre fin à la violence sexuelle.\n\n#### Impacts économiques\n\nL'université a déclaré que les impacts économiques sont matériels pour elle. Elle a identifié la durabilité financière comme étant un thème matériel.\n\n#### Impacts sur la gouvernance\n\nL'université a déclaré que les impacts sur la gouvernance sont matériels pour elle. Elle a identifié la gouvernance durable comme étant un thème matériel.\n\n#### Impacts sur la communauté\n\nL'université a déclaré que les impacts sur la communauté sont matériels pour elle. Elle a identifié la durabilité de la communauté comme étant un thème matériel.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les impacts des activités de l'université sur la communauté locale, car les données disponibles ne permettent pas de le faire.",
+ "text": "### Thèmes matériels\n\n#### Engagement et planification\n\nLe plan stratégique de l'université 2024 - 2028 comprend des objectifs de durabilité mesurables, dont la réduction des émissions de gaz à effet de serre de 46,5 % et l'augmentation de l'efficacité énergétique de 45 %.\n\n#### Égalité, diversité et inclusion\n\nLe plan stratégique de l'université 2024 - 2028 comprend un indicateur clé de performance (KPI) sur la « livraison réussie des plans d'action EDI », mené par Prof. Yvonne Galligan, directrice de l'égalité, de la diversité et de l'inclusion. Les objectifs incluent l'obtention de la certification d'Athena Swan, le Plan de l'égalité des sexes, et la fin de la violence et du harcèlement sexuels (ESVH). L'université vise à atteindre un équilibre de genre de 40 % de femmes et 40 % d'hommes à tous les niveaux de prise de décision.\n\n(GRI 3-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les impacts, les mesures de prévention et de remédiation, ou les enseignements tirés des thèmes matériels. Les données ne permettent pas d'établir une distinction entre les impacts des différents thèmes matériels.\n\n(GRI 3-3)",
  "used_facts": [
+  "PA2_t0_0",
+  "PA2_t0_1",
   "PA2_t0_2",
-  "PA2_t0_3"
+  "PA2_t0_4",
+  "PA2_t1_0",
+  "PA2_t1_1",
+  "PA2_t1_2",
+  "PA2_t1_3"
  ],
- "judge_score": 4,
+ "judge_score": 2,
  "faithfulness": 1.0,
- "gri_coverage": 0.0,
+ "gri_coverage": 1.0,
  "unsupported_claims": [],
- "discarded_violations": [],
+ "discarded_violations": [
+  "Le rapport mentionne que le plan stratégique de l'université 2024 - 2028 est conforme à GRI, ce qui est interdit."
+ ],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 578.8,
+ "seconds": 472.9,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Thèmes matériels\n\nL'université Technological University Dublin (TU Dublin) a identifié les cinq domaines d'objectifs suivants comme étant matériels pour son activité : les impacts environnementaux, les impacts sociaux, les impacts économiques, les impacts sur la gouvernance et les impacts sur la communauté.\n\n#### Impacts environnementaux\n\nL'université a déclaré que les impacts environnementaux sont matériels pour elle. Elle a identifié les émissions de gaz à effet de serre (GHG) comme étant un thème matériel. L'université a indiqué que ses campus liés à ses objectifs sont réduire les émissions de GHG de {{ PA2_t0_2 }} et d'ici {{ PA2_t0_3 }}.\n\n#### Impacts sociaux\n\nL'université a déclaré que les impacts sociaux sont matériels pour elle. Elle a identifié la diversité, l'égalité et l'inclusion (EDI) comme étant un thème matériel. L'université a indiqué que ses campus liés à ses objectifs sont atteindre la certification d'Athena Swan, le plan de lutte contre les discriminations, et mettre fin à la violence sexuelle.\n\n#### Impacts économiques\n\nL'université a déclaré que les impacts économiques sont matériels pour elle. Elle a identifié la durabilité financière comme étant un thème matériel.\n\n#### Impacts sur la gouvernance\n\nL'université a déclaré que les impacts sur la gouvernance sont matériels pour elle. Elle a identifié la gouvernance durable comme étant un thème matériel.\n\n#### Impacts sur la communauté\n\nL'université a déclaré que les impacts sur la communauté sont matériels pour elle. Elle a identifié la durabilité de la communauté comme étant un thème matériel.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les impacts des activités de l'université sur la communauté locale, car les données disponibles ne permettent pas de le faire.",
-   "gen_seconds": 321.7,
-   "prompt_tokens": 2361,
-   "output_tokens": 467,
+   "draft": "### Thèmes matériels\n\nL'université Technological University Dublin (TU Dublin) a identifié les thèmes matériels suivants pour son engagement en matière de durabilité.\n\n#### Engagement et planification\n\nTU Dublin a déclaré atteindre {{ PA2 }} points STARS sur {{ PA2_t0_0 }} au crédit PA-2, niveau élevé. Le plan stratégique de l'université {{ PA2_t0_0 }} - {{ PA2_t0_1 }} comprend des objectifs de durabilité mesurables, dont la réduction des émissions de gaz à effet de serre de {{ PA2_t0_2 }} et l'augmentation de l'efficacité énergétique de {{ PA2_t0_4 }}. Ces objectifs sont alignés sur le Plan d'action pour le climat {{ PA2_t0_6 }} (CAP), qui exige que le secteur public soit un exemple en matière d'action climatique pour atteindre l'objectif de réduire les émissions de gaz à effet de serre de {{ PA2_t0_7 }} d'ici {{ PA2_t0_8 }} et de devenir neutre en carbone au plus tard {{ PA2_t0_9 }}.\n\n#### Égalité, diversité et inclusion\n\nLe plan stratégique de l'université {{ PA2_t1_0 }} - {{ PA2_t1_1 }} comprend un indicateur clé de performance (KPI) sur la « livraison réussie des plans d'action EDI », mené par Prof. Yvonne Galligan, directrice de l'égalité, de la diversité et de l'inclusion. Les objectifs incluent l'obtention de la certification d'Athena Swan, le Plan de l'égalité des sexes, et la fin de la violence et du harcèlement sexuels (ESVH). L'université vise à atteindre un équilibre de genre de {{ PA2_t1_2 }} de femmes et {{ PA2_t1_3 }} d'hommes à tous les niveaux de prise de décision.\n\n(GRI 3-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les impacts, les mesures de prévention et de remédiation, ou les enseignements tirés des thèmes matériels. Les données ne permettent pas d'établir une distinction entre les impacts des différents thèmes matériels.\n\n(GRI 3-3)",
+   "gen_seconds": 200.2,
+   "prompt_tokens": 3211,
+   "output_tokens": 551,
    "raw_guard_problems": [
-    "nombre écrit en lettres : 'cinq'"
+    "marqueur {{ PA2 }} sans verbe de score : écris par exemple « obtient {{ PA2 }} »",
+    "marqueur {{ PA2_t0_0 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)",
+    "marqueur {{ PA2_t0_6 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)",
+    "marqueur {{ PA2_t0_9 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)",
+    "les domaines STARS ne sont pas une analyse de matérialité : n'écris pas que l'université a identifié ou déterminé ses thèmes matériels"
    ],
    "removed_sentences": [
-    "L'université Technological University Dublin (TU Dublin) a identifié les cinq domaines d'objectifs suivants comme étant matériels pour son activité : les impacts environnementaux, les impacts sociaux, les impacts économiques, les impacts sur la gouvernance et les impacts sur la communauté."
+    "L'université Technological University Dublin (TU Dublin) a identifié les thèmes matériels suivants pour son engagement en matière de durabilité.",
+    "TU Dublin a déclaré atteindre {{ PA2 }} points STARS sur {{ PA2_t0_0 }} au crédit PA-2, niveau élevé.",
+    "Ces objectifs sont alignés sur le Plan d'action pour le climat {{ PA2_t0_6 }} (CAP), qui exige que le secteur public soit un exemple en matière d'action climatique pour atteindre l'objectif de réduire les émissions de gaz à effet de serre de {{ PA2_t0_7 }} d'ici {{ PA2_t0_8 }} et de devenir neutre en carbone au plus tard {{ PA2_t0_9 }}."
    ],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 0.0,
-   "lint_notes": [
-    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 3-2), (GRI 3-3)"
-   ],
-   "rendered": "### Thèmes matériels\n\n#### Impacts environnementaux\n\nL'université a déclaré que les impacts environnementaux sont matériels pour elle. Elle a identifié les émissions de gaz à effet de serre (GHG) comme étant un thème matériel. L'université a indiqué que ses campus liés à ses objectifs sont réduire les émissions de GHG de 46,5 % et d'ici 2028.\n\n#### Impacts sociaux\n\nL'université a déclaré que les impacts sociaux sont matériels pour elle. Elle a identifié la diversité, l'égalité et l'inclusion (EDI) comme étant un thème matériel. L'université a indiqué que ses campus liés à ses objectifs sont atteindre la certification d'Athena Swan, le plan de lutte contre les discriminations, et mettre fin à la violence sexuelle.\n\n#### Impacts économiques\n\nL'université a déclaré que les impacts économiques sont matériels pour elle. Elle a identifié la durabilité financière comme étant un thème matériel.\n\n#### Impacts sur la gouvernance\n\nL'université a déclaré que les impacts sur la gouvernance sont matériels pour elle. Elle a identifié la gouvernance durable comme étant un thème matériel.\n\n#### Impacts sur la communauté\n\nL'université a déclaré que les impacts sur la communauté sont matériels pour elle. Elle a identifié la durabilité de la communauté comme étant un thème matériel.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les impacts des activités de l'université sur la communauté locale, car les données disponibles ne permettent pas de le faire.",
+   "gri_coverage": 1.0,
+   "lint_notes": [],
+   "rendered": "### Thèmes matériels\n\n#### Engagement et planification\n\nLe plan stratégique de l'université 2024 - 2028 comprend des objectifs de durabilité mesurables, dont la réduction des émissions de gaz à effet de serre de 46,5 % et l'augmentation de l'efficacité énergétique de 45 %.\n\n#### Égalité, diversité et inclusion\n\nLe plan stratégique de l'université 2024 - 2028 comprend un indicateur clé de performance (KPI) sur la « livraison réussie des plans d'action EDI », mené par Prof. Yvonne Galligan, directrice de l'égalité, de la diversité et de l'inclusion. Les objectifs incluent l'obtention de la certification d'Athena Swan, le Plan de l'égalité des sexes, et la fin de la violence et du harcèlement sexuels (ESVH). L'université vise à atteindre un équilibre de genre de 40 % de femmes et 40 % d'hommes à tous les niveaux de prise de décision.\n\n(GRI 3-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les impacts, les mesures de prévention et de remédiation, ou les enseignements tirés des thèmes matériels. Les données ne permettent pas d'établir une distinction entre les impacts des différents thèmes matériels.\n\n(GRI 3-3)",
    "used_facts": [
+    "PA2_t0_0",
+    "PA2_t0_1",
     "PA2_t0_2",
-    "PA2_t0_3"
+    "PA2_t0_4",
+    "PA2_t1_0",
+    "PA2_t1_1",
+    "PA2_t1_2",
+    "PA2_t1_3"
    ],
    "trace_problems": [],
    "used_markers": [
+    "PA2_t0_0",
+    "PA2_t0_1",
     "PA2_t0_2",
-    "PA2_t0_3"
+    "PA2_t0_4",
+    "PA2_t1_0",
+    "PA2_t1_1",
+    "PA2_t1_2",
+    "PA2_t1_3"
    ],
    "judge": {
     "claims": [
      {
-      "claim": "L'université a déclaré que les impacts environnementaux sont matériels pour elle.",
+      "claim": "Le plan stratégique de l'université 2024 - 2028 comprend des objectifs de durabilité mesurables.",
       "supported": true
      },
      {
-      "claim": "L'université a identifié les émissions de gaz à effet de serre (GHG) comme étant un thème matériel.",
+      "claim": "La réduction des émissions de gaz à effet de serre de 46,5 % est un objectif de durabilité.",
       "supported": true
      },
      {
-      "claim": "L'université a indiqué que ses campus liés à ses objectifs sont réduire les émissions de GHG de 46,5 % et d'ici 2028.",
+      "claim": "L'augmentation de l'efficacité énergétique de 45 % est un objectif de durabilité.",
       "supported": true
      },
      {
-      "claim": "L'université a déclaré que les impacts sociaux sont matériels pour elle.",
+      "claim": "Le plan stratégique de l'université 2024 - 2028 comprend un indicateur clé de performance (KPI) sur la « livraison réussie des plans d'aide ",
       "supported": true
      },
      {
-      "claim": "L'université a identifié la diversité, l'égalité et l'inclusion (EDI) comme étant un thème matériel.",
+      "claim": "Les objectifs incluent l'obtention de la certification d'Athena Swan, le Plan de l'égalité des sexes, et la fin de la violence et du harcèl",
       "supported": true
      },
      {
-      "claim": "L'université a indiqué que ses campus liés à ses objectifs sont atteindre la certification d'Athena Swan, le plan de lutte contre les discrï",
+      "claim": "L'université vise à atteindre un équilibre de genre de 40 % de femmes et 40 % d'hommes à tous les niveaux de prise de décision.",
       "supported": true
      }
     ],
-    "rule_violations": [
-     "L'université a déclaré que les impacts sur la gouvernance sont matériels pour elle. Elle a identifié la gouvernance durable comme étant un thème matériel."
-    ],
-    "score": 4,
-    "feedback": "Supprimer les phrases qui ne sont pas étayées par les sources. Par exemple, la phrase 'L'université a déclaré que les impacts sur la gouvernance sont matériels pour elle. Elle a identifié la gouvernance durable comme étant un thème matériel.' n'est pas étayée par les sources. De même, la phrase 'L'université a indiqué que ses campus liés à ses objectifs sont atteindre la certification d'Athena Swan, le plan de lutte contre les discriminations, et mettre fin à la violence sexuelle.' n'est pas été",
+    "rule_violations": [],
+    "score": 2,
+    "feedback": "",
     "faithfulness": 1.0,
-    "seconds": 256.8,
-    "discarded_violations": [],
+    "seconds": 272.4,
+    "discarded_violations": [
+     "Le rapport mentionne que le plan stratégique de l'université 2024 - 2028 est conforme à GRI, ce qui est interdit."
+    ],
     "accepted": true
    }
   }
@@ -89,15 +113,27 @@
  "evidence": [
   {
    "credit": "PA-2",
-   "text": ". TU Dublin Strategic Plan {{ PA2_t0_0 }} – {{ PA2_t0_1 }} include clear measurable sustainability objectives for which the sponsor is the VP of Sustainability, and the lead is Rosie Webb. In page, our campus related targets are {{ PA2_t0_2 }} reduction in GHG emissions by {{ PA2_t0_3 }}, and {{ PA2_t0_4 }} increase in"
+   "text": ". TU Dublin Strategic Plan {{ PA2_t0_0 }} – {{ PA2_t0_1 }} include clear measurable sustainability objectives for which the sponsor is the VP of Sustainability, and the lead is Rosie Webb. In page, our campus related targets are {{ PA2_t0_2 }} reduction in GHG emissions by {{ PA2_t0_3 }}, and {{ PA2_t0_4 }} increase in energy efficiency by {{ PA2_t0_5 }}. These targets are in line with the Climate Action Plan {{ PA2_t0_6 }} (CAP ) whereby the public sector must lead by example on climate action to reach the target of reducing Ireland's greenhouse gas emissions by {{ PA2_t0_7 }} by {{ PA2_t0_8 }} and becoming climate neutral no later than {{ PA2_t0_9 }}."
   },
   {
    "credit": "PA-2",
-   "text": "through and with the SECs TU Dublin members conduct climate resilience activities. SEC activities include the decarbonisation of the building environment (e.g. façade upgrades, integration of renewable sources and heat pumps), the development of sustainable transportation project (e.g. raising issues on public transpor"
+   "text": "through and with the SECs TU Dublin members conduct climate resilience activities. SEC activities include the decarbonisation of the building environment (e.g. façade upgrades, integration of renewable sources and heat pumps), the development of sustainable transportation project (e.g. raising issues on public transport, calling for the development of bike lanes, free bike repairs to the communities, supporting the installation of bike shelters), the greening of space and biodiversity actions (e.g. avoiding trees being destroyed for the development of a new drive lane, adding trees and green spaces in communities). See for example this article about the Cabra SEC and their flood alleviation "
   },
   {
    "credit": "PA-2",
-   "text": "TU Dublin Strategic Plan {{ PA2_t1_0 }} – {{ PA2_t1_1 }} includes a KPI on the “Successful delivery of EDI Action Plans”, led by Prof. Yvonne Galligan, (Director of Equality, Diversity and Inclusion) with targets, namely the attainment of certification from Athena Swan, the Race Equality Plan, and Ending Sexual Violenc"
+   "text": "TU Dublin Strategic Plan {{ PA2_t1_0 }} – {{ PA2_t1_1 }} includes a KPI on the “Successful delivery of EDI Action Plans”, led by Prof. Yvonne Galligan, (Director of Equality, Diversity and Inclusion) with targets, namely the attainment of certification from Athena Swan, the Race Equality Plan, and Ending Sexual Violence and Harassment (ESVH). TU Dublin Athena Swan Action Plan include targets such as, on Page, achieving gender balance (at least {{ PA2_t1_2 }} female and {{ PA2_t1_3 }} male) at all senior decision making levels, and will be diverse on other grounds."
+  },
+  {
+   "credit": "PA-2",
+   "text": "SEC members can raise interests, needs, concerns and requests for help to the Grangegorman Development Agencies and TU Dublin functions (e.g Sustainability Office, Estates and Campus Planning) to develop collaborative strategic actions."
+  },
+  {
+   "credit": "PA-2",
+   "text": "TU Dublin Grangegorman is on the territory of Stoneybatter SEC. Any energy and carbon reduction resulting from TU Dublin effort will count towards the SEC progress. In addition, TU Dublin district heating project is investigated how much geothermal energy could be generated to optimise its use for the campus operation and the neighbourhoods. Overall, all Climate Resilience activities planned in the Climate Action Roadmap will contribute to TU Dublin communities."
+  },
+  {
+   "credit": "PA-2",
+   "text": "URL References:Ref:::"
   }
  ]
 }

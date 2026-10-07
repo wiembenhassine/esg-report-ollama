@@ -1,86 +1,86 @@
 {
- "prompt_hash": "833c4ca6267b1f7e",
- "round": 1,
+ "prompt_hash": "376f5aafafa66845",
+ "round": 0,
  "decision": "validée",
- "text": "#### Équité salariale et salaire décent\n\nDe plus, TU Dublin estime que tout le monde a le droit à une rémunération juste.\n\n#### Droits des salariés\n\nTU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services techniques, de transport et de vente. Tous les sous-traitants paient un salaire de vie décent à leurs employés (GRI 401-1).\n\n#### Santé, sécurité et bien-être\n\nEn conformité avec la Politique Tobacco Free Ireland du Département de la Santé, qui vise à promouvoir des campus sans tabac pour tous les établissements d'enseignement supérieur, le campus de TU Dublin a introduit une zone sans tabac sur le campus à partir de septembre 2020.\n\n#### Parité femmes-hommes\n\nTU Dublin soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple (GRI 405-1).\n\n#### Représentation ethnique et raciale\n\nLe « Supportive Environment » KPI a évalué la satisfaction sur des sujets tels que « la fourniture de soutien pour aider les étudiants à réussir académiqument », « l'utilisation des services de soutien à l'apprentissage », « le contact entre les étudiants de différents milieux sociaux, raciaux, ethniques, religieux, d'âge, etc. », « la fourniture d'opportunités pour participer à des activités sociales, etc. » (GRI 403-1).\n\n#### Accessibilité financière et accès\n\nLe Fonds d'aide aux étudiants (SAF) et le Fonds de bourse, qui visent les étudiants issus de milieux sociaux défavorisés ou sous-représentés, sont des dispositifs d'aide financière.\n\n#### Climat institutionnel (inclusion)\n\nL'office EDI (égalité, diversité et inclusion) comprend plusieurs initiatives. Grâce à l'EDI, TU Dublin soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple (GRI 403-1).",
+ "text": "#### Équité salariale et salaire décent\n\nL'université Technological University Dublin (TU Dublin) s'engage à verser un salaire décent à ses employés. Elle vérifie régulièrement la conformité de ses sous-traitants avec la National Minimum Wage Act 2000 et la Payment of Wages Act 1991, qui imposent aux employeurs de payer un salaire minimum et de fournir tous les avantages statutaires. La TU Dublin estime que tout le monde a le droit à un salaire équitable et attend que tous ses fournisseurs paient à leurs employés au moins le salaire minimum, ou une représentation juste du salaire moyen de l'industrie (ce qui est le plus élevé), et leur fournissent tous les avantages statutaires.\n\nLa TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services professionnels, de transport et de vente. Tous les sous-traitants paient un salaire décent à leurs employés.\n\nLes salaires des employés de la TU Dublin sont fixés en fonction des politiques de rémunération et de conditions du secteur public, établies et mises à jour périodiquement par le gouvernement.\n\n(GRI 202-1)\n\n#### Santé, sécurité et bien-être\n\nEn vertu de la politique du gouvernement irlandais de « Tobacco Free Ireland », la TU Dublin a introduit une zone sans fumée sur le campus en septembre 2020.\n\n(GRI 403-1)\n\n#### Accessibilité financière et accès\n\nLa TU Dublin a mis en place des fonds d'aide aux étudiants (Student Assistance Fund) et le Fonds de bourse, qui visent les étudiants issus de milieux défavorisés ou sous-représentés.\n\n(GRI 403-6)\n\n#### Climat institutionnel (inclusion)\n\nL'office de l'égalité, de la diversité et de l'inclusion (EDI) de la TU Dublin comprend plusieurs initiatives. L'université soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple :\n\n* L'office de l'EDI soutient les employés de plusieurs groupes sous-représentés.\n* La direction de l'EDI mène des efforts pour intégrer l'antiracisme dans tous les programmes, en fournissant des ressources, des formations et un soutien aux employés et étudiants.\n* Le programme de développement communautaire et de travail avec les jeunes (CDYW) inclut des ateliers de formation sur l'antiracisme.\n\n(GRI 403-4)",
  "used_facts": [
-  "PA11_t0_0"
+  "PA11_t0_0",
+  "PA13_t2_0",
+  "PA13_t2_1"
  ],
- "judge_score": 3,
+ "judge_score": 4,
  "faithfulness": 0.83,
- "gri_coverage": 0.25,
+ "gri_coverage": 0.5,
  "unsupported_claims": [
-  "TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, "
+  "La TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de mainten"
  ],
  "discarded_violations": [],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 794.8,
+ "seconds": 850.8,
  "history": [
   {
    "attempt": 1,
-   "draft": "#### Équité salariale et salaire décent\n\nL'université de Dublin (TU Dublin) examine la conformité de ses sous-traitants avec la Loi sur le salaire minimum national {{ PA13_t2_0 }} et la Loi sur le paiement des salaires {{ PA13_t2_1 }}, qui imposent aux employeurs de fournir au moins le salaire minimum et tous les avantages statutaires. De plus, TU Dublin estime que tout le monde a le droit à une rémunération juste.\n\n#### Droits des salariés\n\nTU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services techniques, de transport et de vente. Tous les sous-traitants paient un salaire de vie décent à leurs employés (GRI 401-1).\n\n#### Santé, sécurité et bien-être\n\nEn conformité avec la Politique Tobacco Free Ireland du Département de la Santé, qui vise à promouvoir des campus sans tabac pour tous les établissements d'enseignement supérieur, le campus de TU Dublin a introduit une zone sans tabac sur le campus à partir de septembre {{ PA11_t0_0 }}.\n\n#### Parité femmes-hommes\n\nTU Dublin soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple (GRI 405-1).\n\n#### Représentation ethnique et raciale\n\nLe « Supportive Environment » KPI a évalué la satisfaction sur des sujets tels que « la fourniture de soutien pour aider les étudiants à réussir académiqument », « l'utilisation des services de soutien à l'apprentissage », « le contact entre les étudiants de différents milieux sociaux, raciaux, ethniques, religieux, d'âge, etc. », « la fourniture d'opportunités pour participer à des activités sociales, etc. » (GRI 403-1).\n\n#### Accessibilité financière et accès\n\nLe Fonds d'aide aux étudiants (SAF) et le Fonds de bourse, qui visent les étudiants issus de milieux sociaux défavorisés ou sous-représentés, sont des dispositifs d'aide financière. L'éligibilité à ces aides inclut les étudiants issus de ménages dont le revenu combiné est inférieur à {{ PA9 }}, ainsi que ceux qui bénéficient de routes d'accès telles que le HEAR (GRI 403-1).\n\n#### Climat institutionnel (inclusion)\n\nL'office EDI (égalité, diversité et inclusion) comprend plusieurs initiatives. Grâce à l'EDI, TU Dublin soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple (GRI 403-1).",
-   "gen_seconds": 483.6,
-   "prompt_tokens": 3016,
+   "draft": "#### Équité salariale et salaire décent\n\nL'université Technological University Dublin (TU Dublin) s'engage à verser un salaire décent à ses employés. Elle vérifie régulièrement la conformité de ses sous-traitants avec la National Minimum Wage Act {{ PA13_t2_0 }} et la Payment of Wages Act {{ PA13_t2_1 }}, qui imposent aux employeurs de payer un salaire minimum et de fournir tous les avantages statutaires. La TU Dublin estime que tout le monde a le droit à un salaire équitable et attend que tous ses fournisseurs paient à leurs employés au moins le salaire minimum, ou une représentation juste du salaire moyen de l'industrie (ce qui est le plus élevé), et leur fournissent tous les avantages statutaires.\n\nLa TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services professionnels, de transport et de vente. Tous les sous-traitants paient un salaire décent à leurs employés.\n\nLes salaires des employés de la TU Dublin sont fixés en fonction des politiques de rémunération et de conditions du secteur public, établies et mises à jour périodiquement par le gouvernement.\n\n(GRI 202-1)\n\n#### Santé, sécurité et bien-être\n\nEn vertu de la politique du gouvernement irlandais de « Tobacco Free Ireland », la TU Dublin a introduit une zone sans fumée sur le campus en septembre {{ PA11_t0_0 }}.\n\n(GRI 403-1)\n\n#### Accessibilité financière et accès\n\nLa TU Dublin a mis en place des fonds d'aide aux étudiants (Student Assistance Fund) et le Fonds de bourse, qui visent les étudiants issus de milieux défavorisés ou sous-représentés. L'éligibilité à ces soutiens inclut les étudiants issus de ménages dont le revenu combiné est inférieur à {{ PA9 }}, ainsi que ceux qui se qualifient par des voies d'accès telles que le HEAR (Higher Education Access Route).\n\n(GRI 403-6)\n\n#### Climat institutionnel (inclusion)\n\nL'office de l'égalité, de la diversité et de l'inclusion (EDI) de la TU Dublin comprend plusieurs initiatives. L'université soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple :\n\n* L'office de l'EDI soutient les employés de plusieurs groupes sous-représentés.\n* La direction de l'EDI mène des efforts pour intégrer l'antiracisme dans tous les programmes, en fournissant des ressources, des formations et un soutien aux employés et étudiants.\n* Le programme de développement communautaire et de travail avec les jeunes (CDYW) inclut des ateliers de formation sur l'antiracisme.\n\n(GRI 403-4)",
+   "gen_seconds": 503.2,
+   "prompt_tokens": 2994,
    "output_tokens": 700,
    "raw_guard_problems": [
-    "marqueur {{ PA13_t2_0 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)",
-    "marqueur {{ PA13_t2_1 }} est une ANNÉE : emploie-le comme une date (« en », « d'ici », « depuis »…)",
-    "marqueur {{ PA9 }} employé comme date ou quantité après « à » : c'est un score STARS",
-    "sigle HEAR mal développé (« GRI 403-1 ») : HEAR = Higher Education Access Route (voie d'accès à l'enseignement supérieur)"
+    "marqueur {{ PA9 }} employé comme date ou quantité après « à » : c'est un score STARS"
    ],
    "removed_sentences": [
-    "L'université de Dublin (TU Dublin) examine la conformité de ses sous-traitants avec la Loi sur le salaire minimum national {{ PA13_t2_0 }} et la Loi sur le paiement des salaires {{ PA13_t2_1 }}, qui imposent aux employeurs de fournir au moins le salaire minimum et tous les avantages statutaires.",
-    "L'éligibilité à ces aides inclut les étudiants issus de ménages dont le revenu combiné est inférieur à {{ PA9 }}, ainsi que ceux qui bénéficient de routes d'accès telles que le HEAR (GRI 403-1)."
+    "L'éligibilité à ces soutiens inclut les étudiants issus de ménages dont le revenu combiné est inférieur à {{ PA9 }}, ainsi que ceux qui se qualifient par des voies d'accès telles que le HEAR (Higher Education Access Route)."
    ],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 0.25,
-   "lint_notes": [
-    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 202-1), (GRI 401-2), (GRI 401-3), (GRI 403-3)"
-   ],
-   "rendered": "#### Équité salariale et salaire décent\n\nDe plus, TU Dublin estime que tout le monde a le droit à une rémunération juste.\n\n#### Droits des salariés\n\nTU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services techniques, de transport et de vente. Tous les sous-traitants paient un salaire de vie décent à leurs employés (GRI 401-1).\n\n#### Santé, sécurité et bien-être\n\nEn conformité avec la Politique Tobacco Free Ireland du Département de la Santé, qui vise à promouvoir des campus sans tabac pour tous les établissements d'enseignement supérieur, le campus de TU Dublin a introduit une zone sans tabac sur le campus à partir de septembre 2020.\n\n#### Parité femmes-hommes\n\nTU Dublin soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple (GRI 405-1).\n\n#### Représentation ethnique et raciale\n\nLe « Supportive Environment » KPI a évalué la satisfaction sur des sujets tels que « la fourniture de soutien pour aider les étudiants à réussir académiqument », « l'utilisation des services de soutien à l'apprentissage », « le contact entre les étudiants de différents milieux sociaux, raciaux, ethniques, religieux, d'âge, etc. », « la fourniture d'opportunités pour participer à des activités sociales, etc. » (GRI 403-1).\n\n#### Accessibilité financière et accès\n\nLe Fonds d'aide aux étudiants (SAF) et le Fonds de bourse, qui visent les étudiants issus de milieux sociaux défavorisés ou sous-représentés, sont des dispositifs d'aide financière.\n\n#### Climat institutionnel (inclusion)\n\nL'office EDI (égalité, diversité et inclusion) comprend plusieurs initiatives. Grâce à l'EDI, TU Dublin soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple (GRI 403-1).",
+   "gri_coverage": 0.5,
+   "lint_notes": [],
+   "rendered": "#### Équité salariale et salaire décent\n\nL'université Technological University Dublin (TU Dublin) s'engage à verser un salaire décent à ses employés. Elle vérifie régulièrement la conformité de ses sous-traitants avec la National Minimum Wage Act 2000 et la Payment of Wages Act 1991, qui imposent aux employeurs de payer un salaire minimum et de fournir tous les avantages statutaires. La TU Dublin estime que tout le monde a le droit à un salaire équitable et attend que tous ses fournisseurs paient à leurs employés au moins le salaire minimum, ou une représentation juste du salaire moyen de l'industrie (ce qui est le plus élevé), et leur fournissent tous les avantages statutaires.\n\nLa TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services professionnels, de transport et de vente. Tous les sous-traitants paient un salaire décent à leurs employés.\n\nLes salaires des employés de la TU Dublin sont fixés en fonction des politiques de rémunération et de conditions du secteur public, établies et mises à jour périodiquement par le gouvernement.\n\n(GRI 202-1)\n\n#### Santé, sécurité et bien-être\n\nEn vertu de la politique du gouvernement irlandais de « Tobacco Free Ireland », la TU Dublin a introduit une zone sans fumée sur le campus en septembre 2020.\n\n(GRI 403-1)\n\n#### Accessibilité financière et accès\n\nLa TU Dublin a mis en place des fonds d'aide aux étudiants (Student Assistance Fund) et le Fonds de bourse, qui visent les étudiants issus de milieux défavorisés ou sous-représentés.\n\n(GRI 403-6)\n\n#### Climat institutionnel (inclusion)\n\nL'office de l'égalité, de la diversité et de l'inclusion (EDI) de la TU Dublin comprend plusieurs initiatives. L'université soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple :\n\n* L'office de l'EDI soutient les employés de plusieurs groupes sous-représentés.\n* La direction de l'EDI mène des efforts pour intégrer l'antiracisme dans tous les programmes, en fournissant des ressources, des formations et un soutien aux employés et étudiants.\n* Le programme de développement communautaire et de travail avec les jeunes (CDYW) inclut des ateliers de formation sur l'antiracisme.\n\n(GRI 403-4)",
    "used_facts": [
-    "PA11_t0_0"
+    "PA11_t0_0",
+    "PA13_t2_0",
+    "PA13_t2_1"
    ],
    "trace_problems": [],
    "used_markers": [
-    "PA11_t0_0"
+    "PA11_t0_0",
+    "PA13_t2_0",
+    "PA13_t2_1"
    ],
    "judge": {
     "claims": [
      {
-      "claim": "TU Dublin estime que tout le monde a le droit à une rémunération juste.",
+      "claim": "L'université Technological University Dublin (TU Dublin) s'engage à verser un salaire décent à ses employés.",
       "supported": true
      },
      {
-      "claim": "TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, ",
+      "claim": "La TU Dublin vérifie régulièrement la conformité de ses sous-traitants avec la National Minimum Wage Act 2000 et la Payment of Wages Act 199",
+      "supported": true
+     },
+     {
+      "claim": "La TU Dublin estime que tout le monde a le droit à un salaire équitable et attend que tous ses fournisseurs paient à leurs employés au moins",
+      "supported": true
+     },
+     {
+      "claim": "La TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de mainten",
       "supported": false
      },
      {
-      "claim": "Tous les sous-traitants paient un salaire de vie décent à leurs employés.",
+      "claim": "Tous les sous-traitants paient un salaire décent à leurs employés.",
       "supported": true
      },
      {
-      "claim": "Le campus de TU Dublin a introduit une zone sans tabac sur le campus à partir de septembre 2020.",
-      "supported": true
-     },
-     {
-      "claim": "TU Dublin soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés.",
-      "supported": true
-     },
-     {
-      "claim": "Le « Supportive Environment » KPI a évalué la satisfaction sur des sujets tels que la fourniture de soutien pour aider les étudiants à réuss",
+      "claim": "Les salaires des employés de la TU Dublin sont fixés en fonction des politiques de rémunération et de conditions du secteur public, établies",
       "supported": true
      }
     ],
     "rule_violations": [
-     "TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services techniques, de transport et de  (G"
+     "La TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de mainten"
     ],
-    "score": 3,
-    "feedback": "Supprimer les phrases non étayées par les sources. Réécrire les phrases pour refléter fidèlement les informations fournies par les sources. Par exemple, pour la première phrase, réécrire : \"TU Dublin estime que tout le monde a le droit à une rémunération juste, comme mentionné dans le texte STARS du crédit PA-13.\"",
+    "score": 4,
+    "feedback": "Supprimer la phrase \"La TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services professionnels, de transport et de vente.\" car elle n'est pas étayée par les sources.",
     "faithfulness": 0.83,
-    "seconds": 310.8,
+    "seconds": 346.8,
     "discarded_violations": [],
     "accepted": true
    }
@@ -92,11 +92,15 @@
  "evidence": [
   {
    "credit": "PA-13",
-   "text": "TU Dublin reviews their contractors' compliance with the National Minimum Wage Act {{ PA13_t2_0 }} and the Payment of Wages Act {{ PA13_t2_1 }}, which legally mandate employers to provide at least the minimum wage and all statutory benefits. Additionally, TU Dublin believe that everyone has a right to fair remuneration"
+   "text": "TU Dublin reviews their contractors' compliance with the National Minimum Wage Act {{ PA13_t2_0 }} and the Payment of Wages Act {{ PA13_t2_1 }}, which legally mandate employers to provide at least the minimum wage and all statutory benefits. Additionally, TU Dublin believe that everyone has a right to fair remuneration and expect all of our suppliers pays each employee at least the minimum wage, or a fair representation of the prevailing industry wage (whichever is higher) and provides each employee with all legally mandated benefits."
   },
   {
    "credit": "PA-13",
    "text": "We have identified significant contractors including contractors providing regular on-site dining/catering, cleaning/janitorial, maintenance, grounds keeping, professional/technical, transportation, and retail services. All contractors are paying a living wage to employee."
+  },
+  {
+   "credit": "PA-13",
+   "text": "University staff salaries are set in accordance with public service pay and conditions policies, as established and updated periodically by the Government."
   },
   {
    "credit": "PA-11",
@@ -104,7 +108,7 @@
   },
   {
    "credit": "PA-9",
-   "text": "Student Assistance Fund (SAF) and the Bursary Fund, which are aimed at students from underrepresented or disadvantaged backgrounds. Eligibility for these supports includes students from households with a combined income of less than €, as well as those who qualify through access routes such as the HEAR (Higher Educatio"
+   "text": "Student Assistance Fund (SAF) and the Bursary Fund, which are aimed at students from underrepresented or disadvantaged backgrounds. Eligibility for these supports includes students from households with a combined income of less than €, as well as those who qualify through access routes such as the HEAR (Higher Education Access Route)"
   },
   {
    "credit": "PA-6",
@@ -112,7 +116,11 @@
   },
   {
    "credit": "PA-6",
-   "text": "The “Supportive Environment” KPI assessed satisfaction on topics such as “Providing support to help students succeed academically”, “Using learning support services”, “Contact among students from different backgrounds (social, racial, ethnic, religious, age groups etc.)*”, “Providing opportunities to be involved social"
+   "text": "The Equality, Diversity, and Inclusiveness (EDI) office includes several initiatives. Through the EDI, TU Dublin support employees from one or more additional underrepresented groups. Initiatives supporting employee include:"
+  },
+  {
+   "credit": "PA-6",
+   "text": "· The university's Equality, Diversity, and Inclusion (EDI) Directorate leads efforts to embed anti-racism across all programs, providing resources, training, and support to staff and students. Notably, the Community Development and Youth Work (CDYW) program includes staff workshops on anti-racism."
   },
   {
    "credit": "PA-10",

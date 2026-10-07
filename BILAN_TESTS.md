@@ -350,7 +350,7 @@ pour Cork, le gain sur social et enseignement est net.
 5. **Nouveaux types d'erreurs** : pourcentages inversés (Cork, 21 % et 54 % des appels d'offres) ; une année
    devenue une durée (« formation de 2024 heures ») ; faits rangés sous le mauvais titre et le mauvais code GRI
    (Berkeley et TU Dublin, social) ; « thèmes matériels déclarés » inventés (TU Dublin).
-6. **La relecture reste indispensable** : 98 corrections au total, chacune avec sa ligne STARS. La validation
+6. **La relecture reste indispensable** : 98 corrections proposées pour les nouveaux textes, chacune avec sa ligne STARS. La validation
    automatique (règle « aucun chiffre tapé à la main ») a aussi bloqué une correction qui contenait « bâtiment
    neuf » (« neuf » est lu comme un nombre en lettres) : corrigé en « nouveau ».
 
@@ -362,24 +362,27 @@ pour Cork, le gain sur social et enseignement est net.
 - Donner au juge une règle « une phrase sans fait précis est une violation ».
 - Un modèle plus grand ou un GPU (le 8B sur CPU écrit 2 à 4 jetons par seconde).
 
-**Choix par université (Wiem, le soir du 7 octobre).** Après la fusion, `main` contient le **nouveau** texte des
-trois universités, avec la nouvelle relecture. L'ancien texte et l'ancienne relecture restent dans l'historique
-(commit `9992123`). Pour garder l'ancien rapport d'une université, par exemple Berkeley :
+**Choix final de Wiem (7 octobre, appliqué dans `main`)**
 
-```
-git checkout 9992123 -- outputs/cache/berkeley relecture/berkeley.yaml
-.venv\Scripts\python -m esg.pipeline --render-only
-```
+| Université | Version livrée | Texte du modèle | Sections validées | Relecture |
+|---|---|---|---|---|
+| University College Cork | **nouvelle** (7 octobre) | génération du 7 octobre | 6 / 8 (2 à relire : gouvernance, enseignement) | 40 corrections dans 8 sections |
+| UC Berkeley | **ancienne** (6 octobre) | génération du 5 octobre | 8 / 8 | 35 corrections dans 8 sections |
+| TU Dublin | **ancienne** (6 octobre) | génération du 5 octobre (thèmes matériels rejoués) | 8 / 8 | 22 corrections dans 7 sections |
+| **Total** | | | **22 / 24** | **97 corrections** |
 
-Les tests ont été lancés aussi dans cette configuration (ancien Berkeley, ancien TU Dublin, nouveau Cork) : ils
-passent tous.
+L'ancien texte et l'ancienne relecture de Berkeley et de TU Dublin ont été repris du commit `9992123`
+(`git checkout 9992123 -- outputs/cache/<université> relecture/<université>.yaml`), puis les rapports ont été
+re-rendus sans LLM. Les nouveaux textes de Berkeley et de TU Dublin, et leur relecture (34 et 24 corrections),
+restent consultables dans l'historique (commit `017a9e6`) et dans `comparaison/`.
 
-**Contrôles (sur `main`, après la fusion)**
+**Chiffres finaux (sur `main`, après le choix)**
 - `pytest -q` : **179 tests passent**, dont 4 nouveaux cas pour l'assistant (faute de frappe sur le verbe ;
-  questions sur le « genre » qui restent des questions normales).
+  questions sur le « genre » qui restent des questions normales). Ils passaient aussi avec les nouveaux textes des
+  trois universités : ils vérifient le défaut, pas une phrase exacte.
 - Rendu sans LLM : aucun passage de relecture introuvable ; Word, PDF et HTML régénérés pour les 3 rapports et la
   synthèse comparative.
-- `esg.verify_univ 2026` : **aucun écart** (45 sur 45, sortie dans `outputs/verification_chiffres.md`).
+- `esg.verify_univ 2026` : **aucun écart** (45 sur 45 : 10 chiffres de score et 5 nombres « texte » par
+  université ; sortie dans `outputs/verification_chiffres.md`).
 - Assistant : « génère le rapport de Cork » et « genenre le rapport de dublin » rendent le rapport depuis le
   cache (sans Ollama) et ouvrent le PDF.
-- Rien n'a été envoyé sur GitHub : `main` local est en avance sur `origin/main`, en attente de l'accord de Wiem.

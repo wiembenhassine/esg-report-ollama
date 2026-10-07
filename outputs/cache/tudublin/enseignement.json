@@ -1,33 +1,56 @@
 {
- "prompt_hash": "4a75bb856e63fea3",
- "round": 2,
- "decision": "repli",
- "text": "*Section de repli générée par le code : aucune version rédigée par le modèle n'a passé la validation.*\n\n### Résultats STARS des crédits concernés\n- AC-1 — Sustainability Course Offerings : 14 / 14 points\n- AC-2 — Undergraduate Programs : 13,28 / 15 points\n- AC-3 — Graduate Programs : 8 / 8 points\n- AC-6 — Sustainability Research : 10 / 10 points\n- AC-7 — Center for Sustainability Research : 6 / 6 points\n- EN-1 — Outreach and Communications : 5 / 5 points\n- EN-2 — Co-Curricular Activities : 9 / 9 points\n- EN-3 — Staff Engagement and Training : 8 / 8 points\n- EN-5 — Civic Engagement : 4,5 / 8 points\n- EN-7 — Continuing Education : 3 / 3 points",
- "used_facts": [],
- "judge_score": null,
- "faithfulness": null,
- "gri_coverage": null,
+ "prompt_hash": "a14de15aeda3ed1e",
+ "round": 0,
+ "decision": "validée",
+ "text": "#### Offre de cours en durabilité\n\nL'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal. Cette note reflète la qualité de l'offre de cours en durabilité de l'université, qui comprend des projets tels que l'intégration de problèmes liés aux objectifs de développement durable dans l'éducation mathématique et l'étude des effets de l'expérience de stage orientée vers la durabilité sur la mentalité des étudiants.\n\n#### Programmes de premier cycle\n\nL'université obtient 13,28 points STARS sur 15 au crédit AC-2, niveau élevé. Cette note reflète la qualité des programmes de premier cycle de l'université, qui incluent des modules axés sur la durabilité et des modules inclusifs qui prennent en compte les préoccupations environnementales.\n\n#### Recherche en durabilité\n\nL'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal. Cette note reflète la qualité de la recherche en durabilité de l'université, qui comprend des projets tels que la création de programmes de recherche accélérés et l'engagement de chercheurs pour travailler sur des aspects liés à la durabilité.\n\n#### Centre de recherche en durabilité\n\nL'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal. Cette note reflète la qualité du centre de recherche en durabilité de l'université, qui est un lieu de recherche et de développement axé sur la durabilité.\n\n#### Communication et sensibilisation\n\nL'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. Cette note reflète la qualité de la communication et de la sensibilisation de l'université, qui comprend des outils de visualisation et des applications Web pour comprendre et mesurer le niveau de durabilité et les impacts associés aux modules enseignés, aux résultats de recherche et aux sites Web.\n\n#### Activités parascolaires\n\nL'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Cette note reflète la qualité des activités parascolaires de l'université, qui incluent des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.\n\n#### Engagement et formation du personnel\n\nL'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. Cette note reflète la qualité de l'engagement et de la formation du personnel de l'université, qui comprend des programmes tels que la SDG Literacy Community of Practice pour former les enseignants et les étudiants à la durabilité.\n\n#### Engagement civique\n\nL'université obtient 4,5 points STARS sur 8 au crédit EN-5, niveau intermédiaire. Cette note reflète la qualité de l'engagement civique de l'université, qui comprend des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.\n\n#### Formation continue\n\nL'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal. Cette note reflète la qualité de la formation continue de l'université, qui comprend des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.\n\n#### Part des points STARS obtenus dans le pilier Enseignement, recherche et engagement",
+ "used_facts": [
+  "AC1_max",
+  "AC1_score",
+  "AC2_max",
+  "AC2_score",
+  "AC6_max",
+  "AC6_score",
+  "AC7_max",
+  "AC7_score",
+  "EN1_max",
+  "EN1_score",
+  "EN2_max",
+  "EN2_score",
+  "EN3_max",
+  "EN3_score",
+  "EN5_max",
+  "EN5_score",
+  "EN7_max",
+  "EN7_score"
+ ],
+ "judge_score": 4,
+ "faithfulness": 1.0,
+ "gri_coverage": 1.0,
  "unsupported_claims": [],
  "discarded_violations": [],
- "attempts": 2,
- "guard_rejections": 1,
- "seconds": 1544.6,
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 698.6,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Enseignement, recherche et engagement\n\nL'université Technological University Dublin (Irlande) a obtenu {{ AC1 }} au crédit AC-1 Offre de cours en durabilité, niveau maximal. Cette offre de cours en durabilité est soutenue par des subventions de financement de projet qui aident les enseignants à intégrer la durabilité dans leur cursus. L'université compte également des équipes de formation à la durabilité qui soutiennent les enseignants dans leur intégration de la durabilité dans le cursus.\n\nL'université a également obtenu {{ AC2 }} au crédit AC-2 Programmes de premier cycle, niveau élevé. Les programmes de premier cycle de l'université sont axés sur la durabilité et incluent des modules de cours en durabilité, des projets de recherche et des activités parascolaires liées à la durabilité.\n\nEn ce qui concerne la recherche, l'université a obtenu {{ AC6 }} au crédit AC-6 Recherche en durabilité, niveau maximal. Les projets de recherche en durabilité de l'université sont axés sur la durabilité et incluent des projets de recherche sur les campus universitaires durables, la santé et la durabilité, et la recherche sur les SDG.\n\nL'université a également obtenu {{ AC7 }} au crédit AC-7 Centre de recherche en durabilité, niveau maximal. Le centre de recherche en durabilité de l'université est axé sur la durabilité et inclut des recherches sur les SDG, la santé et la durabilité, et les campus universitaires durables.\n\nEn ce qui concerne la communication et la sensibilisation, l'université a obtenu {{ EN1 }} au crédit EN-1 Communication et sensibilisation, niveau maximal. L'université a développé des applications web pour visualiser et comprendre le niveau de durabilité et les impacts associés aux modules enseignés, aux résultats de recherche et aux sites web.\n\nL'université a également obtenu {{ EN2 }} au crédit EN-2 Activités parascolaires, niveau maximal. Les étudiants de l'université sont fortement soutenus pour développer des entreprises et des start-ups axées sur la durabilité. De nombreux étudiants opèrent également leurs propres entreprises avec le soutien de l'université.\n\nEn ce qui concerne l'engagement et la formation du personnel, l'université a obtenu {{ EN3 }} au crédit EN-3 Engagement et formation du personnel, niveau maximal. L'équipe de formation à la durabilité de l'université offre des programmes de formation continue en durabilité et organise des symposia sur la formation à la durabilité.\n\nEnfin, l'université a obtenu {{ EN5 }} au crédit EN-5 Engagement civique, niveau intermédiaire. En {{ EN5_t2_0 }} - {{ EN5_t2_1 }}, environ des étudiants ont participé à des activités communautaires à travers des programmes de bénévolat étudiant, des clubs sportifs et des sociétés, des mentorats pairs, et des représentants de classe.",
-   "gen_seconds": 334.5,
-   "prompt_tokens": 3074,
+   "draft": "#### Offre de cours en durabilité\n\nL'université obtient {{ AC1 }}. Cette note reflète la qualité de l'offre de cours en durabilité de l'université, qui comprend des projets tels que l'intégration de problèmes liés aux objectifs de développement durable dans l'éducation mathématique et l'étude des effets de l'expérience de stage orientée vers la durabilité sur la mentalité des étudiants.\n\n#### Programmes de premier cycle\n\nL'université obtient {{ AC2 }}. Cette note reflète la qualité des programmes de premier cycle de l'université, qui incluent des modules axés sur la durabilité et des modules inclusifs qui prennent en compte les préoccupations environnementales.\n\n#### Recherche en durabilité\n\nL'université obtient {{ AC6 }}. Cette note reflète la qualité de la recherche en durabilité de l'université, qui comprend des projets tels que la création de programmes de recherche accélérés et l'engagement de chercheurs pour travailler sur des aspects liés à la durabilité.\n\n#### Centre de recherche en durabilité\n\nL'université obtient {{ AC7 }}. Cette note reflète la qualité du centre de recherche en durabilité de l'université, qui est un lieu de recherche et de développement axé sur la durabilité.\n\n#### Communication et sensibilisation\n\nL'université obtient {{ EN1 }}. Cette note reflète la qualité de la communication et de la sensibilisation de l'université, qui comprend des outils de visualisation et des applications Web pour comprendre et mesurer le niveau de durabilité et les impacts associés aux modules enseignés, aux résultats de recherche et aux sites Web.\n\n#### Activités parascolaires\n\nL'université obtient {{ EN2 }}. Cette note reflète la qualité des activités parascolaires de l'université, qui incluent des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.\n\n#### Engagement et formation du personnel\n\nL'université obtient {{ EN3 }}. Cette note reflète la qualité de l'engagement et de la formation du personnel de l'université, qui comprend des programmes tels que la SDG Literacy Community of Practice pour former les enseignants et les étudiants à la durabilité.\n\n#### Engagement civique\n\nL'université obtient {{ EN5 }}. Cette note reflète la qualité de l'engagement civique de l'université, qui comprend des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.\n\n#### Formation continue\n\nL'université obtient {{ EN7 }}. Cette note reflète la qualité de la formation continue de l'université, qui comprend des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.\n\n#### Part des points STARS obtenus dans le pilier Enseignement, recherche et engagement\n\nL'université obtient {{ CTX }} % des points STARS du pilier Enseignement, recherche et engagement, niveau élevé.",
+   "gen_seconds": 366.0,
+   "prompt_tokens": 2278,
    "output_tokens": 700,
-   "raw_guard_problems": [],
-   "removed_sentences": [],
+   "raw_guard_problems": [
+    "marqueur {{ CTX }} suivi de « % » : c'est un score STARS complet, pas un nombre à compléter"
+   ],
+   "removed_sentences": [
+    "L'université obtient {{ CTX }} % des points STARS du pilier Enseignement, recherche et engagement, niveau élevé."
+   ],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 1.0,
    "lint_notes": [
-    "longueur de 405 mots : vise 180 à 300 mots"
+    "longueur de 392 mots : vise 180 à 300 mots"
    ],
-   "rendered": "### Enseignement, recherche et engagement\n\nL'université Technological University Dublin (Irlande) a obtenu 14 points STARS sur 14 au crédit AC-1, niveau maximal. Cette offre de cours en durabilité est soutenue par des subventions de financement de projet qui aident les enseignants à intégrer la durabilité dans leur cursus. L'université compte également des équipes de formation à la durabilité qui soutiennent les enseignants dans leur intégration de la durabilité dans le cursus.\n\nL'université a également obtenu 13,28 points STARS sur 15 au crédit AC-2, niveau élevé. Les programmes de premier cycle de l'université sont axés sur la durabilité et incluent des modules de cours en durabilité, des projets de recherche et des activités parascolaires liées à la durabilité.\n\nEn ce qui concerne la recherche, l'université a obtenu 10 points STARS sur 10 au crédit AC-6, niveau maximal. Les projets de recherche en durabilité de l'université sont axés sur la durabilité et incluent des projets de recherche sur les campus universitaires durables, la santé et la durabilité, et la recherche sur les SDG.\n\nL'université a également obtenu 6 points STARS sur 6 au crédit AC-7, niveau maximal. Le centre de recherche en durabilité de l'université est axé sur la durabilité et inclut des recherches sur les SDG, la santé et la durabilité, et les campus universitaires durables.\n\nEn ce qui concerne la communication et la sensibilisation, l'université a obtenu 5 points STARS sur 5 au crédit EN-1, niveau maximal. L'université a développé des applications web pour visualiser et comprendre le niveau de durabilité et les impacts associés aux modules enseignés, aux résultats de recherche et aux sites web.\n\nL'université a également obtenu 9 points STARS sur 9 au crédit EN-2, niveau maximal. Les étudiants de l'université sont fortement soutenus pour développer des entreprises et des start-ups axées sur la durabilité. De nombreux étudiants opèrent également leurs propres entreprises avec le soutien de l'université.\n\nEn ce qui concerne l'engagement et la formation du personnel, l'université a obtenu 8 points STARS sur 8 au crédit EN-3, niveau maximal. L'équipe de formation à la durabilité de l'université offre des programmes de formation continue en durabilité et organise des symposia sur la formation à la durabilité.\n\nEnfin, l'université a obtenu 4,5 points STARS sur 8 au crédit EN-5, niveau intermédiaire. En 2023 - 2024, environ des étudiants ont participé à des activités communautaires à travers des programmes de bénévolat étudiant, des clubs sportifs et des sociétés, des mentorats pairs, et des représentants de classe.",
+   "rendered": "#### Offre de cours en durabilité\n\nL'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal. Cette note reflète la qualité de l'offre de cours en durabilité de l'université, qui comprend des projets tels que l'intégration de problèmes liés aux objectifs de développement durable dans l'éducation mathématique et l'étude des effets de l'expérience de stage orientée vers la durabilité sur la mentalité des étudiants.\n\n#### Programmes de premier cycle\n\nL'université obtient 13,28 points STARS sur 15 au crédit AC-2, niveau élevé. Cette note reflète la qualité des programmes de premier cycle de l'université, qui incluent des modules axés sur la durabilité et des modules inclusifs qui prennent en compte les préoccupations environnementales.\n\n#### Recherche en durabilité\n\nL'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal. Cette note reflète la qualité de la recherche en durabilité de l'université, qui comprend des projets tels que la création de programmes de recherche accélérés et l'engagement de chercheurs pour travailler sur des aspects liés à la durabilité.\n\n#### Centre de recherche en durabilité\n\nL'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal. Cette note reflète la qualité du centre de recherche en durabilité de l'université, qui est un lieu de recherche et de développement axé sur la durabilité.\n\n#### Communication et sensibilisation\n\nL'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. Cette note reflète la qualité de la communication et de la sensibilisation de l'université, qui comprend des outils de visualisation et des applications Web pour comprendre et mesurer le niveau de durabilité et les impacts associés aux modules enseignés, aux résultats de recherche et aux sites Web.\n\n#### Activités parascolaires\n\nL'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Cette note reflète la qualité des activités parascolaires de l'université, qui incluent des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.\n\n#### Engagement et formation du personnel\n\nL'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. Cette note reflète la qualité de l'engagement et de la formation du personnel de l'université, qui comprend des programmes tels que la SDG Literacy Community of Practice pour former les enseignants et les étudiants à la durabilité.\n\n#### Engagement civique\n\nL'université obtient 4,5 points STARS sur 8 au crédit EN-5, niveau intermédiaire. Cette note reflète la qualité de l'engagement civique de l'université, qui comprend des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.\n\n#### Formation continue\n\nL'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal. Cette note reflète la qualité de la formation continue de l'université, qui comprend des programmes tels que la formation continue en horticulture durable et en conception de véhicules électriques.\n\n#### Part des points STARS obtenus dans le pilier Enseignement, recherche et engagement",
    "used_facts": [
     "AC1_max",
     "AC1_score",
@@ -45,8 +68,8 @@
     "EN3_score",
     "EN5_max",
     "EN5_score",
-    "EN5_t2_0",
-    "EN5_t2_1"
+    "EN7_max",
+    "EN7_score"
    ],
    "trace_problems": [],
    "used_markers": [
@@ -58,64 +81,45 @@
     "EN2",
     "EN3",
     "EN5",
-    "EN5_t2_0",
-    "EN5_t2_1"
+    "EN7"
    ],
    "judge": {
     "claims": [
      {
-      "claim": "L'université Technological University Dublin (Irlande) a obtenu 14 points STARS sur 14 au crédit AC-1, niveau maximal.",
+      "claim": "L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal.",
       "supported": true
      },
      {
-      "claim": "Cette offre de cours en durabilité est soutenue par des subventions de financement de projet qui aident les enseignants à intégrer la durabi",
-      "supported": false
-     },
-     {
-      "claim": "L'université compte également des équipes de formation à la durabilité qui soutiennent les enseignants dans leur intégration de la durabi",
-      "supported": false
-     },
-     {
-      "claim": "L'université a également obtenu 13,28 points STARS sur 15 au crédit AC-2, niveau élevé.",
+      "claim": "Cette note reflète la qualité de l'offre de cours en durabilité de l'université, qui comprend des projets tels que l'intégration de probléma",
       "supported": true
      },
      {
-      "claim": "Les programmes de premier cycle de l'université sont axés sur la durabilité et incluent des modules de cours en durabilité, des projets de",
-      "supported": false
+      "claim": "L'université obtient 13,28 points STARS sur 15 au crédit AC-2, niveau élevé.",
+      "supported": true
      },
      {
-      "claim": "En ce qui concerne la recherche, l'université a obtenu 10 points STARS sur 10 au crédit AC-6, niveau maximal.",
+      "claim": "Cette note reflète la qualité des programmes de premier cycle de l'université, qui incluent des modules axés sur la durabilité et des",
+      "supported": true
+     },
+     {
+      "claim": "L'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal.",
+      "supported": true
+     },
+     {
+      "claim": "Cette note reflète la qualité de la recherche en durabilité de l'université, qui comprend des projets tels que la création de programmes de",
       "supported": true
      }
     ],
     "rule_violations": [
-     "La section présente une liste de scores au lieu d'un écrit en prose.",
-     "La section présente une liste de scores au lieu d'un écrit en prose.",
-     "La section présente une liste de scores au lieu d'un écrit en prose.",
-     "La section présente une liste de scores au lieu d'un écrit en prose."
+     "Le rapport ne peut pas établir si l'université a identifié ou déterminé ses sujets matériels."
     ],
-    "score": 2,
-    "feedback": "Supprimer les listes de scores et rédiger les informations en prose. Assurer que les informations présentées sont soutenues par les sources.",
-    "faithfulness": 0.5,
-    "seconds": 370.6,
+    "score": 4,
+    "feedback": "Supprimer les phrases qui indiquent que l'université a identifié ou déterminé ses sujets matériels. Par exemple, supprimer la phrase \"Cette note reflète la qualité de l'offre de cours en durabilité de l'université, qui comprend des projets tels que l'intégration de problèmes liés aux objectifs de développement durable dans l'éducation mathématique et l'étude des effets de l'expérience de stage orientée vers la durabilité sur la mentalité des étudiants.\"",
+    "faithfulness": 1.0,
+    "seconds": 332.3,
     "discarded_violations": [],
-    "accepted": false
+    "accepted": true
    }
-  },
-  {
-   "attempt": 2,
-   "draft": "### Enseignement, recherche et engagement\n\nL'université Technological University Dublin (TU Dublin) a démontré son engagement envers la durabilité dans plusieurs domaines. En matière d'enseignement, l'université a mis en place des programmes de premier cycle et de cycles supérieurs axés sur la durabilité, avec des modules de cours et des projets qui donnent la priorité à la durabilité.\n\nL'université a également établi des centres de recherche en durabilité, tels que le Centre de recherche en durabilité, qui regroupe des unités (laboratoires, groupes de recherche et instituts) qui s'attaquent aux problèmes de durabilité sous différents angles. Ces centres de recherche contribuent à accélérer l'agenda de recherche en durabilité.\n\nDans le domaine de la recherche, l'université a lancé des projets de recherche financés qui créent des sous-projets de recherche qui accélèrent la participation des enseignants, des chercheurs et des étudiants, et accélèrent l'agenda de recherche en durabilité. Par exemple, des projets de recherche financés incluent \"Vers une université durable\", SATLE.\n\nL'université a également mis en place des activités parascolaires, telles que le programme d'Education pour la durabilité, qui encourage les étudiants à développer des entreprises et des start-ups axées sur la durabilité. Les étudiants sont également soutenus pour développer des projets et des ateliers qui éduquent leurs pairs.\n\nL'université a également établi des équipes de formation à la durabilité qui offrent des formations continues sur la durabilité. Ces équipes offrent également des formations sur les compétences en matière de durabilité, telles que le Symposium de l'éducation à la durabilité.\n\n(GRI 305-1)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la portée exacte de l'impact de ces initiatives sur la durabilité, car les données disponibles ne permettent pas de le faire.",
-   "gen_seconds": 839.3,
-   "prompt_tokens": 3360,
-   "output_tokens": 456,
-   "raw_guard_problems": [],
-   "removed_sentences": [],
-   "guard_problems": [],
-   "lint_problems": [
-    "cette section ne correspond à aucune publication GRI : ne cite aucun code GRI"
-   ],
-   "gri_coverage": 1.0,
-   "lint_notes": []
   }
  ],
  "institution": "tudublin",
@@ -124,11 +128,7 @@
  "evidence": [
   {
    "credit": "AC-1",
-   "text": "Staff who are integrating sustainability into the curriculum are supported by seed funding grants of € to implement projects. of the projects listed on this webpage are sustainability focused, e.g. \"Introducing Sustainability Development Goal problems in Maths Education\"; \"A case study on the effects of sustainability-"
-  },
-  {
-   "credit": "AC-1",
-   "text": "The Sustainability Education team are academic staff who have been seconded to the Sustainability team to support all academic staff as they integrate sustainability in the curriculum with TU Dublin being \"recognised as the first Centre for Sustainability Across the Curriculum in Europe\"."
+   "text": "Staff who are integrating sustainability into the curriculum are supported by seed funding grants of € to implement projects. of the projects listed on this webpage are sustainability focused, e.g. \"Introducing Sustainability Development Goal problems in Maths Education\"; \"A case study on the effects of sustainability-oriented work placement on student mindset\"."
   },
   {
    "credit": "AC-2",
@@ -136,63 +136,23 @@
   },
   {
    "credit": "AC-2",
-   "text": "Examples of sustainability-focused “stream” and “elective modules” for undergraduate students are provided below."
-  },
-  {
-   "credit": "AC-3",
-   "text": "Examples of sustainability-focused “stream” and “elective modules” for postgraduate students are provided below."
-  },
-  {
-   "credit": "AC-3",
-   "text": "The programme TU on “Urban Regeneration & Development” is a -Years part-time programme awarding the Master of Science. In addition to core modules, the following sustainability-focused elective modules are available for students to choose from: Economy and Sustainable Development; Society and Sustainable Development; I"
+   "text": "See the AC _Sustainability_course_offerings_Revised.xlsx file attached"
   },
   {
    "credit": "AC-6",
-   "text": ") In some instances, funded research projects create sub-research programmes that are accelerating the participation of staff, researchers and students, and accelerating the sustainability research agenda. For example, funded sustainability research projects include \"Towards a Sustainability University Campus\", SATLE a"
-  },
-  {
-   "credit": "AC-6",
-   "text": ") A Research Hub has been developed with focus on \"Sustainability & Health\". The research Hub pushes the Sustainability agenda across many sustainability topics such as water, food, energy, policies, and health."
-  },
-  {
-   "credit": "AC-7",
-   "text": "TU Dublin has research hubs which all address sustainability topics from different perspectives, covering various SDGs. The following hubs focused on subjects other than sustainability that produce sustainability research.Hub: Health Engineering & Materials Science that has thematic areas and cluster groups tacking res"
-  },
-  {
-   "credit": "AC-7",
-   "text": "TU Dublin has research hubs regrouping units (laboratories, research groups, and institutes) which all address sustainability topics from different perspectives, covering various SDGs. This is further made evident via the TU Dublin Research & Innovation Strategy. We have research Hub focused on sustainability and integ"
+   "text": ") In some instances, funded research projects create sub-research programmes that are accelerating the participation of staff, researchers and students, and accelerating the sustainability research agenda. For example, funded sustainability research projects include \"Towards a Sustainability University Campus\", SATLE and N-TUTORR. Under these National, international, or industrially funded projects, leaders have recruited researchers focused on sustainability aspects and/or created calls of interests to staff and students to apply for sustainability research projects grants."
   },
   {
    "credit": "EN-1",
-   "text": "The Sustainability Intelligence team developed Web Applications that provides dashboards to visualise and understand the sustainability level and related SDG impacts associated to taught modules, research outputs, and websites. These are, in phases, being made available to ) academic functions (faculties, schools, prog"
-  },
-  {
-   "credit": "EN-1",
-   "text": "Every one of the incoming TU Dublin students take part in an engaging sustainability presentation during orientation to learn about the Sustainable Development Goals (SDGs) and how they are applied to enhance academic programmes, student life and our campus environment (Ref, Ref ). They also receive an academic wall-pl"
-  },
-  {
-   "credit": "EN-2",
-   "text": "TU Dublin currently employs Student Champions for the Education for Sustainability theme. They are listed here and run various projects and workshops to educate their peers.TU Dublin staff can avail Education for Sustainable Development CDP. Academics can then produce peer-to-peer education programs for students and ex"
-  },
-  {
-   "credit": "EN-2",
-   "text": "Students are strongly supported to develop enterprises and start-ups that focus on sustainability.Many of our students also operate their own enterprises with the support of the University. For example, Giada and Ethan have set up a “motivational coaching for sustainable success” enterprise and are speaking at our Gree"
+   "text": "The Sustainability Intelligence team developed Web Applications that provides dashboards to visualise and understand the sustainability level and related SDG impacts associated to taught modules, research outputs, and websites. These are, in phases, being made available to ) academic functions (faculties, schools, programme coordinators, UET, Governing Body Committees); ) research functions (research hubs and groups, research office, faculties, schools, UET); ) Communication functions; and ) all TU Dublin staff and students, ) the public."
   },
   {
    "credit": "EN-3",
-   "text": "The Sustainability Education team offer Continuing Professional Devlopment (CDP) on sustainability. The team also runs the Sustainability Education Symposium with an emphasis on how the competences set out in the EU GreenComp framework can be integrated into Teaching-Learning-Assessment (TLA) design, the symposium is a"
-  },
-  {
-   "credit": "EN-3",
-   "text": "The Green Campus Committee and Programme encourages a partnership approach to environmental education, management, and action in -level institutions. The programme primarily aims to ensure that members of a campus community can engage in a meaningful way to enhance sustainability on campus. The SDG Literacy Community o"
-  },
-  {
-   "credit": "EN-5",
-   "text": "In the academic year {{ EN5_t2_0 }} - {{ EN5_t2_1 }}, about students engaged in community activities through (i) students participating to TU Dublin student volunteering programmes, (ii) students are Sports clubs and Societies Committee members, (iii) students are Peer Mentors, and (iv) students are class representativ"
+   "text": "The Green Campus Committee and Programme encourages a partnership approach to environmental education, management, and action in -level institutions. The programme primarily aims to ensure that members of a campus community can engage in a meaningful way to enhance sustainability on campus. The SDG Literacy Community of Practice aims to empower faculty and students to co-create learning opportunities that will build knowledge of the UN Sustainable Development Goals (SDGs) and enable students to make meaningful connections between the SDGs and their focus of study."
   },
   {
    "credit": "EN-7",
-   "text": "The TU Dublin strategic intent outlines an ambitious requirement for all TU Dublin courses to include sustainability as a learning outcome and for TU Dublin to be one of the top universities for sustainability. As well as this TU Dublin has several specific continuing education course offerings such as the Postgraduate"
+   "text": "Sustainability-Focused modules for CPD in Culinary, Hospitality and Tourism include:- Certificate in Science in Sustainable Horticulture TU"
   }
  ]
 }

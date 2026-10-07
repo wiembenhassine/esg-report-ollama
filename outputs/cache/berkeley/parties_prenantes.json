@@ -1,102 +1,68 @@
 {
- "prompt_hash": "f1ddbb538cec26fb",
- "round": 1,
+ "prompt_hash": "4945cff4ed2104d4",
+ "round": 0,
  "decision": "validée",
- "text": "### Engagement des parties prenantes\n\nL'université de Californie, Berkeley, englobe plusieurs catégories fixes de parties prenantes dans son engagement, notamment les étudiants, les enseignants, le personnel et la communauté locale. \n\nL'université obtient 3,5 points STARS sur 4 au crédit PA-3, niveau élevé. L'université a plusieurs organes en place qui permettent aux étudiants de participer de manière démocratique à la gouvernance de l'établissement. Ces organes permettent aux étudiants d'avoir une voix dans les processus de décision, en particulier autour des politiques et des initiatives qui impactent la vie sur le campus, la durabilité et d'autres domaines d'intérêt pour les étudiants.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-5, niveau maximal. L'université a des programmes conçus pour soutenir le service communautaire des employés. L'un des initiatives clés est le Cal Civic Engagement Program, qui encourage et soutient les enseignants et le personnel à contribuer à la communauté par le biais de la solidarité et de l'engagement civique. Ce programme s'aligne sur la mission de l'université pour promouvoir la justice sociale et l'engagement civique.\n\nL'université obtient 9 points STARS sur 9 au crédit EN-6, niveau maximal. L'université a mis en place le Fonds de partenariats communautaires du chancelier (CCPF), qui emploie une approche structurée pour évaluer et améliorer les partenariats avec la communauté, en garantissant la réciprocité et le bénéfice mutuel.\n\nL'université obtient 2,5 points STARS sur 3 au crédit PA-12, niveau élevé. L'université a une section dédiée sur son site web des ressources humaines qui expose les politiques liées aux droits des salariés, notamment le traitement équitable, les procédures de réclamation et l'équilibre vie professionnelle et vie personnelle. Les politiques couvrent des domaines tels que la discrimination anti, la protection du lanceur d'alerte et les avantages des employés.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a identifié les groupes vulnérables ou si elle a mis en place une méthode d'identification des parties prenantes.",
- "used_facts": [
-  "EN5_max",
-  "EN5_score",
-  "EN6_max",
-  "EN6_score",
-  "PA12_max",
-  "PA12_score",
-  "PA3_max",
-  "PA3_score"
- ],
+ "text": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la stratégie de l'University of California, Berkeley. Le rapport STARS indique que l'université a mis en place des comités consultatifs pour l'engagement communautaire, qui impliquent des membres de la communauté locale, notamment dans les domaines de la santé publique, de la durabilité et de la justice sociale.\n\nL'université a également établi des comités consultatifs pour la gouvernance, qui impliquent des membres de la communauté locale et des étudiants. Ces comités fournissent aux organisations communautaires un forum pour donner leur avis sur les politiques et les initiatives de l'université qui affectent la population locale.\n\nL'université a également mis en place des partenariats avec la communauté, tels que le programme College Corps, qui a permis à des étudiants de la faculté de participer à des partenariats communautaires dans le domaine de la justice climatique et alimentaire.\n\nEnfin, l'université a mis en place des politiques pour protéger les droits des salariés, notamment en matière de traitement équitable, de procédures de réclamation et d'équilibre vie professionnelle/vie personnelle.\n\n(GRI 2-29)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.\n\n### Limites et omissions\n\nCe rapport ne couvre pas les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.",
+ "used_facts": [],
  "judge_score": 4,
- "faithfulness": 0.83,
- "gri_coverage": 0.0,
- "unsupported_claims": [
-  "L'université a identifié les groupes vulnérables ou si elle a mis en place une méthode d'identification des parties prenantes."
- ],
+ "faithfulness": 1.0,
+ "gri_coverage": 1.0,
+ "unsupported_claims": [],
  "discarded_violations": [],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 530.0,
+ "seconds": 405.5,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Engagement des parties prenantes\n\nL'université de Californie, Berkeley, englobe plusieurs catégories fixes de parties prenantes dans son engagement, notamment les étudiants, les enseignants, le personnel et la communauté locale. \n\nL'université obtient {{ PA3 }}. Cette note reflète l'engagement de l'université dans la gouvernance de l'établissement. L'université a plusieurs organes en place qui permettent aux étudiants de participer de manière démocratique à la gouvernance de l'établissement. Ces organes permettent aux étudiants d'avoir une voix dans les processus de décision, en particulier autour des politiques et des initiatives qui impactent la vie sur le campus, la durabilité et d'autres domaines d'intérêt pour les étudiants.\n\nL'université obtient {{ EN5 }}. Cette note reflète l'engagement de l'université dans l'engagement civique. L'université a des programmes conçus pour soutenir le service communautaire des employés. L'un des initiatives clés est le Cal Civic Engagement Program, qui encourage et soutient les enseignants et le personnel à contribuer à la communauté par le biais de la solidarité et de l'engagement civique. Ce programme s'aligne sur la mission de l'université pour promouvoir la justice sociale et l'engagement civique.\n\nL'université obtient {{ EN6 }}. Cette note reflète l'engagement de l'université dans les partenariats avec la communauté. L'université a mis en place le Fonds de partenariats communautaires du chancelier (CCPF), qui emploie une approche structurée pour évaluer et améliorer les partenariats avec la communauté, en garantissant la réciprocité et le bénéfice mutuel.\n\nL'université obtient {{ PA12 }}. Cette note reflète l'engagement de l'université dans les droits des salariés. L'université a une section dédiée sur son site web des ressources humaines qui expose les politiques liées aux droits des salariés, notamment le traitement équitable, les procédures de réclamation et l'équilibre vie professionnelle et vie personnelle. Les politiques couvrent des domaines tels que la discrimination anti, la protection du lanceur d'alerte et les avantages des employés.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a identifié les groupes vulnérables ou si elle a mis en place une méthode d'identification des parties prenantes.",
-   "gen_seconds": 296.6,
-   "prompt_tokens": 2063,
-   "output_tokens": 598,
-   "raw_guard_problems": [
-    "formule creuse ou promotionnelle : décris un fait précis du CONTEXTE à la place"
-   ],
-   "removed_sentences": [
-    "Cette note reflète l'engagement de l'université dans la gouvernance de l'établissement.",
-    "Cette note reflète l'engagement de l'université dans l'engagement civique.",
-    "Cette note reflète l'engagement de l'université dans les partenariats avec la communauté.",
-    "Cette note reflète l'engagement de l'université dans les droits des salariés."
-   ],
+   "draft": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la stratégie de l'University of California, Berkeley. Le rapport STARS indique que l'université a mis en place des comités consultatifs pour l'engagement communautaire, qui impliquent des membres de la communauté locale, notamment dans les domaines de la santé publique, de la durabilité et de la justice sociale.\n\nL'université a également établi des comités consultatifs pour la gouvernance, qui impliquent des membres de la communauté locale et des étudiants. Ces comités fournissent aux organisations communautaires un forum pour donner leur avis sur les politiques et les initiatives de l'université qui affectent la population locale.\n\nL'université a également mis en place des partenariats avec la communauté, tels que le programme College Corps, qui a permis à des étudiants de la faculté de participer à des partenariats communautaires dans le domaine de la justice climatique et alimentaire.\n\nEnfin, l'université a mis en place des politiques pour protéger les droits des salariés, notamment en matière de traitement équitable, de procédures de réclamation et d'équilibre vie professionnelle/vie personnelle.\n\n(GRI 2-29)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.\n\n### Limites et omissions\n\nCe rapport ne couvre pas les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.",
+   "gen_seconds": 192.3,
+   "prompt_tokens": 2030,
+   "output_tokens": 392,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 0.0,
-   "lint_notes": [
-    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 2-29)"
-   ],
-   "rendered": "### Engagement des parties prenantes\n\nL'université de Californie, Berkeley, englobe plusieurs catégories fixes de parties prenantes dans son engagement, notamment les étudiants, les enseignants, le personnel et la communauté locale. \n\nL'université obtient 3,5 points STARS sur 4 au crédit PA-3, niveau élevé. L'université a plusieurs organes en place qui permettent aux étudiants de participer de manière démocratique à la gouvernance de l'établissement. Ces organes permettent aux étudiants d'avoir une voix dans les processus de décision, en particulier autour des politiques et des initiatives qui impactent la vie sur le campus, la durabilité et d'autres domaines d'intérêt pour les étudiants.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-5, niveau maximal. L'université a des programmes conçus pour soutenir le service communautaire des employés. L'un des initiatives clés est le Cal Civic Engagement Program, qui encourage et soutient les enseignants et le personnel à contribuer à la communauté par le biais de la solidarité et de l'engagement civique. Ce programme s'aligne sur la mission de l'université pour promouvoir la justice sociale et l'engagement civique.\n\nL'université obtient 9 points STARS sur 9 au crédit EN-6, niveau maximal. L'université a mis en place le Fonds de partenariats communautaires du chancelier (CCPF), qui emploie une approche structurée pour évaluer et améliorer les partenariats avec la communauté, en garantissant la réciprocité et le bénéfice mutuel.\n\nL'université obtient 2,5 points STARS sur 3 au crédit PA-12, niveau élevé. L'université a une section dédiée sur son site web des ressources humaines qui expose les politiques liées aux droits des salariés, notamment le traitement équitable, les procédures de réclamation et l'équilibre vie professionnelle et vie personnelle. Les politiques couvrent des domaines tels que la discrimination anti, la protection du lanceur d'alerte et les avantages des employés.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a identifié les groupes vulnérables ou si elle a mis en place une méthode d'identification des parties prenantes.",
-   "used_facts": [
-    "EN5_max",
-    "EN5_score",
-    "EN6_max",
-    "EN6_score",
-    "PA12_max",
-    "PA12_score",
-    "PA3_max",
-    "PA3_score"
-   ],
+   "gri_coverage": 1.0,
+   "lint_notes": [],
+   "rendered": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la stratégie de l'University of California, Berkeley. Le rapport STARS indique que l'université a mis en place des comités consultatifs pour l'engagement communautaire, qui impliquent des membres de la communauté locale, notamment dans les domaines de la santé publique, de la durabilité et de la justice sociale.\n\nL'université a également établi des comités consultatifs pour la gouvernance, qui impliquent des membres de la communauté locale et des étudiants. Ces comités fournissent aux organisations communautaires un forum pour donner leur avis sur les politiques et les initiatives de l'université qui affectent la population locale.\n\nL'université a également mis en place des partenariats avec la communauté, tels que le programme College Corps, qui a permis à des étudiants de la faculté de participer à des partenariats communautaires dans le domaine de la justice climatique et alimentaire.\n\nEnfin, l'université a mis en place des politiques pour protéger les droits des salariés, notamment en matière de traitement équitable, de procédures de réclamation et d'équilibre vie professionnelle/vie personnelle.\n\n(GRI 2-29)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.\n\n### Limites et omissions\n\nCe rapport ne couvre pas les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.",
+   "used_facts": [],
    "trace_problems": [],
-   "used_markers": [
-    "EN5",
-    "EN6",
-    "PA12",
-    "PA3"
-   ],
+   "used_markers": [],
    "judge": {
     "claims": [
      {
-      "claim": "L'université obtient 3,5 points STARS sur 4 au crédit PA-3, niveau élevé.",
+      "claim": "L'université a mis en place des comités consultatifs pour l'engagement communautaire",
       "supported": true
      },
      {
-      "claim": "L'université a plusieurs organes en place qui permettent aux étudiants de participer de manière démocratique à la gouvernance de l'établisse",
+      "claim": "Ces comités fournissent aux organisations communautaires un forum pour donner leur avis sur les politiques et les initiatives de l'universté",
       "supported": true
      },
      {
-      "claim": "L'université obtient 8 points STARS sur 8 au crédit EN-5, niveau maximal.",
+      "claim": "L'université a mis en place des partenariats avec la communauté, tels que le programme College Corps",
       "supported": true
      },
      {
-      "claim": "L'université a des programmes conçus pour soutenir le service communautaire des employés.",
+      "claim": "Le programme College Corps a permis à des étudiants de la faculté de participer à des partenariats communautaires dans le domaine de la clim",
       "supported": true
      },
      {
-      "claim": "L'université obtient 9 points STARS sur 9 au crédit EN-6, niveau maximal.",
+      "claim": "L'université a mis en place des politiques pour protéger les droits des salariés",
       "supported": true
      },
      {
-      "claim": "L'université a identifié les groupes vulnérables ou si elle a mis en place une méthode d'identification des parties prenantes.",
-      "supported": false
+      "claim": "Ce rapport ne peut pas établir les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification",
+      "supported": true
      }
     ],
     "rule_violations": [
-     "L'université a identifié les groupes vulnérables ou si elle a mis en place une méthode d'identification des parties prenantes."
+     "Le rapport indique que GRI 2-29 est partiellement rapporté, mais le texte ne respecte pas cette information"
     ],
     "score": 4,
-    "feedback": "Supprimer la phrase 'L'université a identifié les groupes vulnérables ou si elle a mis en place une méthode d'identification des parties prenantes.' et remplacer par 'Ce rapport ne peut pas établir si l'université a identifié les groupes vulnérables ou si elle a mis en place une méthode d'identification des parties prenantes.'",
-    "faithfulness": 0.83,
-    "seconds": 232.5,
+    "feedback": "Supprimer la phrase 'GRI 2-29' et remplacer par 'Ce rapport ne peut pas établir les informations sur les fournisseurs de l'université, les groupes vulnérables ou la méthode d'identification des parties prenantes.'",
+    "faithfulness": 1.0,
+    "seconds": 213.2,
     "discarded_violations": [],
     "accepted": true
    }
@@ -108,19 +74,15 @@
  "evidence": [
   {
    "credit": "PA-3",
-   "text": "UC Berkeley has several ongoing bodies that allow students to democratically participate in institutional governance. These bodies enable students to have a voice in decision-making processes, especially around policies and initiatives that impact campus life, sustainability, and other areas of interest to the student "
+   "text": "Advisory Committees for Community Engagement – UC Berkeley also has various advisory committees and working groups that involve local community members, particularly in areas related to public health, sustainability, and social justice. These bodies provide community organizations with a forum to advise on university policies and initiatives that affect the local population."
   },
   {
    "credit": "PA-3",
-   "text": "The Systemwide Academic Senate and the Divisional Senates (one for each UC campus) provide the organizational framework that enables the faculty to exercise its right to participate in the University's governance. The faculty voice is formed through a deliberative process that includes the Standing Committees of the Se"
+   "text": "Associated Students of the University of California, Chancellor's Office, Student Environmental Resource Center, Zero Waste Coalition, Graduate Assembly, Office of Student Affairs, and the Housing and Dining division all appoint one student seat each on CACS and each have one vote."
   },
   {
    "credit": "PA-3",
-   "text": "Advisory Committees for Community Engagement – UC Berkeley also has various advisory committees and working groups that involve local community members, particularly in areas related to public health, sustainability, and social justice. These bodies provide community organizations with a forum to advise on university p"
-  },
-  {
-   "credit": "EN-5",
-   "text": "UC Berkeley has programs designed to support employee community service. One key initiative is the Cal Civic Engagement Program, which encourages and supports faculty and staff in contributing to the community through volunteerism and civic engagement. This program aligns with the university's mission to promote social"
+   "text": "Non-academic staff at UC Berkeley can participate in the governance of the institution via advisory bodies of Chancellor's Staff Advisory Committee (CSAC), The Chancellor's Cabinet and other Advisory Commmitees on diversity, sustainability, staff development, and campus services."
   },
   {
    "credit": "EN-5",
@@ -128,31 +90,15 @@
   },
   {
    "credit": "EN-5",
-   "text": "In the - academic year, the Public Service Center supported student leaders, who in turn engaged over students in service. Together, students contributed over hours of service in our local communities."
+   "text": "Sustainability Office, SERC, Government & Community Relations"
   },
   {
    "credit": "EN-6",
-   "text": "UC Berkeley's Chancellor's Community Partnership Fund (CCPF) employs a structured approach to assessing and improving community partnerships, ensuring reciprocity and mutual benefit through the following key practices:"
-  },
-  {
-   "credit": "EN-6",
-   "text": "Chancellor's Community Partnerships fund:"
-  },
-  {
-   "credit": "EN-6",
-   "text": "The UC Berkeley Chancellor's Community Partnership Fund (the Fund) invests in projects and programs that establish new or existing partnerships between UC Berkeley and Berkeley community entities that improve the quality of life for people who live or work in Berkeley. The Fund seeks partnerships and collaborations tha"
+   "text": "In {{ EN6_t3_0 }} -, through College Corps, a state partnership funded by California Volunteers, the UC Public Service Center placed undergraduate student Fellows in Climate or Food Justice community partnerships with different community organizations. Each Fellow served for hours over the course of the year, earning $ in living stipends and education awards. Partner organizations included: The Center (Oakland Unified School District's demonstration garden and test kitchen), GRID Alternatives, Frontline Catalysts, Dorothy Day House, Berkeley Meals on Wheels, the Berkeley Student Food Collective, and Climate Emergency Mobilization Task Force, among others."
   },
   {
    "credit": "PA-12",
-   "text": "UC Berkeley Human Resources Policies: UC Berkeley has a dedicated section on its Human Resources website that outlines policies related to employee rights, including fair treatment, grievance procedures, and work-life balance. The policies cover areas like anti-discrimination, whistleblower protection, and employee ben"
-  },
-  {
-   "credit": "PA-12",
-   "text": "Source: Employee & Labor Relations Department"
-  },
-  {
-   "credit": "PA-12",
-   "text": "Employees would have to meet requirements for Family and Medical Leave (FML) Policy."
+   "text": "UC Berkeley Human Resources Policies: UC Berkeley has a dedicated section on its Human Resources website that outlines policies related to employee rights, including fair treatment, grievance procedures, and work-life balance. The policies cover areas like anti-discrimination, whistleblower protection, and employee benefits, offering a transparent overview of employee rights and support. University of California Statement of Ethical Values and Standards of Ethical Conduct: This is a comprehensive code that applies to all UC campuses, including Berkeley. It highlights the university's commitment to integrity, respect, and accountability in its relations with employees. Union Representation an"
   }
  ]
 }
