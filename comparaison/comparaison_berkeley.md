@@ -2,7 +2,6 @@
 
 **Ancien** : rapport livré le 6 octobre (branche `main`), avec sa relecture. **Nouveau** : génération du 7 octobre (branche `rapport-qualite`) : 2 à 3 extraits par crédit, nouvelles consignes, contrôles de liste de scores et de formules creuses, puis la nouvelle relecture. Dans les deux versions, le paragraphe « Points forts et points à améliorer » est écrit par le code (identique) ; il n'est pas répété ici. Les deux versions sont rendues avec le code actuel (relecture appliquée, formules creuses retirées) : c'est ce que tu obtiendras selon ton choix. Juge et fidélité portent sur le texte du modèle, avant relecture.
 
-## En bref (avis de Claude Code, à vérifier par Wiem)
 
 Pour Berkeley, la nouvelle génération n'a pas amélioré le texte du modèle. **Enseignement** est entièrement générique
 (« L'université a mis en place des programmes pour… », aucun fait, aucun score), et le juge lui a pourtant donné 4/5
