@@ -2,7 +2,6 @@
 
 **Ancien** : rapport livré le 6 octobre (branche `main`), avec sa relecture. **Nouveau** : génération du 7 octobre (branche `rapport-qualite`) : 2 à 3 extraits par crédit, nouvelles consignes, contrôles de liste de scores et de formules creuses, puis la nouvelle relecture. Dans les deux versions, le paragraphe « Points forts et points à améliorer » est écrit par le code (identique) ; il n'est pas répété ici. Les deux versions sont rendues avec le code actuel (relecture appliquée, formules creuses retirées) : c'est ce que tu obtiendras selon ton choix. Juge et fidélité portent sur le texte du modèle, avant relecture.
 
-## En bref (avis de Claude Code, à vérifier par Wiem)
 
 Pour TU Dublin, la nouvelle génération est moins bonne que l'ancienne. **Enseignement** a échoué deux fois (passe 1
 et passe 2) : le rapport n'a que le texte de repli du code, une liste de scores, là où l'ancien décrivait chaque
