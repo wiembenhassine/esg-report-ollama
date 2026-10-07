@@ -15,14 +15,16 @@ Mêmes règles que les rapports :
     demandée — tonnes, MWh, m³… — que le jeu de données ne contient pas), puis par le modèle.
 """
 
+import os
 import re
+import subprocess
 import sys
 import unicodedata
 
 from jinja2 import Environment, StrictUndefined
 
 from esg import facts, guard, llm, markers, rag, sources
-from esg.config import INSTITUTIONS
+from esg.config import INSTITUTIONS, OUTPUTS, ROOT
 
 NOT_AVAILABLE = "Information non disponible dans les données STARS."
 JINJA = Environment(undefined=StrictUndefined, autoescape=False)
@@ -249,12 +251,124 @@ def show(question: str) -> None:
           + (f" | {r['seconds']:.0f} s" if r.get("seconds") else "") + "]")
 
 
+# ------------------------------------------------------------------ demande de rapport
+# « génère le rapport de Cork », « rapport TU Dublin », « régénère le rapport de Berkeley avec Ollama »…
+# Par défaut : le rapport VALIDÉ est re-rendu depuis le cache (sans LLM, comme --render-only).
+# Une vraie génération avec Ollama n'est lancée qu'après confirmation.
+REPORT_WORDS = {"rapport", "rapports", "report", "reports"}
+ACTION_WORDS = {"genere", "generer", "generez", "generes", "generation", "fais", "faire", "faites", "produis",
+                "produire", "produisez", "cree", "creer", "creez", "redige", "rediger", "redigez", "construis",
+                "construire", "donne", "donnez", "sors", "sortir", "lance", "lancer", "ouvre", "ouvrir", "montre",
+                "montrez", "affiche", "afficher", "veux", "voudrais", "prepare", "preparer"}
+REGEN_WORDS = {"regenere", "regenerer", "regenerez", "regeneration", "ollama", "llm", "relance", "relancer"}
+ALL_WORDS = {"trois", "3", "tous", "toutes"}
+NAMES = {"berkeley": "UC Berkeley", "cork": "University College Cork", "tudublin": "TU Dublin"}
+HOURS_PER_REPORT = "environ 1 h 30"      # mesuré le 5 octobre : 74 à 104 min par université sur CPU
+
+
+def report_request(question: str) -> dict | None:
+    """Demande de rapport, ou None pour une question normale sur les données.
+
+    Une question sur un thème (« Montre-moi le rapport de Cork sur l'eau ») reste une question normale."""
+    tokens = words(question)
+    if not tokens or not REPORT_WORDS & set(tokens):
+        return None
+    if not (tokens[0] in REPORT_WORDS or ACTION_WORDS & set(tokens) or REGEN_WORDS & set(tokens)):
+        return None
+    if credits_for(question):
+        return None
+    keys = [k for k, (exact, phrases) in ALIASES.items() if _matches(tokens, exact, phrases)]
+    if ALL_WORDS & set(tokens):
+        keys = list(INSTITUTIONS)
+    return {"keys": keys, "regenerate": bool(REGEN_WORDS & set(tokens))}
+
+
+def open_file(path) -> None:
+    try:
+        os.startfile(str(path))                       # Windows : ouvre avec l'application par défaut
+    except (AttributeError, OSError):
+        print(f"   (ouvre ce fichier toi-même : {path})")
+
+
+def _paths(key: str) -> dict:
+    folder = OUTPUTS / key
+    return {"docx": folder / f"rapport_{key}.docx", "pdf": folder / f"rapport_{key}.pdf"}
+
+
+def render_from_cache(keys: list[str], *, opener=open_file, log=print) -> list[dict]:
+    """Re-rend les rapports validés depuis le cache : aucun appel au LLM, quelques secondes par rapport."""
+    from esg import pipeline, render                 # import local : évite de charger le pipeline pour le chat
+    outs = []
+    for key in keys:
+        results = [r for s in pipeline.section_ids() if (r := pipeline.cached(key, s))]
+        log(f"\n== {INSTITUTIONS[key]['name']} : rapport validé, rendu depuis le cache ({len(results)} sections, "
+            "sans relancer le LLM)")
+        out = render.write(key, render.report_md(key, results),
+                           f"Rapport de durabilité — {INSTITUTIONS[key]['name']}", render.provenance(key, results))
+        log(f"   Word : {out['docx']}")
+        log(f"   PDF  : {out['pdf'] or 'non généré (Edge ou Chrome introuvable)'}")
+        if out["pdf"]:
+            opener(out["pdf"])
+        outs.append(out)
+    return outs
+
+
+def regenerate(keys: list[str], *, ask=input, run=subprocess.run, opener=open_file, log=print) -> int | None:
+    """Vraie génération avec Ollama, après avertissement et confirmation. Renvoie le code de sortie, ou None."""
+    every = sorted(keys) == sorted(INSTITUTIONS)
+    log("\nATTENTION : génération complète avec Ollama (llama3.1:8b, sur le processeur).")
+    log(f"   - Durée : {HOURS_PER_REPORT} par université ({len(keys)} université(s))"
+        + (", plus la synthèse comparative." if every else "."))
+    log("   - Avant de lancer : PC branché sur secteur, mise en veille désactivée.")
+    log("   - Le nouveau texte n'aura PAS été relu : les corrections de relecture existantes ne correspondront")
+    log("     plus (« ATTENTION relecture » à l'écran), et le rapport validé sera remplacé dans outputs/.")
+    log("   - Dans une copie de test (demo-esg), « git restore outputs data » remet tout comme sur GitHub.")
+    reply = ask("Lancer la génération ? (oui/non) > ").strip().lower()
+    if reply not in {"oui", "o", "yes", "y"}:
+        log("Génération annulée : rien n'a été modifié.")
+        return None
+    args = [sys.executable, "-u", "-m", "esg.pipeline", "--no-cache"] + ([] if every else [*keys, "--no-comparison"])
+    log("Génération lancée. Pour chaque section : tentatives, garde-fou, note du juge et fidélité s'affichent.\n")
+    code = run(args, cwd=ROOT).returncode
+    if code != 0:
+        log(f"La génération s'est arrêtée avec une erreur (code {code}). Les sections déjà finies sont dans le cache.")
+        return code
+    for key in keys:
+        p = _paths(key)
+        log(f"\n== {INSTITUTIONS[key]['name']}\n   Word : {p['docx']}\n   PDF  : {p['pdf']}")
+        if p["pdf"].exists():
+            opener(p["pdf"])
+    return code
+
+
+def report_command(req: dict, *, ask=input, run=subprocess.run, opener=open_file, log=print):
+    if not req["keys"]:
+        log("Je n'ai pas reconnu l'université. Rapports disponibles : "
+            + ", ".join(NAMES.values()) + ", ou « les trois universités ».")
+        return None
+    if req["regenerate"]:
+        return regenerate(req["keys"], ask=ask, run=run, opener=opener, log=log)
+    return render_from_cache(req["keys"], opener=opener, log=log)
+
+
+def handle(question: str, *, ask=input) -> None:
+    """Point d'entrée d'une ligne tapée : demande de rapport, sinon question sur les données (comme avant)."""
+    req = report_request(question)
+    if req is not None:
+        report_command(req, ask=ask)
+    else:
+        show(question)
+
+
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
+    if not sys.stdin.isatty():                       # texte reçu par un tube : lu en UTF-8 (accents)
+        sys.stdin.reconfigure(encoding="utf-8")
     if len(sys.argv) > 1:
-        show(" ".join(sys.argv[1:]))
+        handle(" ".join(sys.argv[1:]))
         return
     print("Assistant ESG (données STARS : Berkeley, Cork, TU Dublin). Tapez « quitter » pour sortir.")
+    print("Vous pouvez aussi demander un rapport : « génère le rapport de Cork », « rapport TU Dublin »…")
     while True:
         try:
             q = input("\nVotre question > ").strip()
@@ -263,7 +377,7 @@ def main() -> None:
         if q.lower() in {"quitter", "exit", "quit", "q"}:
             break
         if q:
-            show(q)
+            handle(q)
 
 
 if __name__ == "__main__":
