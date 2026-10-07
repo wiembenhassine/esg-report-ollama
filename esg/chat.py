@@ -318,7 +318,7 @@ def regenerate(keys: list[str], *, ask=input, run=subprocess.run, opener=open_fi
     every = sorted(keys) == sorted(INSTITUTIONS)
     log("\nATTENTION : génération complète avec Ollama (llama3.1:8b, sur le processeur).")
     log(f"   - Durée : {HOURS_PER_REPORT} par université ({len(keys)} université(s))"
-        + (", plus la synthèse comparative." if every else "."))
+        + ", en deux passes (la 2e refait les sections restées en texte de repli).")
     log("   - Avant de lancer : PC branché sur secteur, mise en veille désactivée.")
     log("   - Le nouveau texte n'aura PAS été relu : les corrections de relecture existantes ne correspondront")
     log("     plus (« ATTENTION relecture » à l'écran), et le rapport validé sera remplacé dans outputs/.")
@@ -327,12 +327,25 @@ def regenerate(keys: list[str], *, ask=input, run=subprocess.run, opener=open_fi
     if reply not in {"oui", "o", "yes", "y"}:
         log("Génération annulée : rien n'a été modifié.")
         return None
-    args = [sys.executable, "-u", "-m", "esg.pipeline", "--no-cache"] + ([] if every else [*keys, "--no-comparison"])
-    log("Génération lancée. Pour chaque section : tentatives, garde-fou, note du juge et fidélité s'affichent.\n")
-    code = run(args, cwd=ROOT).returncode
-    if code != 0:
-        log(f"La génération s'est arrêtée avec une erreur (code {code}). Les sections déjà finies sont dans le cache.")
-        return code
+    # Passe 1 : tout régénérer (--no-cache) ; passe 2 : seulement les sections restées en texte de repli.
+    stamp = __import__("datetime").datetime.now().strftime("%Y%m%d-%H%M")
+    base = [sys.executable, "-u", "-m", "esg.pipeline", *keys, "--no-comparison"]
+    awake = getattr(getattr(__import__("ctypes"), "windll", None), "kernel32", None)
+    if awake:
+        awake.SetThreadExecutionState(0x80000000 | 0x00000001)     # PC éveillé pendant la génération
+    try:
+        for passe, extra in ((1, ["--no-cache"]), (2, [])):
+            journal = OUTPUTS / "logs" / f"generation_{stamp}_passe{passe}.log"
+            journal.parent.mkdir(parents=True, exist_ok=True)
+            log(f"Passe {passe} lancée — journal : {journal}\n")
+            code = run(base + extra + ["--log", str(journal)], cwd=ROOT).returncode
+            if code != 0:
+                log(f"La génération s'est arrêtée avec une erreur (code {code}). "
+                    "Les sections déjà finies sont dans le cache.")
+                return code
+    finally:
+        if awake:
+            awake.SetThreadExecutionState(0x80000000)
     for key in keys:
         p = _paths(key)
         log(f"\n== {INSTITUTIONS[key]['name']}\n   Word : {p['docx']}\n   PDF  : {p['pdf']}")

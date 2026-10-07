@@ -87,11 +87,14 @@ def test_regeneration_runs_the_pipeline_with_ollama_after_yes(tmp_path):
     req = chat.report_request("régénère le rapport de Cork avec Ollama")
     code = chat.report_command(req, ask=lambda prompt: "oui", run=fake_run, opener=lambda p: None, log=lambda s: None)
     assert code == 0
-    assert calls[0][1:] == ["-u", "-m", "esg.pipeline", "--no-cache", "cork", "--no-comparison"]
+    assert len(calls) == 2                                              # passe 1, puis passe 2 (replis)
+    assert calls[0][1:7] == ["-u", "-m", "esg.pipeline", "cork", "--no-comparison", "--no-cache"]
+    assert "--no-cache" not in calls[1] and calls[0][-2] == calls[1][-2] == "--log"
+    assert "outputs" in calls[0][-1] and calls[0][-1].endswith("passe1.log") and calls[1][-1].endswith("passe2.log")
     every = []
     chat.report_command(chat.report_request("régénère les rapports des trois universités"), ask=lambda p: "oui",
                         run=lambda a, cwd=None: every.append(a) or Done(), opener=lambda p: None, log=lambda s: None)
-    assert "--no-comparison" not in every[0] and not set(INSTITUTIONS) & set(every[0])   # les 3 + la synthèse
+    assert set(INSTITUTIONS) <= set(every[0]) and "--no-comparison" in every[0]       # les 3, sans la synthèse
 
 
 def test_handle_routes_report_requests_and_normal_questions(monkeypatch):
