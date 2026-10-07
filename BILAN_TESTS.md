@@ -284,3 +284,102 @@ la section 4 bis tient toujours : le juge valide, la relecture corrige le sens.
 - Rendu sans LLM : aucun passage introuvable.
 - `esg.verify_univ 2026` : **aucun écart** (45 sur 45).
 - Word, PDF et HTML régénérés.
+
+## 11. Qualité du texte : nouvelle génération des trois rapports (7 octobre 2026)
+
+**Demande de Wiem.** Rendre le texte des rapports plus concret (moins de listes de scores et de formules
+creuses), puis régénérer les trois universités le même jour. Pour chaque université : comparer l'ancien et le
+nouveau texte, et refaire la relecture avec la source STARS de chaque correction. Le soir, Wiem choisit
+l'ancien ou le nouveau rapport, université par université. Si une génération échoue ou n'est pas meilleure,
+l'ancien est conservé.
+
+**Langue.** Les rapports restent en **français**. Une version anglaise est une perspective (section
+« Perspectives » ci-dessous), pas un livrable de ce stage.
+
+**Ce qui a changé (branche `rapport-qualite`, fusionnée dans `main`)**
+
+| Étape | Changement | LLM ? |
+|---|---|---|
+| a) | Paragraphe « Points forts et points à améliorer » **écrit par le code** à partir des scores : au moins 75 % des points = point fort ; moins de 40 % = à améliorer ; entre les deux = partiellement atteint. Annexe de validation plus claire (« deux essais au plus », codes GRI cités contre publications GRI avec données). Style : « l'université » en minuscule, formules creuses retirées au rendu (`esg/style.py`). | non |
+| b) | Rédacteur : 2 à 3 extraits STARS par crédit (au lieu des extraits les plus proches, tous crédits mélangés), questions du formulaire STARS et lignes d'URL retirées des extraits, contexte de 6 144 jetons. Consignes : une ou deux phrases concrètes par crédit, **pas de liste de scores**, pas de formule promotionnelle. Contrôles : une section qui n'est qu'une liste de scores est renvoyée au modèle (`judge.score_list`) ; une phrase creuse est retirée (`guard`). | — |
+| c) | Génération des 3 universités, en deux passes : passe 1 complète (`--no-cache`), passe 2 pour les sections restées en texte de repli. | oui |
+| d) | Pour chaque université : document de comparaison `comparaison/comparaison_<université>.md` et nouvelle relecture `relecture/<université>.yaml`. | non |
+| — | Assistant : « régénère les rapports… » lance les deux passes, avec un journal par passe dans `outputs/logs/` ; une faute de frappe sur le verbe (« genenre le rapport de dublin », vue par Wiem) donne le rendu depuis le cache, jamais Ollama. | non |
+
+**Génération (passe 1 : 8 h 44 → 13 h 58, 313,6 min)**
+
+| Université | Durée | Validées | À relire | Repli | Phrases retirées par le code | Essais refusés (garde-fou / juge) |
+|---|---|---|---|---|---|---|
+| University College Cork | 128 min | 6 | 2 (gouvernance, enseignement) | 0 | 7 | 2 / 3 |
+| UC Berkeley | 89 min | 7 | 1 (social) | 0 | 8 | 1 / 1 |
+| TU Dublin | 90 min | 7 | 0 | 1 (enseignement) | 5 | 2 / 2 |
+
+Les nouveaux contrôles ont servi : la liste de scores a été renvoyée une fois (Berkeley, social) ; trois essais
+ont été refusés parce que le modèle citait des codes GRI dans la section « hors GRI » (enseignement).
+
+**Passe 2.** Elle s'est arrêtée à 14 h 11, pendant le rendu PDF de Berkeley : Edge sans fenêtre n'a pas répondu
+en 180 s. Cause : le profil Edge réservé au pipeline (`data/processed/edge_profile`) était bloqué (Edge rendait
+la main sans écrire de PDF) ; avec un profil neuf, le PDF sort en 5 s. Le profil bloqué a été mis de côté et la
+passe 2 relancée pour TU Dublin à 14 h 22 (27,6 min) : l'enseignement de TU Dublin est **de nouveau en repli**
+(juge 2/5 et fidélité 50 %, puis codes GRI cités). Le rapport contient donc pour cette section le texte de repli
+du code (liste des scores).
+
+**Comparaison ancien / nouveau** (détail section par section dans `comparaison/`)
+
+| Université | Corrections de relecture (ancien → nouveau) | Nouveau meilleur | Ancien meilleur | Recommandation (Claude Code, à décider par Wiem) |
+|---|---|---|---|---|
+| University College Cork | 27 → 40 | social, enseignement (nettement) ; stratégie, environnement (un peu) | thèmes matériels, gouvernance | **nouveau** |
+| UC Berkeley | 35 → 34 | parties prenantes (un peu) | environnement, social, enseignement | **ancien** |
+| TU Dublin | 22 → 24 (+ enseignement en repli) | environnement (un peu) | thèmes matériels, gouvernance, parties prenantes, social, enseignement | **ancien** |
+
+Le nouveau texte de Berkeley et de TU Dublin n'est exact qu'après une relecture qui en remplace une grande partie ;
+pour Cork, le gain sur social et enseignement est net.
+
+**Constats (limites à retenir)**
+
+1. **Plus d'extraits ne suffit pas.** Avec `llama3.1:8b` sur processeur, le texte n'est meilleur que pour Cork.
+2. **Extraits mal choisis.** Pour les thèmes matériels de Cork, la recherche a donné au modèle trois fois la phrase
+   d'introduction de la liste des objectifs PA-2, et aucun objectif : le modèle a inventé les objectifs. À TU
+   Dublin, des lignes « This credit was marked as Not Applicable » et « Total adjusted… » ont aussi été données
+   comme extraits.
+3. **Le juge ne voit pas un texte générique.** L'enseignement de Berkeley, sans un seul fait ni score
+   (« L'université a mis en place des programmes pour… »), a reçu 4/5 et 100 % de fidélité ; les « thèmes
+   matériels déclarés » inventés de TU Dublin ont reçu 4/5. Une phrase vague n'est pas une affirmation fausse.
+4. **Le contrôle des formules creuses** repose sur une liste fixe de formules ; il ne reconnaît pas les
+   tournures génériques de Berkeley.
+5. **Nouveaux types d'erreurs** : pourcentages inversés (Cork, 21 % et 54 % des appels d'offres) ; une année
+   devenue une durée (« formation de 2024 heures ») ; faits rangés sous le mauvais titre et le mauvais code GRI
+   (Berkeley et TU Dublin, social) ; « thèmes matériels déclarés » inventés (TU Dublin).
+6. **La relecture reste indispensable** : 98 corrections au total, chacune avec sa ligne STARS. La validation
+   automatique (règle « aucun chiffre tapé à la main ») a aussi bloqué une correction qui contenait « bâtiment
+   neuf » (« neuf » est lu comme un nombre en lettres) : corrigé en « nouveau ».
+
+**Perspectives**
+- **Rapport en anglais** : le modèle écrit mieux en anglais et les sources STARS sont en anglais (moins
+  d'erreurs de traduction : « Académie du Sénat », « committment »). Il faudrait traduire les consignes, les
+  libellés des marqueurs et les règles du garde-fou, puis refaire la relecture.
+- Choisir les extraits par crédit en écartant les lignes d'en-tête de liste et les lignes « Not Applicable ».
+- Donner au juge une règle « une phrase sans fait précis est une violation ».
+- Un modèle plus grand ou un GPU (le 8B sur CPU écrit 2 à 4 jetons par seconde).
+
+**Choix par université (Wiem, le soir du 7 octobre).** Après la fusion, `main` contient le **nouveau** texte des
+trois universités, avec la nouvelle relecture. L'ancien texte et l'ancienne relecture restent dans l'historique
+(commit `9992123`). Pour garder l'ancien rapport d'une université, par exemple Berkeley :
+
+```
+git checkout 9992123 -- outputs/cache/berkeley relecture/berkeley.yaml
+.venv\Scripts\python -m esg.pipeline --render-only
+```
+
+Les tests ont été lancés aussi dans cette configuration (ancien Berkeley, ancien TU Dublin, nouveau Cork) : ils
+passent tous.
+
+**Contrôles (sur `main`, après la fusion)**
+- `pytest -q` : **179 tests passent**, dont 4 nouveaux cas pour l'assistant (faute de frappe sur le verbe ;
+  questions sur le « genre » qui restent des questions normales).
+- Rendu sans LLM : aucun passage de relecture introuvable ; Word, PDF et HTML régénérés pour les 3 rapports et la
+  synthèse comparative.
+- `esg.verify_univ 2026` : **aucun écart** (45 sur 45, sortie dans `outputs/verification_chiffres.md`).
+- Assistant : « génère le rapport de Cork » et « genenre le rapport de dublin » rendent le rapport depuis le
+  cache (sans Ollama) et ouvrent le PDF.
+- Rien n'a été envoyé sur GitHub : `main` local est en avance sur `origin/main`, en attente de l'accord de Wiem.

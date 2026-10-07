@@ -1,6 +1,6 @@
 Graine 2026 (rejouer : python -m esg.verify_univ 2026)
 
-## University of California, Berkeley — 88 chiffres de score, 10 nombres de texte
+## University of California, Berkeley — 88 chiffres de score, 14 nombres de texte
 
 | # | Chiffre | Élément | Valeur CSV | Dans le texte | Identique |
 |---|---|---|---|---|---|
@@ -17,13 +17,13 @@ Graine 2026 (rejouer : python -m esg.verify_univ 2026)
 
 | # | Nombre | Source | Ligne STARS (extrait) | Dans le texte | Identique |
 |---|---|---|---|---|---|
-| 1 | 42,8 % | PA-13, ligne 2 | …its rate for staff members is currently 42.8%. Hence, to qualify … | oui | OUI |
-| 2 | 2024 | AC-1, ligne 10 | … UC Berkeley course inventory from 2021-2024 filtering for items… | oui | OUI |
-| 3 | 42,8 % | PA-13, ligne 2 | …least $22.62/hr, when incorporating the 42.8% CBR.… | oui | OUI |
-| 4 | 2021 | PA-9, ligne 1 | …receiving Pell Grants for academic year 2021-22 (most recent yea… | oui | OUI |
-| 5 | 2045 | PA-2, ligne 9 | …ducing all emissions by at least 90% by 2045 and eliminating the… | oui | OUI |
+| 1 | 2022 | AC-6, ligne 1 | …of the entire research inventory for FY 2022 to FY 2024, the fel… | oui | OUI |
+| 2 | 5 % | OP-4, ligne 1 | …icides) with the exception of less than 5% of the land where i… | oui | OUI |
+| 3 | 2024 | AC-6, ligne 1 | …re research inventory for FY 2022 to FY 2024, the fellow then re… | oui | OUI |
+| 4 | 2021 | AC-1, ligne 10 | …via a UC Berkeley course inventory from 2021-2024 filtering for … | oui | OUI |
+| 5 | 2023 | PA-13, ligne 1 | …Last analysis conducted 7/31/2023. Population = PPSM … | oui | OUI |
 
-## University College Cork — 88 chiffres de score, 18 nombres de texte
+## University College Cork — 88 chiffres de score, 27 nombres de texte
 
 | # | Chiffre | Élément | Valeur CSV | Dans le texte | Identique |
 |---|---|---|---|---|---|
@@ -40,13 +40,13 @@ Graine 2026 (rejouer : python -m esg.verify_univ 2026)
 
 | # | Nombre | Source | Ligne STARS (extrait) | Dans le texte | Identique |
 |---|---|---|---|---|---|
-| 1 | 2040 | PA-2, ligne 13 | …hieving net zero total GHG emissions by 2040.… | oui | OUI |
-| 2 | 21 % | OP-9, ligne 1 | …included sustainability considerations. 21% of tenders included… | oui | OUI |
-| 3 | 5 % | OP-9, ligne 2 | …5% would be the averag… | oui | OUI |
-| 4 | 2028 | PA-2, ligne 1 | …inability and Climate Action Plan (2023-2028) builds on the succ… | oui | OUI |
-| 5 | 2040 | PA-1, ligne 3 | … by 2030 and a carbon neutral campus by 2040.… | oui | OUI |
+| 1 | 2024 | OP-9, ligne 1 | …39 Tenders were completed in 2024 and 29 of these inc… | oui | OUI |
+| 2 | 92 % | PA-10, ligne 4 | …ow income students at UCC this drops to 92%, 8% drop out. See l… | oui | OUI |
+| 3 | 95 % | PA-10, ligne 4 | …thodology.. UCC's completion rate is at 95%, in general terms. … | oui | OUI |
+| 4 | 2025 | PA-8, ligne 1 | …rom 31 December 2024 versus 31 December 2025.… | oui | OUI |
+| 5 | 2025 | PA-6, ligne 21 | …nd Inclusion Framework and Action Plan, 2025-2028 - recognises t… | oui | OUI |
 
-## Technological University Dublin — 82 chiffres de score, 20 nombres de texte
+## Technological University Dublin — 82 chiffres de score, 18 nombres de texte
 
 | # | Chiffre | Élément | Valeur CSV | Dans le texte | Identique |
 |---|---|---|---|---|---|
@@ -63,10 +63,10 @@ Graine 2026 (rejouer : python -m esg.verify_univ 2026)
 
 | # | Nombre | Source | Ligne STARS (extrait) | Dans le texte | Identique |
 |---|---|---|---|---|---|
-| 1 | 2018 | PA-3, ligne 1 | …The Technological Universities Act 2018 specifies the manda… | oui | OUI |
-| 2 | 51 % | PA-2, ligne 1 | …g Ireland's greenhouse gas emissions by 51% by 2030 and becomin… | oui | OUI |
-| 3 | 2020 | PA-11, ligne 1 | …moke free zone on campus from September 2020 (Ref 1, Ref 2).… | oui | OUI |
+| 1 | 2024 | OP-2, ligne 2 | …Existing buildings built from 2019 to 2024 with a Building Ene… | oui | OUI |
+| 2 | 45 % | PA-2, ligne 1 | …reduction in GHG emissions by 2028, and 45% increase in energy … | oui | OUI |
+| 3 | 2024 | PA-2, ligne 1 | …1. TU Dublin Strategic Plan 2024 – 2028 (Ref 1) incl… | oui | OUI |
 | 4 | 40 % | PA-2, ligne 2 | …e 3, achieving gender balance (at least 40% female and 40% male… | oui | OUI |
-| 5 | 2025 | PA-3, ligne 2 | …As of 20 Feb 2025, O'Toole, Shauna (S… | oui | OUI |
+| 5 | 46,5 % | PA-2, ligne 1 | … page 9, our campus related targets are 46.5% reduction in GHG em… | oui | OUI |
 
 Résultat : aucun écart.
