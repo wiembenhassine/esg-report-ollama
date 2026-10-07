@@ -386,3 +386,7 @@ restent consultables dans l'historique (commit `017a9e6`) et dans `comparaison/`
   université ; sortie dans `outputs/verification_chiffres.md`).
 - Assistant : « génère le rapport de Cork » et « genenre le rapport de dublin » rendent le rapport depuis le
   cache (sans Ollama) et ouvrent le PDF.
+- **Envoyé sur GitHub le 7 octobre** (`main`, commit `e87e9a1`). Clone neuf depuis GitHub : même commit, 135
+  fichiers suivis, `.env` et `stage/` absents ; dans ce clone, **179 tests passent** et `esg.verify_univ 2026`
+  donne **aucun écart** ; les relectures comptent bien 40 (Cork), 35 (Berkeley) et 22 (TU Dublin) corrections.
+  Les branches de travail `rapport-qualite` et `chat-rapport` restent locales (déjà fusionnées dans `main`).
