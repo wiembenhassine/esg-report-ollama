@@ -69,8 +69,8 @@ Conclusion : le juge 8B ne suffit pas à garantir le sens ; les garanties solide
 ## 4 bis. Fiabilité du juge — APRÈS corrections (mêmes 8 sections de Dublin, 5 octobre au soir)
 
 Même méthode : relecture à la main de chaque phrase contre les textes STARS de TU Dublin.
-Régénération complète (`--no-cache`) avec le code de `66b99dc`, puis la section en repli rejouée
-avec `7e6d242`.
+Régénération complète (`--no-cache`) avec le code de `335e42c`, puis la section en repli rejouée
+avec `e67f077`.
 
 | Section | Décision | Vraies erreurs (relecture) | Vues par le juge | Fausses alertes |
 |---|---|---|---|---|
@@ -100,31 +100,31 @@ avec `7e6d242`.
   - les restes de renvoi « (Ref, Ref) » ;
   - une phrase ou une liste reste orpheline après un retrait.
 
-  Le premier défaut s'est révélé massif : 27 phrases dans les 3 rapports, par exemple « 2,5 points STARS sur 3 au crédit PA-12, niveau élevé points STARS sur 2,5 points STARS sur 3… ». Il a donc été traité comme un **bug bloquant** et corrigé par le code, avec les restes « (Ref, Ref) » (`b4ac34e`, voir section 5). Le tableau ci-dessus décrit les textes avant ce nettoyage. Les deux autres défauts sont notés en section 6.
+  Le premier défaut s'est révélé massif : 27 phrases dans les 3 rapports, par exemple « 2,5 points STARS sur 3 au crédit PA-12, niveau élevé points STARS sur 2,5 points STARS sur 3… ». Il a donc été traité comme un **bug bloquant** et corrigé par le code, avec les restes « (Ref, Ref) » (`b477185`, voir section 5). Le tableau ci-dessus décrit les textes avant ce nettoyage. Les deux autres défauts sont notés en section 6.
 
 ## 5. Corrections approuvées (« oui » du 5 octobre 2026)
 
 | # | Correction | État | Commit | Tests |
 |---|---|---|---|---|
 | 0 | Annuler les sorties modifiées par les tests (`git checkout -- outputs`, `git clean -f outputs`) | fait (sections du test 3 sauvegardées hors du dépôt pour la comparaison) | — | — |
-| 1 | **Marqueurs complets** (`{{ EN5 }}` → « 4,5 points STARS sur 8 au crédit EN-5, niveau intermédiaire ») + contrôle du contexte (après « d'ici/environ/inférieur à », avant « % » ou « étudiants », sans verbe de score, niveau contradictoire) + identifiants techniques refusés | fait | `05dd03f` | 100 passent (5 cas réels dans `tests/test_markers.py`) |
-| 2 | **Années et % du texte STARS** extraits par le code (639 faits avec source crédit + ligne) et cités par marqueur ; phrases vidées (« d'ici . », « de MWh ») retirées ; « (Ref ) » retirés ; correction de la lecture des nombres à 4 chiffres (« 2028 » lu « 202 » + « 8 ») | fait | `5ecc1ef` | 106 passent (`tests/test_text_numbers.py`) |
-| 3 | **Chat** : mots entiers sans accents (9 faux positifs + « emissions » sans accent + alias « tud » trouvé dans « étudiants ») ; biodiversité → IL-24 + OP-4 ; donnée absente dite par le code ; phrase « score de crédit = note Platinum » retirée | fait | `9cafd29` | 120 passent (`tests/test_chat.py`) |
-| 4 | **Biodiversité dans les correspondances** : GRI 101 (2024) vérifiée sur globalreporting.org (remplace GRI 304 depuis le 1er janvier 2026) ; IL-24 → 101-4, 101-5, ESRS E4 ; OP-4 → 101-2 ; textes des crédits IL indexés (1 312 passages) ; IL-24 de TU Dublin marqué « Not Applicable » sur sa page STARS → « Non rapporté » | fait | `1c62a37` | 122 passent |
-| 5 | **Lexique de 24 sigles** + règle de matérialité, donnés au rédacteur et au juge ; mauvais développés (« Services de l'État (SEC) ») et « a identifié les thèmes matériels » retirés par le code ; le juge lit les extraits avec leurs vrais nombres | fait | `88667de` | 125 passent (`tests/test_glossary.py`) |
-| 6 | **Git** : un commit par correction ; envoi sur GitHub **à la fin seulement**, puis clone de vérification | fait : envoyé le 5 octobre ; clone neuf depuis GitHub = même HEAD, 120 fichiers suivis, `.env` absent | `4496377` | 132 passent dans le clone ; `esg.verify_univ 2026` : aucun écart |
+| 1 | **Marqueurs complets** (`{{ EN5 }}` → « 4,5 points STARS sur 8 au crédit EN-5, niveau intermédiaire ») + contrôle du contexte (après « d'ici/environ/inférieur à », avant « % » ou « étudiants », sans verbe de score, niveau contradictoire) + identifiants techniques refusés | fait | `918f8d8` | 100 passent (5 cas réels dans `tests/test_markers.py`) |
+| 2 | **Années et % du texte STARS** extraits par le code (639 faits avec source crédit + ligne) et cités par marqueur ; phrases vidées (« d'ici . », « de MWh ») retirées ; « (Ref ) » retirés ; correction de la lecture des nombres à 4 chiffres (« 2028 » lu « 202 » + « 8 ») | fait | `05d6d8b` | 106 passent (`tests/test_text_numbers.py`) |
+| 3 | **Chat** : mots entiers sans accents (9 faux positifs + « emissions » sans accent + alias « tud » trouvé dans « étudiants ») ; biodiversité → IL-24 + OP-4 ; donnée absente dite par le code ; phrase « score de crédit = note Platinum » retirée | fait | `be60ea3` | 120 passent (`tests/test_chat.py`) |
+| 4 | **Biodiversité dans les correspondances** : GRI 101 (2024) vérifiée sur globalreporting.org (remplace GRI 304 depuis le 1er janvier 2026) ; IL-24 → 101-4, 101-5, ESRS E4 ; OP-4 → 101-2 ; textes des crédits IL indexés (1 312 passages) ; IL-24 de TU Dublin marqué « Not Applicable » sur sa page STARS → « Non rapporté » | fait | `6d40745` | 122 passent |
+| 5 | **Lexique de 24 sigles** + règle de matérialité, donnés au rédacteur et au juge ; mauvais développés (« Services de l'État (SEC) ») et « a identifié les thèmes matériels » retirés par le code ; le juge lit les extraits avec leurs vrais nombres | fait | `e3d5b92` | 125 passent (`tests/test_glossary.py`) |
+| 6 | **Git** : un commit par correction ; envoi sur GitHub **à la fin seulement**, puis clone de vérification | fait : envoyé le 5 octobre ; clone neuf depuis GitHub = même HEAD, 120 fichiers suivis, `.env` absent | `2274987` | 132 passent dans le clone ; `esg.verify_univ 2026` : aucun écart |
 
 Ajustements faits pendant la régénération de Dublin. Le garde-fou rejetait à tort des textes
-corrects ; chaque cas réel est couvert par un test. Le code est **gelé** après `7e6d242`, avec une seule exception pour un bug
-bloquant (`b4ac34e`).
+corrects ; chaque cas réel est couvert par un test. Le code est **gelé** après `e67f077`, avec une seule exception pour un bug
+bloquant (`b477185`).
 
 | Ajustement | Cas réel | Commit |
 |---|---|---|
-| « % » écrit après un marqueur qui contient déjà « % » : le doublon est retiré, la phrase est gardée ; années acceptées après « plan stratégique » | thèmes matériels rejetés à tort | `ce8623e` |
-| Années acceptées dans un nom de loi (« Act 2018 ») et après un mois (« février 2025 ») ; phrases identiques retirées | 7 phrases correctes retirées en gouvernance | `66b99dc` |
-| Formulation interdite (« n'a pas fourni… ») : seule la phrase est retirée, plus tout le texte | section entière rejetée pour une phrase | `7e6d242` |
-| Outil `esg.verify` : le pilier « ENV » était lu comme un crédit « EN-V » (chiffre déclaré absent à tort) | contrôle des 10 chiffres | `65e4773` |
-| **Bug bloquant** : mots répétés autour d'un marqueur complet, retirés du texte rendu (suppression seule). Appliqué au rendu, donc les sections en cache sont corrigées sans relancer le LLM ; « (Ref, Ref) » est aussi retiré | 27 phrases illisibles dans les 3 rapports (Cork : toute la liste Environnement) | `b4ac34e` |
+| « % » écrit après un marqueur qui contient déjà « % » : le doublon est retiré, la phrase est gardée ; années acceptées après « plan stratégique » | thèmes matériels rejetés à tort | `0955d6e` |
+| Années acceptées dans un nom de loi (« Act 2018 ») et après un mois (« février 2025 ») ; phrases identiques retirées | 7 phrases correctes retirées en gouvernance | `335e42c` |
+| Formulation interdite (« n'a pas fourni… ») : seule la phrase est retirée, plus tout le texte | section entière rejetée pour une phrase | `e67f077` |
+| Outil `esg.verify` : le pilier « ENV » était lu comme un crédit « EN-V » (chiffre déclaré absent à tort) | contrôle des 10 chiffres | `24a4da0` |
+| **Bug bloquant** : mots répétés autour d'un marqueur complet, retirés du texte rendu (suppression seule). Appliqué au rendu, donc les sections en cache sont corrigées sans relancer le LLM ; « (Ref, Ref) » est aussi retiré | 27 phrases illisibles dans les 3 rapports (Cork : toute la liste Environnement) | `b477185` |
 
 
 ## 6. Notés, non appliqués
@@ -371,10 +371,10 @@ pour Cork, le gain sur social et enseignement est net.
 | TU Dublin | **ancienne** (6 octobre) | génération du 5 octobre (thèmes matériels rejoués) | 8 / 8 | 22 corrections dans 7 sections |
 | **Total** | | | **22 / 24** | **97 corrections** |
 
-L'ancien texte et l'ancienne relecture de Berkeley et de TU Dublin ont été repris du commit `9992123`
-(`git checkout 9992123 -- outputs/cache/<université> relecture/<université>.yaml`), puis les rapports ont été
+L'ancien texte et l'ancienne relecture de Berkeley et de TU Dublin ont été repris du commit `8d65bfd`
+(`git checkout 8d65bfd -- outputs/cache/<université> relecture/<université>.yaml`), puis les rapports ont été
 re-rendus sans LLM. Les nouveaux textes de Berkeley et de TU Dublin, et leur relecture (34 et 24 corrections),
-restent consultables dans l'historique (commit `017a9e6`) et dans `comparaison/`.
+restent consultables dans l'historique (commit `35acd02`) et dans `comparaison/`.
 
 **Chiffres finaux (sur `main`, après le choix)**
 - `pytest -q` : **179 tests passent**, dont 4 nouveaux cas pour l'assistant (faute de frappe sur le verbe ;
@@ -386,7 +386,10 @@ restent consultables dans l'historique (commit `017a9e6`) et dans `comparaison/`
   université ; sortie dans `outputs/verification_chiffres.md`).
 - Assistant : « génère le rapport de Cork » et « genenre le rapport de dublin » rendent le rapport depuis le
   cache (sans Ollama) et ouvrent le PDF.
-- **Envoyé sur GitHub le 7 octobre** (`main`, commit `e87e9a1`). Clone neuf depuis GitHub : même commit, 135
+- **Envoyé sur GitHub le 7 octobre** (`main`, commit `7b38d31`). Clone neuf depuis GitHub : même commit, 135
   fichiers suivis, `.env` et `stage/` absents ; dans ce clone, **179 tests passent** et `esg.verify_univ 2026`
   donne **aucun écart** ; les relectures comptent bien 40 (Cork), 35 (Berkeley) et 22 (TU Dublin) corrections.
   Les branches de travail `rapport-qualite` et `chat-rapport` restent locales (déjà fusionnées dans `main`).
+- **Historique Git réécrit le 7 octobre au soir** : la ligne de co-auteur ajoutée à la fin des messages de
+  commit a été retirée (contenu des fichiers identique, commit par commit). Les numéros de commit de ce document
+  sont les nouveaux.
