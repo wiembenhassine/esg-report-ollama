@@ -42,6 +42,7 @@ CATEGORY_CODES = ("AC", "EN", "OP", "PA", "IL", "PRE")   # repris des scrapers d
 # Ollama — tout tourne en local, aucune API payante.
 OLLAMA_URL = "http://localhost:11434"
 GEN_MODEL = "llama3.1:8b"
+NUM_CTX = 6144          # 2 à 3 extraits par crédit ; à 4096, Social et Stratégie touchaient déjà la limite
 JUDGE_MODEL = "llama3.1:8b"
 EMBED_MODEL = "nomic-embed-text"
 
