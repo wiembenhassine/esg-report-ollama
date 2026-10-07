@@ -2,7 +2,6 @@
 
 **Ancien** : rapport livré le 6 octobre (branche `main`), avec sa relecture. **Nouveau** : génération du 7 octobre (branche `rapport-qualite`) : 2 à 3 extraits par crédit, nouvelles consignes, contrôles de liste de scores et de formules creuses, puis la nouvelle relecture. Dans les deux versions, le paragraphe « Points forts et points à améliorer » est écrit par le code (identique) ; il n'est pas répété ici. Les deux versions sont rendues avec le code actuel (relecture appliquée, formules creuses retirées) : c'est ce que tu obtiendras selon ton choix. Juge et fidélité portent sur le texte du modèle, avant relecture.
 
-## En bref (avis de Claude Code, à vérifier par Wiem)
 
 Le nouveau texte est nettement meilleur pour **Performance sociale** (l'ancien renvoyait sept fois au « rapport STARS »
 sans dire quoi ; le nouveau donne un fait par crédit) et pour **Enseignement** (l'ancien était une simple liste de
