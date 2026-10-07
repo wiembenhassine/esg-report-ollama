@@ -148,14 +148,7 @@ interrompt la génération (le cache permet de reprendre).
   dotation).
 - **Lenteur** : environ 4 heures pour tout régénérer sur un processeur sans GPU.
 
-## Vérifier la non-redondance avec le dépôt de Hakim
 
-Comparaison faite le 4 octobre 2026 (empreinte SHA-256 de chaque fichier, puis lignes de code
-communes) : les **30 fichiers identiques** sont tous des **données** de Hakim placées dans
-`data/raw/` ; aucun fichier de code de Hakim n'est copié. Seul `esg/fetch.py` partage des lignes
-avec ses scrapers (détection du mur de connexion, cache, encodage) : il est explicitement
-crédité et n'a pas servi aux résultats. Tout le reste du code (`esg/`, `mapping/`, `tests/`) est
-propre à ce dépôt.
 
 ## Extension facultative : valeurs détaillées STARS (compte AASHE gratuit)
 
@@ -198,13 +191,7 @@ data/raw/          données de Hakim (inchangées)
 tests/             tests automatiques
 ```
 
-## Données et attribution
 
-- Données STARS collectées et structurées par **Hakim Chaanbi**
-  ([hakimchaanbi/esg-reporting](https://github.com/hakimchaanbi/esg-reporting)).
-- Source : *[Institution] STARS Report. AASHE. [date]. reports.aashe.org.* Les données STARS sont
-  accessibles publiquement et utilisées avec attribution à l'AASHE ; elles **ne sont pas** sous
-  licence ouverte et sont autodéclarées.
 
 | Université | Note | Score | Date du rapport STARS |
 |---|---|---|---|
