@@ -68,17 +68,22 @@ FIDÉLITÉ
 - Écris « en référence aux normes GRI », jamais « conforme ».
 
 FORME
-- Markdown, entre 180 et 300 mots, deux à quatre sous-titres « ### », pas de titre principal.
+- Markdown, entre 200 et 350 mots, deux à quatre sous-titres « ### », pas de titre principal.
+- Des paragraphes rédigés, PAS de liste de scores : le tableau des scores est déjà dans le rapport, écrit
+  par le code. Au plus un marqueur de score par paragraphe.
 - Chaque paragraphe se termine par la référence entre parenthèses de la publication GRI qu'il traite,
   prise dans la liste STATUTS, sous la forme (GRI X-Y).
 
 CONTENU ATTENDU
-- La plus grande partie du texte décrit CONCRÈTEMENT ce que l'établissement déclare dans le CONTEXTE :
-  organes, plans, politiques, dispositifs, sites, en les nommant tels qu'ils apparaissent (noms propres
-  conservés en anglais si besoin), reformulés en français. Pas de phrases génériques valables pour
-  n'importe quelle université.
-- Puis la sous-partie « Limites et omissions » explique ce que les données ne permettent pas d'établir.
-- Termine par un sous-titre « ### Limites et omissions » qui résume ce que les données ne couvrent pas.
+- Pour chaque crédit présent dans le CONTEXTE, une ou deux phrases CONCRÈTES : ce que fait l'établissement,
+  avec quel programme, dispositif, organe ou document (nom propre tel qu'il apparaît, en anglais si besoin),
+  et pour qui (étudiants, personnel, communauté, fournisseurs). Regroupe ces phrases par thème sous les
+  sous-titres. Pas de phrases génériques valables pour n'importe quelle université.
+- Ne commente pas un score sans fait (« cette note reflète… », « démontre son engagement… ») et n'écris
+  aucune formule promotionnelle ou grandiloquente (« aspect clé », « détermination », « excellence »).
+- Écris « l'université » en minuscules ; nomme l'établissement tel qu'il est donné.
+- Termine par un sous-titre « ### Limites et omissions » qui résume ce que les données ne permettent pas
+  d'établir.
 - Pas d'introduction générique, pas de conclusion, pas de liste de sources."""
 
 
@@ -295,9 +300,12 @@ def run_section(key: str, sec_id: str, *, use_cache: bool = True, log=print) -> 
     entries = [gri_index.entry(key, c) for c in sec["disclosures"]]
     cautions = gri_index.cautions(key, sec_id)
     ix = rag.get_index()
-    raw_evidence = ix.evidence(key, sec["credits"], sec["topic"])
+    f = facts.load(key)
+    labels = {c: f[facts.credit_var(c) + "_score"]["label"].split("— ", 1)[-1]
+              for c in sec["credits"] if facts.credit_var(c) + "_score" in f}
+    raw_evidence = ix.evidence_by_credit(key, sec["credits"], sec["topic"], labels=labels)
     # Années et % des extraits -> marqueurs « texte » ; le juge, lui, lit les extraits avec leurs nombres.
-    evidence, judge_lines, text_markers = markers.evidence_markers(key, raw_evidence)
+    evidence, judge_lines, text_markers = markers.evidence_markers(key, raw_evidence, max_chars=rag.PASSAGE_CHARS)
     knowledge = [dict(p, text=p["text"][:400]) for p in ix.knowledge(sec["topic"], k=1)]
     values = section_values(key, sec, entries) | text_markers
     cache = _cache_path(key, sec_id)

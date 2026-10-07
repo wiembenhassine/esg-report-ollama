@@ -1,5 +1,5 @@
 # Rapport de durabilité — Technological University Dublin
-*Établi en référence aux normes GRI · généré le 2026-10-06 · données AASHE STARS 3.0*
+*Établi en référence aux normes GRI · généré le 2026-10-07 · données AASHE STARS 3.0*
 
 **À propos de ce rapport.** Ce rapport est généré automatiquement à partir de la soumission publique
 AASHE STARS 3.0 de Technological University Dublin (2 décembre 2024), mise en correspondance avec les normes GRI.
@@ -56,17 +56,22 @@ Les scores STARS 3.0 sont autodéclarés et notés par rapport à un groupe de p
 
 ### Organisation, périmètre et effectifs
 
-Technological University Dublin (TU Dublin) est une institution d'enseignement supérieur irlandaise. Le rapport STARS 3.0 de l'université a obtenu un score STARS global de 83,35. Le rapport a été soumis le 2 décembre 2024.
+Technological University Dublin (TU Dublin) est une université irlandaise ; elle a soumis son rapport STARS 3.0. Le rapport a obtenu un score STARS global de 83,35. 
 
-L'université a mené une vaste étude de cartographie pour identifier les personnes qui collectent, traitent et valident les informations derrière chaque question STARS. Cette étude a permis de suivre la chaîne d'approvisionnement de l'information. Une deuxième étude a identifié les systèmes d'information qui détiennent les informations requises par STARS ou exploitable pour le rapport.
+L'université a mené une vaste étude de cartographie pour identifier les personnes chargées de collecter, de traiter et de valider les informations nécessaires à la réponse aux questions STARS. Cette étude a permis de suivre la chaîne d'information de la collecte des informations. Un deuxième exercice de cartographie a identifié les systèmes informatiques qui détiennent les informations requises.
 
-Les représentants de l'Union des étudiants et les membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux étudiants. 
-
-(GRI 2-3)
+Les représentants de l'Union des étudiants membres du Conseil de durabilité de l'université ont contribué à répondre aux questions liées aux étudiants. 
 
 ### Limites et omissions
+Ce rapport ne peut pas établir la fréquence de publication, la date de publication ou le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE.
 
-Ce rapport ne peut pas établir la période de reporting, la fréquence et le point de contact de l'université. Les données STARS sont autodéclarées et non vérifiées par l'AASHE. (GRI 2-5)
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-12 Droits des salariés (3 sur 3).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : aucun.
 
 ## Thèmes matériels
 
@@ -76,21 +81,27 @@ Ce rapport ne peut pas établir la période de reporting, la fréquence et le po
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
+Ces domaines sont fixés par STARS et sont identiques pour toutes les institutions : STARS ne demande pas à l'université de déclarer ses propres thèmes matériels.
+
 #### Engagement et planification
 
-Le plan stratégique de l'université 2024 - 2028 comprend des objectifs de durabilité mesurables, dont la réduction des émissions de gaz à effet de serre de 46,5 % et l'augmentation de l'efficacité énergétique de 45 %.
+Le plan stratégique de l'université (2024-2028) fixe des objectifs de durabilité mesurables pour le campus : réduire les émissions de gaz à effet de serre de 46,5 % et améliorer l'efficacité énergétique de 45 % d'ici 2028, dans la ligne du Climate Action Plan 2021.
 
 #### Égalité, diversité et inclusion
 
-Le plan stratégique de l'université 2024 - 2028 comprend un indicateur clé de performance (KPI) sur la « livraison réussie des plans d'action EDI », mené par Prof. Yvonne Galligan, directrice de l'égalité, de la diversité et de l'inclusion. Les objectifs incluent l'obtention de la certification d'Athena Swan, le plan pour l'égalité raciale (Race Equality Plan), et la fin de la violence et du harcèlement sexuels (ESVH). L'université vise à atteindre un équilibre entre les genres (au moins 40 % de femmes et au moins 40 % d'hommes) à tous les niveaux de décision de la direction.
-
-(GRI 3-2)
+Le même plan comprend un indicateur clé de performance sur la mise en œuvre des plans d'action EDI, avec pour cibles la certification Athena Swan, le plan pour l'égalité raciale (Race Equality Plan) et la fin des violences et du harcèlement sexuels (ESVH). Le plan d'action Athena Swan vise au moins 40 % de femmes et 40 % d'hommes à tous les niveaux de décision de la direction.
 
 ### Limites et omissions
 
-Ce rapport ne peut pas établir les impacts, les mesures de prévention et de remédiation, ou les enseignements tirés des thèmes matériels. Les données ne permettent pas d'établir une distinction entre les impacts des différents thèmes matériels.
+Ce rapport ne peut pas établir, pour chaque thème, les impacts, les actions engagées et le suivi de leur efficacité : STARS ne les décrit qu'en partie (GRI 3-3).
 
-(GRI 3-3)
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-2 Engagements et planification (5,67 sur 6).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : aucun.
 
 ## Gouvernance
 
@@ -103,24 +114,23 @@ Ce rapport ne peut pas établir les impacts, les mesures de prévention et de re
 
 > **Point de vigilance.** Les crédits PA-4 (programme d'investissement durable) et PA-5 (portefeuille d'investissements) sont « Non applicables » : TU Dublin est une université publique sans fonds de dotation. C'est un constat sur l'adéquation des référentiels au secteur, pas une défaillance.
 
-L'université obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal. 
+La gouvernance de l'université est encadrée par le Technological Universities Act 2018, qui impose la représentation des étudiants dans l'organe de gouvernance (Governing Body) ; la présidence de l'Union des étudiants y siège d'office, comme au conseil académique. Le site web de la Students' Union (SU) liste diverses instances où les étudiants sont représentés.
 
-La gouvernance de l'université est assurée par le Technological Universities Act 2018, qui impose la représentation des étudiants dans les organes de gouvernance. Le site web de l'Union des étudiants (SU) liste diverses instances où les étudiants sont représentés. Le président de l'Union des étudiants (SU) est le porte-parole principal de l'Union et représente tous les étudiants de l'université. Il est également membre ex officio du corps de gouvernance et du conseil académique de l'université.
+Un siège de l'organe de gouvernance est réservé à un membre du personnel non académique (services professionnels), en vertu de la même loi ; la liste des membres du personnel académique et non académique de l'organe en février 2025 figure dans le rapport STARS.
 
-En février 2025, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidence de l'Union des étudiants), Princewill Aguele (vice-présidence de l'Union des étudiants chargée des événements et de l'engagement) et Avice Meya (membre au titre des étudiants de troisième cycle).
-
-
-Le corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré dans le TU Act 2018.
-
-L'université a également mis en place des comités et des groupes de travail formels, ainsi que des enquêtes universitaires, où les membres du personnel participent régulièrement. La représentation du personnel est souvent filtrée par le TUI (Syndicat des enseignants d'Irlande).
-
-(GRI 2-9)
+L'université obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal. (GRI 2-9)
 
 ### Limites et omissions
 
-Ce rapport ne peut pas établir la rémunération totale annuelle des membres du corps de gouvernance, car ce chiffre n'est pas disponible.
+Ce rapport ne peut pas établir la composition chiffrée de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion des impacts.
 
-(GRI 2-21)
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-1 Coordination de la durabilité (1 sur 1) ; PA-3 Gouvernance de l'établissement (4 sur 4).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : aucun.
 
 ## Stratégie, politiques et pratiques
 
@@ -134,31 +144,27 @@ Ce rapport ne peut pas établir la rémunération totale annuelle des membres du
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-#### Stratégie de développement durable
+Technological University Dublin (TU Dublin) a inscrit sa stratégie de durabilité dans son plan stratégique 2024 – 2028. Ce plan comprend des objectifs mesurables de durabilité, dont la réduction des émissions de gaz à effet de serre (GHG) de 46,5 % et l'augmentation de l'efficacité énergétique de 45 % d'ici 2028.
 
-Technological University Dublin (TU Dublin) a mis en place une stratégie de développement durable dans son TU Dublin Strategic Plan 2024 – 2028. Cette stratégie comprend des objectifs de durabilité mesurables, dont la réduction des émissions de gaz à effet de serre et l'augmentation de l'efficacité énergétique.
+Des membres de l'Office de la durabilité participent aussi à des communautés énergétiques durables (SEC) soutenues par la SEAI et voisines du campus de Grangegorman, et mènent avec elles des activités de résilience climatique. Ces activités incluent la décarbonisation de l'environnement bâti (par exemple, amélioration des façades, intégration de sources renouvelables et pompes à chaleur) et le développement de projets de transport durable (par exemple, interpellations sur les transports publics, demandes de pistes cyclables, réparation gratuite de vélos).
 
-#### Engagements politiques
+L'équipe de l'éducation à la durabilité propose des formations continues sur la durabilité, ainsi que le symposium d'éducation à la durabilité, qui met l'accent sur l'intégration des compétences définies dans le cadre EU GreenComp dans la conception de l'apprentissage, de l'évaluation et de l'enseignement.
 
-Ces objectifs sont alignés sur le Climate Action Plan 2021 (CAP), qui demande au secteur public de montrer l'exemple pour réduire de 51 % les émissions de gaz à effet de serre de l'Irlande d'ici 2030 et atteindre la neutralité climatique au plus tard en 2050. Des membres de son Office de la durabilité participent à des Sustainable Energy Communities (SEC) voisines du campus de Grangegorman, soutenues par la SEAI, et mènent avec elles des activités de résilience climatique.
+### Engagement et formation du personnel
 
-#### Intégration des engagements politiques
-
-Les SEC membres peuvent soulever des préoccupations, des besoins et des demandes d'aide auprès des agences de développement de Grangegorman et des fonctions de TU Dublin (par exemple, l'Office de la durabilité, les Affaires et la planification des campus) pour développer des actions stratégiques collaboratives.
-
-#### Processus de remédiation des impacts négatifs
-
-Ce rapport ne peut pas établir les mécanismes de remédiation des impacts négatifs sur toutes les parties prenantes affectées.
-
-#### Adhésion à des associations
-
-Parmi ses communautés de pratique, TU Dublin compte la SDG Literacy Community of Practice, qui permet aux enseignants et aux étudiants de construire ensemble des occasions d'apprendre sur les objectifs de développement durable des Nations unies. TU Dublin est par ailleurs membre de l'Université européenne de technologie (European University of Technology).
+Parmi les réseaux et programmes d'engagement du personnel « pour l'intégrité écologique », l'école d'architecture de TU Dublin a formé avec toutes les autres écoles d'architecture d'Irlande le partenariat national Building Change, consacré à un enseignement de l'architecture tourné vers un avenir résilient.
 
 ### Limites et omissions
 
-De plus, certaines informations sur les engagements politiques et la stratégie de développement durable ne sont pas disponibles ou ne peuvent pas être établies.
+Ce rapport ne peut pas établir si TU Dublin a mis en place des mécanismes de demande de conseil et de signalement pour les parties prenantes affectées, au-delà des salariés.
 
-(GRI 2-22, GRI 2-23, GRI 2-24, GRI 2-25)
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-1 Coordination de la durabilité (1 sur 1) ; PA-12 Droits des salariés (3 sur 3) ; EN-3 Engagement et formation du personnel (8 sur 8) ; PA-2 Engagements et planification (5,67 sur 6).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : OP-9 Système d'achats durables (2,4 sur 7).
 
 ## Engagement des parties prenantes
 
@@ -171,27 +177,23 @@ De plus, certaines informations sur les engagements politiques et la stratégie 
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-Technological University Dublin (TU Dublin) s'engage dans l'engagement des parties prenantes de manière significative, comme le montre son score STARS de 4 points STARS sur 4 au crédit PA-3, niveau maximal. Cette approche est mise en œuvre en vertu de la Technological Universities Act 2018, qui prévoit la représentation obligatoire des étudiants dans les organes de gouvernance des universités techniques, y compris TU Dublin.
-
-La Students' Union (SU) joue un rôle clé dans la représentation des étudiants. Le président de la SU est le porte-parole principal de l'union, représentant tous les étudiants de l'université, et est membre ex officio du corps gouvernemental et du conseil académique de l'université. Cela est établi par la constitution de la SU.
-
-TU Dublin s'engage également dans des activités communautaires à travers divers programmes, comme les programmes de bénévolat étudiant, les comités des sports et des sociétés, les mentorats pairs et la représentation de classe.
-
-L'université offre diverses opportunités de service communautaire, notamment :
-
-* Les comités des sports et des sociétés qui gèrent des groupes étudiants pour le bénéfice d'autres étudiants ;
-* Les sociétés étudiantes qui sont principalement engagées dans le bénévolat et les entreprises sociales, y compris la Société St. Vincent de Paul de TU Dublin, la Société d'urbanisme environnemental de TU Dublin, la Société Enactus de TU Dublin - qui reçoit un soutien important de notre GrowthHub ;
-* Le programme de bénévolat étudiant est facilité par la plateforme de bénévolat étudiant ;
-* Le programme de représentation de la classe de l'Union des étudiants ;
-* Le programme de mentorat pairs de TU Dublin.
-
-Enfin, l'université a mis en place un programme de partenariats avec la communauté, comme le programme SLWC+ pilot, qui prévoit une déclaration de réciprocité dans l'accord de collaboration et sert de base pour l'évaluation conjointe du programme avec le partenaire de collaboration. Cependant, ce document n'est pas accessible au public, car il s'agit de la première fois que ce programme est mis en œuvre et que l'université met l'accent sur le bénéfice mutuel et la réciprocité.
+Comme l'impose le Technological Universities Act 2018, les étudiants sont représentés dans l'organe de gouvernance de l'université. Le site web de la Students' Union (SU) liste diverses instances où les étudiants sont représentés. De plus, un siège de l'organe de gouvernance est réservé à un membre du personnel non académique (services professionnels), comme le prévoit la même loi.
 
 (GRI 2-29)
 
+L'université encourage également l'engagement civique. Par exemple, les étudiants peuvent participer à des programmes de bénévolat, siéger dans les comités des clubs et sociétés, être des mentors pairs ou des représentants de classe. Des opportunités de service communautaire sont proposées, telles que la participation à des comités de clubs et sociétés qui organisent des activités pour le bénéfice des autres étudiants, ou la participation à des sociétés qui se concentrent sur le bénévolat et l'entrepreneuriat social, comme la TU Dublin St. Vincent de Paul (SVP) Society, la TU Dublin Environmental Planning Society ou la TU Dublin Enactus Society, soutenue par le GrowthHub de l'université.
+
 ### Limites et omissions
 
-Ce rapport ne peut pas établir les informations sur la méthode d'identification des parties prenantes, les groupes vulnérables ou les fournisseurs. Ce rapport ne peut pas établir la liste complète des partenariats de l'université avec la communauté pour la durabilité.
+Ce rapport ne peut pas établir la liste complète des partenariats de l'université avec la communauté pour la durabilité.
+
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-3 Gouvernance de l'établissement (4 sur 4) ; PA-12 Droits des salariés (3 sur 3) ; EN-6 Partenariats avec la communauté (7 sur 9).
+- **Partiellement atteints** : EN-5 Engagement civique (4,5 sur 8).
+- **À améliorer** : aucun.
 
 ## Performance environnementale
 
@@ -213,23 +215,25 @@ Ce rapport ne peut pas établir les informations sur la méthode d'identificatio
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-TU Dublin a mis en place plusieurs initiatives pour réduire son impact environnemental.
+Des panneaux photovoltaïques sont installés sur le toit de l'atelier de gravure (Printmaking Workshop) ; leur production reste faible, et un projet de géothermie est en cours de développement (GRI 302-1). Les jardins communautaires de Grangegorman et GLAS @ TU Dublin sont entretenus selon des pratiques biologiques (GRI 101-2).
 
-#### Énergie
+L'eau de pluie est récupérée sur le toit du Greenway Hub, dans les jardins du campus et sur les sites d'horticulture ; au Greenway Hub, elle est filtrée puis utilisée pour les chasses d'eau (GRI 303-1). Dans les achats, les produits de nettoyage portant le label FSC Recycled sont classés comme préférables (OP-10).
 
-Des panneaux photovoltaïques sont installés sur le toit de l'atelier d'impression. Leur production d'électricité reste faible, et un projet de géothermie est en cours de développement.
+En Irlande, tout bâtiment nouveau ou rénové reçoit un certificat de performance énergétique (Building Energy Rating, BER) délivré sous l'autorité de la SEAI (OP-1). Les bâtiments construits de 2019 à 2024 qui ont un BER de classe A sont considérés comme des bâtiments à consommation d'énergie quasi nulle (NZEB).
 
-#### Eau
+Tous les véhicules de l'université sont électriques : ses véhicules diesel ont été remplacés, comme l'indique sa feuille de route climat (Climate Action Roadmap, juin 2024).
 
-L'université a mis en place un système de récupération d'eau de pluie sur le toit du Greenway Hub, qui est utilisé pour alimenter les toilettes. La consommation d'eau n'est mesurée bâtiment par bâtiment que pour le Greenway Hub, un bâtiment de recherche équipé de capteurs reliés à son système de gestion technique.
+### Limites et omissions
 
-#### Déchets
+Ce rapport ne peut pas établir les émissions de gaz à effet de serre des scopes 1 et 2, celles du scope 3 ni leur intensité (GRI 305-1 à GRI 305-4) : les valeurs détaillées de STARS n'ont pas été extraites.
 
-Les déchets alimentaires, avant et après consommation, sont déposés dans des bacs à compost bruns fournis par le prestataire de gestion des déchets de l'université.
+#### Points forts et points à améliorer
 
-#### Véhicules
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
 
-L'université a remplacé tous ses véhicules diesel par des véhicules électriques, ce qui a contribué à réduire les émissions de gaz à effet de serre.
+- **Points forts** : OP-13 Flotte de véhicules (2 sur 2) ; OP-14 Modes de déplacement domicile-campus (5,39 sur 6) ; OP-12 Production et valorisation des déchets (3,94 sur 5).
+- **Partiellement atteints** : OP-3 Consommation d'eau (4,33 sur 6) ; OP-10 Biens achetés (2,75 sur 4) ; OP-6 Émissions de gaz à effet de serre (10,79 sur 16) ; OP-5 Consommation d'énergie (6,34 sur 10) ; OP-11 Gestion des matériaux (2,25 sur 4) ; OP-1 Conception et construction des bâtiments (1,38 sur 3).
+- **À améliorer** : OP-15 Voyages en avion (0 sur 2) ; OP-4 Gestion écologique des espaces verts (0,69 sur 5) ; OP-9 Système d'achats durables (2,4 sur 7) ; OP-2 Exploitation et maintenance des bâtiments (1,97 sur 5).
 
 ## Performance sociale et économique
 
@@ -248,33 +252,31 @@ L'université a remplacé tous ses véhicules diesel par des véhicules électri
 
 #### Équité salariale et salaire décent
 
-TU Dublin vérifie régulièrement la conformité de ses sous-traitants avec la National Minimum Wage Act 2000 et la Payment of Wages Act 1991, qui imposent aux employeurs de payer un salaire minimum et de fournir tous les avantages statutaires. TU Dublin estime que tout le monde a le droit à un salaire équitable et attend que tous ses fournisseurs paient à leurs employés au moins le salaire minimum, ou une représentation juste du salaire moyen de l'industrie (ce qui est le plus élevé), et leur fournissent tous les avantages statutaires.
-
-TU Dublin a identifié des sous-traitants importants, notamment ceux fournissant des services de restauration, de nettoyage, de maintenance, de jardinage, de services professionnels, de transport et de vente. Tous les sous-traitants paient un salaire décent à leurs employés.
-
-Les salaires des employés de TU Dublin sont fixés en fonction des politiques de rémunération et de conditions du secteur public, établies et mises à jour périodiquement par le gouvernement.
-
-(GRI 202-1)
+TU Dublin vérifie que ses sous-traitants respectent la National Minimum Wage Act 2000 et la Payment of Wages Act 1991, et attend de tous ses fournisseurs qu'ils versent au moins le salaire minimum, ou une juste représentation du salaire en vigueur dans le secteur si elle est plus élevée. Elle a identifié des sous-traitants importants (restauration, nettoyage, maintenance, entretien des espaces verts, services techniques, transport et vente), qui versent tous un salaire décent à leurs employés (GRI 202-1).
 
 #### Santé, sécurité et bien-être
 
-En vertu de la politique du gouvernement irlandais de « Tobacco Free Ireland », TU Dublin a introduit une zone sans fumée sur le campus en septembre 2020.
+En conformité avec la Politique Tobacco Free Ireland du Département de la Santé, qui vise à promouvoir des campus sans tabac pour tous les établissements d'enseignement supérieur, le campus de TU Dublin a introduit une zone sans tabac sur le campus à partir de septembre 2020.
 
-(GRI 403-1)
+#### Parité femmes-hommes
+
+Le plan d'action Athena Swan de l'université vise au moins 40 % de femmes et 40 % d'hommes à tous les niveaux de décision de la direction (GRI 405-1).
 
 #### Accessibilité financière et accès
 
-TU Dublin a mis en place des fonds d'aide aux étudiants (Student Assistance Fund) et le Fonds de bourse, qui visent les étudiants issus de milieux défavorisés ou sous-représentés.
-
-
+Le Fonds d'aide aux étudiants (SAF) et le Fonds de bourse, qui visent les étudiants issus de milieux sociaux défavorisés ou sous-représentés, sont des dispositifs d'aide financière.
 
 #### Climat institutionnel (inclusion)
 
-L'office de l'égalité, de la diversité et de l'inclusion (EDI) de TU Dublin comprend plusieurs initiatives. L'université soutient les employés qui se déclarent membres de groupes raciaux, ethniques et/ou autochtones marginalisés, par exemple :
+L'office de l'égalité, de la diversité et de l'inclusion (EDI) mène plusieurs initiatives pour les employés issus de groupes raciaux, ethniques ou autochtones marginalisés : la direction EDI intègre l'antiracisme dans tous les programmes, avec des ressources, des formations et un accompagnement ; le programme Community Development and Youth Work propose au personnel des ateliers sur l'antiracisme ; des groupes de lecture antiracistes sont ouverts au personnel et aux étudiants ; l'université est partenaire de l'Open Doors Initiative, qui ouvre l'accès à l'emploi aux personnes marginalisées. Un indicateur de satisfaction des étudiants (« Supportive Environment ») porte notamment sur le soutien à la réussite et sur les contacts entre étudiants de milieux différents.
 
-* L'office de l'EDI soutient les employés de plusieurs groupes sous-représentés.
-* La direction de l'EDI mène des efforts pour intégrer l'antiracisme dans tous les programmes, en fournissant des ressources, des formations et un soutien aux employés et étudiants.
-* Le programme de développement communautaire et de travail avec les jeunes (CDYW) inclut des ateliers de formation sur l'antiracisme.
+#### Points forts et points à améliorer
+
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
+
+- **Points forts** : PA-12 Droits des salariés (3 sur 3) ; PA-11 Santé, sécurité et bien-être (3 sur 3) ; PA-6 Climat institutionnel (3 sur 3) ; PA-10 Réussite étudiante (2,91 sur 3) ; PA-13 Équité salariale et salaire décent (4,8 sur 5) ; PA-9 Accessibilité financière et accès (2,5 sur 3).
+- **Partiellement atteints** : aucun.
+- **À améliorer** : PA-8 Parité femmes-hommes (0,33 sur 2) ; PA-7 Représentation ethnique et raciale (0,86 sur 3).
 
 ## Enseignement, recherche et engagement (hors GRI)
 
@@ -295,41 +297,27 @@ L'office de l'égalité, de la diversité et de l'inclusion (EDI) de TU Dublin c
 
 *Valeurs insérées par le code depuis la table des faits ; le texte ci-dessous est rédigé par le modèle puis validé.*
 
-#### Offre de cours en durabilité
+*Section de repli générée par le code : aucune version rédigée par le modèle n'a passé la validation.*
 
-L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal. Cette note reflète la qualité de l'offre de cours en durabilité de l'université, qui comprend des projets tels que l'intégration de problèmes liés aux objectifs de développement durable dans l'éducation mathématique et l'étude des effets de l'expérience de stage orientée vers la durabilité sur la mentalité des étudiants.
+### Résultats STARS des crédits concernés
+- AC-1 — Sustainability Course Offerings : 14 / 14 points
+- AC-2 — Undergraduate Programs : 13,28 / 15 points
+- AC-3 — Graduate Programs : 8 / 8 points
+- AC-6 — Sustainability Research : 10 / 10 points
+- AC-7 — Center for Sustainability Research : 6 / 6 points
+- EN-1 — Outreach and Communications : 5 / 5 points
+- EN-2 — Co-Curricular Activities : 9 / 9 points
+- EN-3 — Staff Engagement and Training : 8 / 8 points
+- EN-5 — Civic Engagement : 4,5 / 8 points
+- EN-7 — Continuing Education : 3 / 3 points
 
-#### Programmes de premier cycle
+#### Points forts et points à améliorer
 
-L'université obtient 13,28 points STARS sur 15 au crédit AC-2, niveau élevé. Cette note reflète la qualité des programmes de premier cycle de l'université, qui incluent des modules axés sur la durabilité et des modules inclusifs qui prennent en compte les préoccupations environnementales.
+*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*
 
-#### Recherche en durabilité
-
-L'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal. Cette note reflète la qualité de la recherche en durabilité de l'université, qui comprend des projets tels que la création de programmes de recherche accélérés et l'engagement de chercheurs pour travailler sur des aspects liés à la durabilité.
-
-#### Centre de recherche en durabilité
-
-L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal. Cette note reflète la qualité du centre de recherche en durabilité de l'université, qui est un lieu de recherche et de développement axé sur la durabilité.
-
-#### Communication et sensibilisation
-
-L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. Cette note reflète la qualité de la communication et de la sensibilisation de l'université, qui comprend des outils de visualisation et des applications Web pour comprendre et mesurer le niveau de durabilité et les impacts associés aux modules enseignés, aux résultats de recherche et aux sites Web.
-
-#### Activités parascolaires
-
-L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Cette note reflète la qualité des activités parascolaires de l'université, qui incluent des sociétés étudiantes actives en durabilité et en justice sociale (Environment and Planning Society, St Vincent de Paul Society), des étudiants ambassadeurs de l'éducation à la durabilité et des projets de bénévolat créés par les étudiants.
-
-#### Engagement et formation du personnel
-
-L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. Cette note reflète la qualité de l'engagement et de la formation du personnel de l'université, qui comprend des programmes tels que la SDG Literacy Community of Practice pour former les enseignants et les étudiants à la durabilité.
-
-#### Engagement civique
-
-L'université obtient 4,5 points STARS sur 8 au crédit EN-5, niveau intermédiaire. Cette note reflète la qualité de l'engagement civique de l'université, qui comprend le bénévolat étudiant, les comités des clubs sportifs et des sociétés, le mentorat par les pairs, la représentation de classe et le bénévolat des employés pendant leurs heures de travail.
-
-#### Formation continue
-
-L'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal. Cette note reflète la qualité de la formation continue de l'université, qui comprend des modules axés sur la durabilité dans plusieurs écoles, par exemple en horticulture durable, en infrastructures résilientes au climat ou en biodiversité et conservation de la nature.
+- **Points forts** : AC-1 Offre de cours en durabilité (14 sur 14) ; AC-3 Programmes de cycles supérieurs (8 sur 8) ; AC-6 Recherche en durabilité (10 sur 10) ; AC-7 Centre de recherche en durabilité (6 sur 6) ; EN-1 Communication et sensibilisation (5 sur 5) ; EN-2 Activités parascolaires (9 sur 9) ; EN-3 Engagement et formation du personnel (8 sur 8) ; EN-7 Formation continue (3 sur 3) ; AC-2 Programmes de premier cycle (13,28 sur 15).
+- **Partiellement atteints** : EN-5 Engagement civique (4,5 sur 8).
+- **À améliorer** : aucun.
 
 ## Index de contenu GRI
 
@@ -554,24 +542,26 @@ Correspondance **thématique** écrite à la main (`mapping/frameworks.yaml`, `m
 
 ## Annexe — Validation du rapport
 
-Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → substitution par le code → audit par le juge → régénération si refus (trois tentatives au plus).
+Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → substitution par le code → audit par le juge → régénération si refus (deux essais au plus ; sinon texte de repli écrit par le code).
 
-| Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |
-|---|---|:-:|:-:|:-:|:-:|:-:|--:|
-| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 6.6 min |
-| Thèmes matériels | <span class="badge ok">validée</span> | 1 | 0 | 2/5 | 100% | 100% | 7.9 min |
-| Gouvernance | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 67% | 9.1 min |
-| Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 100% | 67% | 19.6 min |
-| Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 10.7 min |
-| Performance environnementale | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 100% | 0% | 26.0 min |
-| Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 83% | 50% | 14.2 min |
-| Enseignement, recherche et engagement (hors GRI) | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 11.6 min |
+| Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Codes GRI cités dans le texte | Publications GRI avec données (index) | Durée |
+|---|---|:-:|:-:|:-:|:-:|:-:|:-:|--:|
+| L'organisation, son périmètre et ses effectifs | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 2 sur 8 | 7.5 min |
+| Thèmes matériels | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 2 sur 3 | 9.6 min |
+| Gouvernance | <span class="badge ok">validée</span> | 2 | 0 | 5/5 | 100% | 33% | 1 sur 13 | 9.5 min |
+| Stratégie, politiques et pratiques | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 0% | 4 sur 7 | 8.8 min |
+| Engagement des parties prenantes | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 1 sur 2 | 7.7 min |
+| Performance environnementale | <span class="badge ok">validée</span> | 2 | 0 | 4/5 | 83% | 7% | 3 sur 35 | 24.1 min |
+| Performance sociale et économique | <span class="badge ok">validée</span> | 1 | 0 | 3/5 | 83% | 25% | 4 sur 18 | 13.2 min |
+| Enseignement, recherche et engagement (hors GRI) | <span class="badge no">repli</span> | 2 | 1 | —/5 |  | — | — | 25.7 min |
 
-**Bilan :** 8 section(s) validée(s) sur 8 ; fidélité moyenne 98% ; 0 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
+*« Codes GRI cités dans le texte » : part des publications GRI de la section dont le code (par exemple GRI 305-1) est cité dans le texte rédigé ; c'est une mesure de citation, pas de couverture des données. « Publications GRI avec données » : publications de la section rapportées ou partiellement rapportées dans l'index de contenu GRI, sur le total de la section.*
+
+**Bilan :** 7 section(s) validée(s) sur 8 ; fidélité moyenne 95% ; 1 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.
 
 1 violation(s) signalée(s) par le juge ont été écartées car contredites par le contrôle déterministe (par exemple une « revendication de conformité GRI » absente du texte) : le juge 8B se trompe parfois, le code tranche sur ce qu'il sait vérifier.
 
-**Relecture hors pipeline** (6 octobre 2026) : 22 correction(s) dans 7 section(s). Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois validées par elle. Liste détaillée : `relecture/tudublin.yaml` et `outputs/relecture_humaine.md`. Le texte écrit par le modèle reste consultable dans `outputs/cache/`.
+**Relecture hors pipeline** (6 octobre 2026) : 24 correction(s) dans 7 section(s). Phrases supprimées ou reformulées à partir des textes STARS uniquement, sans chiffre tapé à la main. Les corrections ont été proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, chacune avec sa source STARS ; elles deviennent une relecture humaine une fois validées par elle. Liste détaillée : `relecture/tudublin.yaml` et `outputs/relecture_humaine.md`. Le texte écrit par le modèle reste consultable dans `outputs/cache/`.
 
 ## Vérifier ce rapport
 

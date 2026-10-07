@@ -1,77 +1,81 @@
 {
- "prompt_hash": "53f460f67b2c875e",
- "round": 0,
+ "prompt_hash": "4a71444353f19c41",
+ "round": 1,
  "decision": "validée",
- "text": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la stratégie de l'University College Cork (UCC) pour promouvoir la durabilité. Selon le rapport STARS, l'université a obtenu 4 points STARS sur 4 au crédit PA-3, niveau maximal points STARS sur 4 points STARS sur 4 au crédit PA-3, niveau maximal au crédit PA-3, niveau maximal (GRI 2-29).\n\nCette note maximale reflète la forte implication de l'université dans l'engagement des parties prenantes. Les membres de l'Union des étudiants siègent au sein de l'Autorité de gouvernement de l'université, le plus haut organe décisionnel de l'université. Cette approche délibérative et participative permet aux étudiants de participer activement aux décisions stratégiques et politiques qui touchent la communauté universitaire.\n\nLa création du Forum des étudiants, inspiré par l'Assemblée des citoyens irlandais, vise à renforcer la transparence et l'intégrité dans la prise de décision et à faciliter une prise de décision éclairée. Cette approche permet à l'université de cultiver des citoyens qui contribuent au bien commun et au mieux-être de l'humanité et du planète.\n\nL'université a également établi des partenariats avec la communauté locale, comme le programme UNIC, qui a donné lieu à la création de l'Urban Climate Collab, un projet de recherche visant à renforcer les collaborations entre universités et municipalités pour atteindre les objectifs de lutte contre le changement climatique dans les villes (EN-5).\n\nEn outre, l'université a développé des lignes directrices et des ressources pour la participation communautaire, notamment le Civic Engagement Toolkit et les lignes directrices de la science shop, qui guident les participants à suivre les lignes directrices nationales de Campus Engage (EN-6).\n\nEnfin, l'université respecte les droits des salariés, en tant que droit fondamental de la Constitution irlandaise (PA-12).\n\n(GRI 2-29)",
+ "text": "### Engagement des parties prenantes\n\nL'université compte des représentants des étudiants au sein de son autorité de gouvernance, la plus haute instance décisionnelle de l'université (GRI 2-29). De plus, les non-académiques peuvent participer à la gouvernance de l'institution par le biais de diverses voies, notamment par l'intermédiaire de leur union professionnelle et de divers comités de direction (GRI 2-29).\n\nL'université a également établi des partenariats avec la communauté locale, comme en témoigne son engagement avec la ville de Cork dans le cadre du programme Mission City, visant à atteindre la neutralité carbone d'ici 2030 (GRI 2-29). L'université utilise également des outils de mesure pour capter et mesurer ses partenariats, comme le TEFCE, et a été classée dans le cadre de la classification Carnegie pour l'engagement communautaire (GRI 2-29).\n\nL'université encourage également l'engagement civique de ses étudiants, notamment par le biais du programme UNIC, qui vise à renforcer les collaborations entre les universités et les municipalités pour atteindre l'action climatique en ville (GRI 2-29). Les étudiants sont également encouragés à consacrer un temps minimum à une organisation communautaire et à rédiger un rapport de réflexion (GRI 2-29).\n\nEnfin, l'université respecte les droits des salariés, notamment le droit à la liberté d'association (GRI 2-29).\n\n(GRI 2-29)",
  "used_facts": [
-  "PA3_max",
-  "PA3_score"
+  "EN6_t5_0"
  ],
  "judge_score": 4,
  "faithfulness": 1.0,
  "gri_coverage": 1.0,
  "unsupported_claims": [],
- "discarded_violations": [],
+ "discarded_violations": [
+  "Le rapport prétend à la conformité avec GRI 2-29, mais la liste de statut GRI indique que la conformité est partielle"
+ ],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 485.8,
+ "seconds": 578.9,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la stratégie de l'University College Cork (UCC) pour promouvoir la durabilité. Selon le rapport STARS, l'université a obtenu {{ PA3 }} points STARS sur {{ PA3 }} au crédit PA-3, niveau maximal (GRI 2-29).\n\nCette note maximale reflète la forte implication de l'université dans l'engagement des parties prenantes. Les membres de l'Union des étudiants siègent au sein de l'Autorité de gouvernement de l'université, le plus haut organe décisionnel de l'université. Cette approche délibérative et participative permet aux étudiants de participer activement aux décisions stratégiques et politiques qui touchent la communauté universitaire.\n\nLa création du Forum des étudiants, inspiré par l'Assemblée des citoyens irlandais, vise à renforcer la transparence et l'intégrité dans la prise de décision et à faciliter une prise de décision éclairée. Cette approche permet à l'université de cultiver des citoyens qui contribuent au bien commun et au mieux-être de l'humanité et du planète.\n\nL'université a également établi des partenariats avec la communauté locale, comme le programme UNIC, qui a donné lieu à la création de l'Urban Climate Collab, un projet de recherche visant à renforcer les collaborations entre universités et municipalités pour atteindre les objectifs de lutte contre le changement climatique dans les villes (EN-5).\n\nEn outre, l'université a développé des lignes directrices et des ressources pour la participation communautaire, notamment le Civic Engagement Toolkit et les lignes directrices de la science shop, qui guident les participants à suivre les lignes directrices nationales de Campus Engage (EN-6).\n\nEnfin, l'université respecte les droits des salariés, en tant que droit fondamental de la Constitution irlandaise (PA-12).\n\n(GRI 2-29)",
-   "gen_seconds": 267.9,
-   "prompt_tokens": 1905,
-   "output_tokens": 479,
-   "raw_guard_problems": [],
-   "removed_sentences": [],
+   "draft": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la stratégie de l'University College Cork. L'université compte des représentants des étudiants au sein de son autorité de gouvernance, la plus haute instance décisionnelle de l'université (GRI 2-29). De plus, les non-académiques peuvent participer à la gouvernance de l'institution par le biais de diverses voies, notamment par l'intermédiaire de leur union professionnelle et de divers comités de direction (GRI 2-29).\n\nL'université a également établi des partenariats avec la communauté locale, comme en témoigne son engagement avec la ville de Cork dans le cadre du programme Mission City, visant à atteindre la neutralité carbone d'ici {{ EN6_t5_0 }} (GRI 2-29). L'université utilise également des outils de mesure pour capter et mesurer ses partenariats, comme le TEFCE, et a été classée dans le cadre de la classification Carnegie pour l'engagement communautaire (GRI 2-29).\n\nL'université encourage également l'engagement civique de ses étudiants, notamment par le biais du programme UNIC, qui vise à renforcer les collaborations entre les universités et les municipalités pour atteindre l'action climatique en ville (GRI 2-29). Les étudiants sont également encouragés à consacrer un temps minimum à une organisation communautaire et à rédiger un rapport de réflexion (GRI 2-29).\n\nEnfin, l'université respecte les droits des salariés, notamment le droit à la liberté d'association (GRI 2-29).\n\n(GRI 2-29)",
+   "gen_seconds": 311.4,
+   "prompt_tokens": 2309,
+   "output_tokens": 406,
+   "raw_guard_problems": [
+    "formule creuse ou promotionnelle : décris un fait précis du CONTEXTE à la place"
+   ],
+   "removed_sentences": [
+    "L'engagement des parties prenantes est un aspect clé de la stratégie de l'University College Cork."
+   ],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 1.0,
    "lint_notes": [],
-   "rendered": "### Engagement des parties prenantes\n\nL'engagement des parties prenantes est un aspect clé de la stratégie de l'University College Cork (UCC) pour promouvoir la durabilité. Selon le rapport STARS, l'université a obtenu 4 points STARS sur 4 au crédit PA-3, niveau maximal points STARS sur 4 points STARS sur 4 au crédit PA-3, niveau maximal au crédit PA-3, niveau maximal (GRI 2-29).\n\nCette note maximale reflète la forte implication de l'université dans l'engagement des parties prenantes. Les membres de l'Union des étudiants siègent au sein de l'Autorité de gouvernement de l'université, le plus haut organe décisionnel de l'université. Cette approche délibérative et participative permet aux étudiants de participer activement aux décisions stratégiques et politiques qui touchent la communauté universitaire.\n\nLa création du Forum des étudiants, inspiré par l'Assemblée des citoyens irlandais, vise à renforcer la transparence et l'intégrité dans la prise de décision et à faciliter une prise de décision éclairée. Cette approche permet à l'université de cultiver des citoyens qui contribuent au bien commun et au mieux-être de l'humanité et du planète.\n\nL'université a également établi des partenariats avec la communauté locale, comme le programme UNIC, qui a donné lieu à la création de l'Urban Climate Collab, un projet de recherche visant à renforcer les collaborations entre universités et municipalités pour atteindre les objectifs de lutte contre le changement climatique dans les villes (EN-5).\n\nEn outre, l'université a développé des lignes directrices et des ressources pour la participation communautaire, notamment le Civic Engagement Toolkit et les lignes directrices de la science shop, qui guident les participants à suivre les lignes directrices nationales de Campus Engage (EN-6).\n\nEnfin, l'université respecte les droits des salariés, en tant que droit fondamental de la Constitution irlandaise (PA-12).\n\n(GRI 2-29)",
+   "rendered": "### Engagement des parties prenantes\n\nL'université compte des représentants des étudiants au sein de son autorité de gouvernance, la plus haute instance décisionnelle de l'université (GRI 2-29). De plus, les non-académiques peuvent participer à la gouvernance de l'institution par le biais de diverses voies, notamment par l'intermédiaire de leur union professionnelle et de divers comités de direction (GRI 2-29).\n\nL'université a également établi des partenariats avec la communauté locale, comme en témoigne son engagement avec la ville de Cork dans le cadre du programme Mission City, visant à atteindre la neutralité carbone d'ici 2030 (GRI 2-29). L'université utilise également des outils de mesure pour capter et mesurer ses partenariats, comme le TEFCE, et a été classée dans le cadre de la classification Carnegie pour l'engagement communautaire (GRI 2-29).\n\nL'université encourage également l'engagement civique de ses étudiants, notamment par le biais du programme UNIC, qui vise à renforcer les collaborations entre les universités et les municipalités pour atteindre l'action climatique en ville (GRI 2-29). Les étudiants sont également encouragés à consacrer un temps minimum à une organisation communautaire et à rédiger un rapport de réflexion (GRI 2-29).\n\nEnfin, l'université respecte les droits des salariés, notamment le droit à la liberté d'association (GRI 2-29).\n\n(GRI 2-29)",
    "used_facts": [
-    "PA3_max",
-    "PA3_score"
+    "EN6_t5_0"
    ],
    "trace_problems": [],
    "used_markers": [
-    "PA3"
+    "EN6_t5_0"
    ],
    "judge": {
     "claims": [
      {
-      "claim": "L'université a obtenu 4 points STARS sur 4 au crédit PA-3, niveau maximal",
+      "claim": "L'université compte des représentants des étudiants au sein de son autorité de gouvernance, la plus haute instance décisionnelle de l'unvers",
       "supported": true
      },
      {
-      "claim": "Les membres de l'Union des étudiants siègent au sein de l'Autorité de gouvernement de l'université",
+      "claim": "les non-académiques peuvent participer à la gouvernance de l'institution par le biais de diverses voies",
       "supported": true
      },
      {
-      "claim": "La création du Forum des étudiants vise à renforcer la transparence et l'intégrité dans la prise de décision",
+      "claim": "L'université a également établi des partenariats avec la communauté locale, comme en témoigne son engagement avec la ville de Cork dans le",
       "supported": true
      },
      {
-      "claim": "L'université a établi des partenariats avec la communauté locale, comme le programme UNIC",
+      "claim": "L'université utilise également des outils de mesure pour capter et mesurer ses partenariats, comme le TEFCE",
       "supported": true
      },
      {
-      "claim": "L'université a développé des lignes directrices et des ressources pour la participation communautaire",
+      "claim": "L'université encourage également l'engagement civique de ses étudiants, notamment par le biais du programme UNIC",
       "supported": true
      },
      {
-      "claim": "L'université respecte les droits des salariés, en tant que droit fondamental de la Constitution irlandaise",
+      "claim": "L'université respecte les droits des salariés, notamment le droit à la liberté d'association",
       "supported": true
      }
     ],
-    "rule_violations": [
-     "La note mentionne que le crédit PA-3 est rapporté à 100% (niveau maximal), mais le GRI STATUS LIST indique que GRI 2-29 est partiellement rapporté"
-    ],
+    "rule_violations": [],
     "score": 4,
-    "feedback": "Supprimer la mention de 'niveau maximal' car elle n'est pas justifiée par le GRI STATUS LIST. Remplacer 'niveau maximal' par 'partiellement rapporté' pour refléter la vérité.",
+    "feedback": "",
     "faithfulness": 1.0,
-    "seconds": 217.7,
-    "discarded_violations": [],
+    "seconds": 267.2,
+    "discarded_violations": [
+     "Le rapport prétend à la conformité avec GRI 2-29, mais la liste de statut GRI indique que la conformité est partielle"
+    ],
     "accepted": true
    }
   }
@@ -86,27 +90,47 @@
   },
   {
    "credit": "PA-3",
-   "text": "Born from UCC's strategic plan, the UCC Student Forum is an exercise in deliberative and participatory democracy that places students at the heart of important strategic and policy issues facing UCC as a community. UCC is committed to widening participation, an intention that goes beyond mere access but extends to active involvement in decision-making."
+   "text": "There are numerous ways in which non-academic staff can democratically engage with the governance of the insitution. These include though memebership of the University's staff Union and through the many subcommittees of the University Leadership Team, which all have representation from non-academic staff. Page of this "
   },
   {
    "credit": "PA-3",
-   "text": "The model chosen for the Student Forum is that of the Irish Citizens' Assembly. Some of the main aims of the Forum are to strengthen transparency and integrity in decision making and to facilitate good decision making. As a university, we are consciously cultivating citizens who shape society for the common good and betterment of humanity and the planet. Therefore, via ‘sortition', we committed to creating a truly representative assembly of students who displayed civic and leadership capacities through constructive participation."
-  },
-  {
-   "credit": "PA-3",
-   "text": "A number of representatives of external organisations are members of the University's Governing Authority"
+   "text": "The SU have a representative that sits on autonomous committees (Societies Guild Executive and the Clubs Executive) that oversee the running of nearly all of the extracurricular activities for students in UCC. The Student Council of the Union also acts as the Student Parliament for UCC, and represents students on a num"
   },
   {
    "credit": "EN-5",
-   "text": "In addition, through the UNIC programme, UCC has established the Urban Climate Collab, a research project aiming to investigate and strengthen collaborations between universities and municipalities when working together to achieve climate action in cities. City contexts have a key role to play in addressing sustainability challenges. For many urban residents, climate action and sustainability can act as a vehicle to achieve their own local objectives in relation to health, equity, wellbeing, safety, and resilience. City-University partnerships can help to support such objectives whilst also working towards meeting the international and national policy targets which are in place. While taking"
+   "text": "In addition, through the UNIC programme, UCC has established the Urban Climate Collab, a research project aiming to investigate and strengthen collaborations between universities and municipalities when working together to achieve climate action in cities. City contexts have a key role to play in addressing sustainabil"
+  },
+  {
+   "credit": "EN-5",
+   "text": "Minister for the Environment, Climate and Communications, Eamon Ryan, said, \"I am delighted that UCC has been selected as one of our Climate Action Modelling Group (CAMG) partners. Ireland's climate ambition and emission reduction commitments are challenging but attainable. To find the most effective and feasible pathw"
+  },
+  {
+   "credit": "EN-5",
+   "text": "Student volunteer hours via an online system: Students are required to dedicate a minimum of hours of their time to a community based organisation and complete a reflective report."
   },
   {
    "credit": "EN-6",
-   "text": "UCC has developed numerous guidelines and resources around community engagement, including a Civic Engagement Toolkit ( and science shop guidelines through the Community Academic Research Links programme ( All of these resources guide participants to follow the national Campus Engage guidelines (. Campus Engage was a collaborative effort across all HEIs in Ireland to build national capacity and excellence in community engagement and partnership. It was facilitated and managed by the Irish Universities Association and involved participation from all member HEI's including UCC. These national guidelines guidelines include a section on Impact Assessment which discusses the use of impact assessm"
+   "text": "At the operational level the University uses the TEFCE tool to capture and measure partnerships UCC partnerships have also been successfully reviewed by the Carnegie Elective Classification for Community Engagement. Stage of this process involves participative dialogue with community partners."
+  },
+  {
+   "credit": "EN-6",
+   "text": "UCC has developed numerous guidelines and resources around community engagement, including a Civic Engagement Toolkit ( and science shop guidelines through the Community Academic Research Links programme ( All of these resources guide participants to follow the national Campus Engage guidelines (. Campus Engage was a c"
+  },
+  {
+   "credit": "EN-6",
+   "text": "At present, UCC's community partnerships for sustainability principally fall under the remit of the UNIC programme and the Centre for City Futures. One of the flagship initiatives is our engagement with Cork City Council on it's Mission City programme (where it aims to reach Net Zero by {{ EN6_t5_0 }} ). An MOU with Co"
   },
   {
    "credit": "PA-12",
    "text": "Freedom of Association is a fundamental right under the irish constitution and"
+  },
+  {
+   "credit": "PA-12",
+   "text": "Under the maternity legislation all women are entitled to weeks maternity leave. Payment of maternity leave may be sourced both from the Department of Social Welfare and/or the University. The week entitlement is divided into weeks paid and an additional weeks unpaid. Entitlements to paid leave and unpaid leave are out"
+  },
+  {
+   "credit": "PA-12",
+   "text": "There are a number of different leave types available to all staff of UCC, regardless of gender. These include:"
   }
  ]
 }

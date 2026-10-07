@@ -1,184 +1,74 @@
 {
- "prompt_hash": "045c2fc24c95dd43",
- "round": 0,
+ "prompt_hash": "22c6cc96a6ac4a4b",
+ "round": 1,
  "decision": "validée",
- "text": "#### Énergie\n\nL'université obtient 6,87 points STARS sur 10 au crédit OP-5, niveau intermédiaire. Le campus utilise une partie de l'énergie renouvelable via le programme UC Clean Power, qui inclut des sources d'électricité certifiées et non certifiées.\n\n#### Émissions de gaz à effet de serre\n\nL'université obtient 8,01 points STARS sur 16 au crédit OP-6, niveau intermédiaire. Les émissions de gaz à effet de serre sont compensées par des instruments de retraitement des émissions, issus de projets forestiers américains.\n\n#### Eau\n\nL'université obtient 2,43 points STARS sur 7 au crédit OP-3, niveau faible. Le campus a mis en place un système de récupération d'eau de pluie, notamment au sein de la Haas School of Business.\n\n#### Déchets\n\nL'université obtient 3,27 points STARS sur 5 au crédit OP-12, niveau intermédiaire. Le campus a mis en place un système de compostage industriel.\n\n#### Matériaux\n\nL'université obtient 3,75 points STARS sur 4 au crédit OP-11, niveau élevé. Le campus a mis en place un système de gestion des matériaux, notamment via l'intégration de la collecte séparée des déchets.\n\n#### Système d'achats durables\n\nL'université obtient 7 points STARS sur 7 au crédit OP-9, niveau maximal. Le campus a mis en place un système de réduction des émissions de carbone dans la chaîne d'approvisionnement.\n\n#### Conception et construction des bâtiments\n\nL'université obtient 2,91 points STARS sur 3 au crédit OP-1, niveau élevé. Le campus a mis en place des bâtiments répondant aux normes LEED-EBOM.\n\n#### Exploitation et maintenance des bâtiments\n\nL'université obtient 4 points STARS sur 5 au crédit OP-2, niveau élevé.\n\n#### Flotte de véhicules\n\nL'université obtient 0,28 point STARS sur 2 au crédit OP-13, niveau faible. Le campus a mis en place une flotte de véhicules, dont une partie est considérée comme verte.\n\n#### Modes de déplacement domicile-campus\n\nL'université obtient 4,89 points STARS sur 6 au crédit OP-14, niveau élevé. Le campus a mis en place des modes de déplacement durables.\n\n#### Voyages en avion\n\nL'université obtient 2 points STARS sur 2 au crédit OP-15, niveau maximal. Le campus a mis en place des mesures pour réduire les émissions de gaz à effet de serre liées aux voyages en avion.\n\n#### Gestion écologique des espaces verts\n\nL'université obtient 5 points STARS sur 5 au crédit OP-4, niveau maximal. Le campus a mis en place des espaces verts gérés de manière écologique.\n\n#### Évaluation de la biodiversité\n\nL'université obtient 1 point STARS sur 1 au crédit IL-24, niveau maximal. Le campus a mis en place une évaluation de la biodiversité, notamment via le plan de gestion des feux de végétation.\n\n#### Part des points STARS obtenus dans le pilier Environnement\n\n#### Pourcentage de la flotte de véhicules considérée comme verte\n\nLe campus a mis en place une flotte de véhicules, dont plus de 35 % est considérée comme verte.",
+ "text": "### Performance environnementale\n\nL'université de Californie, Berkeley, a mis en place plusieurs initiatives pour réduire son impact environnemental. Elle a notamment investi dans un système de cogénération qui fournit de l'électricité et du chauffage pour les bâtiments du campus. Ce système a été construit en 1987 et a permis de réduire les émissions de gaz à effet de serre.\n\nL'université a également mis en place un programme de réduction des émissions de gaz à effet de serre, qui consiste à acheter des crédits de carbone pour compenser les émissions non réduites. Cette année, les crédits de carbone ont été achetés auprès de projets de forêt en Amérique du Nord.\n\nL'université a également mis en place des programmes pour réduire la consommation d'eau. Elle a notamment installé des systèmes de récupération d'eau de pluie et a mis en place des programmes de compostage.\n\nEn matière de gestion des déchets, l'université a mis en place des programmes de recyclage et de compostage. Elle a également mis en place un programme de réduction des déchets non recyclables.\n\nL'université a également mis en place des programmes pour réduire les émissions de gaz à effet de serre liées à la chaîne d'approvisionnement. Elle a notamment mis en place un système de notation des fournisseurs pour évaluer leur impact environnemental.\n\n(GRI 101-2, GRI 101-4, GRI 101-5, GRI 302-1, GRI 302-3, GRI 303-1, GRI 303-3, GRI 305-1, GRI 305-2, GRI 305-3, GRI 305-4, GRI 305-5, GRI 306-2, GRI 306-3, GRI 306-4, GRI 306-5, GRI 308-1)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les émissions de gaz à effet de serre liées à la chaîne d'approvisionnement, car les données nécessaires n'étaient pas disponibles. De même, ce rapport ne peut pas établir les émissions de gaz à effet de serre liées à la consommation d'énergie, car les données nécessaires n'étaient pas disponibles.",
  "used_facts": [
-  "IL24_max",
-  "IL24_score",
-  "OP11_max",
-  "OP11_score",
-  "OP12_max",
-  "OP12_score",
-  "OP13_max",
-  "OP13_score",
-  "OP13_t0_0",
-  "OP14_max",
-  "OP14_score",
-  "OP15_max",
-  "OP15_score",
-  "OP1_max",
-  "OP1_score",
-  "OP2_max",
-  "OP2_score",
-  "OP3_max",
-  "OP3_score",
-  "OP4_max",
-  "OP4_score",
-  "OP5_max",
-  "OP5_score",
-  "OP6_max",
-  "OP6_score",
-  "OP9_max",
-  "OP9_score"
+  "OP5_t8_0"
  ],
  "judge_score": 4,
- "faithfulness": 0.83,
- "gri_coverage": 0.0,
- "unsupported_claims": [
-  "Le campus utilise une partie de l'énergie renouvelable via le programme UC Clean Power, qui inclut des sources d'électricité certifiées et ["
- ],
+ "faithfulness": 1.0,
+ "gri_coverage": 1.0,
+ "unsupported_claims": [],
  "discarded_violations": [],
- "attempts": 2,
- "guard_rejections": 1,
- "seconds": 1273.4,
+ "attempts": 1,
+ "guard_rejections": 0,
+ "seconds": 1048.5,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Performance environnementale\n\nL'Université de Californie, Berkeley, a démontré une forte engagement en faveur de la durabilité environnementale. En effet, l'université a obtenu {{ OP5 }} points STARS sur {{ OP5 }} au crédit OP-5, niveau intermédiaire.\n\nL'université a également mis en place des initiatives pour réduire ses émissions de gaz à effet de serre. Ainsi, elle a {{ OP6 }} points STARS sur {{ OP6 }} au crédit OP-6, niveau intermédiaire.\n\nL'université a également mis en place des systèmes de gestion de l'eau pour réduire sa consommation. Ainsi, elle a {{ OP3 }} points STARS sur {{ OP3 }} au crédit OP-3, niveau faible.\n\nL'université a également mis en place des programmes de recyclage et de compostage pour réduire ses déchets. Ainsi, elle a {{ OP12 }} points STARS sur {{ OP12 }} au crédit OP-12, niveau intermédiaire.\n\nL'université a également mis en place des politiques de gestion des matériaux pour réduire son impact environnemental. Ainsi, elle a {{ OP11 }} points STARS sur {{ OP11 }} au crédit OP-11, niveau élevé.\n\nL'université a également mis en place des systèmes d'achats durables pour réduire son impact environnemental. Ainsi, elle a {{ OP9 }} points STARS sur {{ OP9 }} au crédit OP-9, niveau maximal.\n\nL'université a également mis en place des politiques de conception et de construction de bâtiments pour réduire son impact environnemental. Ainsi, elle a {{ OP1 }} points STARS sur {{ OP1 }} au crédit OP-1, niveau élevé.\n\nL'université a également mis en place des politiques d'exploitation et de maintenance des bâtiments pour réduire son impact environnemental. Ainsi, elle a {{ OP2 }} points STARS sur {{ OP2 }} au crédit OP-2, niveau élevé.\n\nL'université a également mis en place des politiques de gestion de la flotte de véhicules pour réduire son impact environnemental. Ainsi, elle a {{ OP13 }} points STARS sur {{ OP13 }} au crédit OP-13, niveau faible.\n\nL'université a également mis en place des politiques de modes de déplacement domicile-campus pour réduire son impact environnemental. Ainsi, elle a {{ OP14 }} points STARS sur {{ OP14 }} au crédit OP-14, niveau élevé.\n\nL'université a également mis en place des politiques de voyages en avion pour réduire son impact environnemental. Ainsi, elle a {{ OP15 }} points STARS sur {{ OP15 }} au crédit OP-15, niveau maximal.\n\nL'université a également mis en place des politiques de gestion écologique des espaces verts pour réduire son impact environnemental.",
-   "gen_seconds": 445.7,
-   "prompt_tokens": 3658,
-   "output_tokens": 700,
-   "raw_guard_problems": [
-    "marqueur {{ OP6 }} sans verbe de score : écris par exemple « obtient {{ OP6 }} »",
-    "marqueur {{ OP3 }} sans verbe de score : écris par exemple « obtient {{ OP3 }} »",
-    "marqueur {{ OP12 }} sans verbe de score : écris par exemple « obtient {{ OP12 }} »",
-    "marqueur {{ OP11 }} sans verbe de score : écris par exemple « obtient {{ OP11 }} »",
-    "marqueur {{ OP9 }} sans verbe de score : écris par exemple « obtient {{ OP9 }} »",
-    "marqueur {{ OP1 }} sans verbe de score : écris par exemple « obtient {{ OP1 }} »",
-    "marqueur {{ OP2 }} sans verbe de score : écris par exemple « obtient {{ OP2 }} »",
-    "marqueur {{ OP13 }} sans verbe de score : écris par exemple « obtient {{ OP13 }} »",
-    "marqueur {{ OP14 }} sans verbe de score : écris par exemple « obtient {{ OP14 }} »",
-    "marqueur {{ OP15 }} sans verbe de score : écris par exemple « obtient {{ OP15 }} »"
-   ],
+   "draft": "### Performance environnementale\n\nL'université de Californie, Berkeley, a mis en place plusieurs initiatives pour réduire son impact environnemental. Elle a notamment investi dans un système de cogénération qui fournit de l'électricité et du chauffage pour les bâtiments du campus. Ce système a été construit en {{ OP5_t8_0 }} et a permis de réduire les émissions de gaz à effet de serre.\n\nL'université a également mis en place un programme de réduction des émissions de gaz à effet de serre, qui consiste à acheter des crédits de carbone pour compenser les émissions non réduites. Cette année, les crédits de carbone ont été achetés auprès de projets de forêt en Amérique du Nord.\n\nL'université a également mis en place des programmes pour réduire la consommation d'eau. Elle a notamment installé des systèmes de récupération d'eau de pluie et a mis en place des programmes de compostage.\n\nEn matière de gestion des déchets, l'université a mis en place des programmes de recyclage et de compostage. Elle a également mis en place un programme de réduction des déchets non recyclables.\n\nL'université a également mis en place des programmes pour réduire les émissions de gaz à effet de serre liées à la chaîne d'approvisionnement. Elle a notamment mis en place un système de notation des fournisseurs pour évaluer leur impact environnemental.\n\n(GRI 101-2, GRI 101-4, GRI 101-5, GRI 302-1, GRI 302-3, GRI 303-1, GRI 303-3, GRI 305-1, GRI 305-2, GRI 305-3, GRI 305-4, GRI 305-5, GRI 306-2, GRI 306-3, GRI 306-4, GRI 306-5, GRI 308-1)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les émissions de gaz à effet de serre liées à la chaîne d'approvisionnement, car les données nécessaires n'étaient pas disponibles. De même, ce rapport ne peut pas établir les émissions de gaz à effet de serre liées à la consommation d'énergie, car les données nécessaires n'étaient pas disponibles.",
+   "gen_seconds": 601.4,
+   "prompt_tokens": 4609,
+   "output_tokens": 579,
+   "raw_guard_problems": [],
    "removed_sentences": [],
-   "guard_problems": [
-    "marqueur {{ OP6 }} sans verbe de score : écris par exemple « obtient {{ OP6 }} »",
-    "marqueur {{ OP3 }} sans verbe de score : écris par exemple « obtient {{ OP3 }} »",
-    "marqueur {{ OP12 }} sans verbe de score : écris par exemple « obtient {{ OP12 }} »",
-    "marqueur {{ OP11 }} sans verbe de score : écris par exemple « obtient {{ OP11 }} »",
-    "marqueur {{ OP9 }} sans verbe de score : écris par exemple « obtient {{ OP9 }} »",
-    "marqueur {{ OP1 }} sans verbe de score : écris par exemple « obtient {{ OP1 }} »",
-    "marqueur {{ OP2 }} sans verbe de score : écris par exemple « obtient {{ OP2 }} »",
-    "marqueur {{ OP13 }} sans verbe de score : écris par exemple « obtient {{ OP13 }} »",
-    "marqueur {{ OP14 }} sans verbe de score : écris par exemple « obtient {{ OP14 }} »",
-    "marqueur {{ OP15 }} sans verbe de score : écris par exemple « obtient {{ OP15 }} »"
-   ],
-   "lint_problems": [],
-   "gri_coverage": 0.0,
-   "lint_notes": [
-    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 101-2), (GRI 101-4), (GRI 101-5), (GRI 302-1)"
-   ]
-  },
-  {
-   "attempt": 2,
-   "draft": "#### Énergie\n\nL'université obtient {{ OP5 }}. Le campus utilise une partie de l'énergie renouvelable via le programme UC Clean Power, qui inclut des sources d'électricité certifiées et non certifiées.\n\n#### Émissions de gaz à effet de serre\n\nL'université obtient {{ OP6 }}. Les émissions de gaz à effet de serre sont compensées par des instruments de retraitement des émissions, issus de projets forestiers américains.\n\n#### Eau\n\nL'université obtient {{ OP3 }}. Le campus a mis en place un système de récupération d'eau de pluie, notamment au sein de la Haas School of Business.\n\n#### Déchets\n\nL'université obtient {{ OP12 }}. Le campus a mis en place un système de compostage industriel.\n\n#### Matériaux\n\nL'université obtient {{ OP11 }}. Le campus a mis en place un système de gestion des matériaux, notamment via l'intégration de la collecte séparée des déchets.\n\n#### Système d'achats durables\n\nL'université obtient {{ OP9 }}. Le campus a mis en place un système de réduction des émissions de carbone dans la chaîne d'approvisionnement.\n\n#### Conception et construction des bâtiments\n\nL'université obtient {{ OP1 }}. Le campus a mis en place des bâtiments répondant aux normes LEED-EBOM.\n\n#### Exploitation et maintenance des bâtiments\n\nL'université obtient {{ OP2 }}.\n\n#### Flotte de véhicules\n\nL'université obtient {{ OP13 }}. Le campus a mis en place une flotte de véhicules, dont une partie est considérée comme verte.\n\n#### Modes de déplacement domicile-campus\n\nL'université obtient {{ OP14 }}. Le campus a mis en place des modes de déplacement durables.\n\n#### Voyages en avion\n\nL'université obtient {{ OP15 }}. Le campus a mis en place des mesures pour réduire les émissions de gaz à effet de serre liées aux voyages en avion.\n\n#### Gestion écologique des espaces verts\n\nL'université obtient {{ OP4 }}. Le campus a mis en place des espaces verts gérés de manière écologique.\n\n#### Évaluation de la biodiversité\n\nL'université obtient {{ IL24 }}. Le campus a mis en place une évaluation de la biodiversité, notamment via le plan de gestion des feux de végétation.\n\n#### Part des points STARS obtenus dans le pilier Environnement\n\nL'université obtient {{ ENV }} % des points STARS du pilier Environnement, niveau intermédiaire.\n\n#### Pourcentage de la flotte de véhicules considérée comme verte\n\nLe campus a mis en place une flotte de véhicules, dont plus de {{ OP13_t0_0 }} est considérée comme verte.",
-   "gen_seconds": 506.7,
-   "prompt_tokens": 3940,
-   "output_tokens": 687,
-   "raw_guard_problems": [
-    "marqueur {{ ENV }} suivi de « % » : c'est un score STARS complet, pas un nombre à compléter"
-   ],
-   "removed_sentences": [
-    "L'université obtient {{ ENV }} % des points STARS du pilier Environnement, niveau intermédiaire."
-   ],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 0.0,
-   "lint_notes": [
-    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 101-2), (GRI 101-4), (GRI 101-5), (GRI 302-1)"
-   ],
-   "rendered": "#### Énergie\n\nL'université obtient 6,87 points STARS sur 10 au crédit OP-5, niveau intermédiaire. Le campus utilise une partie de l'énergie renouvelable via le programme UC Clean Power, qui inclut des sources d'électricité certifiées et non certifiées.\n\n#### Émissions de gaz à effet de serre\n\nL'université obtient 8,01 points STARS sur 16 au crédit OP-6, niveau intermédiaire. Les émissions de gaz à effet de serre sont compensées par des instruments de retraitement des émissions, issus de projets forestiers américains.\n\n#### Eau\n\nL'université obtient 2,43 points STARS sur 7 au crédit OP-3, niveau faible. Le campus a mis en place un système de récupération d'eau de pluie, notamment au sein de la Haas School of Business.\n\n#### Déchets\n\nL'université obtient 3,27 points STARS sur 5 au crédit OP-12, niveau intermédiaire. Le campus a mis en place un système de compostage industriel.\n\n#### Matériaux\n\nL'université obtient 3,75 points STARS sur 4 au crédit OP-11, niveau élevé. Le campus a mis en place un système de gestion des matériaux, notamment via l'intégration de la collecte séparée des déchets.\n\n#### Système d'achats durables\n\nL'université obtient 7 points STARS sur 7 au crédit OP-9, niveau maximal. Le campus a mis en place un système de réduction des émissions de carbone dans la chaîne d'approvisionnement.\n\n#### Conception et construction des bâtiments\n\nL'université obtient 2,91 points STARS sur 3 au crédit OP-1, niveau élevé. Le campus a mis en place des bâtiments répondant aux normes LEED-EBOM.\n\n#### Exploitation et maintenance des bâtiments\n\nL'université obtient 4 points STARS sur 5 au crédit OP-2, niveau élevé.\n\n#### Flotte de véhicules\n\nL'université obtient 0,28 point STARS sur 2 au crédit OP-13, niveau faible. Le campus a mis en place une flotte de véhicules, dont une partie est considérée comme verte.\n\n#### Modes de déplacement domicile-campus\n\nL'université obtient 4,89 points STARS sur 6 au crédit OP-14, niveau élevé. Le campus a mis en place des modes de déplacement durables.\n\n#### Voyages en avion\n\nL'université obtient 2 points STARS sur 2 au crédit OP-15, niveau maximal. Le campus a mis en place des mesures pour réduire les émissions de gaz à effet de serre liées aux voyages en avion.\n\n#### Gestion écologique des espaces verts\n\nL'université obtient 5 points STARS sur 5 au crédit OP-4, niveau maximal. Le campus a mis en place des espaces verts gérés de manière écologique.\n\n#### Évaluation de la biodiversité\n\nL'université obtient 1 point STARS sur 1 au crédit IL-24, niveau maximal. Le campus a mis en place une évaluation de la biodiversité, notamment via le plan de gestion des feux de végétation.\n\n#### Part des points STARS obtenus dans le pilier Environnement\n\n#### Pourcentage de la flotte de véhicules considérée comme verte\n\nLe campus a mis en place une flotte de véhicules, dont plus de 35 % est considérée comme verte.",
+   "gri_coverage": 1.0,
+   "lint_notes": [],
+   "rendered": "### Performance environnementale\n\nL'université de Californie, Berkeley, a mis en place plusieurs initiatives pour réduire son impact environnemental. Elle a notamment investi dans un système de cogénération qui fournit de l'électricité et du chauffage pour les bâtiments du campus. Ce système a été construit en 1987 et a permis de réduire les émissions de gaz à effet de serre.\n\nL'université a également mis en place un programme de réduction des émissions de gaz à effet de serre, qui consiste à acheter des crédits de carbone pour compenser les émissions non réduites. Cette année, les crédits de carbone ont été achetés auprès de projets de forêt en Amérique du Nord.\n\nL'université a également mis en place des programmes pour réduire la consommation d'eau. Elle a notamment installé des systèmes de récupération d'eau de pluie et a mis en place des programmes de compostage.\n\nEn matière de gestion des déchets, l'université a mis en place des programmes de recyclage et de compostage. Elle a également mis en place un programme de réduction des déchets non recyclables.\n\nL'université a également mis en place des programmes pour réduire les émissions de gaz à effet de serre liées à la chaîne d'approvisionnement. Elle a notamment mis en place un système de notation des fournisseurs pour évaluer leur impact environnemental.\n\n(GRI 101-2, GRI 101-4, GRI 101-5, GRI 302-1, GRI 302-3, GRI 303-1, GRI 303-3, GRI 305-1, GRI 305-2, GRI 305-3, GRI 305-4, GRI 305-5, GRI 306-2, GRI 306-3, GRI 306-4, GRI 306-5, GRI 308-1)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir les émissions de gaz à effet de serre liées à la chaîne d'approvisionnement, car les données nécessaires n'étaient pas disponibles. De même, ce rapport ne peut pas établir les émissions de gaz à effet de serre liées à la consommation d'énergie, car les données nécessaires n'étaient pas disponibles.",
    "used_facts": [
-    "IL24_max",
-    "IL24_score",
-    "OP11_max",
-    "OP11_score",
-    "OP12_max",
-    "OP12_score",
-    "OP13_max",
-    "OP13_score",
-    "OP13_t0_0",
-    "OP14_max",
-    "OP14_score",
-    "OP15_max",
-    "OP15_score",
-    "OP1_max",
-    "OP1_score",
-    "OP2_max",
-    "OP2_score",
-    "OP3_max",
-    "OP3_score",
-    "OP4_max",
-    "OP4_score",
-    "OP5_max",
-    "OP5_score",
-    "OP6_max",
-    "OP6_score",
-    "OP9_max",
-    "OP9_score"
+    "OP5_t8_0"
    ],
    "trace_problems": [],
    "used_markers": [
-    "IL24",
-    "OP1",
-    "OP11",
-    "OP12",
-    "OP13",
-    "OP13_t0_0",
-    "OP14",
-    "OP15",
-    "OP2",
-    "OP3",
-    "OP4",
-    "OP5",
-    "OP6",
-    "OP9"
+    "OP5_t8_0"
    ],
    "judge": {
     "claims": [
      {
-      "claim": "L'université obtient 6,87 points STARS sur 10 au crédit OP-5, niveau intermédiaire.",
+      "claim": "L'université de Californie, Berkeley, a mis en place plusieurs initiatives pour réduire son impact environnemental.",
       "supported": true
      },
      {
-      "claim": "Le campus utilise une partie de l'énergie renouvelable via le programme UC Clean Power, qui inclut des sources d'électricité certifiées et [",
-      "supported": false
-     },
-     {
-      "claim": "L'université obtient 8,01 points STARS sur 16 au crédit OP-6, niveau intermédiaire.",
+      "claim": "Elle a notamment investi dans un système de cogénération qui fournit de l'électricité et du chauffage pour les bâtiments du campus.",
       "supported": true
      },
      {
-      "claim": "Les émissions de gaz à effet de serre sont compensées par des instruments de retraitement des émissions, issus de projets forestiers améric[",
+      "claim": "Ce système a été construit en 1987 et a permis de réduire les émissions de gaz à effet de serre.",
       "supported": true
      },
      {
-      "claim": "L'université obtient 2,43 points STARS sur 7 au crédit OP-3, niveau faible.",
+      "claim": "L'université a également mis en place un programme de réduction des émissions de gaz à effet de serre, qui consiste à acheter des crédits de",
       "supported": true
      },
      {
-      "claim": "Le campus a mis en place un système de récupération d'eau de pluie, notamment au sein de la Haas School of Business.",
+      "claim": "Cette année, les crédits de carbone ont été achetés auprès de projets de forêt en Amérique du Nord.",
+      "supported": true
+     },
+     {
+      "claim": "L'université a également mis en place des programmes pour réduire la consommation d'eau.",
       "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport dit que le campus a mis en place une flotte de véhicules, dont plus de 35 % est considérée comme verte, mais le GRI STATUS LIST dit que GRI 303-1 est partiellement rapporté."
+     "Le rapport mentionne que les données nécessaires pour établir les émissions de gaz à effet de serre liées à la chaîne d'approvisionnement n'étaient pas disponibles, mais il ne mentionne pas que ce qui"
     ],
     "score": 4,
-    "feedback": "Supprimer la phrase \"Le campus a mis en place une flotte de véhicules, dont plus de 35 % est considérée comme verte.\" et remplacer par \"Le rapport ne peut pas établir la proportion de la flotte de véhicules considérée comme verte.\"",
-    "faithfulness": 0.83,
-    "seconds": 320.6,
+    "feedback": "Il faut supprimer les phrases qui mentionnent que les données nécessaires n'étaient pas disponibles, car cela va à l'encontre des règles. Par exemple, la phrase 'Ce rapport ne peut pas établir les émissions de gaz à effet de serre liées à la chaîne d'approvisionnement, car les données nécessaires n'étaient pas disponibles.' doit être supprimée.",
+    "faithfulness": 1.0,
+    "seconds": 446.7,
     "discarded_violations": [],
     "accepted": true
    }
@@ -190,11 +80,23 @@
  "evidence": [
   {
    "credit": "OP-5",
+   "text": "At the center of Berkeley's current energy system is a gas-fired cogeneration plant, which is the primary source for electricity and heating for campus buildings. Built in {{ OP5_t8_0 }}, the cogeneration plant produces both electricity and steam."
+  },
+  {
+   "credit": "OP-5",
    "text": "As per AASHE, the solar portion of UC Clean Power Program's portfolio is reported as electricity from certified off-site renewable sources in section and the large hydro portion of UC Clean Power Program's portfolio should be reported as electricity from uncertified off-site renewable sources in section."
   },
   {
    "credit": "OP-6",
    "text": "Each year, the University allocates offsets according to the total Greenhouse Gas (GHG) emissions under the Cap and Trade program by campus, with an adjustment for UC Davis and UC Davis Medical Center to account for operational control. This year the retired offset compliance instruments are from U.S. Forest Projects."
+  },
+  {
+   "credit": "OP-6",
+   "text": "UC Berkeley reports on emissions sources and analyzes emissions in different categories:Scope - Direct Emissions: natural gas from the campus cogeneration (heating and cooling) plant, purchased natural gas, emergency generators, campus fleet, emissions from refrigerantsScope - Indirect Emissions: purchased electricityS"
+  },
+  {
+   "credit": "OP-3",
+   "text": "UC Berkeley benchmarks water recovery efforts using tools aligned with its Sustainable Building Guidelines and Campus Design Standards. These frameworks provide parameters for estimating water savings, tracking performance, and refining water recovery models over time. Buildings equipped with water meters supply real-t"
   },
   {
    "credit": "OP-3",
@@ -206,11 +108,19 @@
   },
   {
    "credit": "OP-11",
+   "text": "Our campus has reusables at all dining and most retail locations. We are working on phasing out all single use plastics and compostable plastics to fiber or reusables for to go options. We just initiated a reusable cup program at the California Memorial stadium for football this season."
+  },
+  {
+   "credit": "OP-11",
    "text": "UC Berkeley campus has integrated composting into all of our collection systems and its sent to an industrial compost facility."
   },
   {
    "credit": "OP-9",
-   "text": "Reduce carbon emissions and carbon impacts in the supply chain."
+   "text": "Sustainable Procurement Guidelines mandate {{ OP9_t2_0 }} of RFP/RFQ comply with sustainability requirements."
+  },
+  {
+   "credit": "OP-9",
+   "text": "UC Berkeley utilizes EcoVadis to assess sustainabiltiy characteristics of its suppliers and Sustainabiltiy Policy adn Guidelines to identify green products, which include requred and prefered sutainabiltiy certifications."
   },
   {
    "credit": "OP-1",
@@ -221,8 +131,32 @@
    "text": "LEED-EBOM (Existing Buildings: Operations & Maintenance): Many campus buildings meet LEED-EBOM standards, which emphasize green cleaning practices that contribute to overall building sustainability, including the use of sustainable materials, improved air quality, and waste reduction strategies."
   },
   {
+   "credit": "OP-2",
+   "text": "Energy performance is tracked and assessed at the building level on at least an annual basis to locate inefficiency and confirm persistence of performance from recent improvements. Tools to support these assessments include benchmarking platform (ENERGY STAR Portfolio Manager), energy management systems, and building p"
+  },
+  {
    "credit": "OP-13",
-   "text": "More than {{ OP13_t0_0 }} of the campus fleet is considered green including our flex-fuel gasoline/E vehicles (not included above). The campus owns several vehicles that are partial zero-emission vehicles (option not included above). Additionally, electric carts are used on campus but are not considered part of the fleet if they do not require street legal licensing.The information in this section was provided by the campus Fleet Services coordinator."
+   "text": "More than {{ OP13_t0_0 }} of the campus fleet is considered green including our flex-fuel gasoline/E vehicles (not included above). The campus owns several vehicles that are partial zero-emission vehicles (option not included above). Additionally, electric carts are used on campus but are not considered part of the fle"
+  },
+  {
+   "credit": "OP-14",
+   "text": "Every year the campus conducts a transportation survey on campus that includes determining mode split. The survey is distributed to the entire campus or from a representative sample via email. The surveys consistently have a statistically supported response. The data included here is from the survey from November "
+  },
+  {
+   "credit": "OP-14",
+   "text": "Every year the campus conducts a transportation survey on campus that includes determining mode split. The survey is distributed to the entire campus or from a representative sample via email. The surveys consistently have a statistically supported response. The data included here is from the survey from November "
+  },
+  {
+   "credit": "OP-15",
+   "text": "Air travel data for FY was analyzed by unit/department, with individual emissions calculated and compared across departments. Additionally, the data was broken down by employee, distinguishing between domestic and international flights and their respective emissions. Recommendations were provided on how to reduce emiss"
+  },
+  {
+   "credit": "OP-15",
+   "text": "UC Berkeley Travel Site has clear guidance on reducing air travel emissions:"
+  },
+  {
+   "credit": "OP-4",
+   "text": "All campus area is managed organically (without inorganic fertilizers, fungicides or pesticides) with the exception of less than {{ OP4_t0_0 }} of the land where inorganic materials are used selectively to treat wood stumps and newly weeded areas. Selective chemicals are used when there are no effective organic alterna"
   },
   {
    "credit": "IL-24",

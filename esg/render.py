@@ -16,7 +16,7 @@ from pathlib import Path
 
 import markdown
 
-from esg import docx_export, facts, gri_index, guard, names, review, sources
+from esg import docx_export, facts, generate, gri_index, guard, markers, names, review, sources, style
 from esg.config import GEN_MODEL, INSTITUTIONS, OUTPUTS, PROCESSED, report_url
 
 PILLAR_ORDER = [("ENV", "Environnement"), ("SOC", "Social"), ("GOV", "Gouvernance"),
@@ -167,16 +167,25 @@ def frameworks_md() -> str:
 
 
 def validation_md(results: list[dict], key: str = "") -> str:
+    essais = {1: "un essai", 2: "deux essais", 3: "trois essais"}.get(generate.MAX_ATTEMPTS,
+                                                                    f"{generate.MAX_ATTEMPTS} essais")
     md = ["Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → "
-          "substitution par le code → audit par le juge → régénération si refus (trois tentatives au plus).", "",
-          "| Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |",
-          "|---|---|:-:|:-:|:-:|:-:|:-:|--:|"]
+          f"substitution par le code → audit par le juge → régénération si refus ({essais} au plus ; "
+          "sinon texte de repli écrit par le code).", "",
+          "| Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Codes GRI cités dans le texte "
+          "| Publications GRI avec données (index) | Durée |",
+          "|---|---|:-:|:-:|:-:|:-:|:-:|:-:|--:|"]
     for r in results:
         md.append(
             f"| {esc(r['title'])} | {badge(r['decision'], DECISION_CLASS[r['decision']])} | {r['attempts']} | "
             f"{r['guard_rejections']} | {r['judge_score'] if r['judge_score'] else '—'}/5 | "
             f"{'' if r['faithfulness'] is None else f'{r['faithfulness']:.0%}'} | "
-            f"{'' if r['gri_coverage'] is None else f'{r['gri_coverage']:.0%}'} | {r['seconds'] / 60:.1f} min |")
+            f"{'—' if r['gri_coverage'] is None or not gri_with_data(key, r['section'])[1] else f'{r['gri_coverage']:.0%}'} | "
+            f"{index_cell(key, r['section'])} | {r['seconds'] / 60:.1f} min |")
+    md += ["", "*« Codes GRI cités dans le texte » : part des publications GRI de la section dont le code (par exemple "
+               "GRI 305-1) est cité dans le texte rédigé ; c'est une mesure de citation, pas de couverture des données. "
+               "« Publications GRI avec données » : publications de la section rapportées ou partiellement rapportées "
+               "dans l'index de contenu GRI, sur le total de la section.*"]
     ok = sum(r["decision"] == "validée" for r in results)
     faiths = [r["faithfulness"] for r in results if r["faithfulness"] is not None]
     md += ["", f"**Bilan :** {ok} section(s) validée(s) sur {len(results)} ; fidélité moyenne "
@@ -203,6 +212,51 @@ def validation_md(results: list[dict], key: str = "") -> str:
             for claim in r["unsupported_claims"]:
                 md.append(f"- *{esc(r['title'])}* : « {esc(claim)} »")
     return "\n".join(md)
+
+
+def gri_with_data(key: str, sec_id: str) -> tuple[int, int]:
+    """(publications rapportées ou partiellement rapportées, total) pour une section, d'après l'index GRI."""
+    if not key or sec_id not in {s["id"] for s in gri_index.load_map()["sections"]}:
+        return 0, 0
+    codes = gri_index.section(sec_id)["disclosures"]
+    return sum(gri_index.entry(key, c).status in ("reported", "partial") for c in codes), len(codes)
+
+
+def index_cell(key: str, sec_id: str) -> str:
+    n, total = gri_with_data(key, sec_id)
+    return f"{n} sur {total}" if total else "—"
+
+
+STRONG, WEAK = 0.75, 0.40          # point fort : 75 % des points ou plus ; à améliorer : moins de 40 %
+
+
+def classify(ratio: float) -> str:
+    return "fort" if ratio >= STRONG else ("faible" if ratio < WEAK else "partiel")
+
+
+def strengths_md(key: str, sec_id: str) -> str:
+    """Paragraphe « Points forts et points à améliorer », écrit par le code à partir de la table des faits."""
+    f, labels = facts.load(key), markers.labels_fr()
+    groups = {"fort": [], "partiel": [], "faible": []}
+    for c in gri_index.section(sec_id)["credits"]:
+        v = facts.credit_var(c)
+        if f"{v}_score" not in f:
+            continue
+        score, mx = f[f"{v}_score"], f[f"{v}_max"]
+        ratio = float(score["number"]) / float(mx["number"])
+        name = labels.get(c, score["label"].split("— ", 1)[-1]).split(" (")[0]
+        groups[classify(ratio)].append((ratio, f"{c} {name} ({score['display']} sur {mx['display']})"))
+    if not any(groups.values()):
+        return ""
+    def items(g, reverse):
+        return " ; ".join(t for _, t in sorted(groups[g], key=lambda x: x[0], reverse=reverse)) or "aucun"
+    return "\n".join([
+        "#### Points forts et points à améliorer", "",
+        "*Calculé par le code à partir des scores STARS de la section, sans texte du modèle (point fort : 75 % "
+        "des points ou plus ; à améliorer : moins de 40 % ; entre les deux : partiellement atteint).*", "",
+        f"- **Points forts** : {items('fort', True)}.",
+        f"- **Partiellement atteints** : {items('partiel', True)}.",
+        f"- **À améliorer** : {items('faible', False)}."])
 
 
 def section_indicators(key: str, sec_id: str) -> tuple[str, list[str]]:
@@ -276,7 +330,10 @@ def report_md(key: str, results: list[dict]) -> str:
         for c in missing:
             print(f"   ATTENTION relecture : passage introuvable dans {key}/{r['section']} "
                   f"(texte régénéré depuis ?) : « {c['avant'][:70]} »")
-        parts.append(names.normalize(key, guard.tidy(guard.drop_marker_echo(text), r["title"])))
+        parts.append(style.clean(names.normalize(key, guard.tidy(guard.drop_marker_echo(text), r["title"]))))
+        strengths = strengths_md(key, r["section"])                  # écrit par le code : exact sans relecture
+        if strengths:
+            parts += ["", strengths]
     parts += ["", "## Index de contenu GRI", "", gri_index_md(key),
               "", "## Annexe — Correspondance STARS → GRI, TCFD, ESRS", "", frameworks_md(),
               "", "## Annexe — Validation du rapport", "", validation_md(results, key),
@@ -310,7 +367,8 @@ def comparison_md(comp: dict) -> str:
            "", "## Analyse", ""]
     if comp["decision"] == "à relire":
         md.append('<p class="review">Section à relire : validation automatique incomplète.</p>')
-    md += [names.normalize_all(guard.tidy(guard.drop_marker_echo(comp["text"]), comp["title"])), "", "## Validation", "",
+    md += [style.clean(names.normalize_all(guard.tidy(guard.drop_marker_echo(comp["text"]), comp["title"]))), "",
+           "## Validation", "",
            validation_md([comp])]
     return "\n".join(md)
 

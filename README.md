@@ -83,6 +83,7 @@ le dépôt (`data/raw/`) : aucun téléchargement supplémentaire n'est nécessa
 .venv\Scripts\python -m esg.pipeline --dry-run          # chaîne complète sans LLM (écrit dans outputs\essai_sans_llm\)
 .venv\Scripts\python -m esg.chat                        # assistant de questions-réponses
 .venv\Scripts\python -m esg.chat "Compare Cork et TU Dublin sur les déchets"
+.venv\Scripts\python -m esg.chat "génère le rapport de Cork"   # rapport validé, rendu depuis le cache (sans LLM) ; « régénère … avec Ollama » demande confirmation
 .venv\Scripts\python -m esg.demo                        # démonstration du garde-fou (instantanée)
 .venv\Scripts\python -m esg.demo --juge                 # + test du juge sur un texte volontairement faux
 .venv\Scripts\python -m esg.verify_univ 2026           # 10 chiffres par université comparés au CSV

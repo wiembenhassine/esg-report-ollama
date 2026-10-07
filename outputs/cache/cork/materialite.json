@@ -1,87 +1,83 @@
 {
- "prompt_hash": "88838c83efb44c30",
- "round": 0,
+ "prompt_hash": "52ccc5758436ae1a",
+ "round": 1,
  "decision": "validée",
- "text": "### Thèmes matériels\n\nCes domaines sont définis par STARS et sont identiques pour toutes les institutions.\n\nL'université a mis en place la Stratégie de durabilité et d'action climatique (Sustainability and Climate Action Plan) pour atteindre ses objectifs. Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations du campus, la recherche, l'enseignement et les interactions avec la communauté.\n\nL'université a également mis en place des objectifs spécifiques, notamment devenir un campus sans déchets (zero waste campus) d'ici 2030 et un campus neutre en carbone (carbon neutral campus) d'ici 2030.\n\nL'université a également mis en place des plans pour réduire ses émissions de gaz à effet de serre (GHG) de 51 % d'ici 2030.\n\nL'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la stratégie d'égalité, de diversité et d'inclusion (EDI), la stratégie d'enseignement et d'apprentissage, et la stratégie de recherche.\n\nL'université a également mis en place des plans pour exposer les étudiants à l'agenda de durabilité mondiale à travers leur formation ou leur éducation informelle.\n\n(GRI 3-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a mis en place des plans pour réduire ses émissions de GHG au-delà de 51 %.\n\n(GRI 3-3)",
+ "text": "### Thèmes matériels\n\nL'université obtient 5,67 points STARS sur 6 au crédit PA-2, niveau élevé. Le plan de durabilité et d'action climatique de l'université, établi en 2023, comprend plusieurs objectifs concernant les opérations sur le campus, notamment la réduction des déchets, la gestion des eaux usées et la réduction de l'énergie.\n\nLe plan de durabilité et d'action climatique de l'université, établi en 2023, comprend également des objectifs concernant la réduction des émissions de gaz à effet de serre, la promotion de la mobilité durable et la gestion des ressources naturelles.\n\nL'université a également établi un programme de durabilité qui s'aligne sur les stratégies de l'université, notamment la stratégie de l'université en matière de développement durable, de l'égalité, de la diversité et de l'inclusion (EDI), de l'enseignement et de l'apprentissage, et de la recherche.\n\n(GRI 3-2, GRI 3-3)",
  "used_facts": [
-  "PA2_t0_3",
-  "PA2_t1_0",
-  "PA2_t1_1"
+  "PA2_max",
+  "PA2_score",
+  "PA2_t11_0",
+  "PA2_t2_0"
  ],
- "judge_score": 4,
- "faithfulness": 0.83,
+ "judge_score": 2,
+ "faithfulness": 1.0,
  "gri_coverage": 1.0,
- "unsupported_claims": [
-  "L'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la"
+ "unsupported_claims": [],
+ "discarded_violations": [
+  "Le rapport prétend à la complianc avec GRI, mais GRI 3-1, GRI 3-2 et GRI 3-3 ne sont pas rapportés."
  ],
- "discarded_violations": [],
  "attempts": 1,
  "guard_rejections": 0,
- "seconds": 515.8,
+ "seconds": 453.2,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Thèmes matériels\n\nL'Université College Cork (UCC) a identifié cinq domaines d'objectifs pour atteindre ses objectifs de durabilité. Ces domaines sont définis par STARS et sont identiques pour toutes les institutions.\n\nL'université a mis en place la Stratégie de durabilité et d'action climatique (Sustainability and Climate Action Plan) pour atteindre ses objectifs. Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations du campus, la recherche, l'enseignement et les interactions avec la communauté.\n\nL'université a également mis en place des objectifs spécifiques, notamment devenir un campus sans déchets (zero waste campus) d'ici {{ PA2_t0_3 }} et un campus neutre en carbone (carbon neutral campus) d'ici {{ PA2_t1_1 }}.\n\nL'université a également mis en place des plans pour réduire ses émissions de gaz à effet de serre (GHG) de {{ PA2_t1_0 }} d'ici {{ PA2_t1_1 }}.\n\nL'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la stratégie d'égalité, de diversité et d'inclusion (EDI), la stratégie d'enseignement et d'apprentissage, et la stratégie de recherche.\n\nL'université a également mis en place des plans pour exposer les étudiants à l'agenda de durabilité mondiale à travers leur formation ou leur éducation informelle.\n\n(GRI 3-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a mis en place des plans pour réduire ses émissions de GHG au-delà de {{ PA2_t1_0 }}.\n\n(GRI 3-3)",
-   "gen_seconds": 266.4,
-   "prompt_tokens": 2741,
-   "output_tokens": 439,
+   "draft": "### Thèmes matériels\n\nL'université a identifié les cinq domaines d'objectifs suivants, conformes aux normes STARS : Engagement et planification, Émissions de gaz à effet de serre, Eau, Matières premières et énergie, et Impact sur la biodiversité et les écosystèmes.\n\nL'université obtient {{ PA2 }}. Le plan de durabilité et d'action climatique de l'université, établi en {{ PA2_t11_0 }}, comprend plusieurs objectifs concernant les opérations sur le campus, notamment la réduction des déchets, la gestion des eaux usées et la réduction de l'énergie.\n\nLe plan de durabilité et d'action climatique de l'université, établi en {{ PA2_t2_0 }}, comprend également des objectifs concernant la réduction des émissions de gaz à effet de serre, la promotion de la mobilité durable et la gestion des ressources naturelles.\n\nL'université a également établi un programme de durabilité qui s'aligne sur les stratégies de l'université, notamment la stratégie de l'université en matière de développement durable, de l'égalité, de la diversité et de l'inclusion (EDI), de l'enseignement et de l'apprentissage, et de la recherche.\n\n(GRI 3-2, GRI 3-3)",
+   "gen_seconds": 217.7,
+   "prompt_tokens": 1883,
+   "output_tokens": 322,
    "raw_guard_problems": [
     "nombre écrit en lettres : 'cinq'"
    ],
    "removed_sentences": [
-    "L'Université College Cork (UCC) a identifié cinq domaines d'objectifs pour atteindre ses objectifs de durabilité."
+    "L'université a identifié les cinq domaines d'objectifs suivants, conformes aux normes STARS : Engagement et planification, Émissions de gaz à effet de serre, Eau, Matières premières et énergie, et Impact sur la biodiversité et les écosystèmes."
    ],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 1.0,
-   "lint_notes": [],
-   "rendered": "### Thèmes matériels\n\nCes domaines sont définis par STARS et sont identiques pour toutes les institutions.\n\nL'université a mis en place la Stratégie de durabilité et d'action climatique (Sustainability and Climate Action Plan) pour atteindre ses objectifs. Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations du campus, la recherche, l'enseignement et les interactions avec la communauté.\n\nL'université a également mis en place des objectifs spécifiques, notamment devenir un campus sans déchets (zero waste campus) d'ici 2030 et un campus neutre en carbone (carbon neutral campus) d'ici 2030.\n\nL'université a également mis en place des plans pour réduire ses émissions de gaz à effet de serre (GHG) de 51 % d'ici 2030.\n\nL'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la stratégie d'égalité, de diversité et d'inclusion (EDI), la stratégie d'enseignement et d'apprentissage, et la stratégie de recherche.\n\nL'université a également mis en place des plans pour exposer les étudiants à l'agenda de durabilité mondiale à travers leur formation ou leur éducation informelle.\n\n(GRI 3-2)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si l'université a mis en place des plans pour réduire ses émissions de GHG au-delà de 51 %.\n\n(GRI 3-3)",
+   "lint_notes": [
+    "longueur de 128 mots : vise 180 à 300 mots"
+   ],
+   "rendered": "### Thèmes matériels\n\nL'université obtient 5,67 points STARS sur 6 au crédit PA-2, niveau élevé. Le plan de durabilité et d'action climatique de l'université, établi en 2023, comprend plusieurs objectifs concernant les opérations sur le campus, notamment la réduction des déchets, la gestion des eaux usées et la réduction de l'énergie.\n\nLe plan de durabilité et d'action climatique de l'université, établi en 2023, comprend également des objectifs concernant la réduction des émissions de gaz à effet de serre, la promotion de la mobilité durable et la gestion des ressources naturelles.\n\nL'université a également établi un programme de durabilité qui s'aligne sur les stratégies de l'université, notamment la stratégie de l'université en matière de développement durable, de l'égalité, de la diversité et de l'inclusion (EDI), de l'enseignement et de l'apprentissage, et de la recherche.\n\n(GRI 3-2, GRI 3-3)",
    "used_facts": [
-    "PA2_t0_3",
-    "PA2_t1_0",
-    "PA2_t1_1"
+    "PA2_max",
+    "PA2_score",
+    "PA2_t11_0",
+    "PA2_t2_0"
    ],
    "trace_problems": [],
    "used_markers": [
-    "PA2_t0_3",
-    "PA2_t1_0",
-    "PA2_t1_1"
+    "PA2",
+    "PA2_t11_0",
+    "PA2_t2_0"
    ],
    "judge": {
     "claims": [
      {
-      "claim": "L'université a mis en place la Stratégie de durabilité et d'action climatique (Sustainability and Climate Action Plan) pour atteindre ses ob",
+      "claim": "L'université obtient 5,67 points STARS sur 6 au crédit PA-2, niveau élevé.",
       "supported": true
      },
      {
-      "claim": "Cette stratégie vise à intégrer les objectifs de durabilité dans toutes les activités de l'université, notamment dans les opérations du camp",
+      "claim": "Le plan de durabilité et d'action climatique de l'université, établi en 2023, comprend plusieurs objectifs concernant les opérations sur le ",
       "supported": true
      },
      {
-      "claim": "L'université a également mis en place des objectifs spécifiques, notamment devenir un campus sans déchets (zero waste campus) d'ici 2030",
+      "claim": "Le plan de durabilité et d'action climatique de l'université, établi en 2023, comprend également des objectifs concernant la réduction des é",
       "supported": true
      },
      {
-      "claim": "L'université a également mis en place des plans pour réduire ses émissions de gaz à effet de serre (GHG) de 51 % d'ici 2030",
-      "supported": true
-     },
-     {
-      "claim": "L'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la",
-      "supported": false
-     },
-     {
-      "claim": "L'université a également mis en place des plans pour exposer les étudiants à l'agenda de durabilité mondiale à travers leur formation ou",
+      "claim": "L'université a également établi un programme de durabilité qui s'aligne sur les stratégies de l'université, notamment la stratégie de l'un",
       "supported": true
      }
     ],
-    "rule_violations": [
-     "L'acronyme EDI est utilisé sans être défini dans les ACRONYMS"
+    "rule_violations": [],
+    "score": 2,
+    "feedback": "",
+    "faithfulness": 1.0,
+    "seconds": 234.7,
+    "discarded_violations": [
+     "Le rapport prétend à la complianc avec GRI, mais GRI 3-1, GRI 3-2 et GRI 3-3 ne sont pas rapportés."
     ],
-    "score": 4,
-    "feedback": "Supprimer la mention de l'acronyme EDI et le définir dans les ACRONYMS. Remplacer la phrase \"L'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, notamment la stratégie d'égalité, de diversité et d'inclusion (EDI), la stratégie d'enseignement et d'apprentissage, et la stratégie de recherche.\" par \"L'université a également mis en place des plans pour aligner son programme de durabilité avec les stratégies de l'université, en",
-    "faithfulness": 0.83,
-    "seconds": 249.2,
-    "discarded_violations": [],
     "accepted": true
    }
   }
@@ -100,35 +96,7 @@
   },
   {
    "credit": "PA-2",
-   "text": "The Sustainability and Climate Action Plan ( {{ PA2_t0_0 }} - {{ PA2_t0_1 }} ) builds on the successes of UCC's Sustainability Strategy ( {{ PA2_t0_2 }} ) and sets out how UCC will continue to embed sustainability goals and targets across all aspects of the University's educational, research, ancillary operations, infrastructural developments and interactions with the community. This plan seeks to help us as a university navigate this path and help shape and inspire a world that protects our environment and our society and furthers University College Cork's commitment to a sustainable future. UCC aims to achieve significant targets including becoming a zero waste campus by {{ PA2_t0_3 }} and"
-  },
-  {
-   "credit": "PA-2",
    "text": "Within the University's Sustainability and Climate Action Plan {{ PA2_t17_0 }} -, UCC has committed to align UCC sustainability programme with relevant UCC strategies including Community Engagement, EDI, teaching and learning and research strategies."
-  },
-  {
-   "credit": "PA-2",
-   "text": "- Align UCC sustainability programme with relevant UCC strategies including Community Engagement, EDI, teaching and learning and research strategies."
-  },
-  {
-   "credit": "PA-2",
-   "text": "Within the University's Sustainability and Climate Action Plan {{ PA2_t18_0 }} -, UCC has committed to:"
-  },
-  {
-   "credit": "PA-2",
-   "text": "- Ensure every student at UCC is exposed to the global sustainability agenda through either their formal or informal education."
-  },
-  {
-   "credit": "PA-2",
-   "text": "- Capitalise on funding opportunities to deliver carbon reduction programmes and see the UCC campus act as a Living Laboratory for solutions to climate change."
-  },
-  {
-   "credit": "PA-2",
-   "text": "- Connect different elements of sustainability across UCC to add value and better communicate our impact."
-  },
-  {
-   "credit": "PA-2",
-   "text": "UCC is required by the Irish government to reduce our absolute GHG emissions by {{ PA2_t1_0 }} by {{ PA2_t1_1 }}. The University must produce annual roadmaps outlining how it intends to achieve these targets. UCC's most recent Climate Action Roadmap can be viewed here:"
   }
  ]
 }

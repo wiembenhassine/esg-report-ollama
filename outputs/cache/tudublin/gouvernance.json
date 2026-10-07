@@ -1,45 +1,103 @@
 {
- "prompt_hash": "edd75fe4f876a317",
- "round": 0,
+ "prompt_hash": "530ef794660b04ce",
+ "round": 1,
  "decision": "validée",
- "text": "### Gouvernance\n\nL'université obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal. \n\nLa gouvernance de l'université est assurée par le Technological Universities Act 2018, qui impose la représentation des étudiants dans les organes de gouvernance. Le site web de l'Union des étudiants (SU) liste diverses instances où les étudiants sont représentés. Le président de l'Union des étudiants (SU) est le porte-parole principal de l'Union et représente tous les étudiants de l'université. Il est également membre ex officio du corps de gouvernance et du conseil académique de l'université.\n\nEn février 2025, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidente de l'Union des étudiants), Princewill Aguele (vice-président de l'Union des étudiants pour les événements et les engagements) et Avice Meya (étudiante de master membre de l'Union des étudiants).\n\nLe Technological Universities Act 2018 impose également la représentation des étudiants dans les organes de gouvernance.\n\nLe corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré dans le TU Act 2018. En février 2025, les membres non-académiques et académiques du corps de gouvernance étaient :\n\nL'université a également mis en place des comités et des groupes de travail formels, ainsi que des enquêtes universitaires, où les membres du personnel participent régulièrement. La représentation du personnel est souvent filtrée par le TUI (Syndicat des enseignants d'Irlande).\n\n(GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la rémunération totale annuelle des membres du corps de gouvernance, car ce chiffre n'est pas disponible.\n\n(GRI 2-21)",
+ "text": "### Gouvernance\n\nL'université est soumise à la gouvernance de la Technological Universities Act 2018. Cette loi impose la représentation des étudiants dans les organes de décision de l'université. Le site web de la Students' Union (SU) liste diverses instances où les étudiants sont représentés.\n\nL'université compte également des membres non-académiques dans ses organes de décision, en vertu de la loi 2018. En février 2025, les membres de l'organe de gouvernance comprennent à la fois le personnel non-académique et les membres du personnel académique.\n\nL'université obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal. (GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition chiffrée de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion des impacts.",
  "used_facts": [
   "PA3_max",
   "PA3_score",
   "PA3_t0_0",
-  "PA3_t1_0",
-  "PA3_t2_0",
   "PA3_t3_0",
   "PA3_t3_1"
  ],
- "judge_score": 4,
+ "judge_score": 5,
  "faithfulness": 1.0,
- "gri_coverage": 0.67,
+ "gri_coverage": 0.33,
  "unsupported_claims": [],
  "discarded_violations": [],
- "attempts": 1,
+ "attempts": 2,
  "guard_rejections": 0,
- "seconds": 548.3,
+ "seconds": 568.8,
  "history": [
   {
    "attempt": 1,
-   "draft": "### Gouvernance\n\nL'université obtient {{ PA3 }}. \n\nLa gouvernance de l'université est assurée par le Technological Universities Act {{ PA3_t0_0 }}, qui impose la représentation des étudiants dans les organes de gouvernance. Le site web de l'Union des étudiants (SU) liste diverses instances où les étudiants sont représentés. Le président de l'Union des étudiants (SU) est le porte-parole principal de l'Union et représente tous les étudiants de l'université. Il est également membre ex officio du corps de gouvernance et du conseil académique de l'université.\n\nEn février {{ PA3_t1_0 }}, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidente de l'Union des étudiants), Princewill Aguele (vice-président de l'Union des étudiants pour les événements et les engagements) et Avice Meya (étudiante de master membre de l'Union des étudiants).\n\nLe Technological Universities Act {{ PA3_t2_0 }} impose également la représentation des étudiants dans les organes de gouvernance.\n\nLe corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré dans le TU Act {{ PA3_t3_0 }}. En février {{ PA3_t3_1 }}, les membres non-académiques et académiques du corps de gouvernance étaient :\n\nL'université a également mis en place des comités et des groupes de travail formels, ainsi que des enquêtes universitaires, où les membres du personnel participent régulièrement. La représentation du personnel est souvent filtrée par le TUI (Syndicat des enseignants d'Irlande).\n\n(GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la rémunération totale annuelle des membres du corps de gouvernance, car ce chiffre n'est pas disponible.\n\n(GRI 2-21)",
-   "gen_seconds": 353.8,
-   "prompt_tokens": 2718,
-   "output_tokens": 479,
+   "draft": "### Gouvernance\n\nL'université est soumise à la gouvernance définie par la Technological Universities Act {{ PA3_t0_0 }}. Cette loi précise l'obligation de représentation des étudiants au sein des instances de gouvernance des universités techniques, y compris TU Dublin. Le site web de la Students' Union de TU Dublin liste diverses instances et comités sur lesquels les étudiants sont représentés.\n\nEn outre, la loi TU Act {{ PA3_t3_0 }} prévoit la présence d'un membre du personnel non-académique (c'est-à-dire un membre du personnel des services professionnels) au sein de l'instance de gouvernance.\n\n(GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition de l'instance de gouvernance, ni la représentation des étudiants au sein de celle-ci.",
+   "gen_seconds": 185.7,
+   "prompt_tokens": 2310,
+   "output_tokens": 243,
    "raw_guard_problems": [],
    "removed_sentences": [],
    "guard_problems": [],
    "lint_problems": [],
-   "gri_coverage": 0.67,
-   "lint_notes": [],
-   "rendered": "### Gouvernance\n\nL'université obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal. \n\nLa gouvernance de l'université est assurée par le Technological Universities Act 2018, qui impose la représentation des étudiants dans les organes de gouvernance. Le site web de l'Union des étudiants (SU) liste diverses instances où les étudiants sont représentés. Le président de l'Union des étudiants (SU) est le porte-parole principal de l'Union et représente tous les étudiants de l'université. Il est également membre ex officio du corps de gouvernance et du conseil académique de l'université.\n\nEn février 2025, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidente de l'Union des étudiants), Princewill Aguele (vice-président de l'Union des étudiants pour les événements et les engagements) et Avice Meya (étudiante de master membre de l'Union des étudiants).\n\nLe Technological Universities Act 2018 impose également la représentation des étudiants dans les organes de gouvernance.\n\nLe corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré dans le TU Act 2018. En février 2025, les membres non-académiques et académiques du corps de gouvernance étaient :\n\nL'université a également mis en place des comités et des groupes de travail formels, ainsi que des enquêtes universitaires, où les membres du personnel participent régulièrement. La représentation du personnel est souvent filtrée par le TUI (Syndicat des enseignants d'Irlande).\n\n(GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la rémunération totale annuelle des membres du corps de gouvernance, car ce chiffre n'est pas disponible.\n\n(GRI 2-21)",
+   "gri_coverage": 0.33,
+   "lint_notes": [
+    "longueur de 113 mots : vise 180 à 300 mots",
+    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 2-13), (GRI 2-21)"
+   ],
+   "rendered": "### Gouvernance\n\nL'université est soumise à la gouvernance définie par la Technological Universities Act 2018. Cette loi précise l'obligation de représentation des étudiants au sein des instances de gouvernance des universités techniques, y compris TU Dublin. Le site web de la Students' Union de TU Dublin liste diverses instances et comités sur lesquels les étudiants sont représentés.\n\nEn outre, la loi TU Act 2018 prévoit la présence d'un membre du personnel non-académique (c'est-à-dire un membre du personnel des services professionnels) au sein de l'instance de gouvernance.\n\n(GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition de l'instance de gouvernance, ni la représentation des étudiants au sein de celle-ci.",
+   "used_facts": [
+    "PA3_t0_0",
+    "PA3_t3_0"
+   ],
+   "trace_problems": [],
+   "used_markers": [
+    "PA3_t0_0",
+    "PA3_t3_0"
+   ],
+   "judge": {
+    "claims": [
+     {
+      "claim": "L'université est soumise à la gouvernance définie par la Technological Universities Act 2018.",
+      "supported": true
+     },
+     {
+      "claim": "Cette loi précise l'obligation de représentation des étudiants au sein des instances de gouvernance des universités techniques, y compris TU",
+      "supported": true
+     },
+     {
+      "claim": "Le site web de la Students' Union de TU Dublin liste diverses instances et comités sur lesquels les étudiants sont représentés.",
+      "supported": true
+     },
+     {
+      "claim": "La loi TU Act 2018 prévoit la présence d'un membre du personnel non-académique au sein de l'instance de gouvernance.",
+      "supported": true
+     },
+     {
+      "claim": "Ce rapport ne peut pas établir la composition de l'instance de gouvernance, ni la représentation des étudiants au sein de celle-ci.",
+      "supported": true
+     }
+    ],
+    "rule_violations": [
+     "La section présente une liste de scores au lieu d'un écrit en prose."
+    ],
+    "score": 2,
+    "feedback": "Supprimer la liste de scores et présenter les informations sous forme de texte. Vérifier que les scores STARS sont utilisés pour ce qu'ils mesurent.",
+    "faithfulness": 1.0,
+    "seconds": 164.2,
+    "discarded_violations": [],
+    "accepted": false
+   }
+  },
+  {
+   "attempt": 2,
+   "draft": "### Gouvernance\n\nL'université est soumise à la gouvernance de la Technological Universities Act {{ PA3_t0_0 }}. Cette loi impose la représentation des étudiants dans les organes de décision de l'université. Le site web de la Students' Union (SU) liste diverses instances où les étudiants sont représentés.\n\nL'université compte également des membres non-académiques dans ses organes de décision, en vertu de la loi {{ PA3_t3_0 }}. En février {{ PA3_t3_1 }}, les membres de l'organe de gouvernance comprennent à la fois le personnel non-académique et les membres du personnel académique.\n\nL'université obtient {{ PA3 }}. (GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition chiffrée de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion des impacts.",
+   "gen_seconds": 97.2,
+   "prompt_tokens": 2433,
+   "output_tokens": 230,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [],
+   "gri_coverage": 0.33,
+   "lint_notes": [
+    "longueur de 117 mots : vise 180 à 300 mots",
+    "cite les publications GRI concernées entre parenthèses, par exemple (GRI 2-13), (GRI 2-21)"
+   ],
+   "rendered": "### Gouvernance\n\nL'université est soumise à la gouvernance de la Technological Universities Act 2018. Cette loi impose la représentation des étudiants dans les organes de décision de l'université. Le site web de la Students' Union (SU) liste diverses instances où les étudiants sont représentés.\n\nL'université compte également des membres non-académiques dans ses organes de décision, en vertu de la loi 2018. En février 2025, les membres de l'organe de gouvernance comprennent à la fois le personnel non-académique et les membres du personnel académique.\n\nL'université obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal. (GRI 2-9)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la composition chiffrée de l'organe de gouvernance, ni la fréquence des rapports des responsables de la gestion des impacts.",
    "used_facts": [
     "PA3_max",
     "PA3_score",
     "PA3_t0_0",
-    "PA3_t1_0",
-    "PA3_t2_0",
     "PA3_t3_0",
     "PA3_t3_1"
    ],
@@ -47,45 +105,43 @@
    "used_markers": [
     "PA3",
     "PA3_t0_0",
-    "PA3_t1_0",
-    "PA3_t2_0",
     "PA3_t3_0",
     "PA3_t3_1"
    ],
    "judge": {
     "claims": [
      {
+      "claim": "L'université est soumise à la gouvernance de la Technological Universities Act 2018.",
+      "supported": true
+     },
+     {
+      "claim": "Cette loi impose la représentation des étudiants dans les organes de décision de l'université.",
+      "supported": true
+     },
+     {
+      "claim": "Le site web de la Students' Union (SU) liste diverses instances où les étudiants sont représentés.",
+      "supported": true
+     },
+     {
+      "claim": "L'université compte également des membres non-académiques dans ses organes de décision, en vertu de la loi 2018.",
+      "supported": true
+     },
+     {
+      "claim": "En février 2025, les membres de l'organe de gouvernance comprennent à la fois le personnel non-académique et les membres du personnel académ",
+      "supported": true
+     },
+     {
       "claim": "L'université obtient 4 points STARS sur 4 au crédit PA-3, niveau maximal.",
-      "supported": true
-     },
-     {
-      "claim": "La gouvernance de l'université est assurée par le Technological Universities Act 2018, qui impose la représentation des étudiants dans les  ",
-      "supported": true
-     },
-     {
-      "claim": "Le site web de l'Union des étudiants (SU) liste diverses instances où les étudiants sont représentés.",
-      "supported": true
-     },
-     {
-      "claim": "Le président de l'Union des étudiants (SU) est le porte-parole principal de l'Union et représente tous les étudiants de l'université.",
-      "supported": true
-     },
-     {
-      "claim": "En février 2025, les membres étudiants du corps de gouvernance étaient Shauna O'Toole (présidente de l'Union des étudiants), Princewill Agué",
-      "supported": true
-     },
-     {
-      "claim": "Le corps de gouvernance compte également des membres non-académiques, dont un membre du personnel non-académique (professionnel) légiféré ",
       "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport mentionne que la gouvernance de l'université est assurée par le Technological Universities Act 2018, mais il ne mentionne pas que ce rapport ne peut pas établir la rémunération totale ann"
+     "Le rapport mentionne que GRI 2-9 est partiellement rapporté, mais il n'est pas nécessaire de le mentionner explicitement."
     ],
-    "score": 4,
-    "feedback": "Supprimer la phrase \"Le rapport mentionne que la gouvernance de l'université est assurée par le Technological Universities Act 2018, mais il ne mentionne pas que ce rapport ne peut pas établir la rémunération totale annuelle des membres du corps de gouvernance, car ce chiffre n'est pas disponible.\"",
+    "score": 5,
+    "feedback": "",
     "faithfulness": 1.0,
-    "seconds": 194.5,
+    "seconds": 121.5,
     "discarded_violations": [],
     "accepted": true
    }
@@ -97,43 +153,27 @@
  "evidence": [
   {
    "credit": "PA-3",
-   "text": "The Technological Universities Act {{ PA3_t0_0 }} specifies the mandatory requirement of student representation on Governing Bodies within Technical Universities (including TU Dublin). Furthermore, the TU Dublin SU website lists a variety of bodies/committees (non-exhaustive) on which they have student representation.The Student Union (SU) President shall be the chief spokesperson for the Union, representing all students of the University, and shall be, ex officio, a member of the University's Governing Body and Academic Council. Article of the SU Constitution."
-  },
-  {
-   "credit": "PA-3",
-   "text": "As of Feb {{ PA3_t1_0 }}, O'Toole, Shauna (SU President), Aguele, Princewill (SU VP for Events and Engagements), and Meya, Avice (Post Grad Student member) are of the student members in the governing body: (Ref, Ref )"
+   "text": "The Technological Universities Act {{ PA3_t0_0 }} specifies the mandatory requirement of student representation on Governing Bodies within Technical Universities (including TU Dublin). Furthermore, the TU Dublin SU website lists a variety of bodies/committees (non-exhaustive) on which they have student representation.T"
   },
   {
    "credit": "PA-3",
    "text": "There is membership on Governing Body specifically reserved for a TU Dublin non-academic (i.e. professional services) staff member (legislated within the TU Act {{ PA3_t3_0 }} ). As of Feb {{ PA3_t3_1 }}, non-academic and academic staff that are members of the Governing Body are:"
   },
   {
-   "credit": "PA-3",
-   "text": "The Technological Universities Act {{ PA3_t2_0 }} specifies the mandatory requirement of student representation on Governing Bodies within TU's (including TU Dublin)."
-  },
-  {
-   "credit": "PA-3",
-   "text": "Of the Governing Body members, are external (Non-TU Dublin) members with academic and non-academic backgrounds. (Ref, Ref )"
-  },
-  {
-   "credit": "PA-3",
-   "text": "The Stoneybatter SEC \"Cosybatter\" is engaged with the Grangegorman Development Agency (managing TU Dublin City - Grangegorman campus) and TU Dublin Estates & Campus Planning, Decarbonisation and Sustainability Intelligence for the provision of renewable energy that may be produced from TU Dublin Grangegorman geothermal project and distributed to loac communities through TU DUblin district heating network. In other words the community have a direct voice into the planning of such decarbonisation project."
-  },
-  {
-   "credit": "PA-3",
-   "text": "Staff in TU Dublin sit on a wide variety of formal committees, working groups, and engage in University-owned surveys on a regular basis. Staff Representation is often filtered throuh the TUI (Teachers Union of Ireland)."
-  },
-  {
-   "credit": "PA-3",
-   "text": "Ó Mhurcú, Bob – TU Dublin Staff, non-academic"
-  },
-  {
    "credit": "PA-4",
    "text": "This credit was marked as Not Applicable for the following reason: The investment pool is less than $ US Dollars."
   },
   {
+   "credit": "PA-4",
+   "text": "Total adjusted for non-applicable credits"
+  },
+  {
    "credit": "PA-5",
    "text": "This credit was marked as Not Applicable for the following reason: The investment pool is less than $ US Dollars."
+  },
+  {
+   "credit": "PA-5",
+   "text": "Total adjusted for non-applicable credits"
   }
  ]
 }

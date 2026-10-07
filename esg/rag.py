@@ -26,6 +26,14 @@ from esg.config import INSTITUTIONS, PROCESSED, RAW
 
 INDEX_FILE = PROCESSED / "embeddings.npz"
 MAX_PASSAGE = 700
+PASSAGE_CHARS = 320      # longueur d'un extrait dans le prompt (2 à 3 extraits par crédit)
+EVIDENCE_CHARS = 5200    # budget total des extraits d'une section (num_ctx 6144)
+
+
+def useful(text: str) -> bool:
+    """Ni question du formulaire STARS (« … (required) »), ni ligne faite surtout d'adresses web."""
+    t = text.strip()
+    return not t.endswith("(required)") and len(sources.URL.sub("", t).strip()) >= 40
 DOC_PREFIX, QUERY_PREFIX = "search_document: ", "search_query: "   # préfixes requis par nomic
 
 
@@ -112,6 +120,29 @@ class Index:
             size += len(p["text"])
         order = {c: n for n, c in enumerate(credits)}
         return sorted(out, key=lambda p: order.get(p["credit"], 99))
+
+    def evidence_by_credit(self, key: str, credits: list[str], topic: str, labels: dict | None = None,
+                           per_credit: int | None = None, max_chars: int = 0) -> list[dict]:
+        """Lignes de l'établissement choisies crédit par crédit : 3 par crédit si la section a 4 crédits ou
+        moins, sinon 2. Chaque crédit est interrogé avec son propre nom (pas seulement le thème de la
+        section). Au-delà du budget, on retire d'abord les 3es puis les 2es lignes, jamais la 1re."""
+        per = per_credit or (3 if len(credits) <= 4 else 2)
+        budget = max_chars or EVIDENCE_CHARS
+        picked = []                                         # (rang dans le crédit, passage)
+        for code in credits:
+            idx = [i for i, p in enumerate(self.items) if p["corpus"] == "narrative" and p["inst"] == key
+                   and p["credit"] == code and useful(p["text"])]
+            if not idx:
+                continue
+            sims = self.vectors[idx] @ self._query(f"{(labels or {}).get(code, code)}: {topic}")
+            picked += [(rank, self.items[idx[j]]) for rank, j in enumerate(np.argsort(-sims)[:per])]
+
+        def size(items):
+            return sum(min(len(p["text"]), PASSAGE_CHARS) for _, p in items)
+        for rank in range(per - 1, 0, -1):
+            while size(picked) > budget and any(r == rank for r, _ in picked):
+                picked.pop(max(i for i, (r, _) in enumerate(picked) if r == rank))
+        return [p for _, p in picked]
 
     def knowledge(self, topic: str, k: int = 1) -> list[dict]:
         idx = [i for i, p in enumerate(self.items) if p["corpus"] == "knowledge"]

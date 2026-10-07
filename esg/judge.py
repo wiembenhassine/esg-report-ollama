@@ -49,6 +49,10 @@ def lint(text: str, section_codes: list[str]) -> tuple[list[str], list[str], flo
     for rx, msg in FORBIDDEN:
         if rx.search(text):
             blocking.append(msg)
+    if score_list(text):
+        blocking.append("la section est une liste de scores : le tableau des scores est déjà dans le rapport. "
+                        "Écris des paragraphes qui décrivent concrètement, pour chaque crédit, ce que fait "
+                        "l'établissement d'après le CONTEXTE")
     if not section_codes and re.search(r"\bGRI\s?\d", text):
         blocking.append("cette section ne correspond à aucune publication GRI : ne cite aucun code GRI")
     cited = {c for c in section_codes if re.search(rf"(?<![\d-]){re.escape(c)}(?![\d])", text)}
@@ -58,6 +62,15 @@ def lint(text: str, section_codes: list[str]) -> tuple[list[str], list[str], flo
         notes.append("cite les publications GRI concernées entre parenthèses, par exemple "
                      + ", ".join(f"(GRI {c})" for c in missing))
     return blocking, notes, round(coverage, 2)
+
+
+def score_list(text: str) -> bool:
+    """Texte fait surtout de lignes « score » : une valeur (marqueur remplacé par X) et presque rien autour."""
+    lines = [l for l in text.splitlines() if l.strip() and not l.lstrip().startswith(("#", "(GRI"))]
+    short = [l for l in lines if re.search(r"\bX\b", l)
+             and len([w for w in re.findall(r"[\w'-]+", l)
+                      if w != "X" and not re.fullmatch(r"[A-Z]{2,3}-\d+", w)]) < 12]
+    return len(lines) >= 4 and len(short) >= 0.5 * len(lines)
 
 
 SYSTEM = """You are a strict auditor of sustainability reports. You check ONE section of a French-language
@@ -82,7 +95,9 @@ Procedure:
    - an acronym expanded differently from the ACRONYMS list or the excerpts is an unsupported claim (e.g. SEC
      means Sustainable Energy Community, not a state service or a committee);
    - a score must be used for what it measures: a STARS score presented as a number of students, a year or a
-     percentage of something else is an unsupported claim.
+     percentage of something else is an unsupported claim;
+   - promotional or grandiloquent sentences, sentences that praise a score without stating a fact, and a list
+     of scores instead of written prose are violations.
 3. Give a score from 1 (unfaithful) to 5 (fully faithful and compliant).
 4. Write "feedback": precise instructions IN FRENCH telling the writer what to remove or fix, consistent with
    the rules above (never ask to replace a required wording). Empty if score is 5.

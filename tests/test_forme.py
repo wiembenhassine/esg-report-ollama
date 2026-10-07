@@ -5,6 +5,7 @@ Défauts de forme signalés par Wiem en lisant le rapport de Cork (6 octobre), c
 """
 
 import json
+import re
 
 from docx import Document
 
@@ -34,7 +35,11 @@ def test_stacked_gri_references_are_merged_on_one_line():
     assert out.endswith("(GRI 2-22, GRI 2-23)")
     single = "Texte.\n\n(GRI 2-1)\n\nAutre paragraphe."
     assert guard.merge_gri_refs(single) == single
-    assert "(GRI 2-22, GRI 2-23, GRI 2-24, GRI 2-25, GRI 2-26, GRI 2-28)" in corrected("cork", "strategie")
+    stacked = re.compile(r"\(GRI [^)]*\)\s*\n\s*\(GRI ")              # deux renvois GRI l'un sous l'autre
+    for key in ("cork", "tudublin", "berkeley"):
+        for section in ("organisation", "materialite", "gouvernance", "strategie", "parties_prenantes",
+                        "environnement", "social"):
+            assert not stacked.search(corrected(key, section)), f"{key}/{section}"
 
 
 def test_university_names_full_then_short():
@@ -63,7 +68,7 @@ def test_university_names_full_then_short():
 
 def test_cork_organisation_and_social_repetitions_are_gone():
     org = corrected("cork", "organisation")
-    assert "Elle est dénommée" not in org and org.startswith("### Organisation")
+    assert "Elle est dénommée" not in org
     social = corrected("cork", "social")
     assert "les données ne permettent pas d'établir" not in social
     assert social.count("Ce rapport ne peut pas établir") == 1

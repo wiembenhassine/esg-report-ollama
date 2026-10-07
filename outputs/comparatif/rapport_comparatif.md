@@ -1,5 +1,5 @@
 # Synthèse comparative — Berkeley, Cork et TU Dublin
-*Généré le 2026-10-06 · données AASHE STARS 3.0 · mêmes règles que les rapports individuels*
+*Généré le 2026-10-07 · données AASHE STARS 3.0 · mêmes règles que les rapports individuels*
 
 | | University of California, Berkeley | University College Cork | Technological University Dublin |
 |---|---:|---:|---:|
@@ -34,10 +34,12 @@ Ce rapport ne peut pas établir de comparaison directe entre les établissements
 
 ## Validation
 
-Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → substitution par le code → audit par le juge → régénération si refus (trois tentatives au plus).
+Chaque section narrative a suivi la boucle : rédaction (placeholders) → garde-fou des chiffres → substitution par le code → audit par le juge → régénération si refus (deux essais au plus ; sinon texte de repli écrit par le code).
 
-| Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Couverture GRI | Durée |
-|---|---|:-:|:-:|:-:|:-:|:-:|--:|
-| Synthèse comparative | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | 100% | 6.9 min |
+| Section | Décision | Tentatives | Rejets garde-fou | Note du juge | Fidélité | Codes GRI cités dans le texte | Publications GRI avec données (index) | Durée |
+|---|---|:-:|:-:|:-:|:-:|:-:|:-:|--:|
+| Synthèse comparative | <span class="badge ok">validée</span> | 1 | 0 | 4/5 | 100% | — | — | 6.9 min |
+
+*« Codes GRI cités dans le texte » : part des publications GRI de la section dont le code (par exemple GRI 305-1) est cité dans le texte rédigé ; c'est une mesure de citation, pas de couverture des données. « Publications GRI avec données » : publications de la section rapportées ou partiellement rapportées dans l'index de contenu GRI, sur le total de la section.*
 
 **Bilan :** 1 section(s) validée(s) sur 1 ; fidélité moyenne 100% ; 0 version(s) rejetée(s) par le garde-fou avant le juge. Aucun nombre du texte final n'a été écrit par le modèle.

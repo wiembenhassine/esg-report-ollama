@@ -1,92 +1,72 @@
 {
- "prompt_hash": "bcb7adb07ee94392",
- "round": 1,
- "decision": "validée",
- "text": "### Enseignement, recherche et engagement\n\nL'Université College Cork (UCC) a démontré sa détermination à intégrer la durabilité dans ses programmes et activités. Les résultats des crédits STARS suivants reflètent cette approche :\n\n- L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal au crédit AC-1 Offre de cours en durabilité, niveau maximal.\n- L'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé au crédit AC-2 Programmes de premier cycle, niveau élevé.\n- L'université obtient 7,09 points STARS sur 8 au crédit AC-3, niveau élevé au crédit AC-3 Programmes de cycles supérieurs, niveau élevé.\n- L'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal au crédit AC-6 Recherche en durabilité, niveau maximal.\n- L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal au crédit AC-7 Centre de recherche en durabilité, niveau maximal.\n- L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal au crédit EN-1 Communication et sensibilisation, niveau maximal.\n- L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal au crédit EN-2 Activités parascolaires, niveau maximal.\n- L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal au crédit EN-3 Engagement et formation du personnel, niveau maximal.\n- L'université obtient 7 points STARS sur 8 au crédit EN-5, niveau élevé au crédit EN-5 Engagement civique, niveau élevé.\n- L'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal au crédit EN-7 Formation continue, niveau maximal.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si les programmes et activités de l'université sont accessibles à tous les étudiants et membres du personnel.",
+ "prompt_hash": "534ff098d97039c1",
+ "round": 2,
+ "decision": "à relire",
+ "text": "### Enseignement, recherche et engagement\n\nL'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal. L'université a mis en place plusieurs initiatives pour intégrer la durabilité dans le curriculum, notamment le Centre pour l'intégration de l'enseignement et l'apprentissage, qui a offert des financements pour soutenir la stratégie d'intégration de l'enseignement et l'apprentissage en haute école.\n\nL'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé. Les qualifications d'enseignement supérieur ont été déterminées en fonction du nombre d'étudiants qui ont obtenu des qualifications axées sur la durabilité. Les ressources ont été fournies aux étudiants pour les aider à mieux comprendre ces attributs.\n\nL'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal. L'Institut de durabilité est l'institut principal de l'université pour la recherche en durabilité. Il utilise une approche basée sur les défis mondiaux pour répondre aux défis environnementaux clés de l'action climatique, de l'économie circulaire et de l'environnement sain.\n\nL'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal. L'Institut de durabilité utilise une approche basée sur les défis mondiaux pour répondre aux défis environnementaux clés de l'action climatique, de l'économie circulaire et de l'environnement sain. L'Institut de recherche environnementale (ERI) a été établi en 2000 par l'Université College Cork comme institut de recherche de référence.\n\nL'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. L'université a fait connaître sa committment à la durabilité à travers de nombreux documents et communications clés que les étudiants et le personnel reçoivent lors de leur entrée à l'université. Les nouveaux étudiants et le personnel sont orientés sur les programmes de Green Campus et les forces de l'université en matière de durabilité.\n\nL'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Les étudiants participent à des activités de durabilité à travers les sociétés et le programme des attributs de diplôme. Le comité Green Campus est le représentant étudiant principal pour les activités de durabilité à l'université.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. L'université a développé un cours de formation en leadership climatique de 2024 heures, en collaboration avec l'Institut de durabilité et l'Académie. Ce cours a été dispensé à tous les membres de l'équipe de direction de l'université.\n\nL'université obtient 7 points STARS sur 8 au crédit EN-5, niveau élevé. L'université a établi le programme UNIC et le projet de recherche Urban Climate Collab, qui vise à renforcer les collaborations entre les universités et les municipalités pour atteindre l'action climatique dans les villes.\n\nL'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal. Le centre pour l'éducation des adultes et la formation continue propose le diplôme en environnement, durabilité et climat.",
  "used_facts": [
   "AC1_max",
   "AC1_score",
   "AC2_max",
   "AC2_score",
-  "AC3_max",
-  "AC3_score",
   "AC6_max",
   "AC6_score",
   "AC7_max",
   "AC7_score",
+  "AC7_t0_0",
   "EN1_max",
   "EN1_score",
   "EN2_max",
   "EN2_score",
   "EN3_max",
   "EN3_score",
+  "EN3_t2_0",
   "EN5_max",
   "EN5_score",
   "EN7_max",
   "EN7_score"
  ],
- "judge_score": 4,
- "faithfulness": 1.0,
+ "judge_score": 3,
+ "faithfulness": 0.67,
  "gri_coverage": 1.0,
- "unsupported_claims": [],
+ "unsupported_claims": [
+  "L'université a mis en place plusieurs initiatives pour intégrer la durabilité dans le curriculum, notamment le Centre pour l'intégration de ",
+  "Les qualifications d'enseignement supérieur ont été déterminées en fonction du nombre d'étudiants qui ont obtenu des qualifications axées"
+ ],
  "discarded_violations": [],
  "attempts": 2,
  "guard_rejections": 1,
- "seconds": 517.2,
+ "seconds": 1297.2,
  "history": [
   {
    "attempt": 1,
-   "draft": "#### Offre de cours en durabilité\n\nL'Université College Cork obtient {{ AC1 }} points STARS sur {{ AC1 }} au crédit AC-1, niveau maximal.\n\n#### Programmes de premier cycle\n\nL'Université College Cork obtient {{ AC2 }} points STARS sur {{ AC2 }} au crédit AC-2, niveau élevé.\n\n#### Programmes de cycles supérieurs\n\nL'Université College Cork obtient {{ AC3 }} points STARS sur {{ AC3 }} au crédit AC-3, niveau élevé.\n\n#### Recherche en durabilité\n\nL'Université College Cork obtient {{ AC6 }} points STARS sur {{ AC6 }} au crédit AC-6, niveau maximal.\n\n#### Centre de recherche en durabilité\n\nL'Université College Cork obtient {{ AC7 }} points STARS sur {{ AC7 }} au crédit AC-7, niveau maximal.\n\n#### Communication et sensibilisation\n\nL'Université College Cork obtient {{ EN1 }} points STARS sur {{ EN1 }} au crédit EN-1, niveau maximal.\n\n#### Activités parascolaires\n\nL'Université College Cork obtient {{ EN2 }} points STARS sur {{ EN2 }} au crédit EN-2, niveau maximal.\n\n#### Engagement et formation du personnel\n\nL'Université College Cork obtient {{ EN3 }} points STARS sur {{ EN3 }} au crédit EN-3, niveau maximal.\n\n#### Engagement civique\n\nL'Université College Cork obtient {{ EN5 }} points STARS sur {{ EN5 }} au crédit EN-5, niveau élevé.\n\n#### Formation continue\n\nL'Université College Cork obtient {{ EN7 }} points STARS sur {{ EN7 }} au crédit EN-7, niveau maximal.\n\n#### Part des points STARS obtenus dans le pilier Enseignement, recherche et engagement\n\nL'Université College Cork obtient {{ CTX }} % des points STARS du pilier Enseignement, recherche et engagement, niveau élevé.\n\n(GRI 305-1)",
-   "gen_seconds": 139.3,
-   "prompt_tokens": 2184,
-   "output_tokens": 449,
-   "raw_guard_problems": [
-    "marqueur {{ CTX }} suivi de « % » : c'est un score STARS complet, pas un nombre à compléter"
-   ],
-   "removed_sentences": [
-    "L'Université College Cork obtient {{ CTX }} % des points STARS du pilier Enseignement, recherche et engagement, niveau élevé."
-   ],
-   "guard_problems": [],
-   "lint_problems": [
-    "cette section ne correspond à aucune publication GRI : ne cite aucun code GRI"
-   ],
-   "gri_coverage": 1.0,
-   "lint_notes": []
-  },
-  {
-   "attempt": 2,
-   "draft": "### Enseignement, recherche et engagement\n\nL'Université College Cork (UCC) a démontré sa détermination à intégrer la durabilité dans ses programmes et activités. Les résultats des crédits STARS suivants reflètent cette approche :\n\n- L'université obtient {{ AC1 }} au crédit AC-1 Offre de cours en durabilité, niveau maximal.\n- L'université obtient {{ AC2 }} au crédit AC-2 Programmes de premier cycle, niveau élevé.\n- L'université obtient {{ AC3 }} au crédit AC-3 Programmes de cycles supérieurs, niveau élevé.\n- L'université obtient {{ AC6 }} au crédit AC-6 Recherche en durabilité, niveau maximal.\n- L'université obtient {{ AC7 }} au crédit AC-7 Centre de recherche en durabilité, niveau maximal.\n- L'université obtient {{ EN1 }} au crédit EN-1 Communication et sensibilisation, niveau maximal.\n- L'université obtient {{ EN2 }} au crédit EN-2 Activités parascolaires, niveau maximal.\n- L'université obtient {{ EN3 }} au crédit EN-3 Engagement et formation du personnel, niveau maximal.\n- L'université obtient {{ EN5 }} au crédit EN-5 Engagement civique, niveau élevé.\n- L'université obtient {{ EN7 }} au crédit EN-7 Formation continue, niveau maximal.\n\nLa part des points STARS obtenus dans le pilier Enseignement, recherche et engagement est de {{ CTX }} % des points STARS du pilier Enseignement, recherche et engagement, niveau élevé.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si les programmes et activités de l'université sont accessibles à tous les étudiants et membres du personnel.",
-   "gen_seconds": 136.2,
-   "prompt_tokens": 2225,
-   "output_tokens": 413,
-   "raw_guard_problems": [
-    "marqueur {{ CTX }} suivi de « % » : c'est un score STARS complet, pas un nombre à compléter"
-   ],
-   "removed_sentences": [
-    "La part des points STARS obtenus dans le pilier Enseignement, recherche et engagement est de {{ CTX }} % des points STARS du pilier Enseignement, recherche et engagement, niveau élevé."
-   ],
+   "draft": "### Enseignement, recherche et engagement\n\nL'université obtient {{ AC1 }}. L'université a mis en place plusieurs initiatives pour intégrer la durabilité dans le curriculum, notamment le Centre pour l'intégration de l'enseignement et l'apprentissage, qui a offert des financements pour soutenir la stratégie d'intégration de l'enseignement et l'apprentissage en haute école.\n\nL'université obtient {{ AC2 }}. Les qualifications d'enseignement supérieur ont été déterminées en fonction du nombre d'étudiants qui ont obtenu des qualifications axées sur la durabilité. Les ressources ont été fournies aux étudiants pour les aider à mieux comprendre ces attributs.\n\nL'université obtient {{ AC6 }}. L'Institut de durabilité est l'institut principal de l'université pour la recherche en durabilité. Il utilise une approche basée sur les défis mondiaux pour répondre aux défis environnementaux clés de l'action climatique, de l'économie circulaire et de l'environnement sain.\n\nL'université obtient {{ AC7 }}. L'Institut de durabilité utilise une approche basée sur les défis mondiaux pour répondre aux défis environnementaux clés de l'action climatique, de l'économie circulaire et de l'environnement sain. L'Institut de recherche environnementale (ERI) a été établi en {{ AC7_t0_0 }} par l'Université College Cork comme institut de recherche de référence.\n\nL'université obtient {{ EN1 }}. L'université a fait connaître sa committment à la durabilité à travers de nombreux documents et communications clés que les étudiants et le personnel reçoivent lors de leur entrée à l'université. Les nouveaux étudiants et le personnel sont orientés sur les programmes de Green Campus et les forces de l'université en matière de durabilité.\n\nL'université obtient {{ EN2 }}. Les étudiants participent à des activités de durabilité à travers les sociétés et le programme des attributs de diplôme. Le comité Green Campus est le représentant étudiant principal pour les activités de durabilité à l'université.\n\nL'université obtient {{ EN3 }}. L'université a développé un cours de formation en leadership climatique de {{ EN3_t2_0 }} heures, en collaboration avec l'Institut de durabilité et l'Académie. Ce cours a été dispensé à tous les membres de l'équipe de direction de l'université.\n\nL'université obtient {{ EN5 }}. L'université a établi le programme UNIC et le projet de recherche Urban Climate Collab, qui vise à renforcer les collaborations entre les universités et les municipalités pour atteindre l'action climatique dans les villes.\n\nL'université obtient {{ EN7 }}. Le centre pour l'éducation des adultes et la formation continue propose le diplôme en environnement, durabilité et climat.",
+   "gen_seconds": 590.4,
+   "prompt_tokens": 3155,
+   "output_tokens": 700,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
    "guard_problems": [],
    "lint_problems": [],
    "gri_coverage": 1.0,
    "lint_notes": [],
-   "rendered": "### Enseignement, recherche et engagement\n\nL'Université College Cork (UCC) a démontré sa détermination à intégrer la durabilité dans ses programmes et activités. Les résultats des crédits STARS suivants reflètent cette approche :\n\n- L'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal au crédit AC-1 Offre de cours en durabilité, niveau maximal.\n- L'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé au crédit AC-2 Programmes de premier cycle, niveau élevé.\n- L'université obtient 7,09 points STARS sur 8 au crédit AC-3, niveau élevé au crédit AC-3 Programmes de cycles supérieurs, niveau élevé.\n- L'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal au crédit AC-6 Recherche en durabilité, niveau maximal.\n- L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal au crédit AC-7 Centre de recherche en durabilité, niveau maximal.\n- L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal au crédit EN-1 Communication et sensibilisation, niveau maximal.\n- L'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal au crédit EN-2 Activités parascolaires, niveau maximal.\n- L'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal au crédit EN-3 Engagement et formation du personnel, niveau maximal.\n- L'université obtient 7 points STARS sur 8 au crédit EN-5, niveau élevé au crédit EN-5 Engagement civique, niveau élevé.\n- L'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal au crédit EN-7 Formation continue, niveau maximal.\n\n### Limites et omissions\n\nCe rapport ne peut pas établir si les programmes et activités de l'université sont accessibles à tous les étudiants et membres du personnel.",
+   "rendered": "### Enseignement, recherche et engagement\n\nL'université obtient 14 points STARS sur 14 au crédit AC-1, niveau maximal. L'université a mis en place plusieurs initiatives pour intégrer la durabilité dans le curriculum, notamment le Centre pour l'intégration de l'enseignement et l'apprentissage, qui a offert des financements pour soutenir la stratégie d'intégration de l'enseignement et l'apprentissage en haute école.\n\nL'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé. Les qualifications d'enseignement supérieur ont été déterminées en fonction du nombre d'étudiants qui ont obtenu des qualifications axées sur la durabilité. Les ressources ont été fournies aux étudiants pour les aider à mieux comprendre ces attributs.\n\nL'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal. L'Institut de durabilité est l'institut principal de l'université pour la recherche en durabilité. Il utilise une approche basée sur les défis mondiaux pour répondre aux défis environnementaux clés de l'action climatique, de l'économie circulaire et de l'environnement sain.\n\nL'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal. L'Institut de durabilité utilise une approche basée sur les défis mondiaux pour répondre aux défis environnementaux clés de l'action climatique, de l'économie circulaire et de l'environnement sain. L'Institut de recherche environnementale (ERI) a été établi en 2000 par l'Université College Cork comme institut de recherche de référence.\n\nL'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal. L'université a fait connaître sa committment à la durabilité à travers de nombreux documents et communications clés que les étudiants et le personnel reçoivent lors de leur entrée à l'université. Les nouveaux étudiants et le personnel sont orientés sur les programmes de Green Campus et les forces de l'université en matière de durabilité.\n\nL'université obtient 9 points STARS sur 9 au crédit EN-2, niveau maximal. Les étudiants participent à des activités de durabilité à travers les sociétés et le programme des attributs de diplôme. Le comité Green Campus est le représentant étudiant principal pour les activités de durabilité à l'université.\n\nL'université obtient 8 points STARS sur 8 au crédit EN-3, niveau maximal. L'université a développé un cours de formation en leadership climatique de 2024 heures, en collaboration avec l'Institut de durabilité et l'Académie. Ce cours a été dispensé à tous les membres de l'équipe de direction de l'université.\n\nL'université obtient 7 points STARS sur 8 au crédit EN-5, niveau élevé. L'université a établi le programme UNIC et le projet de recherche Urban Climate Collab, qui vise à renforcer les collaborations entre les universités et les municipalités pour atteindre l'action climatique dans les villes.\n\nL'université obtient 3 points STARS sur 3 au crédit EN-7, niveau maximal. Le centre pour l'éducation des adultes et la formation continue propose le diplôme en environnement, durabilité et climat.",
    "used_facts": [
     "AC1_max",
     "AC1_score",
     "AC2_max",
     "AC2_score",
-    "AC3_max",
-    "AC3_score",
     "AC6_max",
     "AC6_score",
     "AC7_max",
     "AC7_score",
+    "AC7_t0_0",
     "EN1_max",
     "EN1_score",
     "EN2_max",
     "EN2_score",
     "EN3_max",
     "EN3_score",
+    "EN3_t2_0",
     "EN5_max",
     "EN5_score",
     "EN7_max",
@@ -96,12 +76,13 @@
    "used_markers": [
     "AC1",
     "AC2",
-    "AC3",
     "AC6",
     "AC7",
+    "AC7_t0_0",
     "EN1",
     "EN2",
     "EN3",
+    "EN3_t2_0",
     "EN5",
     "EN7"
    ],
@@ -112,36 +93,51 @@
       "supported": true
      },
      {
+      "claim": "L'université a mis en place plusieurs initiatives pour intégrer la durabilité dans le curriculum, notamment le Centre pour l'intégration de ",
+      "supported": false
+     },
+     {
       "claim": "L'université obtient 14,69 points STARS sur 15 au crédit AC-2, niveau élevé.",
       "supported": true
      },
      {
-      "claim": "L'université obtient 7,09 points STARS sur 8 au crédit AC-3, niveau élevé.",
-      "supported": true
+      "claim": "Les qualifications d'enseignement supérieur ont été déterminées en fonction du nombre d'étudiants qui ont obtenu des qualifications axées",
+      "supported": false
      },
      {
       "claim": "L'université obtient 10 points STARS sur 10 au crédit AC-6, niveau maximal.",
       "supported": true
      },
      {
-      "claim": "L'université obtient 6 points STARS sur 6 au crédit AC-7, niveau maximal.",
-      "supported": true
-     },
-     {
-      "claim": "L'université obtient 5 points STARS sur 5 au crédit EN-1, niveau maximal.",
+      "claim": "L'Institut de durabilité est l'institut principal de l'université pour la recherche en durabilité.",
       "supported": true
      }
     ],
     "rule_violations": [
-     "Le rapport mentionne que l'université obtient 7 points STARS sur 8 au crédit EN-5, niveau élevé, mais la liste de statut GRI est vide, ce qui signifie que l'université n'a pas été vérifiée par GRI. Le"
+     "L'université a mis en place plusieurs initiatives pour intégrer la durabilité dans le curriculum, notamment le Centre pour l'intégration de l'enseignement et l'apprentissage, qui a offert des finances"
     ],
-    "score": 4,
-    "feedback": "Supprimer les mentions de GRI et les scores STARS qui ne sont pas étayés par les sources. Réécrire les phrases pour refléter les limites et omissions du rapport, par exemple : 'Ce rapport ne peut pas établir si les programmes et activités de l'université sont accessibles à tous les étudiants et membres du personnel.'",
-    "faithfulness": 1.0,
-    "seconds": 241.3,
+    "score": 3,
+    "feedback": "Supprimer les phrases non étayées par les sources. Par exemple, la phrase 'L'université a mis en place plusieurs initiatives pour intégrer la durabilité dans le curriculum, notamment le Centre pour l'intégration de l'enseignement et l'apprentissage, qui a offert des finances' n'est pas étayée par les sources. Se concentrer sur les faits étayés par les sources.",
+    "faithfulness": 0.67,
+    "seconds": 443.6,
     "discarded_violations": [],
-    "accepted": true
+    "accepted": false
    }
+  },
+  {
+   "attempt": 2,
+   "draft": "### Enseignement, recherche et engagement\n\nL'université a mis en place plusieurs initiatives pour intégrer la durabilité dans le curriculum, notamment le Centre pour l'intégration de l'enseignement et l'apprentissage, qui a offert des finances pour soutenir les efforts de durabilité dans l'enseignement (AC-1). Le Centre a également fourni des ressources pour aider les étudiants à mieux comprendre les attributs de durabilité dans leurs programmes (AC-2).\n\nL'université a également établi le Sustainability Institute, qui est son principal institut de recherche en durabilité. L'institut utilise une approche basée sur les défis mondiaux pour répondre aux défis environnementaux majeurs, tels que l'action climatique, l'économie circulaire et l'environnement sain (AC-6).\n\nEn outre, l'université a établi le Centre de recherche en durabilité, qui a été créé en {{ AC7_t0_0 }} par l'Université College Cork comme un institut de recherche de pointe pour la durabilité (AC-7). Le centre utilise également une approche basée sur les défis mondiaux pour répondre aux défis environnementaux majeurs.\n\nL'université a également mis en place des programmes de formation continue pour les étudiants et le personnel, notamment le Diplôme en Environnement, Durabilité et Climat, qui introduit les étudiants aux théories et compétences clés en matière d'environnement et de durabilité (EN-7).\n\nEnfin, l'université a établi le Urban Climate Collab, un projet de recherche visant à investiguer et à renforcer les collaborations entre universités et municipalités pour atteindre l'action climatique dans les villes (EN-5).\n\n(GRI 305-1)\n\n### Limites et omissions\n\nCe rapport ne peut pas établir la portée exacte de l'engagement de l'université en matière de durabilité dans ses programmes de recherche et de formation continue, car certaines informations sont manquantes ou incomplètes.",
+   "gen_seconds": 262.5,
+   "prompt_tokens": 3415,
+   "output_tokens": 474,
+   "raw_guard_problems": [],
+   "removed_sentences": [],
+   "guard_problems": [],
+   "lint_problems": [
+    "cette section ne correspond à aucune publication GRI : ne cite aucun code GRI"
+   ],
+   "gri_coverage": 1.0,
+   "lint_notes": []
   }
  ],
  "institution": "cork",
@@ -153,24 +149,72 @@
    "text": "Support for integrating sustainability in the curriculum in UCC has taken a number of form:"
   },
   {
+   "credit": "AC-1",
+   "text": "Over the last number of years, the Centre for the integration of teaching and learning have offered financial support through the Strategic Alignment of Teaching and Learning in Higher Education call."
+  },
+  {
    "credit": "AC-2",
-   "text": "The percentage of undergraduate qualifications was determined using the number of students that graduated from the programmes that were mapped as being focussed on sustainability. The high number of \"qualifications awarded that are focused on subjects other than sustainability but have sustainability-focused learning requirements\" is because all students graduating from Cork University Business School are required to have taken the Schools \"Planet\" module. “Planet - Preparing Leaders for a Sustainable World” was created to equip students with a high level of knowledge about environmental aspects of sustainability, complimenting the learning students undertake in their chosen programme of stu"
+   "text": "The percentage of undergraduate qualifications was determined using the number of students that graduated from the programmes that were mapped as being focussed on sustainability. The high number of \"qualifications awarded that are focused on subjects other than sustainability but have sustainability-focused learning r"
+  },
+  {
+   "credit": "AC-2",
+   "text": "A number of resources have been provided for students that help them better understand these attributes and an example has been added to the files section. The UCC Office of Sustainability and Climate Action also worked with the Graduate Attributes Programme to develop a GAP for Goals Learning Experience, which specifi"
   },
   {
    "credit": "AC-6",
-   "text": "The Sustainability Institute is UCC's primary institute for sustainability research. it uses a global challenge-based approach to respond to, and find research solutions for, the core environmental challenges of Climate Action, Circular Economy, and Healthy Environment. The ERI brings together over researchers (Staff & students) from different disciplines with expertise in the broad research platforms of Environment, Sustainable Energy, Marine, Sustainable Agri-Food, and Sustainable Materials."
+   "text": "The Sustainability Institute is UCC's primary institute for sustainability research. it uses a global challenge-based approach to respond to, and find research solutions for, the core environmental challenges of Climate Action, Circular Economy, and Healthy Environment. The ERI brings together over researchers (Staff &"
+  },
+  {
+   "credit": "AC-6",
+   "text": "This inventory was carried out by identifying each of the schools (academic subunits in UCC) that are represented in the University's Sustainability Insititute researchers list. The primary SDG associated with each school was found by visiting the researcher's IRIS profiles."
+  },
+  {
+   "credit": "AC-7",
+   "text": "In {{ AC7_t1_0 }}, the Environmental Research Institute became the Sustainability Institute, and with this change comes a renewed ambition to tackle the complex, interconnected challenges of climate change, biodiversity loss, and resource scarcity through transformative research, innovation, and education that drive re"
+  },
+  {
+   "credit": "AC-7",
+   "text": "The Sustainability Institute uses a global challenge-based approach to respond to, and find research solutions for, the core environmental challenges of Climate Action, Circular Economy, and Healthy Environment. The Environmental Research Institute (ERI) was established in {{ AC7_t0_0 }} by University College Cork as a"
   },
   {
    "credit": "EN-1",
-   "text": "UCC's committment to sustainability is highlighted throughout many of the key documents and communications that all staff and students would recieve on entering the University. All new student and staff orientation events and documents reference the Green Campus programme and highlight UCC's strength in sustainability. News items on Sustainability are sent to the staff and student body regulalry through the President's Quarterly message as well as the Office of Sustainability and Climate Action Newsletter which are published on the University's Workvivo site."
+   "text": "UCC's committment to sustainability is highlighted throughout many of the key documents and communications that all staff and students would recieve on entering the University. All new student and staff orientation events and documents reference the Green Campus programme and highlight UCC's strength in sustainability."
+  },
+  {
+   "credit": "EN-1",
+   "text": "UCC's Building and Estates team runs an annual \"Reduce your Use\" campaign, which is in conjuntion with the Office of Public Works national campaign across the civil and public service. There are weekly thematic communications rolled out on email and social media, focused on encouraging the campus community to reduce ou"
   },
   {
    "credit": "EN-2",
    "text": "Aside from participation in Societies, UCC students also engage with sustainability activities through the UCC Graduate Attributes Programme, one example of this is the \"Your Compass\" resource - Your Compass | University College Cork, programme, which over students have actively engaged in."
   },
   {
+   "credit": "EN-2",
+   "text": "Student organisations related to sustainability and the environment in UCC include the student led Green campus committee, the Students Union and a variety of student clubs and societies. The Green Campus Committee is the core student representation for sustainability activity at UCC. The university is home to student "
+  },
+  {
+   "credit": "EN-3",
+   "text": "In {{ EN3_t2_0 }}, UCC's Office of Sustainability and Climate Action in collaboration with the Sustainability Institute and Academy developed a -hour Climate Leadership Training Course which was delivered to all members of the University's Leadership team."
+  },
+  {
+   "credit": "EN-3",
+   "text": "- All management level staff from of the Colleges within the University, as well as the University Leadership Team have undertaken Climate Leadership Training, which involves a significant element of interactive workshopping to determine actions that can be undertaken within individual schools and colleges."
+  },
+  {
+   "credit": "EN-5",
+   "text": "In addition, through the UNIC programme, UCC has established the Urban Climate Collab, a research project aiming to investigate and strengthen collaborations between universities and municipalities when working together to achieve climate action in cities. City contexts have a key role to play in addressing sustainabil"
+  },
+  {
+   "credit": "EN-5",
+   "text": "Minister for the Environment, Climate and Communications, Eamon Ryan, said, \"I am delighted that UCC has been selected as one of our Climate Action Modelling Group (CAMG) partners. Ireland's climate ambition and emission reduction commitments are challenging but attainable. To find the most effective and feasible pathw"
+  },
+  {
    "credit": "EN-7",
    "text": "UCC's Centre for Adult and Continuing Education offers the Diploma in Environment, Sustainability and Climate. The course introduces students to key theories and skills related to the environment and related sustainable and societal issues within their own organisations."
+  },
+  {
+   "credit": "EN-7",
+   "text": "The course covers food systems transparency; sustainable food practices, and social responsibility; ethical and responsible production practices and purchase and consumption choices; product and economic development based on heritage of place, nostalgia, regionality, and seasonality. In year students take the module PS"
   }
  ]
 }

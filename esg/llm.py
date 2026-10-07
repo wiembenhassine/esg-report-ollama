@@ -5,7 +5,7 @@ import time
 
 import requests
 
-from esg.config import EMBED_MODEL, GEN_MODEL, OLLAMA_URL
+from esg.config import EMBED_MODEL, GEN_MODEL, NUM_CTX, OLLAMA_URL
 
 KEEP_ALIVE = "30m"      # garde le modèle en mémoire entre deux sections (CPU : chargement lent)
 
@@ -17,7 +17,7 @@ class OllamaError(RuntimeError):
 
 
 def chat(messages: list[dict], *, model: str = GEN_MODEL, temperature: float = 0.3,
-         num_predict: int = 520, num_ctx: int = 4096, schema: dict | None = None,
+         num_predict: int = 520, num_ctx: int = NUM_CTX, schema: dict | None = None,
          seed: int = 42, timeout: int = 1800) -> dict:
     """Renvoie {"text", "seconds", "prompt_tokens", "output_tokens"}.
 

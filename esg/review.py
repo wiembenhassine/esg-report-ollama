@@ -1,5 +1,5 @@
 """
-Relecture hors pipeline (6 octobre 2026) : corrections proposées par l'assistant Claude Code (IA), à la
+Relecture hors pipeline (6 et 7 octobre 2026) : corrections proposées par l'assistant Claude Code (IA), à la
 demande de Wiem Ben Hassine, après avoir relu les sections validées contre les textes STARS. Elles
 deviennent une relecture humaine une fois validées par elle. Elles sont écrites dans `relecture/<univ>.yaml` et
 appliquées par le code au moment du rendu. Le cache du modèle n'est pas modifié : on garde la trace
@@ -84,7 +84,7 @@ def count(key: str) -> tuple[int, int]:
 def md_list() -> str:
     md = ["# Relecture des rapports (hors pipeline, à valider)", "",
           "Corrections proposées par l'assistant Claude Code (IA) à la demande de Wiem Ben Hassine, après "
-          "relecture des sections validées contre les textes STARS (6 octobre 2026). **À valider par elle** : "
+          "relecture des sections validées contre les textes STARS (6 octobre 2026, puis 7 octobre pour la nouvelle génération). **À valider par elle** : "
           "c'est cette validation qui en fait une relecture humaine. Elles sont appliquées par le code au rendu (`esg/review.py`) depuis "
           "`relecture/<université>.yaml` ; le texte du modèle reste dans `outputs/cache/`. "
           "« Supprimée » = la phrase est retirée sans remplacement.", ""]

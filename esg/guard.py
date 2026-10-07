@@ -21,6 +21,7 @@ from functools import lru_cache
 
 import yaml
 
+from esg import style
 from esg.config import MAPPING
 
 PLACEHOLDER = re.compile(r"\{\{\s*([A-Za-z][A-Za-z0-9_]*)\s*\}\}")
@@ -207,6 +208,10 @@ def check_draft(text: str, allowed: set[str], markers: dict | None = None) -> li
     if MATERIALITY.search(text):
         problems.append("les domaines STARS ne sont pas une analyse de matérialité : n'écris pas que l'université "
                         "a identifié ou déterminé ses thèmes matériels")
+    for sentence in SENTENCE_END.split(text):                  # phrase creuse : retirée, comme au rendu
+        if style.is_hollow(sentence):
+            problems.append("formule creuse ou promotionnelle : décris un fait précis du CONTEXTE à la place")
+            break
     for m in CODE_LIKE.finditer(PLACEHOLDER.sub(" ", text)):
         problems.append(f"identifiant technique recopié : {m.group(0)!r}")
     for m in EMPTIED.finditer(PLACEHOLDER.sub(" X ", text)):
